@@ -5,31 +5,18 @@
   },
   "contexts": {
     "": {},
+    "Message": {
+      "Re:": [
+        "Re:"
+      ],
+      "Fw:": [
+        "Fw:"
+      ],
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "El ${ date }, ${ name } ${ address } escribió:"
+      ]
+    },
     "Error": {
-      "This field is required": [
-        "Este campo es obligatorio"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Este campo requiere un mínimo de ${ minimumLength } caracteres."
-      ],
-      "Email is not valid": [
-        "Correo no válido"
-      ],
-      "Not a valid number": [
-        "Número no válido"
-      ],
-      "Passwords do not match": [
-        "Las contraseñas no coinciden"
-      ],
-      "Request timed out.": [
-        "Tiempo de espera agotado."
-      ],
-      "Signature verification failed": [
-        "Falló la verificación de la firma"
-      ],
-      "Could not find address ${ email }.": [
-        "No se pudo encontrar la dirección ${ email }."
-      ],
       "Email address disabled": [
         "Dirección de correo deshabilitada"
       ],
@@ -54,6 +41,24 @@
       "The sending key is not valid": [
         "La clave para enviar no es válida"
       ],
+      "This field is required": [
+        "Este campo es obligatorio"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Este campo requiere un mínimo de ${ minimumLength } caracteres."
+      ],
+      "Email is not valid": [
+        "Correo no válido"
+      ],
+      "Not a valid number": [
+        "Número no válido"
+      ],
+      "Passwords do not match": [
+        "Las contraseñas no coinciden"
+      ],
+      "Request timed out.": [
+        "Tiempo de espera agotado."
+      ],
       "Missing signature": [
         "Falta la firma"
       ],
@@ -69,17 +74,23 @@
       "The key properties for ${ emailAddress } could not be extracted": [
         "No se pudieron extraer las propiedades de la clave para ${ emailAddress }"
       ],
+      "Signature verification failed": [
+        "Falló la verificación de la firma"
+      ],
+      "Could not find address ${ email }.": [
+        "No se pudo encontrar la dirección ${ email }."
+      ],
       "Address primary private key not found": [
         "Clave privada principal de la dirección no encontrada"
       ],
       "Calendar primary private key is not decrypted": [
         "La clave privada principal del calendario no está descifrada"
       ],
-      "Unknown error": [
-        "Error desconocido"
-      ],
       "This message may contain some link's URL that cannot be properly opened by your current browser": [
         "Este mensaje puede contener la URL de un enlace que no puede abrirse correctamente en el navegador actual"
+      ],
+      "Unknown error": [
+        "Error desconocido"
       ],
       "Authentication canceled.": [
         "Autenticación cancelada."
@@ -90,12 +101,6 @@
       "Authentication error.": [
         "Error de autenticación."
       ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Algo salió mal, por favor ${ refresh } para continuar. Si aún ve este mensaje de error, por favor contacte a nuestro ${ supportTeam }."
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "El navegador que está usando no permite que el pago sea autorizado. Use un navegador diferente o inicie sesión a través de una computadora."
-      ],
       "Email address invalid": [
         "Dirección de correo inválida"
       ],
@@ -105,23 +110,11 @@
       "Please refresh the page.": [
         "Actualice la página."
       ],
-      "Incorrect mailbox password. Please try again": [
-        "Contraseña del buzón incorrecta. Por favor, inténtelo de nuevo"
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Algo salió mal, por favor ${ refresh } para continuar. Si aún ve este mensaje de error, por favor contacte a nuestro ${ supportTeam }."
       ],
-      "Incorrect login credentials. Please try again": [
-        "Credenciales de acceso incorrectas. Por favor, inténtelo de nuevo"
-      ],
-      "Can't validate email, try again later": [
-        "No se puede validar el correo electrónico, intente más tarde"
-      ],
-      "Can't validate phone, try again later": [
-        "No se puede validar el teléfono, intente más tarde"
-      ],
-      "Enter 6 digits": [
-        "Ingrese 6 dígitos"
-      ],
-      "Invalid verification code": [
-        "Código de verificación inválido"
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "El navegador que está usando no permite que el pago sea autorizado. Use un navegador diferente o inicie sesión a través de una computadora."
       ],
       "Some groups could not be deleted": [
         "Algunos grupos no pudieron ser eliminados"
@@ -164,14 +157,32 @@
       "A group with this name already exists": [
         "Ya existe un grupo con este nombre"
       ],
+      "File has no contents to preview": [
+        "El archivo no tiene contenido para previsualizar"
+      ],
+      "Incorrect mailbox password. Please try again": [
+        "Contraseña del buzón incorrecta. Por favor, inténtelo de nuevo"
+      ],
+      "Incorrect login credentials. Please try again": [
+        "Credenciales de acceso incorrectas. Por favor, inténtelo de nuevo"
+      ],
+      "Can't validate email, try again later": [
+        "No se puede validar el correo electrónico, intente más tarde"
+      ],
+      "Can't validate phone, try again later": [
+        "No se puede validar el teléfono, intente más tarde"
+      ],
+      "Enter 6 digits": [
+        "Ingrese 6 dígitos"
+      ],
+      "Invalid verification code": [
+        "Código de verificación inválido"
+      ],
       "We were unable to connect to your service provider.": [
         "No pudimos conectarnos con su proveedor de servicios."
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "Intente volver a autenticarse y asegúrese de que los permisos están configurados correctamente."
-      ],
-      "File has no contents to preview": [
-        "El archivo no tiene contenido para previsualizar"
       ],
       "Process aborted": [
         "Proceso abortado"
@@ -355,12 +366,6 @@
         "Demasiados filtros activos. Actualice a un plan de pago para activar más filtros"
       ]
     },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "La contraseña debe tener al menos ${ length } caracter",
-        "La contraseña debe tener al menos ${ length } caracteres"
-      ]
-    },
     "file size format": {
       "bytes": [
         "bytes"
@@ -489,6 +494,12 @@
         "Dirección"
       ]
     },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "La contraseña debe tener al menos ${ length } caracter",
+        "La contraseña debe tener al menos ${ length } caracteres"
+      ]
+    },
     "Info": {
       "Session timed out.": [
         "Sesión agotada."
@@ -525,12 +536,6 @@
       ],
       "No results found": [
         "No se encontraron resultados"
-      ],
-      "support team": [
-        "equipo de soporte"
-      ],
-      "Loading": [
-        "Cargando"
       ],
       "No contacts added yet": [
         "Ningún contacto añadido aún"
@@ -629,50 +634,17 @@
       "Plain text": [
         "Texto plano"
       ],
+      "support team": [
+        "equipo de soporte"
+      ],
+      "Loading": [
+        "Cargando"
+      ],
       "Drop the file here to upload": [
         "Arrastre el archivo aquí para subir"
       ],
       "Loading ${ appName }": [
         "Cargando ${ appName }"
-      ],
-      "here": [
-        "aquí"
-      ],
-      "This account has been suspended due to a potential policy violation.": [
-        "Esta cuenta ha sido suspendida por una posible violación de la política."
-      ],
-      "If you believe this is in error, please contact us ${ contactLink }.": [
-        "Si cree que esto es un error, contáctenos ${ contactLink }."
-      ],
-      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
-        "Su cuenta de Proton está actualmente bloqueada. Para continuar usando su cuenta, por favor pague cualquier factura atrasada."
-      ],
-      "Would you like to receive a new verification code or use an alternative verification method?": [
-        "¿Desea recibir un código de verificación nuevo o usar un método de verificación alternativo?"
-      ],
-      "Enter the verification code that was sent to ${ destinationText }.": [
-        "Ingrese el código de verificación que fue enviado a ${ destinationText }."
-      ],
-      "If you don't find the email in your inbox, please check your spam folder.": [
-        "Si no encuentra el correo electrónico en su buzón, revise en la carpeta de spam."
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
-        "Haga clic en \"Solicitar código nuevo\" para que se envíe un código de verificación nuevo a ${ strong }. Si esta dirección es incorrecta, haga clic en \"Editar\" para corregirla."
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
-        "Haga clic en \"Solicitar código nuevo\" para que se envíe un código de verificación nuevo a ${ strong }. Si este número telefónico es incorrecto, haga clic en \"Editar\" para corregirlo."
-      ],
-      "To fight spam and abuse, please verify you are human.": [
-        "Para luchar contra el spam y el abuso, verifique que es humano."
-      ],
-      "Your email will only be used for this one-time verification.": [
-        "Su correo electrónico sólo se usará para esta verificación única."
-      ],
-      "Your phone number will only be used for this one-time verification.": [
-        "Su número de teléfono sólo se usará para esta verificación única."
-      ],
-      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
-        "Si tiene problemas para crear su cuenta, solicite una invitación y responderemos dentro de un día hábil."
       ],
       "Please note that addresses assigned to this group will NOT be deleted.": [
         "Tome en cuenta que las direcciones asignadas a este grupo NO se eliminarán."
@@ -787,6 +759,66 @@
         "${ addressCount } dirección de correo",
         "${ addressCount } direcciones de correo"
       ],
+      "Unsupported file": [
+        "Archivo no soportado"
+      ],
+      "No preview available": [
+        "Vista previa no disponible"
+      ],
+      "Preview": [
+        "Vista previa"
+      ],
+      "Loading preview": [
+        "Cargando vista previa"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "Este navegador no admite la previsualización de documentos PDF. Descargue el archivo."
+      ],
+      "of": [
+        "de"
+      ],
+      "here": [
+        "aquí"
+      ],
+      "This account has been suspended due to a potential policy violation.": [
+        "Esta cuenta ha sido suspendida por una posible violación de la política."
+      ],
+      "If you believe this is in error, please contact us ${ contactLink }.": [
+        "Si cree que esto es un error, contáctenos ${ contactLink }."
+      ],
+      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
+        "Su cuenta de Proton está actualmente bloqueada. Para continuar usando su cuenta, por favor pague cualquier factura atrasada."
+      ],
+      "Would you like to receive a new verification code or use an alternative verification method?": [
+        "¿Desea recibir un código de verificación nuevo o usar un método de verificación alternativo?"
+      ],
+      "Enter the verification code that was sent to ${ destinationText }.": [
+        "Ingrese el código de verificación que fue enviado a ${ destinationText }."
+      ],
+      "If you don't find the email in your inbox, please check your spam folder.": [
+        "Si no encuentra el correo electrónico en su buzón, revise en la carpeta de spam."
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
+        "Haga clic en \"Solicitar código nuevo\" para que se envíe un código de verificación nuevo a ${ strong }. Si esta dirección es incorrecta, haga clic en \"Editar\" para corregirla."
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
+        "Haga clic en \"Solicitar código nuevo\" para que se envíe un código de verificación nuevo a ${ strong }. Si este número telefónico es incorrecto, haga clic en \"Editar\" para corregirlo."
+      ],
+      "To fight spam and abuse, please verify you are human.": [
+        "Para luchar contra el spam y el abuso, verifique que es humano."
+      ],
+      "Your email will only be used for this one-time verification.": [
+        "Su correo electrónico sólo se usará para esta verificación única."
+      ],
+      "Your phone number will only be used for this one-time verification.": [
+        "Su número de teléfono sólo se usará para esta verificación única."
+      ],
+      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
+        "Si tiene problemas para crear su cuenta, solicite una invitación y responderemos dentro de un día hábil."
+      ],
+      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
+        "La navegación básica y las acciones siguen estando disponibles independientemente de que los atajos de teclado estén habilitados o no en los ajustes."
+      ],
       "Import contacts": [
         "Importar contactos"
       ],
@@ -816,27 +848,6 @@
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "Refrescar la página o ${ link } resolverá automáticamente la mayoría de los problemas."
-      ],
-      "Unsupported file": [
-        "Archivo no soportado"
-      ],
-      "No preview available": [
-        "Vista previa no disponible"
-      ],
-      "Preview": [
-        "Vista previa"
-      ],
-      "Loading preview": [
-        "Cargando vista previa"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "Este navegador no admite la previsualización de documentos PDF. Descargue el archivo."
-      ],
-      "of": [
-        "de"
-      ],
-      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
-        "La navegación básica y las acciones siguen estando disponibles independientemente de que los atajos de teclado estén habilitados o no en los ajustes."
       ],
       "Your recovery phrase is a series of 12 words in a specific order.": [
         "Su frase de recuperación es una serie de 12 palabras en un orden específico."
@@ -1163,6 +1174,9 @@
       ],
       "(Filter if ANY of the following conditions are met)": [
         "(Filtra si se cumple ALGUNA de las siguientes condiciones)"
+      ],
+      "Images have been removed because they are not allowed in auto-reply.": [
+        "Las imágenes se han eliminado porque no están permitidas en la respuesta automática."
       ],
       "All your changes will be lost.": [
         "Todos sus cambios se perderán."
@@ -1698,22 +1712,6 @@
         "Usando su dispositivo móvil, escanee este código QR o visite ${ link }."
       ]
     },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "Dirección de correo electrónico no encontrada entre los identificadores de usuario definidos en la clave de envío (${ keyUserIds })"
-      ]
-    },
-    "Message": {
-      "Re:": [
-        "Re:"
-      ],
-      "Fw:": [
-        "Fw:"
-      ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "El ${ date }, ${ name } ${ address } escribió:"
-      ]
-    },
     "Default display name vcard": {
       "Unknown": [
         "Desconocido"
@@ -1758,6 +1756,11 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "Ocurrió un error al leer el archivo ${ formattedFilename }. El archivo no tiene el formato correcto."
+      ]
+    },
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "Dirección de correo electrónico no encontrada entre los identificadores de usuario definidos en la clave de envío (${ keyUserIds })"
       ]
     },
     "Keyboard shortcut section name": {
@@ -2578,14 +2581,11 @@
       "Close": [
         "Cerrar"
       ],
-      "refresh the page": [
-        "refresque la página"
-      ],
-      "Use “${ label }” setting": [
-        "Usar ajustes de “${ label }”"
-      ],
       "More info: ${ safeTitle }": [
         "Más información: ${ safeTitle }"
+      ],
+      "Confirm": [
+        "Confirmar"
       ],
       "Cancel": [
         "Cancelar"
@@ -2596,8 +2596,8 @@
       "Close modal": [
         "Cerrar ventana"
       ],
-      "Confirm": [
-        "Confirmar"
+      "Use “${ label }” setting": [
+        "Usar ajustes de “${ label }”"
       ],
       "Remove": [
         "Eliminar"
@@ -2713,6 +2713,9 @@
       "Underline": [
         "Subrayado"
       ],
+      "refresh the page": [
+        "refresque la página"
+      ],
       "Go to panel ${ index }": [
         "Ir al panel ${ index }"
       ],
@@ -2742,39 +2745,6 @@
       ],
       "Signing out": [
         "Cerrando sesión"
-      ],
-      "Log in": [
-        "Iniciar sesión"
-      ],
-      "View invoice": [
-        "Ver factura"
-      ],
-      "Get verification code": [
-        "Obtener código de verificación"
-      ],
-      "Try another method": [
-        "Intente otro método"
-      ],
-      "Request new code": [
-        "Solicitar un código nuevo"
-      ],
-      "Verify": [
-        "Verificar"
-      ],
-      "Did not receive the code?": [
-        "No recibió el código?"
-      ],
-      "Edit email address": [
-        "Editar dirección de correo"
-      ],
-      "Edit phone number": [
-        "Editar número de teléfono"
-      ],
-      "Use ${ label } theme": [
-        "Usar tema ${ label }"
-      ],
-      "OK": [
-        "OK"
       ],
       "Add": [
         "Añadir"
@@ -2896,6 +2866,72 @@
       "Next": [
         "Siguiente"
       ],
+      "Details": [
+        "Detalles"
+      ],
+      "Share via link": [
+        "Compartir con un enlace"
+      ],
+      "Sharing options": [
+        "Opciones para compartir"
+      ],
+      "Zoom out": [
+        "Alejar"
+      ],
+      "Reset zoom": [
+        "Restablecer zoom"
+      ],
+      "Zoom in": [
+        "Acercar"
+      ],
+      "Previous": [
+        "Anterior"
+      ],
+      "Log in": [
+        "Iniciar sesión"
+      ],
+      "View invoice": [
+        "Ver factura"
+      ],
+      "Get verification code": [
+        "Obtener código de verificación"
+      ],
+      "Try another method": [
+        "Intente otro método"
+      ],
+      "Request new code": [
+        "Solicitar un código nuevo"
+      ],
+      "Verify": [
+        "Verificar"
+      ],
+      "Did not receive the code?": [
+        "No recibió el código?"
+      ],
+      "Edit email address": [
+        "Editar dirección de correo"
+      ],
+      "Edit phone number": [
+        "Editar número de teléfono"
+      ],
+      "Use ${ label } theme": [
+        "Usar tema ${ label }"
+      ],
+      "OK": [
+        "OK"
+      ],
+      "Get started": [
+        "Comenzar"
+      ],
+      "Start setup": [
+        "Iniciar la configuración"
+      ],
+      "Skip": [
+        "Omitir"
+      ],
+      "Back": [
+        "Atrás"
+      ],
       "Continue import": [
         "Continuar importación"
       ],
@@ -2919,39 +2955,6 @@
       ],
       "Show info": [
         "Mostrar información"
-      ],
-      "Details": [
-        "Detalles"
-      ],
-      "Share via link": [
-        "Compartir con un enlace"
-      ],
-      "Sharing options": [
-        "Opciones para compartir"
-      ],
-      "Zoom out": [
-        "Alejar"
-      ],
-      "Reset zoom": [
-        "Restablecer zoom"
-      ],
-      "Zoom in": [
-        "Acercar"
-      ],
-      "Previous": [
-        "Anterior"
-      ],
-      "Get started": [
-        "Comenzar"
-      ],
-      "Start setup": [
-        "Iniciar la configuración"
-      ],
-      "Skip": [
-        "Omitir"
-      ],
-      "Back": [
-        "Atrás"
       ],
       "Copy to clipboard": [
         "Copiar al portapapeles"
@@ -3117,15 +3120,6 @@
       ],
       "Add to ${ CALENDAR_APP_NAME }": [
         "Añadir a ${ CALENDAR_APP_NAME }"
-      ],
-      "Learn more": [
-        "Más información"
-      ],
-      "Open shop": [
-        "Abrir tienda"
-      ],
-      "Open calendar": [
-        "Abrir calendario"
       ],
       "Send anyway": [
         "Enviar de todos modos"
@@ -3445,6 +3439,15 @@
       ],
       "Start using ${ appName }": [
         "Comenzar con ${ appName }"
+      ],
+      "Learn more": [
+        "Más información"
+      ],
+      "Open shop": [
+        "Abrir tienda"
+      ],
+      "Open calendar": [
+        "Abrir calendario"
       ]
     },
     "Title": {
@@ -3471,30 +3474,6 @@
       ],
       "What's new": [
         "Novedades"
-      ],
-      "Sign in again to continue": [
-        "Inicie sesión otra vez para continuar"
-      ],
-      "Account suspended": [
-        "Cuenta suspendida"
-      ],
-      "Enter your username or ProtonMail email address": [
-        "Ingrese su nombre de usuario o dirección de correo de ProtonMail"
-      ],
-      "Enter your password": [
-        "Ingrese su contraseña"
-      ],
-      "Invalid verification code": [
-        "Código de verificación inválido"
-      ],
-      "Request new code": [
-        "Solicitar un código nuevo"
-      ],
-      "Human verification": [
-        "Verificación humana"
-      ],
-      "Select a theme": [
-        "Seleccionar un tema"
       ],
       "Delete ${ Name }": [
         "Eliminar { Name }"
@@ -3611,14 +3590,29 @@
       "Import contacts": [
         "Importar contactos"
       ],
-      "Start import process": [
-        "Iniciar proceso de importación"
+      "Sign in again to continue": [
+        "Inicie sesión otra vez para continuar"
       ],
-      "Import in progress": [
-        "Importación en curso"
+      "Account suspended": [
+        "Cuenta suspendida"
       ],
-      "Report a problem": [
-        "Reportar un problema"
+      "Enter your username or ProtonMail email address": [
+        "Ingrese su nombre de usuario o dirección de correo de ProtonMail"
+      ],
+      "Enter your password": [
+        "Ingrese su contraseña"
+      ],
+      "Invalid verification code": [
+        "Código de verificación inválido"
+      ],
+      "Request new code": [
+        "Solicitar un código nuevo"
+      ],
+      "Human verification": [
+        "Verificación humana"
+      ],
+      "Select a theme": [
+        "Seleccionar un tema"
       ],
       "${ appName } Keyboard Shortcuts": [
         "Atajos de teclado de ${ appName }"
@@ -3631,6 +3625,15 @@
       ],
       "Composer mode": [
         "Modo del compositor"
+      ],
+      "Start import process": [
+        "Iniciar proceso de importación"
+      ],
+      "Import in progress": [
+        "Importación en curso"
+      ],
+      "Report a problem": [
+        "Reportar un problema"
       ],
       "Open help menu": [
         "Abrir el menú de ayuda"
@@ -3958,9 +3961,150 @@
         "Bienvenido"
       ]
     },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        "La clave no puede usarse para el cifrado"
+    "Link": {
+      "Learn more": [
+        "Más información"
+      ],
+      "Request an invite": [
+        "Solicitar una invitación"
+      ],
+      "clearing your browser cache": [
+        "vaciar la caché del navegador"
+      ],
+      "Pay invoice": [
+        "Pagar factura"
+      ],
+      "Upgrade account": [
+        "Mejorar cuenta"
+      ],
+      "Upgrade": [
+        "Mejorar"
+      ],
+      "Go to subscription plans": [
+        "Ir a los planes de suscripción"
+      ],
+      "click here": [
+        "haga clic aquí"
+      ],
+      "Add a gift code": [
+        "Añadir código de regalo"
+      ],
+      "You need to activate your calendar keys to add this event": [
+        "Necesita activar las claves del calendario para añadir este evento"
+      ],
+      "You need to activate your calendar keys to manage this invitation": [
+        "Necesita habilitar las claves del calendario para gestionar esta invitación"
+      ],
+      "You need to activate your calendar keys to answer this invitation": [
+        "Necesita habilitar las claves del calendario para responder a esta invitación"
+      ],
+      "You need to activate your calendar keys to see the updated event": [
+        "Necesita habilitar las claves del calendario para ver el evento actualizado"
+      ],
+      "You need to activate your calendar keys to see the updated invitation": [
+        "Necesita habilitar las claves del calendario para ver la invitación actualizada"
+      ],
+      "This ICS file contains more than one event. Please download it and import the events in ${ calendarAppName }": [
+        "Este archivo ICS contiene más de un evento. Descárguelo e importe los eventos en ${ calendarAppName }"
+      ],
+      "You need to reactivate your keys to manage this invitation": [
+        "Necesita reactivar sus claves para gestionar esta invitación"
+      ],
+      "You need to reactivate your keys to see the updated event": [
+        "Necesita reactivar sus claves para ver el evento actualizado"
+      ],
+      "You need to reactivate your keys to see the updated invitation": [
+        "Necesita reactivar sus claves para ver la invitación actualizada"
+      ],
+      "Create a new calendar to add this event": [
+        "Cree un calendario nuevo para añadir este evento"
+      ],
+      "Create a new calendar to answer this invitation": [
+        "Crear un calendario nuevo para responder a esta invitación"
+      ],
+      "Create a new calendar to manage your invitations": [
+        "Crear un calendario nuevo para gestionar sus invitaciones"
+      ],
+      "Open updated event in ${ calendarAppName }": [
+        "Abrir evento actualizado en ${ calendarAppName }"
+      ],
+      "Open in ${ calendarAppName }": [
+        "Abrir en ${ calendarAppName }"
+      ],
+      "Re-enable the address linked to this calendar to manage your invitation.": [
+        "Rehabilite la dirección vinculada a este calendario para gestionar su invitación."
+      ],
+      "Re-enable the address linked to this calendar to update your invitation.": [
+        "Rehabilite la dirección vinculada a este calendario para actualizar su invitación."
+      ],
+      "Enable your address to answer this invitation.": [
+        "Habilite su dirección para responder a esta invitación."
+      ],
+      "Create a calendar linked to an active email address.": [
+        "Crear un calendario vinculado a una dirección de correo electrónico habilitada."
+      ],
+      "Enable an email address linked to one of your calendars.": [
+        "Habilitar una dirección de correo electrónico vinculada a uno de sus calendarios."
+      ],
+      "Or you can delete one of your calendars and create a new one linked to an active email address.": [
+        "O puede eliminar uno de sus calendarios y crear uno nuevo vinculado a una dirección de correo electrónico habilitada."
+      ],
+      "Enable your address again to modify your answer.": [
+        "Habilite su dirección de nuevo para modificar su respuesta."
+      ],
+      "Enable the email address linked to the disabled calendar to cancel the event.": [
+        "Habilitar la dirección de correo electrónico vinculada al calendario deshabilitado para cancelar el evento."
+      ],
+      "Enable the email address linked to the disabled calendar to modify your answer.": [
+        "Habilitar la dirección de correo electrónico vinculada al calendario deshabilitado para modificar su respuesta."
+      ],
+      "Add folder": [
+        "Añadir carpeta"
+      ],
+      "Add label": [
+        "Añadir etiqueta"
+      ],
+      "Inbox": [
+        "Buzón"
+      ],
+      "Drafts": [
+        "Borradores"
+      ],
+      "Scheduled": [
+        "Programado"
+      ],
+      "Sent": [
+        "Enviados"
+      ],
+      "Starred": [
+        "Destacados"
+      ],
+      "Archive": [
+        "Archivo"
+      ],
+      "Spam": [
+        "Spam"
+      ],
+      "Trash": [
+        "Papelera"
+      ],
+      "All mail": [
+        "Todos"
+      ],
+      "Folders": [
+        "Carpetas"
+      ],
+      "Manage your folders": [
+        "Administre sus carpetas"
+      ],
+      "Labels": [
+        "Etiquetas"
+      ],
+      "Manage your labels": [
+        "Administre sus etiquetas"
+      ],
+      "Outbox": [
+        "Buzón de salida"
       ]
     },
     "Label": {
@@ -3996,36 +4140,6 @@
       ],
       "Do not ask again": [
         "No volver a preguntar"
-      ],
-      "Cancel": [
-        "Cancelar"
-      ],
-      "Submit": [
-        "Enviar"
-      ],
-      "Password": [
-        "Contraseña"
-      ],
-      "Mailbox password": [
-        "Contraseña del buzón"
-      ],
-      "Two-factor authentication code": [
-        "Código de autenticación de dos factores"
-      ],
-      "Username or ProtonMail address": [
-        "Nombre de usuario o dirección de ProtonMail"
-      ],
-      "Email address": [
-        "Dirección de correo"
-      ],
-      "Phone number": [
-        "Número telefónico"
-      ],
-      "Verification code": [
-        "Código de verificación"
-      ],
-      "Enter the 6-digit code": [
-        "Ingrese el código de 6 dígitos"
       ],
       "Add email address": [
         "Añadir correo electrónico"
@@ -4072,6 +4186,51 @@
       "Export contacts": [
         "Exportar contactos"
       ],
+      "Cancel": [
+        "Cancelar"
+      ],
+      "Submit": [
+        "Enviar"
+      ],
+      "Password": [
+        "Contraseña"
+      ],
+      "Mailbox password": [
+        "Contraseña del buzón"
+      ],
+      "Two-factor authentication code": [
+        "Código de autenticación de dos factores"
+      ],
+      "Username or ProtonMail address": [
+        "Nombre de usuario o dirección de ProtonMail"
+      ],
+      "Email address": [
+        "Dirección de correo"
+      ],
+      "Phone number": [
+        "Número telefónico"
+      ],
+      "Verification code": [
+        "Código de verificación"
+      ],
+      "Enter the 6-digit code": [
+        "Ingrese el código de 6 dígitos"
+      ],
+      "Display name": [
+        "Nombre a mostrar"
+      ],
+      "Keyboard shortcuts": [
+        "Atajos de teclado"
+      ],
+      "Select how your list of messages looks like by default.": [
+        "Seleccione cómo se verá su lista de mensajes por defecto."
+      ],
+      "Select how your mailbox looks like by default.": [
+        "Seleccione cómo se verá su buzón por defecto."
+      ],
+      "Select how your composer opens by default.": [
+        "Seleccione cómo se abrirá el compositor por defecto."
+      ],
       "From: ${ fromEmailAddress }": [
         "De: ${ fromEmailAddress }"
       ],
@@ -4101,21 +4260,6 @@
       ],
       "Browser version": [
         "Versión del navegador"
-      ],
-      "Display name": [
-        "Nombre a mostrar"
-      ],
-      "Keyboard shortcuts": [
-        "Atajos de teclado"
-      ],
-      "Select how your list of messages looks like by default.": [
-        "Seleccione cómo se verá su lista de mensajes por defecto."
-      ],
-      "Select how your mailbox looks like by default.": [
-        "Seleccione cómo se verá su buzón por defecto."
-      ],
-      "Select how your composer opens by default.": [
-        "Seleccione cómo se abrirá el compositor por defecto."
       ],
       "Recovery phrase": [
         "Frase de recuperación"
@@ -4398,9 +4542,6 @@
       "Text": [
         "Texto"
       ],
-      "Mailbox password": [
-        "Contraseña del buzón"
-      ],
       "Start typing an email address": [
         "Comience a escribir una dirección de correo"
       ],
@@ -4422,6 +4563,12 @@
       "Name": [
         "Nombre"
       ],
+      "Mailbox password": [
+        "Contraseña del buzón"
+      ],
+      "e.g. Julia Smith": [
+        "ej. Julia Smith"
+      ],
       "OS name": [
         "Sistema operativo"
       ],
@@ -4442,9 +4589,6 @@
       ],
       "Browser version": [
         "Versión del navegador"
-      ],
-      "e.g. Julia Smith": [
-        "ej. Julia Smith"
       ],
       "ZIP": [
         "ZIP"
@@ -4516,152 +4660,6 @@
       "${ secondsCountLeft } second": [
         "${ secondsCountLeft } segundo",
         "${ secondsCountLeft } segundos"
-      ]
-    },
-    "Link": {
-      "Learn more": [
-        "Más información"
-      ],
-      "Request an invite": [
-        "Solicitar una invitación"
-      ],
-      "clearing your browser cache": [
-        "vaciar la caché del navegador"
-      ],
-      "Pay invoice": [
-        "Pagar factura"
-      ],
-      "Upgrade account": [
-        "Mejorar cuenta"
-      ],
-      "Upgrade": [
-        "Mejorar"
-      ],
-      "Go to subscription plans": [
-        "Ir a los planes de suscripción"
-      ],
-      "click here": [
-        "haga clic aquí"
-      ],
-      "Add a gift code": [
-        "Añadir código de regalo"
-      ],
-      "Inbox": [
-        "Buzón"
-      ],
-      "Drafts": [
-        "Borradores"
-      ],
-      "Sent": [
-        "Enviados"
-      ],
-      "Trash": [
-        "Papelera"
-      ],
-      "Spam": [
-        "Spam"
-      ],
-      "All mail": [
-        "Todos"
-      ],
-      "Archive": [
-        "Archivo"
-      ],
-      "Starred": [
-        "Destacados"
-      ],
-      "Outbox": [
-        "Buzón de salida"
-      ],
-      "Scheduled": [
-        "Programado"
-      ],
-      "You need to activate your calendar keys to add this event": [
-        "Necesita activar las claves del calendario para añadir este evento"
-      ],
-      "You need to activate your calendar keys to manage this invitation": [
-        "Necesita habilitar las claves del calendario para gestionar esta invitación"
-      ],
-      "You need to activate your calendar keys to answer this invitation": [
-        "Necesita habilitar las claves del calendario para responder a esta invitación"
-      ],
-      "You need to activate your calendar keys to see the updated event": [
-        "Necesita habilitar las claves del calendario para ver el evento actualizado"
-      ],
-      "You need to activate your calendar keys to see the updated invitation": [
-        "Necesita habilitar las claves del calendario para ver la invitación actualizada"
-      ],
-      "This ICS file contains more than one event. Please download it and import the events in ${ calendarAppName }": [
-        "Este archivo ICS contiene más de un evento. Descárguelo e importe los eventos en ${ calendarAppName }"
-      ],
-      "You need to reactivate your keys to manage this invitation": [
-        "Necesita reactivar sus claves para gestionar esta invitación"
-      ],
-      "You need to reactivate your keys to see the updated event": [
-        "Necesita reactivar sus claves para ver el evento actualizado"
-      ],
-      "You need to reactivate your keys to see the updated invitation": [
-        "Necesita reactivar sus claves para ver la invitación actualizada"
-      ],
-      "Create a new calendar to add this event": [
-        "Cree un calendario nuevo para añadir este evento"
-      ],
-      "Create a new calendar to answer this invitation": [
-        "Crear un calendario nuevo para responder a esta invitación"
-      ],
-      "Create a new calendar to manage your invitations": [
-        "Crear un calendario nuevo para gestionar sus invitaciones"
-      ],
-      "Open updated event in ${ calendarAppName }": [
-        "Abrir evento actualizado en ${ calendarAppName }"
-      ],
-      "Open in ${ calendarAppName }": [
-        "Abrir en ${ calendarAppName }"
-      ],
-      "Re-enable the address linked to this calendar to manage your invitation.": [
-        "Rehabilite la dirección vinculada a este calendario para gestionar su invitación."
-      ],
-      "Re-enable the address linked to this calendar to update your invitation.": [
-        "Rehabilite la dirección vinculada a este calendario para actualizar su invitación."
-      ],
-      "Enable your address to answer this invitation.": [
-        "Habilite su dirección para responder a esta invitación."
-      ],
-      "Create a calendar linked to an active email address.": [
-        "Crear un calendario vinculado a una dirección de correo electrónico habilitada."
-      ],
-      "Enable an email address linked to one of your calendars.": [
-        "Habilitar una dirección de correo electrónico vinculada a uno de sus calendarios."
-      ],
-      "Or you can delete one of your calendars and create a new one linked to an active email address.": [
-        "O puede eliminar uno de sus calendarios y crear uno nuevo vinculado a una dirección de correo electrónico habilitada."
-      ],
-      "Enable your address again to modify your answer.": [
-        "Habilite su dirección de nuevo para modificar su respuesta."
-      ],
-      "Enable the email address linked to the disabled calendar to cancel the event.": [
-        "Habilitar la dirección de correo electrónico vinculada al calendario deshabilitado para cancelar el evento."
-      ],
-      "Enable the email address linked to the disabled calendar to modify your answer.": [
-        "Habilitar la dirección de correo electrónico vinculada al calendario deshabilitado para modificar su respuesta."
-      ],
-      "Add folder": [
-        "Añadir carpeta"
-      ],
-      "Add label": [
-        "Añadir etiqueta"
-      ],
-      "Folders": [
-        "Carpetas"
-      ],
-      "Manage your folders": [
-        "Administre sus carpetas"
-      ],
-      "Labels": [
-        "Etiquetas"
-      ],
-      "Manage your labels": [
-        "Administre sus etiquetas"
       ]
     },
     "Warning": {
@@ -4901,12 +4899,6 @@
       "Address copied to clipboard": [
         "Dirección copiada al portapapeles"
       ],
-      "Code sent to ${ methodTo }": [
-        "Código enviado a ${ methodTo }"
-      ],
-      "Verification successful": [
-        "Verificación exitosa"
-      ],
       "Contact group deleted": [
         "Grupo de contactos eliminado",
         "Grupos de contactos eliminados"
@@ -4927,14 +4919,20 @@
       "Fingerprint copied to clipboard": [
         "Huella digital copiada al portapapeles"
       ],
-      "Bug reported": [
-        "Error reportado"
+      "Code sent to ${ methodTo }": [
+        "Código enviado a ${ methodTo }"
+      ],
+      "Verification successful": [
+        "Verificación exitosa"
       ],
       "Keyboard shortcuts preferences updated": [
         "Preferencias de atajos de teclado actualizadas"
       ],
       "Preference saved": [
         "Preferencia guardada"
+      ],
+      "Bug reported": [
+        "Error reportado"
       ],
       "You have successfully unsubscribed": [
         "Ha cancelado la suscripción satisfactoriamente"
@@ -5092,6 +5090,11 @@
         "Se encontraron ${ items.length } sugerencias, use el teclado para navegar."
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        "La clave no puede usarse para el cifrado"
+      ]
+    },
     "Storage": {
       "Your current storage:": [
         "Su almacenamiento actual:"
@@ -5126,52 +5129,6 @@
       ],
       "Go to ${ vpnName }": [
         "Ir a ${ vpnName }"
-      ]
-    },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "Factura atrasada"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
-      ],
-      "Email": [
-        "Correo"
-      ],
-      "SMS": [
-        "SMS"
-      ],
-      "Manual": [
-        "Manual"
-      ],
-      "No verification method available": [
-        "No hay un método de verificación disponible"
-      ]
-    },
-    "Label to change density": {
-      "Comfortable": [
-        "Cómoda"
-      ],
-      "Compact": [
-        "Compacta"
-      ]
-    },
-    "Label to change view layout": {
-      "Column": [
-        "Columna"
-      ],
-      "Row": [
-        "Fila"
-      ]
-    },
-    "Label to change composer mode": {
-      "Normal": [
-        "Normal"
-      ],
-      "Maximized": [
-        "Maximizada"
       ]
     },
     "Label for contact group name": {
@@ -5390,6 +5347,100 @@
         "${ totalImported }/${ totalToImport } contactos cifrados y añadidos a su lista de contactos"
       ]
     },
+    "Select files": {
+      "Upload": [
+        "Subir"
+      ]
+    },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "Factura atrasada"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "Correo"
+      ],
+      "SMS": [
+        "SMS"
+      ],
+      "Manual": [
+        "Manual"
+      ],
+      "No verification method available": [
+        "No hay un método de verificación disponible"
+      ]
+    },
+    "Label to change density": {
+      "Comfortable": [
+        "Cómoda"
+      ],
+      "Compact": [
+        "Compacta"
+      ]
+    },
+    "Label to change view layout": {
+      "Column": [
+        "Columna"
+      ],
+      "Row": [
+        "Fila"
+      ]
+    },
+    "Label to change composer mode": {
+      "Normal": [
+        "Normal"
+      ],
+      "Maximized": [
+        "Maximizada"
+      ]
+    },
+    "Onboarding Proton": {
+      "This is what people will see when you send them an email, invite them to an event, or share a file with them.": [
+        "Esto es lo que la gente verá cuando les envíe un correo electrónico, les invite a un evento, o comparta un archivo."
+      ],
+      "Choose a display name": [
+        "Elija un nombre para mostrar"
+      ],
+      "Select a theme": [
+        "Seleccionar un tema"
+      ],
+      "You can change this anytime in your settings.": [
+        "Puede cambiar esto en cualquier momento en los ajustes."
+      ],
+      "Discover all Proton services": [
+        "Descubra todos los servicios de Proton"
+      ],
+      "Use the app selector in the top left to access other Proton services, including VPN, Calendar and Drive.": [
+        "Use el selector de aplicaciones en la parte superior izquierda para acceder a otros servicios de Proton, incluyendo VPN, Calendario y Drive."
+      ],
+      "Welcome to Proton": [
+        "Bienvenido a Proton"
+      ],
+      "Our mission is to build an internet where you are in control of your data and your privacy. We have recently updated Proton - welcome to the secure internet.": [
+        "Nuestra misión es construir un Internet donde tenga el control de sus datos y de su privacidad. Hemos actualizado recientemente Proton. Bienvenido a un Internet seguro."
+      ],
+      "Set up your organization": [
+        "Configure su organización"
+      ],
+      "Configure your organization, link your domain name, and create accounts to ensure all members of your organization are protected.": [
+        "Configure su organización, vincule su nombre de dominio y cree cuentas para asegurarse de que todos los miembros de su organización estén protegidos."
+      ]
+    },
+    "Onboarding Beta": {
+      "Got it": [
+        "Entendido"
+      ],
+      "Beta enabled": [
+        "Beta habilitada"
+      ],
+      "To disable beta, open the settings dropdown menu and click on the “Beta Access” option.": [
+        "Para deshabilitar la beta, abra el menú desplegable de ajustes y haga clic en la opción “Acceso beta”."
+      ]
+    },
     "Loading info": {
       "Connecting to your contacts provider": [
         "Conectando con su proveedor de contactos"
@@ -5527,54 +5578,6 @@
     "Label, make it short please": {
       "Attach screenshot(s)": [
         "Adjuntar captura(s)"
-      ]
-    },
-    "Select files": {
-      "Upload": [
-        "Subir"
-      ]
-    },
-    "Onboarding Proton": {
-      "This is what people will see when you send them an email, invite them to an event, or share a file with them.": [
-        "Esto es lo que la gente verá cuando les envíe un correo electrónico, les invite a un evento, o comparta un archivo."
-      ],
-      "Choose a display name": [
-        "Elija un nombre para mostrar"
-      ],
-      "Select a theme": [
-        "Seleccionar un tema"
-      ],
-      "You can change this anytime in your settings.": [
-        "Puede cambiar esto en cualquier momento en los ajustes."
-      ],
-      "Discover all Proton services": [
-        "Descubra todos los servicios de Proton"
-      ],
-      "Use the app selector in the top left to access other Proton services, including VPN, Calendar and Drive.": [
-        "Use el selector de aplicaciones en la parte superior izquierda para acceder a otros servicios de Proton, incluyendo VPN, Calendario y Drive."
-      ],
-      "Welcome to Proton": [
-        "Bienvenido a Proton"
-      ],
-      "Our mission is to build an internet where you are in control of your data and your privacy. We have recently updated Proton - welcome to the secure internet.": [
-        "Nuestra misión es construir un Internet donde tenga el control de sus datos y de su privacidad. Hemos actualizado recientemente Proton. Bienvenido a un Internet seguro."
-      ],
-      "Set up your organization": [
-        "Configure su organización"
-      ],
-      "Configure your organization, link your domain name, and create accounts to ensure all members of your organization are protected.": [
-        "Configure su organización, vincule su nombre de dominio y cree cuentas para asegurarse de que todos los miembros de su organización estén protegidos."
-      ]
-    },
-    "Onboarding Beta": {
-      "Got it": [
-        "Entendido"
-      ],
-      "Beta enabled": [
-        "Beta habilitada"
-      ],
-      "To disable beta, open the settings dropdown menu and click on the “Beta Access” option.": [
-        "Para deshabilitar la beta, abra el menú desplegable de ajustes y haga clic en la opción “Acceso beta”."
       ]
     },
     "Message display when a new app version is available": {
