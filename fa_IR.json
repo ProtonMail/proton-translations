@@ -5,51 +5,7 @@
   },
   "contexts": {
     "": {},
-    "file size format": {
-      "bytes": [
-        "بایت"
-      ],
-      "KB": [
-        "کیلوبایت"
-      ],
-      "MB": [
-        "مگابایت"
-      ],
-      "GB": [
-        "گیگابایت"
-      ]
-    },
     "Error": {
-      "This field is required": [
-        "این بخش الزامی است"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "حداقل ${ minimumLength } کاراکتر برای این قسمت الزامی است."
-      ],
-      "Email is not valid": [
-        "ایمیل معتبر نیست"
-      ],
-      "Not a valid number": [
-        "شماره معتبر نیست"
-      ],
-      "Passwords do not match": [
-        "رمزهای عبور مطابقت ندارند"
-      ],
-      "Signature verification failed": [
-        "تصدیق امضا ناموفق بود"
-      ],
-      "Request timed out.": [
-        "مهلت درخواست تمام شد."
-      ],
-      "Email address invalid": [
-        "نشانی ایمیل نامعتبر است"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "خطایی رخ داد، لطفاً برای ادامه ${ refresh } کنید. اگر این پیغام خطا را هنوز می‌بینید لطفاً با ${ supportTeam }. ما تماس بگیرید."
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "مرورگری که شما استفاده میکنید اجازه پرداخت کامل معامله را نمیدهد. لطفا از مرورگر دیگری استفاده نمایید یا از طریق رایانه وارد شوید."
-      ],
       "Unknown error": [
         "خطای ناشناخته"
       ],
@@ -116,12 +72,6 @@
       "Please generate keys before you try to change your password.": [
         "لطفا قبل از تلاش برای تغییر رمز عبور خود کلیدها را ایجاد کنید."
       ],
-      "Please set a recovery/notification email first": [
-        "لطفا ابتدا یک ایمیل بازیابی/اعلان تنظیم کنید"
-      ],
-      "Please set a recovery phone number first": [
-        "لطفاً ابتدا یک شماره تماس بازیابی تنظیم کنید"
-      ],
       "Incorrect mailbox password. Please try again": [
         "گذرواژه نادرست صندوق ایمیل. لطفاً دوباره امتحان کنید"
       ],
@@ -140,6 +90,12 @@
       "Invalid verification code": [
         "کد تایید نامعتبر"
       ],
+      "Please set a recovery/notification email first": [
+        "لطفا ابتدا یک ایمیل بازیابی/اعلان تنظیم کنید"
+      ],
+      "Please set a recovery phone number first": [
+        "لطفاً ابتدا یک شماره تماس بازیابی تنظیم کنید"
+      ],
       "Payments are currently not available, please try again later": [
         "در حال حاضر امکان پرداخت موجود نیست، لطفا بعدا دوباره امتحان کنید"
       ],
@@ -152,8 +108,38 @@
       "File has no contents to preview": [
         "فایل هیچ محتوایی برای پیش‌نمایش ندارد"
       ],
+      "Email address invalid": [
+        "نشانی ایمیل نامعتبر است"
+      ],
       "Please enter '${ dangerWord }'": [
         "لطفاً ‘${ dangerWord }’ را وارد کنید"
+      ],
+      "This field is required": [
+        "این بخش الزامی است"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "خطایی رخ داد، لطفاً برای ادامه ${ refresh } کنید. اگر این پیغام خطا را هنوز می‌بینید لطفاً با ${ supportTeam }. ما تماس بگیرید."
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "مرورگری که شما استفاده میکنید اجازه پرداخت کامل معامله را نمیدهد. لطفا از مرورگر دیگری استفاده نمایید یا از طریق رایانه وارد شوید."
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "حداقل ${ minimumLength } کاراکتر برای این قسمت الزامی است."
+      ],
+      "Email is not valid": [
+        "ایمیل معتبر نیست"
+      ],
+      "Not a valid number": [
+        "شماره معتبر نیست"
+      ],
+      "Passwords do not match": [
+        "رمزهای عبور مطابقت ندارند"
+      ],
+      "Signature verification failed": [
+        "تصدیق امضا ناموفق بود"
+      ],
+      "Request timed out.": [
+        "مهلت درخواست تمام شد."
       ],
       "Code wrong or not valid anymore": [
         "کد غلط یا دیگر غیر معتبر است"
@@ -168,62 +154,12 @@
         "نمی‌توان نام کاربری را چک کرد، دوباره امتحان کنید"
       ]
     },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "گذرواژه باید شامل حداقل ${ length } نویسه باشد",
-        "گذرواژه باید حداقل شامل ${ length } نویسه باشد"
-      ]
-    },
-    "Calendar status": {
-      "Not synced": [
-        ""
-      ],
-      "Syncing": [
-        "در حال همگام‌سازی"
-      ]
-    },
-    "Calendar subscription not synced error": {
-      "Calendar is syncing": [
-        ""
-      ],
-      "More than 12 hours passed since last update": [
-        ""
-      ],
-      "Calendar link is wrong": [
-        ""
-      ],
-      "Calendar is too big": [
-        ""
-      ],
-      "Calendar link is not accessible": [
-        ""
-      ],
-      "Calendar link is temporarily unaccessible": [
-        ""
-      ],
-      "Failed to sync calendar": [
-        ""
+    "Error notification in the bug report modal when the user upload file": {
+      "No image selected": [
+        "هیچ تصویری انتخاب نشده"
       ]
     },
     "Info": {
-      "Session timed out.": [
-        "مهلت نشست پایان یافت."
-      ],
-      "Internet connection lost.": [
-        "اتصال اینترنت قطع شد."
-      ],
-      "Servers are unreachable.": [
-        "سرورها قابل دسترس نیستند."
-      ],
-      "No results found": [
-        "هیچ نتیجه‌ای یافت نشد"
-      ],
-      "support team": [
-        "تیم پشتیبانی"
-      ],
-      "Loading": [
-        "در حال بارگذاری"
-      ],
       "Screenshot(s) attached": [
         "تصویر(های) صفحه پیوست شد"
       ],
@@ -550,6 +486,9 @@
       "Internet connection lost. Please check your device's connectivity.": [
         "اتصال اینترنت از دست رفت. لطفا اتصال دستگاه خود را بررسی کنید."
       ],
+      "You can only have one chat instance open at a time. Please close previous conversations before starting a new one.": [
+        ""
+      ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "اشتراک شما توسط Mozilla اداره می شود. لطفا با پشتیبانی Mozilla تماس بگیرید."
       ],
@@ -636,6 +575,45 @@
       ],
       "This will permanently delete your account and all of its data. You will not be able to reactivate this account.": [
         "این گزینه به طور دائم حساب کاربری شما و تمام داده‌های آن را حذف می‌کند. شما قادر به فعال‌سازی دوبارهٔ این حساب کاربری نخواهید بود."
+      ],
+      "here": [
+        "اینجا"
+      ],
+      "This account has been suspended due to a potential policy violation.": [
+        "این حساب به دلیل یک تخطی احتمالی از سیاست‌ها به تعلیق درآمده است."
+      ],
+      "If you believe this is in error, please contact us ${ contactLink }.": [
+        "اگر فکر می‌کنید این یک خطاست، لطفاً با ما در ${ contactLink } تماس بگیرید."
+      ],
+      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
+        "حساب پروتن شما در حال حاضر متوقف شده است. به منظور ادامه استفاده از حسابتان، لطفا صورتحساب‌های عقب افتاده را بپردازید."
+      ],
+      "Would you like to receive a new verification code or use an alternative verification method?": [
+        "آیا می‌خواهید یک کد تایید جدید دریافت نمایید یا از یک روش تایید جایگزین استفاده کنید؟"
+      ],
+      "Enter the verification code that was sent to ${ destinationText }.": [
+        "کد تاییدی که برای ${ destinationText } ارسال شد را وارد نمایید."
+      ],
+      "If you don't find the email in your inbox, please check your spam folder.": [
+        "اگر ایمیلی در صندوق دریافت نمی بینید، لطفا پوشه اسپم را بررسی کنید."
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
+        "روی \"درخواست کد جدید\" کلیک کنید تا یک کد تایید جدید به ${ strong } ارسال شود. اگر این نشانی ایمیل نادرست است، جهت اصلاح آن روی \"ویرایش\" کلیک نمایید."
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
+        "روی \"درخواست کد جدید\" کلیک کنید تا یک کد تایید جدید به ${ strong } ارسال شود. اگر این شماره‌تلفن نادرست است، جهت اصلاح آن روی \"ویرایش\" کلیک نمایید."
+      ],
+      "To fight spam and abuse, please verify you are human.": [
+        "برای نبرد با هرزنامه و سؤاستفاده، لطفاً تایید کنید که شما انسانید."
+      ],
+      "Your email will only be used for this one-time verification.": [
+        "ایمیل شما فقط برای این تأیید یکبار مصرف استفاده خواهد شد."
+      ],
+      "Your phone number will only be used for this one-time verification.": [
+        "شماره‌تلفن شما فقط برای این تأیید یکبار مصرف استفاده خواهد شد."
+      ],
+      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
+        "اگر شما در ساختن حسابتان مشکل دارید، لطفاً درخواست یک دعوتنامه داده و ما در طی یک روز کاری به شما پاسخ خواهیم داد."
       ],
       "You can use the following credentials to connect to a ProtonVPN server using a third-party, open source VPN app, like Tunnelblick for macOS or OpenVPN for GNU/Linux.": [
         "شما می‌توانید از اعتبارنامه‌های زیر برای اتصال به یک سرور ProtonVPN با استفاده از یک برنامهٔ شخص-ثالث، متن‌باز مثل Tunnelblick برای macOS یا OpenVPN برای GNU/Linux استفاده کنید."
@@ -759,45 +737,6 @@
       "Recovery phrase has been disabled": [
         ""
       ],
-      "here": [
-        "اینجا"
-      ],
-      "This account has been suspended due to a potential policy violation.": [
-        "این حساب به دلیل یک تخطی احتمالی از سیاست‌ها به تعلیق درآمده است."
-      ],
-      "If you believe this is in error, please contact us ${ contactLink }.": [
-        "اگر فکر می‌کنید این یک خطاست، لطفاً با ما در ${ contactLink } تماس بگیرید."
-      ],
-      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
-        "حساب پروتن شما در حال حاضر متوقف شده است. به منظور ادامه استفاده از حسابتان، لطفا صورتحساب‌های عقب افتاده را بپردازید."
-      ],
-      "Would you like to receive a new verification code or use an alternative verification method?": [
-        "آیا می‌خواهید یک کد تایید جدید دریافت نمایید یا از یک روش تایید جایگزین استفاده کنید؟"
-      ],
-      "Enter the verification code that was sent to ${ destinationText }.": [
-        "کد تاییدی که برای ${ destinationText } ارسال شد را وارد نمایید."
-      ],
-      "If you don't find the email in your inbox, please check your spam folder.": [
-        "اگر ایمیلی در صندوق دریافت نمی بینید، لطفا پوشه اسپم را بررسی کنید."
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
-        "روی \"درخواست کد جدید\" کلیک کنید تا یک کد تایید جدید به ${ strong } ارسال شود. اگر این نشانی ایمیل نادرست است، جهت اصلاح آن روی \"ویرایش\" کلیک نمایید."
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
-        "روی \"درخواست کد جدید\" کلیک کنید تا یک کد تایید جدید به ${ strong } ارسال شود. اگر این شماره‌تلفن نادرست است، جهت اصلاح آن روی \"ویرایش\" کلیک نمایید."
-      ],
-      "To fight spam and abuse, please verify you are human.": [
-        "برای نبرد با هرزنامه و سؤاستفاده، لطفاً تایید کنید که شما انسانید."
-      ],
-      "Your email will only be used for this one-time verification.": [
-        "ایمیل شما فقط برای این تأیید یکبار مصرف استفاده خواهد شد."
-      ],
-      "Your phone number will only be used for this one-time verification.": [
-        "شماره‌تلفن شما فقط برای این تأیید یکبار مصرف استفاده خواهد شد."
-      ],
-      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
-        "اگر شما در ساختن حسابتان مشکل دارید، لطفاً درخواست یک دعوتنامه داده و ما در طی یک روز کاری به شما پاسخ خواهیم داد."
-      ],
       "You have no saved payment methods.": [
         "شما روش پرداخت ذخیره شده‌ای ندارید."
       ],
@@ -861,6 +800,24 @@
       "This can take a few seconds or a few minutes depending on your device": [
         "بسته به دستگاه شما می تواند چند ثانیه یا چند دقیقه طول بکشد"
       ],
+      "No results found": [
+        "هیچ نتیجه‌ای یافت نشد"
+      ],
+      "support team": [
+        "تیم پشتیبانی"
+      ],
+      "Loading": [
+        "در حال بارگذاری"
+      ],
+      "Session timed out.": [
+        "مهلت نشست پایان یافت."
+      ],
+      "Internet connection lost.": [
+        "اتصال اینترنت قطع شد."
+      ],
+      "Servers are unreachable.": [
+        "سرورها قابل دسترس نیستند."
+      ],
       "Upgrade to a paid plan to access premium features and increase your storage space.": [
         "به یک طرح پرداختی ارتقا دهید تا به امکانات برتر دست یافته و فضای حافظه خود را افزایش دهید."
       ],
@@ -922,16 +879,628 @@
         "ایجاد حساب کاربری خود"
       ]
     },
-    "Label": {
-      "Reveal password": [
-        "نمایش رمز عبور"
+    "Action": {
+      "Clear": [
+        "پاک کردن"
       ],
-      "Hide password": [
-        "پنهان کردن رمز عبور"
+      "Add screenshot(s)": [
+        "افزودن تصویر(ها)"
+      ],
+      "Submit": [
+        "ثبت"
+      ],
+      "Hide info": [
+        "پنهان کردن اطلاعات"
+      ],
+      "Show info": [
+        "نمایش اطلاعات"
+      ],
+      "Copy email to clipboard": [
+        "کپی ایمیل به کلیپ‌بورد"
+      ],
+      "${ BRAND_NAME } introduction": [
+        "${ BRAND_NAME } مقدمه"
+      ],
+      "Chat with us": [
+        ""
+      ],
+      "I have a question": [
+        "من یک سوال دارم"
+      ],
+      "Request a feature": [
+        "درخواست یک ویژگی"
+      ],
+      "Report a problem": [
+        "گزارش یک مشکل"
+      ],
+      "${ BRAND_NAME } shop": [
+        "فروشگاه ${ BRAND_NAME }"
+      ],
+      "Switch account": [
+        "تغییر حساب کاربری"
+      ],
+      "Sign out": [
+        "خروج"
+      ],
+      "Get started": [
+        "شروع کنید"
+      ],
+      "Next": [
+        "بعدی"
+      ],
+      "Start setup": [
+        "شروع راه اندازی"
+      ],
+      "Skip": [
+        "رد کردن"
+      ],
+      "Done": [
+        "انجام شد"
+      ],
+      "Back": [
+        "بازگشت"
+      ],
+      "Use ${ label } theme": [
+        "استفاده از پوسته ${ label }"
+      ],
+      "Signing out": [
+        "در حال خارج شدن"
+      ],
+      "Close": [
+        "بستن"
+      ],
+      "refresh the page": [
+        "نوسازی صفحه"
+      ],
+      "Remove bonuses": [
+        "حذف پاداشها"
+      ],
+      "Select plan": [
+        "انتخاب طرح"
+      ],
+      "Compare all features": [
+        "مقایسه تمام ویژگی‌ها"
+      ],
+      "${ boldSave } by switching to annual billing": [
+        "با تغییر به صورت‌حساب سالانه ${ boldSave } کنید"
+      ],
+      "Continue": [
+        "ادامه"
+      ],
+      "Confirm": [
+        "تایید"
+      ],
+      "Pay": [
+        "پرداخت"
+      ],
+      "Apply": [
+        "اعمال"
+      ],
+      "Open ${ CALENDAR_APP_NAME } settings": [
+        "باز کردن تنظیمات ${ CALENDAR_APP_NAME }"
+      ],
+      "OK": [
+        "تایید"
+      ],
+      "Upgrade to Plus": [
+        "ارتقا به Plus"
+      ],
+      "Upgrade to Professional": [
+        "ارتقا به Professional"
+      ],
+      "Activate": [
+        "فعالسازی"
+      ],
+      "Customize subscription": [
+        "سفارشی‌سازی اشتراک"
+      ],
+      "Cancel subscription": [
+        "لغو اشتراک"
+      ],
+      "Remove gift code": [
+        "حذف کد هدیه"
+      ],
+      "annual billing": [
+        "صورت‌حساب سالانه"
+      ],
+      "Compare plans": [
+        "مقایسه طرح‌ها"
+      ],
+      "Decrease": [
+        "کاستن"
+      ],
+      "Increase": [
+        "افزودن"
+      ],
+      "Downgrade": [
+        "پایین آوردن"
+      ],
+      "Top up": [
+        "بالا بردن"
+      ],
+      "Add credits": [
+        "افزودن اعتبار"
+      ],
+      "Save": [
+        "ذخیره"
+      ],
+      "Cancel": [
+        "لغو"
+      ],
+      "Add PayPal payment method": [
+        "روش پرداخت از طریق PayPal اضافه شد"
+      ],
+      "Retry": [
+        "تلاش مجدد"
+      ],
+      "Loading verification": [
+        "در حال بارگیری تأیید"
+      ],
+      "Try again": [
+        "تلاش دوباره"
+      ],
+      "Verify": [
+        "تایید"
+      ],
+      "Use a different card": [
+        "از کارت دیگری استفاده کنید"
+      ],
+      "Use a different payment method": [
+        "از روش پرداخت دیگری استفاده کنید"
+      ],
+      "enable desktop notifications": [
+        "فعا‌ل‌سازی اعلان‌های دسکتاپ"
+      ],
+      "here": [
+        "اینجا"
+      ],
+      "Refresh the page": [
+        "نوسازی صفحه"
+      ],
+      "Close this banner": [
+        "این بنر را ببندید"
+      ],
+      "Change password": [
+        "تغییر رمز عبور"
+      ],
+      "Ok": [
+        "تایید"
+      ],
+      "Download": [
+        "بارگیری"
+      ],
+      "Yes": [
+        "بله"
+      ],
+      "Change mailbox password": [
+        "تغییر رمزعبور صندوق پستی [Mailbox]"
+      ],
+      "Delete": [
+        "حذف"
+      ],
+      "Delete your account": [
+        "حذف حساب کاربری"
+      ],
+      "Log in": [
+        "ورود"
+      ],
+      "View invoice": [
+        "مشاهده صورتحساب"
+      ],
+      "Get verification code": [
+        "دریافت کد تأیید"
+      ],
+      "Try another method": [
+        "روش دیگری را امتحان کنید"
+      ],
+      "Request new code": [
+        "درخواست کد جدید"
+      ],
+      "Did not receive the code?": [
+        "کد را دریافت نکردید؟"
+      ],
+      "Edit email address": [
+        "ویرایش نشانی ایمیل"
+      ],
+      "Edit phone number": [
+        "ویرایش شماره‌تلفن"
+      ],
+      "Hide": [
+        "پنهان کردن"
+      ],
+      "Show": [
+        "نمایش"
+      ],
+      "Reset credentials": [
+        "تنظیم مجدد مجوزها"
+      ],
+      "Upgrade": [
+        "ارتقا"
       ],
       "Copy": [
         "کپی"
       ],
+      "Download all configurations": [
+        "دانلود تمام پیکربندی‌ها"
+      ],
+      "Get ProtonVPN Plus": [
+        "دریافت ProtonVPN پلاس"
+      ],
+      "Update": [
+        "بروزرسانی"
+      ],
+      "Create new recovery phrase": [
+        ""
+      ],
+      "Copy to clipboard": [
+        ""
+      ],
+      "Create new recovery phrase?": [
+        ""
+      ],
+      "Enter password to continue": [
+        ""
+      ],
+      "Disable recovery phrase?": [
+        ""
+      ],
+      "Disable recovery phrase": [
+        ""
+      ],
+      "Edit": [
+        "ویرایش"
+      ],
+      "Mark as default": [
+        "انتخاب به عنوان پیش‌فرض"
+      ],
+      "Add credit / debit card": [
+        "افزودن کارت اعتباری / دبیت"
+      ],
+      "Add PayPal": [
+        "افزودن PayPal"
+      ],
+      "View": [
+        "نمایش"
+      ],
+      "User": [
+        "کاربر"
+      ],
+      "Organization": [
+        "سازمان"
+      ],
+      "Customize": [
+        "سفارشی"
+      ],
+      "Details": [
+        "جزئیات"
+      ],
+      "Share via link": [
+        "هم‌رسانی با پیوند"
+      ],
+      "Sharing options": [
+        "گزینه‌های هم‌رسانی"
+      ],
+      "Zoom out": [
+        "کوچک‌نمایی"
+      ],
+      "Reset zoom": [
+        "بازنشانی بزرگ‌نمایی"
+      ],
+      "Zoom in": [
+        "بزرگنمایی"
+      ],
+      "Previous": [
+        "قبلی"
+      ],
+      "Email me my username(s)": [
+        "نام کاربری(های) من را برای من ایمیل کنید"
+      ],
+      "Get a new password": [
+        "دریافت رمزعبور جدید"
+      ],
+      "Reset password": [
+        "بازنشانی رمز عبور"
+      ],
+      "Reset my password": [
+        "رمز عبورم را بازنشانی کن"
+      ],
+      "Close navigation": [
+        "بستن پیمایش"
+      ],
+      "Open navigation": [
+        "باز کردن پیمایش"
+      ],
+      "More info: ${ safeTitle }": [
+        "اطلاعات بیشتر: ${ safeTitle }"
+      ],
+      "Go to panel ${ index }": [
+        "برو به صفحهٔ ${ index }"
+      ],
+      "Close modal": [
+        "بستن پنجره"
+      ],
+      "Report bug": [
+        "گزارش اشکال"
+      ],
+      "Activate my coupon": [
+        "کد تخفیفم را فعال کن"
+      ],
+      "Hide additional features": [
+        "مخفی کردن ویژگی‌های اضافی"
+      ],
+      "Select": [
+        "انتخاب"
+      ],
+      "Verify code again": [
+        "تایید دوباره کد"
+      ],
+      "Verify code": [
+        "تایید کد"
+      ],
+      "Create account": [
+        "ایجاد حساب‌کاربری"
+      ],
+      "Go to login": [
+        "رفتن به صفحه ورود"
+      ],
+      "View full plan comparison": [
+        "نمایش مقایسه کامل طرح‌ها"
+      ],
+      "Send": [
+        "ارسال"
+      ],
+      "Resend": [
+        "ارسال مجدد"
+      ],
+      "Use another verification method": [
+        "از روش تایید دیگری استفاده کنید"
+      ],
+      "Confirm payment": [
+        "تایید پرداخت"
+      ],
+      "Pay annually and save 20%": [
+        "۲۰٪ تخفیف با پرداخت سالانه"
+      ],
+      "Try ${ upsellPlan.title } for only ${ totalMonthlyText }": [
+        "فقط با ${ totalMonthlyText } از ${ upsellPlan.title } استفاده کنید."
+      ],
+      "Homepage": [
+        "صفحه اصلی"
+      ]
+    },
+    "Bug category": {
+      "Sign in problem": [
+        "مشکل ورود"
+      ],
+      "Sign up problem": [
+        "مشکل ثبت‌نام"
+      ],
+      "Payments problem": [
+        "مشکل پرداخت"
+      ],
+      "Custom domain problem": [
+        "مشکل دامنهٔ سفارشی"
+      ],
+      "Bridge problem": [
+        "مشکل Bridge"
+      ],
+      "Import / export problem": [
+        "مشکل ورود / صدور"
+      ],
+      "Connection problem": [
+        "مشکل اتصال"
+      ],
+      "Slow speed problem": [
+        "مشکل سرعت آهسته"
+      ],
+      "Calendar problem": [
+        "مشکل تقویم"
+      ],
+      "Contacts problem": [
+        "مشکل مخاطبین"
+      ],
+      "Drive problem": [
+        "مشکل Drive"
+      ],
+      "Mail problem": [
+        "مشکل ایمیل"
+      ],
+      "VPN problem": [
+        "مشکل VPN"
+      ],
+      "Feature request": [
+        "درخواست ویژگی"
+      ],
+      "Other": [
+        "ساير"
+      ],
+      "Signup problem": [
+        "مشکل ثبت نام"
+      ],
+      "Installation problem": [
+        "مشکل در نصب"
+      ],
+      "Update problem": [
+        "مشکل به‌روزرسانی"
+      ],
+      "Application problem": [
+        "مشکل برنامه"
+      ],
+      "Speed problem": [
+        "مشکل سرعت"
+      ],
+      "Manual setup problem": [
+        "مشکل در تنظیم دستی"
+      ],
+      "Website access problem": [
+        "مشکل دسترسی به وب‌سایت"
+      ],
+      "Streaming problem": [
+        "مشکل جریان پخش"
+      ]
+    },
+    "Group": {
+      "Account": [
+        "حساب کاربری"
+      ],
+      "Apps": [
+        "برنامه‌ها"
+      ],
+      "Network": [
+        "شبکه"
+      ],
+      "Services": [
+        "سرویس‌ها"
+      ],
+      "Other category": [
+        "دسته‌بندی دیگر"
+      ]
+    },
+    "Action to select a title for the bug report modal": {
+      "Select": [
+        "انتخاب"
+      ]
+    },
+    "Link": {
+      "clearing your browser cache": [
+        "در حال پاک کردن حافظهٔ نهان مرورگرتان"
+      ],
+      "Upgrade": [
+        "ارتقا"
+      ],
+      "Go to subscription plans": [
+        "رفتن به طرح‌های اشتراک"
+      ],
+      "Add a gift code": [
+        "افزودن کد هدیه"
+      ],
+      "click here": [
+        "اینجا کلیک کنید"
+      ],
+      "Pay invoice": [
+        "پرداخت صورتحساب"
+      ],
+      "Upgrade account": [
+        "ارتقای حساب کاربری"
+      ],
+      "Not activated": [
+        "فعال نشده"
+      ],
+      "Request an invite": [
+        "درخواست دعوت‌نامه بدهید"
+      ],
+      "View guide": [
+        "مشاهده راهنما"
+      ],
+      "What is the difference between UDP and TCP protocols?": [
+        "تفاوت بین پروتکلهای UDP و TCP چیست؟"
+      ],
+      "Learn more": [
+        "بیشتر بدانید"
+      ],
+      "Back to login": [
+        "بازگشت به صفحه ورود"
+      ],
+      "here": [
+        "اینجا"
+      ],
+      "Upgrade now": [
+        "اکنون ارتقا دهید"
+      ],
+      "Sign up for free": [
+        "ثبت نام رایگان"
+      ],
+      "protonvpn.com": [
+        "protonvpn.com"
+      ],
+      "Don't have an account yet? Sign up for free!": [
+        "حساب کاربری ندارید؟ ثبت نام رایگان!"
+      ],
+      "Reset password": [
+        "بازنشانی رمز عبور"
+      ],
+      "Forgot username?": [
+        "نام کاربریتان را فراموش کرده‌اید؟"
+      ],
+      "Common login problems": [
+        "مشکلات متداول ورود به حساب کاربری"
+      ],
+      "Contact support": [
+        "تماس با پشتیبانی"
+      ],
+      "Terms of Service": [
+        "شرایط خدمات"
+      ],
+      "Privacy Policy": [
+        "سیاست حریم خصوصی"
+      ],
+      "Log in": [
+        "ورود"
+      ],
+      "Close": [
+        "بستن"
+      ]
+    },
+    "Success": {
+      "Bug reported": [
+        "اشکال گزارش شد"
+      ],
+      "Email address copied to clipboard": [
+        "رایانامه به حافظه موقت روگرفت شد"
+      ],
+      "You have successfully unsubscribed": [
+        "شما با موفقیت لغو اشتراک کردید"
+      ],
+      "Credits added": [
+        "اعتبار اضافه شد"
+      ],
+      "Gift code applied": [
+        "کد هدیه اعمال شد"
+      ],
+      "Payment method updated": [
+        "نحوه پرداخت تغییر کرد"
+      ],
+      "Payment method added": [
+        "نحوه پرداخت اضافه شد"
+      ],
+      "Password updated": [
+        "گذرواژه به‌روز شد"
+      ],
+      "Account deleted. Logging out...": [
+        "حساب کاربری حذف شد. در حال خروج..."
+      ],
+      "Locale updated": [
+        "زبان به‌روزرسانی شد"
+      ],
+      "Code sent to ${ methodTo }": [
+        "کد ارسال شد به ${ methodTo }"
+      ],
+      "Verification successful": [
+        "تایید با موفقیت بود"
+      ],
+      "${ server.Domain } copied in your clipboard": [
+        "${ server.Domain } در کلیپ‌بورد شما کپی شد"
+      ],
+      "Email updated": [
+        "ایمیل تغییر کرد"
+      ],
+      "Phone number updated": [
+        "شماره تماس به روز شد"
+      ],
+      "Payment method deleted": [
+        "نحوه پرداخت حذف شد"
+      ],
+      "Invoice paid": [
+        "صورتحساب پرداخت شد"
+      ],
+      "Invoice customized": [
+        "صورتحساب سفارشی شد"
+      ],
+      "If you entered a valid notification email we will send you an email with your usernames in the next minute.": [
+        "اگر یک ایمیل اعلان معتبر وارد کردید تا دقایقی دیگر ایمیلی با نام کاربری خود برای شما ارسال می کنیم."
+      ]
+    },
+    "Label": {
       "Operating system": [
         "سیستم عامل"
       ],
@@ -1134,14 +1703,26 @@
       "Default language": [
         "زبان پیش‌فرض"
       ],
-      "Password": [
-        "رمزعبور"
-      ],
       "Cancel": [
         "لغو"
       ],
       "Submit": [
         "ثبت"
+      ],
+      "Password": [
+        "رمزعبور"
+      ],
+      "Username or ProtonMail address": [
+        "نام کاربری یا نشانی ProtonMail"
+      ],
+      "Phone number": [
+        "شماره تلفن"
+      ],
+      "Verification code": [
+        "کد تأیید"
+      ],
+      "Enter the 6-digit code": [
+        "کد ۶-رقمی را وارد کنید"
       ],
       "OpenVPN / IKEv2 username": [
         "نام کاربری OpenVPN / IKEv2"
@@ -1166,18 +1747,6 @@
       ],
       "Your recovery phrase": [
         ""
-      ],
-      "Username or ProtonMail address": [
-        "نام کاربری یا نشانی ProtonMail"
-      ],
-      "Phone number": [
-        "شماره تلفن"
-      ],
-      "Verification code": [
-        "کد تأیید"
-      ],
-      "Enter the 6-digit code": [
-        "کد ۶-رقمی را وارد کنید"
       ],
       "Cash": [
         "نقدی"
@@ -1211,6 +1780,15 @@
       ],
       "Danger": [
         "خطر"
+      ],
+      "Reveal password": [
+        "نمایش رمز عبور"
+      ],
+      "Hide password": [
+        "پنهان کردن رمز عبور"
+      ],
+      "Copy": [
+        "کپی"
       ],
       "Back to:": [
         "بازگشت به:"
@@ -1249,502 +1827,90 @@
         "قیمت کل (دو ساله)"
       ]
     },
-    "Action": {
-      "Close navigation": [
-        "بستن پیمایش"
+    "Placeholder": {
+      "OS name": [
+        "نام سیستم‌عامل"
       ],
-      "Open navigation": [
-        "باز کردن پیمایش"
+      "OS version": [
+        "نسخهٔ سیستم‌عامل"
       ],
-      "More info: ${ safeTitle }": [
-        "اطلاعات بیشتر: ${ safeTitle }"
+      "Proton username": [
+        "نام کاربری پروتن"
       ],
-      "Go to panel ${ index }": [
-        "برو به صفحهٔ ${ index }"
+      "A way to contact you": [
+        "راهی برای تماس با شما"
       ],
-      "Close": [
-        "بستن"
+      "Please describe the problem and include any error messages": [
+        "لطفاً مشکل را شرح دهید و هر گونه پیغام خطا را ذکر کنید"
+      ],
+      "Browser name": [
+        "نام مرورگر"
+      ],
+      "Browser version": [
+        "نگارش مرورگر"
+      ],
+      "e.g. Julia Smith": [
+        "برای مثال خسرو شکیبایی"
+      ],
+      "Gift code": [
+        "کد هدیه"
+      ],
+      "Feedback": [
+        "بازخورد"
+      ],
+      "Other": [
+        "سایر موارد"
+      ],
+      "Add gift code": [
+        "افزودن کد هدیه"
+      ],
+      "ZIP": [
+        "ZIP"
+      ],
+      "Postal code": [
+        "کد پستی"
+      ],
+      "Password": [
+        "رمزعبور"
+      ],
+      "Two-factor authentication code": [
+        "کد تایید هویت دو مرحله‌ای"
       ],
       "Confirm": [
         "تایید"
       ],
-      "Cancel": [
-        "لغو"
+      "Email address": [
+        "آدرس ایمیل"
       ],
-      "Submit": [
-        "ثبت"
+      "Mailbox password": [
+        "رمزعبور صندوق پست"
       ],
-      "Close modal": [
-        "بستن پنجره"
+      "Email": [
+        "ایمیل"
       ],
-      "refresh the page": [
-        "نوسازی صفحه"
+      "Username": [
+        "نام کاربری"
       ],
-      "Clear": [
-        "پاک کردن"
+      "Recovery email": [
+        "ایمیل بازیابی"
       ],
-      "Add screenshot(s)": [
-        "افزودن تصویر(ها)"
+      "Reset code": [
+        "بازنشانی کد"
       ],
-      "Hide info": [
-        "پنهان کردن اطلاعات"
+      "Enter the word '${ dangerWord }' here": [
+        "کلمه '${ dangerWord }' را اینجا وارد کنید"
       ],
-      "Show info": [
-        "نمایش اطلاعات"
+      "Choose a new password": [
+        "یک رمز عبور جدید انتخاب کنید"
       ],
-      "Copy email to clipboard": [
-        "کپی ایمیل به کلیپ‌بورد"
+      "Enter coupon code": [
+        "کد تخفیف را وارد کنید"
       ],
-      "${ BRAND_NAME } introduction": [
-        "${ BRAND_NAME } مقدمه"
-      ],
-      "Chat with us": [
-        ""
-      ],
-      "I have a question": [
-        "من یک سوال دارم"
-      ],
-      "Request a feature": [
-        "درخواست یک ویژگی"
-      ],
-      "Report a problem": [
-        "گزارش یک مشکل"
-      ],
-      "${ BRAND_NAME } shop": [
-        "فروشگاه ${ BRAND_NAME }"
-      ],
-      "Switch account": [
-        "تغییر حساب کاربری"
-      ],
-      "Sign out": [
-        "خروج"
-      ],
-      "Get started": [
-        "شروع کنید"
-      ],
-      "Next": [
-        "بعدی"
-      ],
-      "Start setup": [
-        "شروع راه اندازی"
-      ],
-      "Skip": [
-        "رد کردن"
-      ],
-      "Done": [
-        "انجام شد"
-      ],
-      "Back": [
-        "بازگشت"
-      ],
-      "Use ${ label } theme": [
-        "استفاده از پوسته ${ label }"
-      ],
-      "Signing out": [
-        "در حال خارج شدن"
-      ],
-      "Remove bonuses": [
-        "حذف پاداشها"
-      ],
-      "Select plan": [
-        "انتخاب طرح"
-      ],
-      "Compare all features": [
-        "مقایسه تمام ویژگی‌ها"
-      ],
-      "${ boldSave } by switching to annual billing": [
-        "با تغییر به صورت‌حساب سالانه ${ boldSave } کنید"
-      ],
-      "Continue": [
-        "ادامه"
-      ],
-      "Pay": [
-        "پرداخت"
-      ],
-      "Apply": [
-        "اعمال"
-      ],
-      "Open ${ CALENDAR_APP_NAME } settings": [
-        "باز کردن تنظیمات ${ CALENDAR_APP_NAME }"
-      ],
-      "OK": [
-        "تایید"
-      ],
-      "Upgrade to Plus": [
-        "ارتقا به Plus"
-      ],
-      "Upgrade to Professional": [
-        "ارتقا به Professional"
-      ],
-      "Activate": [
-        "فعالسازی"
-      ],
-      "Customize subscription": [
-        "سفارشی‌سازی اشتراک"
-      ],
-      "Cancel subscription": [
-        "لغو اشتراک"
-      ],
-      "Remove gift code": [
-        "حذف کد هدیه"
-      ],
-      "annual billing": [
-        "صورت‌حساب سالانه"
-      ],
-      "Compare plans": [
-        "مقایسه طرح‌ها"
-      ],
-      "Decrease": [
-        "کاستن"
-      ],
-      "Increase": [
-        "افزودن"
-      ],
-      "Downgrade": [
-        "پایین آوردن"
-      ],
-      "Top up": [
-        "بالا بردن"
-      ],
-      "Add credits": [
-        "افزودن اعتبار"
-      ],
-      "Save": [
-        "ذخیره"
-      ],
-      "Add PayPal payment method": [
-        "روش پرداخت از طریق PayPal اضافه شد"
-      ],
-      "Retry": [
-        "تلاش مجدد"
-      ],
-      "Loading verification": [
-        "در حال بارگیری تأیید"
-      ],
-      "Try again": [
-        "تلاش دوباره"
-      ],
-      "Verify": [
-        "تایید"
-      ],
-      "Use a different card": [
-        "از کارت دیگری استفاده کنید"
-      ],
-      "Use a different payment method": [
-        "از روش پرداخت دیگری استفاده کنید"
-      ],
-      "enable desktop notifications": [
-        "فعا‌ل‌سازی اعلان‌های دسکتاپ"
-      ],
-      "here": [
-        "اینجا"
-      ],
-      "Refresh the page": [
-        "نوسازی صفحه"
-      ],
-      "Close this banner": [
-        "این بنر را ببندید"
-      ],
-      "Change password": [
-        "تغییر رمز عبور"
-      ],
-      "Ok": [
-        "تایید"
-      ],
-      "Download": [
-        "بارگیری"
-      ],
-      "Yes": [
-        "بله"
-      ],
-      "Change mailbox password": [
-        "تغییر رمزعبور صندوق پستی [Mailbox]"
-      ],
-      "Delete": [
-        "حذف"
-      ],
-      "Delete your account": [
-        "حذف حساب کاربری"
-      ],
-      "Hide": [
-        "پنهان کردن"
-      ],
-      "Show": [
-        "نمایش"
-      ],
-      "Reset credentials": [
-        "تنظیم مجدد مجوزها"
-      ],
-      "Upgrade": [
-        "ارتقا"
-      ],
-      "Copy": [
-        "کپی"
-      ],
-      "Download all configurations": [
-        "دانلود تمام پیکربندی‌ها"
-      ],
-      "Get ProtonVPN Plus": [
-        "دریافت ProtonVPN پلاس"
-      ],
-      "Update": [
-        "بروزرسانی"
-      ],
-      "Create new recovery phrase": [
-        ""
-      ],
-      "Copy to clipboard": [
-        ""
-      ],
-      "Create new recovery phrase?": [
-        ""
-      ],
-      "Enter password to continue": [
-        ""
-      ],
-      "Disable recovery phrase?": [
-        ""
-      ],
-      "Disable recovery phrase": [
-        ""
-      ],
-      "Log in": [
-        "ورود"
-      ],
-      "View invoice": [
-        "مشاهده صورتحساب"
-      ],
-      "Get verification code": [
-        "دریافت کد تأیید"
-      ],
-      "Try another method": [
-        "روش دیگری را امتحان کنید"
-      ],
-      "Request new code": [
-        "درخواست کد جدید"
-      ],
-      "Did not receive the code?": [
-        "کد را دریافت نکردید؟"
-      ],
-      "Edit email address": [
-        "ویرایش نشانی ایمیل"
-      ],
-      "Edit phone number": [
-        "ویرایش شماره‌تلفن"
-      ],
-      "Edit": [
-        "ویرایش"
-      ],
-      "Mark as default": [
-        "انتخاب به عنوان پیش‌فرض"
-      ],
-      "Add credit / debit card": [
-        "افزودن کارت اعتباری / دبیت"
-      ],
-      "Add PayPal": [
-        "افزودن PayPal"
-      ],
-      "View": [
-        "نمایش"
-      ],
-      "User": [
-        "کاربر"
-      ],
-      "Organization": [
-        "سازمان"
-      ],
-      "Customize": [
-        "سفارشی"
-      ],
-      "Details": [
-        "جزئیات"
-      ],
-      "Share via link": [
-        "هم‌رسانی با پیوند"
-      ],
-      "Sharing options": [
-        "گزینه‌های هم‌رسانی"
-      ],
-      "Zoom out": [
-        "کوچک‌نمایی"
-      ],
-      "Reset zoom": [
-        "بازنشانی بزرگ‌نمایی"
-      ],
-      "Zoom in": [
-        "بزرگنمایی"
-      ],
-      "Previous": [
-        "قبلی"
-      ],
-      "Email me my username(s)": [
-        "نام کاربری(های) من را برای من ایمیل کنید"
-      ],
-      "Get a new password": [
-        "دریافت رمزعبور جدید"
-      ],
-      "Reset password": [
-        "بازنشانی رمز عبور"
-      ],
-      "Reset my password": [
-        "رمز عبورم را بازنشانی کن"
-      ],
-      "Report bug": [
-        "گزارش اشکال"
-      ],
-      "Activate my coupon": [
-        "کد تخفیفم را فعال کن"
-      ],
-      "Hide additional features": [
-        "مخفی کردن ویژگی‌های اضافی"
-      ],
-      "Select": [
-        "انتخاب"
-      ],
-      "Verify code again": [
-        "تایید دوباره کد"
-      ],
-      "Verify code": [
-        "تایید کد"
-      ],
-      "Create account": [
-        "ایجاد حساب‌کاربری"
-      ],
-      "Go to login": [
-        "رفتن به صفحه ورود"
-      ],
-      "View full plan comparison": [
-        "نمایش مقایسه کامل طرح‌ها"
-      ],
-      "Send": [
-        "ارسال"
-      ],
-      "Resend": [
-        "ارسال مجدد"
-      ],
-      "Use another verification method": [
-        "از روش تایید دیگری استفاده کنید"
-      ],
-      "Confirm payment": [
-        "تایید پرداخت"
-      ],
-      "Pay annually and save 20%": [
-        "۲۰٪ تخفیف با پرداخت سالانه"
-      ],
-      "Try ${ upsellPlan.title } for only ${ totalMonthlyText }": [
-        "فقط با ${ totalMonthlyText } از ${ upsellPlan.title } استفاده کنید."
-      ],
-      "Homepage": [
-        "صفحه اصلی"
-      ]
-    },
-    "Storage": {
-      "Your current storage:": [
-        "فضای ذخیره‌سازی فعلی شما:"
-      ],
-      "Upgrade storage": [
-        "ارتقا حافظه"
-      ],
-      "Release notes": [
-        "تازه‌ها"
-      ]
-    },
-    "Link": {
-      "Learn more": [
-        "بیشتر بدانید"
-      ],
-      "clearing your browser cache": [
-        "در حال پاک کردن حافظهٔ نهان مرورگرتان"
-      ],
-      "Upgrade": [
-        "ارتقا"
-      ],
-      "Go to subscription plans": [
-        "رفتن به طرح‌های اشتراک"
-      ],
-      "Add a gift code": [
-        "افزودن کد هدیه"
-      ],
-      "click here": [
-        "اینجا کلیک کنید"
-      ],
-      "Pay invoice": [
-        "پرداخت صورتحساب"
-      ],
-      "Upgrade account": [
-        "ارتقای حساب کاربری"
-      ],
-      "Not activated": [
-        "فعال نشده"
-      ],
-      "View guide": [
-        "مشاهده راهنما"
-      ],
-      "What is the difference between UDP and TCP protocols?": [
-        "تفاوت بین پروتکلهای UDP و TCP چیست؟"
-      ],
-      "Request an invite": [
-        "درخواست دعوت‌نامه بدهید"
-      ],
-      "Back to login": [
-        "بازگشت به صفحه ورود"
-      ],
-      "here": [
-        "اینجا"
-      ],
-      "Upgrade now": [
-        "اکنون ارتقا دهید"
-      ],
-      "Sign up for free": [
-        "ثبت نام رایگان"
-      ],
-      "protonvpn.com": [
-        "protonvpn.com"
-      ],
-      "Don't have an account yet? Sign up for free!": [
-        "حساب کاربری ندارید؟ ثبت نام رایگان!"
-      ],
-      "Reset password": [
-        "بازنشانی رمز عبور"
-      ],
-      "Forgot username?": [
-        "نام کاربریتان را فراموش کرده‌اید؟"
-      ],
-      "Common login problems": [
-        "مشکلات متداول ورود به حساب کاربری"
-      ],
-      "Contact support": [
-        "تماس با پشتیبانی"
-      ],
-      "Terms of Service": [
-        "شرایط خدمات"
-      ],
-      "Privacy Policy": [
-        "سیاست حریم خصوصی"
-      ],
-      "Log in": [
-        "ورود"
-      ],
-      "Close": [
-        "بستن"
+      "Confirm password": [
+        "تکرار رمز عبور"
       ]
     },
     "Title": {
-      "Open actions dropdown": [
-        "باز کردن منوی اقدامات"
-      ],
-      "Previous": [
-        "قبلی"
-      ],
-      "Open pagination": [
-        "بازکردن صفحه بندی"
-      ],
-      "Next": [
-        "بعدی"
-      ],
-      "What's new": [
-        "تازه ها چیست"
-      ],
       "Report a problem": [
         "گزارش یک مشکل"
       ],
@@ -1895,24 +2061,6 @@
       "Sign in again to continue": [
         "براى ادامه، وارد شويد"
       ],
-      "1. Select platform": [
-        "1. انتخاب پلتفرم"
-      ],
-      "2. Select protocol": [
-        "2. انتخاب پروتکل"
-      ],
-      "3. Select config file and download": [
-        "۳. فایل پیکربندی را انتخاب و بارگیری کنید"
-      ],
-      "Get ProtonVPN Plus to access all servers": [
-        "ProtonVPN Plus را بگیرید تا به همه سرورها دست یابید"
-      ],
-      "Confirm address": [
-        "تایید آدرس"
-      ],
-      "Confirm phone number": [
-        "تأیید شماره تلفن"
-      ],
       "Account suspended": [
         "حساب تعلیق شده است"
       ],
@@ -1930,6 +2078,27 @@
       ],
       "Human verification": [
         "تأیید ربات نبودن"
+      ],
+      "Open actions dropdown": [
+        "باز کردن منوی اقدامات"
+      ],
+      "1. Select platform": [
+        "1. انتخاب پلتفرم"
+      ],
+      "2. Select protocol": [
+        "2. انتخاب پروتکل"
+      ],
+      "3. Select config file and download": [
+        "۳. فایل پیکربندی را انتخاب و بارگیری کنید"
+      ],
+      "Get ProtonVPN Plus to access all servers": [
+        "ProtonVPN Plus را بگیرید تا به همه سرورها دست یابید"
+      ],
+      "Confirm address": [
+        "تایید آدرس"
+      ],
+      "Confirm phone number": [
+        "تأیید شماره تلفن"
       ],
       "Pay invoice": [
         "پرداخت صورتحساب"
@@ -1954,6 +2123,18 @@
       ],
       "Confirm reset password": [
         "تایید بازنشانی رمز عبور"
+      ],
+      "Previous": [
+        "قبلی"
+      ],
+      "Open pagination": [
+        "بازکردن صفحه بندی"
+      ],
+      "Next": [
+        "بعدی"
+      ],
+      "What's new": [
+        "تازه ها چیست"
       ],
       "Upgrade": [
         "ارتقا"
@@ -2116,246 +2297,6 @@
       ],
       "Settings": [
         "تنظیمات"
-      ]
-    },
-    "Error notification in the bug report modal when the user upload file": {
-      "No image selected": [
-        "هیچ تصویری انتخاب نشده"
-      ]
-    },
-    "Bug category": {
-      "Sign in problem": [
-        "مشکل ورود"
-      ],
-      "Sign up problem": [
-        "مشکل ثبت‌نام"
-      ],
-      "Payments problem": [
-        "مشکل پرداخت"
-      ],
-      "Custom domain problem": [
-        "مشکل دامنهٔ سفارشی"
-      ],
-      "Bridge problem": [
-        "مشکل Bridge"
-      ],
-      "Import / export problem": [
-        "مشکل ورود / صدور"
-      ],
-      "Connection problem": [
-        "مشکل اتصال"
-      ],
-      "Slow speed problem": [
-        "مشکل سرعت آهسته"
-      ],
-      "Calendar problem": [
-        "مشکل تقویم"
-      ],
-      "Contacts problem": [
-        "مشکل مخاطبین"
-      ],
-      "Drive problem": [
-        "مشکل Drive"
-      ],
-      "Mail problem": [
-        "مشکل ایمیل"
-      ],
-      "VPN problem": [
-        "مشکل VPN"
-      ],
-      "Feature request": [
-        "درخواست ویژگی"
-      ],
-      "Other": [
-        "ساير"
-      ],
-      "Signup problem": [
-        "مشکل ثبت نام"
-      ],
-      "Installation problem": [
-        "مشکل در نصب"
-      ],
-      "Update problem": [
-        "مشکل به‌روزرسانی"
-      ],
-      "Application problem": [
-        "مشکل برنامه"
-      ],
-      "Speed problem": [
-        "مشکل سرعت"
-      ],
-      "Manual setup problem": [
-        "مشکل در تنظیم دستی"
-      ],
-      "Website access problem": [
-        "مشکل دسترسی به وب‌سایت"
-      ],
-      "Streaming problem": [
-        "مشکل جریان پخش"
-      ]
-    },
-    "Group": {
-      "Account": [
-        "حساب کاربری"
-      ],
-      "Apps": [
-        "برنامه‌ها"
-      ],
-      "Network": [
-        "شبکه"
-      ],
-      "Services": [
-        "سرویس‌ها"
-      ],
-      "Other category": [
-        "دسته‌بندی دیگر"
-      ]
-    },
-    "Action to select a title for the bug report modal": {
-      "Select": [
-        "انتخاب"
-      ]
-    },
-    "Success": {
-      "Bug reported": [
-        "اشکال گزارش شد"
-      ],
-      "Email address copied to clipboard": [
-        "رایانامه به حافظه موقت روگرفت شد"
-      ],
-      "You have successfully unsubscribed": [
-        "شما با موفقیت لغو اشتراک کردید"
-      ],
-      "Credits added": [
-        "اعتبار اضافه شد"
-      ],
-      "Gift code applied": [
-        "کد هدیه اعمال شد"
-      ],
-      "Payment method updated": [
-        "نحوه پرداخت تغییر کرد"
-      ],
-      "Payment method added": [
-        "نحوه پرداخت اضافه شد"
-      ],
-      "Password updated": [
-        "گذرواژه به‌روز شد"
-      ],
-      "Account deleted. Logging out...": [
-        "حساب کاربری حذف شد. در حال خروج..."
-      ],
-      "Locale updated": [
-        "زبان به‌روزرسانی شد"
-      ],
-      "${ server.Domain } copied in your clipboard": [
-        "${ server.Domain } در کلیپ‌بورد شما کپی شد"
-      ],
-      "Email updated": [
-        "ایمیل تغییر کرد"
-      ],
-      "Phone number updated": [
-        "شماره تماس به روز شد"
-      ],
-      "Code sent to ${ methodTo }": [
-        "کد ارسال شد به ${ methodTo }"
-      ],
-      "Verification successful": [
-        "تایید با موفقیت بود"
-      ],
-      "Payment method deleted": [
-        "نحوه پرداخت حذف شد"
-      ],
-      "Invoice paid": [
-        "صورتحساب پرداخت شد"
-      ],
-      "Invoice customized": [
-        "صورتحساب سفارشی شد"
-      ],
-      "If you entered a valid notification email we will send you an email with your usernames in the next minute.": [
-        "اگر یک ایمیل اعلان معتبر وارد کردید تا دقایقی دیگر ایمیلی با نام کاربری خود برای شما ارسال می کنیم."
-      ]
-    },
-    "Placeholder": {
-      "OS name": [
-        "نام سیستم‌عامل"
-      ],
-      "OS version": [
-        "نسخهٔ سیستم‌عامل"
-      ],
-      "Proton username": [
-        "نام کاربری پروتن"
-      ],
-      "A way to contact you": [
-        "راهی برای تماس با شما"
-      ],
-      "Please describe the problem and include any error messages": [
-        "لطفاً مشکل را شرح دهید و هر گونه پیغام خطا را ذکر کنید"
-      ],
-      "Browser name": [
-        "نام مرورگر"
-      ],
-      "Browser version": [
-        "نگارش مرورگر"
-      ],
-      "e.g. Julia Smith": [
-        "برای مثال خسرو شکیبایی"
-      ],
-      "Gift code": [
-        "کد هدیه"
-      ],
-      "Feedback": [
-        "بازخورد"
-      ],
-      "Other": [
-        "سایر موارد"
-      ],
-      "Add gift code": [
-        "افزودن کد هدیه"
-      ],
-      "ZIP": [
-        "ZIP"
-      ],
-      "Postal code": [
-        "کد پستی"
-      ],
-      "Password": [
-        "رمزعبور"
-      ],
-      "Two-factor authentication code": [
-        "کد تایید هویت دو مرحله‌ای"
-      ],
-      "Confirm": [
-        "تایید"
-      ],
-      "Email address": [
-        "آدرس ایمیل"
-      ],
-      "Mailbox password": [
-        "رمزعبور صندوق پست"
-      ],
-      "Email": [
-        "ایمیل"
-      ],
-      "Username": [
-        "نام کاربری"
-      ],
-      "Recovery email": [
-        "ایمیل بازیابی"
-      ],
-      "Reset code": [
-        "بازنشانی کد"
-      ],
-      "Enter the word '${ dangerWord }' here": [
-        "کلمه '${ dangerWord }' را اینجا وارد کنید"
-      ],
-      "Choose a new password": [
-        "یک رمز عبور جدید انتخاب کنید"
-      ],
-      "Enter coupon code": [
-        "کد تخفیف را وارد کنید"
-      ],
-      "Confirm password": [
-        "تکرار رمز عبور"
       ]
     },
     "Warning": {
@@ -3311,6 +3252,33 @@
         "(1 رایانامه در هر ماه)"
       ]
     },
+    "Footer": {
+      "Based in Switzerland, available globally.": [
+        "مستقر در سوئیس، قابل دسترس به صورت جهانی."
+      ]
+    },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "صورتحساب‌ عقب افتاده"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "ایمیل"
+      ],
+      "SMS": [
+        "پیامک"
+      ],
+      "Manual": [
+        "دستی"
+      ],
+      "No verification method available": [
+        "هیچ شیوه تاییدی در دسترس نیست"
+      ]
+    },
     "Notification": {
       "OpenVPN / IKEv2 credentials regenerated": [
         "جزئیات ورودی OpenVPN / IKEv2 دوباره تولید شد"
@@ -3402,33 +3370,6 @@
       ],
       "Recovery phrase": [
         ""
-      ]
-    },
-    "Footer": {
-      "Based in Switzerland, available globally.": [
-        "مستقر در سوئیس، قابل دسترس به صورت جهانی."
-      ]
-    },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "صورتحساب‌ عقب افتاده"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
-      ],
-      "Email": [
-        "ایمیل"
-      ],
-      "SMS": [
-        "پیامک"
-      ],
-      "Manual": [
-        "دستی"
-      ],
-      "No verification method available": [
-        "هیچ شیوه تاییدی در دسترس نیست"
       ]
     },
     "Confirmation title": {
@@ -3548,6 +3489,68 @@
     "Password": {
       "Confirm new password": [
         "تأیید رمز عبور جديد"
+      ]
+    },
+    "Storage": {
+      "Your current storage:": [
+        "فضای ذخیره‌سازی فعلی شما:"
+      ],
+      "Upgrade storage": [
+        "ارتقا حافظه"
+      ],
+      "Release notes": [
+        "تازه‌ها"
+      ]
+    },
+    "file size format": {
+      "bytes": [
+        "بایت"
+      ],
+      "KB": [
+        "کیلوبایت"
+      ],
+      "MB": [
+        "مگابایت"
+      ],
+      "GB": [
+        "گیگابایت"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "گذرواژه باید شامل حداقل ${ length } نویسه باشد",
+        "گذرواژه باید حداقل شامل ${ length } نویسه باشد"
+      ]
+    },
+    "Calendar status": {
+      "Not synced": [
+        ""
+      ],
+      "Syncing": [
+        "در حال همگام‌سازی"
+      ]
+    },
+    "Calendar subscription not synced error": {
+      "Calendar is syncing": [
+        ""
+      ],
+      "More than 12 hours passed since last update": [
+        ""
+      ],
+      "Calendar link is wrong": [
+        ""
+      ],
+      "Calendar is too big": [
+        ""
+      ],
+      "Calendar link is not accessible": [
+        ""
+      ],
+      "Calendar link is temporarily unaccessible": [
+        ""
+      ],
+      "Failed to sync calendar": [
+        ""
       ]
     },
     "Plan details": {
