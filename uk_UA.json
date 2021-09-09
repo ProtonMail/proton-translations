@@ -198,12 +198,6 @@
       "Request timed out.": [
         "Час очікування запиту сплив."
       ],
-      "Signature verification failed": [
-        "Неможливо перевірити підпис"
-      ],
-      "Could not find address ${ email }.": [
-        "Неможливо знайти адресу ${ email }."
-      ],
       "Missing signature": [
         "Відсутній підпис"
       ],
@@ -212,6 +206,12 @@
       ],
       "Signature not verified": [
         "Підпис не перевірено"
+      ],
+      "Signature verification failed": [
+        "Неможливо перевірити підпис"
+      ],
+      "Could not find address ${ email }.": [
+        "Неможливо знайти адресу ${ email }."
       ],
       "Email address disabled": [
         "Адресу е-пошти вимкнено"
@@ -353,9 +353,6 @@
       "Load image": [
         "Завантажити зображення"
       ],
-      "refresh the page": [
-        "оновити сторінку"
-      ],
       "Export": [
         "Експорт"
       ],
@@ -391,6 +388,9 @@
       ],
       "Upload picture": [
         "Вивантажити зображення"
+      ],
+      "refresh the page": [
+        "оновити сторінку"
       ],
       "Next month": [
         "Наступний місяць"
@@ -793,6 +793,9 @@
       ],
       "Close popover": [
         "Закрити спливне вікно"
+      ],
+      "Close event popover": [
+        ""
       ]
     },
     "Title": {
@@ -931,6 +934,21 @@
       "${ appName } customization": [
         "Налаштування ${ appName }"
       ],
+      "${ appName } Keyboard Shortcuts": [
+        "Комбінації клавіш ${ appName }"
+      ],
+      "Mailbox density": [
+        "Щільність поштової скриньки"
+      ],
+      "Mailbox layout": [
+        "Макет поштової скриньки"
+      ],
+      "Composer mode": [
+        "Режим редактора"
+      ],
+      "Beta Access": [
+        "Бета-доступ"
+      ],
       "Sign in again to continue": [
         "Увійдіть знову для продовження"
       ],
@@ -951,21 +969,6 @@
       ],
       "Human verification": [
         "Перевірка \"Я не робот\""
-      ],
-      "${ appName } Keyboard Shortcuts": [
-        "Комбінації клавіш ${ appName }"
-      ],
-      "Mailbox density": [
-        "Щільність поштової скриньки"
-      ],
-      "Mailbox layout": [
-        "Макет поштової скриньки"
-      ],
-      "Composer mode": [
-        "Режим редактора"
-      ],
-      "Beta Access": [
-        "Бета-доступ"
       ],
       "Edit contact group": [
         "Редагувати групу контактів"
@@ -1227,29 +1230,17 @@
       ],
       "Edit event": [
         "Змінити подію"
-      ],
-      "Event details": [
-        "Подробиці подіі"
-      ],
-      "More options": [
-        "Додаткові параметри"
-      ],
-      "CANCELLED": [
-        "СКАСОВАНО"
       ]
     },
     "Info": {
       "No results found": [
         "Результатів не знайдено"
       ],
-      "support team": [
-        "командою підтримки"
-      ],
       "No contacts added yet": [
         "Контактів ще не додано"
       ],
-      "Loading": [
-        "Завантаження"
+      "support team": [
+        "командою підтримки"
       ],
       "Week": [
         "Тиждень"
@@ -1265,6 +1256,9 @@
       ],
       "Learn more": [
         "Докладніше"
+      ],
+      "Loading": [
+        "Завантаження"
       ],
       "Drop the file here to upload": [
         "Для завантаження файлу перетягніть його сюди"
@@ -1527,6 +1521,9 @@
       "Expired": [
         "Термін дії минув"
       ],
+      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
+        "Основні функції навігації та дії залишаються доступними, незалежно від того, активовані комбінації клавіш в налаштуваннях чи ні."
+      ],
       "here": [
         "тут"
       ],
@@ -1565,9 +1562,6 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Якщо у вас виникли труднощі під час створення облікового запису, подайте запит на запрошення і ми відповімо протягом одного робочого дня."
-      ],
-      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
-        "Основні функції навігації та дії залишаються доступними, незалежно від того, активовані комбінації клавіш в налаштуваннях чи ні."
       ],
       "${ contactEmailsLength } Member": [
         "${ contactEmailsLength } учасник",
@@ -2089,6 +2083,21 @@
       "Payer": [
         "Платник"
       ],
+      "Keyboard shortcuts": [
+        "Комбінації клавіш"
+      ],
+      "Select how your list of messages looks like by default.": [
+        "Оберіть типовий вигляд списку повідомлень."
+      ],
+      "Select how your mailbox looks like by default.": [
+        "Оберіть типовий вигляд поштової скриньки."
+      ],
+      "Select how your composer opens by default.": [
+        "Оберіть типовий вигляд редактора."
+      ],
+      "Enable Beta Access": [
+        "Увімкнути бета-доступ"
+      ],
       "Cancel": [
         "Скасувати"
       ],
@@ -2115,21 +2124,6 @@
       ],
       "Enter the 6-digit code": [
         "Введіть 6-значний код"
-      ],
-      "Keyboard shortcuts": [
-        "Комбінації клавіш"
-      ],
-      "Select how your list of messages looks like by default.": [
-        "Оберіть типовий вигляд списку повідомлень."
-      ],
-      "Select how your mailbox looks like by default.": [
-        "Оберіть типовий вигляд поштової скриньки."
-      ],
-      "Select how your composer opens by default.": [
-        "Оберіть типовий вигляд редактора."
-      ],
-      "Enable Beta Access": [
-        "Увімкнути бета-доступ"
       ],
       "Add email address": [
         "Додати адресу електронної пошти"
@@ -2250,6 +2244,12 @@
       ],
       "Your calendars": [
         "Ваші календарі"
+      ],
+      "Participant": [
+        "",
+        "",
+        "",
+        ""
       ]
     },
     "Link": {
@@ -2597,17 +2597,17 @@
       "You have successfully unsubscribed": [
         "Ви успішно відписались"
       ],
-      "Code sent to ${ methodTo }": [
-        "Код надісланий до ${ methodTo }"
-      ],
-      "Verification successful": [
-        "Перевірка пройшла успішно"
-      ],
       "Keyboard shortcuts preferences updated": [
         "Налаштування комбінацій клавіш оновлено"
       ],
       "Preference saved": [
         "Налаштування збережено"
+      ],
+      "Code sent to ${ methodTo }": [
+        "Код надісланий до ${ methodTo }"
+      ],
+      "Verification successful": [
+        "Перевірка пройшла успішно"
       ],
       "Preferences saved": [
         "Налаштування збережено"
@@ -2740,6 +2740,14 @@
     "Timezone search placeholder": {
       "Search timezones": [
         "Вибрати часовий пояс"
+      ]
+    },
+    "Collapsible tooltip": {
+      "Open": [
+        ""
+      ],
+      "Close": [
+        ""
       ]
     },
     "Error message": {
@@ -3440,28 +3448,6 @@
         "Bitcoin"
       ]
     },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "Протермінований рахунок"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
-      ],
-      "Email": [
-        "Електронна пошта"
-      ],
-      "SMS": [
-        "СМС"
-      ],
-      "Manual": [
-        "Вручну"
-      ],
-      "No verification method available": [
-        "Немає доступних способів перевірки"
-      ]
-    },
     "Beta access description": {
       "Beta Access lets you use the beta version of ProtonMail, Proton Calendar, and Proton Drive before they are released to the public. This means you can be the first to try new products, get new updates, and use new features.": [
         "Бета-доступ дозволяє вам користуватися тестовою версією ProtonMail, Proton Calendar та Proton Drive до того, як вони будуть випущені для широкого загалу. Це означає, що ви можете першими випробувати нові продукти та функції."
@@ -3497,6 +3483,28 @@
       ],
       "Maximized": [
         "Розгорнутий"
+      ]
+    },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "Протермінований рахунок"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "Електронна пошта"
+      ],
+      "SMS": [
+        "СМС"
+      ],
+      "Manual": [
+        "Вручну"
+      ],
+      "No verification method available": [
+        "Немає доступних способів перевірки"
       ]
     },
     "Notification": {
@@ -4526,14 +4534,6 @@
         "ГБ"
       ]
     },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "Пароль повинен містити принаймні ${ length } символ",
-        "Пароль повинен містити принаймні ${ length } символи",
-        "Пароль повинен містити принаймні ${ length } символів",
-        "Пароль повинен містити принаймні ${ length } символів"
-      ]
-    },
     "Contact field label": {
       "Name": [
         "Ім'я"
@@ -4646,6 +4646,14 @@
       ],
       "Address": [
         "Адреса"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "Пароль повинен містити принаймні ${ length } символ",
+        "Пароль повинен містити принаймні ${ length } символи",
+        "Пароль повинен містити принаймні ${ length } символів",
+        "Пароль повинен містити принаймні ${ length } символів"
       ]
     },
     "Keyboard shortcut section name": {
@@ -4823,11 +4831,6 @@
         "Показати оригінальне повідомлення"
       ]
     },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "Адресу електронної пошти не знайдено серед ідентифікаторів користувачів, визначених у ключі надсилання (${ keyUserIds })"
-      ]
-    },
     "Import contact. Contact identifier": {
       "unknown": [
         "невідомо"
@@ -4872,6 +4875,11 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "Виникла помилка при прочитанні вашого файлу ${ formattedFilename }. Файл має неправильний формат."
+      ]
+    },
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "Адресу електронної пошти не знайдено серед ідентифікаторів користувачів, визначених у ключі надсилання (${ keyUserIds })"
       ]
     },
     "Message": {
@@ -5060,6 +5068,11 @@
         "разів"
       ]
     },
+    "Event popover close button": {
+      "Close popover": [
+        ""
+      ]
+    },
     "Calendar invite info": {
       "You accepted the invitation": [
         "Ви прийняли запрошення"
@@ -5094,11 +5107,6 @@
         "електронною поштою"
       ]
     },
-    "Event info": {
-      "Organized by:": [
-        "Організовано:"
-      ]
-    },
     "Disabled calendar": {
       "Disabled": [
         "Вимкнено"
@@ -5107,6 +5115,48 @@
     "Disabled calendar tooltip": {
       "The event belongs to a disabled calendar.": [
         "Подія з вимкненого календаря."
+      ]
+    },
+    "Event reply": {
+      "yes": [
+        ""
+      ],
+      "maybe": [
+        ""
+      ],
+      "no": [
+        ""
+      ],
+      "unanswered": [
+        ""
+      ]
+    },
+    "Participants expand button label": {
+      "Expand participants list": [
+        ""
+      ],
+      "Collapse participants list": [
+        ""
+      ]
+    },
+    "Event edit button tooltip": {
+      "Edit event": [
+        ""
+      ]
+    },
+    "Event delete button tooltip": {
+      "Delete event": [
+        ""
+      ]
+    },
+    "Event cancelled status badge": {
+      "cancelled": [
+        ""
+      ]
+    },
+    "Calendar invite buttons label": {
+      "Attending?": [
+        ""
       ]
     }
   }

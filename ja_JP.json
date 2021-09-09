@@ -192,12 +192,6 @@
       "Request timed out.": [
         "リクエストがタイムアウトしました。"
       ],
-      "Signature verification failed": [
-        "署名の検証に失敗しました"
-      ],
-      "Could not find address ${ email }.": [
-        "${ email } というメールアドレスが見つかりませんでした。"
-      ],
       "Missing signature": [
         "署名がありません"
       ],
@@ -206,6 +200,12 @@
       ],
       "Signature not verified": [
         "署名が確認されていません"
+      ],
+      "Signature verification failed": [
+        "署名の検証に失敗しました"
+      ],
+      "Could not find address ${ email }.": [
+        "${ email } というメールアドレスが見つかりませんでした。"
       ],
       "Email address disabled": [
         "メールアドレスが無効です"
@@ -335,9 +335,6 @@
       "Load image": [
         "画像を読み込む"
       ],
-      "refresh the page": [
-        "ページを更新"
-      ],
       "Export": [
         "エクスポート"
       ],
@@ -373,6 +370,9 @@
       ],
       "Upload picture": [
         "写真をアップロード"
+      ],
+      "refresh the page": [
+        "ページを更新"
       ],
       "Next month": [
         "次の月"
@@ -769,6 +769,9 @@
       ],
       "Close popover": [
         "ポップオーバーを閉じる"
+      ],
+      "Close event popover": [
+        ""
       ]
     },
     "Title": {
@@ -907,6 +910,21 @@
       "${ appName } customization": [
         "${ appName } のカスタマイズ"
       ],
+      "${ appName } Keyboard Shortcuts": [
+        "${ appName } のキーボードショートカット"
+      ],
+      "Mailbox density": [
+        ""
+      ],
+      "Mailbox layout": [
+        ""
+      ],
+      "Composer mode": [
+        "作成時の書式"
+      ],
+      "Beta Access": [
+        "ベータ版アクセス"
+      ],
       "Sign in again to continue": [
         "続行するには再度ログインしてください"
       ],
@@ -927,21 +945,6 @@
       ],
       "Human verification": [
         "人間であることの検証"
-      ],
-      "${ appName } Keyboard Shortcuts": [
-        "${ appName } のキーボードショートカット"
-      ],
-      "Mailbox density": [
-        ""
-      ],
-      "Mailbox layout": [
-        ""
-      ],
-      "Composer mode": [
-        "作成時の書式"
-      ],
-      "Beta Access": [
-        "ベータ版アクセス"
       ],
       "Edit contact group": [
         "連絡先グループを編集"
@@ -1191,29 +1194,17 @@
       ],
       "Edit event": [
         "イベントを編集"
-      ],
-      "Event details": [
-        "予定の詳細"
-      ],
-      "More options": [
-        "詳細設定を表示"
-      ],
-      "CANCELLED": [
-        ""
       ]
     },
     "Info": {
       "No results found": [
         "結果が見つかりませんでした"
       ],
-      "support team": [
-        "サポートチーム"
-      ],
       "No contacts added yet": [
         "まだ連絡先が追加されていません。"
       ],
-      "Loading": [
-        "読み込み中"
+      "support team": [
+        "サポートチーム"
       ],
       "Week": [
         "週"
@@ -1229,6 +1220,9 @@
       ],
       "Learn more": [
         "より詳しく"
+      ],
+      "Loading": [
+        "読み込み中"
       ],
       "Drop the file here to upload": [
         "アップロードするファイルをここにドロップしてください"
@@ -1482,6 +1476,9 @@
       "Expired": [
         "有効期限切れ"
       ],
+      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
+        ""
+      ],
       "here": [
         "こちら"
       ],
@@ -1520,9 +1517,6 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "アカウントの作成に問題がある場合は、招待をリクエストしてください。1営業日以内に対応します。"
-      ],
-      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
-        ""
       ],
       "${ contactEmailsLength } Member": [
         "${ contactEmailsLength } メンバー"
@@ -2029,6 +2023,21 @@
       "Payer": [
         "支払人"
       ],
+      "Keyboard shortcuts": [
+        "キーボードショートカット"
+      ],
+      "Select how your list of messages looks like by default.": [
+        ""
+      ],
+      "Select how your mailbox looks like by default.": [
+        ""
+      ],
+      "Select how your composer opens by default.": [
+        ""
+      ],
+      "Enable Beta Access": [
+        "ベータ版アクセスを有効にする"
+      ],
       "Cancel": [
         "キャンセル"
       ],
@@ -2055,21 +2064,6 @@
       ],
       "Enter the 6-digit code": [
         "6 桁のコードを入力"
-      ],
-      "Keyboard shortcuts": [
-        "キーボードショートカット"
-      ],
-      "Select how your list of messages looks like by default.": [
-        ""
-      ],
-      "Select how your mailbox looks like by default.": [
-        ""
-      ],
-      "Select how your composer opens by default.": [
-        ""
-      ],
-      "Enable Beta Access": [
-        "ベータ版アクセスを有効にする"
       ],
       "Add email address": [
         "メールアドレスの追加"
@@ -2190,6 +2184,9 @@
       ],
       "Your calendars": [
         "あなたのカレンダー"
+      ],
+      "Participant": [
+        ""
       ]
     },
     "Link": {
@@ -2525,17 +2522,17 @@
       "You have successfully unsubscribed": [
         "退会手続きが正常に行なわれました。"
       ],
-      "Code sent to ${ methodTo }": [
-        "${ methodTo } にコードを送信しました"
-      ],
-      "Verification successful": [
-        "検証に成功しました"
-      ],
       "Keyboard shortcuts preferences updated": [
         "キーボードショートカットの設定が更新されました"
       ],
       "Preference saved": [
         "設定が保存されました。"
+      ],
+      "Code sent to ${ methodTo }": [
+        "${ methodTo } にコードを送信しました"
+      ],
+      "Verification successful": [
+        "検証に成功しました"
       ],
       "Preferences saved": [
         "設定が保存されました。"
@@ -2659,6 +2656,14 @@
     "Timezone search placeholder": {
       "Search timezones": [
         "タイムゾーンの検索"
+      ]
+    },
+    "Collapsible tooltip": {
+      "Open": [
+        ""
+      ],
+      "Close": [
+        ""
       ]
     },
     "Error message": {
@@ -3326,28 +3331,6 @@
         "Bitcoin"
       ]
     },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "未払いの請求"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
-      ],
-      "Email": [
-        "メールアドレス"
-      ],
-      "SMS": [
-        "SMS"
-      ],
-      "Manual": [
-        "手動"
-      ],
-      "No verification method available": [
-        "検証方法がありません"
-      ]
-    },
     "Beta access description": {
       "Beta Access lets you use the beta version of ProtonMail, Proton Calendar, and Proton Drive before they are released to the public. This means you can be the first to try new products, get new updates, and use new features.": [
         "ベータ版アクセスでは、ProtonMail、Proton Calendar、Proton Drive のベータ版を一般公開前に使用できます。ベータ版アクセスで新製品をいち早く試し、使用することができます。"
@@ -3383,6 +3366,28 @@
       ],
       "Maximized": [
         "最大化"
+      ]
+    },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "未払いの請求"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "メールアドレス"
+      ],
+      "SMS": [
+        "SMS"
+      ],
+      "Manual": [
+        "手動"
+      ],
+      "No verification method available": [
+        "検証方法がありません"
       ]
     },
     "Notification": {
@@ -4256,11 +4261,6 @@
         "GB"
       ]
     },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "パスワードは ${ length } 文字以上必要です"
-      ]
-    },
     "Contact field label": {
       "Name": [
         "名前"
@@ -4373,6 +4373,11 @@
       ],
       "Address": [
         "メールアドレス"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "パスワードは ${ length } 文字以上必要です"
       ]
     },
     "Keyboard shortcut section name": {
@@ -4550,11 +4555,6 @@
         ""
       ]
     },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        ""
-      ]
-    },
     "Import contact. Contact identifier": {
       "unknown": [
         "不明"
@@ -4599,6 +4599,11 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "ファイル ${ formattedFilename } の読み取り中にエラーが発生しました。ファイルに正しい形式がありません。"
+      ]
+    },
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        ""
       ]
     },
     "Message": {
@@ -4733,6 +4738,11 @@
         "回"
       ]
     },
+    "Event popover close button": {
+      "Close popover": [
+        ""
+      ]
+    },
     "Calendar invite info": {
       "You accepted the invitation": [
         "あなたが招待を承認しました"
@@ -4767,11 +4777,6 @@
         ""
       ]
     },
-    "Event info": {
-      "Organized by:": [
-        ""
-      ]
-    },
     "Disabled calendar": {
       "Disabled": [
         "無効"
@@ -4780,6 +4785,48 @@
     "Disabled calendar tooltip": {
       "The event belongs to a disabled calendar.": [
         "無効なカレンダーに関連付けられたイベントです。"
+      ]
+    },
+    "Event reply": {
+      "yes": [
+        ""
+      ],
+      "maybe": [
+        ""
+      ],
+      "no": [
+        ""
+      ],
+      "unanswered": [
+        ""
+      ]
+    },
+    "Participants expand button label": {
+      "Expand participants list": [
+        ""
+      ],
+      "Collapse participants list": [
+        ""
+      ]
+    },
+    "Event edit button tooltip": {
+      "Edit event": [
+        ""
+      ]
+    },
+    "Event delete button tooltip": {
+      "Delete event": [
+        ""
+      ]
+    },
+    "Event cancelled status badge": {
+      "cancelled": [
+        ""
+      ]
+    },
+    "Calendar invite buttons label": {
+      "Attending?": [
+        ""
       ]
     }
   }

@@ -194,12 +194,6 @@
       "Request timed out.": [
         "A kérés túllépte az időkorlátot."
       ],
-      "Signature verification failed": [
-        "Az aláírás ellenőrzése sikertelen volt"
-      ],
-      "Could not find address ${ email }.": [
-        "A(z) ${ email }. e-mail cím nem található."
-      ],
       "Missing signature": [
         "Hiányzó aláírás"
       ],
@@ -208,6 +202,12 @@
       ],
       "Signature not verified": [
         "Aláírás nincs ellenőrizve"
+      ],
+      "Signature verification failed": [
+        "Az aláírás ellenőrzése sikertelen volt"
+      ],
+      "Could not find address ${ email }.": [
+        "A(z) ${ email }. e-mail cím nem található."
       ],
       "Email address disabled": [
         "Az e-mail cím le van tiltva"
@@ -341,9 +341,6 @@
       "Load image": [
         "Kép betöltése"
       ],
-      "refresh the page": [
-        "az oldal frissítése"
-      ],
       "Export": [
         "Exportálás"
       ],
@@ -379,6 +376,9 @@
       ],
       "Upload picture": [
         "Kép feltöltése"
+      ],
+      "refresh the page": [
+        "az oldal frissítése"
       ],
       "Next month": [
         "Következő hónap"
@@ -777,6 +777,9 @@
       ],
       "Close popover": [
         "Ablak bezárása"
+      ],
+      "Close event popover": [
+        ""
       ]
     },
     "Title": {
@@ -915,6 +918,21 @@
       "${ appName } customization": [
         "${ appName } testreszabása"
       ],
+      "${ appName } Keyboard Shortcuts": [
+        "${ appName } gyorsbillentyűk"
+      ],
+      "Mailbox density": [
+        ""
+      ],
+      "Mailbox layout": [
+        ""
+      ],
+      "Composer mode": [
+        "Szerkesztő módja"
+      ],
+      "Beta Access": [
+        "Béta hozzáférés"
+      ],
       "Sign in again to continue": [
         "Lépjen be újból a folytatáshoz"
       ],
@@ -935,21 +953,6 @@
       ],
       "Human verification": [
         "Robot ellenőrzés"
-      ],
-      "${ appName } Keyboard Shortcuts": [
-        "${ appName } gyorsbillentyűk"
-      ],
-      "Mailbox density": [
-        ""
-      ],
-      "Mailbox layout": [
-        ""
-      ],
-      "Composer mode": [
-        "Szerkesztő módja"
-      ],
-      "Beta Access": [
-        "Béta hozzáférés"
       ],
       "Edit contact group": [
         "Névjegy csoport szerkesztése"
@@ -1203,29 +1206,17 @@
       ],
       "Edit event": [
         "Esemény szerkesztése"
-      ],
-      "Event details": [
-        "Esemény részletei"
-      ],
-      "More options": [
-        "További lehetőségek"
-      ],
-      "CANCELLED": [
-        "TÖRÖLVE"
       ]
     },
     "Info": {
       "No results found": [
         "Nincs találat"
       ],
-      "support team": [
-        "ügyfélszolgálati csoport"
-      ],
       "No contacts added yet": [
         "Még nincsenek névjegyek"
       ],
-      "Loading": [
-        "Betöltés"
+      "support team": [
+        "ügyfélszolgálati csoport"
       ],
       "Week": [
         "Hét"
@@ -1241,6 +1232,9 @@
       ],
       "Learn more": [
         "Tudjon meg többet"
+      ],
+      "Loading": [
+        "Betöltés"
       ],
       "Drop the file here to upload": [
         "Húzza ide a fájlt a feltöltéshez"
@@ -1497,6 +1491,9 @@
       "Expired": [
         "Lejárt"
       ],
+      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
+        "Az alapvető navigációs lehetőségek akkor is megmaradnak, ha a beállításokban letiltotta a gyorsbillentyűket."
+      ],
       "here": [
         "itt"
       ],
@@ -1535,9 +1532,6 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Ha problémába ütközik a fiók létrehozásakor, kérjen egy meghívót és egy munkanapon belül segítséget nyújtunk."
-      ],
-      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
-        "Az alapvető navigációs lehetőségek akkor is megmaradnak, ha a beállításokban letiltotta a gyorsbillentyűket."
       ],
       "${ contactEmailsLength } Member": [
         "${ contactEmailsLength } tag",
@@ -2049,6 +2043,21 @@
       "Payer": [
         "Teherviselő"
       ],
+      "Keyboard shortcuts": [
+        "Gyorsbillentyűk"
+      ],
+      "Select how your list of messages looks like by default.": [
+        ""
+      ],
+      "Select how your mailbox looks like by default.": [
+        ""
+      ],
+      "Select how your composer opens by default.": [
+        ""
+      ],
+      "Enable Beta Access": [
+        "Béta hozzáférés engedélyezése"
+      ],
       "Cancel": [
         "Mégsem"
       ],
@@ -2075,21 +2084,6 @@
       ],
       "Enter the 6-digit code": [
         "Írja be a hatjegyű kódot"
-      ],
-      "Keyboard shortcuts": [
-        "Gyorsbillentyűk"
-      ],
-      "Select how your list of messages looks like by default.": [
-        ""
-      ],
-      "Select how your mailbox looks like by default.": [
-        ""
-      ],
-      "Select how your composer opens by default.": [
-        ""
-      ],
-      "Enable Beta Access": [
-        "Béta hozzáférés engedélyezése"
       ],
       "Add email address": [
         "E-mail cím hozzáadása"
@@ -2210,6 +2204,10 @@
       ],
       "Your calendars": [
         "Az ön naptárai"
+      ],
+      "Participant": [
+        "",
+        ""
       ]
     },
     "Link": {
@@ -2549,17 +2547,17 @@
       "You have successfully unsubscribed": [
         "Sikeresen leiratkozott"
       ],
-      "Code sent to ${ methodTo }": [
-        "Kód elküldve: ${ methodTo }"
-      ],
-      "Verification successful": [
-        "Sikeres ellenőrzés"
-      ],
       "Keyboard shortcuts preferences updated": [
         "Gyorsbillentyű beállítások frissítve"
       ],
       "Preference saved": [
         "Beállítások elmentve"
+      ],
+      "Code sent to ${ methodTo }": [
+        "Kód elküldve: ${ methodTo }"
+      ],
+      "Verification successful": [
+        "Sikeres ellenőrzés"
       ],
       "Preferences saved": [
         "Beállítások mentve"
@@ -2686,6 +2684,14 @@
     "Timezone search placeholder": {
       "Search timezones": [
         "Időzóna keresése"
+      ]
+    },
+    "Collapsible tooltip": {
+      "Open": [
+        ""
+      ],
+      "Close": [
+        ""
       ]
     },
     "Error message": {
@@ -3364,28 +3370,6 @@
         "Bitcoin"
       ]
     },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "Lejárt számla"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
-      ],
-      "Email": [
-        "E-mail"
-      ],
-      "SMS": [
-        "SMS"
-      ],
-      "Manual": [
-        "Kézi"
-      ],
-      "No verification method available": [
-        "Nincs elérhető ellenőrzési módszer"
-      ]
-    },
     "Beta access description": {
       "Beta Access lets you use the beta version of ProtonMail, Proton Calendar, and Proton Drive before they are released to the public. This means you can be the first to try new products, get new updates, and use new features.": [
         "A Béta hozzáférés lehetővé teszi az ön számára, hogy a ProtonMail, a Proton Calendar és a Proton Drive béta verzióit használja, mielőtt azok elérhetővé válnak a nyilvánosság számára. Ez azt jelenti, hogy ön lehet az első, aki kipróbálja az új termékeket, megkapja a legújabb frissítéseket, valamint használhatja a legújabb funkciókat."
@@ -3421,6 +3405,28 @@
       ],
       "Maximized": [
         "Teljes méretű"
+      ]
+    },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "Lejárt számla"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "E-mail"
+      ],
+      "SMS": [
+        "SMS"
+      ],
+      "Manual": [
+        "Kézi"
+      ],
+      "No verification method available": [
+        "Nincs elérhető ellenőrzési módszer"
       ]
     },
     "Notification": {
@@ -4346,12 +4352,6 @@
         "GB"
       ]
     },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "A jelszónak legalább ${ length } karakterből kell állnia",
-        "A jelszónak legalább ${ length } karakterből kell állnia"
-      ]
-    },
     "Contact field label": {
       "Name": [
         "Név"
@@ -4464,6 +4464,12 @@
       ],
       "Address": [
         "Cím"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "A jelszónak legalább ${ length } karakterből kell állnia",
+        "A jelszónak legalább ${ length } karakterből kell állnia"
       ]
     },
     "Keyboard shortcut section name": {
@@ -4641,11 +4647,6 @@
         "Eredeti üzenet megjelenítése"
       ]
     },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "Az e-mail cím nem található meg a küldő kulcsban definiált felhasználói azonosítók közt (${ keyUserIds })"
-      ]
-    },
     "Import contact. Contact identifier": {
       "unknown": [
         "ismeretlen"
@@ -4690,6 +4691,11 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "Hiba történt a fájl olvasása közben: ${ formattedFilename }. A fájl nem megfelelő formátumú."
+      ]
+    },
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "Az e-mail cím nem található meg a küldő kulcsban definiált felhasználói azonosítók közt (${ keyUserIds })"
       ]
     },
     "Message": {
@@ -4842,6 +4848,11 @@
         "alkalommal"
       ]
     },
+    "Event popover close button": {
+      "Close popover": [
+        ""
+      ]
+    },
     "Calendar invite info": {
       "You accepted the invitation": [
         "Elfogadta a meghívást"
@@ -4876,11 +4887,6 @@
         "emailben"
       ]
     },
-    "Event info": {
-      "Organized by:": [
-        "Szervező:"
-      ]
-    },
     "Disabled calendar": {
       "Disabled": [
         "Letiltva"
@@ -4888,6 +4894,48 @@
     },
     "Disabled calendar tooltip": {
       "The event belongs to a disabled calendar.": [
+        ""
+      ]
+    },
+    "Event reply": {
+      "yes": [
+        ""
+      ],
+      "maybe": [
+        ""
+      ],
+      "no": [
+        ""
+      ],
+      "unanswered": [
+        ""
+      ]
+    },
+    "Participants expand button label": {
+      "Expand participants list": [
+        ""
+      ],
+      "Collapse participants list": [
+        ""
+      ]
+    },
+    "Event edit button tooltip": {
+      "Edit event": [
+        ""
+      ]
+    },
+    "Event delete button tooltip": {
+      "Delete event": [
+        ""
+      ]
+    },
+    "Event cancelled status badge": {
+      "cancelled": [
+        ""
+      ]
+    },
+    "Calendar invite buttons label": {
+      "Attending?": [
         ""
       ]
     }

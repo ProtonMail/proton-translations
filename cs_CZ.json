@@ -198,12 +198,6 @@
       "Request timed out.": [
         "Vypršel časový limit žádosti."
       ],
-      "Signature verification failed": [
-        "Ověření podpisu selhalo"
-      ],
-      "Could not find address ${ email }.": [
-        "Nelze najít adresu ${ email }."
-      ],
       "Missing signature": [
         "Podpis není nastaven"
       ],
@@ -212,6 +206,12 @@
       ],
       "Signature not verified": [
         "Podpis nebyl ověřen"
+      ],
+      "Signature verification failed": [
+        "Ověření podpisu selhalo"
+      ],
+      "Could not find address ${ email }.": [
+        "Nelze najít adresu ${ email }."
       ],
       "Email address disabled": [
         "E-mailová adresa je zakázána"
@@ -353,9 +353,6 @@
       "Load image": [
         "Načíst obrázek"
       ],
-      "refresh the page": [
-        "aktualizovat stránku"
-      ],
       "Export": [
         "Exportovat"
       ],
@@ -391,6 +388,9 @@
       ],
       "Upload picture": [
         "Nahrát obrázek"
+      ],
+      "refresh the page": [
+        "aktualizovat stránku"
       ],
       "Next month": [
         "Další měsíc"
@@ -793,6 +793,9 @@
       ],
       "Close popover": [
         ""
+      ],
+      "Close event popover": [
+        ""
       ]
     },
     "Title": {
@@ -931,6 +934,21 @@
       "${ appName } customization": [
         "${ appName } přizpůsobení"
       ],
+      "${ appName } Keyboard Shortcuts": [
+        "${ appName } Klávesové zkratky"
+      ],
+      "Mailbox density": [
+        "Hustota mailové schránky"
+      ],
+      "Mailbox layout": [
+        "Rozvržení mailové schránky"
+      ],
+      "Composer mode": [
+        "Režim psaní zpráv"
+      ],
+      "Beta Access": [
+        "Beta přístup"
+      ],
       "Sign in again to continue": [
         "Chcete-li pokračovat, znovu se přihlaste"
       ],
@@ -951,21 +969,6 @@
       ],
       "Human verification": [
         "Captcha"
-      ],
-      "${ appName } Keyboard Shortcuts": [
-        "${ appName } Klávesové zkratky"
-      ],
-      "Mailbox density": [
-        "Hustota mailové schránky"
-      ],
-      "Mailbox layout": [
-        "Rozvržení mailové schránky"
-      ],
-      "Composer mode": [
-        "Režim psaní zpráv"
-      ],
-      "Beta Access": [
-        "Beta přístup"
       ],
       "Edit contact group": [
         "Upravit skupinu kontaktů"
@@ -1227,29 +1230,17 @@
       ],
       "Edit event": [
         "Upravit událost"
-      ],
-      "Event details": [
-        "Detaily události"
-      ],
-      "More options": [
-        "Více možností"
-      ],
-      "CANCELLED": [
-        ""
       ]
     },
     "Info": {
       "No results found": [
         "Nebyly nalezeny žádné výsledky"
       ],
-      "support team": [
-        "tým podpory"
-      ],
       "No contacts added yet": [
         "Žádné kontakty dosud nebyly přidány"
       ],
-      "Loading": [
-        "Načítá se"
+      "support team": [
+        "tým podpory"
       ],
       "Week": [
         "Týden"
@@ -1265,6 +1256,9 @@
       ],
       "Learn more": [
         "Více informací"
+      ],
+      "Loading": [
+        "Načítá se"
       ],
       "Drop the file here to upload": [
         "Přetažením sem, nahrajte soubor"
@@ -1527,6 +1521,9 @@
       "Expired": [
         "Expirováno"
       ],
+      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
+        "Základní navigace a akce zůstávají k dispozici bez ohledu na aktivní nebo neaktivní klávesové zkratky v nastavení."
+      ],
       "here": [
         "zde"
       ],
@@ -1565,9 +1562,6 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Pokud máte potíže s vytvořením účtu, požádejte prosím o pozvánku a my odpovíme do jednoho pracovního dne."
-      ],
-      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
-        "Základní navigace a akce zůstávají k dispozici bez ohledu na aktivní nebo neaktivní klávesové zkratky v nastavení."
       ],
       "${ contactEmailsLength } Member": [
         "${ contactEmailsLength } člen",
@@ -2089,6 +2083,21 @@
       "Payer": [
         "Plátce"
       ],
+      "Keyboard shortcuts": [
+        "Klávesové zkratky"
+      ],
+      "Select how your list of messages looks like by default.": [
+        "Vyberte vzhled výpisu zpráv."
+      ],
+      "Select how your mailbox looks like by default.": [
+        "Vyberte vzhled vaší schránky."
+      ],
+      "Select how your composer opens by default.": [
+        "Vyberte, jak se má otevírat psaní nové zprávy."
+      ],
+      "Enable Beta Access": [
+        "Povolit Beta přístup"
+      ],
       "Cancel": [
         "Zrušit"
       ],
@@ -2115,21 +2124,6 @@
       ],
       "Enter the 6-digit code": [
         "Zadejte 6-místný kód"
-      ],
-      "Keyboard shortcuts": [
-        "Klávesové zkratky"
-      ],
-      "Select how your list of messages looks like by default.": [
-        "Vyberte vzhled výpisu zpráv."
-      ],
-      "Select how your mailbox looks like by default.": [
-        "Vyberte vzhled vaší schránky."
-      ],
-      "Select how your composer opens by default.": [
-        "Vyberte, jak se má otevírat psaní nové zprávy."
-      ],
-      "Enable Beta Access": [
-        "Povolit Beta přístup"
       ],
       "Add email address": [
         "Přidat e-mailovou adresu"
@@ -2249,6 +2243,12 @@
         "Účastníci"
       ],
       "Your calendars": [
+        ""
+      ],
+      "Participant": [
+        "",
+        "",
+        "",
         ""
       ]
     },
@@ -2597,17 +2597,17 @@
       "You have successfully unsubscribed": [
         "Předplatné bylo úspěšně zrušeno"
       ],
-      "Code sent to ${ methodTo }": [
-        "Kód zaslán na ${ methodTo }"
-      ],
-      "Verification successful": [
-        "Ověření proběhlo úspěšně"
-      ],
       "Keyboard shortcuts preferences updated": [
         "Nastavení klávesových zkratek upraveno"
       ],
       "Preference saved": [
         "Nastavení bylo uloženo"
+      ],
+      "Code sent to ${ methodTo }": [
+        "Kód zaslán na ${ methodTo }"
+      ],
+      "Verification successful": [
+        "Ověření proběhlo úspěšně"
       ],
       "Preferences saved": [
         "Nastavení uložena"
@@ -2740,6 +2740,14 @@
     "Timezone search placeholder": {
       "Search timezones": [
         "Hledat časová pásma"
+      ]
+    },
+    "Collapsible tooltip": {
+      "Open": [
+        ""
+      ],
+      "Close": [
+        ""
       ]
     },
     "Error message": {
@@ -3440,28 +3448,6 @@
         "Bitcoin"
       ]
     },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "Faktura po splatnosti"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
-      ],
-      "Email": [
-        "E-mail"
-      ],
-      "SMS": [
-        "SMS"
-      ],
-      "Manual": [
-        "Ručně"
-      ],
-      "No verification method available": [
-        "Nejsou k dispozici žádné metody ověřování"
-      ]
-    },
     "Beta access description": {
       "Beta Access lets you use the beta version of ProtonMail, Proton Calendar, and Proton Drive before they are released to the public. This means you can be the first to try new products, get new updates, and use new features.": [
         "Beta přístup povoluje využívat ProtonMail verzi beta, Proton Kalendář a Proton Disk a to ještě předtím, než jsou dostupné pro veřejnost. V tomto případě to znamená, že jste první kdo má možnost používat nový produkt, nové aktualizace a také nové funkce."
@@ -3497,6 +3483,28 @@
       ],
       "Maximized": [
         "Maximalizováno"
+      ]
+    },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "Faktura po splatnosti"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "E-mail"
+      ],
+      "SMS": [
+        "SMS"
+      ],
+      "Manual": [
+        "Ručně"
+      ],
+      "No verification method available": [
+        "Nejsou k dispozici žádné metody ověřování"
       ]
     },
     "Notification": {
@@ -4526,14 +4534,6 @@
         "GB"
       ]
     },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "Heslo musí alespoň obsahovat ${ length } znak",
-        "Hesla musí obsahovat alespoň ${ length } znaků",
-        "Hesla musí obsahovat alespoň ${ length } znaků",
-        "Hesla musí obsahovat alespoň ${ length } znaků"
-      ]
-    },
     "Contact field label": {
       "Name": [
         "Název"
@@ -4646,6 +4646,14 @@
       ],
       "Address": [
         "Adresa"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "Heslo musí alespoň obsahovat ${ length } znak",
+        "Hesla musí obsahovat alespoň ${ length } znaků",
+        "Hesla musí obsahovat alespoň ${ length } znaků",
+        "Hesla musí obsahovat alespoň ${ length } znaků"
       ]
     },
     "Keyboard shortcut section name": {
@@ -4823,11 +4831,6 @@
         "Zobrazit původní zprávu"
       ]
     },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "E-mailová adresa nebyla nalezena mezi identifikátory uživatelů definovaných v klíči pro odesílání (${ keyUserIds })"
-      ]
-    },
     "Import contact. Contact identifier": {
       "unknown": [
         "neznámý"
@@ -4872,6 +4875,11 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "Došlo k chybě při čtení souboru ${ formattedFilename }. Soubor nemá správný formát."
+      ]
+    },
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "E-mailová adresa nebyla nalezena mezi identifikátory uživatelů definovaných v klíči pro odesílání (${ keyUserIds })"
       ]
     },
     "Message": {
@@ -5060,6 +5068,11 @@
         ""
       ]
     },
+    "Event popover close button": {
+      "Close popover": [
+        ""
+      ]
+    },
     "Calendar invite info": {
       "You accepted the invitation": [
         "Přijal(a) jste pozvání"
@@ -5094,11 +5107,6 @@
         "e-mailem"
       ]
     },
-    "Event info": {
-      "Organized by:": [
-        ""
-      ]
-    },
     "Disabled calendar": {
       "Disabled": [
         "Zakázáno"
@@ -5106,6 +5114,48 @@
     },
     "Disabled calendar tooltip": {
       "The event belongs to a disabled calendar.": [
+        ""
+      ]
+    },
+    "Event reply": {
+      "yes": [
+        ""
+      ],
+      "maybe": [
+        ""
+      ],
+      "no": [
+        ""
+      ],
+      "unanswered": [
+        ""
+      ]
+    },
+    "Participants expand button label": {
+      "Expand participants list": [
+        ""
+      ],
+      "Collapse participants list": [
+        ""
+      ]
+    },
+    "Event edit button tooltip": {
+      "Edit event": [
+        ""
+      ]
+    },
+    "Event delete button tooltip": {
+      "Delete event": [
+        ""
+      ]
+    },
+    "Event cancelled status badge": {
+      "cancelled": [
+        ""
+      ]
+    },
+    "Calendar invite buttons label": {
+      "Attending?": [
         ""
       ]
     }

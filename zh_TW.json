@@ -192,12 +192,6 @@
       "Request timed out.": [
         "請求逾時。"
       ],
-      "Signature verification failed": [
-        "簽名驗證失敗"
-      ],
-      "Could not find address ${ email }.": [
-        "找不到地址 ${ email } 。"
-      ],
       "Missing signature": [
         "簽章遺失"
       ],
@@ -206,6 +200,12 @@
       ],
       "Signature not verified": [
         "簽章未驗證"
+      ],
+      "Signature verification failed": [
+        "簽名驗證失敗"
+      ],
+      "Could not find address ${ email }.": [
+        "找不到地址 ${ email } 。"
       ],
       "Email address disabled": [
         "電子郵件地址已停用"
@@ -335,9 +335,6 @@
       "Load image": [
         "載入圖片"
       ],
-      "refresh the page": [
-        "刷新此頁"
-      ],
       "Export": [
         "匯出"
       ],
@@ -373,6 +370,9 @@
       ],
       "Upload picture": [
         "上傳圖片"
+      ],
+      "refresh the page": [
+        "刷新此頁"
       ],
       "Next month": [
         "下個月"
@@ -769,6 +769,9 @@
       ],
       "Close popover": [
         "關閉彈出視窗"
+      ],
+      "Close event popover": [
+        ""
       ]
     },
     "Title": {
@@ -907,6 +910,21 @@
       "${ appName } customization": [
         "${ appName } 自訂化"
       ],
+      "${ appName } Keyboard Shortcuts": [
+        "${ appName } 鍵盤快捷鍵"
+      ],
+      "Mailbox density": [
+        "收件匣密度"
+      ],
+      "Mailbox layout": [
+        "收件匣佈局"
+      ],
+      "Composer mode": [
+        "撰寫器模式"
+      ],
+      "Beta Access": [
+        "測試版體驗"
+      ],
       "Sign in again to continue": [
         "請重新登入以繼續"
       ],
@@ -927,21 +945,6 @@
       ],
       "Human verification": [
         "真人驗證"
-      ],
-      "${ appName } Keyboard Shortcuts": [
-        "${ appName } 鍵盤快捷鍵"
-      ],
-      "Mailbox density": [
-        "收件匣密度"
-      ],
-      "Mailbox layout": [
-        "收件匣佈局"
-      ],
-      "Composer mode": [
-        "撰寫器模式"
-      ],
-      "Beta Access": [
-        "測試版體驗"
       ],
       "Edit contact group": [
         "編輯聯絡人群組"
@@ -1191,29 +1194,17 @@
       ],
       "Edit event": [
         "編輯事件"
-      ],
-      "Event details": [
-        "活動詳情"
-      ],
-      "More options": [
-        "更多選項"
-      ],
-      "CANCELLED": [
-        "已取消"
       ]
     },
     "Info": {
       "No results found": [
         "查無結果"
       ],
-      "support team": [
-        "支援團隊"
-      ],
       "No contacts added yet": [
         "未新增任何聯絡人"
       ],
-      "Loading": [
-        "載入中"
+      "support team": [
+        "支援團隊"
       ],
       "Week": [
         "週"
@@ -1229,6 +1220,9 @@
       ],
       "Learn more": [
         "瞭解更多"
+      ],
+      "Loading": [
+        "載入中"
       ],
       "Drop the file here to upload": [
         "拖放檔案到此處上載"
@@ -1482,6 +1476,9 @@
       "Expired": [
         "過期"
       ],
+      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
+        "不論在設定中是否啟用鍵盤快捷鍵，基本導覽及動作仍然可用。"
+      ],
       "here": [
         "此處"
       ],
@@ -1520,9 +1517,6 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "如果你無法建立帳戶，請聯絡我們。我們將會於一個工作天內處理你的申請。"
-      ],
-      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
-        "不論在設定中是否啟用鍵盤快捷鍵，基本導覽及動作仍然可用。"
       ],
       "${ contactEmailsLength } Member": [
         "${ contactEmailsLength } 個成員"
@@ -2029,6 +2023,21 @@
       "Payer": [
         "付款人"
       ],
+      "Keyboard shortcuts": [
+        "鍵盤快捷鍵"
+      ],
+      "Select how your list of messages looks like by default.": [
+        "選取預設情況下您郵件清單的外觀。"
+      ],
+      "Select how your mailbox looks like by default.": [
+        "選取預設情況下的收件匣外觀。"
+      ],
+      "Select how your composer opens by default.": [
+        "選取預設情況下撰寫器開啟的方式。"
+      ],
+      "Enable Beta Access": [
+        "啟用測試版體驗"
+      ],
       "Cancel": [
         "取消"
       ],
@@ -2055,21 +2064,6 @@
       ],
       "Enter the 6-digit code": [
         "請輸入 6 位數代碼"
-      ],
-      "Keyboard shortcuts": [
-        "鍵盤快捷鍵"
-      ],
-      "Select how your list of messages looks like by default.": [
-        "選取預設情況下您郵件清單的外觀。"
-      ],
-      "Select how your mailbox looks like by default.": [
-        "選取預設情況下的收件匣外觀。"
-      ],
-      "Select how your composer opens by default.": [
-        "選取預設情況下撰寫器開啟的方式。"
-      ],
-      "Enable Beta Access": [
-        "啟用測試版體驗"
       ],
       "Add email address": [
         "新增電子郵件地址"
@@ -2190,6 +2184,9 @@
       ],
       "Your calendars": [
         "您的行事曆"
+      ],
+      "Participant": [
+        ""
       ]
     },
     "Link": {
@@ -2525,17 +2522,17 @@
       "You have successfully unsubscribed": [
         "您已成功取消訂閱"
       ],
-      "Code sent to ${ methodTo }": [
-        "已向 ${ methodTo } 發送驗證碼"
-      ],
-      "Verification successful": [
-        "驗證成功"
-      ],
       "Keyboard shortcuts preferences updated": [
         "鍵盤快捷鍵喜好設定已更新"
       ],
       "Preference saved": [
         "偏好設定已儲存"
+      ],
+      "Code sent to ${ methodTo }": [
+        "已向 ${ methodTo } 發送驗證碼"
+      ],
+      "Verification successful": [
+        "驗證成功"
       ],
       "Preferences saved": [
         "喜好設定已儲存"
@@ -2659,6 +2656,14 @@
     "Timezone search placeholder": {
       "Search timezones": [
         "搜尋時區"
+      ]
+    },
+    "Collapsible tooltip": {
+      "Open": [
+        ""
+      ],
+      "Close": [
+        ""
       ]
     },
     "Error message": {
@@ -3326,28 +3331,6 @@
         "比特幣"
       ]
     },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "逾期帳單"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA 驗證碼"
-      ],
-      "Email": [
-        "電子郵件"
-      ],
-      "SMS": [
-        "簡訊"
-      ],
-      "Manual": [
-        "手動"
-      ],
-      "No verification method available": [
-        "沒有可用的驗證方式"
-      ]
-    },
     "Beta access description": {
       "Beta Access lets you use the beta version of ProtonMail, Proton Calendar, and Proton Drive before they are released to the public. This means you can be the first to try new products, get new updates, and use new features.": [
         "測試版體驗讓您可以在釋出到公眾前使用 ProtonMail、Proton Calendar 與 Proton Drive 的測試版。這代表了您會是第一個嘗試新產品、取得新的更新以及使用新功能的人。"
@@ -3383,6 +3366,28 @@
       ],
       "Maximized": [
         "最大化"
+      ]
+    },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "逾期帳單"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA 驗證碼"
+      ],
+      "Email": [
+        "電子郵件"
+      ],
+      "SMS": [
+        "簡訊"
+      ],
+      "Manual": [
+        "手動"
+      ],
+      "No verification method available": [
+        "沒有可用的驗證方式"
       ]
     },
     "Notification": {
@@ -4256,11 +4261,6 @@
         "GB"
       ]
     },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "密碼至少必須包含 ${ length } 個字元"
-      ]
-    },
     "Contact field label": {
       "Name": [
         "姓名"
@@ -4373,6 +4373,11 @@
       ],
       "Address": [
         "地址"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "密碼至少必須包含 ${ length } 個字元"
       ]
     },
     "Keyboard shortcut section name": {
@@ -4550,11 +4555,6 @@
         "顯示原始郵件"
       ]
     },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "寄送金鑰所定義的使用者識別碼 (${ keyUserIds }) 中找不到電子郵件地址"
-      ]
-    },
     "Import contact. Contact identifier": {
       "unknown": [
         "未知"
@@ -4599,6 +4599,11 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "讀取您的檔案 ${ formattedFilename } 時發生錯誤。檔案格式有誤。"
+      ]
+    },
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "寄送金鑰所定義的使用者識別碼 (${ keyUserIds }) 中找不到電子郵件地址"
       ]
     },
     "Message": {
@@ -4733,6 +4738,11 @@
         "次"
       ]
     },
+    "Event popover close button": {
+      "Close popover": [
+        ""
+      ]
+    },
     "Calendar invite info": {
       "You accepted the invitation": [
         "您已接受此邀請"
@@ -4767,11 +4777,6 @@
         "發送電子郵件"
       ]
     },
-    "Event info": {
-      "Organized by:": [
-        "召集人："
-      ]
-    },
     "Disabled calendar": {
       "Disabled": [
         "已停用"
@@ -4780,6 +4785,48 @@
     "Disabled calendar tooltip": {
       "The event belongs to a disabled calendar.": [
         "該事件屬於已停用的日曆。"
+      ]
+    },
+    "Event reply": {
+      "yes": [
+        ""
+      ],
+      "maybe": [
+        ""
+      ],
+      "no": [
+        ""
+      ],
+      "unanswered": [
+        ""
+      ]
+    },
+    "Participants expand button label": {
+      "Expand participants list": [
+        ""
+      ],
+      "Collapse participants list": [
+        ""
+      ]
+    },
+    "Event edit button tooltip": {
+      "Edit event": [
+        ""
+      ]
+    },
+    "Event delete button tooltip": {
+      "Delete event": [
+        ""
+      ]
+    },
+    "Event cancelled status badge": {
+      "cancelled": [
+        ""
+      ]
+    },
+    "Calendar invite buttons label": {
+      "Attending?": [
+        ""
       ]
     }
   }

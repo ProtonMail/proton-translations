@@ -194,12 +194,6 @@
       "Request timed out.": [
         "A solicitação expirou."
       ],
-      "Signature verification failed": [
-        "Falha na verificação da assinatura"
-      ],
-      "Could not find address ${ email }.": [
-        "Não foi possível encontrar o endereço ${ email }."
-      ],
       "Missing signature": [
         "Assinatura ausente"
       ],
@@ -208,6 +202,12 @@
       ],
       "Signature not verified": [
         "Assinatura não verificada"
+      ],
+      "Signature verification failed": [
+        "Falha na verificação da assinatura"
+      ],
+      "Could not find address ${ email }.": [
+        "Não foi possível encontrar o endereço ${ email }."
       ],
       "Email address disabled": [
         "Endereço de e-mail desativado"
@@ -341,9 +341,6 @@
       "Load image": [
         "Carregar imagem"
       ],
-      "refresh the page": [
-        "atualizar a página"
-      ],
       "Export": [
         "Exportar"
       ],
@@ -379,6 +376,9 @@
       ],
       "Upload picture": [
         "Carregar imagem"
+      ],
+      "refresh the page": [
+        "atualizar a página"
       ],
       "Next month": [
         "Próximo mês"
@@ -777,6 +777,9 @@
       ],
       "Close popover": [
         "Fechar"
+      ],
+      "Close event popover": [
+        ""
       ]
     },
     "Title": {
@@ -915,6 +918,21 @@
       "${ appName } customization": [
         "Personalização do ${ appName }"
       ],
+      "${ appName } Keyboard Shortcuts": [
+        "${ appName } Teclas de Atalho"
+      ],
+      "Mailbox density": [
+        "Densidade da caixa de correio"
+      ],
+      "Mailbox layout": [
+        "Layout da caixa de correio"
+      ],
+      "Composer mode": [
+        "Modo de composição"
+      ],
+      "Beta Access": [
+        "Acesso Beta"
+      ],
       "Sign in again to continue": [
         "Inicie a sessão novamente para continuar"
       ],
@@ -935,21 +953,6 @@
       ],
       "Human verification": [
         "Verificação humana"
-      ],
-      "${ appName } Keyboard Shortcuts": [
-        "${ appName } Teclas de Atalho"
-      ],
-      "Mailbox density": [
-        "Densidade da caixa de correio"
-      ],
-      "Mailbox layout": [
-        "Layout da caixa de correio"
-      ],
-      "Composer mode": [
-        "Modo de composição"
-      ],
-      "Beta Access": [
-        "Acesso Beta"
       ],
       "Edit contact group": [
         "Editar grupo de contato"
@@ -1203,29 +1206,17 @@
       ],
       "Edit event": [
         "Editar evento"
-      ],
-      "Event details": [
-        "Detalhes do evento"
-      ],
-      "More options": [
-        "Mais opções"
-      ],
-      "CANCELLED": [
-        "CANCELADO"
       ]
     },
     "Info": {
       "No results found": [
         "Nenhum resultado encontrado"
       ],
-      "support team": [
-        "equipe de suporte"
-      ],
       "No contacts added yet": [
         "Nenhum contato foi adicionado ainda"
       ],
-      "Loading": [
-        "Carregando"
+      "support team": [
+        "equipe de suporte"
       ],
       "Week": [
         "Semana"
@@ -1241,6 +1232,9 @@
       ],
       "Learn more": [
         "Saiba mais"
+      ],
+      "Loading": [
+        "Carregando"
       ],
       "Drop the file here to upload": [
         "Arraste o arquivo aqui para enviá-lo"
@@ -1497,6 +1491,9 @@
       "Expired": [
         "Expirado"
       ],
+      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
+        "Navegação básica e ações permanecem disponíveis, independentemente dos atalhos de teclado estarem ativos ou não nas configurações."
+      ],
       "here": [
         "aqui"
       ],
@@ -1535,9 +1532,6 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Se você estiver tendo problemas para criar sua conta, solicite um convite e nós responderemos no prazo de um dia útil."
-      ],
-      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
-        "Navegação básica e ações permanecem disponíveis, independentemente dos atalhos de teclado estarem ativos ou não nas configurações."
       ],
       "${ contactEmailsLength } Member": [
         "${ contactEmailsLength } membro",
@@ -2049,6 +2043,21 @@
       "Payer": [
         "Pagador"
       ],
+      "Keyboard shortcuts": [
+        "Atalhos do teclado"
+      ],
+      "Select how your list of messages looks like by default.": [
+        "Selecione a aparência padrão de sua lista de mensagens."
+      ],
+      "Select how your mailbox looks like by default.": [
+        "Selecione a aparência padrão de sua caixa de correio."
+      ],
+      "Select how your composer opens by default.": [
+        "Selecionar como seu compositor abrirá por padrão."
+      ],
+      "Enable Beta Access": [
+        "Habilitar Acesso Beta"
+      ],
       "Cancel": [
         "Cancelar"
       ],
@@ -2075,21 +2084,6 @@
       ],
       "Enter the 6-digit code": [
         "Insira o código de 6 dígitos"
-      ],
-      "Keyboard shortcuts": [
-        "Atalhos do teclado"
-      ],
-      "Select how your list of messages looks like by default.": [
-        "Selecione a aparência padrão de sua lista de mensagens."
-      ],
-      "Select how your mailbox looks like by default.": [
-        "Selecione a aparência padrão de sua caixa de correio."
-      ],
-      "Select how your composer opens by default.": [
-        "Selecionar como seu compositor abrirá por padrão."
-      ],
-      "Enable Beta Access": [
-        "Habilitar Acesso Beta"
       ],
       "Add email address": [
         "Adicionar endereço de e-mail"
@@ -2210,6 +2204,10 @@
       ],
       "Your calendars": [
         "Seus calendários"
+      ],
+      "Participant": [
+        "",
+        ""
       ]
     },
     "Link": {
@@ -2549,17 +2547,17 @@
       "You have successfully unsubscribed": [
         "Você cancelou a inscrição com sucesso"
       ],
-      "Code sent to ${ methodTo }": [
-        "Código enviado para ${ methodTo }"
-      ],
-      "Verification successful": [
-        "Verificado com sucesso"
-      ],
       "Keyboard shortcuts preferences updated": [
         "Preferências de atalhos de teclado atualizadas"
       ],
       "Preference saved": [
         "Preferências salvas"
+      ],
+      "Code sent to ${ methodTo }": [
+        "Código enviado para ${ methodTo }"
+      ],
+      "Verification successful": [
+        "Verificado com sucesso"
       ],
       "Preferences saved": [
         "Preferências salvas"
@@ -2686,6 +2684,14 @@
     "Timezone search placeholder": {
       "Search timezones": [
         "Pesquisar fusos horários"
+      ]
+    },
+    "Collapsible tooltip": {
+      "Open": [
+        ""
+      ],
+      "Close": [
+        ""
       ]
     },
     "Error message": {
@@ -3364,28 +3370,6 @@
         "Bitcoin"
       ]
     },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "Fatura vencida"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
-      ],
-      "Email": [
-        "E-mail"
-      ],
-      "SMS": [
-        "SMS"
-      ],
-      "Manual": [
-        "Manual"
-      ],
-      "No verification method available": [
-        "Nenhum método de verificação disponível"
-      ]
-    },
     "Beta access description": {
       "Beta Access lets you use the beta version of ProtonMail, Proton Calendar, and Proton Drive before they are released to the public. This means you can be the first to try new products, get new updates, and use new features.": [
         "O Acesso beta permite que você use a versão beta do ProtonMail, Proton Calendar e Proton Drive antes que eles sejam liberados ao público. Isso significa que você pode ser o primeiro a experimentar novos produtos, obter novas atualizações e usar novos recursos."
@@ -3421,6 +3405,28 @@
       ],
       "Maximized": [
         "Maximizado"
+      ]
+    },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "Fatura vencida"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "E-mail"
+      ],
+      "SMS": [
+        "SMS"
+      ],
+      "Manual": [
+        "Manual"
+      ],
+      "No verification method available": [
+        "Nenhum método de verificação disponível"
       ]
     },
     "Notification": {
@@ -4346,12 +4352,6 @@
         "GB"
       ]
     },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "A senha deve conter ao menos ${ length } caractere",
-        "A senha deve conter ao menos ${ length } caracteres"
-      ]
-    },
     "Contact field label": {
       "Name": [
         "Nome"
@@ -4464,6 +4464,12 @@
       ],
       "Address": [
         "Endereço"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "A senha deve conter ao menos ${ length } caractere",
+        "A senha deve conter ao menos ${ length } caracteres"
       ]
     },
     "Keyboard shortcut section name": {
@@ -4641,11 +4647,6 @@
         "Exibir mensagem original"
       ]
     },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "Endereço de e-mail não encontrado entre as identidades de usuário definidas na chave de envio (${ keyUserIds })"
-      ]
-    },
     "Import contact. Contact identifier": {
       "unknown": [
         "desconhecido"
@@ -4690,6 +4691,11 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "Ocorreu um erro ao ler o arquivo ${ formattedFilename }. O arquivo não tem o formato correto."
+      ]
+    },
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "Endereço de e-mail não encontrado entre as identidades de usuário definidas na chave de envio (${ keyUserIds })"
       ]
     },
     "Message": {
@@ -4842,6 +4848,11 @@
         "vezes"
       ]
     },
+    "Event popover close button": {
+      "Close popover": [
+        ""
+      ]
+    },
     "Calendar invite info": {
       "You accepted the invitation": [
         "Você aceitou o convite"
@@ -4876,11 +4887,6 @@
         "por e-mail"
       ]
     },
-    "Event info": {
-      "Organized by:": [
-        "Organizado por:"
-      ]
-    },
     "Disabled calendar": {
       "Disabled": [
         "Desativado"
@@ -4889,6 +4895,48 @@
     "Disabled calendar tooltip": {
       "The event belongs to a disabled calendar.": [
         "O evento pertence a um calendário desabilitado."
+      ]
+    },
+    "Event reply": {
+      "yes": [
+        ""
+      ],
+      "maybe": [
+        ""
+      ],
+      "no": [
+        ""
+      ],
+      "unanswered": [
+        ""
+      ]
+    },
+    "Participants expand button label": {
+      "Expand participants list": [
+        ""
+      ],
+      "Collapse participants list": [
+        ""
+      ]
+    },
+    "Event edit button tooltip": {
+      "Edit event": [
+        ""
+      ]
+    },
+    "Event delete button tooltip": {
+      "Delete event": [
+        ""
+      ]
+    },
+    "Event cancelled status badge": {
+      "cancelled": [
+        ""
+      ]
+    },
+    "Calendar invite buttons label": {
+      "Attending?": [
+        ""
       ]
     }
   }

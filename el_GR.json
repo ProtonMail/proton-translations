@@ -194,12 +194,6 @@
       "Request timed out.": [
         "Λήξη χρονικού ορίου αιτήματος."
       ],
-      "Signature verification failed": [
-        "Η επαλήθευση υπογραφής απέτυχε"
-      ],
-      "Could not find address ${ email }.": [
-        "Δεν ήταν δυνατή η εύρεση της διεύθυνσης ${ email }."
-      ],
       "Missing signature": [
         "Λείπει η υπογραφή"
       ],
@@ -208,6 +202,12 @@
       ],
       "Signature not verified": [
         "Υπογραφή δεν πιστοποιήθηκε"
+      ],
+      "Signature verification failed": [
+        "Η επαλήθευση υπογραφής απέτυχε"
+      ],
+      "Could not find address ${ email }.": [
+        "Δεν ήταν δυνατή η εύρεση της διεύθυνσης ${ email }."
       ],
       "Email address disabled": [
         "Η διεύθυνση email έχει απενεργοποιηθεί"
@@ -341,9 +341,6 @@
       "Load image": [
         "Φόρτωση εικόνας"
       ],
-      "refresh the page": [
-        "ανανέωσε τη σελίδα"
-      ],
       "Export": [
         "Εξαγωγή"
       ],
@@ -379,6 +376,9 @@
       ],
       "Upload picture": [
         "Μεταφόρτωση Εικόνας"
+      ],
+      "refresh the page": [
+        "ανανέωσε τη σελίδα"
       ],
       "Next month": [
         "Επόμενος μήνας"
@@ -777,6 +777,9 @@
       ],
       "Close popover": [
         "Κλείστε το αναδυόμενο παράθυρο"
+      ],
+      "Close event popover": [
+        ""
       ]
     },
     "Title": {
@@ -915,6 +918,21 @@
       "${ appName } customization": [
         "Προσαρμογή ${ appName }"
       ],
+      "${ appName } Keyboard Shortcuts": [
+        "${ appName } Συντομεύσεις πληκτρολογίου"
+      ],
+      "Mailbox density": [
+        ""
+      ],
+      "Mailbox layout": [
+        ""
+      ],
+      "Composer mode": [
+        "Λειτουργία σύνθεσης"
+      ],
+      "Beta Access": [
+        ""
+      ],
       "Sign in again to continue": [
         "Συνδεθείτε ξανά για να συνεχίσετε"
       ],
@@ -935,21 +953,6 @@
       ],
       "Human verification": [
         "Ανθρώπινη Επαλήθευση"
-      ],
-      "${ appName } Keyboard Shortcuts": [
-        "${ appName } Συντομεύσεις πληκτρολογίου"
-      ],
-      "Mailbox density": [
-        ""
-      ],
-      "Mailbox layout": [
-        ""
-      ],
-      "Composer mode": [
-        "Λειτουργία σύνθεσης"
-      ],
-      "Beta Access": [
-        ""
       ],
       "Edit contact group": [
         "Επεξεργασία ομάδας επαφών"
@@ -1203,29 +1206,17 @@
       ],
       "Edit event": [
         "Επεξεργασία γεγονότος"
-      ],
-      "Event details": [
-        "Λεπτομέριες γεγονότος"
-      ],
-      "More options": [
-        "Περισσότερες επιλογές"
-      ],
-      "CANCELLED": [
-        "ΑΚΥΡΩΣΗ"
       ]
     },
     "Info": {
       "No results found": [
         "Δεν βρέθηκαν αποτελέσματα"
       ],
-      "support team": [
-        "ομάδα υποστήριξης"
-      ],
       "No contacts added yet": [
         "Δεν έχουν προστεθεί επαφές ακόμα"
       ],
-      "Loading": [
-        "Φόρτωση"
+      "support team": [
+        "ομάδα υποστήριξης"
       ],
       "Week": [
         "Εβδομάδα"
@@ -1241,6 +1232,9 @@
       ],
       "Learn more": [
         "Μάθετε περισσότερα"
+      ],
+      "Loading": [
+        "Φόρτωση"
       ],
       "Drop the file here to upload": [
         "Αφήστε το αρχείο εδώ για μεταφόρτωση"
@@ -1497,6 +1491,9 @@
       "Expired": [
         "Έχει λήξει"
       ],
+      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
+        "Η βασική πλοήγηση και οι ενέργειες παραμένουν διαθέσιμες ανεξάρτητα από τις συντομεύσεις πληκτρολογίου που είναι ενεργές ή όχι στις ρυθμίσεις."
+      ],
       "here": [
         "εδώ"
       ],
@@ -1535,9 +1532,6 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Αν αντιμετωπίζετε προβλήματα με τη δημιουργία του λογαριασμού σας, ζητήστε μια πρόσκληση και θα απαντήσουμε εντός μίας εργάσιμης ημέρας."
-      ],
-      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
-        "Η βασική πλοήγηση και οι ενέργειες παραμένουν διαθέσιμες ανεξάρτητα από τις συντομεύσεις πληκτρολογίου που είναι ενεργές ή όχι στις ρυθμίσεις."
       ],
       "${ contactEmailsLength } Member": [
         "${ contactEmailsLength } Μέλος",
@@ -2049,6 +2043,21 @@
       "Payer": [
         "Πληρωτής"
       ],
+      "Keyboard shortcuts": [
+        "Συντομεύσεις πληκτρολογίου"
+      ],
+      "Select how your list of messages looks like by default.": [
+        ""
+      ],
+      "Select how your mailbox looks like by default.": [
+        ""
+      ],
+      "Select how your composer opens by default.": [
+        ""
+      ],
+      "Enable Beta Access": [
+        ""
+      ],
       "Cancel": [
         "Ακύρωση"
       ],
@@ -2075,21 +2084,6 @@
       ],
       "Enter the 6-digit code": [
         "Εισάγετε τον 6-ψήφιο κωδικό"
-      ],
-      "Keyboard shortcuts": [
-        "Συντομεύσεις πληκτρολογίου"
-      ],
-      "Select how your list of messages looks like by default.": [
-        ""
-      ],
-      "Select how your mailbox looks like by default.": [
-        ""
-      ],
-      "Select how your composer opens by default.": [
-        ""
-      ],
-      "Enable Beta Access": [
-        ""
       ],
       "Add email address": [
         "Προσθήκη διεύθυνσης ηλεκτρονικού ταχυδρομείου"
@@ -2210,6 +2204,10 @@
       ],
       "Your calendars": [
         "Τα ημερολόγια σας"
+      ],
+      "Participant": [
+        "",
+        ""
       ]
     },
     "Link": {
@@ -2549,17 +2547,17 @@
       "You have successfully unsubscribed": [
         "Διαγραφήκατε με επιτυχία"
       ],
-      "Code sent to ${ methodTo }": [
-        "Ο κωδικός στάλθηκε στο ${ methodTo }"
-      ],
-      "Verification successful": [
-        "Επιτυχία επαλήθευσης"
-      ],
       "Keyboard shortcuts preferences updated": [
         "Οι προτιμήσεις συντομεύσεων πληκτρολογίου ενημερώθηκαν"
       ],
       "Preference saved": [
         "Η προτίμηση αποθηκεύτηκε"
+      ],
+      "Code sent to ${ methodTo }": [
+        "Ο κωδικός στάλθηκε στο ${ methodTo }"
+      ],
+      "Verification successful": [
+        "Επιτυχία επαλήθευσης"
       ],
       "Preferences saved": [
         "Οι προτιμήσεις αποθηκεύτηκαν"
@@ -2685,6 +2683,14 @@
     },
     "Timezone search placeholder": {
       "Search timezones": [
+        ""
+      ]
+    },
+    "Collapsible tooltip": {
+      "Open": [
+        ""
+      ],
+      "Close": [
         ""
       ]
     },
@@ -3364,28 +3370,6 @@
         "Bitcoin"
       ]
     },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "Εκπρόθεσμο τιμολόγιο"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
-      ],
-      "Email": [
-        "Email"
-      ],
-      "SMS": [
-        "SMS"
-      ],
-      "Manual": [
-        "Χειροκίνητα"
-      ],
-      "No verification method available": [
-        "Δεν υπάρχει διαθέσιμη μέθοδος επαλήθευσης"
-      ]
-    },
     "Beta access description": {
       "Beta Access lets you use the beta version of ProtonMail, Proton Calendar, and Proton Drive before they are released to the public. This means you can be the first to try new products, get new updates, and use new features.": [
         ""
@@ -3421,6 +3405,28 @@
       ],
       "Maximized": [
         "Μεγιστοποιημένος"
+      ]
+    },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "Εκπρόθεσμο τιμολόγιο"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "Email"
+      ],
+      "SMS": [
+        "SMS"
+      ],
+      "Manual": [
+        "Χειροκίνητα"
+      ],
+      "No verification method available": [
+        "Δεν υπάρχει διαθέσιμη μέθοδος επαλήθευσης"
       ]
     },
     "Notification": {
@@ -4346,12 +4352,6 @@
         "GB"
       ]
     },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "",
-        ""
-      ]
-    },
     "Contact field label": {
       "Name": [
         "Όνομα"
@@ -4464,6 +4464,12 @@
       ],
       "Address": [
         "Διεύθυνση"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "",
+        ""
       ]
     },
     "Keyboard shortcut section name": {
@@ -4641,11 +4647,6 @@
         "Προβολή αρχικού μηνύματος"
       ]
     },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "Η διεύθυνση ηλεκτρονικού ταχυδρομείου δεν βρέθηκε μεταξύ των αναγνωριστικών χρήστη που ορίζονται στο κλειδί αποστολής (${ keyUserIds })"
-      ]
-    },
     "Import contact. Contact identifier": {
       "unknown": [
         "άγνωστο"
@@ -4690,6 +4691,11 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "Παρουσιάστηκε σφάλμα κατά την ανάγνωση του αρχείου σας ${ formattedFilename }. Το αρχείο δεν έχει τη σωστή μορφή."
+      ]
+    },
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "Η διεύθυνση ηλεκτρονικού ταχυδρομείου δεν βρέθηκε μεταξύ των αναγνωριστικών χρήστη που ορίζονται στο κλειδί αποστολής (${ keyUserIds })"
       ]
     },
     "Message": {
@@ -4842,6 +4848,11 @@
         "φορές"
       ]
     },
+    "Event popover close button": {
+      "Close popover": [
+        ""
+      ]
+    },
     "Calendar invite info": {
       "You accepted the invitation": [
         "Αποδεχθήκατε την πρόσκληση"
@@ -4876,11 +4887,6 @@
         "μέσω ηλεκτρονικού ταχυδρομείου"
       ]
     },
-    "Event info": {
-      "Organized by:": [
-        "Διοργανώθηκε από:"
-      ]
-    },
     "Disabled calendar": {
       "Disabled": [
         "Απενεργοποιημένο"
@@ -4888,6 +4894,48 @@
     },
     "Disabled calendar tooltip": {
       "The event belongs to a disabled calendar.": [
+        ""
+      ]
+    },
+    "Event reply": {
+      "yes": [
+        ""
+      ],
+      "maybe": [
+        ""
+      ],
+      "no": [
+        ""
+      ],
+      "unanswered": [
+        ""
+      ]
+    },
+    "Participants expand button label": {
+      "Expand participants list": [
+        ""
+      ],
+      "Collapse participants list": [
+        ""
+      ]
+    },
+    "Event edit button tooltip": {
+      "Edit event": [
+        ""
+      ]
+    },
+    "Event delete button tooltip": {
+      "Delete event": [
+        ""
+      ]
+    },
+    "Event cancelled status badge": {
+      "cancelled": [
+        ""
+      ]
+    },
+    "Calendar invite buttons label": {
+      "Attending?": [
         ""
       ]
     }

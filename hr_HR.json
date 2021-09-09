@@ -196,12 +196,6 @@
       "Request timed out.": [
         "Zahtjev je istekao."
       ],
-      "Signature verification failed": [
-        "Potvrda potpisa je neuspješna"
-      ],
-      "Could not find address ${ email }.": [
-        "Ne mogu pronaći adresu ${ email }."
-      ],
       "Missing signature": [
         "Nedostaje potpis"
       ],
@@ -210,6 +204,12 @@
       ],
       "Signature not verified": [
         "Potpis nije ovjeren"
+      ],
+      "Signature verification failed": [
+        "Potvrda potpisa je neuspješna"
+      ],
+      "Could not find address ${ email }.": [
+        "Ne mogu pronaći adresu ${ email }."
       ],
       "Email address disabled": [
         "Adresa e-pošte je onemogućena"
@@ -347,9 +347,6 @@
       "Load image": [
         "Učitaj sliku"
       ],
-      "refresh the page": [
-        "osvježi stranicu"
-      ],
       "Export": [
         "Izvoz"
       ],
@@ -385,6 +382,9 @@
       ],
       "Upload picture": [
         "Učitaj sliku"
+      ],
+      "refresh the page": [
+        "osvježi stranicu"
       ],
       "Next month": [
         "Sljedeći mjesec"
@@ -785,6 +785,9 @@
       ],
       "Close popover": [
         "Zatvori skočni prozor"
+      ],
+      "Close event popover": [
+        ""
       ]
     },
     "Title": {
@@ -923,6 +926,21 @@
       "${ appName } customization": [
         "${ appName } prilagođavanje"
       ],
+      "${ appName } Keyboard Shortcuts": [
+        "${ appName } tipkovni prečaci"
+      ],
+      "Mailbox density": [
+        "Gustoća poštanskog sandučića"
+      ],
+      "Mailbox layout": [
+        "Izgled poštanskog sandučića"
+      ],
+      "Composer mode": [
+        "Način rada prozora za novu poruku"
+      ],
+      "Beta Access": [
+        "Beta pristup"
+      ],
       "Sign in again to continue": [
         "Ponovno se prijavite da biste nastavili"
       ],
@@ -943,21 +961,6 @@
       ],
       "Human verification": [
         "Ljudska provjera"
-      ],
-      "${ appName } Keyboard Shortcuts": [
-        "${ appName } tipkovni prečaci"
-      ],
-      "Mailbox density": [
-        "Gustoća poštanskog sandučića"
-      ],
-      "Mailbox layout": [
-        "Izgled poštanskog sandučića"
-      ],
-      "Composer mode": [
-        "Način rada prozora za novu poruku"
-      ],
-      "Beta Access": [
-        "Beta pristup"
       ],
       "Edit contact group": [
         "Uredi grupu kontakata"
@@ -1215,29 +1218,17 @@
       ],
       "Edit event": [
         "Uredi događaj"
-      ],
-      "Event details": [
-        "Detalji događaja"
-      ],
-      "More options": [
-        "Više opcija"
-      ],
-      "CANCELLED": [
-        "OTKAZANO"
       ]
     },
     "Info": {
       "No results found": [
         "Nema rezultata"
       ],
-      "support team": [
-        "tim za podršku"
-      ],
       "No contacts added yet": [
         "Nema dodanih kontakata"
       ],
-      "Loading": [
-        "Učitavanje"
+      "support team": [
+        "tim za podršku"
       ],
       "Week": [
         "Tjedan"
@@ -1253,6 +1244,9 @@
       ],
       "Learn more": [
         "Saznajte više"
+      ],
+      "Loading": [
+        "Učitavanje"
       ],
       "Drop the file here to upload": [
         "Ispustite datoteku ovdje za prijenos"
@@ -1512,6 +1506,9 @@
       "Expired": [
         "Isteklo"
       ],
+      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
+        "Osnovna navigacija i radnje ostaju dostupni bez obzira jesu li tipkovni prečaci aktivni ili ne u postavkama."
+      ],
       "here": [
         "ovdje"
       ],
@@ -1550,9 +1547,6 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Ako imate poteškoća s otvaranjem računa, zatražite pozivnicu i odgovorit ćemo vam u roku jednog radnog dana."
-      ],
-      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
-        "Osnovna navigacija i radnje ostaju dostupni bez obzira jesu li tipkovni prečaci aktivni ili ne u postavkama."
       ],
       "${ contactEmailsLength } Member": [
         "${ contactEmailsLength } član",
@@ -2069,6 +2063,21 @@
       "Payer": [
         "Platitelj"
       ],
+      "Keyboard shortcuts": [
+        "Tipkovni prečaci"
+      ],
+      "Select how your list of messages looks like by default.": [
+        "Odaberite kako će vaš popis poruka izgledati po zadanom."
+      ],
+      "Select how your mailbox looks like by default.": [
+        "Odaberite kako će se vaš prozor za nove poruke otvarati po zadanom."
+      ],
+      "Select how your composer opens by default.": [
+        "Odaberite kako će se vaš prozor za nove poruke otvarati po zadanom."
+      ],
+      "Enable Beta Access": [
+        "Omogući Beta pristup"
+      ],
       "Cancel": [
         "Poništi"
       ],
@@ -2095,21 +2104,6 @@
       ],
       "Enter the 6-digit code": [
         "Unesite 6-znamenkasti kôd"
-      ],
-      "Keyboard shortcuts": [
-        "Tipkovni prečaci"
-      ],
-      "Select how your list of messages looks like by default.": [
-        "Odaberite kako će vaš popis poruka izgledati po zadanom."
-      ],
-      "Select how your mailbox looks like by default.": [
-        "Odaberite kako će se vaš prozor za nove poruke otvarati po zadanom."
-      ],
-      "Select how your composer opens by default.": [
-        "Odaberite kako će se vaš prozor za nove poruke otvarati po zadanom."
-      ],
-      "Enable Beta Access": [
-        "Omogući Beta pristup"
       ],
       "Add email address": [
         "Dodaj adresu e-pošte"
@@ -2230,6 +2224,11 @@
       ],
       "Your calendars": [
         "Vaši kalendari"
+      ],
+      "Participant": [
+        "",
+        "",
+        ""
       ]
     },
     "Link": {
@@ -2573,17 +2572,17 @@
       "You have successfully unsubscribed": [
         "Uspješno ste poništili pretplatu"
       ],
-      "Code sent to ${ methodTo }": [
-        "Kôd je poslan na ${ methodTo }"
-      ],
-      "Verification successful": [
-        "Uspješna provjera"
-      ],
       "Keyboard shortcuts preferences updated": [
         "Postavke tipkovnih prečaca su ažurirane"
       ],
       "Preference saved": [
         "Postavke su spremljene"
+      ],
+      "Code sent to ${ methodTo }": [
+        "Kôd je poslan na ${ methodTo }"
+      ],
+      "Verification successful": [
+        "Uspješna provjera"
       ],
       "Preferences saved": [
         "Postavke su spremljene"
@@ -2713,6 +2712,14 @@
     "Timezone search placeholder": {
       "Search timezones": [
         "Pretražite vremensku zonu"
+      ]
+    },
+    "Collapsible tooltip": {
+      "Open": [
+        ""
+      ],
+      "Close": [
+        ""
       ]
     },
     "Error message": {
@@ -3402,28 +3409,6 @@
         "Bitcoin"
       ]
     },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "Neplaćena faktura"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
-      ],
-      "Email": [
-        "E-pošta"
-      ],
-      "SMS": [
-        "SMS"
-      ],
-      "Manual": [
-        "Ručno"
-      ],
-      "No verification method available": [
-        "Nema dostupne metode za provjeru"
-      ]
-    },
     "Beta access description": {
       "Beta Access lets you use the beta version of ProtonMail, Proton Calendar, and Proton Drive before they are released to the public. This means you can be the first to try new products, get new updates, and use new features.": [
         "Beta pristup vam omogućava upotrebu beta verzije ProtonMail, Proton Calendar i Proton Drive aplikacija prije nego što budu dostupne za javnost. To znači da možete prvi isprobati nove proizvode, dobiti nova ažuriranja i koristiti nove značajke."
@@ -3459,6 +3444,28 @@
       ],
       "Maximized": [
         "Maksimizirano"
+      ]
+    },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "Neplaćena faktura"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "E-pošta"
+      ],
+      "SMS": [
+        "SMS"
+      ],
+      "Manual": [
+        "Ručno"
+      ],
+      "No verification method available": [
+        "Nema dostupne metode za provjeru"
       ]
     },
     "Notification": {
@@ -4436,13 +4443,6 @@
         "GB"
       ]
     },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "Lozinka mora sadržavati najmanje ${ length } znak",
-        "Lozinka mora sadržavati najmanje ${ length } znaka",
-        "Lozinka mora sadržavati najmanje ${ length } znakova"
-      ]
-    },
     "Contact field label": {
       "Name": [
         "Naziv"
@@ -4555,6 +4555,13 @@
       ],
       "Address": [
         "Adresa"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "Lozinka mora sadržavati najmanje ${ length } znak",
+        "Lozinka mora sadržavati najmanje ${ length } znaka",
+        "Lozinka mora sadržavati najmanje ${ length } znakova"
       ]
     },
     "Keyboard shortcut section name": {
@@ -4732,11 +4739,6 @@
         "Prikaži originalnu poruku"
       ]
     },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "Adresa e-pošte nije pronađena među korisničkim ID-ovima definiranim u ključu za slanje (${ keyUserIds })"
-      ]
-    },
     "Import contact. Contact identifier": {
       "unknown": [
         "nepoznato"
@@ -4781,6 +4783,11 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "Došlo je do pogreške prilikom čitanja vaše datoteke ${ formattedFilename }. Datoteka nema pravi format."
+      ]
+    },
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "Adresa e-pošte nije pronađena među korisničkim ID-ovima definiranim u ključu za slanje (${ keyUserIds })"
       ]
     },
     "Message": {
@@ -4951,6 +4958,11 @@
         "puta"
       ]
     },
+    "Event popover close button": {
+      "Close popover": [
+        ""
+      ]
+    },
     "Calendar invite info": {
       "You accepted the invitation": [
         "Prihvatili ste pozivnicu"
@@ -4985,11 +4997,6 @@
         "putem e-pošte"
       ]
     },
-    "Event info": {
-      "Organized by:": [
-        "Organizirao/la:"
-      ]
-    },
     "Disabled calendar": {
       "Disabled": [
         "Onemogućeno"
@@ -4997,6 +5004,48 @@
     },
     "Disabled calendar tooltip": {
       "The event belongs to a disabled calendar.": [
+        ""
+      ]
+    },
+    "Event reply": {
+      "yes": [
+        ""
+      ],
+      "maybe": [
+        ""
+      ],
+      "no": [
+        ""
+      ],
+      "unanswered": [
+        ""
+      ]
+    },
+    "Participants expand button label": {
+      "Expand participants list": [
+        ""
+      ],
+      "Collapse participants list": [
+        ""
+      ]
+    },
+    "Event edit button tooltip": {
+      "Edit event": [
+        ""
+      ]
+    },
+    "Event delete button tooltip": {
+      "Delete event": [
+        ""
+      ]
+    },
+    "Event cancelled status badge": {
+      "cancelled": [
+        ""
+      ]
+    },
+    "Calendar invite buttons label": {
+      "Attending?": [
         ""
       ]
     }

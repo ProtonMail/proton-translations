@@ -192,12 +192,6 @@
       "Request timed out.": [
         "请求超时。"
       ],
-      "Signature verification failed": [
-        "签名验证失败"
-      ],
-      "Could not find address ${ email }.": [
-        "找不到邮箱 ${ email }。"
-      ],
       "Missing signature": [
         "缺少签名"
       ],
@@ -206,6 +200,12 @@
       ],
       "Signature not verified": [
         "签名未验证"
+      ],
+      "Signature verification failed": [
+        "签名验证失败"
+      ],
+      "Could not find address ${ email }.": [
+        "找不到邮箱 ${ email }。"
       ],
       "Email address disabled": [
         "Email 地址已禁用"
@@ -335,9 +335,6 @@
       "Load image": [
         "加载图片"
       ],
-      "refresh the page": [
-        "刷新页面"
-      ],
       "Export": [
         "导出"
       ],
@@ -373,6 +370,9 @@
       ],
       "Upload picture": [
         "上传图片"
+      ],
+      "refresh the page": [
+        "刷新页面"
       ],
       "Next month": [
         "下个月"
@@ -769,6 +769,9 @@
       ],
       "Close popover": [
         "关闭对话框"
+      ],
+      "Close event popover": [
+        ""
       ]
     },
     "Title": {
@@ -907,6 +910,21 @@
       "${ appName } customization": [
         "自定义 ${ appName }"
       ],
+      "${ appName } Keyboard Shortcuts": [
+        "${ appName } 快捷键"
+      ],
+      "Mailbox density": [
+        "邮箱密度"
+      ],
+      "Mailbox layout": [
+        "邮箱布局"
+      ],
+      "Composer mode": [
+        "编辑窗模式"
+      ],
+      "Beta Access": [
+        "测试版功能"
+      ],
       "Sign in again to continue": [
         "此操作需要重新登录"
       ],
@@ -927,21 +945,6 @@
       ],
       "Human verification": [
         "身份验证"
-      ],
-      "${ appName } Keyboard Shortcuts": [
-        "${ appName } 快捷键"
-      ],
-      "Mailbox density": [
-        "邮箱密度"
-      ],
-      "Mailbox layout": [
-        "邮箱布局"
-      ],
-      "Composer mode": [
-        "编辑窗模式"
-      ],
-      "Beta Access": [
-        "测试版功能"
       ],
       "Edit contact group": [
         "更改联系人群组"
@@ -1191,29 +1194,17 @@
       ],
       "Edit event": [
         "编辑日程"
-      ],
-      "Event details": [
-        "事项详情"
-      ],
-      "More options": [
-        "更多选项"
-      ],
-      "CANCELLED": [
-        "已取消"
       ]
     },
     "Info": {
       "No results found": [
         "未找到结果"
       ],
-      "support team": [
-        "客服团队"
-      ],
       "No contacts added yet": [
         "尚未添加联系人"
       ],
-      "Loading": [
-        "加载中"
+      "support team": [
+        "客服团队"
       ],
       "Week": [
         "周"
@@ -1229,6 +1220,9 @@
       ],
       "Learn more": [
         "了解详情"
+      ],
+      "Loading": [
+        "加载中"
       ],
       "Drop the file here to upload": [
         "请将文件拖拽至此处进行上传"
@@ -1482,6 +1476,9 @@
       "Expired": [
         "已过期"
       ],
+      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
+        "无论设置中键盘快捷键是否激活，一些基本的导航和操作始终可用"
+      ],
       "here": [
         "这里"
       ],
@@ -1520,9 +1517,6 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "若您创建账户存在困难，请提交注册申请，我们将在一个工作日内回复。"
-      ],
-      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
-        "无论设置中键盘快捷键是否激活，一些基本的导航和操作始终可用"
       ],
       "${ contactEmailsLength } Member": [
         "${ contactEmailsLength } 成员"
@@ -2029,6 +2023,21 @@
       "Payer": [
         "付款人"
       ],
+      "Keyboard shortcuts": [
+        "键盘快捷键"
+      ],
+      "Select how your list of messages looks like by default.": [
+        "请选择收件箱列表的默认外观"
+      ],
+      "Select how your mailbox looks like by default.": [
+        "请选择邮箱的默认外观"
+      ],
+      "Select how your composer opens by default.": [
+        "请选择编辑窗的默认外观"
+      ],
+      "Enable Beta Access": [
+        "启用测试版功能"
+      ],
       "Cancel": [
         "取消"
       ],
@@ -2055,21 +2064,6 @@
       ],
       "Enter the 6-digit code": [
         "请输入 6 位验证码"
-      ],
-      "Keyboard shortcuts": [
-        "键盘快捷键"
-      ],
-      "Select how your list of messages looks like by default.": [
-        "请选择收件箱列表的默认外观"
-      ],
-      "Select how your mailbox looks like by default.": [
-        "请选择邮箱的默认外观"
-      ],
-      "Select how your composer opens by default.": [
-        "请选择编辑窗的默认外观"
-      ],
-      "Enable Beta Access": [
-        "启用测试版功能"
       ],
       "Add email address": [
         "添加邮箱地址"
@@ -2190,6 +2184,9 @@
       ],
       "Your calendars": [
         "您的日历"
+      ],
+      "Participant": [
+        ""
       ]
     },
     "Link": {
@@ -2525,17 +2522,17 @@
       "You have successfully unsubscribed": [
         "您已成功降级"
       ],
-      "Code sent to ${ methodTo }": [
-        "代码已发送到 ${ methodTo }"
-      ],
-      "Verification successful": [
-        "验证成功"
-      ],
       "Keyboard shortcuts preferences updated": [
         "键盘快捷键设置已更新"
       ],
       "Preference saved": [
         "设置已保存"
+      ],
+      "Code sent to ${ methodTo }": [
+        "代码已发送到 ${ methodTo }"
+      ],
+      "Verification successful": [
+        "验证成功"
       ],
       "Preferences saved": [
         "设置已保存"
@@ -2659,6 +2656,14 @@
     "Timezone search placeholder": {
       "Search timezones": [
         "搜索时区"
+      ]
+    },
+    "Collapsible tooltip": {
+      "Open": [
+        ""
+      ],
+      "Close": [
+        ""
       ]
     },
     "Error message": {
@@ -3326,28 +3331,6 @@
         "比特币"
       ]
     },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "逾期账单"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "验证码"
-      ],
-      "Email": [
-        "邮件"
-      ],
-      "SMS": [
-        "短信"
-      ],
-      "Manual": [
-        "手动"
-      ],
-      "No verification method available": [
-        "没有可用的验证方法"
-      ]
-    },
     "Beta access description": {
       "Beta Access lets you use the beta version of ProtonMail, Proton Calendar, and Proton Drive before they are released to the public. This means you can be the first to try new products, get new updates, and use new features.": [
         "启用 \"测试版功能\" 能让您在正式发布之前使用 ProtonMail, Proton Calendar, Proton Drive 的测试版本。这代表您可以抢先体验新产品，获得最新更新，并使用最新推出的功能"
@@ -3383,6 +3366,28 @@
       ],
       "Maximized": [
         "最大化"
+      ]
+    },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "逾期账单"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "验证码"
+      ],
+      "Email": [
+        "邮件"
+      ],
+      "SMS": [
+        "短信"
+      ],
+      "Manual": [
+        "手动"
+      ],
+      "No verification method available": [
+        "没有可用的验证方法"
       ]
     },
     "Notification": {
@@ -4256,11 +4261,6 @@
         "GB"
       ]
     },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "密码必须至少包含 ${ length } 个字符"
-      ]
-    },
     "Contact field label": {
       "Name": [
         "姓名"
@@ -4373,6 +4373,11 @@
       ],
       "Address": [
         "地址"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "密码必须至少包含 ${ length } 个字符"
       ]
     },
     "Keyboard shortcut section name": {
@@ -4550,11 +4555,6 @@
         "显示原始邮件"
       ]
     },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "在发送密钥中定义的用户编号中找不到电子邮件地址 (${ keyUserIds })"
-      ]
-    },
     "Import contact. Contact identifier": {
       "unknown": [
         "未知"
@@ -4599,6 +4599,11 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "读取文件 ${ formattedFilename } 出错，文件格式不对"
+      ]
+    },
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "在发送密钥中定义的用户编号中找不到电子邮件地址 (${ keyUserIds })"
       ]
     },
     "Message": {
@@ -4733,6 +4738,11 @@
         "次"
       ]
     },
+    "Event popover close button": {
+      "Close popover": [
+        ""
+      ]
+    },
     "Calendar invite info": {
       "You accepted the invitation": [
         "您接受了邀请"
@@ -4767,11 +4777,6 @@
         "按电子邮件"
       ]
     },
-    "Event info": {
-      "Organized by:": [
-        "组织人："
-      ]
-    },
     "Disabled calendar": {
       "Disabled": [
         "停用"
@@ -4780,6 +4785,48 @@
     "Disabled calendar tooltip": {
       "The event belongs to a disabled calendar.": [
         "此为已停用日历中的事件"
+      ]
+    },
+    "Event reply": {
+      "yes": [
+        ""
+      ],
+      "maybe": [
+        ""
+      ],
+      "no": [
+        ""
+      ],
+      "unanswered": [
+        ""
+      ]
+    },
+    "Participants expand button label": {
+      "Expand participants list": [
+        ""
+      ],
+      "Collapse participants list": [
+        ""
+      ]
+    },
+    "Event edit button tooltip": {
+      "Edit event": [
+        ""
+      ]
+    },
+    "Event delete button tooltip": {
+      "Delete event": [
+        ""
+      ]
+    },
+    "Event cancelled status badge": {
+      "cancelled": [
+        ""
+      ]
+    },
+    "Calendar invite buttons label": {
+      "Attending?": [
+        ""
       ]
     }
   }

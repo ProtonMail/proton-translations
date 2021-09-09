@@ -194,12 +194,6 @@
       "Request timed out.": [
         "İstek zaman aşımına uğradı."
       ],
-      "Signature verification failed": [
-        "İmza doğrulaması başarısız oldu"
-      ],
-      "Could not find address ${ email }.": [
-        "${ email } adresi bulunamadı."
-      ],
       "Missing signature": [
         "İmza eksik"
       ],
@@ -208,6 +202,12 @@
       ],
       "Signature not verified": [
         "İmza doğrulanamadı"
+      ],
+      "Signature verification failed": [
+        "İmza doğrulaması başarısız oldu"
+      ],
+      "Could not find address ${ email }.": [
+        "${ email } adresi bulunamadı."
       ],
       "Email address disabled": [
         "E-posta adresi devre dışı"
@@ -341,9 +341,6 @@
       "Load image": [
         "Resim yükle"
       ],
-      "refresh the page": [
-        "sayfayı yenileyin"
-      ],
       "Export": [
         "Dışa aktar"
       ],
@@ -379,6 +376,9 @@
       ],
       "Upload picture": [
         "Resim yükle"
+      ],
+      "refresh the page": [
+        "sayfayı yenileyin"
       ],
       "Next month": [
         "Gelecek ay"
@@ -777,6 +777,9 @@
       ],
       "Close popover": [
         "Açılan pencereyi kapat"
+      ],
+      "Close event popover": [
+        ""
       ]
     },
     "Title": {
@@ -915,6 +918,21 @@
       "${ appName } customization": [
         "${ appName } özelleştirme"
       ],
+      "${ appName } Keyboard Shortcuts": [
+        "${ appName } Klavye Kısayolları"
+      ],
+      "Mailbox density": [
+        "Posta kutusu yoğunluğu"
+      ],
+      "Mailbox layout": [
+        "Posta kutusu düzeni"
+      ],
+      "Composer mode": [
+        "Besteci modu"
+      ],
+      "Beta Access": [
+        "Beta Erişimi"
+      ],
       "Sign in again to continue": [
         "Devam etmek için tekrar giriş yapın"
       ],
@@ -935,21 +953,6 @@
       ],
       "Human verification": [
         "İnsan doğrulaması"
-      ],
-      "${ appName } Keyboard Shortcuts": [
-        "${ appName } Klavye Kısayolları"
-      ],
-      "Mailbox density": [
-        "Posta kutusu yoğunluğu"
-      ],
-      "Mailbox layout": [
-        "Posta kutusu düzeni"
-      ],
-      "Composer mode": [
-        "Besteci modu"
-      ],
-      "Beta Access": [
-        "Beta Erişimi"
       ],
       "Edit contact group": [
         "Kişi grubunu düzenle"
@@ -1203,29 +1206,17 @@
       ],
       "Edit event": [
         "Etkinlik ekle"
-      ],
-      "Event details": [
-        "Etkinlik detayları"
-      ],
-      "More options": [
-        "Diğer seçenekler"
-      ],
-      "CANCELLED": [
-        "İPTAL EDİLDİ"
       ]
     },
     "Info": {
       "No results found": [
         "Sonuç bulunamadı"
       ],
-      "support team": [
-        "destek ekibi"
-      ],
       "No contacts added yet": [
         "Henüz kişi eklenmedi"
       ],
-      "Loading": [
-        "Yükleniyor"
+      "support team": [
+        "destek ekibi"
       ],
       "Week": [
         "Hafta"
@@ -1241,6 +1232,9 @@
       ],
       "Learn more": [
         "Daha fazla bilgi edinin"
+      ],
+      "Loading": [
+        "Yükleniyor"
       ],
       "Drop the file here to upload": [
         "Yüklemek için bir dosyayı buraya bırakın"
@@ -1497,6 +1491,9 @@
       "Expired": [
         "Süresi dolmuş"
       ],
+      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
+        "Temel gezinme ve eylemler, ayarlardaki klavye kısayollarının etkin olup olmamasından bağımsız olarak kullanılabilir kalır."
+      ],
       "here": [
         "burada"
       ],
@@ -1535,9 +1532,6 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Hesap oluşturmada sorun yaşıyorsanız, lütfen bir davetiye isteyin, bir iş günü içinde size yanıt vereceğiz."
-      ],
-      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
-        "Temel gezinme ve eylemler, ayarlardaki klavye kısayollarının etkin olup olmamasından bağımsız olarak kullanılabilir kalır."
       ],
       "${ contactEmailsLength } Member": [
         "${ contactEmailsLength } Üye",
@@ -2049,6 +2043,21 @@
       "Payer": [
         "Ödeyen"
       ],
+      "Keyboard shortcuts": [
+        "Klavye kısayolları"
+      ],
+      "Select how your list of messages looks like by default.": [
+        "İleti listenizin varsayılan olarak nasıl görüneceğini seçin."
+      ],
+      "Select how your mailbox looks like by default.": [
+        "Posta kutunuzun varsayılan olarak nasıl görüneceğini seçin."
+      ],
+      "Select how your composer opens by default.": [
+        "Oluşturucunuzun varsayılan olarak nasıl açılacağını seçin."
+      ],
+      "Enable Beta Access": [
+        "Beta Erişimini Etkinleştir"
+      ],
       "Cancel": [
         "İptal et"
       ],
@@ -2075,21 +2084,6 @@
       ],
       "Enter the 6-digit code": [
         "6 haneli kodu girin"
-      ],
-      "Keyboard shortcuts": [
-        "Klavye kısayolları"
-      ],
-      "Select how your list of messages looks like by default.": [
-        "İleti listenizin varsayılan olarak nasıl görüneceğini seçin."
-      ],
-      "Select how your mailbox looks like by default.": [
-        "Posta kutunuzun varsayılan olarak nasıl görüneceğini seçin."
-      ],
-      "Select how your composer opens by default.": [
-        "Oluşturucunuzun varsayılan olarak nasıl açılacağını seçin."
-      ],
-      "Enable Beta Access": [
-        "Beta Erişimini Etkinleştir"
       ],
       "Add email address": [
         "E-posta adresi ekle"
@@ -2210,6 +2204,10 @@
       ],
       "Your calendars": [
         "Takvimin"
+      ],
+      "Participant": [
+        "",
+        ""
       ]
     },
     "Link": {
@@ -2549,17 +2547,17 @@
       "You have successfully unsubscribed": [
         "Aboneliğinizi başarıyla iptal ettiniz"
       ],
-      "Code sent to ${ methodTo }": [
-        "${ methodTo } kod gönder"
-      ],
-      "Verification successful": [
-        "Doğrulama başarılı"
-      ],
       "Keyboard shortcuts preferences updated": [
         "Klavye kısayol tercihleri güncellendi"
       ],
       "Preference saved": [
         "Tercih kaydedildi"
+      ],
+      "Code sent to ${ methodTo }": [
+        "${ methodTo } kod gönder"
+      ],
+      "Verification successful": [
+        "Doğrulama başarılı"
       ],
       "Preferences saved": [
         "Tercihler kaydedildi"
@@ -2686,6 +2684,14 @@
     "Timezone search placeholder": {
       "Search timezones": [
         "Zaman dilimlerini ara"
+      ]
+    },
+    "Collapsible tooltip": {
+      "Open": [
+        ""
+      ],
+      "Close": [
+        ""
       ]
     },
     "Error message": {
@@ -3364,28 +3370,6 @@
         "Bitcoin"
       ]
     },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "Gecikmiş fatura"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
-      ],
-      "Email": [
-        "E-posta"
-      ],
-      "SMS": [
-        "SMS"
-      ],
-      "Manual": [
-        "El ile"
-      ],
-      "No verification method available": [
-        "Kullanılabilir doğrulama yöntemi yok"
-      ]
-    },
     "Beta access description": {
       "Beta Access lets you use the beta version of ProtonMail, Proton Calendar, and Proton Drive before they are released to the public. This means you can be the first to try new products, get new updates, and use new features.": [
         "Beta Erişimi, herkese sunulmadan önce ProtonMail, Proton Calendar ve Proton Drive'ın beta sürümünü kullanmanıza olanak tanır. Bu, yeni ürünleri ilk deneyen, yeni güncellemeleri ilk alan ve yeni özellikleri kullanan ilk kişi olabileceğiniz anlamına gelir."
@@ -3421,6 +3405,28 @@
       ],
       "Maximized": [
         "Genişletilmiş"
+      ]
+    },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "Gecikmiş fatura"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "E-posta"
+      ],
+      "SMS": [
+        "SMS"
+      ],
+      "Manual": [
+        "El ile"
+      ],
+      "No verification method available": [
+        "Kullanılabilir doğrulama yöntemi yok"
       ]
     },
     "Notification": {
@@ -4346,12 +4352,6 @@
         "GB"
       ]
     },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "Şifre en az ${ length } karakter içermelidir",
-        "Şifre en az ${ length } karakter içermelidir"
-      ]
-    },
     "Contact field label": {
       "Name": [
         "Ad"
@@ -4464,6 +4464,12 @@
       ],
       "Address": [
         "Adres"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "Şifre en az ${ length } karakter içermelidir",
+        "Şifre en az ${ length } karakter içermelidir"
       ]
     },
     "Keyboard shortcut section name": {
@@ -4641,11 +4647,6 @@
         "İletinin aslını görüntüle"
       ]
     },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "E-posta adresi, gönderme anahtarında tanımlanan kullanıcı kimlikleri arasında bulunamadı (${ keyUserIds })"
-      ]
-    },
     "Import contact. Contact identifier": {
       "unknown": [
         "bilinmiyor"
@@ -4690,6 +4691,11 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "${ formattedFilename } dosyanız okunurken bir hata oluştu. Dosya doğru biçime sahip değil."
+      ]
+    },
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "E-posta adresi, gönderme anahtarında tanımlanan kullanıcı kimlikleri arasında bulunamadı (${ keyUserIds })"
       ]
     },
     "Message": {
@@ -4842,6 +4848,11 @@
         "zaman"
       ]
     },
+    "Event popover close button": {
+      "Close popover": [
+        ""
+      ]
+    },
     "Calendar invite info": {
       "You accepted the invitation": [
         "Daveti kabul ettiniz"
@@ -4876,11 +4887,6 @@
         "eposta ile"
       ]
     },
-    "Event info": {
-      "Organized by:": [
-        "Düzenleyen:"
-      ]
-    },
     "Disabled calendar": {
       "Disabled": [
         "Devre Dışı"
@@ -4889,6 +4895,48 @@
     "Disabled calendar tooltip": {
       "The event belongs to a disabled calendar.": [
         "Etkinlik, devre dışı bırakılmış bir takvime ait."
+      ]
+    },
+    "Event reply": {
+      "yes": [
+        ""
+      ],
+      "maybe": [
+        ""
+      ],
+      "no": [
+        ""
+      ],
+      "unanswered": [
+        ""
+      ]
+    },
+    "Participants expand button label": {
+      "Expand participants list": [
+        ""
+      ],
+      "Collapse participants list": [
+        ""
+      ]
+    },
+    "Event edit button tooltip": {
+      "Edit event": [
+        ""
+      ]
+    },
+    "Event delete button tooltip": {
+      "Delete event": [
+        ""
+      ]
+    },
+    "Event cancelled status badge": {
+      "cancelled": [
+        ""
+      ]
+    },
+    "Calendar invite buttons label": {
+      "Attending?": [
+        ""
       ]
     }
   }

@@ -194,12 +194,6 @@
       "Request timed out.": [
         "Forespørgsel fik timeout."
       ],
-      "Signature verification failed": [
-        "Bekræftelse af signatur mislykkedes"
-      ],
-      "Could not find address ${ email }.": [
-        "Kunne ikke finde adresse ${ email }."
-      ],
       "Missing signature": [
         "Manglende signatur"
       ],
@@ -208,6 +202,12 @@
       ],
       "Signature not verified": [
         "Signatur ikke bekræftet"
+      ],
+      "Signature verification failed": [
+        "Bekræftelse af signatur mislykkedes"
+      ],
+      "Could not find address ${ email }.": [
+        "Kunne ikke finde adresse ${ email }."
       ],
       "Email address disabled": [
         "E-mailadresse deaktiveret"
@@ -341,9 +341,6 @@
       "Load image": [
         "Indlæs billede"
       ],
-      "refresh the page": [
-        "genopfrisk siden"
-      ],
       "Export": [
         "Exportér"
       ],
@@ -379,6 +376,9 @@
       ],
       "Upload picture": [
         "Overfør billede"
+      ],
+      "refresh the page": [
+        "genopfrisk siden"
       ],
       "Next month": [
         "Næste måned"
@@ -777,6 +777,9 @@
       ],
       "Close popover": [
         "Luk popover"
+      ],
+      "Close event popover": [
+        ""
       ]
     },
     "Title": {
@@ -915,6 +918,21 @@
       "${ appName } customization": [
         "${ appName } tilpasning"
       ],
+      "${ appName } Keyboard Shortcuts": [
+        "${ appName } Tastaturgenveje"
+      ],
+      "Mailbox density": [
+        "Postkasse tæthed"
+      ],
+      "Mailbox layout": [
+        "Postkasse layout"
+      ],
+      "Composer mode": [
+        "Skrivetilstand"
+      ],
+      "Beta Access": [
+        "Beta-adgang"
+      ],
       "Sign in again to continue": [
         "Log ind igen for at fortsætte"
       ],
@@ -935,21 +953,6 @@
       ],
       "Human verification": [
         "Menneskelig bekræftelse"
-      ],
-      "${ appName } Keyboard Shortcuts": [
-        "${ appName } Tastaturgenveje"
-      ],
-      "Mailbox density": [
-        "Postkasse tæthed"
-      ],
-      "Mailbox layout": [
-        "Postkasse layout"
-      ],
-      "Composer mode": [
-        "Skrivetilstand"
-      ],
-      "Beta Access": [
-        "Beta-adgang"
       ],
       "Edit contact group": [
         "Redigér kontaktgruppe"
@@ -1203,29 +1206,17 @@
       ],
       "Edit event": [
         "Redigér begivenhed"
-      ],
-      "Event details": [
-        "Begivenhedsdetaljer"
-      ],
-      "More options": [
-        "Flere muligheder"
-      ],
-      "CANCELLED": [
-        "ANNULLERET"
       ]
     },
     "Info": {
       "No results found": [
         "Ingen resultater fundet"
       ],
-      "support team": [
-        "supportteam"
-      ],
       "No contacts added yet": [
         "Ingen kontakter tilføjet endnu"
       ],
-      "Loading": [
-        "Indlæser"
+      "support team": [
+        "supportteam"
       ],
       "Week": [
         "Uge"
@@ -1241,6 +1232,9 @@
       ],
       "Learn more": [
         "Få mere at vide"
+      ],
+      "Loading": [
+        "Indlæser"
       ],
       "Drop the file here to upload": [
         "Slip filen her for at uploade"
@@ -1497,6 +1491,9 @@
       "Expired": [
         "Udløbet"
       ],
+      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
+        "Grundlæggende navigation og handlinger forbliver tilgængelige, uanset om tastaturgenveje er aktive eller ej i indstillingerne."
+      ],
       "here": [
         "hér"
       ],
@@ -1535,9 +1532,6 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Hvis du har problemer med at oprette din konto, bedes du anmode om en invitation. Så vil vi svare inden for en arbejdsdag."
-      ],
-      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
-        "Grundlæggende navigation og handlinger forbliver tilgængelige, uanset om tastaturgenveje er aktive eller ej i indstillingerne."
       ],
       "${ contactEmailsLength } Member": [
         "${ contactEmailsLength } medlem",
@@ -2049,6 +2043,21 @@
       "Payer": [
         "Betaler"
       ],
+      "Keyboard shortcuts": [
+        "Tastaturgenveje"
+      ],
+      "Select how your list of messages looks like by default.": [
+        "Vælg hvordan din liste over beskeder ser ud som standard."
+      ],
+      "Select how your mailbox looks like by default.": [
+        "Vælg hvordan din postkasse ser ud som standard."
+      ],
+      "Select how your composer opens by default.": [
+        "Vælg hvordan dit skrivevindue åbner som standard."
+      ],
+      "Enable Beta Access": [
+        "Aktivér beta-adgang"
+      ],
       "Cancel": [
         "Afbryd"
       ],
@@ -2075,21 +2084,6 @@
       ],
       "Enter the 6-digit code": [
         "Indtast den sekscifrede kode"
-      ],
-      "Keyboard shortcuts": [
-        "Tastaturgenveje"
-      ],
-      "Select how your list of messages looks like by default.": [
-        "Vælg hvordan din liste over beskeder ser ud som standard."
-      ],
-      "Select how your mailbox looks like by default.": [
-        "Vælg hvordan din postkasse ser ud som standard."
-      ],
-      "Select how your composer opens by default.": [
-        "Vælg hvordan dit skrivevindue åbner som standard."
-      ],
-      "Enable Beta Access": [
-        "Aktivér beta-adgang"
       ],
       "Add email address": [
         "Tilføj e-mailadresse"
@@ -2210,6 +2204,10 @@
       ],
       "Your calendars": [
         "Din kalendere"
+      ],
+      "Participant": [
+        "",
+        ""
       ]
     },
     "Link": {
@@ -2549,17 +2547,17 @@
       "You have successfully unsubscribed": [
         "Du har nu afmeldt dig"
       ],
-      "Code sent to ${ methodTo }": [
-        "Kode sendt til ${ methodTo }"
-      ],
-      "Verification successful": [
-        "Bekræftelse gennemført"
-      ],
       "Keyboard shortcuts preferences updated": [
         "Indstillinger for tastaturgenveje opdateret"
       ],
       "Preference saved": [
         "Præferencer gemt"
+      ],
+      "Code sent to ${ methodTo }": [
+        "Kode sendt til ${ methodTo }"
+      ],
+      "Verification successful": [
+        "Bekræftelse gennemført"
       ],
       "Preferences saved": [
         "Præferencer gemt"
@@ -2686,6 +2684,14 @@
     "Timezone search placeholder": {
       "Search timezones": [
         "Søg tidszoner"
+      ]
+    },
+    "Collapsible tooltip": {
+      "Open": [
+        ""
+      ],
+      "Close": [
+        ""
       ]
     },
     "Error message": {
@@ -3364,28 +3370,6 @@
         "Bitcoin"
       ]
     },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "Forfalden faktura"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
-      ],
-      "Email": [
-        "E-mail"
-      ],
-      "SMS": [
-        "SMS"
-      ],
-      "Manual": [
-        "Manuel"
-      ],
-      "No verification method available": [
-        "Ingen bekræftelsesmetode tilgængelig"
-      ]
-    },
     "Beta access description": {
       "Beta Access lets you use the beta version of ProtonMail, Proton Calendar, and Proton Drive before they are released to the public. This means you can be the first to try new products, get new updates, and use new features.": [
         "Beta-adgang giver dig mulighed for at bruge betaversionen af ProtonMail, Proton Calendar, og Proton Drive, før de frigives til offentligheden. Det betyder, at du kan være den første til at prøve nye produkter, få nye opdateringer og bruge nye funktioner."
@@ -3421,6 +3405,28 @@
       ],
       "Maximized": [
         "Maksimeret"
+      ]
+    },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "Forfalden faktura"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "E-mail"
+      ],
+      "SMS": [
+        "SMS"
+      ],
+      "Manual": [
+        "Manuel"
+      ],
+      "No verification method available": [
+        "Ingen bekræftelsesmetode tilgængelig"
       ]
     },
     "Notification": {
@@ -4346,12 +4352,6 @@
         "GB"
       ]
     },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "Adgangskode skal indeholde mindst ${ length } tegn",
-        "Adgangskode skal indeholde mindst ${ length } tegn"
-      ]
-    },
     "Contact field label": {
       "Name": [
         "Navn"
@@ -4464,6 +4464,12 @@
       ],
       "Address": [
         "Adresse"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "Adgangskode skal indeholde mindst ${ length } tegn",
+        "Adgangskode skal indeholde mindst ${ length } tegn"
       ]
     },
     "Keyboard shortcut section name": {
@@ -4641,11 +4647,6 @@
         "Vis oprindelig besked"
       ]
     },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "E-mailadresse ikke fundet blandt bruger-id'er defineret i afsendelsesnøgle (${ keyUserIds })"
-      ]
-    },
     "Import contact. Contact identifier": {
       "unknown": [
         "ukendt"
@@ -4690,6 +4691,11 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "Der opstod en fejl ved læsning af din fil ${ formattedFilename }. Filen har ikke det rigtige format."
+      ]
+    },
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "E-mailadresse ikke fundet blandt bruger-id'er defineret i afsendelsesnøgle (${ keyUserIds })"
       ]
     },
     "Message": {
@@ -4842,6 +4848,11 @@
         "gange"
       ]
     },
+    "Event popover close button": {
+      "Close popover": [
+        ""
+      ]
+    },
     "Calendar invite info": {
       "You accepted the invitation": [
         "Du accepterede invitationen"
@@ -4876,11 +4887,6 @@
         "med e-mail"
       ]
     },
-    "Event info": {
-      "Organized by:": [
-        "Organiseret af:"
-      ]
-    },
     "Disabled calendar": {
       "Disabled": [
         "Deaktiveret"
@@ -4889,6 +4895,48 @@
     "Disabled calendar tooltip": {
       "The event belongs to a disabled calendar.": [
         "Begivenheden hører til en deaktiveret kalender."
+      ]
+    },
+    "Event reply": {
+      "yes": [
+        ""
+      ],
+      "maybe": [
+        ""
+      ],
+      "no": [
+        ""
+      ],
+      "unanswered": [
+        ""
+      ]
+    },
+    "Participants expand button label": {
+      "Expand participants list": [
+        ""
+      ],
+      "Collapse participants list": [
+        ""
+      ]
+    },
+    "Event edit button tooltip": {
+      "Edit event": [
+        ""
+      ]
+    },
+    "Event delete button tooltip": {
+      "Delete event": [
+        ""
+      ]
+    },
+    "Event cancelled status badge": {
+      "cancelled": [
+        ""
+      ]
+    },
+    "Calendar invite buttons label": {
+      "Attending?": [
+        ""
       ]
     }
   }
