@@ -5,18 +5,36 @@
   },
   "contexts": {
     "": {},
-    "Message": {
-      "Re:": [
-        "Re:"
+    "file size format": {
+      "bytes": [
+        "bajtů"
       ],
-      "Fw:": [
-        "Fw:"
+      "KB": [
+        "KB"
       ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "Na ${ date }, ${ name } ${ address } napsalo:"
+      "MB": [
+        "MB"
+      ],
+      "GB": [
+        "GB"
       ]
     },
     "Error": {
+      "This field is required": [
+        "Toto pole je povinné"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Toto pole musí obsahovat minimálně ${ minimumLength } znaků."
+      ],
+      "Email is not valid": [
+        "Emailová adresa není platná"
+      ],
+      "Not a valid number": [
+        "Neplatné číslo"
+      ],
+      "Passwords do not match": [
+        "Hesla se neshodují"
+      ],
       "Email address disabled": [
         "E-mailová adresa je deaktivovaná"
       ],
@@ -41,23 +59,14 @@
       "The sending key is not valid": [
         "Klíč pro odesílání je neplatný"
       ],
-      "This field is required": [
-        "Toto pole je povinné"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Toto pole musí obsahovat minimálně ${ minimumLength } znaků."
-      ],
-      "Email is not valid": [
-        "Emailová adresa není platná"
-      ],
-      "Not a valid number": [
-        "Neplatné číslo"
-      ],
-      "Passwords do not match": [
-        "Hesla se neshodují"
-      ],
       "Request timed out.": [
         "Vypršel časový limit žádosti."
+      ],
+      "Signature verification failed": [
+        "Ověření podpisu selhalo"
+      ],
+      "Could not find address ${ email }.": [
+        "Nenalezena adresa ${ email }"
       ],
       "Missing signature": [
         "Chybící podpis"
@@ -74,23 +83,17 @@
       "The key properties for ${ emailAddress } could not be extracted": [
         "Klíč vlastností pro ${ emailAddress } nebylo možné extrahovat"
       ],
-      "Signature verification failed": [
-        "Ověření podpisu selhalo"
-      ],
-      "Could not find address ${ email }.": [
-        "Nenalezena adresa ${ email }"
-      ],
       "Address primary private key not found": [
         "Primární soukromý klíč adresy nenalezen"
       ],
       "Calendar primary private key is not decrypted": [
         "Primární soukromý klíč kalendáře nenalezen"
       ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser": [
-        "Tato zpráva obsahuje URL odkazy, které nelze otevřít Vašim prohlížečem"
-      ],
       "Unknown error": [
         "Neznámá chyba"
+      ],
+      "This message may contain some link's URL that cannot be properly opened by your current browser": [
+        "Tato zpráva obsahuje URL odkazy, které nelze otevřít Vašim prohlížečem"
       ],
       "Authentication canceled.": [
         "Přihlášení zrušeno."
@@ -104,17 +107,35 @@
       "Email address invalid": [
         "E-mailová adresa je neplatná"
       ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Došlo k chybě, prosíme, načtěte stránku ${ refresh }. Pokud stále vidíte tuto chybu, kontaktujte naši ${ supportTeam }."
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "Prohlížeč, který používáte, neumožňuje plnou autorizaci platby. Prosím použijte pro autorizaci platby jiný prohlížeč nebo se přihlašte přes počítač."
+      ],
       "The composer failed to load.": [
         "Editor se nepodařilo načíst."
       ],
       "Please refresh the page.": [
         "Prosím obnovte stránku."
       ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Došlo k chybě, prosíme, načtěte stránku ${ refresh }. Pokud stále vidíte tuto chybu, kontaktujte naši ${ supportTeam }."
+      "Incorrect mailbox password. Please try again": [
+        "Nesprávné heslo k e-mailové schránce. Zkuste to znovu"
       ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "Prohlížeč, který používáte, neumožňuje plnou autorizaci platby. Prosím použijte pro autorizaci platby jiný prohlížeč nebo se přihlašte přes počítač."
+      "Incorrect login credentials. Please try again": [
+        "Nesprávné přihlašovací údaje. Zkuste to znovu"
+      ],
+      "Can't validate email, try again later": [
+        "Nemůžeme ověřit váš e-mail, zkuste to později"
+      ],
+      "Can't validate phone, try again later": [
+        "Nemůžeme ověřit váš telefon, zkuste to později"
+      ],
+      "Enter 6 digits": [
+        "Zadejte 6 číslic"
+      ],
+      "Invalid verification code": [
+        "Neplatný ověřovací kód"
       ],
       "Some groups could not be deleted": [
         "Některé skupiny není možné odstranit"
@@ -161,32 +182,14 @@
       "A group with this name already exists": [
         "Skupina s tímto názvem již existuje"
       ],
-      "File has no contents to preview": [
-        "Soubor nemá žádný obsah k náhledu"
-      ],
-      "Incorrect mailbox password. Please try again": [
-        "Nesprávné heslo k e-mailové schránce. Zkuste to znovu"
-      ],
-      "Incorrect login credentials. Please try again": [
-        "Nesprávné přihlašovací údaje. Zkuste to znovu"
-      ],
-      "Can't validate email, try again later": [
-        "Nemůžeme ověřit váš e-mail, zkuste to později"
-      ],
-      "Can't validate phone, try again later": [
-        "Nemůžeme ověřit váš telefon, zkuste to později"
-      ],
-      "Enter 6 digits": [
-        "Zadejte 6 číslic"
-      ],
-      "Invalid verification code": [
-        "Neplatný ověřovací kód"
-      ],
       "We were unable to connect to your service provider.": [
         "Nemohli jsme se připojit k vašemu poskytovateli služby."
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "Prosíme, přihlaste se znovu a zkontrolujte, že jsou správně nastavená oprávnění."
+      ],
+      "File has no contents to preview": [
+        "Soubor nemá žádný obsah k náhledu"
       ],
       "Process aborted": [
         "Transakce zrušena"
@@ -378,18 +381,12 @@
         "Příliš mnoho aktivních filtrů. Přejděte na placenou verzi pro aktivaci více filtrů"
       ]
     },
-    "file size format": {
-      "bytes": [
-        "bajtů"
-      ],
-      "KB": [
-        "KB"
-      ],
-      "MB": [
-        "MB"
-      ],
-      "GB": [
-        "GB"
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "Heslo musí obsahovat alespoň ${ length } znak",
+        "Heslo musí obsahovat alespoň ${ length } znaky",
+        "Heslo musí obsahovat alespoň ${ length } znaků",
+        "Heslo musí obsahovat alespoň ${ length } znaků"
       ]
     },
     "Contact field label": {
@@ -506,12 +503,15 @@
         "Adresa"
       ]
     },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "Heslo musí obsahovat alespoň ${ length } znak",
-        "Heslo musí obsahovat alespoň ${ length } znaky",
-        "Heslo musí obsahovat alespoň ${ length } znaků",
-        "Heslo musí obsahovat alespoň ${ length } znaků"
+    "Message": {
+      "Re:": [
+        "Re:"
+      ],
+      "Fw:": [
+        "Fw:"
+      ],
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "Na ${ date }, ${ name } ${ address } napsalo:"
       ]
     },
     "Info": {
@@ -551,6 +551,9 @@
       "No results found": [
         "Nebyly nalezeny žádné výsledky"
       ],
+      "support team": [
+        "tým podpory"
+      ],
       "No contacts added yet": [
         "Doposud nebyly přidány žádné kontakty"
       ],
@@ -565,6 +568,9 @@
         "(${ memberCount } členové)",
         "(${ memberCount } členů)",
         "(${ memberCount } členů)"
+      ],
+      "Loading": [
+        "Načítání"
       ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Tento odkaz může být homografickým útokem a nelze ho otevřít pomocí prohlížeče Internet Explorer nebo Edge. Pokud jste si jisti, že je odkaz v pořádku, otevřete ho v jiném prohlížeči."
@@ -650,17 +656,50 @@
       "Plain text": [
         "Obyčejný text"
       ],
-      "support team": [
-        "tým podpory"
-      ],
-      "Loading": [
-        "Načítání"
-      ],
       "Drop the file here to upload": [
         "Přetažením sem, nahrajte soubor"
       ],
       "Loading ${ appName }": [
         "Načítání aplikace ${ appName }"
+      ],
+      "here": [
+        "zde"
+      ],
+      "This account has been suspended due to a potential policy violation.": [
+        "Tento účet byl zablokován kvůli možnému porušení pravidel."
+      ],
+      "If you believe this is in error, please contact us ${ contactLink }.": [
+        "Pokud si myslíte, že jde o chybu, kontaktujte nás ${ contactLink }."
+      ],
+      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
+        "Váš Proton účet je momentálně pozastaven. Chcete-li Váš účet nadále používat, zaplaťte prosím všechny faktury po splatnosti."
+      ],
+      "Would you like to receive a new verification code or use an alternative verification method?": [
+        "Chcete získat nový ověřovací kód nebo použít alternativní metodu ověřování?"
+      ],
+      "Enter the verification code that was sent to ${ destinationText }.": [
+        "Zadejte ověřovací kód, který byl odeslán na ${ destinationText }."
+      ],
+      "If you don't find the email in your inbox, please check your spam folder.": [
+        "Pokud jste nenašli e-mail ve vaší schránce, zkontrolujte prosím složku se spamem."
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
+        "Klikněte na \"Požádat o nový kód\" pro zaslání nového ověřovacího kódu na ${ strong }. Pokud je tato e-mailová adresa nesprávná, klikněte na tlačítko \"Upravit\" pro její opravu."
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
+        "Klikněte na \"Požádat o nový kód\" pro zaslání nového ověřovacího kódu na ${ strong }. Pokud je toto telefonní číslo nesprávné, klepněte na tlačítko \"Upravit\" pro jeho opravu."
+      ],
+      "To fight spam and abuse, please verify you are human.": [
+        "Abyste zamezili spamu a obtěžování, potvrďte, že jste člověk."
+      ],
+      "Your email will only be used for this one-time verification.": [
+        "Váš e-mail bude použit pouze pro toto jednorázové ověření."
+      ],
+      "Your phone number will only be used for this one-time verification.": [
+        "Vaše telefonní číslo bude použito pouze pro toto jednorázové ověření."
+      ],
+      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
+        "Pokud máte potíže s vytvořením účtu, požádejte prosím o pozvánku a my odpovíme do jednoho pracovního dne."
       ],
       "Please note that addresses assigned to this group will NOT be deleted.": [
         "Vezměte na vědomí, že adresy přiřazené k této skupině NEBUDOU smazány."
@@ -785,66 +824,6 @@
         "${ addressCount } emailových adres",
         "${ addressCount } emailové adresy"
       ],
-      "Unsupported file": [
-        "Nepodporovaný soubor"
-      ],
-      "No preview available": [
-        "Náhled není k dispozici"
-      ],
-      "Preview": [
-        "Náhled"
-      ],
-      "Loading preview": [
-        "Načítání náhledu"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "Váš internetový prohlížeč nepodporuje zobrazení PDF dokumentů. Soubor si proto stáhněte."
-      ],
-      "of": [
-        "z"
-      ],
-      "here": [
-        "zde"
-      ],
-      "This account has been suspended due to a potential policy violation.": [
-        "Tento účet byl zablokován kvůli možnému porušení pravidel."
-      ],
-      "If you believe this is in error, please contact us ${ contactLink }.": [
-        "Pokud si myslíte, že jde o chybu, kontaktujte nás ${ contactLink }."
-      ],
-      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
-        "Váš Proton účet je momentálně pozastaven. Chcete-li Váš účet nadále používat, zaplaťte prosím všechny faktury po splatnosti."
-      ],
-      "Would you like to receive a new verification code or use an alternative verification method?": [
-        "Chcete získat nový ověřovací kód nebo použít alternativní metodu ověřování?"
-      ],
-      "Enter the verification code that was sent to ${ destinationText }.": [
-        "Zadejte ověřovací kód, který byl odeslán na ${ destinationText }."
-      ],
-      "If you don't find the email in your inbox, please check your spam folder.": [
-        "Pokud jste nenašli e-mail ve vaší schránce, zkontrolujte prosím složku se spamem."
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
-        "Klikněte na \"Požádat o nový kód\" pro zaslání nového ověřovacího kódu na ${ strong }. Pokud je tato e-mailová adresa nesprávná, klikněte na tlačítko \"Upravit\" pro její opravu."
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
-        "Klikněte na \"Požádat o nový kód\" pro zaslání nového ověřovacího kódu na ${ strong }. Pokud je toto telefonní číslo nesprávné, klepněte na tlačítko \"Upravit\" pro jeho opravu."
-      ],
-      "To fight spam and abuse, please verify you are human.": [
-        "Abyste zamezili spamu a obtěžování, potvrďte, že jste člověk."
-      ],
-      "Your email will only be used for this one-time verification.": [
-        "Váš e-mail bude použit pouze pro toto jednorázové ověření."
-      ],
-      "Your phone number will only be used for this one-time verification.": [
-        "Vaše telefonní číslo bude použito pouze pro toto jednorázové ověření."
-      ],
-      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
-        "Pokud máte potíže s vytvořením účtu, požádejte prosím o pozvánku a my odpovíme do jednoho pracovního dne."
-      ],
-      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
-        "Základní navigace a akce zůstávají k dispozici bez ohledu na aktivní nebo neaktivní klávesové zkratky v nastavení."
-      ],
       "Import contacts": [
         "Importovat kontakty"
       ],
@@ -874,6 +853,27 @@
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "Obnovením stránky nebo ${ link } se automaticky vyřeší většina problémů."
+      ],
+      "Unsupported file": [
+        "Nepodporovaný soubor"
+      ],
+      "No preview available": [
+        "Náhled není k dispozici"
+      ],
+      "Preview": [
+        "Náhled"
+      ],
+      "Loading preview": [
+        "Načítání náhledu"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "Váš internetový prohlížeč nepodporuje zobrazení PDF dokumentů. Soubor si proto stáhněte."
+      ],
+      "of": [
+        "z"
+      ],
+      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
+        "Základní navigace a akce zůstávají k dispozici bez ohledu na aktivní nebo neaktivní klávesové zkratky v nastavení."
       ],
       "Your recovery phrase is a series of 12 words in a specific order.": [
         "Obnovovací fráze je série 12 slov v určitém pořadí."
@@ -1794,6 +1794,11 @@
         "Svým mobilním zařízením naskenujte QR kód nebo navštivte odkaz ${ link }."
       ]
     },
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "E-mailová adresa nebyla nalezena mezi identifikátory uživatelů definovaných v klíči pro odesílání (${ keyUserIds })"
+      ]
+    },
     "Default display name vcard": {
       "Unknown": [
         "Neznámý"
@@ -1838,11 +1843,6 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "Došlo k chybě při čtení souboru ${ formattedFilename }. Soubor nemá správný formát."
-      ]
-    },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "E-mailová adresa nebyla nalezena mezi identifikátory uživatelů definovaných v klíči pro odesílání (${ keyUserIds })"
       ]
     },
     "Keyboard shortcut section name": {
@@ -2755,6 +2755,9 @@
       "Use “${ label }” setting": [
         "Použijte nastavení “${ label }”"
       ],
+      "refresh the page": [
+        "obnovit stránku"
+      ],
       "Remove": [
         "Odstranit"
       ],
@@ -2869,9 +2872,6 @@
       "Underline": [
         "Podtržení"
       ],
-      "refresh the page": [
-        "obnovit stránku"
-      ],
       "Go to panel ${ index }": [
         "Přejít na panel ${ index }"
       ],
@@ -2901,6 +2901,33 @@
       ],
       "Signing out": [
         "Odhlašování"
+      ],
+      "Log in": [
+        "Přihlásit se"
+      ],
+      "View invoice": [
+        "Zobrazit fakturu"
+      ],
+      "Get verification code": [
+        "Odeslat ověřovací kód"
+      ],
+      "Try another method": [
+        "Zkuste jinou metodu"
+      ],
+      "Request new code": [
+        "Vyžádejte si nový kód"
+      ],
+      "Verify": [
+        "Ověřit"
+      ],
+      "Did not receive the code?": [
+        "Nedostali jste kód?"
+      ],
+      "Edit email address": [
+        "Upravit e-mailovou adresu"
+      ],
+      "Edit phone number": [
+        "Upravit telefonní číslo"
       ],
       "Add": [
         "Přidat"
@@ -3028,71 +3055,11 @@
       "Next": [
         "Další"
       ],
-      "Details": [
-        "Detaily"
-      ],
-      "Share via link": [
-        "Sdílet odkaz"
-      ],
-      "Sharing options": [
-        "Možnosti sdílení"
-      ],
-      "Zoom out": [
-        "Oddálit"
-      ],
-      "Reset zoom": [
-        "Resetovat přiblížení"
-      ],
-      "Zoom in": [
-        "Přiblížit"
-      ],
-      "Previous": [
-        "Předchozí"
-      ],
-      "Log in": [
-        "Přihlásit se"
-      ],
-      "View invoice": [
-        "Zobrazit fakturu"
-      ],
-      "Get verification code": [
-        "Odeslat ověřovací kód"
-      ],
-      "Try another method": [
-        "Zkuste jinou metodu"
-      ],
-      "Request new code": [
-        "Vyžádejte si nový kód"
-      ],
-      "Verify": [
-        "Ověřit"
-      ],
-      "Did not receive the code?": [
-        "Nedostali jste kód?"
-      ],
-      "Edit email address": [
-        "Upravit e-mailovou adresu"
-      ],
-      "Edit phone number": [
-        "Upravit telefonní číslo"
-      ],
       "Use ${ label } theme": [
         "Použít ${ label } motiv"
       ],
       "OK": [
         "OK"
-      ],
-      "Get started": [
-        "Začínáme"
-      ],
-      "Start setup": [
-        "Spustit nastavení"
-      ],
-      "Skip": [
-        "Přeskočit"
-      ],
-      "Back": [
-        "Zpět"
       ],
       "Continue import": [
         "Pokračovat v importu"
@@ -3117,6 +3084,39 @@
       ],
       "Show info": [
         "Zobrazit informace"
+      ],
+      "Details": [
+        "Detaily"
+      ],
+      "Share via link": [
+        "Sdílet odkaz"
+      ],
+      "Sharing options": [
+        "Možnosti sdílení"
+      ],
+      "Zoom out": [
+        "Oddálit"
+      ],
+      "Reset zoom": [
+        "Resetovat přiblížení"
+      ],
+      "Zoom in": [
+        "Přiblížit"
+      ],
+      "Previous": [
+        "Předchozí"
+      ],
+      "Get started": [
+        "Začínáme"
+      ],
+      "Start setup": [
+        "Spustit nastavení"
+      ],
+      "Skip": [
+        "Přeskočit"
+      ],
+      "Back": [
+        "Zpět"
       ],
       "Copy to clipboard": [
         "Zkopírovat do schránky"
@@ -3282,6 +3282,15 @@
       ],
       "Add to ${ CALENDAR_APP_NAME }": [
         "Přidat do ${ CALENDAR_APP_NAME }"
+      ],
+      "Learn more": [
+        "Více informací"
+      ],
+      "Open shop": [
+        "Otevřít obchod"
+      ],
+      "Open calendar": [
+        "Otevřít kalendář"
       ],
       "Send anyway": [
         "Přesto odeslat"
@@ -3603,15 +3612,6 @@
       ],
       "Start using ${ appName }": [
         "Začněte užívat ${ appName }"
-      ],
-      "Learn more": [
-        "Více informací"
-      ],
-      "Open shop": [
-        "Otevřít obchod"
-      ],
-      "Open calendar": [
-        "Otevřít kalendář"
       ]
     },
     "Title": {
@@ -3638,6 +3638,27 @@
       ],
       "What's new": [
         "Co je nového"
+      ],
+      "Sign in again to continue": [
+        "Chcete-li pokračovat, znovu se přihlaste"
+      ],
+      "Account suspended": [
+        "Účet pozastaven"
+      ],
+      "Enter your username or ProtonMail email address": [
+        "Zadejte vaše uživatelské jméno nebo e-mailovou adresu ProtonMail"
+      ],
+      "Enter your password": [
+        "Zadejte Vaše heslo"
+      ],
+      "Invalid verification code": [
+        "Neplatný ověřovací kód"
+      ],
+      "Request new code": [
+        "Poslat nový kód"
+      ],
+      "Human verification": [
+        "Lidské ověření"
       ],
       "Delete ${ Name }": [
         "Odstranit ${ Name }"
@@ -3762,29 +3783,17 @@
       "Import contacts": [
         "Importovat kontakty"
       ],
-      "Sign in again to continue": [
-        "Chcete-li pokračovat, znovu se přihlaste"
-      ],
-      "Account suspended": [
-        "Účet pozastaven"
-      ],
-      "Enter your username or ProtonMail email address": [
-        "Zadejte vaše uživatelské jméno nebo e-mailovou adresu ProtonMail"
-      ],
-      "Enter your password": [
-        "Zadejte Vaše heslo"
-      ],
-      "Invalid verification code": [
-        "Neplatný ověřovací kód"
-      ],
-      "Request new code": [
-        "Poslat nový kód"
-      ],
-      "Human verification": [
-        "Lidské ověření"
-      ],
       "Select a theme": [
         "Vyberte motiv"
+      ],
+      "Start import process": [
+        "Zahájení procesu importu"
+      ],
+      "Import in progress": [
+        "Import probíhá"
+      ],
+      "Report a problem": [
+        "Nahlásit problém"
       ],
       "${ appName } Keyboard Shortcuts": [
         "${ appName } Klávesové zkratky"
@@ -3797,15 +3806,6 @@
       ],
       "Composer mode": [
         "Správcovský režim"
-      ],
-      "Start import process": [
-        "Zahájení procesu importu"
-      ],
-      "Import in progress": [
-        "Import probíhá"
-      ],
-      "Report a problem": [
-        "Nahlásit problém"
       ],
       "Open help menu": [
         "Otevřít menu nápovědy"
@@ -4141,6 +4141,11 @@
         "Vítejte"
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        "Klíč není možné použít k šifrování"
+      ]
+    },
     "Link": {
       "Learn more": [
         "Zjistit více"
@@ -4168,6 +4173,36 @@
       ],
       "Add a gift code": [
         "Přidat dárkový kód"
+      ],
+      "Inbox": [
+        "Doručená pošta"
+      ],
+      "Drafts": [
+        "Koncepty"
+      ],
+      "Sent": [
+        "Odeslané"
+      ],
+      "Trash": [
+        "Koš"
+      ],
+      "Spam": [
+        "Spam"
+      ],
+      "All mail": [
+        "Všechna pošta"
+      ],
+      "Archive": [
+        "Archiv"
+      ],
+      "Starred": [
+        "S hvězdičkou"
+      ],
+      "Outbox": [
+        "K odeslání"
+      ],
+      "Scheduled": [
+        "Naplánováno"
       ],
       "You need to activate your calendar keys to add this event": [
         "Pro přidání této události musíte aktivovat vaše klíče kalendáře"
@@ -4244,33 +4279,6 @@
       "Add label": [
         "Přidat štítek"
       ],
-      "Inbox": [
-        "Doručená pošta"
-      ],
-      "Drafts": [
-        "Koncepty"
-      ],
-      "Scheduled": [
-        "Naplánováno"
-      ],
-      "Sent": [
-        "Odeslané"
-      ],
-      "Starred": [
-        "S hvězdičkou"
-      ],
-      "Archive": [
-        "Archiv"
-      ],
-      "Spam": [
-        "Spam"
-      ],
-      "Trash": [
-        "Koš"
-      ],
-      "All mail": [
-        "Všechna pošta"
-      ],
       "Folders": [
         "Složky"
       ],
@@ -4282,9 +4290,6 @@
       ],
       "Manage your labels": [
         "Spravovat štítky"
-      ],
-      "Outbox": [
-        "K odeslání"
       ]
     },
     "Label": {
@@ -4320,6 +4325,36 @@
       ],
       "Do not ask again": [
         "Příště se neptat"
+      ],
+      "Cancel": [
+        "Zrušit"
+      ],
+      "Submit": [
+        "Odeslat"
+      ],
+      "Password": [
+        "Heslo"
+      ],
+      "Mailbox password": [
+        "Heslo k poštovní schránce"
+      ],
+      "Two-factor authentication code": [
+        "Kód dvoufaktorového ověření"
+      ],
+      "Username or ProtonMail address": [
+        "Uživatelské jméno nebo e-mailová adresa ProtonMail"
+      ],
+      "Email address": [
+        "E-mailová adresa"
+      ],
+      "Phone number": [
+        "Telefonní číslo"
+      ],
+      "Verification code": [
+        "Ověřovací kód"
+      ],
+      "Enter the 6-digit code": [
+        "Zadejte 6-místný kód"
       ],
       "Add email address": [
         "Přidat emailovou adresu"
@@ -4366,51 +4401,6 @@
       "Export contacts": [
         "Exportovat kontakty"
       ],
-      "Cancel": [
-        "Zrušit"
-      ],
-      "Submit": [
-        "Odeslat"
-      ],
-      "Password": [
-        "Heslo"
-      ],
-      "Mailbox password": [
-        "Heslo k poštovní schránce"
-      ],
-      "Two-factor authentication code": [
-        "Kód dvoufaktorového ověření"
-      ],
-      "Username or ProtonMail address": [
-        "Uživatelské jméno nebo e-mailová adresa ProtonMail"
-      ],
-      "Email address": [
-        "E-mailová adresa"
-      ],
-      "Phone number": [
-        "Telefonní číslo"
-      ],
-      "Verification code": [
-        "Ověřovací kód"
-      ],
-      "Enter the 6-digit code": [
-        "Zadejte 6-místný kód"
-      ],
-      "Display name": [
-        "Zobrazované jméno"
-      ],
-      "Keyboard shortcuts": [
-        "Klávesové zkratky"
-      ],
-      "Select how your list of messages looks like by default.": [
-        "Vyberte vzhled výpisu zpráv."
-      ],
-      "Select how your mailbox looks like by default.": [
-        "Vyberte vzhled vaší schránky."
-      ],
-      "Select how your composer opens by default.": [
-        "Vyberte, jak se má otevírat psaní nové zprávy."
-      ],
       "From: ${ fromEmailAddress }": [
         "Od: ${ fromEmailAddress }"
       ],
@@ -4440,6 +4430,21 @@
       ],
       "Browser version": [
         "Verze prohlížeče"
+      ],
+      "Display name": [
+        "Zobrazované jméno"
+      ],
+      "Keyboard shortcuts": [
+        "Klávesové zkratky"
+      ],
+      "Select how your list of messages looks like by default.": [
+        "Vyberte vzhled výpisu zpráv."
+      ],
+      "Select how your mailbox looks like by default.": [
+        "Vyberte vzhled vaší schránky."
+      ],
+      "Select how your composer opens by default.": [
+        "Vyberte, jak se má otevírat psaní nové zprávy."
       ],
       "Recovery phrase": [
         "Obnovovací fráze"
@@ -4722,6 +4727,9 @@
       "Text": [
         "Text"
       ],
+      "Mailbox password": [
+        "Heslo k poštovní schránce"
+      ],
       "Start typing an email address": [
         "Začněte psát e-mailovou adresu"
       ],
@@ -4743,12 +4751,6 @@
       "Name": [
         "Jméno"
       ],
-      "Mailbox password": [
-        "Heslo k poštovní schránce"
-      ],
-      "e.g. Julia Smith": [
-        "např. Julie Nováková"
-      ],
       "OS name": [
         "Název OS"
       ],
@@ -4769,6 +4771,9 @@
       ],
       "Browser version": [
         "Verze prohlížeče"
+      ],
+      "e.g. Julia Smith": [
+        "např. Julie Nováková"
       ],
       "ZIP": [
         "PSČ"
@@ -5097,6 +5102,12 @@
       "Address copied to clipboard": [
         "Adresa byla zkopírována do schránky"
       ],
+      "Code sent to ${ methodTo }": [
+        "Kód zaslán na ${ methodTo }"
+      ],
+      "Verification successful": [
+        "Ověření proběhlo úspěšně"
+      ],
       "Contact group deleted": [
         "Skupina kontaktů smazána",
         "Skupiny kontaktů smazány",
@@ -5121,20 +5132,14 @@
       "Fingerprint copied to clipboard": [
         "Otisk zkopírován do schránky"
       ],
-      "Code sent to ${ methodTo }": [
-        "Kód zaslán na ${ methodTo }"
-      ],
-      "Verification successful": [
-        "Ověření proběhlo úspěšně"
+      "Bug reported": [
+        "Chyba nahlášena"
       ],
       "Keyboard shortcuts preferences updated": [
         "Nastavení klávesových zkratek upraveno"
       ],
       "Preference saved": [
         "Nastavení uloženo"
-      ],
-      "Bug reported": [
-        "Chyba nahlášena"
       ],
       "You have successfully unsubscribed": [
         "Předplatné bylo úspěšně zrušeno"
@@ -5328,11 +5333,6 @@
         "Nalezeno ${ items.length } návrhů, použijte klávesnice pro navigaci."
       ]
     },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        "Klíč není možné použít k šifrování"
-      ]
-    },
     "Storage": {
       "Your current storage:": [
         "Vaše současné úložiště:"
@@ -5367,6 +5367,28 @@
       ],
       "Go to ${ vpnName }": [
         "Přejít na ${ vpnName }"
+      ]
+    },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "Faktura po splatnosti"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "E-mail"
+      ],
+      "SMS": [
+        "SMS"
+      ],
+      "Manual": [
+        "Ručně"
+      ],
+      "No verification method available": [
+        "Nejsou k dispozici žádné metody ověřování"
       ]
     },
     "Label for contact group name": {
@@ -5599,33 +5621,6 @@
         "${ totalImported }/${ totalToImport } kontakty šifrovány a přidány do Vašeho listu kontaktů"
       ]
     },
-    "Select files": {
-      "Upload": [
-        "Nahrát"
-      ]
-    },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "Faktura po splatnosti"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
-      ],
-      "Email": [
-        "E-mail"
-      ],
-      "SMS": [
-        "SMS"
-      ],
-      "Manual": [
-        "Ručně"
-      ],
-      "No verification method available": [
-        "Nejsou k dispozici žádné metody ověřování"
-      ]
-    },
     "Label to change density": {
       "Comfortable": [
         "Pohodlné"
@@ -5650,47 +5645,9 @@
         "Maximalizované"
       ]
     },
-    "Onboarding Proton": {
-      "This is what people will see when you send them an email, invite them to an event, or share a file with them.": [
-        "Tohle uvidí lidé, když jim pošlete e-mail, pozvete je na událost nebo s nimi sdílíte soubor."
-      ],
-      "Choose a display name": [
-        "Vyberte jméno, které chcete zobrazovat"
-      ],
-      "Select a theme": [
-        "Vyberte motiv"
-      ],
-      "You can change this anytime in your settings.": [
-        "Toto můžete později změnit v nastavení."
-      ],
-      "Discover all Proton services": [
-        "Objevte všechny Proton služby"
-      ],
-      "Use the app selector in the top left to access other Proton services, including VPN, Calendar and Drive.": [
-        "Použijte vybranou aplikaci vlevo nahoře pro přístup k dalším Proton službám, zahrnující VPN, Kalendář a Disk."
-      ],
-      "Welcome to Proton": [
-        "Vítejte v Proton"
-      ],
-      "Our mission is to build an internet where you are in control of your data and your privacy. We have recently updated Proton - welcome to the secure internet.": [
-        "Naše poslání je postavi internet kde Vy máte pod kontrolou svá data a své soukromí. My jsme nedávno aktualizovali Proton - vítejte na bezpečném internetu."
-      ],
-      "Set up your organization": [
-        "Nastavení organizace"
-      ],
-      "Configure your organization, link your domain name, and create accounts to ensure all members of your organization are protected.": [
-        "Proveďte konfiguraci své organizace, odkaz na doménové jméno, a vytvořte si účty tak, aby všichni členové Vaší organizace byli zajištěni a chráněni."
-      ]
-    },
-    "Onboarding Beta": {
-      "Got it": [
-        "Rozumím"
-      ],
-      "Beta enabled": [
-        "Beta verze zapnutá"
-      ],
-      "To disable beta, open the settings dropdown menu and click on the “Beta Access” option.": [
-        "Pro deaktivaci verze beta, otevřete nastavení a sjeďte dolů v navigaci menu, kde zaklikněte na \"Beta Přístup\" volbu."
+    "Select files": {
+      "Upload": [
+        "Nahrát"
       ]
     },
     "Loading info": {
@@ -5830,6 +5787,49 @@
     "Label, make it short please": {
       "Attach screenshot(s)": [
         "Přiložit snímek/snímky obrazovky"
+      ]
+    },
+    "Onboarding Proton": {
+      "This is what people will see when you send them an email, invite them to an event, or share a file with them.": [
+        "Tohle uvidí lidé, když jim pošlete e-mail, pozvete je na událost nebo s nimi sdílíte soubor."
+      ],
+      "Choose a display name": [
+        "Vyberte jméno, které chcete zobrazovat"
+      ],
+      "Select a theme": [
+        "Vyberte motiv"
+      ],
+      "You can change this anytime in your settings.": [
+        "Toto můžete později změnit v nastavení."
+      ],
+      "Discover all Proton services": [
+        "Objevte všechny Proton služby"
+      ],
+      "Use the app selector in the top left to access other Proton services, including VPN, Calendar and Drive.": [
+        "Použijte vybranou aplikaci vlevo nahoře pro přístup k dalším Proton službám, zahrnující VPN, Kalendář a Disk."
+      ],
+      "Welcome to Proton": [
+        "Vítejte v Proton"
+      ],
+      "Our mission is to build an internet where you are in control of your data and your privacy. We have recently updated Proton - welcome to the secure internet.": [
+        "Naše poslání je postavi internet kde Vy máte pod kontrolou svá data a své soukromí. My jsme nedávno aktualizovali Proton - vítejte na bezpečném internetu."
+      ],
+      "Set up your organization": [
+        "Nastavení organizace"
+      ],
+      "Configure your organization, link your domain name, and create accounts to ensure all members of your organization are protected.": [
+        "Proveďte konfiguraci své organizace, odkaz na doménové jméno, a vytvořte si účty tak, aby všichni členové Vaší organizace byli zajištěni a chráněni."
+      ]
+    },
+    "Onboarding Beta": {
+      "Got it": [
+        "Rozumím"
+      ],
+      "Beta enabled": [
+        "Beta verze zapnutá"
+      ],
+      "To disable beta, open the settings dropdown menu and click on the “Beta Access” option.": [
+        "Pro deaktivaci verze beta, otevřete nastavení a sjeďte dolů v navigaci menu, kde zaklikněte na \"Beta Přístup\" volbu."
       ]
     },
     "Message display when a new app version is available": {
@@ -7151,6 +7151,11 @@
       ],
       "Next": [
         "Další"
+      ]
+    },
+    "Calendar attachment tooltip": {
+      "Has a calendar event": [
+        ""
       ]
     },
     "Search - no results": {
