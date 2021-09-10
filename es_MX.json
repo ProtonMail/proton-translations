@@ -21,14 +21,14 @@
       "Authentication error.": [
         "Error de autenticación."
       ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "El navegador que está usando no permite que el pago sea autorizado. Use un navegador diferente o inicie sesión a través de una computadora."
-      ],
       "Email address invalid": [
         "Dirección de correo inválida"
       ],
       "This field is required": [
         "Este campo es obligatorio"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "El navegador que está usando no permite que el pago sea autorizado. Use un navegador diferente o inicie sesión a través de una computadora."
       ],
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "Algo salió mal, por favor ${ refresh } para continuar. Si aún ve este mensaje de error, por favor contacte a nuestro ${ supportTeam }."
@@ -155,14 +155,14 @@
       "Invalid name": [
         "Nombre inválido"
       ],
-      "Primary address key is not decrypted": [
-        "La clave principal no está descifrada"
-      ],
       "We were unable to connect to your service provider.": [
         "No pudimos conectarnos con su proveedor de servicios."
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "Intente volver a autenticarse y asegúrese de que los permisos están configurados correctamente."
+      ],
+      "Primary address key is not decrypted": [
+        "La clave principal no está descifrada"
       ],
       "No valid address found": [
         "Ninguna dirección válida encontrada"
@@ -194,6 +194,12 @@
       "Request timed out.": [
         "Tiempo de espera agotado."
       ],
+      "Signature verification failed": [
+        "Falló la verificación de la firma"
+      ],
+      "Could not find address ${ email }.": [
+        "No se pudo encontrar la dirección ${ email }."
+      ],
       "Missing signature": [
         "Falta la firma"
       ],
@@ -202,12 +208,6 @@
       ],
       "Signature not verified": [
         "Firma no verificada"
-      ],
-      "Signature verification failed": [
-        "Falló la verificación de la firma"
-      ],
-      "Could not find address ${ email }.": [
-        "No se pudo encontrar la dirección ${ email }."
       ],
       "Email address disabled": [
         "Dirección de correo deshabilitada"
@@ -341,6 +341,9 @@
       "Load image": [
         "Cargar imagen"
       ],
+      "refresh the page": [
+        "refresque la página"
+      ],
       "Export": [
         "Exportar"
       ],
@@ -376,9 +379,6 @@
       ],
       "Upload picture": [
         "Cargar imagen"
-      ],
-      "refresh the page": [
-        "refresque la página"
       ],
       "Next month": [
         "Mes siguiente"
@@ -918,21 +918,6 @@
       "${ appName } customization": [
         "Personalización de ${ appName }"
       ],
-      "${ appName } Keyboard Shortcuts": [
-        "Atajos de teclado de ${ appName }"
-      ],
-      "Mailbox density": [
-        "Densidad del buzón"
-      ],
-      "Mailbox layout": [
-        "Diseño del buzón"
-      ],
-      "Composer mode": [
-        "Modo del compositor"
-      ],
-      "Beta Access": [
-        "Acceso beta"
-      ],
       "Sign in again to continue": [
         "Inicie sesión otra vez para continuar"
       ],
@@ -953,6 +938,18 @@
       ],
       "Human verification": [
         "Verificación humana"
+      ],
+      "${ appName } Keyboard Shortcuts": [
+        "Atajos de teclado de ${ appName }"
+      ],
+      "Mailbox density": [
+        "Densidad del buzón"
+      ],
+      "Mailbox layout": [
+        "Diseño del buzón"
+      ],
+      "Composer mode": [
+        "Modo del compositor"
       ],
       "Edit contact group": [
         "Editar grupo de contactos"
@@ -1065,6 +1062,9 @@
       ],
       "Import contacts": [
         "Importar contactos"
+      ],
+      "Beta Access": [
+        "Acceso beta"
       ],
       "Start import process": [
         "Iniciar proceso de importación"
@@ -1212,11 +1212,14 @@
       "No results found": [
         "No se encontraron resultados"
       ],
+      "support team": [
+        "equipo de soporte"
+      ],
       "No contacts added yet": [
         "Ningún contacto añadido aún"
       ],
-      "support team": [
-        "equipo de soporte"
+      "Loading": [
+        "Cargando"
       ],
       "Week": [
         "Semana"
@@ -1232,9 +1235,6 @@
       ],
       "Learn more": [
         "Más información"
-      ],
-      "Loading": [
-        "Cargando"
       ],
       "Drop the file here to upload": [
         "Arrastre el archivo aquí para subir"
@@ -1488,12 +1488,6 @@
       "Not customizable": [
         "No personalizable"
       ],
-      "Expired": [
-        "Expirado"
-      ],
-      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
-        "La navegación básica y las acciones siguen estando disponibles independientemente de que los atajos de teclado estén habilitados o no en los ajustes."
-      ],
       "here": [
         "aquí"
       ],
@@ -1532,6 +1526,12 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Si tiene problemas para crear su cuenta, solicite una invitación y responderemos dentro de un día hábil."
+      ],
+      "Expired": [
+        "Expirado"
+      ],
+      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
+        "La navegación básica y las acciones siguen estando disponibles independientemente de que los atajos de teclado estén habilitados o no en los ajustes."
       ],
       "${ contactEmailsLength } Member": [
         "${ contactEmailsLength } miembro",
@@ -2031,33 +2031,6 @@
       "Proration": [
         "Prorrateo"
       ],
-      "Cash": [
-        "Efectivo"
-      ],
-      "Card holder": [
-        "Titular de la tarjeta"
-      ],
-      "Expires": [
-        "Expira"
-      ],
-      "Payer": [
-        "Pagador"
-      ],
-      "Keyboard shortcuts": [
-        "Atajos de teclado"
-      ],
-      "Select how your list of messages looks like by default.": [
-        "Seleccione cómo se verá su lista de mensajes por defecto."
-      ],
-      "Select how your mailbox looks like by default.": [
-        "Seleccione cómo se verá su buzón por defecto."
-      ],
-      "Select how your composer opens by default.": [
-        "Seleccione cómo se abrirá el compositor por defecto."
-      ],
-      "Enable Beta Access": [
-        "Habilitar acceso beta"
-      ],
       "Cancel": [
         "Cancelar"
       ],
@@ -2084,6 +2057,30 @@
       ],
       "Enter the 6-digit code": [
         "Ingrese el código de 6 dígitos"
+      ],
+      "Cash": [
+        "Efectivo"
+      ],
+      "Card holder": [
+        "Titular de la tarjeta"
+      ],
+      "Expires": [
+        "Expira"
+      ],
+      "Payer": [
+        "Pagador"
+      ],
+      "Keyboard shortcuts": [
+        "Atajos de teclado"
+      ],
+      "Select how your list of messages looks like by default.": [
+        "Seleccione cómo se verá su lista de mensajes por defecto."
+      ],
+      "Select how your mailbox looks like by default.": [
+        "Seleccione cómo se verá su buzón por defecto."
+      ],
+      "Select how your composer opens by default.": [
+        "Seleccione cómo se abrirá el compositor por defecto."
       ],
       "Add email address": [
         "Añadir correo electrónico"
@@ -2120,6 +2117,9 @@
       ],
       "Export contacts": [
         "Exportar contactos"
+      ],
+      "Enable Beta Access": [
+        "Habilitar acceso beta"
       ],
       "From: ${ fromEmailAddress }": [
         "De: ${ fromEmailAddress }"
@@ -2248,6 +2248,11 @@
         "Calendarios suscritos"
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        "La clave no puede usarse para el cifrado"
+      ]
+    },
     "Placeholder": {
       "E.g., ": [
         "Ej., "
@@ -2336,11 +2341,6 @@
       "${ minutes } minute": [
         "${ minutes } minuto",
         "${ minutes } minutos"
-      ]
-    },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        "La clave no puede usarse para el cifrado"
       ]
     },
     "Tooltip": {
@@ -2483,6 +2483,9 @@
       "Live chat is a premium feature available only to those with paid ProtonVPN plans. Please open a ticket instead.": [
         "El chat en vivo es una función premium disponible solo para aquellos con planes de pago de ProtonVPN. En su lugar, abra una solicitud."
       ],
+      "Unfortunately, we’re not online at the moment. Please complete the form below to describe your issue, and we will look into it and be in touch when we’re back online.": [
+        "Lamentablemente no estamos en línea en este momento. Complete el formulario a continuación para describir su problema, lo investigaremos y nos pondremos en contacto cuando volvamos a estar en línea."
+      ],
       "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
         "Los reportes no están cifrados de extremo a extremo, no envíe ninguna información confidencial."
       ],
@@ -2547,17 +2550,17 @@
       "You have successfully unsubscribed": [
         "Ha cancelado la suscripción satisfactoriamente"
       ],
-      "Keyboard shortcuts preferences updated": [
-        "Preferencias de atajos de teclado actualizadas"
-      ],
-      "Preference saved": [
-        "Preferencia guardada"
-      ],
       "Code sent to ${ methodTo }": [
         "Código enviado a ${ methodTo }"
       ],
       "Verification successful": [
         "Verificación exitosa"
+      ],
+      "Keyboard shortcuts preferences updated": [
+        "Preferencias de atajos de teclado actualizadas"
+      ],
+      "Preference saved": [
+        "Preferencia guardada"
       ],
       "Preferences saved": [
         "Preferencias guardadas"
@@ -3359,6 +3362,28 @@
         "Gratis"
       ]
     },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "Factura atrasada"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "Correo"
+      ],
+      "SMS": [
+        "SMS"
+      ],
+      "Manual": [
+        "Manual"
+      ],
+      "No verification method available": [
+        "No hay un método de verificación disponible"
+      ]
+    },
     "Payment method option": {
       "New credit/debit card": [
         "Tarjeta de crédito/débito nueva"
@@ -3368,19 +3393,6 @@
       ],
       "Bitcoin": [
         "Bitcoin"
-      ]
-    },
-    "Beta access description": {
-      "Beta Access lets you use the beta version of ProtonMail, Proton Calendar, and Proton Drive before they are released to the public. This means you can be the first to try new products, get new updates, and use new features.": [
-        "El acceso beta le permite usar la versión beta de ProtonMail, Proton Calendar y Proton Drive antes de que se liberen al público. Esto significa que puede ser el primero en probar productos nuevos, obtener actualizaciones nuevas y usar funciones nuevas."
-      ],
-      "If you encounter issues, you can always disable Beta Access.": [
-        "Si encuentra problemas, siempre puede deshabilitar el acceso beta."
-      ]
-    },
-    "Refresh on apply warning": {
-      "Note: the service will reload after you click the Apply button.": [
-        "Nota: el servicio se recargará después de hacer clic en el botón Aplicar."
       ]
     },
     "Label to change density": {
@@ -3405,28 +3417,6 @@
       ],
       "Maximized": [
         "Maximizada"
-      ]
-    },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "Factura atrasada"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
-      ],
-      "Email": [
-        "Correo"
-      ],
-      "SMS": [
-        "SMS"
-      ],
-      "Manual": [
-        "Manual"
-      ],
-      "No verification method available": [
-        "No hay un método de verificación disponible"
       ]
     },
     "Notification": {
@@ -3682,9 +3672,17 @@
         "${ totalImported }/${ totalToImport } contactos cifrados y añadidos a su lista de contactos"
       ]
     },
-    "Select files": {
-      "Upload": [
-        "Cargar"
+    "Beta access description": {
+      "Beta Access lets you use the beta version of ProtonMail, Proton Calendar, and Proton Drive before they are released to the public. This means you can be the first to try new products, get new updates, and use new features.": [
+        "El acceso beta le permite usar la versión beta de ProtonMail, Proton Calendar y Proton Drive antes de que se liberen al público. Esto significa que puede ser el primero en probar productos nuevos, obtener actualizaciones nuevas y usar funciones nuevas."
+      ],
+      "If you encounter issues, you can always disable Beta Access.": [
+        "Si encuentra problemas, siempre puede deshabilitar el acceso beta."
+      ]
+    },
+    "Refresh on apply warning": {
+      "Note: the service will reload after you click the Apply button.": [
+        "Nota: el servicio se recargará después de hacer clic en el botón Aplicar."
       ]
     },
     "Loading info": {
@@ -3706,6 +3704,11 @@
     "Confirm modal title": {
       "Quit import?": [
         "¿Salir de la importación?"
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "Cargar"
       ]
     },
     "Message display when a new app version is available": {
@@ -4352,6 +4355,12 @@
         "GB"
       ]
     },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "La contraseña debe tener al menos ${ length } caracter",
+        "La contraseña debe tener al menos ${ length } caracteres"
+      ]
+    },
     "Contact field label": {
       "Name": [
         "Nombre"
@@ -4466,10 +4475,9 @@
         "Dirección"
       ]
     },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "La contraseña debe tener al menos ${ length } caracter",
-        "La contraseña debe tener al menos ${ length } caracteres"
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "Dirección de correo no encontrada entre los identificadores de usuario definidos en la clave de envío (${ keyUserIds })"
       ]
     },
     "Keyboard shortcut section name": {
@@ -4691,11 +4699,6 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "Ocurrió un error al leer el archivo ${ formattedFilename }. El archivo no tiene el formato correcto."
-      ]
-    },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "Dirección de correo no encontrada entre los identificadores de usuario definidos en la clave de envío (${ keyUserIds })"
       ]
     },
     "Message": {

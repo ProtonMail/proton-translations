@@ -21,14 +21,14 @@
       "Authentication error.": [
         "Σφάλμα ελέγχου ταυτότητας."
       ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "Το πρόγραμμα περιήγησης που χρησιμοποιείτε δεν επιτρέπει την πλήρη εξουσιοδότηση της πληρωμής. Χρησιμοποιήστε ένα διαφορετικό πρόγραμμα περιήγησης ή συνδεθείτε μέσω υπολογιστή."
-      ],
       "Email address invalid": [
         "Η διεύθυνση E-mail δεν είναι έγκυρη"
       ],
       "This field is required": [
         "Αυτό το πεδίο είναι υποχρεωτικό"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "Το πρόγραμμα περιήγησης που χρησιμοποιείτε δεν επιτρέπει την πλήρη εξουσιοδότηση της πληρωμής. Χρησιμοποιήστε ένα διαφορετικό πρόγραμμα περιήγησης ή συνδεθείτε μέσω υπολογιστή."
       ],
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "Κάτι πήγε στραβά, παρακαλούμε ${ refresh } για να προχωρήσετε. Εάν εξακολουθείτε να βλέπετε αυτό το μήνυμα σφάλματος, παρακαλούμε επικοινωνήστε με την ${ supportTeam }."
@@ -155,14 +155,14 @@
       "Invalid name": [
         "Μη έγκυρο όνομα"
       ],
-      "Primary address key is not decrypted": [
-        "Το κύριο κλειδί διεύθυνσης δεν αποκρυπτογραφείται"
-      ],
       "We were unable to connect to your service provider.": [
         ""
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         ""
+      ],
+      "Primary address key is not decrypted": [
+        "Το κύριο κλειδί διεύθυνσης δεν αποκρυπτογραφείται"
       ],
       "No valid address found": [
         "Δεν βρέθηκε έγκυρη διεύθυνση"
@@ -194,6 +194,12 @@
       "Request timed out.": [
         "Λήξη χρονικού ορίου αιτήματος."
       ],
+      "Signature verification failed": [
+        "Η επαλήθευση υπογραφής απέτυχε"
+      ],
+      "Could not find address ${ email }.": [
+        "Δεν ήταν δυνατή η εύρεση της διεύθυνσης ${ email }."
+      ],
       "Missing signature": [
         "Λείπει η υπογραφή"
       ],
@@ -202,12 +208,6 @@
       ],
       "Signature not verified": [
         "Υπογραφή δεν πιστοποιήθηκε"
-      ],
-      "Signature verification failed": [
-        "Η επαλήθευση υπογραφής απέτυχε"
-      ],
-      "Could not find address ${ email }.": [
-        "Δεν ήταν δυνατή η εύρεση της διεύθυνσης ${ email }."
       ],
       "Email address disabled": [
         "Η διεύθυνση email έχει απενεργοποιηθεί"
@@ -341,6 +341,9 @@
       "Load image": [
         "Φόρτωση εικόνας"
       ],
+      "refresh the page": [
+        "ανανέωσε τη σελίδα"
+      ],
       "Export": [
         "Εξαγωγή"
       ],
@@ -376,9 +379,6 @@
       ],
       "Upload picture": [
         "Μεταφόρτωση Εικόνας"
-      ],
-      "refresh the page": [
-        "ανανέωσε τη σελίδα"
       ],
       "Next month": [
         "Επόμενος μήνας"
@@ -918,21 +918,6 @@
       "${ appName } customization": [
         "Προσαρμογή ${ appName }"
       ],
-      "${ appName } Keyboard Shortcuts": [
-        "${ appName } Συντομεύσεις πληκτρολογίου"
-      ],
-      "Mailbox density": [
-        ""
-      ],
-      "Mailbox layout": [
-        ""
-      ],
-      "Composer mode": [
-        "Λειτουργία σύνθεσης"
-      ],
-      "Beta Access": [
-        ""
-      ],
       "Sign in again to continue": [
         "Συνδεθείτε ξανά για να συνεχίσετε"
       ],
@@ -953,6 +938,18 @@
       ],
       "Human verification": [
         "Ανθρώπινη Επαλήθευση"
+      ],
+      "${ appName } Keyboard Shortcuts": [
+        "${ appName } Συντομεύσεις πληκτρολογίου"
+      ],
+      "Mailbox density": [
+        ""
+      ],
+      "Mailbox layout": [
+        ""
+      ],
+      "Composer mode": [
+        "Λειτουργία σύνθεσης"
       ],
       "Edit contact group": [
         "Επεξεργασία ομάδας επαφών"
@@ -1065,6 +1062,9 @@
       ],
       "Import contacts": [
         "Εισαγωγή επαφών"
+      ],
+      "Beta Access": [
+        ""
       ],
       "Start import process": [
         ""
@@ -1212,11 +1212,14 @@
       "No results found": [
         "Δεν βρέθηκαν αποτελέσματα"
       ],
+      "support team": [
+        "ομάδα υποστήριξης"
+      ],
       "No contacts added yet": [
         "Δεν έχουν προστεθεί επαφές ακόμα"
       ],
-      "support team": [
-        "ομάδα υποστήριξης"
+      "Loading": [
+        "Φόρτωση"
       ],
       "Week": [
         "Εβδομάδα"
@@ -1232,9 +1235,6 @@
       ],
       "Learn more": [
         "Μάθετε περισσότερα"
-      ],
-      "Loading": [
-        "Φόρτωση"
       ],
       "Drop the file here to upload": [
         "Αφήστε το αρχείο εδώ για μεταφόρτωση"
@@ -1488,12 +1488,6 @@
       "Not customizable": [
         "Μη παραμετροποιήσιμο"
       ],
-      "Expired": [
-        "Έχει λήξει"
-      ],
-      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
-        "Η βασική πλοήγηση και οι ενέργειες παραμένουν διαθέσιμες ανεξάρτητα από τις συντομεύσεις πληκτρολογίου που είναι ενεργές ή όχι στις ρυθμίσεις."
-      ],
       "here": [
         "εδώ"
       ],
@@ -1532,6 +1526,12 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Αν αντιμετωπίζετε προβλήματα με τη δημιουργία του λογαριασμού σας, ζητήστε μια πρόσκληση και θα απαντήσουμε εντός μίας εργάσιμης ημέρας."
+      ],
+      "Expired": [
+        "Έχει λήξει"
+      ],
+      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
+        "Η βασική πλοήγηση και οι ενέργειες παραμένουν διαθέσιμες ανεξάρτητα από τις συντομεύσεις πληκτρολογίου που είναι ενεργές ή όχι στις ρυθμίσεις."
       ],
       "${ contactEmailsLength } Member": [
         "${ contactEmailsLength } Μέλος",
@@ -2031,33 +2031,6 @@
       "Proration": [
         "Προμήθεια"
       ],
-      "Cash": [
-        "Μετρητά"
-      ],
-      "Card holder": [
-        "Κάτοχος κάρτας"
-      ],
-      "Expires": [
-        "Λήγει"
-      ],
-      "Payer": [
-        "Πληρωτής"
-      ],
-      "Keyboard shortcuts": [
-        "Συντομεύσεις πληκτρολογίου"
-      ],
-      "Select how your list of messages looks like by default.": [
-        ""
-      ],
-      "Select how your mailbox looks like by default.": [
-        ""
-      ],
-      "Select how your composer opens by default.": [
-        ""
-      ],
-      "Enable Beta Access": [
-        ""
-      ],
       "Cancel": [
         "Ακύρωση"
       ],
@@ -2084,6 +2057,30 @@
       ],
       "Enter the 6-digit code": [
         "Εισάγετε τον 6-ψήφιο κωδικό"
+      ],
+      "Cash": [
+        "Μετρητά"
+      ],
+      "Card holder": [
+        "Κάτοχος κάρτας"
+      ],
+      "Expires": [
+        "Λήγει"
+      ],
+      "Payer": [
+        "Πληρωτής"
+      ],
+      "Keyboard shortcuts": [
+        "Συντομεύσεις πληκτρολογίου"
+      ],
+      "Select how your list of messages looks like by default.": [
+        ""
+      ],
+      "Select how your mailbox looks like by default.": [
+        ""
+      ],
+      "Select how your composer opens by default.": [
+        ""
       ],
       "Add email address": [
         "Προσθήκη διεύθυνσης ηλεκτρονικού ταχυδρομείου"
@@ -2120,6 +2117,9 @@
       ],
       "Export contacts": [
         "Εξαγωγή Επαφών"
+      ],
+      "Enable Beta Access": [
+        ""
       ],
       "From: ${ fromEmailAddress }": [
         ""
@@ -2248,6 +2248,11 @@
         ""
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        ""
+      ]
+    },
     "Placeholder": {
       "E.g., ": [
         "Π.χ., "
@@ -2336,11 +2341,6 @@
       "${ minutes } minute": [
         "${ minutes } λεπτό",
         "${ minutes } λεπτά"
-      ]
-    },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        ""
       ]
     },
     "Tooltip": {
@@ -2483,6 +2483,9 @@
       "Live chat is a premium feature available only to those with paid ProtonVPN plans. Please open a ticket instead.": [
         ""
       ],
+      "Unfortunately, we’re not online at the moment. Please complete the form below to describe your issue, and we will look into it and be in touch when we’re back online.": [
+        ""
+      ],
       "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
         ""
       ],
@@ -2547,17 +2550,17 @@
       "You have successfully unsubscribed": [
         "Διαγραφήκατε με επιτυχία"
       ],
-      "Keyboard shortcuts preferences updated": [
-        "Οι προτιμήσεις συντομεύσεων πληκτρολογίου ενημερώθηκαν"
-      ],
-      "Preference saved": [
-        "Η προτίμηση αποθηκεύτηκε"
-      ],
       "Code sent to ${ methodTo }": [
         "Ο κωδικός στάλθηκε στο ${ methodTo }"
       ],
       "Verification successful": [
         "Επιτυχία επαλήθευσης"
+      ],
+      "Keyboard shortcuts preferences updated": [
+        "Οι προτιμήσεις συντομεύσεων πληκτρολογίου ενημερώθηκαν"
+      ],
+      "Preference saved": [
+        "Η προτίμηση αποθηκεύτηκε"
       ],
       "Preferences saved": [
         "Οι προτιμήσεις αποθηκεύτηκαν"
@@ -3359,6 +3362,28 @@
         "Δωρεάν"
       ]
     },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "Εκπρόθεσμο τιμολόγιο"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "Email"
+      ],
+      "SMS": [
+        "SMS"
+      ],
+      "Manual": [
+        "Χειροκίνητα"
+      ],
+      "No verification method available": [
+        "Δεν υπάρχει διαθέσιμη μέθοδος επαλήθευσης"
+      ]
+    },
     "Payment method option": {
       "New credit/debit card": [
         "Νέα πιστωτική/χρεωστική κάρτα"
@@ -3368,19 +3393,6 @@
       ],
       "Bitcoin": [
         "Bitcoin"
-      ]
-    },
-    "Beta access description": {
-      "Beta Access lets you use the beta version of ProtonMail, Proton Calendar, and Proton Drive before they are released to the public. This means you can be the first to try new products, get new updates, and use new features.": [
-        ""
-      ],
-      "If you encounter issues, you can always disable Beta Access.": [
-        ""
-      ]
-    },
-    "Refresh on apply warning": {
-      "Note: the service will reload after you click the Apply button.": [
-        ""
       ]
     },
     "Label to change density": {
@@ -3405,28 +3417,6 @@
       ],
       "Maximized": [
         "Μεγιστοποιημένος"
-      ]
-    },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "Εκπρόθεσμο τιμολόγιο"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
-      ],
-      "Email": [
-        "Email"
-      ],
-      "SMS": [
-        "SMS"
-      ],
-      "Manual": [
-        "Χειροκίνητα"
-      ],
-      "No verification method available": [
-        "Δεν υπάρχει διαθέσιμη μέθοδος επαλήθευσης"
       ]
     },
     "Notification": {
@@ -3682,9 +3672,17 @@
         "${ totalImported }/${ totalToImport } επαφές κρυπτογραφήθηκαν και προστέθηκαν στη λίστα επαφών σας"
       ]
     },
-    "Select files": {
-      "Upload": [
-        "Μεταφόρτωση"
+    "Beta access description": {
+      "Beta Access lets you use the beta version of ProtonMail, Proton Calendar, and Proton Drive before they are released to the public. This means you can be the first to try new products, get new updates, and use new features.": [
+        ""
+      ],
+      "If you encounter issues, you can always disable Beta Access.": [
+        ""
+      ]
+    },
+    "Refresh on apply warning": {
+      "Note: the service will reload after you click the Apply button.": [
+        ""
       ]
     },
     "Loading info": {
@@ -3706,6 +3704,11 @@
     "Confirm modal title": {
       "Quit import?": [
         ""
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "Μεταφόρτωση"
       ]
     },
     "Message display when a new app version is available": {
@@ -4352,6 +4355,12 @@
         "GB"
       ]
     },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "",
+        ""
+      ]
+    },
     "Contact field label": {
       "Name": [
         "Όνομα"
@@ -4466,10 +4475,9 @@
         "Διεύθυνση"
       ]
     },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "",
-        ""
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "Η διεύθυνση ηλεκτρονικού ταχυδρομείου δεν βρέθηκε μεταξύ των αναγνωριστικών χρήστη που ορίζονται στο κλειδί αποστολής (${ keyUserIds })"
       ]
     },
     "Keyboard shortcut section name": {
@@ -4691,11 +4699,6 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "Παρουσιάστηκε σφάλμα κατά την ανάγνωση του αρχείου σας ${ formattedFilename }. Το αρχείο δεν έχει τη σωστή μορφή."
-      ]
-    },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "Η διεύθυνση ηλεκτρονικού ταχυδρομείου δεν βρέθηκε μεταξύ των αναγνωριστικών χρήστη που ορίζονται στο κλειδί αποστολής (${ keyUserIds })"
       ]
     },
     "Message": {

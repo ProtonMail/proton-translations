@@ -21,14 +21,14 @@
       "Authentication error.": [
         "認證錯誤。"
       ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "您正在使用的瀏覽器不允許您完整授權付款。請使用其他瀏覽器或透過電腦登入。"
-      ],
       "Email address invalid": [
         "電子郵件地址無效"
       ],
       "This field is required": [
         "此欄位為必填"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "您正在使用的瀏覽器不允許您完整授權付款。請使用其他瀏覽器或透過電腦登入。"
       ],
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "發生錯誤，請${ refresh }以繼續。如果您仍看到此錯誤訊息，請聯絡我們的${ supportTeam }。"
@@ -153,14 +153,14 @@
       "Invalid name": [
         "名稱無效"
       ],
-      "Primary address key is not decrypted": [
-        "主要地址金鑰並未被加密"
-      ],
       "We were unable to connect to your service provider.": [
         ""
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         ""
+      ],
+      "Primary address key is not decrypted": [
+        "主要地址金鑰並未被加密"
       ],
       "No valid address found": [
         "找不到有效的地址"
@@ -192,6 +192,12 @@
       "Request timed out.": [
         "請求逾時。"
       ],
+      "Signature verification failed": [
+        "簽名驗證失敗"
+      ],
+      "Could not find address ${ email }.": [
+        "找不到地址 ${ email } 。"
+      ],
       "Missing signature": [
         "簽章遺失"
       ],
@@ -200,12 +206,6 @@
       ],
       "Signature not verified": [
         "簽章未驗證"
-      ],
-      "Signature verification failed": [
-        "簽名驗證失敗"
-      ],
-      "Could not find address ${ email }.": [
-        "找不到地址 ${ email } 。"
       ],
       "Email address disabled": [
         "電子郵件地址已停用"
@@ -335,6 +335,9 @@
       "Load image": [
         "載入圖片"
       ],
+      "refresh the page": [
+        "刷新此頁"
+      ],
       "Export": [
         "匯出"
       ],
@@ -370,9 +373,6 @@
       ],
       "Upload picture": [
         "上傳圖片"
-      ],
-      "refresh the page": [
-        "刷新此頁"
       ],
       "Next month": [
         "下個月"
@@ -771,7 +771,7 @@
         "關閉彈出視窗"
       ],
       "Close event popover": [
-        ""
+        "關閉事件彈出式視窗"
       ]
     },
     "Title": {
@@ -910,21 +910,6 @@
       "${ appName } customization": [
         "${ appName } 自訂化"
       ],
-      "${ appName } Keyboard Shortcuts": [
-        "${ appName } 鍵盤快捷鍵"
-      ],
-      "Mailbox density": [
-        "收件匣密度"
-      ],
-      "Mailbox layout": [
-        "收件匣佈局"
-      ],
-      "Composer mode": [
-        "撰寫器模式"
-      ],
-      "Beta Access": [
-        "測試版體驗"
-      ],
       "Sign in again to continue": [
         "請重新登入以繼續"
       ],
@@ -945,6 +930,18 @@
       ],
       "Human verification": [
         "真人驗證"
+      ],
+      "${ appName } Keyboard Shortcuts": [
+        "${ appName } 鍵盤快捷鍵"
+      ],
+      "Mailbox density": [
+        "收件匣密度"
+      ],
+      "Mailbox layout": [
+        "收件匣佈局"
+      ],
+      "Composer mode": [
+        "撰寫器模式"
       ],
       "Edit contact group": [
         "編輯聯絡人群組"
@@ -1053,6 +1050,9 @@
       ],
       "Import contacts": [
         "匯入聯絡人"
+      ],
+      "Beta Access": [
+        "測試版體驗"
       ],
       "Start import process": [
         ""
@@ -1200,11 +1200,14 @@
       "No results found": [
         "查無結果"
       ],
+      "support team": [
+        "支援團隊"
+      ],
       "No contacts added yet": [
         "未新增任何聯絡人"
       ],
-      "support team": [
-        "支援團隊"
+      "Loading": [
+        "載入中"
       ],
       "Week": [
         "週"
@@ -1220,9 +1223,6 @@
       ],
       "Learn more": [
         "瞭解更多"
-      ],
-      "Loading": [
-        "載入中"
       ],
       "Drop the file here to upload": [
         "拖放檔案到此處上載"
@@ -1473,12 +1473,6 @@
       "Not customizable": [
         "不能自訂"
       ],
-      "Expired": [
-        "過期"
-      ],
-      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
-        "不論在設定中是否啟用鍵盤快捷鍵，基本導覽及動作仍然可用。"
-      ],
       "here": [
         "此處"
       ],
@@ -1517,6 +1511,12 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "如果你無法建立帳戶，請聯絡我們。我們將會於一個工作天內處理你的申請。"
+      ],
+      "Expired": [
+        "過期"
+      ],
+      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
+        "不論在設定中是否啟用鍵盤快捷鍵，基本導覽及動作仍然可用。"
       ],
       "${ contactEmailsLength } Member": [
         "${ contactEmailsLength } 個成員"
@@ -2011,33 +2011,6 @@
       "Proration": [
         "按比例分配後"
       ],
-      "Cash": [
-        "現金"
-      ],
-      "Card holder": [
-        "持卡人"
-      ],
-      "Expires": [
-        "到期日"
-      ],
-      "Payer": [
-        "付款人"
-      ],
-      "Keyboard shortcuts": [
-        "鍵盤快捷鍵"
-      ],
-      "Select how your list of messages looks like by default.": [
-        "選取預設情況下您郵件清單的外觀。"
-      ],
-      "Select how your mailbox looks like by default.": [
-        "選取預設情況下的收件匣外觀。"
-      ],
-      "Select how your composer opens by default.": [
-        "選取預設情況下撰寫器開啟的方式。"
-      ],
-      "Enable Beta Access": [
-        "啟用測試版體驗"
-      ],
       "Cancel": [
         "取消"
       ],
@@ -2064,6 +2037,30 @@
       ],
       "Enter the 6-digit code": [
         "請輸入 6 位數代碼"
+      ],
+      "Cash": [
+        "現金"
+      ],
+      "Card holder": [
+        "持卡人"
+      ],
+      "Expires": [
+        "到期日"
+      ],
+      "Payer": [
+        "付款人"
+      ],
+      "Keyboard shortcuts": [
+        "鍵盤快捷鍵"
+      ],
+      "Select how your list of messages looks like by default.": [
+        "選取預設情況下您郵件清單的外觀。"
+      ],
+      "Select how your mailbox looks like by default.": [
+        "選取預設情況下的收件匣外觀。"
+      ],
+      "Select how your composer opens by default.": [
+        "選取預設情況下撰寫器開啟的方式。"
       ],
       "Add email address": [
         "新增電子郵件地址"
@@ -2100,6 +2097,9 @@
       ],
       "Export contacts": [
         "匯出聯絡人"
+      ],
+      "Enable Beta Access": [
+        "啟用測試版體驗"
       ],
       "From: ${ fromEmailAddress }": [
         ""
@@ -2186,7 +2186,7 @@
         "您的行事曆"
       ],
       "Participant": [
-        ""
+        "參與者"
       ]
     },
     "Link": {
@@ -2225,6 +2225,11 @@
       ],
       "Subscribed calendars": [
         "已訂閱日曆"
+      ]
+    },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        "此金鑰不適用於加密"
       ]
     },
     "Placeholder": {
@@ -2313,11 +2318,6 @@
       ],
       "${ minutes } minute": [
         "${ minutes } 分鐘"
-      ]
-    },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        "此金鑰不適用於加密"
       ]
     },
     "Tooltip": {
@@ -2460,6 +2460,9 @@
       "Live chat is a premium feature available only to those with paid ProtonVPN plans. Please open a ticket instead.": [
         ""
       ],
+      "Unfortunately, we’re not online at the moment. Please complete the form below to describe your issue, and we will look into it and be in touch when we’re back online.": [
+        "不幸的是，我們目前不在線上。請填寫下面的表單來描述您的問題，我們將會進行調查並在我們重新上線後與您聯絡。"
+      ],
       "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
         "報告並非端對端加密，請勿傳送任何敏感資訊。"
       ],
@@ -2522,17 +2525,17 @@
       "You have successfully unsubscribed": [
         "您已成功取消訂閱"
       ],
-      "Keyboard shortcuts preferences updated": [
-        "鍵盤快捷鍵喜好設定已更新"
-      ],
-      "Preference saved": [
-        "偏好設定已儲存"
-      ],
       "Code sent to ${ methodTo }": [
         "已向 ${ methodTo } 發送驗證碼"
       ],
       "Verification successful": [
         "驗證成功"
+      ],
+      "Keyboard shortcuts preferences updated": [
+        "鍵盤快捷鍵喜好設定已更新"
+      ],
+      "Preference saved": [
+        "偏好設定已儲存"
       ],
       "Preferences saved": [
         "喜好設定已儲存"
@@ -2660,10 +2663,10 @@
     },
     "Collapsible tooltip": {
       "Open": [
-        ""
+        "開啟"
       ],
       "Close": [
-        ""
+        "關閉"
       ]
     },
     "Error message": {
@@ -3320,6 +3323,28 @@
         "免費"
       ]
     },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "逾期帳單"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA 驗證碼"
+      ],
+      "Email": [
+        "電子郵件"
+      ],
+      "SMS": [
+        "簡訊"
+      ],
+      "Manual": [
+        "手動"
+      ],
+      "No verification method available": [
+        "沒有可用的驗證方式"
+      ]
+    },
     "Payment method option": {
       "New credit/debit card": [
         "新增信用卡/扣帳卡"
@@ -3329,19 +3354,6 @@
       ],
       "Bitcoin": [
         "比特幣"
-      ]
-    },
-    "Beta access description": {
-      "Beta Access lets you use the beta version of ProtonMail, Proton Calendar, and Proton Drive before they are released to the public. This means you can be the first to try new products, get new updates, and use new features.": [
-        "測試版體驗讓您可以在釋出到公眾前使用 ProtonMail、Proton Calendar 與 Proton Drive 的測試版。這代表了您會是第一個嘗試新產品、取得新的更新以及使用新功能的人。"
-      ],
-      "If you encounter issues, you can always disable Beta Access.": [
-        "如果您遇到了問題，您還是可以停用測試版體驗。"
-      ]
-    },
-    "Refresh on apply warning": {
-      "Note: the service will reload after you click the Apply button.": [
-        "注意：服務將會在您點擊「套用」按鈕後重新載入。"
       ]
     },
     "Label to change density": {
@@ -3366,28 +3378,6 @@
       ],
       "Maximized": [
         "最大化"
-      ]
-    },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "逾期帳單"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA 驗證碼"
-      ],
-      "Email": [
-        "電子郵件"
-      ],
-      "SMS": [
-        "簡訊"
-      ],
-      "Manual": [
-        "手動"
-      ],
-      "No verification method available": [
-        "沒有可用的驗證方式"
       ]
     },
     "Notification": {
@@ -3632,9 +3622,17 @@
         "${ totalImported }/${ totalToImport } 個聯絡人已加密並新增到您的聯絡人清單"
       ]
     },
-    "Select files": {
-      "Upload": [
-        "上載"
+    "Beta access description": {
+      "Beta Access lets you use the beta version of ProtonMail, Proton Calendar, and Proton Drive before they are released to the public. This means you can be the first to try new products, get new updates, and use new features.": [
+        "測試版體驗讓您可以在釋出到公眾前使用 ProtonMail、Proton Calendar 與 Proton Drive 的測試版。這代表了您會是第一個嘗試新產品、取得新的更新以及使用新功能的人。"
+      ],
+      "If you encounter issues, you can always disable Beta Access.": [
+        "如果您遇到了問題，您還是可以停用測試版體驗。"
+      ]
+    },
+    "Refresh on apply warning": {
+      "Note: the service will reload after you click the Apply button.": [
+        "注意：服務將會在您點擊「套用」按鈕後重新載入。"
       ]
     },
     "Loading info": {
@@ -3656,6 +3654,11 @@
     "Confirm modal title": {
       "Quit import?": [
         ""
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "上載"
       ]
     },
     "Message display when a new app version is available": {
@@ -4261,6 +4264,11 @@
         "GB"
       ]
     },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "密碼至少必須包含 ${ length } 個字元"
+      ]
+    },
     "Contact field label": {
       "Name": [
         "姓名"
@@ -4375,9 +4383,9 @@
         "地址"
       ]
     },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "密碼至少必須包含 ${ length } 個字元"
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "寄送金鑰所定義的使用者識別碼 (${ keyUserIds }) 中找不到電子郵件地址"
       ]
     },
     "Keyboard shortcut section name": {
@@ -4601,11 +4609,6 @@
         "讀取您的檔案 ${ formattedFilename } 時發生錯誤。檔案格式有誤。"
       ]
     },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "寄送金鑰所定義的使用者識別碼 (${ keyUserIds }) 中找不到電子郵件地址"
-      ]
-    },
     "Message": {
       "Re:": [
         "回覆:"
@@ -4740,7 +4743,7 @@
     },
     "Event popover close button": {
       "Close popover": [
-        ""
+        "關閉彈出視窗"
       ]
     },
     "Calendar invite info": {
@@ -4789,44 +4792,44 @@
     },
     "Event reply": {
       "yes": [
-        ""
+        "是"
       ],
       "maybe": [
-        ""
+        "也許"
       ],
       "no": [
-        ""
+        "否"
       ],
       "unanswered": [
-        ""
+        "未回應"
       ]
     },
     "Participants expand button label": {
       "Expand participants list": [
-        ""
+        "展開參與者清單"
       ],
       "Collapse participants list": [
-        ""
+        "折疊參與者清單"
       ]
     },
     "Event edit button tooltip": {
       "Edit event": [
-        ""
+        "編輯事件"
       ]
     },
     "Event delete button tooltip": {
       "Delete event": [
-        ""
+        "刪除事件"
       ]
     },
     "Event cancelled status badge": {
       "cancelled": [
-        ""
+        "已取消"
       ]
     },
     "Calendar invite buttons label": {
       "Attending?": [
-        ""
+        "會否出席？"
       ]
     }
   }

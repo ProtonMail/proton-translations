@@ -21,14 +21,14 @@
       "Authentication error.": [
         "Godkendelsesfejl."
       ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "Din aktuelle browser tillader ikke fuld godkendelse af betalingen. Benyt en anden browser eller log ind via en computer."
-      ],
       "Email address invalid": [
         "E-mailadresse ugyldig"
       ],
       "This field is required": [
         "Dette felt skal udfyldes"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "Din aktuelle browser tillader ikke fuld godkendelse af betalingen. Benyt en anden browser eller log ind via en computer."
       ],
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "Noget gik galt. ${ refresh } siden for at fortsætte. Ser du fortsat denne fejlmeddelelse, bedes du kontakte vores ${ supportTeam }."
@@ -155,14 +155,14 @@
       "Invalid name": [
         "Ugyldigt navn"
       ],
-      "Primary address key is not decrypted": [
-        "Primære adressenøgle er ikke dekrypteret"
-      ],
       "We were unable to connect to your service provider.": [
         ""
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         ""
+      ],
+      "Primary address key is not decrypted": [
+        "Primære adressenøgle er ikke dekrypteret"
       ],
       "No valid address found": [
         "Ingen gyldig adresse fundet"
@@ -194,6 +194,12 @@
       "Request timed out.": [
         "Forespørgsel fik timeout."
       ],
+      "Signature verification failed": [
+        "Bekræftelse af signatur mislykkedes"
+      ],
+      "Could not find address ${ email }.": [
+        "Kunne ikke finde adresse ${ email }."
+      ],
       "Missing signature": [
         "Manglende signatur"
       ],
@@ -202,12 +208,6 @@
       ],
       "Signature not verified": [
         "Signatur ikke bekræftet"
-      ],
-      "Signature verification failed": [
-        "Bekræftelse af signatur mislykkedes"
-      ],
-      "Could not find address ${ email }.": [
-        "Kunne ikke finde adresse ${ email }."
       ],
       "Email address disabled": [
         "E-mailadresse deaktiveret"
@@ -341,6 +341,9 @@
       "Load image": [
         "Indlæs billede"
       ],
+      "refresh the page": [
+        "genopfrisk siden"
+      ],
       "Export": [
         "Exportér"
       ],
@@ -376,9 +379,6 @@
       ],
       "Upload picture": [
         "Overfør billede"
-      ],
-      "refresh the page": [
-        "genopfrisk siden"
       ],
       "Next month": [
         "Næste måned"
@@ -918,21 +918,6 @@
       "${ appName } customization": [
         "${ appName } tilpasning"
       ],
-      "${ appName } Keyboard Shortcuts": [
-        "${ appName } Tastaturgenveje"
-      ],
-      "Mailbox density": [
-        "Postkasse tæthed"
-      ],
-      "Mailbox layout": [
-        "Postkasse layout"
-      ],
-      "Composer mode": [
-        "Skrivetilstand"
-      ],
-      "Beta Access": [
-        "Beta-adgang"
-      ],
       "Sign in again to continue": [
         "Log ind igen for at fortsætte"
       ],
@@ -953,6 +938,18 @@
       ],
       "Human verification": [
         "Menneskelig bekræftelse"
+      ],
+      "${ appName } Keyboard Shortcuts": [
+        "${ appName } Tastaturgenveje"
+      ],
+      "Mailbox density": [
+        "Postkasse tæthed"
+      ],
+      "Mailbox layout": [
+        "Postkasse layout"
+      ],
+      "Composer mode": [
+        "Skrivetilstand"
       ],
       "Edit contact group": [
         "Redigér kontaktgruppe"
@@ -1065,6 +1062,9 @@
       ],
       "Import contacts": [
         "Importér kontakter"
+      ],
+      "Beta Access": [
+        "Beta-adgang"
       ],
       "Start import process": [
         ""
@@ -1212,11 +1212,14 @@
       "No results found": [
         "Ingen resultater fundet"
       ],
+      "support team": [
+        "supportteam"
+      ],
       "No contacts added yet": [
         "Ingen kontakter tilføjet endnu"
       ],
-      "support team": [
-        "supportteam"
+      "Loading": [
+        "Indlæser"
       ],
       "Week": [
         "Uge"
@@ -1232,9 +1235,6 @@
       ],
       "Learn more": [
         "Få mere at vide"
-      ],
-      "Loading": [
-        "Indlæser"
       ],
       "Drop the file here to upload": [
         "Slip filen her for at uploade"
@@ -1488,12 +1488,6 @@
       "Not customizable": [
         "Kan ikke tilpasses"
       ],
-      "Expired": [
-        "Udløbet"
-      ],
-      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
-        "Grundlæggende navigation og handlinger forbliver tilgængelige, uanset om tastaturgenveje er aktive eller ej i indstillingerne."
-      ],
       "here": [
         "hér"
       ],
@@ -1532,6 +1526,12 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Hvis du har problemer med at oprette din konto, bedes du anmode om en invitation. Så vil vi svare inden for en arbejdsdag."
+      ],
+      "Expired": [
+        "Udløbet"
+      ],
+      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
+        "Grundlæggende navigation og handlinger forbliver tilgængelige, uanset om tastaturgenveje er aktive eller ej i indstillingerne."
       ],
       "${ contactEmailsLength } Member": [
         "${ contactEmailsLength } medlem",
@@ -2031,33 +2031,6 @@
       "Proration": [
         "Proration"
       ],
-      "Cash": [
-        "Kontant"
-      ],
-      "Card holder": [
-        "Kortindehaver"
-      ],
-      "Expires": [
-        "Udløber"
-      ],
-      "Payer": [
-        "Betaler"
-      ],
-      "Keyboard shortcuts": [
-        "Tastaturgenveje"
-      ],
-      "Select how your list of messages looks like by default.": [
-        "Vælg hvordan din liste over beskeder ser ud som standard."
-      ],
-      "Select how your mailbox looks like by default.": [
-        "Vælg hvordan din postkasse ser ud som standard."
-      ],
-      "Select how your composer opens by default.": [
-        "Vælg hvordan dit skrivevindue åbner som standard."
-      ],
-      "Enable Beta Access": [
-        "Aktivér beta-adgang"
-      ],
       "Cancel": [
         "Afbryd"
       ],
@@ -2084,6 +2057,30 @@
       ],
       "Enter the 6-digit code": [
         "Indtast den sekscifrede kode"
+      ],
+      "Cash": [
+        "Kontant"
+      ],
+      "Card holder": [
+        "Kortindehaver"
+      ],
+      "Expires": [
+        "Udløber"
+      ],
+      "Payer": [
+        "Betaler"
+      ],
+      "Keyboard shortcuts": [
+        "Tastaturgenveje"
+      ],
+      "Select how your list of messages looks like by default.": [
+        "Vælg hvordan din liste over beskeder ser ud som standard."
+      ],
+      "Select how your mailbox looks like by default.": [
+        "Vælg hvordan din postkasse ser ud som standard."
+      ],
+      "Select how your composer opens by default.": [
+        "Vælg hvordan dit skrivevindue åbner som standard."
       ],
       "Add email address": [
         "Tilføj e-mailadresse"
@@ -2120,6 +2117,9 @@
       ],
       "Export contacts": [
         "Eksportér kontakter"
+      ],
+      "Enable Beta Access": [
+        "Aktivér beta-adgang"
       ],
       "From: ${ fromEmailAddress }": [
         ""
@@ -2248,6 +2248,11 @@
         "Tilmeldte kalendere"
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        "Nøgle kan ikke benyttes til kryptering"
+      ]
+    },
     "Placeholder": {
       "E.g., ": [
         "F.eks., "
@@ -2336,11 +2341,6 @@
       "${ minutes } minute": [
         "${ minutes } minut",
         "${ minutes } minutter"
-      ]
-    },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        "Nøgle kan ikke benyttes til kryptering"
       ]
     },
     "Tooltip": {
@@ -2483,6 +2483,9 @@
       "Live chat is a premium feature available only to those with paid ProtonVPN plans. Please open a ticket instead.": [
         ""
       ],
+      "Unfortunately, we’re not online at the moment. Please complete the form below to describe your issue, and we will look into it and be in touch when we’re back online.": [
+        ""
+      ],
       "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
         "Fejlrapporter er ikke end-to-end krypterede. Send derfor venligst ikke følsomme oplysninger."
       ],
@@ -2547,17 +2550,17 @@
       "You have successfully unsubscribed": [
         "Du har nu afmeldt dig"
       ],
-      "Keyboard shortcuts preferences updated": [
-        "Indstillinger for tastaturgenveje opdateret"
-      ],
-      "Preference saved": [
-        "Præferencer gemt"
-      ],
       "Code sent to ${ methodTo }": [
         "Kode sendt til ${ methodTo }"
       ],
       "Verification successful": [
         "Bekræftelse gennemført"
+      ],
+      "Keyboard shortcuts preferences updated": [
+        "Indstillinger for tastaturgenveje opdateret"
+      ],
+      "Preference saved": [
+        "Præferencer gemt"
       ],
       "Preferences saved": [
         "Præferencer gemt"
@@ -3359,6 +3362,28 @@
         "Gratis"
       ]
     },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "Forfalden faktura"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "E-mail"
+      ],
+      "SMS": [
+        "SMS"
+      ],
+      "Manual": [
+        "Manuel"
+      ],
+      "No verification method available": [
+        "Ingen bekræftelsesmetode tilgængelig"
+      ]
+    },
     "Payment method option": {
       "New credit/debit card": [
         "Nyt kredit / betalingskort"
@@ -3368,19 +3393,6 @@
       ],
       "Bitcoin": [
         "Bitcoin"
-      ]
-    },
-    "Beta access description": {
-      "Beta Access lets you use the beta version of ProtonMail, Proton Calendar, and Proton Drive before they are released to the public. This means you can be the first to try new products, get new updates, and use new features.": [
-        "Beta-adgang giver dig mulighed for at bruge betaversionen af ProtonMail, Proton Calendar, og Proton Drive, før de frigives til offentligheden. Det betyder, at du kan være den første til at prøve nye produkter, få nye opdateringer og bruge nye funktioner."
-      ],
-      "If you encounter issues, you can always disable Beta Access.": [
-        "Hvis du støder på problemer, kan du altid deaktivere beta-adgang."
-      ]
-    },
-    "Refresh on apply warning": {
-      "Note: the service will reload after you click the Apply button.": [
-        "Bemærk: Tjenesten vil genindlæse, når du klikker på Anvend-knappen."
       ]
     },
     "Label to change density": {
@@ -3405,28 +3417,6 @@
       ],
       "Maximized": [
         "Maksimeret"
-      ]
-    },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "Forfalden faktura"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
-      ],
-      "Email": [
-        "E-mail"
-      ],
-      "SMS": [
-        "SMS"
-      ],
-      "Manual": [
-        "Manuel"
-      ],
-      "No verification method available": [
-        "Ingen bekræftelsesmetode tilgængelig"
       ]
     },
     "Notification": {
@@ -3682,9 +3672,17 @@
         "${ totalImported }/${ totalToImport } kontakter krypteret og føjet til din kontaktliste"
       ]
     },
-    "Select files": {
-      "Upload": [
-        "Upload"
+    "Beta access description": {
+      "Beta Access lets you use the beta version of ProtonMail, Proton Calendar, and Proton Drive before they are released to the public. This means you can be the first to try new products, get new updates, and use new features.": [
+        "Beta-adgang giver dig mulighed for at bruge betaversionen af ProtonMail, Proton Calendar, og Proton Drive, før de frigives til offentligheden. Det betyder, at du kan være den første til at prøve nye produkter, få nye opdateringer og bruge nye funktioner."
+      ],
+      "If you encounter issues, you can always disable Beta Access.": [
+        "Hvis du støder på problemer, kan du altid deaktivere beta-adgang."
+      ]
+    },
+    "Refresh on apply warning": {
+      "Note: the service will reload after you click the Apply button.": [
+        "Bemærk: Tjenesten vil genindlæse, når du klikker på Anvend-knappen."
       ]
     },
     "Loading info": {
@@ -3706,6 +3704,11 @@
     "Confirm modal title": {
       "Quit import?": [
         ""
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "Upload"
       ]
     },
     "Message display when a new app version is available": {
@@ -4352,6 +4355,12 @@
         "GB"
       ]
     },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "Adgangskode skal indeholde mindst ${ length } tegn",
+        "Adgangskode skal indeholde mindst ${ length } tegn"
+      ]
+    },
     "Contact field label": {
       "Name": [
         "Navn"
@@ -4466,10 +4475,9 @@
         "Adresse"
       ]
     },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "Adgangskode skal indeholde mindst ${ length } tegn",
-        "Adgangskode skal indeholde mindst ${ length } tegn"
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "E-mailadresse ikke fundet blandt bruger-id'er defineret i afsendelsesnøgle (${ keyUserIds })"
       ]
     },
     "Keyboard shortcut section name": {
@@ -4691,11 +4699,6 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "Der opstod en fejl ved læsning af din fil ${ formattedFilename }. Filen har ikke det rigtige format."
-      ]
-    },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "E-mailadresse ikke fundet blandt bruger-id'er defineret i afsendelsesnøgle (${ keyUserIds })"
       ]
     },
     "Message": {

@@ -21,14 +21,14 @@
       "Authentication error.": [
         "Hitelesítési hiba."
       ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "Az Ön által használt böngésző nem támogatja a kívánt fizetési módot. Kérjük, használjon másik böngészőt, vagy jelentkezzen be egy számítógépről."
-      ],
       "Email address invalid": [
         "Érvénytelen e-mail cím"
       ],
       "This field is required": [
         "A mező kitöltése kötelező"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "Az Ön által használt böngésző nem támogatja a kívánt fizetési módot. Kérjük, használjon másik böngészőt, vagy jelentkezzen be egy számítógépről."
       ],
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "Hiba történt. Kérjük, ${ refresh } az oldalt a folytatáshoz. Ha a hiba továbbra is fennáll, kérjük lépjen velünk kapcsolatba: ${ supportTeam }."
@@ -155,14 +155,14 @@
       "Invalid name": [
         "Érvénytelen név"
       ],
-      "Primary address key is not decrypted": [
-        "Az elsődleges cím kulcsa nincs visszafejtve"
-      ],
       "We were unable to connect to your service provider.": [
         ""
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         ""
+      ],
+      "Primary address key is not decrypted": [
+        "Az elsődleges cím kulcsa nincs visszafejtve"
       ],
       "No valid address found": [
         "Nem található érvényes e-mail cím"
@@ -194,6 +194,12 @@
       "Request timed out.": [
         "A kérés túllépte az időkorlátot."
       ],
+      "Signature verification failed": [
+        "Az aláírás ellenőrzése sikertelen volt"
+      ],
+      "Could not find address ${ email }.": [
+        "A(z) ${ email }. e-mail cím nem található."
+      ],
       "Missing signature": [
         "Hiányzó aláírás"
       ],
@@ -202,12 +208,6 @@
       ],
       "Signature not verified": [
         "Aláírás nincs ellenőrizve"
-      ],
-      "Signature verification failed": [
-        "Az aláírás ellenőrzése sikertelen volt"
-      ],
-      "Could not find address ${ email }.": [
-        "A(z) ${ email }. e-mail cím nem található."
       ],
       "Email address disabled": [
         "Az e-mail cím le van tiltva"
@@ -341,6 +341,9 @@
       "Load image": [
         "Kép betöltése"
       ],
+      "refresh the page": [
+        "az oldal frissítése"
+      ],
       "Export": [
         "Exportálás"
       ],
@@ -376,9 +379,6 @@
       ],
       "Upload picture": [
         "Kép feltöltése"
-      ],
-      "refresh the page": [
-        "az oldal frissítése"
       ],
       "Next month": [
         "Következő hónap"
@@ -918,21 +918,6 @@
       "${ appName } customization": [
         "${ appName } testreszabása"
       ],
-      "${ appName } Keyboard Shortcuts": [
-        "${ appName } gyorsbillentyűk"
-      ],
-      "Mailbox density": [
-        ""
-      ],
-      "Mailbox layout": [
-        ""
-      ],
-      "Composer mode": [
-        "Szerkesztő módja"
-      ],
-      "Beta Access": [
-        "Béta hozzáférés"
-      ],
       "Sign in again to continue": [
         "Lépjen be újból a folytatáshoz"
       ],
@@ -953,6 +938,18 @@
       ],
       "Human verification": [
         "Robot ellenőrzés"
+      ],
+      "${ appName } Keyboard Shortcuts": [
+        "${ appName } gyorsbillentyűk"
+      ],
+      "Mailbox density": [
+        ""
+      ],
+      "Mailbox layout": [
+        ""
+      ],
+      "Composer mode": [
+        "Szerkesztő módja"
       ],
       "Edit contact group": [
         "Névjegy csoport szerkesztése"
@@ -1065,6 +1062,9 @@
       ],
       "Import contacts": [
         "Névjegyek importálása"
+      ],
+      "Beta Access": [
+        "Béta hozzáférés"
       ],
       "Start import process": [
         ""
@@ -1212,11 +1212,14 @@
       "No results found": [
         "Nincs találat"
       ],
+      "support team": [
+        "ügyfélszolgálati csoport"
+      ],
       "No contacts added yet": [
         "Még nincsenek névjegyek"
       ],
-      "support team": [
-        "ügyfélszolgálati csoport"
+      "Loading": [
+        "Betöltés"
       ],
       "Week": [
         "Hét"
@@ -1232,9 +1235,6 @@
       ],
       "Learn more": [
         "Tudjon meg többet"
-      ],
-      "Loading": [
-        "Betöltés"
       ],
       "Drop the file here to upload": [
         "Húzza ide a fájlt a feltöltéshez"
@@ -1488,12 +1488,6 @@
       "Not customizable": [
         "Nem módosítható"
       ],
-      "Expired": [
-        "Lejárt"
-      ],
-      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
-        "Az alapvető navigációs lehetőségek akkor is megmaradnak, ha a beállításokban letiltotta a gyorsbillentyűket."
-      ],
       "here": [
         "itt"
       ],
@@ -1532,6 +1526,12 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Ha problémába ütközik a fiók létrehozásakor, kérjen egy meghívót és egy munkanapon belül segítséget nyújtunk."
+      ],
+      "Expired": [
+        "Lejárt"
+      ],
+      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
+        "Az alapvető navigációs lehetőségek akkor is megmaradnak, ha a beállításokban letiltotta a gyorsbillentyűket."
       ],
       "${ contactEmailsLength } Member": [
         "${ contactEmailsLength } tag",
@@ -2031,33 +2031,6 @@
       "Proration": [
         "Arányosítás"
       ],
-      "Cash": [
-        "Készpénz"
-      ],
-      "Card holder": [
-        "Kártyabirtokos"
-      ],
-      "Expires": [
-        "Lejárat"
-      ],
-      "Payer": [
-        "Teherviselő"
-      ],
-      "Keyboard shortcuts": [
-        "Gyorsbillentyűk"
-      ],
-      "Select how your list of messages looks like by default.": [
-        ""
-      ],
-      "Select how your mailbox looks like by default.": [
-        ""
-      ],
-      "Select how your composer opens by default.": [
-        ""
-      ],
-      "Enable Beta Access": [
-        "Béta hozzáférés engedélyezése"
-      ],
       "Cancel": [
         "Mégsem"
       ],
@@ -2084,6 +2057,30 @@
       ],
       "Enter the 6-digit code": [
         "Írja be a hatjegyű kódot"
+      ],
+      "Cash": [
+        "Készpénz"
+      ],
+      "Card holder": [
+        "Kártyabirtokos"
+      ],
+      "Expires": [
+        "Lejárat"
+      ],
+      "Payer": [
+        "Teherviselő"
+      ],
+      "Keyboard shortcuts": [
+        "Gyorsbillentyűk"
+      ],
+      "Select how your list of messages looks like by default.": [
+        ""
+      ],
+      "Select how your mailbox looks like by default.": [
+        ""
+      ],
+      "Select how your composer opens by default.": [
+        ""
       ],
       "Add email address": [
         "E-mail cím hozzáadása"
@@ -2120,6 +2117,9 @@
       ],
       "Export contacts": [
         "Névjegyek exportálása"
+      ],
+      "Enable Beta Access": [
+        "Béta hozzáférés engedélyezése"
       ],
       "From: ${ fromEmailAddress }": [
         ""
@@ -2248,6 +2248,11 @@
         ""
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        ""
+      ]
+    },
     "Placeholder": {
       "E.g., ": [
         "Pl., "
@@ -2336,11 +2341,6 @@
       "${ minutes } minute": [
         "${ minutes } perc",
         "${ minutes } perc"
-      ]
-    },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        ""
       ]
     },
     "Tooltip": {
@@ -2483,6 +2483,9 @@
       "Live chat is a premium feature available only to those with paid ProtonVPN plans. Please open a ticket instead.": [
         ""
       ],
+      "Unfortunately, we’re not online at the moment. Please complete the form below to describe your issue, and we will look into it and be in touch when we’re back online.": [
+        ""
+      ],
       "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
         "A hibajelentések nem végpontok közt titkosítottak, kérünk ne küldjön semmilyen érzékeny információt."
       ],
@@ -2547,17 +2550,17 @@
       "You have successfully unsubscribed": [
         "Sikeresen leiratkozott"
       ],
-      "Keyboard shortcuts preferences updated": [
-        "Gyorsbillentyű beállítások frissítve"
-      ],
-      "Preference saved": [
-        "Beállítások elmentve"
-      ],
       "Code sent to ${ methodTo }": [
         "Kód elküldve: ${ methodTo }"
       ],
       "Verification successful": [
         "Sikeres ellenőrzés"
+      ],
+      "Keyboard shortcuts preferences updated": [
+        "Gyorsbillentyű beállítások frissítve"
+      ],
+      "Preference saved": [
+        "Beállítások elmentve"
       ],
       "Preferences saved": [
         "Beállítások mentve"
@@ -3359,6 +3362,28 @@
         "Ingyenes"
       ]
     },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "Lejárt számla"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "E-mail"
+      ],
+      "SMS": [
+        "SMS"
+      ],
+      "Manual": [
+        "Kézi"
+      ],
+      "No verification method available": [
+        "Nincs elérhető ellenőrzési módszer"
+      ]
+    },
     "Payment method option": {
       "New credit/debit card": [
         "Új bankkártya"
@@ -3368,19 +3393,6 @@
       ],
       "Bitcoin": [
         "Bitcoin"
-      ]
-    },
-    "Beta access description": {
-      "Beta Access lets you use the beta version of ProtonMail, Proton Calendar, and Proton Drive before they are released to the public. This means you can be the first to try new products, get new updates, and use new features.": [
-        "A Béta hozzáférés lehetővé teszi az ön számára, hogy a ProtonMail, a Proton Calendar és a Proton Drive béta verzióit használja, mielőtt azok elérhetővé válnak a nyilvánosság számára. Ez azt jelenti, hogy ön lehet az első, aki kipróbálja az új termékeket, megkapja a legújabb frissítéseket, valamint használhatja a legújabb funkciókat."
-      ],
-      "If you encounter issues, you can always disable Beta Access.": [
-        "Ha problémába ütközik, mindig lesz lehetősége letiltani a Béta hozzáférést."
-      ]
-    },
-    "Refresh on apply warning": {
-      "Note: the service will reload after you click the Apply button.": [
-        "Figyelem: Az \"Alkalmazás\" gombra kattintva a szolgáltatás újraindul."
       ]
     },
     "Label to change density": {
@@ -3405,28 +3417,6 @@
       ],
       "Maximized": [
         "Teljes méretű"
-      ]
-    },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "Lejárt számla"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
-      ],
-      "Email": [
-        "E-mail"
-      ],
-      "SMS": [
-        "SMS"
-      ],
-      "Manual": [
-        "Kézi"
-      ],
-      "No verification method available": [
-        "Nincs elérhető ellenőrzési módszer"
       ]
     },
     "Notification": {
@@ -3682,9 +3672,17 @@
         "${ totalImported }/${ totalToImport } névjegy titkosítva és felvéve a névjegyekhez"
       ]
     },
-    "Select files": {
-      "Upload": [
-        "Feltöltés"
+    "Beta access description": {
+      "Beta Access lets you use the beta version of ProtonMail, Proton Calendar, and Proton Drive before they are released to the public. This means you can be the first to try new products, get new updates, and use new features.": [
+        "A Béta hozzáférés lehetővé teszi az ön számára, hogy a ProtonMail, a Proton Calendar és a Proton Drive béta verzióit használja, mielőtt azok elérhetővé válnak a nyilvánosság számára. Ez azt jelenti, hogy ön lehet az első, aki kipróbálja az új termékeket, megkapja a legújabb frissítéseket, valamint használhatja a legújabb funkciókat."
+      ],
+      "If you encounter issues, you can always disable Beta Access.": [
+        "Ha problémába ütközik, mindig lesz lehetősége letiltani a Béta hozzáférést."
+      ]
+    },
+    "Refresh on apply warning": {
+      "Note: the service will reload after you click the Apply button.": [
+        "Figyelem: Az \"Alkalmazás\" gombra kattintva a szolgáltatás újraindul."
       ]
     },
     "Loading info": {
@@ -3706,6 +3704,11 @@
     "Confirm modal title": {
       "Quit import?": [
         ""
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "Feltöltés"
       ]
     },
     "Message display when a new app version is available": {
@@ -4352,6 +4355,12 @@
         "GB"
       ]
     },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "A jelszónak legalább ${ length } karakterből kell állnia",
+        "A jelszónak legalább ${ length } karakterből kell állnia"
+      ]
+    },
     "Contact field label": {
       "Name": [
         "Név"
@@ -4466,10 +4475,9 @@
         "Cím"
       ]
     },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "A jelszónak legalább ${ length } karakterből kell állnia",
-        "A jelszónak legalább ${ length } karakterből kell állnia"
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "Az e-mail cím nem található meg a küldő kulcsban definiált felhasználói azonosítók közt (${ keyUserIds })"
       ]
     },
     "Keyboard shortcut section name": {
@@ -4691,11 +4699,6 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "Hiba történt a fájl olvasása közben: ${ formattedFilename }. A fájl nem megfelelő formátumú."
-      ]
-    },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "Az e-mail cím nem található meg a küldő kulcsban definiált felhasználói azonosítók közt (${ keyUserIds })"
       ]
     },
     "Message": {

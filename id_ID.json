@@ -21,14 +21,14 @@
       "Authentication error.": [
         "Kesalahan autentikasi."
       ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "Peramban yang Anda gunakan tidak mengizinkan pembayaran secara penuh diotorisasi. Sila gunakan peramban lain atau masuk via komputer."
-      ],
       "Email address invalid": [
         "Alamat surel tidak valid"
       ],
       "This field is required": [
         "Bagian ini wajib isi"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "Peramban yang Anda gunakan tidak mengizinkan pembayaran secara penuh diotorisasi. Sila gunakan peramban lain atau masuk via komputer."
       ],
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "Terjadi kesalahan, mohon ${ refresh } ntuk melanjutkan. Jika Anda masih melihat pesan kesalahan ini, silakan hubungi ${ supportTeam } kami."
@@ -153,14 +153,14 @@
       "Invalid name": [
         "Nama tidak valid"
       ],
-      "Primary address key is not decrypted": [
-        "Kunci alamat utama tidak didekripsi"
-      ],
       "We were unable to connect to your service provider.": [
         ""
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         ""
+      ],
+      "Primary address key is not decrypted": [
+        "Kunci alamat utama tidak didekripsi"
       ],
       "No valid address found": [
         "Tidak ditemukan alamat valid"
@@ -192,6 +192,12 @@
       "Request timed out.": [
         "Waktu permintaan habis."
       ],
+      "Signature verification failed": [
+        "Verifikasi tanda tangan gagal"
+      ],
+      "Could not find address ${ email }.": [
+        "Tidak dapat menemukan alamat ${ email }."
+      ],
       "Missing signature": [
         "Tanda tangan hilang"
       ],
@@ -200,12 +206,6 @@
       ],
       "Signature not verified": [
         "Tanda tangan tidak terverifikasi"
-      ],
-      "Signature verification failed": [
-        "Verifikasi tanda tangan gagal"
-      ],
-      "Could not find address ${ email }.": [
-        "Tidak dapat menemukan alamat ${ email }."
       ],
       "Email address disabled": [
         "Alamat surel nonaktif"
@@ -335,6 +335,9 @@
       "Load image": [
         "Muat gambar"
       ],
+      "refresh the page": [
+        "segarkan halaman"
+      ],
       "Export": [
         "Ekspor"
       ],
@@ -370,9 +373,6 @@
       ],
       "Upload picture": [
         "Unggah gambar"
-      ],
-      "refresh the page": [
-        "segarkan halaman"
       ],
       "Next month": [
         "Bulan selanjutnya"
@@ -910,21 +910,6 @@
       "${ appName } customization": [
         "Penyesuaian { appName }"
       ],
-      "${ appName } Keyboard Shortcuts": [
-        "${ appName } Pintasan Papan Ketik"
-      ],
-      "Mailbox density": [
-        "Kepadatan kotak surat"
-      ],
-      "Mailbox layout": [
-        "Tata letak kotak surat"
-      ],
-      "Composer mode": [
-        "Mode menulis"
-      ],
-      "Beta Access": [
-        "Akses Beta"
-      ],
       "Sign in again to continue": [
         "Masuk lagi untuk melanjutkan"
       ],
@@ -945,6 +930,18 @@
       ],
       "Human verification": [
         "Verifikasi manusia"
+      ],
+      "${ appName } Keyboard Shortcuts": [
+        "${ appName } Pintasan Papan Ketik"
+      ],
+      "Mailbox density": [
+        "Kepadatan kotak surat"
+      ],
+      "Mailbox layout": [
+        "Tata letak kotak surat"
+      ],
+      "Composer mode": [
+        "Mode menulis"
       ],
       "Edit contact group": [
         "Edit grup kontak"
@@ -1053,6 +1050,9 @@
       ],
       "Import contacts": [
         "Impor kontak"
+      ],
+      "Beta Access": [
+        "Akses Beta"
       ],
       "Start import process": [
         ""
@@ -1200,11 +1200,14 @@
       "No results found": [
         "Hasil tidak ada"
       ],
+      "support team": [
+        "tim dukungan"
+      ],
       "No contacts added yet": [
         "Belum ada kontak yang ditambahkan"
       ],
-      "support team": [
-        "tim dukungan"
+      "Loading": [
+        "Memuat"
       ],
       "Week": [
         "Pekan"
@@ -1220,9 +1223,6 @@
       ],
       "Learn more": [
         "Pelajari lebih lanjut"
-      ],
-      "Loading": [
-        "Memuat"
       ],
       "Drop the file here to upload": [
         "Taruh berkas di sini untuk mengunggah"
@@ -1473,12 +1473,6 @@
       "Not customizable": [
         "Tidak dapat diubah"
       ],
-      "Expired": [
-        "Kedaluwarsa"
-      ],
-      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
-        "Navigasi dan tindakan dasar tetap tersedia terlepas pintasan papan ketik aktif atau tidak di pengaturan."
-      ],
       "here": [
         "di sini"
       ],
@@ -1517,6 +1511,12 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Jika Anda menemui masalah saat membuat akun, silakan minta undangan dan kami akan meresponnya satu hari kerja."
+      ],
+      "Expired": [
+        "Kedaluwarsa"
+      ],
+      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
+        "Navigasi dan tindakan dasar tetap tersedia terlepas pintasan papan ketik aktif atau tidak di pengaturan."
       ],
       "${ contactEmailsLength } Member": [
         "${ contactEmailsLength } Anggota"
@@ -2011,33 +2011,6 @@
       "Proration": [
         "Prorasi"
       ],
-      "Cash": [
-        "Tunai"
-      ],
-      "Card holder": [
-        "Pemegang kartu"
-      ],
-      "Expires": [
-        "Kedaluwarsa"
-      ],
-      "Payer": [
-        "Pembayar"
-      ],
-      "Keyboard shortcuts": [
-        "Pintasan papan ketik"
-      ],
-      "Select how your list of messages looks like by default.": [
-        "Pilih bagaimana daftar pesan Anda akan telihat secara bawaan."
-      ],
-      "Select how your mailbox looks like by default.": [
-        "Pilih bagaimana kotak surat Anda akan telihat secara bawaan."
-      ],
-      "Select how your composer opens by default.": [
-        "Pilih bagaimana komposer Anda terbuka secara bawaan."
-      ],
-      "Enable Beta Access": [
-        "Aktifkan Akses Beta"
-      ],
       "Cancel": [
         "Batal"
       ],
@@ -2064,6 +2037,30 @@
       ],
       "Enter the 6-digit code": [
         "Masukkan kode 6 digit"
+      ],
+      "Cash": [
+        "Tunai"
+      ],
+      "Card holder": [
+        "Pemegang kartu"
+      ],
+      "Expires": [
+        "Kedaluwarsa"
+      ],
+      "Payer": [
+        "Pembayar"
+      ],
+      "Keyboard shortcuts": [
+        "Pintasan papan ketik"
+      ],
+      "Select how your list of messages looks like by default.": [
+        "Pilih bagaimana daftar pesan Anda akan telihat secara bawaan."
+      ],
+      "Select how your mailbox looks like by default.": [
+        "Pilih bagaimana kotak surat Anda akan telihat secara bawaan."
+      ],
+      "Select how your composer opens by default.": [
+        "Pilih bagaimana komposer Anda terbuka secara bawaan."
       ],
       "Add email address": [
         "Tambah alamat surel"
@@ -2100,6 +2097,9 @@
       ],
       "Export contacts": [
         "Ekspor kontak"
+      ],
+      "Enable Beta Access": [
+        "Aktifkan Akses Beta"
       ],
       "From: ${ fromEmailAddress }": [
         ""
@@ -2227,6 +2227,11 @@
         ""
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        "Kunci tidak dapat digunakan untuk enkripsi"
+      ]
+    },
     "Placeholder": {
       "E.g., ": [
         "Misalnya "
@@ -2313,11 +2318,6 @@
       ],
       "${ minutes } minute": [
         "${ minutes } menit"
-      ]
-    },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        "Kunci tidak dapat digunakan untuk enkripsi"
       ]
     },
     "Tooltip": {
@@ -2460,6 +2460,9 @@
       "Live chat is a premium feature available only to those with paid ProtonVPN plans. Please open a ticket instead.": [
         ""
       ],
+      "Unfortunately, we’re not online at the moment. Please complete the form below to describe your issue, and we will look into it and be in touch when we’re back online.": [
+        ""
+      ],
       "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
         "Laporan tidak dienkripsi secara end-to-end, mohon tidak mengirim informasi sensitif apapun."
       ],
@@ -2522,17 +2525,17 @@
       "You have successfully unsubscribed": [
         "Anda telah berhenti berlangganan"
       ],
-      "Keyboard shortcuts preferences updated": [
-        "Preferensi pintasan papan ketik diperbarui"
-      ],
-      "Preference saved": [
-        "Preferensi berhasil disimpan"
-      ],
       "Code sent to ${ methodTo }": [
         "Kode dikirim ke ${ methodTo }"
       ],
       "Verification successful": [
         "Verifikasi berhasil"
+      ],
+      "Keyboard shortcuts preferences updated": [
+        "Preferensi pintasan papan ketik diperbarui"
+      ],
+      "Preference saved": [
+        "Preferensi berhasil disimpan"
       ],
       "Preferences saved": [
         "Preferensi disimpan"
@@ -3320,6 +3323,28 @@
         "Bebas"
       ]
     },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "Tagihan jatuh tempo"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "Surel"
+      ],
+      "SMS": [
+        "SMS"
+      ],
+      "Manual": [
+        "Manual"
+      ],
+      "No verification method available": [
+        "Metode verifikasi tidak tersedia"
+      ]
+    },
     "Payment method option": {
       "New credit/debit card": [
         "Kartu kredit/debit baru"
@@ -3329,19 +3354,6 @@
       ],
       "Bitcoin": [
         "Bitcoin"
-      ]
-    },
-    "Beta access description": {
-      "Beta Access lets you use the beta version of ProtonMail, Proton Calendar, and Proton Drive before they are released to the public. This means you can be the first to try new products, get new updates, and use new features.": [
-        "Akses Beta memperbolehkan Anda menggunakan versi beta dari ProtonMail, Proton Calendar, dan Proton Drive sebelum mereka dirilis ke publik. Ini berarti Anda dapat menjadi yang pertama untuk mencoba produk baru, mendapatkan pembaruan terbaru, dan menggunakan fitur-fitur terbaru."
-      ],
-      "If you encounter issues, you can always disable Beta Access.": [
-        "Jika Anda menemui masalah/isu, Anda dapat selalu menonaktifkan Akses Beta."
-      ]
-    },
-    "Refresh on apply warning": {
-      "Note: the service will reload after you click the Apply button.": [
-        "Catatan: layanan akan dimuat setelah Anda menekan tombol Terapkan."
       ]
     },
     "Label to change density": {
@@ -3366,28 +3378,6 @@
       ],
       "Maximized": [
         "Dimaksimalkan"
-      ]
-    },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "Tagihan jatuh tempo"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
-      ],
-      "Email": [
-        "Surel"
-      ],
-      "SMS": [
-        "SMS"
-      ],
-      "Manual": [
-        "Manual"
-      ],
-      "No verification method available": [
-        "Metode verifikasi tidak tersedia"
       ]
     },
     "Notification": {
@@ -3632,9 +3622,17 @@
         "${ totalImported }/${ totalToImport } kontak dienkripsi dan ditambahkan ke daftar kontak Anda"
       ]
     },
-    "Select files": {
-      "Upload": [
-        "Unggah"
+    "Beta access description": {
+      "Beta Access lets you use the beta version of ProtonMail, Proton Calendar, and Proton Drive before they are released to the public. This means you can be the first to try new products, get new updates, and use new features.": [
+        "Akses Beta memperbolehkan Anda menggunakan versi beta dari ProtonMail, Proton Calendar, dan Proton Drive sebelum mereka dirilis ke publik. Ini berarti Anda dapat menjadi yang pertama untuk mencoba produk baru, mendapatkan pembaruan terbaru, dan menggunakan fitur-fitur terbaru."
+      ],
+      "If you encounter issues, you can always disable Beta Access.": [
+        "Jika Anda menemui masalah/isu, Anda dapat selalu menonaktifkan Akses Beta."
+      ]
+    },
+    "Refresh on apply warning": {
+      "Note: the service will reload after you click the Apply button.": [
+        "Catatan: layanan akan dimuat setelah Anda menekan tombol Terapkan."
       ]
     },
     "Loading info": {
@@ -3656,6 +3654,11 @@
     "Confirm modal title": {
       "Quit import?": [
         ""
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "Unggah"
       ]
     },
     "Message display when a new app version is available": {
@@ -4261,6 +4264,11 @@
         "GB"
       ]
     },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "Kata sandi minimal ${ length } karakter"
+      ]
+    },
     "Contact field label": {
       "Name": [
         "Nama"
@@ -4375,9 +4383,9 @@
         "Alamat"
       ]
     },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "Kata sandi minimal ${ length } karakter"
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "Alamat surel tidak ditemukan di antara id pengguna yang terdefinisi di kunci (${ keyUserIds })"
       ]
     },
     "Keyboard shortcut section name": {
@@ -4599,11 +4607,6 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "Ada kesalahan saat membaca berkas ${ formattedFilename }. Format berkas salah."
-      ]
-    },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "Alamat surel tidak ditemukan di antara id pengguna yang terdefinisi di kunci (${ keyUserIds })"
       ]
     },
     "Message": {

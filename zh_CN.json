@@ -21,14 +21,14 @@
       "Authentication error.": [
         "验证错误"
       ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "您使用的浏览器无法完成支付验证，请使用其他浏览器或电脑支付。"
-      ],
       "Email address invalid": [
         "电子邮箱地址无效"
       ],
       "This field is required": [
         "此项必须填写"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "您使用的浏览器无法完成支付验证，请使用其他浏览器或电脑支付。"
       ],
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "出错了，请${ refresh }以继续。若仍出现此错误，请联系我们的${ supportTeam }"
@@ -153,14 +153,14 @@
       "Invalid name": [
         "无效的名称"
       ],
-      "Primary address key is not decrypted": [
-        "主密钥尚未解密。"
-      ],
       "We were unable to connect to your service provider.": [
         ""
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         ""
+      ],
+      "Primary address key is not decrypted": [
+        "主密钥尚未解密。"
       ],
       "No valid address found": [
         "未找到有效地址"
@@ -192,6 +192,12 @@
       "Request timed out.": [
         "请求超时。"
       ],
+      "Signature verification failed": [
+        "签名验证失败"
+      ],
+      "Could not find address ${ email }.": [
+        "找不到邮箱 ${ email }。"
+      ],
       "Missing signature": [
         "缺少签名"
       ],
@@ -200,12 +206,6 @@
       ],
       "Signature not verified": [
         "签名未验证"
-      ],
-      "Signature verification failed": [
-        "签名验证失败"
-      ],
-      "Could not find address ${ email }.": [
-        "找不到邮箱 ${ email }。"
       ],
       "Email address disabled": [
         "Email 地址已禁用"
@@ -335,6 +335,9 @@
       "Load image": [
         "加载图片"
       ],
+      "refresh the page": [
+        "刷新页面"
+      ],
       "Export": [
         "导出"
       ],
@@ -370,9 +373,6 @@
       ],
       "Upload picture": [
         "上传图片"
-      ],
-      "refresh the page": [
-        "刷新页面"
       ],
       "Next month": [
         "下个月"
@@ -910,21 +910,6 @@
       "${ appName } customization": [
         "自定义 ${ appName }"
       ],
-      "${ appName } Keyboard Shortcuts": [
-        "${ appName } 快捷键"
-      ],
-      "Mailbox density": [
-        "邮箱密度"
-      ],
-      "Mailbox layout": [
-        "邮箱布局"
-      ],
-      "Composer mode": [
-        "编辑窗模式"
-      ],
-      "Beta Access": [
-        "测试版功能"
-      ],
       "Sign in again to continue": [
         "此操作需要重新登录"
       ],
@@ -945,6 +930,18 @@
       ],
       "Human verification": [
         "身份验证"
+      ],
+      "${ appName } Keyboard Shortcuts": [
+        "${ appName } 快捷键"
+      ],
+      "Mailbox density": [
+        "邮箱密度"
+      ],
+      "Mailbox layout": [
+        "邮箱布局"
+      ],
+      "Composer mode": [
+        "编辑窗模式"
       ],
       "Edit contact group": [
         "更改联系人群组"
@@ -1053,6 +1050,9 @@
       ],
       "Import contacts": [
         "导入联系人"
+      ],
+      "Beta Access": [
+        "测试版功能"
       ],
       "Start import process": [
         ""
@@ -1200,11 +1200,14 @@
       "No results found": [
         "未找到结果"
       ],
+      "support team": [
+        "客服团队"
+      ],
       "No contacts added yet": [
         "尚未添加联系人"
       ],
-      "support team": [
-        "客服团队"
+      "Loading": [
+        "加载中"
       ],
       "Week": [
         "周"
@@ -1220,9 +1223,6 @@
       ],
       "Learn more": [
         "了解详情"
-      ],
-      "Loading": [
-        "加载中"
       ],
       "Drop the file here to upload": [
         "请将文件拖拽至此处进行上传"
@@ -1473,12 +1473,6 @@
       "Not customizable": [
         "无法自定义"
       ],
-      "Expired": [
-        "已过期"
-      ],
-      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
-        "无论设置中键盘快捷键是否激活，一些基本的导航和操作始终可用"
-      ],
       "here": [
         "这里"
       ],
@@ -1517,6 +1511,12 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "若您创建账户存在困难，请提交注册申请，我们将在一个工作日内回复。"
+      ],
+      "Expired": [
+        "已过期"
+      ],
+      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
+        "无论设置中键盘快捷键是否激活，一些基本的导航和操作始终可用"
       ],
       "${ contactEmailsLength } Member": [
         "${ contactEmailsLength } 成员"
@@ -2011,33 +2011,6 @@
       "Proration": [
         "按比例分配"
       ],
-      "Cash": [
-        "现金"
-      ],
-      "Card holder": [
-        "持卡人"
-      ],
-      "Expires": [
-        "有效期至"
-      ],
-      "Payer": [
-        "付款人"
-      ],
-      "Keyboard shortcuts": [
-        "键盘快捷键"
-      ],
-      "Select how your list of messages looks like by default.": [
-        "请选择收件箱列表的默认外观"
-      ],
-      "Select how your mailbox looks like by default.": [
-        "请选择邮箱的默认外观"
-      ],
-      "Select how your composer opens by default.": [
-        "请选择编辑窗的默认外观"
-      ],
-      "Enable Beta Access": [
-        "启用测试版功能"
-      ],
       "Cancel": [
         "取消"
       ],
@@ -2064,6 +2037,30 @@
       ],
       "Enter the 6-digit code": [
         "请输入 6 位验证码"
+      ],
+      "Cash": [
+        "现金"
+      ],
+      "Card holder": [
+        "持卡人"
+      ],
+      "Expires": [
+        "有效期至"
+      ],
+      "Payer": [
+        "付款人"
+      ],
+      "Keyboard shortcuts": [
+        "键盘快捷键"
+      ],
+      "Select how your list of messages looks like by default.": [
+        "请选择收件箱列表的默认外观"
+      ],
+      "Select how your mailbox looks like by default.": [
+        "请选择邮箱的默认外观"
+      ],
+      "Select how your composer opens by default.": [
+        "请选择编辑窗的默认外观"
       ],
       "Add email address": [
         "添加邮箱地址"
@@ -2100,6 +2097,9 @@
       ],
       "Export contacts": [
         "导出联系人"
+      ],
+      "Enable Beta Access": [
+        "启用测试版功能"
       ],
       "From: ${ fromEmailAddress }": [
         ""
@@ -2227,6 +2227,11 @@
         "已订阅日历"
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        "此密钥不能用于加密"
+      ]
+    },
     "Placeholder": {
       "E.g., ": [
         "例如： "
@@ -2313,11 +2318,6 @@
       ],
       "${ minutes } minute": [
         "${ minutes } 分钟"
-      ]
-    },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        "此密钥不能用于加密"
       ]
     },
     "Tooltip": {
@@ -2460,6 +2460,9 @@
       "Live chat is a premium feature available only to those with paid ProtonVPN plans. Please open a ticket instead.": [
         ""
       ],
+      "Unfortunately, we’re not online at the moment. Please complete the form below to describe your issue, and we will look into it and be in touch when we’re back online.": [
+        ""
+      ],
       "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
         "反馈内容不会经过端对端加密，请勿发送敏感信息"
       ],
@@ -2522,17 +2525,17 @@
       "You have successfully unsubscribed": [
         "您已成功降级"
       ],
-      "Keyboard shortcuts preferences updated": [
-        "键盘快捷键设置已更新"
-      ],
-      "Preference saved": [
-        "设置已保存"
-      ],
       "Code sent to ${ methodTo }": [
         "代码已发送到 ${ methodTo }"
       ],
       "Verification successful": [
         "验证成功"
+      ],
+      "Keyboard shortcuts preferences updated": [
+        "键盘快捷键设置已更新"
+      ],
+      "Preference saved": [
+        "设置已保存"
       ],
       "Preferences saved": [
         "设置已保存"
@@ -3320,6 +3323,28 @@
         "免费版"
       ]
     },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "逾期账单"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "验证码"
+      ],
+      "Email": [
+        "邮件"
+      ],
+      "SMS": [
+        "短信"
+      ],
+      "Manual": [
+        "手动"
+      ],
+      "No verification method available": [
+        "没有可用的验证方法"
+      ]
+    },
     "Payment method option": {
       "New credit/debit card": [
         "添加信用卡/借记卡"
@@ -3329,19 +3354,6 @@
       ],
       "Bitcoin": [
         "比特币"
-      ]
-    },
-    "Beta access description": {
-      "Beta Access lets you use the beta version of ProtonMail, Proton Calendar, and Proton Drive before they are released to the public. This means you can be the first to try new products, get new updates, and use new features.": [
-        "启用 \"测试版功能\" 能让您在正式发布之前使用 ProtonMail, Proton Calendar, Proton Drive 的测试版本。这代表您可以抢先体验新产品，获得最新更新，并使用最新推出的功能"
-      ],
-      "If you encounter issues, you can always disable Beta Access.": [
-        "如果您在使用过程中遇到问题，您可以随时禁用该选项"
-      ]
-    },
-    "Refresh on apply warning": {
-      "Note: the service will reload after you click the Apply button.": [
-        "请注意：点击 \"应用\" 按钮后，服务将重新加载"
       ]
     },
     "Label to change density": {
@@ -3366,28 +3378,6 @@
       ],
       "Maximized": [
         "最大化"
-      ]
-    },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "逾期账单"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "验证码"
-      ],
-      "Email": [
-        "邮件"
-      ],
-      "SMS": [
-        "短信"
-      ],
-      "Manual": [
-        "手动"
-      ],
-      "No verification method available": [
-        "没有可用的验证方法"
       ]
     },
     "Notification": {
@@ -3632,9 +3622,17 @@
         "${ totalImported }/${ totalToImport } 联系人已加密并添至您的联系人列表"
       ]
     },
-    "Select files": {
-      "Upload": [
-        "上传"
+    "Beta access description": {
+      "Beta Access lets you use the beta version of ProtonMail, Proton Calendar, and Proton Drive before they are released to the public. This means you can be the first to try new products, get new updates, and use new features.": [
+        "启用 \"测试版功能\" 能让您在正式发布之前使用 ProtonMail, Proton Calendar, Proton Drive 的测试版本。这代表您可以抢先体验新产品，获得最新更新，并使用最新推出的功能"
+      ],
+      "If you encounter issues, you can always disable Beta Access.": [
+        "如果您在使用过程中遇到问题，您可以随时禁用该选项"
+      ]
+    },
+    "Refresh on apply warning": {
+      "Note: the service will reload after you click the Apply button.": [
+        "请注意：点击 \"应用\" 按钮后，服务将重新加载"
       ]
     },
     "Loading info": {
@@ -3656,6 +3654,11 @@
     "Confirm modal title": {
       "Quit import?": [
         ""
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "上传"
       ]
     },
     "Message display when a new app version is available": {
@@ -4261,6 +4264,11 @@
         "GB"
       ]
     },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "密码必须至少包含 ${ length } 个字符"
+      ]
+    },
     "Contact field label": {
       "Name": [
         "姓名"
@@ -4375,9 +4383,9 @@
         "地址"
       ]
     },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "密码必须至少包含 ${ length } 个字符"
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "在发送密钥中定义的用户编号中找不到电子邮件地址 (${ keyUserIds })"
       ]
     },
     "Keyboard shortcut section name": {
@@ -4599,11 +4607,6 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "读取文件 ${ formattedFilename } 出错，文件格式不对"
-      ]
-    },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "在发送密钥中定义的用户编号中找不到电子邮件地址 (${ keyUserIds })"
       ]
     },
     "Message": {

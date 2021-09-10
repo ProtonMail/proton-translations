@@ -21,14 +21,14 @@
       "Authentication error.": [
         "Eroare autentificare."
       ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "Navigatorul folosit nu permite autorizarea completă a plății. Folosiți un alt navigator sau conectați-vă de pe un calculator."
-      ],
       "Email address invalid": [
         "Adresă de e-mail nevalidă"
       ],
       "This field is required": [
         "Acest câmp este obligatoriu"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "Navigatorul folosit nu permite autorizarea completă a plății. Folosiți un alt navigator sau conectați-vă de pe un calculator."
       ],
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "Ceva nu a funcționat bine, ${ refresh } pagina pentru a continua. Dacă mai vedeți acest mesaj de eroare contactați ${ supportTeam }."
@@ -157,14 +157,14 @@
       "Invalid name": [
         "Nume nevalid."
       ],
-      "Primary address key is not decrypted": [
-        "Cheia primară a adresei nu este decriptată."
-      ],
       "We were unable to connect to your service provider.": [
         ""
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         ""
+      ],
+      "Primary address key is not decrypted": [
+        "Cheia primară a adresei nu este decriptată."
       ],
       "No valid address found": [
         "Nu s-a găsit o adresă de e-mail validă"
@@ -196,6 +196,12 @@
       "Request timed out.": [
         "Solicitarea a expirat."
       ],
+      "Signature verification failed": [
+        "Eșuare verificare semnătură"
+      ],
+      "Could not find address ${ email }.": [
+        "Nu s-a putut găsi adresa ${ email }."
+      ],
       "Missing signature": [
         "Semnătură lipsă."
       ],
@@ -204,12 +210,6 @@
       ],
       "Signature not verified": [
         "Semnătură neverificată"
-      ],
-      "Signature verification failed": [
-        "Eșuare verificare semnătură"
-      ],
-      "Could not find address ${ email }.": [
-        "Nu s-a putut găsi adresa ${ email }."
       ],
       "Email address disabled": [
         "Adresă de e-mail dezactivată"
@@ -347,6 +347,9 @@
       "Load image": [
         "Încărcare imagine"
       ],
+      "refresh the page": [
+        "împrospătați pagina"
+      ],
       "Export": [
         "Exportare"
       ],
@@ -382,9 +385,6 @@
       ],
       "Upload picture": [
         "Încărcare imagine"
-      ],
-      "refresh the page": [
-        "împrospătați pagina"
       ],
       "Next month": [
         "Luna viitoare"
@@ -926,21 +926,6 @@
       "${ appName } customization": [
         "Personalizare ${ appName }"
       ],
-      "${ appName } Keyboard Shortcuts": [
-        "Combinații de taste ${ appName }"
-      ],
-      "Mailbox density": [
-        "Densitate cutie poștală"
-      ],
-      "Mailbox layout": [
-        "Aspect cutie poștală"
-      ],
-      "Composer mode": [
-        "Mod editor mesaje"
-      ],
-      "Beta Access": [
-        "Acces la Beta"
-      ],
       "Sign in again to continue": [
         "Reconectați-vă pentru a continua"
       ],
@@ -961,6 +946,18 @@
       ],
       "Human verification": [
         "Verificare persoană"
+      ],
+      "${ appName } Keyboard Shortcuts": [
+        "Combinații de taste ${ appName }"
+      ],
+      "Mailbox density": [
+        "Densitate cutie poștală"
+      ],
+      "Mailbox layout": [
+        "Aspect cutie poștală"
+      ],
+      "Composer mode": [
+        "Mod editor mesaje"
       ],
       "Edit contact group": [
         "Editare grup de contacte"
@@ -1077,6 +1074,9 @@
       ],
       "Import contacts": [
         "Importare contacte"
+      ],
+      "Beta Access": [
+        "Acces la Beta"
       ],
       "Start import process": [
         ""
@@ -1224,11 +1224,14 @@
       "No results found": [
         "Nu s-au găsit rezultate"
       ],
+      "support team": [
+        "echipa de suport"
+      ],
       "No contacts added yet": [
         "Încă nu s-au adăugat contacte"
       ],
-      "support team": [
-        "echipa de suport"
+      "Loading": [
+        "Se încarcă"
       ],
       "Week": [
         "Săptămâna"
@@ -1244,9 +1247,6 @@
       ],
       "Learn more": [
         "Detalii"
-      ],
-      "Loading": [
-        "Se încarcă"
       ],
       "Drop the file here to upload": [
         "Plasați fișierul aici pentru a fi încărcat"
@@ -1503,12 +1503,6 @@
       "Not customizable": [
         "Nu poate fi personalizat"
       ],
-      "Expired": [
-        "Expirat"
-      ],
-      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
-        "Navigarea de bază și acțiunile rămân disponibile indiferent de combinațiile de taste care sunt active sau nu în setări."
-      ],
       "here": [
         "aici"
       ],
@@ -1547,6 +1541,12 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Dacă aveți probleme cu crearea contului, solicitați o invitație și vă vom răspunde în termen de o zi lucrătoare."
+      ],
+      "Expired": [
+        "Expirat"
+      ],
+      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
+        "Navigarea de bază și acțiunile rămân disponibile indiferent de combinațiile de taste care sunt active sau nu în setări."
       ],
       "${ contactEmailsLength } Member": [
         "Un membru",
@@ -2051,33 +2051,6 @@
       "Proration": [
         "Credit rămas"
       ],
-      "Cash": [
-        "Numerar"
-      ],
-      "Card holder": [
-        "Titular card"
-      ],
-      "Expires": [
-        "Expirare"
-      ],
-      "Payer": [
-        "Plătitor"
-      ],
-      "Keyboard shortcuts": [
-        "Combinații de taste"
-      ],
-      "Select how your list of messages looks like by default.": [
-        "Selectați cum să arate lista de mesaje în mod implicit."
-      ],
-      "Select how your mailbox looks like by default.": [
-        "Selectați cum să arate căsuța poștală în mod implicit."
-      ],
-      "Select how your composer opens by default.": [
-        "Selectați modul în care se deschide implicit editorul de mesaje."
-      ],
-      "Enable Beta Access": [
-        "Activare acces la Beta"
-      ],
       "Cancel": [
         "Anulare"
       ],
@@ -2104,6 +2077,30 @@
       ],
       "Enter the 6-digit code": [
         "Introduceți codul din 6 cifre"
+      ],
+      "Cash": [
+        "Numerar"
+      ],
+      "Card holder": [
+        "Titular card"
+      ],
+      "Expires": [
+        "Expirare"
+      ],
+      "Payer": [
+        "Plătitor"
+      ],
+      "Keyboard shortcuts": [
+        "Combinații de taste"
+      ],
+      "Select how your list of messages looks like by default.": [
+        "Selectați cum să arate lista de mesaje în mod implicit."
+      ],
+      "Select how your mailbox looks like by default.": [
+        "Selectați cum să arate căsuța poștală în mod implicit."
+      ],
+      "Select how your composer opens by default.": [
+        "Selectați modul în care se deschide implicit editorul de mesaje."
       ],
       "Add email address": [
         "Adăugare adresă de e-mail"
@@ -2140,6 +2137,9 @@
       ],
       "Export contacts": [
         "Exportare contacte"
+      ],
+      "Enable Beta Access": [
+        "Activare acces la Beta"
       ],
       "From: ${ fromEmailAddress }": [
         ""
@@ -2269,6 +2269,11 @@
         "Calendare abonate"
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        "Cheia nu poate fi folosită pentru criptare."
+      ]
+    },
     "Placeholder": {
       "E.g., ": [
         "Ex.: "
@@ -2359,11 +2364,6 @@
         "Un minut",
         "${ minutes } minute",
         "${ minutes } de minute"
-      ]
-    },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        "Cheia nu poate fi folosită pentru criptare."
       ]
     },
     "Tooltip": {
@@ -2506,6 +2506,9 @@
       "Live chat is a premium feature available only to those with paid ProtonVPN plans. Please open a ticket instead.": [
         ""
       ],
+      "Unfortunately, we’re not online at the moment. Please complete the form below to describe your issue, and we will look into it and be in touch when we’re back online.": [
+        ""
+      ],
       "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
         "Rapoartele nu sunt criptate în ambele părți. Nu trimiteți informații confidențiale."
       ],
@@ -2572,17 +2575,17 @@
       "You have successfully unsubscribed": [
         "Operația de dezabonare a fost finalizată."
       ],
-      "Keyboard shortcuts preferences updated": [
-        "Preferințele combinațiilor de taste au fost actualizate"
-      ],
-      "Preference saved": [
-        "Preferințe salvate"
-      ],
       "Code sent to ${ methodTo }": [
         "Cod trimis la ${ methodTo }"
       ],
       "Verification successful": [
         "Verificare reușită"
+      ],
+      "Keyboard shortcuts preferences updated": [
+        "Preferințele combinațiilor de taste au fost actualizate"
+      ],
+      "Preference saved": [
+        "Preferințe salvate"
       ],
       "Preferences saved": [
         "Preferințe salvate"
@@ -3398,6 +3401,28 @@
         "Gratuit"
       ]
     },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "Factură restantă"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "E-mail"
+      ],
+      "SMS": [
+        "SMS"
+      ],
+      "Manual": [
+        "Manuală"
+      ],
+      "No verification method available": [
+        "Nici o metodă de verificare disponibilă"
+      ]
+    },
     "Payment method option": {
       "New credit/debit card": [
         "Card nou de credit / debit"
@@ -3407,19 +3432,6 @@
       ],
       "Bitcoin": [
         "Bitcoin"
-      ]
-    },
-    "Beta access description": {
-      "Beta Access lets you use the beta version of ProtonMail, Proton Calendar, and Proton Drive before they are released to the public. This means you can be the first to try new products, get new updates, and use new features.": [
-        "„Accesul la Beta” vă permite să utilizați versiunea beta a ProtonMail, Proton Calendar și Proton Drive înainte de a fi puse la dispoziția publicului. Asta înseamnă că puteți încerca produse noi, să obțineți actualizări noi și să folosiți funcții noi înaintea celorlalți utilizatori."
-      ],
-      "If you encounter issues, you can always disable Beta Access.": [
-        "Dacă întâmpinați probleme, puteți dezactiva întotdeauna accesul la Beta."
-      ]
-    },
-    "Refresh on apply warning": {
-      "Note: the service will reload after you click the Apply button.": [
-        "Notă: serviciul se va reîncărca după ce faceți clic pe butonul «Aplicare»."
       ]
     },
     "Label to change density": {
@@ -3444,28 +3456,6 @@
       ],
       "Maximized": [
         "Maximizat"
-      ]
-    },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "Factură restantă"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
-      ],
-      "Email": [
-        "E-mail"
-      ],
-      "SMS": [
-        "SMS"
-      ],
-      "Manual": [
-        "Manuală"
-      ],
-      "No verification method available": [
-        "Nici o metodă de verificare disponibilă"
       ]
     },
     "Notification": {
@@ -3732,9 +3722,17 @@
         "S-au criptat și adăugat în lista de contacte ${ totalImported }/${ totalToImport } de contacte."
       ]
     },
-    "Select files": {
-      "Upload": [
-        "Încărcare"
+    "Beta access description": {
+      "Beta Access lets you use the beta version of ProtonMail, Proton Calendar, and Proton Drive before they are released to the public. This means you can be the first to try new products, get new updates, and use new features.": [
+        "„Accesul la Beta” vă permite să utilizați versiunea beta a ProtonMail, Proton Calendar și Proton Drive înainte de a fi puse la dispoziția publicului. Asta înseamnă că puteți încerca produse noi, să obțineți actualizări noi și să folosiți funcții noi înaintea celorlalți utilizatori."
+      ],
+      "If you encounter issues, you can always disable Beta Access.": [
+        "Dacă întâmpinați probleme, puteți dezactiva întotdeauna accesul la Beta."
+      ]
+    },
+    "Refresh on apply warning": {
+      "Note: the service will reload after you click the Apply button.": [
+        "Notă: serviciul se va reîncărca după ce faceți clic pe butonul «Aplicare»."
       ]
     },
     "Loading info": {
@@ -3756,6 +3754,11 @@
     "Confirm modal title": {
       "Quit import?": [
         ""
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "Încărcare"
       ]
     },
     "Message display when a new app version is available": {
@@ -4443,6 +4446,13 @@
         "GB"
       ]
     },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "Parola trebuie să conțină cel puțin un caracter.",
+        "Parola trebuie să conțină cel puțin ${ length } caractere.",
+        "Parola trebuie să conțină cel puțin ${ length } de caractere."
+      ]
+    },
     "Contact field label": {
       "Name": [
         "Nume"
@@ -4557,11 +4567,9 @@
         "Adresa"
       ]
     },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "Parola trebuie să conțină cel puțin un caracter.",
-        "Parola trebuie să conțină cel puțin ${ length } caractere.",
-        "Parola trebuie să conțină cel puțin ${ length } de caractere."
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "Adresa de e-mail nu a fost găsită printre id-urile de utilizatori definite în cheia de trimitere (${ keyUserIds })"
       ]
     },
     "Keyboard shortcut section name": {
@@ -4783,11 +4791,6 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "A apărut o eroare la citirea fișierului ${ formattedFilename }. Fișierul nu are formatul corect."
-      ]
-    },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "Adresa de e-mail nu a fost găsită printre id-urile de utilizatori definite în cheia de trimitere (${ keyUserIds })"
       ]
     },
     "Message": {

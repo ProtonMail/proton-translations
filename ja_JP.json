@@ -21,14 +21,14 @@
       "Authentication error.": [
         "認証エラー"
       ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "お使いのブラウザでは、支払いを完全に承認できません。別のブラウザを使用するか、コンピューターからログインしてください。"
-      ],
       "Email address invalid": [
         "無効なメールアドレスです。"
       ],
       "This field is required": [
         "この項目の入力は必須です"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "お使いのブラウザでは、支払いを完全に承認できません。別のブラウザを使用するか、コンピューターからログインしてください。"
       ],
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "エラーが発生しました。続行するには ${ refresh } してください。それでもこのエラーが発生する場合は ${ supportTeam } までお問い合わせください。"
@@ -153,14 +153,14 @@
       "Invalid name": [
         "無効な名前です。"
       ],
-      "Primary address key is not decrypted": [
-        "プライマリーアドレス鍵が復号されていません"
-      ],
       "We were unable to connect to your service provider.": [
         ""
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         ""
+      ],
+      "Primary address key is not decrypted": [
+        "プライマリーアドレス鍵が復号されていません"
       ],
       "No valid address found": [
         "有効なアドレスが見つかりません。"
@@ -192,6 +192,12 @@
       "Request timed out.": [
         "リクエストがタイムアウトしました。"
       ],
+      "Signature verification failed": [
+        "署名の検証に失敗しました"
+      ],
+      "Could not find address ${ email }.": [
+        "${ email } というメールアドレスが見つかりませんでした。"
+      ],
       "Missing signature": [
         "署名がありません"
       ],
@@ -200,12 +206,6 @@
       ],
       "Signature not verified": [
         "署名が確認されていません"
-      ],
-      "Signature verification failed": [
-        "署名の検証に失敗しました"
-      ],
-      "Could not find address ${ email }.": [
-        "${ email } というメールアドレスが見つかりませんでした。"
       ],
       "Email address disabled": [
         "メールアドレスが無効です"
@@ -335,6 +335,9 @@
       "Load image": [
         "画像を読み込む"
       ],
+      "refresh the page": [
+        "ページを更新"
+      ],
       "Export": [
         "エクスポート"
       ],
@@ -370,9 +373,6 @@
       ],
       "Upload picture": [
         "写真をアップロード"
-      ],
-      "refresh the page": [
-        "ページを更新"
       ],
       "Next month": [
         "次の月"
@@ -910,21 +910,6 @@
       "${ appName } customization": [
         "${ appName } のカスタマイズ"
       ],
-      "${ appName } Keyboard Shortcuts": [
-        "${ appName } のキーボードショートカット"
-      ],
-      "Mailbox density": [
-        ""
-      ],
-      "Mailbox layout": [
-        ""
-      ],
-      "Composer mode": [
-        "作成時の書式"
-      ],
-      "Beta Access": [
-        "ベータ版アクセス"
-      ],
       "Sign in again to continue": [
         "続行するには再度ログインしてください"
       ],
@@ -945,6 +930,18 @@
       ],
       "Human verification": [
         "人間であることの検証"
+      ],
+      "${ appName } Keyboard Shortcuts": [
+        "${ appName } のキーボードショートカット"
+      ],
+      "Mailbox density": [
+        ""
+      ],
+      "Mailbox layout": [
+        ""
+      ],
+      "Composer mode": [
+        "作成時の書式"
       ],
       "Edit contact group": [
         "連絡先グループを編集"
@@ -1053,6 +1050,9 @@
       ],
       "Import contacts": [
         "連絡先のインポート"
+      ],
+      "Beta Access": [
+        "ベータ版アクセス"
       ],
       "Start import process": [
         ""
@@ -1200,11 +1200,14 @@
       "No results found": [
         "結果が見つかりませんでした"
       ],
+      "support team": [
+        "サポートチーム"
+      ],
       "No contacts added yet": [
         "まだ連絡先が追加されていません。"
       ],
-      "support team": [
-        "サポートチーム"
+      "Loading": [
+        "読み込み中"
       ],
       "Week": [
         "週"
@@ -1220,9 +1223,6 @@
       ],
       "Learn more": [
         "より詳しく"
-      ],
-      "Loading": [
-        "読み込み中"
       ],
       "Drop the file here to upload": [
         "アップロードするファイルをここにドロップしてください"
@@ -1473,12 +1473,6 @@
       "Not customizable": [
         "カスタマイズ不可"
       ],
-      "Expired": [
-        "有効期限切れ"
-      ],
-      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
-        ""
-      ],
       "here": [
         "こちら"
       ],
@@ -1517,6 +1511,12 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "アカウントの作成に問題がある場合は、招待をリクエストしてください。1営業日以内に対応します。"
+      ],
+      "Expired": [
+        "有効期限切れ"
+      ],
+      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
+        ""
       ],
       "${ contactEmailsLength } Member": [
         "${ contactEmailsLength } メンバー"
@@ -2011,33 +2011,6 @@
       "Proration": [
         "日割り計算"
       ],
-      "Cash": [
-        "現金"
-      ],
-      "Card holder": [
-        "カード名義人"
-      ],
-      "Expires": [
-        "有効期限"
-      ],
-      "Payer": [
-        "支払人"
-      ],
-      "Keyboard shortcuts": [
-        "キーボードショートカット"
-      ],
-      "Select how your list of messages looks like by default.": [
-        ""
-      ],
-      "Select how your mailbox looks like by default.": [
-        ""
-      ],
-      "Select how your composer opens by default.": [
-        ""
-      ],
-      "Enable Beta Access": [
-        "ベータ版アクセスを有効にする"
-      ],
       "Cancel": [
         "キャンセル"
       ],
@@ -2064,6 +2037,30 @@
       ],
       "Enter the 6-digit code": [
         "6 桁のコードを入力"
+      ],
+      "Cash": [
+        "現金"
+      ],
+      "Card holder": [
+        "カード名義人"
+      ],
+      "Expires": [
+        "有効期限"
+      ],
+      "Payer": [
+        "支払人"
+      ],
+      "Keyboard shortcuts": [
+        "キーボードショートカット"
+      ],
+      "Select how your list of messages looks like by default.": [
+        ""
+      ],
+      "Select how your mailbox looks like by default.": [
+        ""
+      ],
+      "Select how your composer opens by default.": [
+        ""
       ],
       "Add email address": [
         "メールアドレスの追加"
@@ -2100,6 +2097,9 @@
       ],
       "Export contacts": [
         "連絡先をエクスポート"
+      ],
+      "Enable Beta Access": [
+        "ベータ版アクセスを有効にする"
       ],
       "From: ${ fromEmailAddress }": [
         ""
@@ -2227,6 +2227,11 @@
         "登録済みカレンダー"
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        ""
+      ]
+    },
     "Placeholder": {
       "E.g., ": [
         "例: "
@@ -2313,11 +2318,6 @@
       ],
       "${ minutes } minute": [
         "${ minutes } 分"
-      ]
-    },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        ""
       ]
     },
     "Tooltip": {
@@ -2460,6 +2460,9 @@
       "Live chat is a premium feature available only to those with paid ProtonVPN plans. Please open a ticket instead.": [
         "ライブチャットは、ProtonVPNの有料プラン専用のプレミアム機能です。利用するにはチケットをオープンしてください。"
       ],
+      "Unfortunately, we’re not online at the moment. Please complete the form below to describe your issue, and we will look into it and be in touch when we’re back online.": [
+        ""
+      ],
       "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
         "報告はエンドツーエンド暗号化されないため、機密情報は含めないでください。"
       ],
@@ -2522,17 +2525,17 @@
       "You have successfully unsubscribed": [
         "退会手続きが正常に行なわれました。"
       ],
-      "Keyboard shortcuts preferences updated": [
-        "キーボードショートカットの設定が更新されました"
-      ],
-      "Preference saved": [
-        "設定が保存されました。"
-      ],
       "Code sent to ${ methodTo }": [
         "${ methodTo } にコードを送信しました"
       ],
       "Verification successful": [
         "検証に成功しました"
+      ],
+      "Keyboard shortcuts preferences updated": [
+        "キーボードショートカットの設定が更新されました"
+      ],
+      "Preference saved": [
+        "設定が保存されました。"
       ],
       "Preferences saved": [
         "設定が保存されました。"
@@ -3320,6 +3323,28 @@
         "FREE"
       ]
     },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "未払いの請求"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "メールアドレス"
+      ],
+      "SMS": [
+        "SMS"
+      ],
+      "Manual": [
+        "手動"
+      ],
+      "No verification method available": [
+        "検証方法がありません"
+      ]
+    },
     "Payment method option": {
       "New credit/debit card": [
         "新しいクレジットカード/デビットカード"
@@ -3329,19 +3354,6 @@
       ],
       "Bitcoin": [
         "Bitcoin"
-      ]
-    },
-    "Beta access description": {
-      "Beta Access lets you use the beta version of ProtonMail, Proton Calendar, and Proton Drive before they are released to the public. This means you can be the first to try new products, get new updates, and use new features.": [
-        "ベータ版アクセスでは、ProtonMail、Proton Calendar、Proton Drive のベータ版を一般公開前に使用できます。ベータ版アクセスで新製品をいち早く試し、使用することができます。"
-      ],
-      "If you encounter issues, you can always disable Beta Access.": [
-        "問題が発生するなどした場合、いつでもベータ版アクセスを無効にできます。"
-      ]
-    },
-    "Refresh on apply warning": {
-      "Note: the service will reload after you click the Apply button.": [
-        "注意: 「適用」をクリックするとサービスが再読み込みされます。"
       ]
     },
     "Label to change density": {
@@ -3366,28 +3378,6 @@
       ],
       "Maximized": [
         "最大化"
-      ]
-    },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "未払いの請求"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
-      ],
-      "Email": [
-        "メールアドレス"
-      ],
-      "SMS": [
-        "SMS"
-      ],
-      "Manual": [
-        "手動"
-      ],
-      "No verification method available": [
-        "検証方法がありません"
       ]
     },
     "Notification": {
@@ -3632,9 +3622,17 @@
         ""
       ]
     },
-    "Select files": {
-      "Upload": [
-        "アップロード"
+    "Beta access description": {
+      "Beta Access lets you use the beta version of ProtonMail, Proton Calendar, and Proton Drive before they are released to the public. This means you can be the first to try new products, get new updates, and use new features.": [
+        "ベータ版アクセスでは、ProtonMail、Proton Calendar、Proton Drive のベータ版を一般公開前に使用できます。ベータ版アクセスで新製品をいち早く試し、使用することができます。"
+      ],
+      "If you encounter issues, you can always disable Beta Access.": [
+        "問題が発生するなどした場合、いつでもベータ版アクセスを無効にできます。"
+      ]
+    },
+    "Refresh on apply warning": {
+      "Note: the service will reload after you click the Apply button.": [
+        "注意: 「適用」をクリックするとサービスが再読み込みされます。"
       ]
     },
     "Loading info": {
@@ -3656,6 +3654,11 @@
     "Confirm modal title": {
       "Quit import?": [
         ""
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "アップロード"
       ]
     },
     "Message display when a new app version is available": {
@@ -4261,6 +4264,11 @@
         "GB"
       ]
     },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "パスワードは ${ length } 文字以上必要です"
+      ]
+    },
     "Contact field label": {
       "Name": [
         "名前"
@@ -4375,9 +4383,9 @@
         "メールアドレス"
       ]
     },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "パスワードは ${ length } 文字以上必要です"
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        ""
       ]
     },
     "Keyboard shortcut section name": {
@@ -4599,11 +4607,6 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "ファイル ${ formattedFilename } の読み取り中にエラーが発生しました。ファイルに正しい形式がありません。"
-      ]
-    },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        ""
       ]
     },
     "Message": {
