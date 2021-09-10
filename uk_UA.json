@@ -19,120 +19,6 @@
         "ГБ"
       ]
     },
-    "Contact field label": {
-      "Name": [
-        "Ім'я"
-      ],
-      "Email": [
-        "Е-пошта"
-      ],
-      "Phone": [
-        "Телефон"
-      ],
-      "Address": [
-        "Адреса"
-      ],
-      "Photo": [
-        "Фото"
-      ],
-      "Organization": [
-        "Організація"
-      ],
-      "Birthday": [
-        "День народження"
-      ],
-      "Anniversary": [
-        "Річниця"
-      ],
-      "Title": [
-        "Назва"
-      ],
-      "Role": [
-        "Роль"
-      ],
-      "Note": [
-        "Нотатка"
-      ],
-      "URL": [
-        "URL"
-      ],
-      "Gender": [
-        "Стать"
-      ],
-      "Language": [
-        "Мова"
-      ],
-      "Timezone": [
-        "Часовий пояс"
-      ],
-      "Geo": [
-        "Геолокація"
-      ],
-      "Logo": [
-        "Логотип"
-      ],
-      "Member": [
-        "Учасник"
-      ]
-    },
-    "Contact type label": {
-      "Work": [
-        "Робочий"
-      ],
-      "Personal": [
-        "Особистий"
-      ],
-      "Mobile": [
-        "Мобільний"
-      ],
-      "Main": [
-        "Основний"
-      ],
-      "Yomi": [
-        "Yomi"
-      ],
-      "Other": [
-        "Інше"
-      ],
-      "Fax": [
-        "Факс"
-      ],
-      "Pager": [
-        "Пейджер"
-      ]
-    },
-    "Property type": {
-      "Email": [
-        "Е-пошта"
-      ],
-      "Home": [
-        "Домашня"
-      ],
-      "Work": [
-        "Робоча"
-      ],
-      "Other": [
-        "Інша"
-      ],
-      "Phone": [
-        "Телефон"
-      ],
-      "Mobile": [
-        "Мобільний"
-      ],
-      "Main": [
-        "Основний"
-      ],
-      "Fax": [
-        "Факс"
-      ],
-      "Pager": [
-        "Пейджер"
-      ],
-      "Address": [
-        "Адреса"
-      ]
-    },
     "Error": {
       "This field is required": [
         "Це поле є обов'язковим"
@@ -203,6 +89,9 @@
       "Calendar primary private key is not decrypted": [
         "Основний приватний ключ календаря не зашифрований"
       ],
+      "Unknown error": [
+        "Невідома помилка"
+      ],
       "This message may contain some link's URL that cannot be properly opened by your current browser": [
         "Це повідомлення може містити URL-посилання, які неможливо правильно відкрити в цьому браузері"
       ],
@@ -215,11 +104,14 @@
       "Authentication error.": [
         "Помилка автентифікації."
       ],
-      "Unknown error": [
-        "Невідома помилка"
-      ],
       "Email address invalid": [
         "Недійсна адреса електронної пошти"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Щось пішло не так. Будь ласка, ${ refresh } для продовження. Якщо це повідомлення не зникає, зв'яжіться з нашою ${ supportTeam }."
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "Браузер, яким ви користуєтеся, не дозволяє повністю авторизувати платіж. Скористайтеся іншим браузером або увійдіть через комп’ютер."
       ],
       "The composer failed to load.": [
         "Не вдалося завантажити редактор."
@@ -227,11 +119,23 @@
       "Please refresh the page.": [
         "Будь ласка, оновіть сторінку."
       ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "Браузер, яким ви користуєтеся, не дозволяє повністю авторизувати платіж. Скористайтеся іншим браузером або увійдіть через комп’ютер."
+      "Incorrect mailbox password. Please try again": [
+        "Неправильний пароль поштової скриньки. Спробуйте знову"
       ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Щось пішло не так. Будь ласка, ${ refresh } для продовження. Якщо це повідомлення не зникає, зв'яжіться з нашою ${ supportTeam }."
+      "Incorrect login credentials. Please try again": [
+        "Неправильні дані для входу. Будь ласка спробуйте ще раз"
+      ],
+      "Can't validate email, try again later": [
+        "Не вдається підтвердити електронну пошту. Спробуйте знову пізніше"
+      ],
+      "Can't validate phone, try again later": [
+        "Не вдається підтвердити телефон. Спробуйте знову пізніше"
+      ],
+      "Enter 6 digits": [
+        "Введіть 6 цифр"
+      ],
+      "Invalid verification code": [
+        "Недійсний код підтвердження"
       ],
       "Some groups could not be deleted": [
         "Не вдається видалити деякі групи"
@@ -277,6 +181,12 @@
       ],
       "A group with this name already exists": [
         "Група з таким ім'ям вже існує"
+      ],
+      "We were unable to connect to your service provider.": [
+        "Не вдається з'єднатися з вашим постачальником послуг."
+      ],
+      "Please try to reauthenticate and make sure the permissions are set correctly.": [
+        "Спробуйте пройти перевірку ще раз і переконайтеся, що дозволи встановлено належним чином."
       ],
       "File has no contents to preview": [
         "Файл не має вмісту для перегляду"
@@ -341,12 +251,6 @@
       "Invalid code": [
         "Недійсний код"
       ],
-      "We were unable to connect to your service provider.": [
-        "Не вдається з'єднатися з вашим постачальником послуг."
-      ],
-      "Please try to reauthenticate and make sure the permissions are set correctly.": [
-        "Спробуйте пройти перевірку ще раз і переконайтеся, що дозволи встановлено належним чином."
-      ],
       "Empty condition": [
         "Порожня умова"
       ],
@@ -364,24 +268,6 @@
       ],
       "Require at least one action": [
         "Необхідна принаймні одна дія"
-      ],
-      "Incorrect mailbox password. Please try again": [
-        "Неправильний пароль поштової скриньки. Спробуйте знову"
-      ],
-      "Incorrect login credentials. Please try again": [
-        "Неправильні дані для входу. Будь ласка спробуйте ще раз"
-      ],
-      "Can't validate email, try again later": [
-        "Не вдається підтвердити електронну пошту. Спробуйте знову пізніше"
-      ],
-      "Can't validate phone, try again later": [
-        "Не вдається підтвердити телефон. Спробуйте знову пізніше"
-      ],
-      "Enter 6 digits": [
-        "Введіть 6 цифр"
-      ],
-      "Invalid verification code": [
-        "Недійсний код підтвердження"
       ],
       "You did not provide a file.": [
         "Ви не надали файл."
@@ -515,6 +401,120 @@
         "Пароль повинен містити принаймні ${ length } символів"
       ]
     },
+    "Contact field label": {
+      "Name": [
+        "Ім'я"
+      ],
+      "Email": [
+        "Е-пошта"
+      ],
+      "Phone": [
+        "Телефон"
+      ],
+      "Address": [
+        "Адреса"
+      ],
+      "Photo": [
+        "Фото"
+      ],
+      "Organization": [
+        "Організація"
+      ],
+      "Birthday": [
+        "День народження"
+      ],
+      "Anniversary": [
+        "Річниця"
+      ],
+      "Title": [
+        "Назва"
+      ],
+      "Role": [
+        "Роль"
+      ],
+      "Note": [
+        "Нотатка"
+      ],
+      "URL": [
+        "URL"
+      ],
+      "Gender": [
+        "Стать"
+      ],
+      "Language": [
+        "Мова"
+      ],
+      "Timezone": [
+        "Часовий пояс"
+      ],
+      "Geo": [
+        "Геолокація"
+      ],
+      "Logo": [
+        "Логотип"
+      ],
+      "Member": [
+        "Учасник"
+      ]
+    },
+    "Contact type label": {
+      "Work": [
+        "Робочий"
+      ],
+      "Personal": [
+        "Особистий"
+      ],
+      "Mobile": [
+        "Мобільний"
+      ],
+      "Main": [
+        "Основний"
+      ],
+      "Yomi": [
+        "Yomi"
+      ],
+      "Other": [
+        "Інше"
+      ],
+      "Fax": [
+        "Факс"
+      ],
+      "Pager": [
+        "Пейджер"
+      ]
+    },
+    "Property type": {
+      "Email": [
+        "Е-пошта"
+      ],
+      "Home": [
+        "Домашня"
+      ],
+      "Work": [
+        "Робоча"
+      ],
+      "Other": [
+        "Інша"
+      ],
+      "Phone": [
+        "Телефон"
+      ],
+      "Mobile": [
+        "Мобільний"
+      ],
+      "Main": [
+        "Основний"
+      ],
+      "Fax": [
+        "Факс"
+      ],
+      "Pager": [
+        "Пейджер"
+      ],
+      "Address": [
+        "Адреса"
+      ]
+    },
     "Message": {
       "Re:": [
         "Re:"
@@ -569,6 +569,9 @@
       "You can either update your search query or ${ button }": [
         "Ви можете оновити свій пошуковий запит, або ${ button }"
       ],
+      "support team": [
+        "командою підтримки"
+      ],
       "Week": [
         "Тиждень"
       ],
@@ -577,6 +580,9 @@
         "(${ memberCount } учасники)",
         "(${ memberCount } учасників)",
         "(${ memberCount } учасників)"
+      ],
+      "Loading": [
+        "Завантаження"
       ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Це посилання може бути гомографічною атакою і його не можна відкрити в браузерах Internet Explorer чи Edge. Якщо ви впевнені, що це надійне посилання, відкрийте його в іншому браузері."
@@ -671,14 +677,47 @@
       "Drop the file here to upload": [
         "Для завантаження файлу перетягніть його сюди"
       ],
-      "support team": [
-        "командою підтримки"
-      ],
-      "Loading": [
-        "Завантаження"
-      ],
       "Loading ${ appName }": [
         "Завантажується ${ appName }"
+      ],
+      "here": [
+        "тут"
+      ],
+      "This account has been suspended due to a potential policy violation.": [
+        "Цей обліковий запис було призупинено через потенційне порушення правил."
+      ],
+      "If you believe this is in error, please contact us ${ contactLink }.": [
+        "Якщо ви вважаєте, що це помилка, зв'яжіться з нами ${ contactLink }."
+      ],
+      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
+        "Робота вашого облікового запису Proton тимчасово зупинена. Щоб відновити роботу, будь ласка, сплатіть прострочені рахунки."
+      ],
+      "Would you like to receive a new verification code or use an alternative verification method?": [
+        "Бажаєте отримати новий код перевірки чи скористатися іншим способом перевірки?"
+      ],
+      "Enter the verification code that was sent to ${ destinationText }.": [
+        "Введіть код перевірки, який був надісланий на ${ destinationText }."
+      ],
+      "If you don't find the email in your inbox, please check your spam folder.": [
+        "Якщо ви не можете знайти лист у вхідних повідомленнях, перевірте свою теку спаму."
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
+        "Натисніть \"Запитати новий код\", щоб отримати новий код перевірки на ${ strong }. Якщо ця адреса е-пошти неправильна, натисніть \"Змінити\" для її виправлення."
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
+        "Натисніть \"Запитати новий код\", щоб отримати новий код перевірки на ${ strong }. Якщо цей номер телефону неправильний, натисніть \"Змінити\" для його виправлення."
+      ],
+      "To fight spam and abuse, please verify you are human.": [
+        "З метою протидії спаму та зловживанням, будь ласка, підтвердьте, що ви людина."
+      ],
+      "Your email will only be used for this one-time verification.": [
+        "Ваша електронна пошта використається лише для цієї одноразової перевірки."
+      ],
+      "Your phone number will only be used for this one-time verification.": [
+        "Ваш номер телефону використається лише для цієї одноразової перевірки."
+      ],
+      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
+        "Якщо у вас виникли труднощі під час створення облікового запису, подайте запит на запрошення і ми відповімо протягом одного робочого дня."
       ],
       "Please note that addresses assigned to this group will NOT be deleted.": [
         "Зауважте, що адреси, призначені цій групі, не будуть видалені."
@@ -803,6 +842,36 @@
         "${ addressCount } адрес е-пошти",
         "${ addressCount } адрес е-пошти"
       ],
+      "Import contacts": [
+        "Імпортувати контакти"
+      ],
+      "Your contacts are being imported from": [
+        "Ваші контакти імпортуються з"
+      ],
+      "to": [
+        "до"
+      ],
+      "Your import has started!": [
+        "Імпортування розпочалося!"
+      ],
+      "We will notify you once your import is finished.": [
+        "Ми сповістимо вас одразу після завершення імпортування."
+      ],
+      "Large imports can take several days to complete.": [
+        "Великий обсяг імпортування може тривати декілька днів."
+      ],
+      "You can continue using Proton services as usual.": [
+        "Ви можете продовжувати користуватися Proton у звичайному режимі."
+      ],
+      "Your import will not be processed.": [
+        "Ваш імпорт не буде оброблений."
+      ],
+      "Screenshot(s) attached": [
+        "Знімки додано"
+      ],
+      "Refreshing the page or ${ link } will automatically resolve most issues.": [
+        "Оновлення сторінки чи ${ link } автоматично розв'яже більшість проблем."
+      ],
       "Unsupported file": [
         "Непідтримуваний файл"
       ],
@@ -880,12 +949,6 @@
       ],
       "You have disabled Beta Access. Click ${ refreshButton } to use the stable version of ${ appName }. The application will be reloaded.": [
         "Ви вимкнули бета-доступ. Натисніть ${ refreshButton }, щоб використовувати стабільну версію ${ appName }. Програму буде перезавантажено."
-      ],
-      "Screenshot(s) attached": [
-        "Знімки додано"
-      ],
-      "Refreshing the page or ${ link } will automatically resolve most issues.": [
-        "Оновлення сторінки чи ${ link } автоматично розв'яже більшість проблем."
       ],
       "Since you're a loyal user, your account has additional features enabled.": [
         "Оскільки ви лояльний користувач, ваш обліковий запис має увімкнені додаткові функції."
@@ -1130,30 +1193,6 @@
       "Expired": [
         "Протерміновано"
       ],
-      "Import contacts": [
-        "Імпортувати контакти"
-      ],
-      "Your contacts are being imported from": [
-        "Ваші контакти імпортуються з"
-      ],
-      "to": [
-        "до"
-      ],
-      "Your import has started!": [
-        "Імпортування розпочалося!"
-      ],
-      "We will notify you once your import is finished.": [
-        "Ми сповістимо вас одразу після завершення імпортування."
-      ],
-      "Large imports can take several days to complete.": [
-        "Великий обсяг імпортування може тривати декілька днів."
-      ],
-      "You can continue using Proton services as usual.": [
-        "Ви можете продовжувати користуватися Proton у звичайному режимі."
-      ],
-      "Your import will not be processed.": [
-        "Ваш імпорт не буде оброблений."
-      ],
       "Inherited from parent folder": [
         "Успадковано від теки вищого рівня"
       ],
@@ -1192,45 +1231,6 @@
       ],
       "Are you sure you want to discard your changes?": [
         "Ви справді хочете відхилити зміни?"
-      ],
-      "here": [
-        "тут"
-      ],
-      "This account has been suspended due to a potential policy violation.": [
-        "Цей обліковий запис було призупинено через потенційне порушення правил."
-      ],
-      "If you believe this is in error, please contact us ${ contactLink }.": [
-        "Якщо ви вважаєте, що це помилка, зв'яжіться з нами ${ contactLink }."
-      ],
-      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
-        "Робота вашого облікового запису Proton тимчасово зупинена. Щоб відновити роботу, будь ласка, сплатіть прострочені рахунки."
-      ],
-      "Would you like to receive a new verification code or use an alternative verification method?": [
-        "Бажаєте отримати новий код перевірки чи скористатися іншим способом перевірки?"
-      ],
-      "Enter the verification code that was sent to ${ destinationText }.": [
-        "Введіть код перевірки, який був надісланий на ${ destinationText }."
-      ],
-      "If you don't find the email in your inbox, please check your spam folder.": [
-        "Якщо ви не можете знайти лист у вхідних повідомленнях, перевірте свою теку спаму."
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
-        "Натисніть \"Запитати новий код\", щоб отримати новий код перевірки на ${ strong }. Якщо ця адреса е-пошти неправильна, натисніть \"Змінити\" для її виправлення."
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
-        "Натисніть \"Запитати новий код\", щоб отримати новий код перевірки на ${ strong }. Якщо цей номер телефону неправильний, натисніть \"Змінити\" для його виправлення."
-      ],
-      "To fight spam and abuse, please verify you are human.": [
-        "З метою протидії спаму та зловживанням, будь ласка, підтвердьте, що ви людина."
-      ],
-      "Your email will only be used for this one-time verification.": [
-        "Ваша електронна пошта використається лише для цієї одноразової перевірки."
-      ],
-      "Your phone number will only be used for this one-time verification.": [
-        "Ваш номер телефону використається лише для цієї одноразової перевірки."
-      ],
-      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
-        "Якщо у вас виникли труднощі під час створення облікового запису, подайте запит на запрошення і ми відповімо протягом одного робочого дня."
       ],
       "Members": [
         "Учасники"
@@ -1609,6 +1609,12 @@
         "Приблизний час до завершення: ${ estimatedMinutes } хвилини",
         "Приблизний час до завершення: ${ estimatedMinutes } хвилин",
         "Приблизний час до завершення: ${ estimatedMinutes } хвилин"
+      ],
+      "Clearing browser data also deactivates message content search on this device. All messages will need to be downloaded again to search within them.": [
+        "Очищення даних браузера також деактивує пошук вмісту повідомлень на цьому пристрої. Для пошуку серед них, усі повідомлення потрібно буде завантажити знову."
+      ],
+      "Clears browser data related to message content search including downloaded messages": [
+        "Очистьте дані браузера, пов'язані з пошуком вмісту повідомлень, включно з завантаженими повідомленнями"
       ],
       "${ unreadCount } unread conversation": [
         "${ unreadCount } непрочитана розмова",
@@ -2818,6 +2824,9 @@
       "Email settings": [
         "Налаштування е-пошти"
       ],
+      "refresh the page": [
+        "оновити сторінку"
+      ],
       "Next month": [
         "Наступний місяць"
       ],
@@ -2914,11 +2923,35 @@
       "Go to last page": [
         "Перейти на останню сторінку"
       ],
-      "refresh the page": [
-        "оновити сторінку"
-      ],
       "Signing out": [
         "Вихід"
+      ],
+      "Log in": [
+        "Увійти"
+      ],
+      "View invoice": [
+        "Переглянути рахунок"
+      ],
+      "Get verification code": [
+        "Отримати код підтвердження"
+      ],
+      "Try another method": [
+        "Спробувати інший спосіб"
+      ],
+      "Request new code": [
+        "Запитати новий код"
+      ],
+      "Verify": [
+        "Перевірити"
+      ],
+      "Did not receive the code?": [
+        "Не отримали код?"
+      ],
+      "Edit email address": [
+        "Змінити адресу е-пошти"
+      ],
+      "Edit phone number": [
+        "Змінити номер телефону"
       ],
       "Add": [
         "Додати"
@@ -3046,6 +3079,36 @@
       "Next": [
         "Далі"
       ],
+      "Use ${ label } theme": [
+        "Використовувати тему ${ label }"
+      ],
+      "OK": [
+        "OK"
+      ],
+      "Continue import": [
+        "Продовжити імпорт"
+      ],
+      "Discard": [
+        "Відхилити"
+      ],
+      "Reconnect": [
+        "Повторно з'єднатися"
+      ],
+      "Start import": [
+        "Запустити імпорт"
+      ],
+      "Clear": [
+        "Очистити"
+      ],
+      "Add screenshot(s)": [
+        "Додати знімки екрана"
+      ],
+      "Hide info": [
+        "Приховати інформацію"
+      ],
+      "Show info": [
+        "Показати інформацію"
+      ],
       "Details": [
         "Подробиці"
       ],
@@ -3079,12 +3142,6 @@
       "Back": [
         "Назад"
       ],
-      "Use ${ label } theme": [
-        "Використовувати тему ${ label }"
-      ],
-      "OK": [
-        "OK"
-      ],
       "Copy to clipboard": [
         "Копіювати до буфера обміну"
       ],
@@ -3108,9 +3165,6 @@
       ],
       "Search": [
         "Пошук"
-      ],
-      "Clear": [
-        "Очистити"
       ],
       "${ BRAND_NAME } introduction": [
         "Знайомство з ${ BRAND_NAME }"
@@ -3157,20 +3211,8 @@
       "Composer size": [
         "Розмір редактора"
       ],
-      "Add screenshot(s)": [
-        "Додати знімки екрана"
-      ],
-      "Hide info": [
-        "Приховати інформацію"
-      ],
-      "Show info": [
-        "Показати інформацію"
-      ],
       "Remove bonuses": [
         "Вилучити бонуси"
-      ],
-      "Verify": [
-        "Перевірити"
       ],
       "Try again": [
         "Спробувати знову"
@@ -3217,18 +3259,6 @@
       "Increase": [
         "Збільшити"
       ],
-      "Continue import": [
-        "Продовжити імпорт"
-      ],
-      "Discard": [
-        "Відхилити"
-      ],
-      "Reconnect": [
-        "Повторно з'єднатися"
-      ],
-      "Start import": [
-        "Запустити імпорт"
-      ],
       "Preview": [
         "Перегляд"
       ],
@@ -3255,30 +3285,6 @@
       ],
       "send auto-reply email": [
         "надіслати лист з автоматичною відповіддю"
-      ],
-      "Log in": [
-        "Увійти"
-      ],
-      "View invoice": [
-        "Переглянути рахунок"
-      ],
-      "Get verification code": [
-        "Отримати код підтвердження"
-      ],
-      "Try another method": [
-        "Спробувати інший спосіб"
-      ],
-      "Request new code": [
-        "Запитати новий код"
-      ],
-      "Did not receive the code?": [
-        "Не отримали код?"
-      ],
-      "Edit email address": [
-        "Змінити адресу е-пошти"
-      ],
-      "Edit phone number": [
-        "Змінити номер телефону"
       ],
       "Yes, I'll attend": [
         "Підтверджую присутність"
@@ -3535,6 +3541,9 @@
       "Advanced search": [
         "Розширений пошук"
       ],
+      "Clear browser data": [
+        "Очистити дані браузера"
+      ],
       "Mark as read": [
         "Позначити прочитаним"
       ],
@@ -3653,6 +3662,27 @@
       ],
       "What's new": [
         "Що нового"
+      ],
+      "Sign in again to continue": [
+        "Увійдіть знову для продовження"
+      ],
+      "Account suspended": [
+        "Обліковий запис призупинено"
+      ],
+      "Enter your username or ProtonMail email address": [
+        "Введіть своє ім'я користувача або електронну адресу ProtonMail"
+      ],
+      "Enter your password": [
+        "Введіть свій пароль"
+      ],
+      "Invalid verification code": [
+        "Недійсний код підтвердження"
+      ],
+      "Request new code": [
+        "Запитати новий код"
+      ],
+      "Human verification": [
+        "Перевірка \"Я не робот\""
       ],
       "Delete ${ Name }": [
         "Видалити ${ Name }"
@@ -3780,6 +3810,15 @@
       "Select a theme": [
         "Вибрати тему"
       ],
+      "Start import process": [
+        "Розпочати процес імпортування"
+      ],
+      "Import in progress": [
+        "Виконується імпортування"
+      ],
+      "Report a problem": [
+        "Повідомити про проблему"
+      ],
       "${ appName } Keyboard Shortcuts": [
         "Комбінації клавіш ${ appName }"
       ],
@@ -3800,9 +3839,6 @@
       ],
       "Open settings menu": [
         "Відкрити меню налаштувань"
-      ],
-      "Report a problem": [
-        "Повідомити про проблему"
       ],
       "Confirm loss of Proton bonuses": [
         "Підтвердити втрату бонусів Proton"
@@ -3897,12 +3933,6 @@
       "Beta Access": [
         "Бета-доступ"
       ],
-      "Start import process": [
-        "Розпочати процес імпортування"
-      ],
-      "Import in progress": [
-        "Виконується імпортування"
-      ],
       "Edit filter": [
         "Змінити фільтр"
       ],
@@ -3911,27 +3941,6 @@
       ],
       "Are you sure you want to close?": [
         "Ви дійсно хочете закрити?"
-      ],
-      "Sign in again to continue": [
-        "Увійдіть знову для продовження"
-      ],
-      "Account suspended": [
-        "Обліковий запис призупинено"
-      ],
-      "Enter your username or ProtonMail email address": [
-        "Введіть своє ім'я користувача або електронну адресу ProtonMail"
-      ],
-      "Enter your password": [
-        "Введіть свій пароль"
-      ],
-      "Invalid verification code": [
-        "Недійсний код підтвердження"
-      ],
-      "Request new code": [
-        "Запитати новий код"
-      ],
-      "Human verification": [
-        "Перевірка \"Я не робот\""
       ],
       "Change my answer": [
         "Змінити мою відповідь"
@@ -4156,9 +4165,20 @@
         "Вітаємо"
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        "Ключ не можна використовувати для шифрування"
+      ]
+    },
     "Link": {
       "Learn more": [
         "Докладніше"
+      ],
+      "Request an invite": [
+        "Запитати запрошення"
+      ],
+      "clearing your browser cache": [
+        "очищення кешу браузера"
       ],
       "Pay invoice": [
         "Сплатити рахунок"
@@ -4172,17 +4192,11 @@
       "Go to subscription plans": [
         "Перейти до тарифних планів"
       ],
-      "clearing your browser cache": [
-        "очищення кешу браузера"
-      ],
       "click here": [
         "натисніть тут"
       ],
       "Add a gift code": [
         "Додати подарунковий код"
-      ],
-      "Request an invite": [
-        "Запитати запрошення"
       ],
       "You need to activate your calendar keys to add this event": [
         "Щоб додати цю подію, вам необхідно активувати свої ключі календаря"
@@ -4226,6 +4240,36 @@
       "Open in ${ calendarAppName }": [
         "Відкрити в ${ calendarAppName }"
       ],
+      "Inbox": [
+        "Вхідні"
+      ],
+      "Drafts": [
+        "Чернетки"
+      ],
+      "Sent": [
+        "Надіслані"
+      ],
+      "Trash": [
+        "Смітник"
+      ],
+      "Spam": [
+        "Спам"
+      ],
+      "All mail": [
+        "Уся пошта"
+      ],
+      "Archive": [
+        "Архів"
+      ],
+      "Starred": [
+        "Із зірочкою"
+      ],
+      "Outbox": [
+        "Вихідні"
+      ],
+      "Scheduled": [
+        "Заплановані"
+      ],
       "Re-enable the address linked to this calendar to manage your invitation.": [
         "Повторно активуйте адресу, пов'язану з цим календарем, щоб керувати вашим запрошенням."
       ],
@@ -4259,33 +4303,6 @@
       "Add label": [
         "Додати мітку"
       ],
-      "Inbox": [
-        "Вхідні"
-      ],
-      "Drafts": [
-        "Чернетки"
-      ],
-      "Scheduled": [
-        "Заплановані"
-      ],
-      "Sent": [
-        "Надіслані"
-      ],
-      "Starred": [
-        "Із зірочкою"
-      ],
-      "Archive": [
-        "Архів"
-      ],
-      "Spam": [
-        "Спам"
-      ],
-      "Trash": [
-        "Смітник"
-      ],
-      "All mail": [
-        "Уся пошта"
-      ],
       "Folders": [
         "Теки"
       ],
@@ -4297,9 +4314,6 @@
       ],
       "Manage your labels": [
         "Керувати мітками"
-      ],
-      "Outbox": [
-        "Вихідні"
       ]
     },
     "Label": {
@@ -4335,6 +4349,36 @@
       ],
       "Do not ask again": [
         "Не питати знову"
+      ],
+      "Cancel": [
+        "Скасувати"
+      ],
+      "Submit": [
+        "Відправити"
+      ],
+      "Password": [
+        "Пароль"
+      ],
+      "Mailbox password": [
+        "Пароль поштової скриньки"
+      ],
+      "Two-factor authentication code": [
+        "Код двоетапної перевірки"
+      ],
+      "Username or ProtonMail address": [
+        "Ім'я користувача або адреса ProtonMail"
+      ],
+      "Email address": [
+        "Адреса е-пошти"
+      ],
+      "Phone number": [
+        "Номер телефону"
+      ],
+      "Verification code": [
+        "Код підтвердження"
+      ],
+      "Enter the 6-digit code": [
+        "Введіть 6-значний код"
       ],
       "Add email address": [
         "Додати адресу е-пошти"
@@ -4381,6 +4425,36 @@
       "Export contacts": [
         "Експортувати контакти"
       ],
+      "From: ${ fromEmailAddress }": [
+        "Від: ${ fromEmailAddress }"
+      ],
+      "To: ${ toEmailAddress }": [
+        "Кому: ${ toEmailAddress }"
+      ],
+      "Operating system": [
+        "Операційна система"
+      ],
+      "Operating system version": [
+        "Версія операційної системи"
+      ],
+      "Proton username": [
+        "Ім'я користувача Proton"
+      ],
+      "Category": [
+        "Категорія"
+      ],
+      "What happened?": [
+        "Що сталося?"
+      ],
+      "System information": [
+        "Інформація про систему"
+      ],
+      "Browser": [
+        "Браузер"
+      ],
+      "Browser version": [
+        "Версія браузера"
+      ],
       "Display name": [
         "Ім'я для показу"
       ],
@@ -4401,33 +4475,6 @@
       ],
       "Your recovery phrase": [
         "Ваша фраза відновлення"
-      ],
-      "Operating system": [
-        "Операційна система"
-      ],
-      "Operating system version": [
-        "Версія операційної системи"
-      ],
-      "Proton username": [
-        "Ім'я користувача Proton"
-      ],
-      "Email address": [
-        "Адреса е-пошти"
-      ],
-      "Category": [
-        "Категорія"
-      ],
-      "What happened?": [
-        "Що сталося?"
-      ],
-      "System information": [
-        "Інформація про систему"
-      ],
-      "Browser": [
-        "Браузер"
-      ],
-      "Browser version": [
-        "Версія браузера"
       ],
       "Name on card": [
         "Ім'я на картці"
@@ -4479,12 +4526,6 @@
       ],
       "Enable Beta Access": [
         "Увімкнути бета-доступ"
-      ],
-      "From: ${ fromEmailAddress }": [
-        "Від: ${ fromEmailAddress }"
-      ],
-      "To: ${ toEmailAddress }": [
-        "Кому: ${ toEmailAddress }"
       ],
       "Folder location": [
         "Розташування теки"
@@ -4590,33 +4631,6 @@
       ],
       "Conditions": [
         "Умови"
-      ],
-      "Cancel": [
-        "Скасувати"
-      ],
-      "Submit": [
-        "Відправити"
-      ],
-      "Password": [
-        "Пароль"
-      ],
-      "Mailbox password": [
-        "Пароль поштової скриньки"
-      ],
-      "Two-factor authentication code": [
-        "Код двоетапної перевірки"
-      ],
-      "Username or ProtonMail address": [
-        "Ім'я користувача або адреса ProtonMail"
-      ],
-      "Phone number": [
-        "Номер телефону"
-      ],
-      "Verification code": [
-        "Код підтвердження"
-      ],
-      "Enter the 6-digit code": [
-        "Введіть 6-значний код"
       ],
       "Carbon Copy": [
         "Копія"
@@ -4737,6 +4751,9 @@
       "Text": [
         "Текст"
       ],
+      "Mailbox password": [
+        "Пароль поштової скриньки"
+      ],
       "Start typing an email address": [
         "Почніть вводити адресу е-пошти"
       ],
@@ -4757,9 +4774,6 @@
       ],
       "Name": [
         "Назва"
-      ],
-      "e.g. Julia Smith": [
-        "наприклад, Джулія Сміт"
       ],
       "OS name": [
         "Назва ОС"
@@ -4782,6 +4796,9 @@
       "Browser version": [
         "Версія браузера"
       ],
+      "e.g. Julia Smith": [
+        "наприклад, Джулія Сміт"
+      ],
       "ZIP": [
         "Поштовий індекс"
       ],
@@ -4793,9 +4810,6 @@
       ],
       "Type text or keyword": [
         "Введіть текст чи ключове слово"
-      ],
-      "Mailbox password": [
-        "Пароль поштової скриньки"
       ],
       "Subject": [
         "Тема"
@@ -4912,8 +4926,8 @@
       "Contacts could not be merged": [
         "Не вдається об'єднати контакти"
       ],
-      "Your local date & time settings seem to be out of sync.": [
-        "Здається, ваші локальні налаштування дати та часу не синхронізовані."
+      "Are you sure you want to discard your import?": [
+        "Ви дійсно хочете відхилити імпортування?"
       ],
       "Live chat is a premium feature available only to those with paid ProtonVPN plans. Please open a ticket instead.": [
         "Живий чат - це преміум функція, доступна лише користувачам платних тарифних планів. Будь ласка, створіть запит натомість."
@@ -4924,11 +4938,11 @@
       "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
         "Повідомлення не шифруються наскрізно. Будь ласка, не відправляйте в них будь-яку конфіденційну інформацію."
       ],
+      "Your local date & time settings seem to be out of sync.": [
+        "Здається, ваші локальні налаштування дати та часу не синхронізовані."
+      ],
       "Please note that by choosing this payment method, your account cannot be upgraded immediately. We will update your account once the payment is cleared.": [
         "Зверніть увагу, що вибравши цей спосіб оплати, ваш обліковий запис не може бути оновлено негайно. Ми оновимо ваш обліковий запис одразу після підтвердження платежу."
-      ],
-      "Are you sure you want to discard your import?": [
-        "Ви дійсно хочете відхилити імпортування?"
       ],
       "The attachment's signature failed verification.\nYou can still download this attachment but it might have been tampered with.": [
         "Не вдалося перевірити підпис вкладення.\nВи все одно можете завантажити це вкладення, але воно може бути підробленим.",
@@ -5115,6 +5129,12 @@
       "Address copied to clipboard": [
         "Адресу скопійовано до буфера обміну"
       ],
+      "Code sent to ${ methodTo }": [
+        "Код надісланий на ${ methodTo }"
+      ],
+      "Verification successful": [
+        "Перевірка пройшла успішно"
+      ],
       "Contact group deleted": [
         "Групу контактів видалено",
         "Групи контактів видалено",
@@ -5139,23 +5159,17 @@
       "Fingerprint copied to clipboard": [
         "Цифровий відбиток скопійовано до буфера обміну"
       ],
+      "Bug reported": [
+        "Звіт про помилку надіслано"
+      ],
       "Keyboard shortcuts preferences updated": [
         "Налаштування комбінацій клавіш оновлено"
       ],
       "Preference saved": [
         "Налаштування збережено"
       ],
-      "Bug reported": [
-        "Звіт про помилку надіслано"
-      ],
       "You have successfully unsubscribed": [
         "Ви успішно скасували передплату"
-      ],
-      "Code sent to ${ methodTo }": [
-        "Код надісланий на ${ methodTo }"
-      ],
-      "Verification successful": [
-        "Перевірка пройшла успішно"
       ],
       "Message content search activated": [
         "Пошук вмісту повідомлень активовано"
@@ -5346,11 +5360,6 @@
         "Знайдено ${ items.length } пропозицій. Використовуйте клавіатуру для вибору."
       ]
     },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        "Ключ не можна використовувати для шифрування"
-      ]
-    },
     "Storage": {
       "Your current storage:": [
         "Ваше поточне сховище:"
@@ -5385,6 +5394,28 @@
       ],
       "Go to ${ vpnName }": [
         "Перейти до ${ vpnName }"
+      ]
+    },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "Протермінований рахунок"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "Е-пошта"
+      ],
+      "SMS": [
+        "SMS"
+      ],
+      "Manual": [
+        "Вручну"
+      ],
+      "No verification method available": [
+        "Немає доступних способів перевірки"
       ]
     },
     "Label for contact group name": {
@@ -5617,83 +5648,7 @@
         "${ totalImported }/${ totalToImport } контактів зашифровано та додано до вашого списку контактів"
       ]
     },
-    "Select files": {
-      "Upload": [
-        "Вивантажити"
-      ]
-    },
-    "Onboarding Proton": {
-      "This is what people will see when you send them an email, invite them to an event, or share a file with them.": [
-        "Ось, що побачать люди, коли ви надішлете їм лист, запросите на подію, чи поділитесь доступом до файлу."
-      ],
-      "Choose a display name": [
-        "Виберіть ім'я для показу"
-      ],
-      "Select a theme": [
-        "Виберіть тему"
-      ],
-      "You can change this anytime in your settings.": [
-        "Ви можете змінити це будь-коли в налаштуваннях."
-      ],
-      "Discover all Proton services": [
-        "Ознайомтеся з усіма можливостями Proton"
-      ],
-      "Use the app selector in the top left to access other Proton services, including VPN, Calendar and Drive.": [
-        "Користуйтеся вибором програм зліва вгорі для доступу до програм Proton, включаючи VPN, календар та Drive."
-      ],
-      "Welcome to Proton": [
-        "Вітаємо в Proton"
-      ],
-      "Our mission is to build an internet where you are in control of your data and your privacy. We have recently updated Proton - welcome to the secure internet.": [
-        "Наша місія - створити Інтернет, в якому ви контролюєте свої дані та приватність. Ми нещодавно оновили Proton, тож ласкаво просимо до безпечного Інтернету."
-      ],
-      "Set up your organization": [
-        "Налаштуйте свою організацію"
-      ],
-      "Configure your organization, link your domain name, and create accounts to ensure all members of your organization are protected.": [
-        "Налаштуйте свою організацію, прив'яжіть свій домен, а також створіть захищені облікові записи для всіх учасників організації."
-      ]
-    },
-    "Onboarding Beta": {
-      "Got it": [
-        "Зрозуміло"
-      ],
-      "Beta enabled": [
-        "Beta увімкнено"
-      ],
-      "To disable beta, open the settings dropdown menu and click on the “Beta Access” option.": [
-        "Щоб вимкнути бета-версію, відкрийте меню налаштувань і натисніть на параметр \"Бета-доступ\"."
-      ]
-    },
-    "Message display when a new app version is available": {
-      "A new version of ${ appName } is available. ${ reloadButton }.": [
-        "Доступна нова версія ${ appName }. ${ reloadButton }."
-      ]
-    },
-    "Text": {
-      "Settings": [
-        "Налаштування"
-      ]
-    },
-    "Enabled": {
-      "On": [
-        "Увімкнено"
-      ]
-    },
-    "Disabled": {
-      "Off": [
-        "Вимкнено"
-      ]
-    },
-    "Layout mode": {
-      "Column": [
-        "Стовпчик"
-      ],
-      "Row": [
-        "Рядок"
-      ]
-    },
-    "Density mode": {
+    "Label to change density": {
       "Comfortable": [
         "Комфортний"
       ],
@@ -5701,12 +5656,52 @@
         "Компактний"
       ]
     },
-    "Composer size": {
-      "Maximized": [
-        "Розгорнутий"
+    "Label to change view layout": {
+      "Column": [
+        "Стовпчик"
       ],
+      "Row": [
+        "Рядок"
+      ]
+    },
+    "Label to change composer mode": {
       "Normal": [
         "Звичайний"
+      ],
+      "Maximized": [
+        "Розгорнутий"
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "Вивантажити"
+      ]
+    },
+    "Loading info": {
+      "Connecting to your contacts provider": [
+        "Підключення до вашого постачальника контактів"
+      ]
+    },
+    "Wizard step": {
+      "Authenticate": [
+        "Автентифікація"
+      ],
+      "Configure Import": [
+        "Налаштувати імпорт"
+      ],
+      "Import": [
+        "Імпорт"
+      ]
+    },
+    "Confirm modal title": {
+      "Quit import?": [
+        "Вийти з імпорту?"
+      ],
+      "Message saved to Drafts": [
+        "Повідомлення збережено до чернеток"
+      ],
+      "Edit and reschedule": [
+        "Редагувати й запланувати повторно"
       ]
     },
     "Error notification in the bug report modal when the user upload file": {
@@ -5819,6 +5814,93 @@
     "Label, make it short please": {
       "Attach screenshot(s)": [
         "Додати знімки екрану"
+      ]
+    },
+    "Onboarding Proton": {
+      "This is what people will see when you send them an email, invite them to an event, or share a file with them.": [
+        "Ось, що побачать люди, коли ви надішлете їм лист, запросите на подію, чи поділитесь доступом до файлу."
+      ],
+      "Choose a display name": [
+        "Виберіть ім'я для показу"
+      ],
+      "Select a theme": [
+        "Виберіть тему"
+      ],
+      "You can change this anytime in your settings.": [
+        "Ви можете змінити це будь-коли в налаштуваннях."
+      ],
+      "Discover all Proton services": [
+        "Ознайомтеся з усіма можливостями Proton"
+      ],
+      "Use the app selector in the top left to access other Proton services, including VPN, Calendar and Drive.": [
+        "Користуйтеся вибором програм зліва вгорі для доступу до програм Proton, включаючи VPN, календар та Drive."
+      ],
+      "Welcome to Proton": [
+        "Вітаємо в Proton"
+      ],
+      "Our mission is to build an internet where you are in control of your data and your privacy. We have recently updated Proton - welcome to the secure internet.": [
+        "Наша місія - створити Інтернет, в якому ви контролюєте свої дані та приватність. Ми нещодавно оновили Proton, тож ласкаво просимо до безпечного Інтернету."
+      ],
+      "Set up your organization": [
+        "Налаштуйте свою організацію"
+      ],
+      "Configure your organization, link your domain name, and create accounts to ensure all members of your organization are protected.": [
+        "Налаштуйте свою організацію, прив'яжіть свій домен, а також створіть захищені облікові записи для всіх учасників організації."
+      ]
+    },
+    "Onboarding Beta": {
+      "Got it": [
+        "Зрозуміло"
+      ],
+      "Beta enabled": [
+        "Beta увімкнено"
+      ],
+      "To disable beta, open the settings dropdown menu and click on the “Beta Access” option.": [
+        "Щоб вимкнути бета-версію, відкрийте меню налаштувань і натисніть на параметр \"Бета-доступ\"."
+      ]
+    },
+    "Message display when a new app version is available": {
+      "A new version of ${ appName } is available. ${ reloadButton }.": [
+        "Доступна нова версія ${ appName }. ${ reloadButton }."
+      ]
+    },
+    "Text": {
+      "Settings": [
+        "Налаштування"
+      ]
+    },
+    "Enabled": {
+      "On": [
+        "Увімкнено"
+      ]
+    },
+    "Disabled": {
+      "Off": [
+        "Вимкнено"
+      ]
+    },
+    "Layout mode": {
+      "Column": [
+        "Стовпчик"
+      ],
+      "Row": [
+        "Рядок"
+      ]
+    },
+    "Density mode": {
+      "Comfortable": [
+        "Комфортний"
+      ],
+      "Compact": [
+        "Компактний"
+      ]
+    },
+    "Composer size": {
+      "Maximized": [
+        "Розгорнутий"
+      ],
+      "Normal": [
+        "Звичайний"
       ]
     },
     "Info for cash payment method": {
@@ -6303,57 +6385,6 @@
         "Примітка: Після натискання кнопки Застосувати, сторінка перезавантажиться."
       ]
     },
-    "Label to change density": {
-      "Comfortable": [
-        "Комфортний"
-      ],
-      "Compact": [
-        "Компактний"
-      ]
-    },
-    "Label to change view layout": {
-      "Column": [
-        "Стовпчик"
-      ],
-      "Row": [
-        "Рядок"
-      ]
-    },
-    "Label to change composer mode": {
-      "Normal": [
-        "Звичайний"
-      ],
-      "Maximized": [
-        "Розгорнутий"
-      ]
-    },
-    "Loading info": {
-      "Connecting to your contacts provider": [
-        "Підключення до вашого постачальника контактів"
-      ]
-    },
-    "Wizard step": {
-      "Authenticate": [
-        "Автентифікація"
-      ],
-      "Configure Import": [
-        "Налаштувати імпорт"
-      ],
-      "Import": [
-        "Імпорт"
-      ]
-    },
-    "Confirm modal title": {
-      "Quit import?": [
-        "Вийти з імпорту?"
-      ],
-      "Message saved to Drafts": [
-        "Повідомлення збережено до чернеток"
-      ],
-      "Edit and reschedule": [
-        "Редагувати й запланувати повторно"
-      ]
-    },
     "New Label form": {
       "Color": [
         "Колір"
@@ -6509,28 +6540,6 @@
       ],
       "starred": [
         "позначені зірочкою"
-      ]
-    },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "Протермінований рахунок"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
-      ],
-      "Email": [
-        "Е-пошта"
-      ],
-      "SMS": [
-        "SMS"
-      ],
-      "Manual": [
-        "Вручну"
-      ],
-      "No verification method available": [
-        "Немає доступних способів перевірки"
       ]
     },
     "Mailbox": {
