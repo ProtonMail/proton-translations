@@ -13,7 +13,7 @@
         "Fw:"
       ],
       "On ${ date }, ${ name } ${ address } wrote:": [
-        ""
+        "${ date } に、${ name } ${ address } が作成:"
       ]
     },
     "Error": {
@@ -69,7 +69,7 @@
         "署名が確認されていません"
       ],
       "Invalid name": [
-        "無効な名前です。"
+        "無効な名前です"
       ],
       "The key properties for ${ emailAddress } could not be extracted": [
         "${ emailAddress } のキープロパティは抽出できませんでした"
@@ -87,7 +87,7 @@
         "カレンダーのプライマリー秘密鍵が復号されていません"
       ],
       "This message may contain some link's URL that cannot be properly opened by your current browser": [
-        "このメッセージは、現在お使いのブラウザでは適切に開くことができないリンクのURLを含んでいる可能性があります。"
+        "このメッセージは、現在お使いのブラウザでは適切に開くことができないリンクのURLを含んでいる可能性があります"
       ],
       "Unknown error": [
         "不明なエラー"
@@ -99,10 +99,10 @@
         "インポートできませんでした。"
       ],
       "Authentication error.": [
-        "認証エラー"
+        "認証エラー。"
       ],
       "Email address invalid": [
-        "メールアドレスが不正です。"
+        "メールアドレスが不正です"
       ],
       "The composer failed to load.": [
         "Composerが読み込みに失敗しました。"
@@ -117,16 +117,16 @@
         "一部のグループは削除できませんでした"
       ],
       "Image upload failed": [
-        "画像のアップロードに失敗しました。"
+        "画像のアップロードに失敗しました"
       ],
       "Contact could not be saved": [
         "連絡先を保存できませんでした"
       ],
       "Some contacts could not be deleted": [
-        "一部の連絡先を削除できませんでした。"
+        "一部の連絡先を削除できませんでした"
       ],
       "Preferences could not be saved": [
-        "設定が保存できませんでした。"
+        "設定が保存できませんでした"
       ],
       "Invalid public key file": [
         "無効な公開鍵ファイル"
@@ -156,16 +156,16 @@
         "ファイルにプレビューするコンテンツがありません"
       ],
       "Incorrect mailbox password. Please try again": [
-        "メールボックスのパスワードが正しくありません。再度入力してください。"
+        "メールボックスのパスワードが正しくありません。再度入力してください"
       ],
       "Incorrect login credentials. Please try again": [
-        "間違ったログイン情報です。もう一度やり直してください。"
+        "間違ったログイン情報です。もう一度やり直してください"
       ],
       "Can't validate email, try again later": [
-        "メールを検証できません。後でもう一度お試しください。"
+        "メールを検証できません。後でもう一度お試しください"
       ],
       "Can't validate phone, try again later": [
-        "電話番号の検証ができませんでした。再度お試しください。"
+        "電話番号の検証ができませんでした。再度お試しください"
       ],
       "Enter 6 digits": [
         "6 桁の数字を入力"
@@ -192,19 +192,19 @@
         "支払い処理はサポートされていません"
       ],
       "Unknown payment token status": [
-        "支払いトークンの状態が不明です。"
+        "支払いトークンの状態が不明です"
       ],
       "Tab closed": [
-        "タブが閉じられました。"
+        "タブが閉じられました"
       ],
       "Name on card required": [
-        "カードの名義人を入力してください。"
+        "カードの名義人を入力してください"
       ],
       "Invalid expiration date": [
         "無効な有効期限です"
       ],
       "Invalid card number": [
-        "無効なカード番号です。"
+        "無効なカード番号です"
       ],
       "Invalid ${ name } code": [
         "無効な ${ name } コードです"
@@ -270,10 +270,10 @@
         "内容の検索を再度有効にしてください"
       ],
       "Content search cannot be enabled in this browser. Please quit private browsing mode or use another browser": [
-        ""
+        "このブラウザでは、内容の検索を有効にできません。プライベートブラウジングモードを閉じるか別のブラウザーを使用してください"
       ],
       "A problem occurred, please try again": [
-        "問題が発生しました。もう一度やり直してください。"
+        "問題が発生しました。もう一度やり直してください"
       ],
       "No address with keys available to compose a message.": [
         "メールアドレスに有効な暗号鍵が設定さていないため、メッセージが作成できません。"
@@ -291,22 +291,22 @@
         "添付ファイルは25MBに制限されています。"
       ],
       "This message has already been sent. A new draft has been saved.": [
-        ""
+        "このメッセージは送信されています。下書きが保存されました。"
       ],
       "This message has already been sent.": [
-        ""
+        "このメッセージは送信されています。"
       ],
       "Draft could not be saved. Try again.": [
         "下書きを保存できませんでした。もう一度お試しください。"
       ],
       "Error while sending the message. Message is not sent": [
-        "メッセージの送信中にエラーが発生しました。メッセージは送信されていません。"
+        "メッセージの送信中にエラーが発生しました。メッセージは送信されていません"
       ],
       "Error while uploading attachments. Message is not sent": [
-        "添付ファイルのアップロード中にエラーが発生しました。メッセージは送信されていません。"
+        "添付ファイルのアップロード中にエラーが発生しました。メッセージは送信されていません"
       ],
       "Error while saving draft. Please try again": [
-        ""
+        "下書きを保存しているときにエラーが発生しました。再度お試しください"
       ],
       "The attachment could not be decrypted.\nIf you have the corresponding private key, you will still be able to decrypt\nthe file with a program such as GnuPG.": [
         ""
@@ -333,7 +333,7 @@
         "有効期限は最長4週間までです。"
       ],
       "Choose a date in the future.": [
-        ""
+        "未来の日付を入力してください。"
       ],
       "Choose a date within the next ${ SCHEDULED_MAX_DATE_DAYS } day.": [
         ""
@@ -351,13 +351,13 @@
         ""
       ],
       "Message processing error.": [
-        ""
+        "メッセージの処理にエラーが発生しました。"
       ],
       "Signature verification error.": [
-        "署名を検証できませんでした"
+        "署名を検証できませんでした。"
       ],
       "Unknown error.": [
-        "不明なエラーが発生しました"
+        "不明なエラーが発生しました。"
       ],
       "re-activate the previous key": [
         ""
@@ -510,7 +510,7 @@
         "セッションがタイムアウトしました。"
       ],
       "Internet connection lost.": [
-        "インターネット接続切断"
+        "インターネット接続が切断されました。"
       ],
       "Servers are unreachable.": [
         "サーバーに接続できません。"
@@ -570,7 +570,7 @@
         "画像のURL"
       ],
       "Not a valid URL": [
-        "有効な URL ではありません。"
+        "有効な URL ではありません"
       ],
       "Upload picture": [
         "写真をアップロード"
@@ -606,7 +606,7 @@
         ""
       ],
       "Default": [
-        ""
+        "標準"
       ],
       "Text color": [
         "文字色"
@@ -648,7 +648,7 @@
         "${ appName } を読み込み中"
       ],
       "No contacts added yet": [
-        "まだ連絡先が追加されていません。"
+        "まだ連絡先が追加されていません"
       ],
       "Please note that addresses assigned to this group will NOT be deleted.": [
         ""
@@ -705,7 +705,7 @@
         "PGP/Inline はプレーンテキスト形式としか互換性がありません。 ProtonMail は暗号化されたメッセージに常に署名することに注意してください。"
       ],
       "PGP/MIME automatically sends the message using the current composer mode. Please note that ProtonMail always signs encrypted messages": [
-        "PGP/MIMEは自動的に現在の書式を使用してメッセージを送信します。ProtonMailは暗号化されたメッセージに常に署名することに注意してください。"
+        "PGP/MIMEは自動的に現在の書式を使用してメッセージを送信します。ProtonMailは暗号化されたメッセージに常に署名することに注意してください"
       ],
       "Group assignment applied": [
         ""
@@ -714,7 +714,7 @@
         "新しい連絡先グループを作成"
       ],
       "No group found": [
-        "グループがありません。"
+        "グループがありません"
       ],
       "Primary": [
         "プライマリー"
@@ -723,7 +723,7 @@
         ""
       ],
       "Duplicate key updated": [
-        ""
+        "重複したキーはアップデートされました"
       ],
       "Setting up PGP allows you to send end-to-end encrypted emails with a non-ProtonMail user that uses a PGP compatible service.": [
         "PGP を設定すると、PGP 対応のサービスを使用する ProtonMail 以外のユーザー宛に、エンドツーエンド暗号化された電子メールを送信できます。"
@@ -831,7 +831,7 @@
         "リカバリーフレーズはクリップボードへコピーされました"
       ],
       "Create recovery phrase": [
-        ""
+        "回復フレーズを作成"
       ],
       "A recovery phrase is one of the safest ways to protect access to your account. You can use it to access your account and recover your encrypted data if you ever forget your password.": [
         ""
@@ -999,7 +999,7 @@
         "安全なビジネスコミュニケーションが必要な専門家のために。"
       ],
       "VPN + ${ mailAppName } bundle for families and small businesses.": [
-        "家族と小さなビジネス向けの VPN と ${ mailAppName } バンドル"
+        "家族と小さなビジネス向けの VPN と ${ mailAppName } バンドルです。"
       ],
       "For families and small teams; includes both Mail and VPN.": [
         "家族や小規模なチームには、メールとVPNの両方が含まれています。"
@@ -1011,13 +1011,13 @@
         "アカウントをアップグレード中です。30 秒程お待ち下さい。"
       ],
       "Thank you for supporting our mission.": [
-        "サポートしていただきありがとうございます！"
+        "サポートしていただきありがとうございます。"
       ],
       "Your account will be updated once the payment is cleared.": [
         "支払いが決済されれば、アカウントは更新されます。"
       ],
       "Account successfully updated": [
-        "アカウントが正常に更新されました。"
+        "アカウントが正常に更新されました"
       ],
       "Download your favorite app today and take privacy with you everywhere you go.": [
         "お気に入りのアプリをダウンロードし、どこにいてもプライバシーを保ってください。"
@@ -1128,7 +1128,7 @@
         "連絡先のインポート"
       ],
       "Your contacts are being imported from": [
-        ""
+        "連絡先はこちらからインポートされます"
       ],
       "to": [
         "から以下のアドレスにインポートしています"
@@ -1164,13 +1164,13 @@
         ""
       ],
       "No label selected": [
-        ""
+        "ラベルが選択されていません"
       ],
       "No folder selected": [
         "フォルダーが選択されていません"
       ],
       "No action selected": [
-        ""
+        "アクションが選択されていません"
       ],
       "(Filter if ALL of the following conditions are met)": [
         "(以下の全ての条件が満たされた場合に動作します)"
@@ -1179,28 +1179,28 @@
         "(以下のいずれかの条件が満たされた場合に動作します)"
       ],
       "Images have been removed because they are not allowed in auto-reply.": [
-        ""
+        "自動リプライでは許可されていないため画像は削除されました。"
       ],
       "All your changes will be lost.": [
         "変更内容は全て失われます。"
       ],
       "Are you sure you want to discard your changes?": [
-        ""
+        "変更を破棄してよろしいですか?"
       ],
       "Members": [
         "メンバー"
       ],
       "The data you have entered in the draft may not be saved if you leave the page.": [
-        ""
+        "このページを離れると入力したデータの下書きは保存されません。"
       ],
       "This message is expired!": [
-        ""
+        "メッセージの有効期限が切れました!"
       ],
       "This message will expire in ${ formattedDelay }": [
-        ""
+        "このメッセージの期限は ${ formattedDelay } までです"
       ],
       "Sending messages from @pm.me address is a paid feature. Your message will be sent from your default address ${ email }": [
-        ""
+        "@pm.me から送信されたメッセージは有料プランの機能です。メッセージは ${ email } から送信されます"
       ],
       "You have reached 100% of your storage capacity. Consider freeing up some space or upgrading your account with additional storage space to compose new messages.": [
         "ストレージ容量の100%に達しました。新しいメッセージを作成するために、ストレージ容量を増やしたり、容量追加のためにアカウントをアップグレードすることを検討してください。"
@@ -1323,7 +1323,7 @@
         ""
       ],
       "Expiration Time": [
-        ""
+        "無効な時間"
       ],
       "If you are sending this message to a non ProtonMail user, please be sure to set a password for your message.": [
         "ProtonMailユーザー以外にメッセージを送信する場合、パスワードの設定を確認してください。"
@@ -1356,13 +1356,13 @@
         "メッセージヘッダー"
       ],
       "Print email": [
-        ""
+        "メールを印刷"
       ],
       "Hide original message": [
-        ""
+        "元のメッセージを隠す"
       ],
       "Show original message": [
-        ""
+        "元のメッセージを表示"
       ],
       "Draft": [
         "下書き"
@@ -1383,7 +1383,7 @@
         "${ pureAttachmentsCount } 件の添付ファイル"
       ],
       "${ embeddedAttachmentsCount } embedded image": [
-        ""
+        "${ embeddedAttachmentsCount } 枚の埋め込み画像"
       ],
       "A request to unsubscribe from this mailing list will be sent to the sender of the newsletter and automatically processed.": [
         ""
@@ -1410,7 +1410,7 @@
         "これはメーリングリストからのメッセージです。"
       ],
       "This email has failed its domain's authentication requirements. It may be spoofed or improperly forwarded!": [
-        "メールのドメイン認証に失敗しました。このメールは不適切に転送されたものか、なりすましの恐れがあります。"
+        "メールのドメイン認証に失敗しました。このメールは不適切に転送されたものか、なりすましの恐れがあります!"
       ],
       "We apologize. This might have been a mistake from our side. Can you please confirm that you want to mark this email as a legitimate one?": [
         ""
@@ -1479,10 +1479,10 @@
         ""
       ],
       "Message sent": [
-        "メッセージが送信されました。"
+        "メッセージが送信されました"
       ],
       "Scheduling message...": [
-        ""
+        "メッセージをスケジューリングしています..."
       ],
       "Sending message...": [
         "メッセージを送信しています..."
@@ -1491,7 +1491,7 @@
         "下書きが保存されました。"
       ],
       "Saving draft…": [
-        ""
+        "下書きを保存しています…"
       ],
       "This action will download all messages so they can be searched locally. Clearing your browser data will disable this option.": [
         ""
@@ -1503,7 +1503,7 @@
         ""
       ],
       "Activation in progress": [
-        ""
+        "アクティベーションが進行中です"
       ],
       "Indexing paused": [
         ""
@@ -1581,7 +1581,7 @@
         "ここにはメッセージがありません"
       ],
       "Seems like you are all caught up for now": [
-        "現在、確認すべきメッセージはありません。"
+        "現在、確認すべきメッセージはありません"
       ],
       "Get more storage and premium features.": [
         ""
@@ -1626,7 +1626,7 @@
         ""
       ],
       "Upgrade to host emails from your own domain name.": [
-        ""
+        "アップグレードすると自分のドメインでメールをホストすることができます。"
       ],
       "ProtonMail can protect your business as well.": [
         ""
@@ -3167,7 +3167,7 @@
         "...に移動"
       ],
       "Label as...": [
-        "ラベル付け"
+        "ラベル付け..."
       ],
       "Mark as unread": [
         "未読にする"
@@ -3197,7 +3197,7 @@
         "カスタムフィルター"
       ],
       "Move to": [
-        "移動…"
+        "移動"
       ],
       "Label as": [
         "ラベル付け"
@@ -3712,7 +3712,7 @@
         ""
       ],
       "Verification error": [
-        "検証エラーが発生しました。"
+        "検証エラーが発生しました"
       ],
       "Decryption error": [
         "復号エラー"
@@ -3745,7 +3745,7 @@
         "連絡先を追加"
       ],
       "To": [
-        "宛先　"
+        "宛先"
       ],
       "CC": [
         "Cc"
@@ -4699,7 +4699,7 @@
     },
     "Warning": {
       "This feature requires a paid Proton account": [
-        "この機能は有料のProtonアカウントが必要です。"
+        "この機能は有料の Proton アカウントが必要です"
       ],
       "Are you sure you want to permanently delete this contact group?": [
         "この連絡先グループを完全に削除してよろしいですか?"
@@ -4761,28 +4761,28 @@
         "連絡先グループが削除されました"
       ],
       "Contact saved": [
-        "連絡先が保存されました。"
+        "連絡先が保存されました"
       ],
       "Contacts deleted": [
-        "連絡先が削除されました。"
+        "連絡先が削除されました"
       ],
       "Contact deleted": [
-        "連絡先が削除されました。"
+        "連絡先が削除されました"
       ],
       "Fingerprint copied to clipboard": [
         "フィンガープリントをクリップボードにコピーしました"
       ],
       "Preferences saved": [
-        "設定が保存されました。"
+        "設定が保存されました"
       ],
       "Email address copied to clipboard": [
-        "メールアドレスがクリップボードにコピーされました。"
+        "メールアドレスがクリップボードにコピーされました"
       ],
       "Phone number copied to clipboard": [
-        "電話番号がクリップボードにコピーされました。"
+        "電話番号がクリップボードにコピーされました"
       ],
       "Address copied to clipboard": [
-        "住所がクリップボードにコピーされました。"
+        "住所がクリップボードにコピーされました"
       ],
       "Code sent to ${ methodTo }": [
         "${ methodTo } にコードを送信しました"
@@ -4797,10 +4797,10 @@
         "設定が保存されました"
       ],
       "Bug reported": [
-        "バグの報告が送信されました。"
+        "バグの報告が送信されました"
       ],
       "You have successfully unsubscribed": [
-        "退会手続きが正常に行なわれました。"
+        "退会手続きが正常に行なわれました"
       ],
       "Message content search activated": [
         "メッセージ内容の検索が有効になりました"
@@ -4881,13 +4881,13 @@
         ""
       ],
       "Draft deleted": [
-        "下書きが削除されました。"
+        "下書きが削除されました"
       ],
       "${ count } draft deleted": [
         "${ count } 件の下書きが削除されました"
       ],
       "Message deleted": [
-        "メッセージが削除されました。"
+        "メッセージが削除されました"
       ],
       "Conversation deleted": [
         "会話が削除されました"
@@ -4908,7 +4908,7 @@
         ""
       ],
       "Phishing reported": [
-        "フィッシングが報告されました。"
+        "フィッシングが報告されました"
       ],
       "Mail list unsubscribed": [
         ""
@@ -4917,7 +4917,7 @@
         ""
       ],
       "Read receipt sent": [
-        "開封確認が送信されました。"
+        "開封確認が送信されました"
       ],
       "Address verification disabled": [
         ""
@@ -4958,7 +4958,7 @@
         ""
       ],
       "Select the PGP scheme to be used when signing or encrypting to a user. Note that PGP/Inline forces plain text messages": [
-        "暗号化や署名の際に使用される PGP の方式を選択してください。 PGP/Inline はプレーンテキストのメッセージでしか使用できない事に注意してください。"
+        "暗号化や署名の際に使用される PGP の方式を選択してください。 PGP/Inline はプレーンテキストのメッセージでしか使用できない事に注意してください"
       ],
       "Upload a public key to enable sending end-to-end encrypted emails to this email": [
         "公開鍵をアップロードすると、このメールアドレス宛の電子メールをエンドツーエンド暗号化することができます"
@@ -5069,10 +5069,10 @@
     },
     "Notification": {
       "Contact group updated": [
-        "連絡先グループが更新されました。"
+        "連絡先グループが更新されました"
       ],
       "Contact group created": [
-        "連絡先グループが作成されました。"
+        "連絡先グループが作成されました"
       ],
       "${ _Filter.Name } created": [
         "${ _Filter.Name } が作成されました。"
@@ -5125,18 +5125,18 @@
         "インポート"
       ],
       "CSV field": [
-        ""
+        "CSV フィールド"
       ],
       "vCard field": [
-        ""
+        "vCard フィールド"
       ],
       "Values": [
-        ""
+        "値"
       ]
     },
     "Actions message": {
       "You don't have any groups.": [
-        ""
+        "グループがありません。"
       ],
       "No results found.": [
         "一致する結果が見つかりませんでした。"
@@ -5145,7 +5145,7 @@
         "別の単語で検索してみてください。"
       ],
       "You don't have any contacts.": [
-        "連絡先がありません"
+        "連絡先がありません。"
       ],
       "${ addContact } or ${ importContact }.": [
         "${ addContact } または ${ importContact }."
@@ -5177,7 +5177,7 @@
         "新しいグループを作成"
       ],
       "Ignore group": [
-        ""
+        "グループを無視"
       ],
       "No parent folder": [
         "親フォルダーなし"
@@ -5995,7 +5995,7 @@
         "${ Label.Name } 更新されました。"
       ],
       "Filter ${ Filter.Name } updated": [
-        "フィルター ${ Filter.Name } が更新されました。"
+        "フィルター ${ Filter.Name } が更新されました"
       ]
     },
     "Label/folder modal": {
@@ -6094,7 +6094,7 @@
     },
     "Filter Actions": {
       "Select a folder": [
-        ""
+        "フォルダーを選択"
       ],
       "Archive": [
         "アーカイブ"
@@ -6243,7 +6243,7 @@
         ""
       ],
       "Sender verification failed": [
-        "送信者検証に失敗しました。"
+        "送信者検証に失敗しました"
       ],
       "Sender's trusted keys verification failed": [
         ""
@@ -6305,16 +6305,16 @@
         "今日"
       ],
       "tomorrow": [
-        ""
+        "明日"
       ],
       "on ${ formattedDate }": [
-        ""
+        "${ formattedDate }"
       ],
       "Today": [
         "今日"
       ],
       "Tomorrow": [
-        ""
+        "明日"
       ]
     },
     "Invitation details (all-day event)": {
@@ -6327,7 +6327,7 @@
         ""
       ],
       "This event has been updated.": [
-        ""
+        "イベントが更新されました。"
       ],
       "This response is out of date. You have no calendars.": [
         ""
@@ -6663,7 +6663,7 @@
         "送信者検証の失敗"
       ],
       "Sender verification passed": [
-        "送信者検証に成功しました。"
+        "送信者検証に成功しました"
       ]
     },
     "Download attachments": {
