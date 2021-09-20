@@ -13,7 +13,7 @@
         "Fw:"
       ],
       "On ${ date }, ${ name } ${ address } wrote:": [
-        "${ date } に、${ name } ${ address } が作成:"
+        "${ date } に ${ name } ${ address } が作成:"
       ]
     },
     "Error": {
@@ -339,7 +339,7 @@
         ""
       ],
       "Public key could not be trusted": [
-        ""
+        "公開鍵は信頼されていません"
       ],
       "Network error: Please check your connection and try again.": [
         "ネットワークエラー：インターネット接続を確認し、もう一度やり直してください。"
@@ -603,7 +603,7 @@
         "リンクをテスト"
       ],
       "Change your default in settings": [
-        ""
+        "デフォルトの設定を変更"
       ],
       "Default": [
         "標準"
@@ -1227,7 +1227,7 @@
         ""
       ],
       "Do you want to download this attachment anyway?": [
-        ""
+        "とにかく添付ファイルをダウンロードしますか?"
       ],
       "${ messagesNotAuthorizedToMove } message could not be moved.": [
         ""
@@ -1257,19 +1257,19 @@
         ""
       ],
       "Are you sure you want to delete all messages with this label?": [
-        ""
+        "このフォルダー内の全てのラベルを削除してよろしいですか？"
       ],
       "Are you sure you want to delete all messages in this folder?": [
-        ""
+        "このフォルダー内の全てのメッセージを削除してよろしいですか？"
       ],
       "Copied to clipboard": [
         "クリップボードにコピーされました。"
       ],
       "Right-click for options": [
-        ""
+        "右クリックしてオプションを表示します"
       ],
       "Click to view group details": [
-        ""
+        "クリックしてグループの詳細を表示"
       ],
       "Message expiration works out-of-the-box when sending emails to other ProtonMail users. To send expiring emails to non-ProtonMail users, please cancel and add password protection to your email.": [
         ""
@@ -1320,7 +1320,7 @@
         "パスワードの確認"
       ],
       "Password Hint (Optional)": [
-        ""
+        "パスワードのヒント (任意)"
       ],
       "Expiration Time": [
         "無効な時間"
@@ -1341,7 +1341,7 @@
         ""
       ],
       "Draft discarded": [
-        ""
+        "下書きは破棄されました"
       ],
       "Do you want to re-sign the contact details and in the process trust the keys with the following fingerprints?": [
         ""
@@ -1359,7 +1359,7 @@
         "メールを印刷"
       ],
       "Hide original message": [
-        "元のメッセージを隠す"
+        "元のメッセージを非表示"
       ],
       "Show original message": [
         "元のメッセージを表示"
@@ -1404,7 +1404,7 @@
         ""
       ],
       "URL: ${ unsubscribeMethods.HttpClient }": [
-        ""
+        "URL: ${ unsubscribeMethods.HttpClient }"
       ],
       "This message is from a mailing list.": [
         "これはメーリングリストからのメッセージです。"
@@ -1431,7 +1431,7 @@
         "招待されたアドレスから返信することはできません。"
       ],
       "All your calendars are disabled.": [
-        ""
+        "すべてのカレンダーが無効です。"
       ],
       "This message is signed by a key that has not been trusted yet.": [
         ""
@@ -1551,10 +1551,10 @@
         "ラベルが見つかりません"
       ],
       "Has ${ numAttachments } attachment": [
-        ""
+        "${ numAttachments } の添付ファイル"
       ],
       "This message will expire ${ formattedDate }": [
-        ""
+        "このメッセージの期限は ${ formattedDate } までです"
       ],
       "(No Recipient)": [
         ""
@@ -1593,16 +1593,16 @@
         "/月."
       ],
       "Upgrade to send email from @pm.me addresses.": [
-        ""
+        "アップグレードして @pm.me アドレスからメールを送信します。"
       ],
       "Upgrade to create more folders, filters, and addresses.": [
-        ""
+        "アップグレードしてさらなるフォルダー、フィルター、アドレスを作成します。"
       ],
       "Upgrade to configure a vacation auto-responder.": [
         ""
       ],
       "Upgrade to use ProtonMail with third-party desktop clients.": [
-        ""
+        "アップグレードしてサードパーティのデスクトップクライアントで ProtonMail を使用します。"
       ],
       "Proton doesn't make money by abusing privacy.": [
         ""
@@ -1617,13 +1617,13 @@
         ""
       ],
       "For increased security, activate 2FA.": [
-        ""
+        "さらなるセキュリティのため、2FA をアクティブにします。"
       ],
       "Use keyboard shortcuts to manage your email faster.": [
-        ""
+        "キーボードショートカットを使ってメールを素早く管理します。"
       ],
       "Themes can give your inbox a new look.": [
-        ""
+        "テーマは受信箱を新しい見た目にします。"
       ],
       "Upgrade to host emails from your own domain name.": [
         "アップグレードすると自分のドメインでメールをホストすることができます。"
@@ -1638,19 +1638,19 @@
         ""
       ],
       "Upgrade to support a privacy-first internet.": [
-        ""
+        "アップグレードしてプライバシー第一のインターネットをサポートします。"
       ],
       "Upgrade to support our mission of privacy for all.": [
         ""
       ],
       "Store and share files securely with Proton Drive.": [
-        ""
+        "Proton Drive でファイルを安全に保管、シェアします。"
       ],
       "You can use ProtonVPN for free today.": [
-        ""
+        "ProtonVPN を無料で使うことができます。"
       ],
       "Use Proton Calendar to keep your agenda private.": [
-        ""
+        "Proton Calender を利用して予定をプライベートに管理します。"
       ],
       "${ unread } unread conversation": [
         "${ unread } 件の未読の会話"
@@ -1754,16 +1754,16 @@
         "基本操作"
       ],
       "Folder shortcuts": [
-        ""
+        "フォルダーのショートカット"
       ],
       "Composer shortcuts": [
         ""
       ],
       "List shortcuts": [
-        ""
+        "リストのショートカット"
       ],
       "Action shortcuts": [
-        ""
+        "アクションのショートカット"
       ],
       "Message shortcuts": [
         "メッセージショートカット"
@@ -1801,22 +1801,22 @@
         "選択 / 選択解除"
       ],
       "Go to Inbox": [
-        ""
+        "受信箱を開く"
       ],
       "Go to Archive": [
         "アーカイブに移動"
       ],
       "Go to Sent": [
-        ""
+        "送信済みを開く"
       ],
       "Go to Starred": [
-        ""
+        "星印付きを開く"
       ],
       "Go to Drafts": [
-        ""
+        "下書きを開く"
       ],
       "Go to Trash": [
-        ""
+        "ゴミ箱を開く"
       ],
       "Go to Spam": [
         ""
@@ -1918,7 +1918,7 @@
         "埋め込み画像を読み込む"
       ],
       "Show original message": [
-        ""
+        "元のメッセージを表示"
       ]
     },
     "Calendar status": {
@@ -1954,21 +1954,21 @@
     },
     "Attached ics file error": {
       "Invalid ICS file": [
-        ""
+        "無効な ICS ファイルです"
       ],
       "Invalid event": [
-        ""
+        "無効なイベントです"
       ],
       "Unsupported event": [
-        ""
+        "サポートされていないイベントです"
       ],
       "Invalid method": [
-        ""
+        "無効なメソッドです"
       ]
     },
     "Event invitation error": {
       "Invalid response": [
-        ""
+        "無効なレスポンスです"
       ],
       "Invalid invitation": [
         "無効な招待状"
@@ -3263,7 +3263,7 @@
         "取り消し"
       ],
       "View message": [
-        ""
+        "メッセージを表示"
       ],
       "Enable": [
         "自動返信の有効化"
@@ -3377,10 +3377,10 @@
         ""
       ],
       "Open shop": [
-        ""
+        "ショップを開く"
       ],
       "Open calendar": [
-        ""
+        "カレンダーを開く"
       ],
       "Import messages": [
         "メッセージをインポート"
@@ -3499,7 +3499,7 @@
         "連絡先の統合"
       ],
       "Deleting contacts": [
-        ""
+        "連絡先を削除しています"
       ],
       "View contacts": [
         "連絡先を表示"
@@ -3784,7 +3784,7 @@
         "メールを送信"
       ],
       "Schedule send": [
-        ""
+        "スケジュールを送信"
       ],
       "New message": [
         "新規メッセージ"
@@ -4292,19 +4292,19 @@
         "もし"
       ],
       "With attachment": [
-        ""
+        "添付ファイルあり"
       ],
       "Without attachment": [
-        ""
+        "添付ファイルなし"
       ],
       "or": [
         "または"
       ],
       "with attachments": [
-        ""
+        "添付ファイルあり"
       ],
       "without attachment": [
-        ""
+        "添付ファイルなし"
       ],
       "The email was sent ${ attachmentStrong }": [
         ""
@@ -4540,7 +4540,7 @@
         "件名"
       ],
       "Write your message": [
-        ""
+        "メッセージを書く"
       ],
       "Password": [
         "パスワード"
@@ -4878,7 +4878,7 @@
         ""
       ],
       "Labels applied.": [
-        ""
+        "ラベルが適用されました。"
       ],
       "Draft deleted": [
         "下書きが削除されました"
@@ -5029,7 +5029,7 @@
         "連絡先はエクスポートされていません。"
       ],
       "Progress: ${ combinedProgress }%": [
-        ""
+        "進捗: ${ combinedProgress }%"
       ],
       "${ model.deleted.length } out of ${ totalBeDeleted } contact successfully deleted.": [
         ""
