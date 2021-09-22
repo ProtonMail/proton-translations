@@ -86,11 +86,11 @@
       "Calendar primary private key is not decrypted": [
         "日历主密钥未解密。"
       ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser": [
-        "此邮件含有浏览器不能打开的链接"
-      ],
       "Unknown error": [
         "未知错误"
+      ],
+      "This message may contain some link's URL that cannot be properly opened by your current browser": [
+        "此邮件含有浏览器不能打开的链接"
       ],
       "Authentication canceled.": [
         "验证已取消。"
@@ -104,14 +104,14 @@
       "Email address invalid": [
         "邮箱格式不正确"
       ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "您使用的浏览器无法完成支付验证，请使用其他浏览器或电脑支付。"
+      ],
       "The composer failed to load.": [
         "编辑器加载失败。"
       ],
       "Please refresh the page.": [
         "请刷新页面。"
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "您使用的浏览器无法完成支付验证，请使用其他浏览器或电脑支付。"
       ],
       "Some groups could not be deleted": [
         "无法删除部分群组"
@@ -152,9 +152,6 @@
       "A group with this name already exists": [
         "已存在同名群组"
       ],
-      "File has no contents to preview": [
-        "文件没有内容可预览"
-      ],
       "Incorrect mailbox password. Please try again": [
         "邮箱密码错误，请重试"
       ],
@@ -175,6 +172,15 @@
       ],
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "发生错误，请${ refresh }后重试。若仍出现此错误，请联系我们的${ supportTeam }。"
+      ],
+      "We were unable to connect to your service provider.": [
+        "我们无法连接到您的服务提供商。"
+      ],
+      "Please try to reauthenticate and make sure the permissions are set correctly.": [
+        "请尝试重新验证并确保权限正确。"
+      ],
+      "File has no contents to preview": [
+        "文件没有内容可预览"
       ],
       "Process aborted": [
         "操作已中止"
@@ -235,12 +241,6 @@
       ],
       "Invalid code": [
         "无效代码"
-      ],
-      "We were unable to connect to your service provider.": [
-        "我们无法连接到您的服务提供商。"
-      ],
-      "Please try to reauthenticate and make sure the permissions are set correctly.": [
-        "请尝试重新验证并确保权限正确。"
       ],
       "Empty condition": [
         "条件为空"
@@ -560,6 +560,9 @@
       "Learn more": [
         "了解详情"
       ],
+      "Loading": [
+        "加载中"
+      ],
       "Insert image": [
         "插入图片"
       ],
@@ -605,9 +608,6 @@
       "Change your default in settings": [
         ""
       ],
-      "Default": [
-        ""
-      ],
       "Text color": [
         "文本颜色"
       ],
@@ -637,9 +637,6 @@
       ],
       "Plain text": [
         "纯文本"
-      ],
-      "Loading": [
-        "加载中"
       ],
       "Drop the file here to upload": [
         "请将文件拖拽至此处进行上传"
@@ -761,24 +758,6 @@
       "${ addressCount } email address": [
         "${ addressCount } 个邮箱地址"
       ],
-      "Unsupported file": [
-        "不支持文件"
-      ],
-      "No preview available": [
-        "没有可用的预览"
-      ],
-      "Preview": [
-        "预览"
-      ],
-      "Loading preview": [
-        "正在载入预览"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "您目前使用的浏览器不支持查看 PDF 文件，请下载后打开。"
-      ],
-      "of": [
-        "，共"
-      ],
       "here": [
         "此处"
       ],
@@ -817,6 +796,57 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "若您创建账户存在困难，请提交注册申请，我们将在一个工作日内回复。"
+      ],
+      "support team": [
+        "客服团队"
+      ],
+      "Import contacts": [
+        "导入联系人"
+      ],
+      "Your contacts are being imported from": [
+        "您的联系人将从"
+      ],
+      "to": [
+        "导入至"
+      ],
+      "Your import has started!": [
+        "导入已开始！"
+      ],
+      "We will notify you once your import is finished.": [
+        "导入完成后将会通知您。"
+      ],
+      "Large imports can take several days to complete.": [
+        "大批量的导入可能需要几天才能完成。"
+      ],
+      "You can continue using Proton services as usual.": [
+        "期间您可以继续正常使用 Proton 服务。"
+      ],
+      "Your import will not be processed.": [
+        "此次导入将不会进行。"
+      ],
+      "Screenshot(s) attached": [
+        "已添加截图"
+      ],
+      "Refreshing the page or ${ link } will automatically resolve most issues.": [
+        "大多数问题都能通过刷新页面或${ link }来解决。"
+      ],
+      "Unsupported file": [
+        "不支持文件"
+      ],
+      "No preview available": [
+        "没有可用的预览"
+      ],
+      "Preview": [
+        "预览"
+      ],
+      "Loading preview": [
+        "正在载入预览"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "您目前使用的浏览器不支持查看 PDF 文件，请下载后打开。"
+      ],
+      "of": [
+        "，共"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "无论您是否开启快捷键，一些基本的导航和操作始终可用。"
@@ -877,15 +907,6 @@
       ],
       "You have disabled Beta Access. Click ${ refreshButton } to use the stable version of ${ appName }. The application will be reloaded.": [
         "您已经关闭了 \"测试版功能\"。请点击 ${ refreshButton } 以使用稳定版的 ${ appName }，应用将重新启动"
-      ],
-      "support team": [
-        "客服团队"
-      ],
-      "Screenshot(s) attached": [
-        "已添加截图"
-      ],
-      "Refreshing the page or ${ link } will automatically resolve most issues.": [
-        "大多数问题都能通过刷新页面或${ link }来解决。"
       ],
       "Since you're a loyal user, your account has additional features enabled.": [
         "作为 Proton 忠实用户，您拥有以下特权。"
@@ -1123,30 +1144,6 @@
       ],
       "Expired": [
         "已过期"
-      ],
-      "Import contacts": [
-        "导入联系人"
-      ],
-      "Your contacts are being imported from": [
-        "您的联系人将从"
-      ],
-      "to": [
-        "导入至"
-      ],
-      "Your import has started!": [
-        "导入已开始！"
-      ],
-      "We will notify you once your import is finished.": [
-        "导入完成后将会通知您。"
-      ],
-      "Large imports can take several days to complete.": [
-        "大批量的导入可能需要几天才能完成。"
-      ],
-      "You can continue using Proton services as usual.": [
-        "期间您可以继续正常使用 Proton 服务。"
-      ],
-      "Your import will not be processed.": [
-        "此次导入将不会进行。"
       ],
       "Inherited from parent folder": [
         "继承自母文件夹"
@@ -1673,23 +1670,29 @@
       "Download our mobile application from your favorite app store to communicate securely on-the-go.": [
         "从应用商店下载我们的移动应用即可随时随地安全通信。"
       ],
-      "${ count } conversation": [
-        "${ count } 条会话"
+      "You selected **${ count } conversation** from this folder": [
+        ""
       ],
-      "${ count } message": [
-        "${ count } 封邮件"
+      "You selected **${ count } message** from this folder": [
+        ""
       ],
-      "You selected ${ countOfConversationOrMessage } from this folder": [
-        "您在此文件夹中选择了 ${ countOfConversationOrMessage }"
+      "You have **${ count } conversation** stored in this folder": [
+        ""
       ],
-      "You have ${ countOfConversationOrMessage } stored in this folder": [
-        "此文件夹中有 ${ countOfConversationOrMessage }"
+      "You have **${ count } message** stored in this folder": [
+        ""
       ],
-      "You selected ${ countOfConversationOrMessage } with this label": [
-        "已选择带此标签的 ${ countOfConversationOrMessage }"
+      "You selected **${ count } conversation** with this label": [
+        ""
       ],
-      "You have ${ countOfConversationOrMessage } tagged with this label": [
-        "共 ${ countOfConversationOrMessage }带有此标签"
+      "You selected **${ count } message** with this label": [
+        ""
+      ],
+      "You have **${ count } conversation** tagged with this label": [
+        ""
+      ],
+      "You have **${ count } message** tagged with this label": [
+        ""
       ],
       "Using your mobile device, scan this QR-Code or visit ${ link }.": [
         "使用移动设备扫描此二维码或打开 ${ link }。"
@@ -2809,27 +2812,6 @@
       "Next": [
         "继续"
       ],
-      "Details": [
-        "详细信息"
-      ],
-      "Share via link": [
-        "通过链接分享"
-      ],
-      "Sharing options": [
-        "共享选项"
-      ],
-      "Zoom out": [
-        "缩小"
-      ],
-      "Reset zoom": [
-        "重置缩放"
-      ],
-      "Zoom in": [
-        "放大"
-      ],
-      "Previous": [
-        "前一页"
-      ],
       "Log in": [
         "登录"
       ],
@@ -2857,6 +2839,57 @@
       "Edit phone number": [
         "编辑手机号码"
       ],
+      "Use ${ label } theme": [
+        "使用 ${ label } 主题"
+      ],
+      "OK": [
+        "确定"
+      ],
+      "Continue import": [
+        "继续导入"
+      ],
+      "Discard": [
+        "放弃"
+      ],
+      "Reconnect": [
+        "重新连接"
+      ],
+      "Start import": [
+        "开始导入"
+      ],
+      "Clear": [
+        "清除"
+      ],
+      "Add screenshot(s)": [
+        "添加屏幕截图"
+      ],
+      "Hide info": [
+        "隐藏信息"
+      ],
+      "Show info": [
+        "显示信息"
+      ],
+      "Details": [
+        "详细信息"
+      ],
+      "Share via link": [
+        "通过链接分享"
+      ],
+      "Sharing options": [
+        "共享选项"
+      ],
+      "Zoom out": [
+        "缩小"
+      ],
+      "Reset zoom": [
+        "重置缩放"
+      ],
+      "Zoom in": [
+        "放大"
+      ],
+      "Previous": [
+        "前一页"
+      ],
       "Get started": [
         "入门"
       ],
@@ -2868,12 +2901,6 @@
       ],
       "Back": [
         "上一步"
-      ],
-      "Use ${ label } theme": [
-        "使用 ${ label } 主题"
-      ],
-      "OK": [
-        "确定"
       ],
       "Copy to clipboard": [
         "复制到剪贴板"
@@ -2898,9 +2925,6 @@
       ],
       "Search": [
         "搜索"
-      ],
-      "Clear": [
-        "清除"
       ],
       "${ BRAND_NAME } introduction": [
         "${ BRAND_NAME } 简介"
@@ -2946,15 +2970,6 @@
       ],
       "Composer size": [
         "编辑窗大小"
-      ],
-      "Add screenshot(s)": [
-        "添加屏幕截图"
-      ],
-      "Hide info": [
-        "隐藏信息"
-      ],
-      "Show info": [
-        "显示信息"
       ],
       "Remove bonuses": [
         "放弃特权"
@@ -3003,18 +3018,6 @@
       ],
       "Increase": [
         "增加"
-      ],
-      "Continue import": [
-        "继续导入"
-      ],
-      "Discard": [
-        "放弃"
-      ],
-      "Reconnect": [
-        "重新连接"
-      ],
-      "Start import": [
-        "开始导入"
       ],
       "Preview": [
         "预览"
@@ -3552,6 +3555,15 @@
       "Select a theme": [
         "选择主题"
       ],
+      "Start import process": [
+        "开始导入过程"
+      ],
+      "Import in progress": [
+        "导入进行中"
+      ],
+      "Report a problem": [
+        "反馈问题"
+      ],
       "${ appName } Keyboard Shortcuts": [
         "${ appName } 快捷键"
       ],
@@ -3572,9 +3584,6 @@
       ],
       "Open settings menu": [
         "打开设置菜单"
-      ],
-      "Report a problem": [
-        "反馈问题"
       ],
       "Confirm loss of Proton bonuses": [
         "确定放弃 Proton 特权"
@@ -3665,12 +3674,6 @@
       ],
       "${ appName } customization": [
         "自定义 ${ appName }"
-      ],
-      "Start import process": [
-        "开始导入过程"
-      ],
-      "Import in progress": [
-        "导入进行中"
       ],
       "Beta Access": [
         "测试版功能"
@@ -3902,6 +3905,9 @@
       "Request an invite": [
         "请求邀请"
       ],
+      "clearing your browser cache": [
+        "清除浏览器缓存"
+      ],
       "Pay invoice": [
         "前去支付"
       ],
@@ -3913,9 +3919,6 @@
       ],
       "Go to subscription plans": [
         "转至订阅计划"
-      ],
-      "clearing your browser cache": [
-        "清除浏览器缓存"
       ],
       "click here": [
         "请单击此处"
@@ -4150,26 +4153,11 @@
       "Enter the 6-digit code": [
         "请输入 6 位验证码"
       ],
-      "Display name": [
-        "对外名称"
+      "From: ${ fromEmailAddress }": [
+        "来自: ${ fromEmailAddress }"
       ],
-      "Keyboard shortcuts": [
-        "快捷键"
-      ],
-      "Select how your list of messages looks like by default.": [
-        "请选择收件箱列表的默认外观"
-      ],
-      "Select how your mailbox looks like by default.": [
-        "请选择邮箱的默认外观"
-      ],
-      "Select how your composer opens by default.": [
-        "请选择编辑窗的默认外观"
-      ],
-      "Recovery phrase": [
-        "恢复密语"
-      ],
-      "Your recovery phrase": [
-        "您的恢复密语"
+      "To: ${ toEmailAddress }": [
+        "导入到：${ toEmailAddress }"
       ],
       "Operating system": [
         "操作系统"
@@ -4194,6 +4182,27 @@
       ],
       "Browser version": [
         "浏览器版本"
+      ],
+      "Display name": [
+        "对外名称"
+      ],
+      "Keyboard shortcuts": [
+        "快捷键"
+      ],
+      "Select how your list of messages looks like by default.": [
+        "请选择收件箱列表的默认外观"
+      ],
+      "Select how your mailbox looks like by default.": [
+        "请选择邮箱的默认外观"
+      ],
+      "Select how your composer opens by default.": [
+        "请选择编辑窗的默认外观"
+      ],
+      "Recovery phrase": [
+        "恢复密语"
+      ],
+      "Your recovery phrase": [
+        "您的恢复密语"
       ],
       "Name on card": [
         "持卡人姓名"
@@ -4242,12 +4251,6 @@
       ],
       "Payer": [
         "付款人"
-      ],
-      "From: ${ fromEmailAddress }": [
-        "来自: ${ fromEmailAddress }"
-      ],
-      "To: ${ toEmailAddress }": [
-        "导入到：${ toEmailAddress }"
       ],
       "Enable Beta Access": [
         "启用测试版功能"
@@ -4500,9 +4503,6 @@
       "Mailbox password": [
         "邮箱密码"
       ],
-      "e.g. Julia Smith": [
-        "例如：Julia Smith"
-      ],
       "OS name": [
         "操作系统名称"
       ],
@@ -4523,6 +4523,9 @@
       ],
       "Browser version": [
         "浏览器版本"
+      ],
+      "e.g. Julia Smith": [
+        "例如：Julia Smith"
       ],
       "ZIP": [
         "邮编"
@@ -4601,6 +4604,16 @@
     "PGP key encryption warning": {
       "Key cannot be used for encryption": [
         "此密钥不能用于加密"
+      ]
+    },
+    "Font Face Default": {
+      "Default": [
+        ""
+      ]
+    },
+    "Font Size Default": {
+      "Default": [
+        ""
       ]
     },
     "Storage": {
@@ -4734,8 +4747,8 @@
       "Contacts could not be merged": [
         "无法合并联系人"
       ],
-      "Your local date & time settings seem to be out of sync.": [
-        "您的本地日期和时间设置似乎不同步。"
+      "Are you sure you want to discard your import?": [
+        "您确定要放弃导入吗？"
       ],
       "Live chat is a premium feature available only to those with paid ProtonVPN plans. Please open a ticket instead.": [
         ""
@@ -4746,11 +4759,11 @@
       "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
         "反馈内容不会经过端对端加密，请勿发送敏感信息。"
       ],
+      "Your local date & time settings seem to be out of sync.": [
+        "您的本地日期和时间设置似乎不同步。"
+      ],
       "Please note that by choosing this payment method, your account cannot be upgraded immediately. We will update your account once the payment is cleared.": [
         "请注意，使用此方式支付不能立即完成账户升级，支付确认过后我们会马上为您升级账户。"
-      ],
-      "Are you sure you want to discard your import?": [
-        "您确定要放弃导入吗？"
       ],
       "The attachment's signature failed verification.\nYou can still download this attachment but it might have been tampered with.": [
         "该附件的签名验证失败。\n你仍然可以下载这个附件，但它可能被篡改了。"
@@ -4790,14 +4803,14 @@
       "Verification successful": [
         "验证成功"
       ],
+      "Bug reported": [
+        "问题已反馈"
+      ],
       "Keyboard shortcuts preferences updated": [
         "键盘快捷键设置已更新"
       ],
       "Preference saved": [
         "设置已生效"
-      ],
-      "Bug reported": [
-        "问题已反馈"
       ],
       "You have successfully unsubscribed": [
         "退订成功"
@@ -5248,11 +5261,6 @@
         "${ totalImported }/${ totalToImport } 联系人已加密并添加到您的联系人列表"
       ]
     },
-    "Select files": {
-      "Upload": [
-        "上传"
-      ]
-    },
     "Delinquent modal title": {
       "Overdue invoice": [
         "逾期账单"
@@ -5275,78 +5283,12 @@
         "没有可用的验证方法"
       ]
     },
-    "Onboarding Proton": {
-      "This is what people will see when you send them an email, invite them to an event, or share a file with them.": [
-        "这是当您向他人发送电子邮件、邀请他人参加活动或与之共享文件时对方会看到的内容。"
-      ],
-      "Choose a display name": [
-        "选择显示名称"
-      ],
-      "Select a theme": [
-        "选择主题"
-      ],
-      "You can change this anytime in your settings.": [
-        "您可以随时在设置中更改。"
-      ],
-      "Discover all Proton services": [
-        "探索所有 Proton 系列服务"
-      ],
-      "Use the app selector in the top left to access other Proton services, including VPN, Calendar and Drive.": [
-        "使用左上角的应用选择器访问其他 Proton 服务，包括 VPN, 日历和云盘。"
-      ],
-      "Welcome to Proton": [
-        "欢迎使用 Proton"
-      ],
-      "Our mission is to build an internet where you are in control of your data and your privacy. We have recently updated Proton - welcome to the secure internet.": [
-        "我们的宗旨是建立一个由您来管控您自己的数据和隐私的网络。我们最近更新了 Proton ―― 畅享安全的互联网吧！"
-      ],
-      "Set up your organization": [
-        "填写机构信息"
-      ],
-      "Configure your organization, link your domain name, and create accounts to ensure all members of your organization are protected.": [
-        "配置您的机构信息、链接您的域名、创建账户以确保您机构的所有成员都受到保护。"
+    "Select files": {
+      "Upload": [
+        "上传"
       ]
     },
-    "Onboarding Beta": {
-      "Got it": [
-        "知道了"
-      ],
-      "Beta enabled": [
-        "已启用测试版"
-      ],
-      "To disable beta, open the settings dropdown menu and click on the “Beta Access” option.": [
-        "要禁用测试功能，请打开设置下拉菜单并单击“测试版功能”选项。"
-      ]
-    },
-    "Message display when a new app version is available": {
-      "A new version of ${ appName } is available. ${ reloadButton }.": [
-        "${ appName } 有新版本，请${ reloadButton }。"
-      ]
-    },
-    "Text": {
-      "Settings": [
-        "设置"
-      ]
-    },
-    "Enabled": {
-      "On": [
-        "在"
-      ]
-    },
-    "Disabled": {
-      "Off": [
-        "关"
-      ]
-    },
-    "Layout mode": {
-      "Column": [
-        "列"
-      ],
-      "Row": [
-        "行"
-      ]
-    },
-    "Density mode": {
+    "Label to change density": {
       "Comfortable": [
         "舒适"
       ],
@@ -5354,12 +5296,47 @@
         "紧凑"
       ]
     },
-    "Composer size": {
-      "Maximized": [
-        "满屏"
+    "Label to change view layout": {
+      "Column": [
+        "列"
       ],
+      "Row": [
+        "行"
+      ]
+    },
+    "Label to change composer mode": {
       "Normal": [
         "常规"
+      ],
+      "Maximized": [
+        "满屏"
+      ]
+    },
+    "Loading info": {
+      "Connecting to your contacts provider": [
+        "正在连接到您的联系人提供商"
+      ]
+    },
+    "Wizard step": {
+      "Authenticate": [
+        "验证账户"
+      ],
+      "Configure Import": [
+        "导入配置"
+      ],
+      "Import": [
+        "导入"
+      ]
+    },
+    "Confirm modal title": {
+      "Quit import?": [
+        "退出导入？"
+      ],
+      "Message saved to Drafts": [
+        "邮件已保存到草稿箱"
+      ],
+      "Edit and reschedule": [
+        "编辑并重新定时发送"
       ]
     },
     "Error notification in the bug report modal when the user upload file": {
@@ -5472,6 +5449,103 @@
     "Label, make it short please": {
       "Attach screenshot(s)": [
         "添加截图"
+      ]
+    },
+    "Onboarding Proton": {
+      "This is what people will see when you send them an email, invite them to an event, or share a file with them.": [
+        "这是当您向他人发送电子邮件、邀请他人参加活动或与之共享文件时对方会看到的内容。"
+      ],
+      "Choose a display name": [
+        "选择显示名称"
+      ],
+      "Select a theme": [
+        "选择主题"
+      ],
+      "You can change this anytime in your settings.": [
+        "您可以随时在设置中更改。"
+      ],
+      "Discover all Proton services": [
+        "探索所有 Proton 系列服务"
+      ],
+      "Use the app selector in the top left to access other Proton services, including VPN, Calendar and Drive.": [
+        "使用左上角的应用选择器访问其他 Proton 服务，包括 VPN, 日历和云盘。"
+      ],
+      "Welcome to Proton": [
+        "欢迎使用 Proton"
+      ],
+      "Our mission is to build an internet where you are in control of your data and your privacy. We have recently updated Proton - welcome to the secure internet.": [
+        "我们的宗旨是建立一个由您来管控您自己的数据和隐私的网络。我们最近更新了 Proton ―― 畅享安全的互联网吧！"
+      ],
+      "Set up your organization": [
+        "填写机构信息"
+      ],
+      "Configure your organization, link your domain name, and create accounts to ensure all members of your organization are protected.": [
+        "配置您的机构信息、链接您的域名、创建账户以确保您机构的所有成员都受到保护。"
+      ]
+    },
+    "Onboarding Beta": {
+      "Got it": [
+        "知道了"
+      ],
+      "Beta enabled": [
+        "已启用测试版"
+      ],
+      "To disable beta, open the settings dropdown menu and click on the “Beta Access” option.": [
+        "要禁用测试功能，请打开设置下拉菜单并单击“测试版功能”选项。"
+      ]
+    },
+    "Message display when a new app version is available": {
+      "A new version of ${ appName } is available. ${ reloadButton }.": [
+        "${ appName } 有新版本，请${ reloadButton }。"
+      ]
+    },
+    "Text": {
+      "Settings": [
+        "设置"
+      ]
+    },
+    "Early Access Enabled": {
+      "On": [
+        ""
+      ]
+    },
+    "Early Access Disabled": {
+      "Off": [
+        ""
+      ]
+    },
+    "Keyboard Shortcuts Enabled": {
+      "On": [
+        ""
+      ]
+    },
+    "Keyboard Shortcuts Disabled": {
+      "Off": [
+        ""
+      ]
+    },
+    "Layout mode": {
+      "Column": [
+        "列"
+      ],
+      "Row": [
+        "行"
+      ]
+    },
+    "Density mode": {
+      "Comfortable": [
+        "舒适"
+      ],
+      "Compact": [
+        "紧凑"
+      ]
+    },
+    "Composer size": {
+      "Maximized": [
+        "满屏"
+      ],
+      "Normal": [
+        "常规"
       ]
     },
     "Info for cash payment method": {
@@ -5908,57 +5982,6 @@
       ],
       "Bitcoin": [
         "比特币"
-      ]
-    },
-    "Label to change density": {
-      "Comfortable": [
-        "舒适"
-      ],
-      "Compact": [
-        "紧凑"
-      ]
-    },
-    "Label to change view layout": {
-      "Column": [
-        "列"
-      ],
-      "Row": [
-        "行"
-      ]
-    },
-    "Label to change composer mode": {
-      "Normal": [
-        "常规"
-      ],
-      "Maximized": [
-        "满屏"
-      ]
-    },
-    "Loading info": {
-      "Connecting to your contacts provider": [
-        "正在连接到您的联系人提供商"
-      ]
-    },
-    "Wizard step": {
-      "Authenticate": [
-        "验证账户"
-      ],
-      "Configure Import": [
-        "导入配置"
-      ],
-      "Import": [
-        "导入"
-      ]
-    },
-    "Confirm modal title": {
-      "Quit import?": [
-        "退出导入？"
-      ],
-      "Message saved to Drafts": [
-        "邮件已保存到草稿箱"
-      ],
-      "Edit and reschedule": [
-        "编辑并重新定时发送"
       ]
     },
     "Beta access description": {

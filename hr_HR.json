@@ -86,11 +86,11 @@
       "Calendar primary private key is not decrypted": [
         "Primarni, privatni ključ kalendara nije dešifriran"
       ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser": [
-        "Ova poruka može sadržavati URL poveznice koje trenutačni preglednik ne može ispravno otvoriti"
-      ],
       "Unknown error": [
         "Nepoznata pogreška"
+      ],
+      "This message may contain some link's URL that cannot be properly opened by your current browser": [
+        "Ova poruka može sadržavati URL poveznice koje trenutačni preglednik ne može ispravno otvoriti"
       ],
       "Authentication canceled.": [
         "Otkazana autentikacija."
@@ -104,14 +104,14 @@
       "Email address invalid": [
         "Adresa e-pošte nije valjana"
       ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "Preglednik koji koristite ne dopušta potpuno odobrenje plaćanja. Molimo koristite drugi preglednik ili se prijavite putem računala."
+      ],
       "The composer failed to load.": [
         "Neuspješno učitavanje prozora za novu poruku."
       ],
       "Please refresh the page.": [
         "Osvježite stranicu."
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "Preglednik koji koristite ne dopušta potpuno odobrenje plaćanja. Molimo koristite drugi preglednik ili se prijavite putem računala."
       ],
       "Some groups could not be deleted": [
         "Nije moguće brisanje nekih grupa"
@@ -156,9 +156,6 @@
       "A group with this name already exists": [
         "Grupa s ovim nazivom već postoji"
       ],
-      "File has no contents to preview": [
-        "Datoteka nema sadržaja za pregled"
-      ],
       "Incorrect mailbox password. Please try again": [
         "Pogrešna lozinka poštanskog pretinca. Pokušajte ponovno"
       ],
@@ -179,6 +176,15 @@
       ],
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "Nešto je pošlo po zlu. Molimo ${ refresh } kako biste nastavili. Ako i dalje vidite ovu poruku o pogrešci, kontaktirajte naš ${ supportTeam }."
+      ],
+      "We were unable to connect to your service provider.": [
+        "Neuspješno povezivanje s vašim davateljem usluga."
+      ],
+      "Please try to reauthenticate and make sure the permissions are set correctly.": [
+        "Pokušajte ponovno potvrditi identitet i provjeriti jesu li dopuštenja ispravno postavljena."
+      ],
+      "File has no contents to preview": [
+        "Datoteka nema sadržaja za pregled"
       ],
       "Process aborted": [
         "Proces je prekinut"
@@ -239,12 +245,6 @@
       ],
       "Invalid code": [
         "Nevažeći kôd"
-      ],
-      "We were unable to connect to your service provider.": [
-        "Neuspješno povezivanje s vašim davateljem usluga."
-      ],
-      "Please try to reauthenticate and make sure the permissions are set correctly.": [
-        "Pokušajte ponovno potvrditi identitet i provjeriti jesu li dopuštenja ispravno postavljena."
       ],
       "Empty condition": [
         "Prazan uvjet"
@@ -576,6 +576,9 @@
       "Learn more": [
         "Saznajte više"
       ],
+      "Loading": [
+        "Učitavanje"
+      ],
       "Insert image": [
         "Umetni sliku"
       ],
@@ -621,9 +624,6 @@
       "Change your default in settings": [
         ""
       ],
-      "Default": [
-        ""
-      ],
       "Text color": [
         "Boja slova"
       ],
@@ -653,9 +653,6 @@
       ],
       "Plain text": [
         "Običan tekst"
-      ],
-      "Loading": [
-        "Učitavanje"
       ],
       "Drop the file here to upload": [
         "Ispustite datoteku ovdje za prijenos"
@@ -787,24 +784,6 @@
         "${ addressCount } adrese e-pošte",
         "${ addressCount } adresa e-pošte"
       ],
-      "Unsupported file": [
-        "Nepodržana datoteka"
-      ],
-      "No preview available": [
-        "Pregled nije dostupan"
-      ],
-      "Preview": [
-        "Pregled"
-      ],
-      "Loading preview": [
-        "Učitavanje pregleda"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "Ovaj preglednik ne podržava pregled PDF dokumenata. Preuzmite datoteku."
-      ],
-      "of": [
-        "od"
-      ],
       "here": [
         "ovdje"
       ],
@@ -843,6 +822,57 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Ako imate poteškoća s otvaranjem računa, zatražite pozivnicu i odgovorit ćemo vam u roku jednog radnog dana."
+      ],
+      "support team": [
+        "tim za podršku"
+      ],
+      "Import contacts": [
+        "Uvezi kontakte"
+      ],
+      "Your contacts are being imported from": [
+        "Vaši kontakti se uvoze iz"
+      ],
+      "to": [
+        "za"
+      ],
+      "Your import has started!": [
+        "Vaš uvoz je započeo!"
+      ],
+      "We will notify you once your import is finished.": [
+        "Obavijestiti ćemo vas nakon završetka uvoza."
+      ],
+      "Large imports can take several days to complete.": [
+        "Veći uvozi mogu potrajati i do nekoliko dana."
+      ],
+      "You can continue using Proton services as usual.": [
+        "Možete nastaviti koristiti Proton usluge kao i obično."
+      ],
+      "Your import will not be processed.": [
+        "Vaš uvoz nije moguće obraditi."
+      ],
+      "Screenshot(s) attached": [
+        "Snimka(e) zaslona su pridodane"
+      ],
+      "Refreshing the page or ${ link } will automatically resolve most issues.": [
+        "Osvježavanje stranice ili ${ link } će automatski riješiti većinu problema."
+      ],
+      "Unsupported file": [
+        "Nepodržana datoteka"
+      ],
+      "No preview available": [
+        "Pregled nije dostupan"
+      ],
+      "Preview": [
+        "Pregled"
+      ],
+      "Loading preview": [
+        "Učitavanje pregleda"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "Ovaj preglednik ne podržava pregled PDF dokumenata. Preuzmite datoteku."
+      ],
+      "of": [
+        "od"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "Osnovna navigacija i radnje ostaju dostupni bez obzira jesu li tipkovni prečaci aktivni ili ne u postavkama."
@@ -903,15 +933,6 @@
       ],
       "You have disabled Beta Access. Click ${ refreshButton } to use the stable version of ${ appName }. The application will be reloaded.": [
         "Onemogućili ste Beta pristup. Kliknite ${ refreshButton } za korištenje stabilne verzije ${ appName }. Aplikacija će se ponovno učitati."
-      ],
-      "support team": [
-        "tim za podršku"
-      ],
-      "Screenshot(s) attached": [
-        "Snimka(e) zaslona su pridodane"
-      ],
-      "Refreshing the page or ${ link } will automatically resolve most issues.": [
-        "Osvježavanje stranice ili ${ link } će automatski riješiti većinu problema."
       ],
       "Since you're a loyal user, your account has additional features enabled.": [
         "Budući da ste odani korisnik, na vašem su računu omogućene dodatne značajke."
@@ -1153,30 +1174,6 @@
       ],
       "Expired": [
         "Isteklo"
-      ],
-      "Import contacts": [
-        "Uvezi kontakte"
-      ],
-      "Your contacts are being imported from": [
-        "Vaši kontakti se uvoze iz"
-      ],
-      "to": [
-        "za"
-      ],
-      "Your import has started!": [
-        "Vaš uvoz je započeo!"
-      ],
-      "We will notify you once your import is finished.": [
-        "Obavijestiti ćemo vas nakon završetka uvoza."
-      ],
-      "Large imports can take several days to complete.": [
-        "Veći uvozi mogu potrajati i do nekoliko dana."
-      ],
-      "You can continue using Proton services as usual.": [
-        "Možete nastaviti koristiti Proton usluge kao i obično."
-      ],
-      "Your import will not be processed.": [
-        "Vaš uvoz nije moguće obraditi."
       ],
       "Inherited from parent folder": [
         "Nasljedno iz roditeljske mape"
@@ -1751,27 +1748,45 @@
       "Download our mobile application from your favorite app store to communicate securely on-the-go.": [
         "Preuzmite našu mobilnu aplikaciju iz vaše omiljene trgovine aplikacija da biste sigurno komunicirali u pokretu."
       ],
-      "${ count } conversation": [
-        "${ count } razgovor",
-        "${ count } razgovora",
-        "${ count } razgovora"
+      "You selected **${ count } conversation** from this folder": [
+        "",
+        "",
+        ""
       ],
-      "${ count } message": [
-        "${ count } poruka",
-        "${ count } poruke",
-        "${ count } poruka"
+      "You selected **${ count } message** from this folder": [
+        "",
+        "",
+        ""
       ],
-      "You selected ${ countOfConversationOrMessage } from this folder": [
-        "Odabrali ste ${ countOfConversationOrMessage } iz ove mape"
+      "You have **${ count } conversation** stored in this folder": [
+        "",
+        "",
+        ""
       ],
-      "You have ${ countOfConversationOrMessage } stored in this folder": [
-        "Imate ${ countOfConversationOrMessage } spremljenih u ovoj mapi"
+      "You have **${ count } message** stored in this folder": [
+        "",
+        "",
+        ""
       ],
-      "You selected ${ countOfConversationOrMessage } with this label": [
-        "Odabrali ste ${ countOfConversationOrMessage } s ovom oznakom"
+      "You selected **${ count } conversation** with this label": [
+        "",
+        "",
+        ""
       ],
-      "You have ${ countOfConversationOrMessage } tagged with this label": [
-        "Imate ${ countOfConversationOrMessage } označenih s ovom oznakom"
+      "You selected **${ count } message** with this label": [
+        "",
+        "",
+        ""
+      ],
+      "You have **${ count } conversation** tagged with this label": [
+        "",
+        "",
+        ""
+      ],
+      "You have **${ count } message** tagged with this label": [
+        "",
+        "",
+        ""
       ],
       "Using your mobile device, scan this QR-Code or visit ${ link }.": [
         "Pomoću mobilnog uređaja skenirajte ovaj QR kôd ili posjetite ${ link }."
@@ -2971,27 +2986,6 @@
       "Next": [
         "Sljedeće"
       ],
-      "Details": [
-        "Pojedinosti"
-      ],
-      "Share via link": [
-        "Podijeli putem poveznice"
-      ],
-      "Sharing options": [
-        "Opcije dijeljenja"
-      ],
-      "Zoom out": [
-        "Smanji"
-      ],
-      "Reset zoom": [
-        "Poništi zumiranje"
-      ],
-      "Zoom in": [
-        "Povećaj"
-      ],
-      "Previous": [
-        "Prethodno"
-      ],
       "Log in": [
         "Prijavite se"
       ],
@@ -3019,6 +3013,57 @@
       "Edit phone number": [
         "Uredi broj telefona"
       ],
+      "Use ${ label } theme": [
+        "Koristi ${ label } temu"
+      ],
+      "OK": [
+        "U redu"
+      ],
+      "Continue import": [
+        "Nastavi uvoz"
+      ],
+      "Discard": [
+        "Odbaci"
+      ],
+      "Reconnect": [
+        "Ponovno poveži"
+      ],
+      "Start import": [
+        "Započni uvoz"
+      ],
+      "Clear": [
+        "Očisti"
+      ],
+      "Add screenshot(s)": [
+        "Dodaj snimku(e) zaslona"
+      ],
+      "Hide info": [
+        "Sakrij informacije"
+      ],
+      "Show info": [
+        "Prikaži informacije"
+      ],
+      "Details": [
+        "Pojedinosti"
+      ],
+      "Share via link": [
+        "Podijeli putem poveznice"
+      ],
+      "Sharing options": [
+        "Opcije dijeljenja"
+      ],
+      "Zoom out": [
+        "Smanji"
+      ],
+      "Reset zoom": [
+        "Poništi zumiranje"
+      ],
+      "Zoom in": [
+        "Povećaj"
+      ],
+      "Previous": [
+        "Prethodno"
+      ],
       "Get started": [
         "Započnite"
       ],
@@ -3030,12 +3075,6 @@
       ],
       "Back": [
         "Natrag"
-      ],
-      "Use ${ label } theme": [
-        "Koristi ${ label } temu"
-      ],
-      "OK": [
-        "U redu"
       ],
       "Copy to clipboard": [
         ""
@@ -3060,9 +3099,6 @@
       ],
       "Search": [
         "Pretraga"
-      ],
-      "Clear": [
-        "Očisti"
       ],
       "${ BRAND_NAME } introduction": [
         "${ BRAND_NAME } predstavljanje"
@@ -3108,15 +3144,6 @@
       ],
       "Composer size": [
         ""
-      ],
-      "Add screenshot(s)": [
-        "Dodaj snimku(e) zaslona"
-      ],
-      "Hide info": [
-        "Sakrij informacije"
-      ],
-      "Show info": [
-        "Prikaži informacije"
       ],
       "Remove bonuses": [
         "Ukloni bonuse"
@@ -3165,18 +3192,6 @@
       ],
       "Increase": [
         "Povećaj"
-      ],
-      "Continue import": [
-        "Nastavi uvoz"
-      ],
-      "Discard": [
-        "Odbaci"
-      ],
-      "Reconnect": [
-        "Ponovno poveži"
-      ],
-      "Start import": [
-        "Započni uvoz"
       ],
       "Preview": [
         "Pregled"
@@ -3724,6 +3739,15 @@
       "Select a theme": [
         "Odaberi temu"
       ],
+      "Start import process": [
+        "Započni uvoz"
+      ],
+      "Import in progress": [
+        "Uvoz u tijeku"
+      ],
+      "Report a problem": [
+        "Prijavi problem"
+      ],
       "${ appName } Keyboard Shortcuts": [
         "${ appName } tipkovni prečaci"
       ],
@@ -3744,9 +3768,6 @@
       ],
       "Open settings menu": [
         "Otvori izbornik postavki"
-      ],
-      "Report a problem": [
-        "Prijavi problem"
       ],
       "Confirm loss of Proton bonuses": [
         "Potvrdite gubitak Proton bonusa"
@@ -3837,12 +3858,6 @@
       ],
       "${ appName } customization": [
         "${ appName } prilagođavanje"
-      ],
-      "Start import process": [
-        "Započni uvoz"
-      ],
-      "Import in progress": [
-        "Uvoz u tijeku"
       ],
       "Beta Access": [
         "Beta pristup"
@@ -4082,6 +4097,9 @@
       "Request an invite": [
         "Zatraži pozivnicu"
       ],
+      "clearing your browser cache": [
+        "čišćenje predmemorije preglednika"
+      ],
       "Pay invoice": [
         "Plati račun"
       ],
@@ -4093,9 +4111,6 @@
       ],
       "Go to subscription plans": [
         "Idi na planove pretplate"
-      ],
-      "clearing your browser cache": [
-        "čišćenje predmemorije preglednika"
       ],
       "click here": [
         "kliknite ovdje"
@@ -4330,26 +4345,11 @@
       "Enter the 6-digit code": [
         "Unesite 6-znamenkasti kôd"
       ],
-      "Display name": [
-        "Zaslonski naziv"
+      "From: ${ fromEmailAddress }": [
+        "Od: ${ fromEmailAddress }"
       ],
-      "Keyboard shortcuts": [
-        "Tipkovni prečaci"
-      ],
-      "Select how your list of messages looks like by default.": [
-        "Odaberite kako će vaš popis poruka izgledati po zadanom."
-      ],
-      "Select how your mailbox looks like by default.": [
-        "Odaberite kako će se vaš prozor za nove poruke otvarati po zadanom."
-      ],
-      "Select how your composer opens by default.": [
-        "Odaberite kako će se vaš prozor za nove poruke otvarati po zadanom."
-      ],
-      "Recovery phrase": [
-        ""
-      ],
-      "Your recovery phrase": [
-        ""
+      "To: ${ toEmailAddress }": [
+        "Za: ${ toEmailAddress }"
       ],
       "Operating system": [
         "Operativni sustav"
@@ -4374,6 +4374,27 @@
       ],
       "Browser version": [
         "Verzija preglednika"
+      ],
+      "Display name": [
+        "Zaslonski naziv"
+      ],
+      "Keyboard shortcuts": [
+        "Tipkovni prečaci"
+      ],
+      "Select how your list of messages looks like by default.": [
+        "Odaberite kako će vaš popis poruka izgledati po zadanom."
+      ],
+      "Select how your mailbox looks like by default.": [
+        "Odaberite kako će se vaš prozor za nove poruke otvarati po zadanom."
+      ],
+      "Select how your composer opens by default.": [
+        "Odaberite kako će se vaš prozor za nove poruke otvarati po zadanom."
+      ],
+      "Recovery phrase": [
+        ""
+      ],
+      "Your recovery phrase": [
+        ""
       ],
       "Name on card": [
         "Ime na kartici"
@@ -4422,12 +4443,6 @@
       ],
       "Payer": [
         "Platitelj"
-      ],
-      "From: ${ fromEmailAddress }": [
-        "Od: ${ fromEmailAddress }"
-      ],
-      "To: ${ toEmailAddress }": [
-        "Za: ${ toEmailAddress }"
       ],
       "Enable Beta Access": [
         "Omogući Beta pristup"
@@ -4680,9 +4695,6 @@
       "Mailbox password": [
         "Lozinka sandučića e-pošte"
       ],
-      "e.g. Julia Smith": [
-        "npr. Ana Horvat"
-      ],
       "OS name": [
         "Naziv OS-a"
       ],
@@ -4703,6 +4715,9 @@
       ],
       "Browser version": [
         "Verzija preglednika"
+      ],
+      "e.g. Julia Smith": [
+        "npr. Ana Horvat"
       ],
       "ZIP": [
         "Poštanski broj"
@@ -4795,6 +4810,16 @@
     "PGP key encryption warning": {
       "Key cannot be used for encryption": [
         "Ključ se ne može koristiti za šifriranje"
+      ]
+    },
+    "Font Face Default": {
+      "Default": [
+        ""
+      ]
+    },
+    "Font Size Default": {
+      "Default": [
+        ""
       ]
     },
     "Storage": {
@@ -4932,8 +4957,8 @@
       "Contacts could not be merged": [
         "Nije bilo moguće spajanje kontakata"
       ],
-      "Your local date & time settings seem to be out of sync.": [
-        "Vaše lokalne postavke datuma i vremena nisu sinkronizirane."
+      "Are you sure you want to discard your import?": [
+        "Jeste li sigurni da želite odbaciti vaš uvoz?"
       ],
       "Live chat is a premium feature available only to those with paid ProtonVPN plans. Please open a ticket instead.": [
         ""
@@ -4944,11 +4969,11 @@
       "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
         "Izvještaji nisu end-to-end šifrirani. Molimo da ne šaljete nikakve osjetljive podatke."
       ],
+      "Your local date & time settings seem to be out of sync.": [
+        "Vaše lokalne postavke datuma i vremena nisu sinkronizirane."
+      ],
       "Please note that by choosing this payment method, your account cannot be upgraded immediately. We will update your account once the payment is cleared.": [
         "Imajte na umu da odabirom ovog načina plaćanja vaš račun se ne može odmah nadograditi. Ažurirati ćemo vaš račun nakon plaćanja."
-      ],
-      "Are you sure you want to discard your import?": [
-        "Jeste li sigurni da želite odbaciti vaš uvoz?"
       ],
       "The attachment's signature failed verification.\nYou can still download this attachment but it might have been tampered with.": [
         "Provjera potpisa privitka nije uspjela.\nI dalje možete preuzeti ovaj privitak, ali je možda bio ugrožen.",
@@ -4994,14 +5019,14 @@
       "Verification successful": [
         "Uspješna provjera"
       ],
+      "Bug reported": [
+        "Problem je prijavljen"
+      ],
       "Keyboard shortcuts preferences updated": [
         "Postavke tipkovnih prečaca su ažurirane"
       ],
       "Preference saved": [
         "Postavke su spremljene"
-      ],
-      "Bug reported": [
-        "Problem je prijavljen"
       ],
       "You have successfully unsubscribed": [
         "Uspješno ste poništili pretplatu"
@@ -5500,11 +5525,6 @@
         "${ totalImported }/${ totalToImport } kontakata šifrirano i dodano u vašu listu kontakata"
       ]
     },
-    "Select files": {
-      "Upload": [
-        "Učitaj"
-      ]
-    },
     "Delinquent modal title": {
       "Overdue invoice": [
         "Neplaćena faktura"
@@ -5527,78 +5547,12 @@
         "Nema dostupne metode za provjeru"
       ]
     },
-    "Onboarding Proton": {
-      "This is what people will see when you send them an email, invite them to an event, or share a file with them.": [
-        "Ovo će ljudi vidjeti kada im pošaljete e-poštu, pozovete ih na događaj ili podijelite datoteku s njima."
-      ],
-      "Choose a display name": [
-        "Odaberite zaslonsko ime"
-      ],
-      "Select a theme": [
-        "Odaberi temu"
-      ],
-      "You can change this anytime in your settings.": [
-        "Možete promijeniti bilo kada u vašim postavkama."
-      ],
-      "Discover all Proton services": [
-        "Otkrijte sve Proton usluge"
-      ],
-      "Use the app selector in the top left to access other Proton services, including VPN, Calendar and Drive.": [
-        "Koristite birač aplikacija u gornjem lijevom kutu za pristup ostalim Proton uslugama, uključujući VPN, Calendar i Drive."
-      ],
-      "Welcome to Proton": [
-        "Dobro došli u Proton"
-      ],
-      "Our mission is to build an internet where you are in control of your data and your privacy. We have recently updated Proton - welcome to the secure internet.": [
-        "Naša je misija izgraditi internet na kojem ćete kontrolirati svoje podatke i svoju privatnost. Nedavno smo ažurirali Proton - dobrodošli na sigurni internet."
-      ],
-      "Set up your organization": [
-        "Postavite vašu organizaciju"
-      ],
-      "Configure your organization, link your domain name, and create accounts to ensure all members of your organization are protected.": [
-        "Postavite vašu organizaciju, povežite naziv domene i stvorite račune kako biste osigurali zaštitu svih članova vaše organizacije."
+    "Select files": {
+      "Upload": [
+        "Učitaj"
       ]
     },
-    "Onboarding Beta": {
-      "Got it": [
-        "Shvaćam"
-      ],
-      "Beta enabled": [
-        "Beta je omogućena"
-      ],
-      "To disable beta, open the settings dropdown menu and click on the “Beta Access” option.": [
-        "Da biste onemogućili beta verziju, otvorite padajući izbornik s postavkama i kliknite na opciju \"Beta pristup\"."
-      ]
-    },
-    "Message display when a new app version is available": {
-      "A new version of ${ appName } is available. ${ reloadButton }.": [
-        "Nova verzija ${ appName } je dostupna. ${ reloadButton }."
-      ]
-    },
-    "Text": {
-      "Settings": [
-        "Postavke"
-      ]
-    },
-    "Enabled": {
-      "On": [
-        "Uključeno"
-      ]
-    },
-    "Disabled": {
-      "Off": [
-        "Isključeno"
-      ]
-    },
-    "Layout mode": {
-      "Column": [
-        "Stupac"
-      ],
-      "Row": [
-        "Redak"
-      ]
-    },
-    "Density mode": {
+    "Label to change density": {
       "Comfortable": [
         "Udobno"
       ],
@@ -5606,12 +5560,47 @@
         "Kompaktno"
       ]
     },
-    "Composer size": {
-      "Maximized": [
-        "Maksimizirano"
+    "Label to change view layout": {
+      "Column": [
+        "Stupac"
       ],
+      "Row": [
+        "Redak"
+      ]
+    },
+    "Label to change composer mode": {
       "Normal": [
         "Normalno"
+      ],
+      "Maximized": [
+        "Maksimizirano"
+      ]
+    },
+    "Loading info": {
+      "Connecting to your contacts provider": [
+        "Spajanje s vašim pružateljem kontakata"
+      ]
+    },
+    "Wizard step": {
+      "Authenticate": [
+        "Autenticiraj"
+      ],
+      "Configure Import": [
+        "Prilagodite uvoz"
+      ],
+      "Import": [
+        "Uvoz"
+      ]
+    },
+    "Confirm modal title": {
+      "Quit import?": [
+        "Zaustavi uvoz?"
+      ],
+      "Message saved to Drafts": [
+        "Poruka je spremljena u Skice"
+      ],
+      "Edit and reschedule": [
+        "Uredi i ponovno zakaži"
       ]
     },
     "Error notification in the bug report modal when the user upload file": {
@@ -5724,6 +5713,103 @@
     "Label, make it short please": {
       "Attach screenshot(s)": [
         "Dodajte snimku(e) zaslona"
+      ]
+    },
+    "Onboarding Proton": {
+      "This is what people will see when you send them an email, invite them to an event, or share a file with them.": [
+        "Ovo će ljudi vidjeti kada im pošaljete e-poštu, pozovete ih na događaj ili podijelite datoteku s njima."
+      ],
+      "Choose a display name": [
+        "Odaberite zaslonsko ime"
+      ],
+      "Select a theme": [
+        "Odaberi temu"
+      ],
+      "You can change this anytime in your settings.": [
+        "Možete promijeniti bilo kada u vašim postavkama."
+      ],
+      "Discover all Proton services": [
+        "Otkrijte sve Proton usluge"
+      ],
+      "Use the app selector in the top left to access other Proton services, including VPN, Calendar and Drive.": [
+        "Koristite birač aplikacija u gornjem lijevom kutu za pristup ostalim Proton uslugama, uključujući VPN, Calendar i Drive."
+      ],
+      "Welcome to Proton": [
+        "Dobro došli u Proton"
+      ],
+      "Our mission is to build an internet where you are in control of your data and your privacy. We have recently updated Proton - welcome to the secure internet.": [
+        "Naša je misija izgraditi internet na kojem ćete kontrolirati svoje podatke i svoju privatnost. Nedavno smo ažurirali Proton - dobrodošli na sigurni internet."
+      ],
+      "Set up your organization": [
+        "Postavite vašu organizaciju"
+      ],
+      "Configure your organization, link your domain name, and create accounts to ensure all members of your organization are protected.": [
+        "Postavite vašu organizaciju, povežite naziv domene i stvorite račune kako biste osigurali zaštitu svih članova vaše organizacije."
+      ]
+    },
+    "Onboarding Beta": {
+      "Got it": [
+        "Shvaćam"
+      ],
+      "Beta enabled": [
+        "Beta je omogućena"
+      ],
+      "To disable beta, open the settings dropdown menu and click on the “Beta Access” option.": [
+        "Da biste onemogućili beta verziju, otvorite padajući izbornik s postavkama i kliknite na opciju \"Beta pristup\"."
+      ]
+    },
+    "Message display when a new app version is available": {
+      "A new version of ${ appName } is available. ${ reloadButton }.": [
+        "Nova verzija ${ appName } je dostupna. ${ reloadButton }."
+      ]
+    },
+    "Text": {
+      "Settings": [
+        "Postavke"
+      ]
+    },
+    "Early Access Enabled": {
+      "On": [
+        ""
+      ]
+    },
+    "Early Access Disabled": {
+      "Off": [
+        ""
+      ]
+    },
+    "Keyboard Shortcuts Enabled": {
+      "On": [
+        ""
+      ]
+    },
+    "Keyboard Shortcuts Disabled": {
+      "Off": [
+        ""
+      ]
+    },
+    "Layout mode": {
+      "Column": [
+        "Stupac"
+      ],
+      "Row": [
+        "Redak"
+      ]
+    },
+    "Density mode": {
+      "Comfortable": [
+        "Udobno"
+      ],
+      "Compact": [
+        "Kompaktno"
+      ]
+    },
+    "Composer size": {
+      "Maximized": [
+        "Maksimizirano"
+      ],
+      "Normal": [
+        "Normalno"
       ]
     },
     "Info for cash payment method": {
@@ -6182,57 +6268,6 @@
       ],
       "Bitcoin": [
         "Bitcoin"
-      ]
-    },
-    "Label to change density": {
-      "Comfortable": [
-        "Udobno"
-      ],
-      "Compact": [
-        "Kompaktno"
-      ]
-    },
-    "Label to change view layout": {
-      "Column": [
-        "Stupac"
-      ],
-      "Row": [
-        "Redak"
-      ]
-    },
-    "Label to change composer mode": {
-      "Normal": [
-        "Normalno"
-      ],
-      "Maximized": [
-        "Maksimizirano"
-      ]
-    },
-    "Loading info": {
-      "Connecting to your contacts provider": [
-        "Spajanje s vašim pružateljem kontakata"
-      ]
-    },
-    "Wizard step": {
-      "Authenticate": [
-        "Autenticiraj"
-      ],
-      "Configure Import": [
-        "Prilagodite uvoz"
-      ],
-      "Import": [
-        "Uvoz"
-      ]
-    },
-    "Confirm modal title": {
-      "Quit import?": [
-        "Zaustavi uvoz?"
-      ],
-      "Message saved to Drafts": [
-        "Poruka je spremljena u Skice"
-      ],
-      "Edit and reschedule": [
-        "Uredi i ponovno zakaži"
       ]
     },
     "Beta access description": {

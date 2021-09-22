@@ -86,11 +86,11 @@
       "Calendar primary private key is not decrypted": [
         "A naptár elsődleges privát kulcsa nincs visszafejtve"
       ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser": [
-        "Ez az üzenet olyan linkeket tartalmazhat, amelyeket a böngészője nem tud megfelelően megnyitni"
-      ],
       "Unknown error": [
         "Ismeretlen hiba"
+      ],
+      "This message may contain some link's URL that cannot be properly opened by your current browser": [
+        "Ez az üzenet olyan linkeket tartalmazhat, amelyeket a böngészője nem tud megfelelően megnyitni"
       ],
       "Authentication canceled.": [
         "Hitelesítés megszakítva."
@@ -104,14 +104,14 @@
       "Email address invalid": [
         "Érvénytelen e-mail cím"
       ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "Az Ön által használt böngésző nem támogatja a kívánt fizetési módot. Kérjük, használjon másik böngészőt, vagy jelentkezzen be egy számítógépről."
+      ],
       "The composer failed to load.": [
         "A szerkesztőt nem sikerült betölteni."
       ],
       "Please refresh the page.": [
         "Kérjük frissítse az oldalt."
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "Az Ön által használt böngésző nem támogatja a kívánt fizetési módot. Kérjük, használjon másik böngészőt, vagy jelentkezzen be egy számítógépről."
       ],
       "Some groups could not be deleted": [
         ""
@@ -154,9 +154,6 @@
       "A group with this name already exists": [
         "Már létezik csoport ezzel a névvel"
       ],
-      "File has no contents to preview": [
-        "Nincs előnézeti tartalom"
-      ],
       "Incorrect mailbox password. Please try again": [
         "Hibás e-mail titkosítási jelszó. Kérjük, próbálja újra"
       ],
@@ -177,6 +174,15 @@
       ],
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "Hiba történt. Kérjük, ${ refresh } az oldalt a folytatáshoz. Ha a hiba továbbra is fennáll, kérjük lépjen velünk kapcsolatba: ${ supportTeam }."
+      ],
+      "We were unable to connect to your service provider.": [
+        "Nem lehet kapcsolódni a szolgáltatójához."
+      ],
+      "Please try to reauthenticate and make sure the permissions are set correctly.": [
+        "Próbálja meg újra az azonosítást vagy ellenőrizze a jogosultságok megadását."
+      ],
+      "File has no contents to preview": [
+        "Nincs előnézeti tartalom"
       ],
       "Process aborted": [
         "A folyamat megszakítva"
@@ -237,12 +243,6 @@
       ],
       "Invalid code": [
         "Érvénytelen kód"
-      ],
-      "We were unable to connect to your service provider.": [
-        "Nem lehet kapcsolódni a szolgáltatójához."
-      ],
-      "Please try to reauthenticate and make sure the permissions are set correctly.": [
-        "Próbálja meg újra az azonosítást vagy ellenőrizze a jogosultságok megadását."
       ],
       "Empty condition": [
         "Üres feltétel"
@@ -568,6 +568,9 @@
       "Learn more": [
         "További információk"
       ],
+      "Loading": [
+        "Betöltés"
+      ],
       "Insert image": [
         "Kép beillesztése"
       ],
@@ -613,9 +616,6 @@
       "Change your default in settings": [
         ""
       ],
-      "Default": [
-        ""
-      ],
       "Text color": [
         "Szöveg színe"
       ],
@@ -645,9 +645,6 @@
       ],
       "Plain text": [
         "Egyszerű szöveg"
-      ],
-      "Loading": [
-        "Betöltés"
       ],
       "Drop the file here to upload": [
         "Húzza ide a fájlt a feltöltéshez"
@@ -774,24 +771,6 @@
         "${ addressCount } e-mail cím",
         "${ addressCount } e-mail cím"
       ],
-      "Unsupported file": [
-        "Ismeretlen file"
-      ],
-      "No preview available": [
-        "Előnézet nem érhető el"
-      ],
-      "Preview": [
-        "Előnézet"
-      ],
-      "Loading preview": [
-        "Előnézet betöltése"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "Ez a böngésző nem támogatja a PDF fájlok megjelenítését. Töltse le a fájlt."
-      ],
-      "of": [
-        "/"
-      ],
       "here": [
         "ide"
       ],
@@ -830,6 +809,57 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Ha problémába ütközik a fiók létrehozásakor, kérjen egy meghívót és egy munkanapon belül segítséget nyújtunk."
+      ],
+      "support team": [
+        "ügyfélszolgálat"
+      ],
+      "Import contacts": [
+        "Névjegyek importálása"
+      ],
+      "Your contacts are being imported from": [
+        ""
+      ],
+      "to": [
+        "ide:"
+      ],
+      "Your import has started!": [
+        "Az importálás elindult!"
+      ],
+      "We will notify you once your import is finished.": [
+        "Értesítést kap az importálás befejezésekor."
+      ],
+      "Large imports can take several days to complete.": [
+        "Egy nagyobb importálás akár napokig is eltarthat."
+      ],
+      "You can continue using Proton services as usual.": [
+        "A Proton szolgáltatásait tovább használhatja közben."
+      ],
+      "Your import will not be processed.": [
+        "Az importálás nem lesz feldolgozva."
+      ],
+      "Screenshot(s) attached": [
+        "Képernyőkép(ek) csatolva"
+      ],
+      "Refreshing the page or ${ link } will automatically resolve most issues.": [
+        "Az oldal frissítése vagy a ${ link } automatikusan megoldja a legtöbb problémát."
+      ],
+      "Unsupported file": [
+        "Ismeretlen file"
+      ],
+      "No preview available": [
+        "Előnézet nem érhető el"
+      ],
+      "Preview": [
+        "Előnézet"
+      ],
+      "Loading preview": [
+        "Előnézet betöltése"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "Ez a böngésző nem támogatja a PDF fájlok megjelenítését. Töltse le a fájlt."
+      ],
+      "of": [
+        "/"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "Az alapvető navigációs lehetőségek akkor is megmaradnak, ha a beállításokban letiltotta a gyorsbillentyűket."
@@ -890,15 +920,6 @@
       ],
       "You have disabled Beta Access. Click ${ refreshButton } to use the stable version of ${ appName }. The application will be reloaded.": [
         "Letiltotta a \"Bétahozzáférést\". Kattintson ide ${ refreshButton }, hogy a ${ appName } stabil verzióját használhassa. Az alkalmazás újra fog töltődni."
-      ],
-      "support team": [
-        "ügyfélszolgálat"
-      ],
-      "Screenshot(s) attached": [
-        "Képernyőkép(ek) csatolva"
-      ],
-      "Refreshing the page or ${ link } will automatically resolve most issues.": [
-        "Az oldal frissítése vagy a ${ link } automatikusan megoldja a legtöbb problémát."
       ],
       "Since you're a loyal user, your account has additional features enabled.": [
         "Mivel ön a hűséges felhasználónk, fiókja extra funkciókat tartalmaz."
@@ -1138,30 +1159,6 @@
       ],
       "Expired": [
         "Lejárt"
-      ],
-      "Import contacts": [
-        "Névjegyek importálása"
-      ],
-      "Your contacts are being imported from": [
-        ""
-      ],
-      "to": [
-        "ide:"
-      ],
-      "Your import has started!": [
-        "Az importálás elindult!"
-      ],
-      "We will notify you once your import is finished.": [
-        "Értesítést kap az importálás befejezésekor."
-      ],
-      "Large imports can take several days to complete.": [
-        "Egy nagyobb importálás akár napokig is eltarthat."
-      ],
-      "You can continue using Proton services as usual.": [
-        "A Proton szolgáltatásait tovább használhatja közben."
-      ],
-      "Your import will not be processed.": [
-        "Az importálás nem lesz feldolgozva."
       ],
       "Inherited from parent folder": [
         "Örökölve a tartalmazó mappáról"
@@ -1712,25 +1709,37 @@
       "Download our mobile application from your favorite app store to communicate securely on-the-go.": [
         "Töltse le a mobil alkalmazásunkat a kedvenc alkalmazásboltjából, hogy út közben is biztonságosan kommunikálhasson."
       ],
-      "${ count } conversation": [
-        "${ count } beszélgetés",
-        "${ count } beszélgetés"
+      "You selected **${ count } conversation** from this folder": [
+        "",
+        ""
       ],
-      "${ count } message": [
-        "${ count } üzenet",
-        "${ count } üzenet"
+      "You selected **${ count } message** from this folder": [
+        "",
+        ""
       ],
-      "You selected ${ countOfConversationOrMessage } from this folder": [
-        "Ebből a mappából ${ countOfConversationOrMessage } van kiválasztva"
+      "You have **${ count } conversation** stored in this folder": [
+        "",
+        ""
       ],
-      "You have ${ countOfConversationOrMessage } stored in this folder": [
-        "Ebben a mappában ${ countOfConversationOrMessage } van tárolva"
+      "You have **${ count } message** stored in this folder": [
+        "",
+        ""
       ],
-      "You selected ${ countOfConversationOrMessage } with this label": [
-        "Ezzel a címkével ${ countOfConversationOrMessage } van kiválasztva"
+      "You selected **${ count } conversation** with this label": [
+        "",
+        ""
       ],
-      "You have ${ countOfConversationOrMessage } tagged with this label": [
-        "Ezzel a címkével ${ countOfConversationOrMessage } van megjelölve"
+      "You selected **${ count } message** with this label": [
+        "",
+        ""
+      ],
+      "You have **${ count } conversation** tagged with this label": [
+        "",
+        ""
+      ],
+      "You have **${ count } message** tagged with this label": [
+        "",
+        ""
       ],
       "Using your mobile device, scan this QR-Code or visit ${ link }.": [
         "A mobil eszközével olvassa be a QR kódot vagy nyissa meg a címet: ${ link }."
@@ -2890,27 +2899,6 @@
       "Next": [
         "Következő"
       ],
-      "Details": [
-        "Részletek"
-      ],
-      "Share via link": [
-        "Megosztás hivatkozással"
-      ],
-      "Sharing options": [
-        "Megosztási beállítások"
-      ],
-      "Zoom out": [
-        "Távolítás"
-      ],
-      "Reset zoom": [
-        "Nagyítás alaphelyzetbe"
-      ],
-      "Zoom in": [
-        "Közelítés"
-      ],
-      "Previous": [
-        "Előző"
-      ],
       "Log in": [
         "Bejelentkezés"
       ],
@@ -2938,6 +2926,57 @@
       "Edit phone number": [
         "Telefonszám módosítása"
       ],
+      "Use ${ label } theme": [
+        "${ label } téma használata"
+      ],
+      "OK": [
+        "OK"
+      ],
+      "Continue import": [
+        "Importálás folytatása"
+      ],
+      "Discard": [
+        "Elvetés"
+      ],
+      "Reconnect": [
+        "Újrakapcsolódás"
+      ],
+      "Start import": [
+        "Importálás indítása"
+      ],
+      "Clear": [
+        "Törlés"
+      ],
+      "Add screenshot(s)": [
+        "Képernyőkép hozzáadása"
+      ],
+      "Hide info": [
+        "Információ elrejtése"
+      ],
+      "Show info": [
+        "Információ megjelenítése"
+      ],
+      "Details": [
+        "Részletek"
+      ],
+      "Share via link": [
+        "Megosztás hivatkozással"
+      ],
+      "Sharing options": [
+        "Megosztási beállítások"
+      ],
+      "Zoom out": [
+        "Távolítás"
+      ],
+      "Reset zoom": [
+        "Nagyítás alaphelyzetbe"
+      ],
+      "Zoom in": [
+        "Közelítés"
+      ],
+      "Previous": [
+        "Előző"
+      ],
       "Get started": [
         "Kezdés"
       ],
@@ -2949,12 +2988,6 @@
       ],
       "Back": [
         "Vissza"
-      ],
-      "Use ${ label } theme": [
-        "${ label } téma használata"
-      ],
-      "OK": [
-        "OK"
       ],
       "Copy to clipboard": [
         ""
@@ -2979,9 +3012,6 @@
       ],
       "Search": [
         "Keresés"
-      ],
-      "Clear": [
-        "Törlés"
       ],
       "${ BRAND_NAME } introduction": [
         "${ BRAND_NAME } bevezető"
@@ -3027,15 +3057,6 @@
       ],
       "Composer size": [
         ""
-      ],
-      "Add screenshot(s)": [
-        "Képernyőkép hozzáadása"
-      ],
-      "Hide info": [
-        "Információ elrejtése"
-      ],
-      "Show info": [
-        "Információ megjelenítése"
       ],
       "Remove bonuses": [
         "Kedvezmények törlése"
@@ -3084,18 +3105,6 @@
       ],
       "Increase": [
         "Növel"
-      ],
-      "Continue import": [
-        "Importálás folytatása"
-      ],
-      "Discard": [
-        "Elvetés"
-      ],
-      "Reconnect": [
-        "Újrakapcsolódás"
-      ],
-      "Start import": [
-        "Importálás indítása"
       ],
       "Preview": [
         "Előnézet"
@@ -3638,6 +3647,15 @@
       "Select a theme": [
         "Téma kiválasztása"
       ],
+      "Start import process": [
+        "Importálási folyamat indítása"
+      ],
+      "Import in progress": [
+        "Importálás folyamatban"
+      ],
+      "Report a problem": [
+        "Probléma jelentése"
+      ],
       "${ appName } Keyboard Shortcuts": [
         "${ appName } gyorsbillentyűk"
       ],
@@ -3658,9 +3676,6 @@
       ],
       "Open settings menu": [
         "Beállítások menü megnyitása"
-      ],
-      "Report a problem": [
-        "Probléma jelentése"
       ],
       "Confirm loss of Proton bonuses": [
         "Proton kedvezmények elvesztésének megerősítése"
@@ -3751,12 +3766,6 @@
       ],
       "${ appName } customization": [
         "${ appName } testreszabása"
-      ],
-      "Start import process": [
-        "Importálási folyamat indítása"
-      ],
-      "Import in progress": [
-        "Importálás folyamatban"
       ],
       "Beta Access": [
         "Béta hozzáférés"
@@ -3992,6 +4001,9 @@
       "Request an invite": [
         "Meghívó kérése"
       ],
+      "clearing your browser cache": [
+        "böngésző gyorsítótárának ürítése"
+      ],
       "Pay invoice": [
         "Számla kifizetése"
       ],
@@ -4003,9 +4015,6 @@
       ],
       "Go to subscription plans": [
         "Előfizetési csomagok megnyitása"
-      ],
-      "clearing your browser cache": [
-        "böngésző gyorsítótárának ürítése"
       ],
       "click here": [
         "kattintson ide"
@@ -4240,26 +4249,11 @@
       "Enter the 6-digit code": [
         "Írja be a hatjegyű kódot"
       ],
-      "Display name": [
-        "Megjelenített név"
+      "From: ${ fromEmailAddress }": [
+        "Forrás: ${ fromEmailAddress }"
       ],
-      "Keyboard shortcuts": [
-        "Gyorsbillentyűk"
-      ],
-      "Select how your list of messages looks like by default.": [
-        ""
-      ],
-      "Select how your mailbox looks like by default.": [
-        ""
-      ],
-      "Select how your composer opens by default.": [
-        ""
-      ],
-      "Recovery phrase": [
-        ""
-      ],
-      "Your recovery phrase": [
-        ""
+      "To: ${ toEmailAddress }": [
+        "Cél: ${ toEmailAddress }"
       ],
       "Operating system": [
         "Operációs rendszer"
@@ -4284,6 +4278,27 @@
       ],
       "Browser version": [
         "Böngésző verziója"
+      ],
+      "Display name": [
+        "Megjelenített név"
+      ],
+      "Keyboard shortcuts": [
+        "Gyorsbillentyűk"
+      ],
+      "Select how your list of messages looks like by default.": [
+        ""
+      ],
+      "Select how your mailbox looks like by default.": [
+        ""
+      ],
+      "Select how your composer opens by default.": [
+        ""
+      ],
+      "Recovery phrase": [
+        ""
+      ],
+      "Your recovery phrase": [
+        ""
       ],
       "Name on card": [
         "Kártyán megjelenített név"
@@ -4332,12 +4347,6 @@
       ],
       "Payer": [
         "Teherviselő"
-      ],
-      "From: ${ fromEmailAddress }": [
-        "Forrás: ${ fromEmailAddress }"
-      ],
-      "To: ${ toEmailAddress }": [
-        "Cél: ${ toEmailAddress }"
       ],
       "Enable Beta Access": [
         "\"Béta hozzáférés\" engedélyezése"
@@ -4590,9 +4599,6 @@
       "Mailbox password": [
         "E-mail titkosítási jelszó"
       ],
-      "e.g. Julia Smith": [
-        "pl. Kovács János"
-      ],
       "OS name": [
         "Operációs rendszer neve"
       ],
@@ -4613,6 +4619,9 @@
       ],
       "Browser version": [
         "Böngésző verziója"
+      ],
+      "e.g. Julia Smith": [
+        "pl. Kovács János"
       ],
       "ZIP": [
         "Irányítószám"
@@ -4697,6 +4706,16 @@
     },
     "PGP key encryption warning": {
       "Key cannot be used for encryption": [
+        ""
+      ]
+    },
+    "Font Face Default": {
+      "Default": [
+        ""
+      ]
+    },
+    "Font Size Default": {
+      "Default": [
         ""
       ]
     },
@@ -4833,8 +4852,8 @@
       "Contacts could not be merged": [
         "A névjegyek egyesítése nem sikerült"
       ],
-      "Your local date & time settings seem to be out of sync.": [
-        "A helyi dátum és idő beállítása valószínűleg hibás."
+      "Are you sure you want to discard your import?": [
+        "Biztos, hogy elveti az importálást?"
       ],
       "Live chat is a premium feature available only to those with paid ProtonVPN plans. Please open a ticket instead.": [
         ""
@@ -4845,11 +4864,11 @@
       "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
         "A hibajelentések nem titkosítottak a végpontok közt, kérjük ne küldjön semmilyen érzékeny információt."
       ],
+      "Your local date & time settings seem to be out of sync.": [
+        "A helyi dátum és idő beállítása valószínűleg hibás."
+      ],
       "Please note that by choosing this payment method, your account cannot be upgraded immediately. We will update your account once the payment is cleared.": [
         "Ha ezt a fizetési módot választja, akkor az összeget nem tudjuk automatikusan jóváírni. Számláját frissítjük, amint a befizetés megérkezett."
-      ],
-      "Are you sure you want to discard your import?": [
-        "Biztos, hogy elveti az importálást?"
       ],
       "The attachment's signature failed verification.\nYou can still download this attachment but it might have been tampered with.": [
         "A melléklet aláírásának ellenőrzése nem sikerült.\nLetöltheti a mellékletet, de elképzelhető, hogy megváltoztatták a tartalmát.",
@@ -4892,14 +4911,14 @@
       "Verification successful": [
         "Sikeres ellenőrzés"
       ],
+      "Bug reported": [
+        "Hiba bejelentve"
+      ],
       "Keyboard shortcuts preferences updated": [
         "Gyorsbillentyű beállítások frissítve"
       ],
       "Preference saved": [
         "Beállítások mentve"
-      ],
-      "Bug reported": [
-        "Hiba bejelentve"
       ],
       "You have successfully unsubscribed": [
         "Sikeresen leiratkozott"
@@ -5374,11 +5393,6 @@
         "${ totalImported }/${ totalToImport } névjegy titkosítva és felvéve a névjegyekhez"
       ]
     },
-    "Select files": {
-      "Upload": [
-        "Feltöltés"
-      ]
-    },
     "Delinquent modal title": {
       "Overdue invoice": [
         "Lejárt számla"
@@ -5401,78 +5415,12 @@
         "Nincs elérhető ellenőrzési módszer"
       ]
     },
-    "Onboarding Proton": {
-      "This is what people will see when you send them an email, invite them to an event, or share a file with them.": [
-        "Ezt fogják látni a címzettek ha e-mailt küld, esemény meghívót küld vagy fájlokat oszt meg."
-      ],
-      "Choose a display name": [
-        "Válasszon egy megjelenített nevet"
-      ],
-      "Select a theme": [
-        "Téma kiválasztása"
-      ],
-      "You can change this anytime in your settings.": [
-        "Ezt a beállításoknál bármikor megváltoztathatja."
-      ],
-      "Discover all Proton services": [
-        "Fedezze fel a Proton szolgáltatásokat"
-      ],
-      "Use the app selector in the top left to access other Proton services, including VPN, Calendar and Drive.": [
-        "Használja a bal felső sarokban található alkalmazás választót a Proton szolgáltatások eléréshez, mint például a VPN, Calendar vagy a Drive."
-      ],
-      "Welcome to Proton": [
-        "Üdvözöljük a Protonnál"
-      ],
-      "Our mission is to build an internet where you are in control of your data and your privacy. We have recently updated Proton - welcome to the secure internet.": [
-        "Célunk egy olyan internet felépítése, ahol az adatai és a magánszférája a saját kezében van. A közelmúltban frissítettük a Protont - üdvözöljük a biztonságos interneten."
-      ],
-      "Set up your organization": [
-        "Állítsa be a szervezet adatait"
-      ],
-      "Configure your organization, link your domain name, and create accounts to ensure all members of your organization are protected.": [
-        "Állítsa be a saját szervezete adatait, irányítsa át a domain nevét, hozza létre a fiókokat, hogy a szervezet minden tagja élhessen a védelemmel."
+    "Select files": {
+      "Upload": [
+        "Feltöltés"
       ]
     },
-    "Onboarding Beta": {
-      "Got it": [
-        "Rendben!"
-      ],
-      "Beta enabled": [
-        "Béta engedélyezve"
-      ],
-      "To disable beta, open the settings dropdown menu and click on the “Beta Access” option.": [
-        "A Béta hozzáférés tiltásához nyissa meg a beállítások lenyíló menüt és válassza a \"béta hozzáférés\" opciót."
-      ]
-    },
-    "Message display when a new app version is available": {
-      "A new version of ${ appName } is available. ${ reloadButton }.": [
-        "A ${ appName } új verziója érhető el. ${ reloadButton }."
-      ]
-    },
-    "Text": {
-      "Settings": [
-        "Beállítások"
-      ]
-    },
-    "Enabled": {
-      "On": [
-        "Be"
-      ]
-    },
-    "Disabled": {
-      "Off": [
-        "Ki"
-      ]
-    },
-    "Layout mode": {
-      "Column": [
-        "Oszlop"
-      ],
-      "Row": [
-        "Sor"
-      ]
-    },
-    "Density mode": {
+    "Label to change density": {
       "Comfortable": [
         "Kényelmes"
       ],
@@ -5480,12 +5428,47 @@
         "Tömör"
       ]
     },
-    "Composer size": {
-      "Maximized": [
-        "Teljes méretű"
+    "Label to change view layout": {
+      "Column": [
+        "Oszlop"
       ],
+      "Row": [
+        "Sor"
+      ]
+    },
+    "Label to change composer mode": {
       "Normal": [
         "Normál"
+      ],
+      "Maximized": [
+        "Teljes méretű"
+      ]
+    },
+    "Loading info": {
+      "Connecting to your contacts provider": [
+        ""
+      ]
+    },
+    "Wizard step": {
+      "Authenticate": [
+        "Azonosítás"
+      ],
+      "Configure Import": [
+        "Importálás beállítása"
+      ],
+      "Import": [
+        "Importálás"
+      ]
+    },
+    "Confirm modal title": {
+      "Quit import?": [
+        "Elveti az importálást?"
+      ],
+      "Message saved to Drafts": [
+        ""
+      ],
+      "Edit and reschedule": [
+        ""
       ]
     },
     "Error notification in the bug report modal when the user upload file": {
@@ -5598,6 +5581,103 @@
     "Label, make it short please": {
       "Attach screenshot(s)": [
         "Képernyőkép csatolása"
+      ]
+    },
+    "Onboarding Proton": {
+      "This is what people will see when you send them an email, invite them to an event, or share a file with them.": [
+        "Ezt fogják látni a címzettek ha e-mailt küld, esemény meghívót küld vagy fájlokat oszt meg."
+      ],
+      "Choose a display name": [
+        "Válasszon egy megjelenített nevet"
+      ],
+      "Select a theme": [
+        "Téma kiválasztása"
+      ],
+      "You can change this anytime in your settings.": [
+        "Ezt a beállításoknál bármikor megváltoztathatja."
+      ],
+      "Discover all Proton services": [
+        "Fedezze fel a Proton szolgáltatásokat"
+      ],
+      "Use the app selector in the top left to access other Proton services, including VPN, Calendar and Drive.": [
+        "Használja a bal felső sarokban található alkalmazás választót a Proton szolgáltatások eléréshez, mint például a VPN, Calendar vagy a Drive."
+      ],
+      "Welcome to Proton": [
+        "Üdvözöljük a Protonnál"
+      ],
+      "Our mission is to build an internet where you are in control of your data and your privacy. We have recently updated Proton - welcome to the secure internet.": [
+        "Célunk egy olyan internet felépítése, ahol az adatai és a magánszférája a saját kezében van. A közelmúltban frissítettük a Protont - üdvözöljük a biztonságos interneten."
+      ],
+      "Set up your organization": [
+        "Állítsa be a szervezet adatait"
+      ],
+      "Configure your organization, link your domain name, and create accounts to ensure all members of your organization are protected.": [
+        "Állítsa be a saját szervezete adatait, irányítsa át a domain nevét, hozza létre a fiókokat, hogy a szervezet minden tagja élhessen a védelemmel."
+      ]
+    },
+    "Onboarding Beta": {
+      "Got it": [
+        "Rendben!"
+      ],
+      "Beta enabled": [
+        "Béta engedélyezve"
+      ],
+      "To disable beta, open the settings dropdown menu and click on the “Beta Access” option.": [
+        "A Béta hozzáférés tiltásához nyissa meg a beállítások lenyíló menüt és válassza a \"béta hozzáférés\" opciót."
+      ]
+    },
+    "Message display when a new app version is available": {
+      "A new version of ${ appName } is available. ${ reloadButton }.": [
+        "A ${ appName } új verziója érhető el. ${ reloadButton }."
+      ]
+    },
+    "Text": {
+      "Settings": [
+        "Beállítások"
+      ]
+    },
+    "Early Access Enabled": {
+      "On": [
+        ""
+      ]
+    },
+    "Early Access Disabled": {
+      "Off": [
+        ""
+      ]
+    },
+    "Keyboard Shortcuts Enabled": {
+      "On": [
+        ""
+      ]
+    },
+    "Keyboard Shortcuts Disabled": {
+      "Off": [
+        ""
+      ]
+    },
+    "Layout mode": {
+      "Column": [
+        "Oszlop"
+      ],
+      "Row": [
+        "Sor"
+      ]
+    },
+    "Density mode": {
+      "Comfortable": [
+        "Kényelmes"
+      ],
+      "Compact": [
+        "Tömör"
+      ]
+    },
+    "Composer size": {
+      "Maximized": [
+        "Teljes méretű"
+      ],
+      "Normal": [
+        "Normál"
       ]
     },
     "Info for cash payment method": {
@@ -6045,57 +6125,6 @@
       ],
       "Bitcoin": [
         "Bitcoin"
-      ]
-    },
-    "Label to change density": {
-      "Comfortable": [
-        "Kényelmes"
-      ],
-      "Compact": [
-        "Tömör"
-      ]
-    },
-    "Label to change view layout": {
-      "Column": [
-        "Oszlop"
-      ],
-      "Row": [
-        "Sor"
-      ]
-    },
-    "Label to change composer mode": {
-      "Normal": [
-        "Normál"
-      ],
-      "Maximized": [
-        "Teljes méretű"
-      ]
-    },
-    "Loading info": {
-      "Connecting to your contacts provider": [
-        ""
-      ]
-    },
-    "Wizard step": {
-      "Authenticate": [
-        "Azonosítás"
-      ],
-      "Configure Import": [
-        "Importálás beállítása"
-      ],
-      "Import": [
-        "Importálás"
-      ]
-    },
-    "Confirm modal title": {
-      "Quit import?": [
-        "Elveti az importálást?"
-      ],
-      "Message saved to Drafts": [
-        ""
-      ],
-      "Edit and reschedule": [
-        ""
       ]
     },
     "Beta access description": {

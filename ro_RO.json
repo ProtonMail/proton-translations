@@ -86,11 +86,11 @@
       "Calendar primary private key is not decrypted": [
         "Cheia privată primară a calendarului nu este decriptată"
       ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser": [
-        "Acest mesaj poate conține unele legături care nu pot fi deschise corect de navigatorul actual."
-      ],
       "Unknown error": [
         "Eroare necunoscută"
+      ],
+      "This message may contain some link's URL that cannot be properly opened by your current browser": [
+        "Acest mesaj poate conține unele legături care nu pot fi deschise corect de navigatorul actual."
       ],
       "Authentication canceled.": [
         "Autentificare anulată."
@@ -104,14 +104,14 @@
       "Email address invalid": [
         "Adresă de e-mail nevalidă"
       ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "Navigatorul folosit nu permite autorizarea completă a plății. Folosiți un alt navigator sau conectați-vă de pe un calculator."
+      ],
       "The composer failed to load.": [
         "Editorul de mesaje nu a putut fi încărcat."
       ],
       "Please refresh the page.": [
         "Reîmprospătați pagina."
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "Navigatorul folosit nu permite autorizarea completă a plății. Folosiți un alt navigator sau conectați-vă de pe un calculator."
       ],
       "Some groups could not be deleted": [
         "Unele grupuri nu s-au putut șterge."
@@ -156,9 +156,6 @@
       "A group with this name already exists": [
         "Un grup cu acest nume există deja"
       ],
-      "File has no contents to preview": [
-        "Fișierul nu are conținut de afișat"
-      ],
       "Incorrect mailbox password. Please try again": [
         "Parolă căsuță mesaje incorectă. Mai reîncercaţi."
       ],
@@ -179,6 +176,15 @@
       ],
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "Ceva nu a funcționat bine, ${ refresh } pagina pentru a continua. Dacă mai vedeți acest mesaj de eroare contactați ${ supportTeam }."
+      ],
+      "We were unable to connect to your service provider.": [
+        "Nu s-a reușit conectarea la furnizorul dvs. de servicii."
+      ],
+      "Please try to reauthenticate and make sure the permissions are set correctly.": [
+        "Încercați să vă reautentificați și asigurați-vă că permisiunile sunt setate corect."
+      ],
+      "File has no contents to preview": [
+        "Fișierul nu are conținut de afișat"
       ],
       "Process aborted": [
         "Proces abandonat."
@@ -239,12 +245,6 @@
       ],
       "Invalid code": [
         "Cod nevalid."
-      ],
-      "We were unable to connect to your service provider.": [
-        "Nu s-a reușit conectarea la furnizorul dvs. de servicii."
-      ],
-      "Please try to reauthenticate and make sure the permissions are set correctly.": [
-        "Încercați să vă reautentificați și asigurați-vă că permisiunile sunt setate corect."
       ],
       "Empty condition": [
         "Condiție goală"
@@ -576,6 +576,9 @@
       "Learn more": [
         "Detalii"
       ],
+      "Loading": [
+        "Se încarcă"
+      ],
       "Insert image": [
         "Inserare imagine"
       ],
@@ -621,9 +624,6 @@
       "Change your default in settings": [
         "Puteţi modifica setările implicite în setări."
       ],
-      "Default": [
-        "Implicit"
-      ],
       "Text color": [
         "Culoare text"
       ],
@@ -653,9 +653,6 @@
       ],
       "Plain text": [
         "Text simplu"
-      ],
-      "Loading": [
-        "Se încarcă"
       ],
       "Drop the file here to upload": [
         "Plasați fișierul aici pentru a fi încărcat"
@@ -787,24 +784,6 @@
         "${ addressCount } adrese de e-mail",
         "${ addressCount } de adrese de e-mail"
       ],
-      "Unsupported file": [
-        "Fişier nesuportat"
-      ],
-      "No preview available": [
-        "Nu e disponibilă examinarea"
-      ],
-      "Preview": [
-        "Examinare"
-      ],
-      "Loading preview": [
-        "Se încarcă previzualizarea"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "Acest navigator nu acceptă previzualizarea documentelor PDF. Descărcați fișierul."
-      ],
-      "of": [
-        "din"
-      ],
       "here": [
         "aici"
       ],
@@ -843,6 +822,57 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Dacă aveți probleme cu crearea contului, solicitați o invitație și vom răspunde în termen de o zi lucrătoare."
+      ],
+      "support team": [
+        "echipa de suport"
+      ],
+      "Import contacts": [
+        "Importare contacte"
+      ],
+      "Your contacts are being imported from": [
+        "Contactele sunt importate din"
+      ],
+      "to": [
+        "în"
+      ],
+      "Your import has started!": [
+        "Importarea a început!"
+      ],
+      "We will notify you once your import is finished.": [
+        "Veți primi o notificare la finalizarea importării."
+      ],
+      "Large imports can take several days to complete.": [
+        "Finalizarea importărilor mari poate dura câteva zile."
+      ],
+      "You can continue using Proton services as usual.": [
+        "Puteți folosi în continuare serviciile Proton ca de obicei."
+      ],
+      "Your import will not be processed.": [
+        "Importarea nu va fi procesată."
+      ],
+      "Screenshot(s) attached": [
+        "Capturi de ecran adăugate"
+      ],
+      "Refreshing the page or ${ link } will automatically resolve most issues.": [
+        "Reîmprospătând pagina sau ${ link } veți rezolva majoritatea problemelor."
+      ],
+      "Unsupported file": [
+        "Fişier nesuportat"
+      ],
+      "No preview available": [
+        "Nu e disponibilă examinarea"
+      ],
+      "Preview": [
+        "Examinare"
+      ],
+      "Loading preview": [
+        "Se încarcă previzualizarea"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "Acest navigator nu acceptă previzualizarea documentelor PDF. Descărcați fișierul."
+      ],
+      "of": [
+        "din"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "Navigarea de bază și acțiunile rămân disponibile indiferent de combinațiile de taste care sunt active sau nu în setări."
@@ -903,15 +933,6 @@
       ],
       "You have disabled Beta Access. Click ${ refreshButton } to use the stable version of ${ appName }. The application will be reloaded.": [
         "Ați dezactivat accesul la versiunea Beta. Faceți clic ${ refreshButton } pentru a utiliza versiunea stabilă de ${ appName }. Aplicația va fi reîncărcată."
-      ],
-      "support team": [
-        "echipa de suport"
-      ],
-      "Screenshot(s) attached": [
-        "Capturi de ecran adăugate"
-      ],
-      "Refreshing the page or ${ link } will automatically resolve most issues.": [
-        "Reîmprospătând pagina sau ${ link } veți rezolva majoritatea problemelor."
       ],
       "Since you're a loyal user, your account has additional features enabled.": [
         "Deoarece sunteți un utilizator loial, contul are funcții adiționale activate."
@@ -1153,30 +1174,6 @@
       ],
       "Expired": [
         "Expirată"
-      ],
-      "Import contacts": [
-        "Importare contacte"
-      ],
-      "Your contacts are being imported from": [
-        "Contactele sunt importate din"
-      ],
-      "to": [
-        "în"
-      ],
-      "Your import has started!": [
-        "Importarea a început!"
-      ],
-      "We will notify you once your import is finished.": [
-        "Veți primi o notificare la finalizarea importării."
-      ],
-      "Large imports can take several days to complete.": [
-        "Finalizarea importărilor mari poate dura câteva zile."
-      ],
-      "You can continue using Proton services as usual.": [
-        "Puteți folosi în continuare serviciile Proton ca de obicei."
-      ],
-      "Your import will not be processed.": [
-        "Importarea nu va fi procesată."
       ],
       "Inherited from parent folder": [
         "Moştenit de la folderul părinte"
@@ -1751,27 +1748,45 @@
       "Download our mobile application from your favorite app store to communicate securely on-the-go.": [
         "Descărcați aplicația mobilă din magazinul preferat de aplicații pentru a comunica în siguranță la distanță."
       ],
-      "${ count } conversation": [
-        "O conversație",
-        "${ count } conversații",
-        "${ count } de conversații"
+      "You selected **${ count } conversation** from this folder": [
+        "",
+        "",
+        ""
       ],
-      "${ count } message": [
-        "Un mesaj",
-        "${ count } mesaje",
-        "${ count } de mesaje"
+      "You selected **${ count } message** from this folder": [
+        "",
+        "",
+        ""
       ],
-      "You selected ${ countOfConversationOrMessage } from this folder": [
-        "Ați selectat ${ countOfConversationOrMessage } din acest folder."
+      "You have **${ count } conversation** stored in this folder": [
+        "",
+        "",
+        ""
       ],
-      "You have ${ countOfConversationOrMessage } stored in this folder": [
-        "Aveți ${ countOfConversationOrMessage } în acest folder."
+      "You have **${ count } message** stored in this folder": [
+        "",
+        "",
+        ""
       ],
-      "You selected ${ countOfConversationOrMessage } with this label": [
-        "Ați selectat ${ countOfConversationOrMessage } cu această etichetă."
+      "You selected **${ count } conversation** with this label": [
+        "",
+        "",
+        ""
       ],
-      "You have ${ countOfConversationOrMessage } tagged with this label": [
-        "Ați etichetat ${ countOfConversationOrMessage } cu această etichetă."
+      "You selected **${ count } message** with this label": [
+        "",
+        "",
+        ""
+      ],
+      "You have **${ count } conversation** tagged with this label": [
+        "",
+        "",
+        ""
+      ],
+      "You have **${ count } message** tagged with this label": [
+        "",
+        "",
+        ""
       ],
       "Using your mobile device, scan this QR-Code or visit ${ link }.": [
         "Folosind dispozitivul mobil, scanați acest cod QR sau vizitați ${ link }."
@@ -2971,27 +2986,6 @@
       "Next": [
         "Înainte"
       ],
-      "Details": [
-        "Detalii"
-      ],
-      "Share via link": [
-        "Partajare prin legătură"
-      ],
-      "Sharing options": [
-        "Opțiuni de partajare"
-      ],
-      "Zoom out": [
-        "Micșorare"
-      ],
-      "Reset zoom": [
-        "Resetare dimensiune"
-      ],
-      "Zoom in": [
-        "Mărire"
-      ],
-      "Previous": [
-        "Anteriorul"
-      ],
       "Log in": [
         "Conectare"
       ],
@@ -3019,6 +3013,57 @@
       "Edit phone number": [
         "Editare număr de telefon"
       ],
+      "Use ${ label } theme": [
+        "Folosire tema ${ label }"
+      ],
+      "OK": [
+        "OK"
+      ],
+      "Continue import": [
+        "Continuare importare"
+      ],
+      "Discard": [
+        "Renunțare"
+      ],
+      "Reconnect": [
+        "Reconectare"
+      ],
+      "Start import": [
+        "Pornire importare"
+      ],
+      "Clear": [
+        "Eliminare"
+      ],
+      "Add screenshot(s)": [
+        "Adăugare captură"
+      ],
+      "Hide info": [
+        "Ascundere informații"
+      ],
+      "Show info": [
+        "Afișare informații"
+      ],
+      "Details": [
+        "Detalii"
+      ],
+      "Share via link": [
+        "Partajare prin legătură"
+      ],
+      "Sharing options": [
+        "Opțiuni de partajare"
+      ],
+      "Zoom out": [
+        "Micșorare"
+      ],
+      "Reset zoom": [
+        "Resetare dimensiune"
+      ],
+      "Zoom in": [
+        "Mărire"
+      ],
+      "Previous": [
+        "Anteriorul"
+      ],
       "Get started": [
         "Să începem"
       ],
@@ -3030,12 +3075,6 @@
       ],
       "Back": [
         "Înapoi"
-      ],
-      "Use ${ label } theme": [
-        "Folosire tema ${ label }"
-      ],
-      "OK": [
-        "OK"
       ],
       "Copy to clipboard": [
         "Copiere în memorie"
@@ -3060,9 +3099,6 @@
       ],
       "Search": [
         "Căutare"
-      ],
-      "Clear": [
-        "Eliminare"
       ],
       "${ BRAND_NAME } introduction": [
         "Prezentare ${ BRAND_NAME }"
@@ -3108,15 +3144,6 @@
       ],
       "Composer size": [
         "Dimensiune editor mesaje"
-      ],
-      "Add screenshot(s)": [
-        "Adăugare captură"
-      ],
-      "Hide info": [
-        "Ascundere informații"
-      ],
-      "Show info": [
-        "Afișare informații"
       ],
       "Remove bonuses": [
         "Anulare bonusuri"
@@ -3165,18 +3192,6 @@
       ],
       "Increase": [
         "Mărire"
-      ],
-      "Continue import": [
-        "Continuare importare"
-      ],
-      "Discard": [
-        "Renunțare"
-      ],
-      "Reconnect": [
-        "Reconectare"
-      ],
-      "Start import": [
-        "Pornire importare"
       ],
       "Preview": [
         "Examinare"
@@ -3724,6 +3739,15 @@
       "Select a theme": [
         "Selectaţi o temă"
       ],
+      "Start import process": [
+        "Începere proces de importare"
+      ],
+      "Import in progress": [
+        "Importare în derulare"
+      ],
+      "Report a problem": [
+        "Raportare problemă"
+      ],
       "${ appName } Keyboard Shortcuts": [
         "Combinații de taste ${ appName }"
       ],
@@ -3744,9 +3768,6 @@
       ],
       "Open settings menu": [
         "Deschidere meniu setări"
-      ],
-      "Report a problem": [
-        "Raportare problemă"
       ],
       "Confirm loss of Proton bonuses": [
         "Confirmare pierdere bonusuri Proton"
@@ -3837,12 +3858,6 @@
       ],
       "${ appName } customization": [
         "Personalizare ${ appName }"
-      ],
-      "Start import process": [
-        "Începere proces de importare"
-      ],
-      "Import in progress": [
-        "Importare în derulare"
       ],
       "Beta Access": [
         "Acces la Beta"
@@ -4082,6 +4097,9 @@
       "Request an invite": [
         "Solicitați o invitație"
       ],
+      "clearing your browser cache": [
+        "golind bufferul navigatorului"
+      ],
       "Pay invoice": [
         "Plată factură"
       ],
@@ -4093,9 +4111,6 @@
       ],
       "Go to subscription plans": [
         "Accesare planuri abonamente"
-      ],
-      "clearing your browser cache": [
-        "golind bufferul navigatorului"
       ],
       "click here": [
         "apăsați aici"
@@ -4330,26 +4345,11 @@
       "Enter the 6-digit code": [
         "Introduceți codul din 6 cifre"
       ],
-      "Display name": [
-        "Nume afișat"
+      "From: ${ fromEmailAddress }": [
+        "De la:{ fromEmailAddress }$"
       ],
-      "Keyboard shortcuts": [
-        "Combinații de taste"
-      ],
-      "Select how your list of messages looks like by default.": [
-        "Selectați cum să arate lista de mesaje în mod implicit."
-      ],
-      "Select how your mailbox looks like by default.": [
-        "Selectați cum să arate căsuța poștală în mod implicit."
-      ],
-      "Select how your composer opens by default.": [
-        "Selectați modul în care se deschide implicit editorul de mesaje."
-      ],
-      "Recovery phrase": [
-        "Fraza de recuperare"
-      ],
-      "Your recovery phrase": [
-        "Fraza de recuperare"
+      "To: ${ toEmailAddress }": [
+        "Către: ${ toEmailAddress }"
       ],
       "Operating system": [
         "Sistem de operare"
@@ -4374,6 +4374,27 @@
       ],
       "Browser version": [
         "Versiune navigator"
+      ],
+      "Display name": [
+        "Nume afișat"
+      ],
+      "Keyboard shortcuts": [
+        "Combinații de taste"
+      ],
+      "Select how your list of messages looks like by default.": [
+        "Selectați cum să arate lista de mesaje în mod implicit."
+      ],
+      "Select how your mailbox looks like by default.": [
+        "Selectați cum să arate căsuța poștală în mod implicit."
+      ],
+      "Select how your composer opens by default.": [
+        "Selectați modul în care se deschide implicit editorul de mesaje."
+      ],
+      "Recovery phrase": [
+        "Fraza de recuperare"
+      ],
+      "Your recovery phrase": [
+        "Fraza de recuperare"
       ],
       "Name on card": [
         "Numele de pe card"
@@ -4422,12 +4443,6 @@
       ],
       "Payer": [
         "Payer"
-      ],
-      "From: ${ fromEmailAddress }": [
-        "De la:{ fromEmailAddress }$"
-      ],
-      "To: ${ toEmailAddress }": [
-        "Către: ${ toEmailAddress }"
       ],
       "Enable Beta Access": [
         "Activare acces la Beta"
@@ -4680,9 +4695,6 @@
       "Mailbox password": [
         "Parolă mesaje"
       ],
-      "e.g. Julia Smith": [
-        "ex: Iulia Sandu"
-      ],
       "OS name": [
         "Sistem de operare"
       ],
@@ -4703,6 +4715,9 @@
       ],
       "Browser version": [
         "Versiune navigator"
+      ],
+      "e.g. Julia Smith": [
+        "ex: Iulia Sandu"
       ],
       "ZIP": [
         "ZIP"
@@ -4795,6 +4810,16 @@
     "PGP key encryption warning": {
       "Key cannot be used for encryption": [
         "Cheia nu poate fi folosită pentru criptare."
+      ]
+    },
+    "Font Face Default": {
+      "Default": [
+        ""
+      ]
+    },
+    "Font Size Default": {
+      "Default": [
+        ""
       ]
     },
     "Storage": {
@@ -4932,8 +4957,8 @@
       "Contacts could not be merged": [
         "Contactele nu au putut fi îmbinate"
       ],
-      "Your local date & time settings seem to be out of sync.": [
-        "Setările locale de dată și oră par să nu fie sincronizate."
+      "Are you sure you want to discard your import?": [
+        "Sigur doriți să anulați importarea?"
       ],
       "Live chat is a premium feature available only to those with paid ProtonVPN plans. Please open a ticket instead.": [
         "Chat-ul live este o funcție premium disponibilă doar pentru cei care au planuri ProtonVPN plătite. În schimb, vă rugăm să deschideți un tichet."
@@ -4944,11 +4969,11 @@
       "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
         "Rapoartele nu sunt criptate în ambele părți. Nu trimiteți informații confidențiale."
       ],
+      "Your local date & time settings seem to be out of sync.": [
+        "Setările locale de dată și oră par să nu fie sincronizate."
+      ],
       "Please note that by choosing this payment method, your account cannot be upgraded immediately. We will update your account once the payment is cleared.": [
         "Rețineți că alegând această metodă de plată, contul nu va fi modificat imediat. Contul va fi modificat după confirmarea plății."
-      ],
-      "Are you sure you want to discard your import?": [
-        "Sigur doriți să anulați importarea?"
       ],
       "The attachment's signature failed verification.\nYou can still download this attachment but it might have been tampered with.": [
         "Verificarea semnăturii atașamentului a eșuat.\nÎncă puteți descărca acest atașament, dar este posibil să fi fost modificat.",
@@ -4994,14 +5019,14 @@
       "Verification successful": [
         "Verificare reușită"
       ],
+      "Bug reported": [
+        "Eroare raportată"
+      ],
       "Keyboard shortcuts preferences updated": [
         "Preferințele combinațiilor de taste au fost actualizate"
       ],
       "Preference saved": [
         "Preferințe salvate"
-      ],
-      "Bug reported": [
-        "Eroare raportată"
       ],
       "You have successfully unsubscribed": [
         "Operația de dezabonare a fost finalizată."
@@ -5500,11 +5525,6 @@
         "S-au criptat și adăugat în lista de contacte ${ totalImported }/${ totalToImport } de contacte."
       ]
     },
-    "Select files": {
-      "Upload": [
-        "Încărcare"
-      ]
-    },
     "Delinquent modal title": {
       "Overdue invoice": [
         "Factură restantă"
@@ -5527,78 +5547,12 @@
         "Nicio metodă de verificare disponibilă"
       ]
     },
-    "Onboarding Proton": {
-      "This is what people will see when you send them an email, invite them to an event, or share a file with them.": [
-        "Aceasta e ceea ce vor vedea oamenii când le trimiteți un e-mail, îi veți invita la un eveniment sau când le veți partaja un fișier."
-      ],
-      "Choose a display name": [
-        "Alegeți un nume de afișat"
-      ],
-      "Select a theme": [
-        "Selectaţi o temă"
-      ],
-      "You can change this anytime in your settings.": [
-        "Puteți modifica oricând aceasta în setări."
-      ],
-      "Discover all Proton services": [
-        "Descoperiți toate serviciile Proton"
-      ],
-      "Use the app selector in the top left to access other Proton services, including VPN, Calendar and Drive.": [
-        "Utilizați selectorul de aplicații din stânga sus pentru a accesa alte servicii Proton, inclusiv VPN, Calendar și Drive."
-      ],
-      "Welcome to Proton": [
-        "Bine ați venit la ProtonMail"
-      ],
-      "Our mission is to build an internet where you are in control of your data and your privacy. We have recently updated Proton - welcome to the secure internet.": [
-        "Misiunea noastră este să construim un internet în care aveți controlul și confidențialitatea datelor personale. Am actualizat recent Proton - bine ați venit la un internet securizat."
-      ],
-      "Set up your organization": [
-        "Setați organizația"
-      ],
-      "Configure your organization, link your domain name, and create accounts to ensure all members of your organization are protected.": [
-        "Configurați-vă organizația, asociați un nume de domeniu și creați conturi pentru a vă asigura că toți membrii organizației vă sunt protejați."
+    "Select files": {
+      "Upload": [
+        "Încărcare"
       ]
     },
-    "Onboarding Beta": {
-      "Got it": [
-        "Am înțeles"
-      ],
-      "Beta enabled": [
-        "Beta activată"
-      ],
-      "To disable beta, open the settings dropdown menu and click on the “Beta Access” option.": [
-        "Pentru a dezactiva versiunea beta, deschideți meniul derulant din setări și faceți clic pe opțiunea „Acces la Beta\"."
-      ]
-    },
-    "Message display when a new app version is available": {
-      "A new version of ${ appName } is available. ${ reloadButton }.": [
-        "O versiune nouă a ${ appName } este disponibilă. ${ reloadButton }."
-      ]
-    },
-    "Text": {
-      "Settings": [
-        "Setări"
-      ]
-    },
-    "Enabled": {
-      "On": [
-        "Activat"
-      ]
-    },
-    "Disabled": {
-      "Off": [
-        "Dezactivat"
-      ]
-    },
-    "Layout mode": {
-      "Column": [
-        "Coloane"
-      ],
-      "Row": [
-        "Rânduri"
-      ]
-    },
-    "Density mode": {
+    "Label to change density": {
       "Comfortable": [
         "Confortabilă"
       ],
@@ -5606,12 +5560,47 @@
         "Compactă"
       ]
     },
-    "Composer size": {
-      "Maximized": [
-        "Mare"
+    "Label to change view layout": {
+      "Column": [
+        "Coloane"
       ],
+      "Row": [
+        "Rânduri"
+      ]
+    },
+    "Label to change composer mode": {
       "Normal": [
         "Normal"
+      ],
+      "Maximized": [
+        "Maximizat"
+      ]
+    },
+    "Loading info": {
+      "Connecting to your contacts provider": [
+        "Conectare la furnizorul de contacte"
+      ]
+    },
+    "Wizard step": {
+      "Authenticate": [
+        "Autentificare"
+      ],
+      "Configure Import": [
+        "Configurare importare"
+      ],
+      "Import": [
+        "Importare"
+      ]
+    },
+    "Confirm modal title": {
+      "Quit import?": [
+        "Anulați importarea?"
+      ],
+      "Message saved to Drafts": [
+        "Mesaj salvat în «Ciorne»"
+      ],
+      "Edit and reschedule": [
+        "Editare și reprogramare"
       ]
     },
     "Error notification in the bug report modal when the user upload file": {
@@ -5724,6 +5713,103 @@
     "Label, make it short please": {
       "Attach screenshot(s)": [
         "Atașare captură ecran"
+      ]
+    },
+    "Onboarding Proton": {
+      "This is what people will see when you send them an email, invite them to an event, or share a file with them.": [
+        "Aceasta e ceea ce vor vedea oamenii când le trimiteți un e-mail, îi veți invita la un eveniment sau când le veți partaja un fișier."
+      ],
+      "Choose a display name": [
+        "Alegeți un nume de afișat"
+      ],
+      "Select a theme": [
+        "Selectaţi o temă"
+      ],
+      "You can change this anytime in your settings.": [
+        "Puteți modifica oricând aceasta în setări."
+      ],
+      "Discover all Proton services": [
+        "Descoperiți toate serviciile Proton"
+      ],
+      "Use the app selector in the top left to access other Proton services, including VPN, Calendar and Drive.": [
+        "Utilizați selectorul de aplicații din stânga sus pentru a accesa alte servicii Proton, inclusiv VPN, Calendar și Drive."
+      ],
+      "Welcome to Proton": [
+        "Bine ați venit la ProtonMail"
+      ],
+      "Our mission is to build an internet where you are in control of your data and your privacy. We have recently updated Proton - welcome to the secure internet.": [
+        "Misiunea noastră este să construim un internet în care aveți controlul și confidențialitatea datelor personale. Am actualizat recent Proton - bine ați venit la un internet securizat."
+      ],
+      "Set up your organization": [
+        "Setați organizația"
+      ],
+      "Configure your organization, link your domain name, and create accounts to ensure all members of your organization are protected.": [
+        "Configurați-vă organizația, asociați un nume de domeniu și creați conturi pentru a vă asigura că toți membrii organizației vă sunt protejați."
+      ]
+    },
+    "Onboarding Beta": {
+      "Got it": [
+        "Am înțeles"
+      ],
+      "Beta enabled": [
+        "Beta activată"
+      ],
+      "To disable beta, open the settings dropdown menu and click on the “Beta Access” option.": [
+        "Pentru a dezactiva versiunea beta, deschideți meniul derulant din setări și faceți clic pe opțiunea „Acces la Beta\"."
+      ]
+    },
+    "Message display when a new app version is available": {
+      "A new version of ${ appName } is available. ${ reloadButton }.": [
+        "O versiune nouă a ${ appName } este disponibilă. ${ reloadButton }."
+      ]
+    },
+    "Text": {
+      "Settings": [
+        "Setări"
+      ]
+    },
+    "Early Access Enabled": {
+      "On": [
+        ""
+      ]
+    },
+    "Early Access Disabled": {
+      "Off": [
+        ""
+      ]
+    },
+    "Keyboard Shortcuts Enabled": {
+      "On": [
+        ""
+      ]
+    },
+    "Keyboard Shortcuts Disabled": {
+      "Off": [
+        ""
+      ]
+    },
+    "Layout mode": {
+      "Column": [
+        "Coloane"
+      ],
+      "Row": [
+        "Rânduri"
+      ]
+    },
+    "Density mode": {
+      "Comfortable": [
+        "Confortabilă"
+      ],
+      "Compact": [
+        "Compactă"
+      ]
+    },
+    "Composer size": {
+      "Maximized": [
+        "Mare"
+      ],
+      "Normal": [
+        "Normal"
       ]
     },
     "Info for cash payment method": {
@@ -6182,57 +6268,6 @@
       ],
       "Bitcoin": [
         "Bitcoin"
-      ]
-    },
-    "Label to change density": {
-      "Comfortable": [
-        "Confortabilă"
-      ],
-      "Compact": [
-        "Compactă"
-      ]
-    },
-    "Label to change view layout": {
-      "Column": [
-        "Coloane"
-      ],
-      "Row": [
-        "Rânduri"
-      ]
-    },
-    "Label to change composer mode": {
-      "Normal": [
-        "Normal"
-      ],
-      "Maximized": [
-        "Maximizat"
-      ]
-    },
-    "Loading info": {
-      "Connecting to your contacts provider": [
-        "Conectare la furnizorul de contacte"
-      ]
-    },
-    "Wizard step": {
-      "Authenticate": [
-        "Autentificare"
-      ],
-      "Configure Import": [
-        "Configurare importare"
-      ],
-      "Import": [
-        "Importare"
-      ]
-    },
-    "Confirm modal title": {
-      "Quit import?": [
-        "Anulați importarea?"
-      ],
-      "Message saved to Drafts": [
-        "Mesaj salvat în «Ciorne»"
-      ],
-      "Edit and reschedule": [
-        "Editare și reprogramare"
       ]
     },
     "Beta access description": {

@@ -86,11 +86,11 @@
       "Calendar primary private key is not decrypted": [
         "La clé privée principale du calendrier n'est pas déchiffrée"
       ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser": [
-        "Il est possible que ce message contienne des liens URL qui pourraient ne pas être ouverts correctement par votre navigateur actuel"
-      ],
       "Unknown error": [
         "Erreur inconnue"
+      ],
+      "This message may contain some link's URL that cannot be properly opened by your current browser": [
+        "Il est possible que ce message contienne des liens URL qui pourraient ne pas être ouverts correctement par votre navigateur actuel"
       ],
       "Authentication canceled.": [
         "Authentification annulée."
@@ -104,14 +104,14 @@
       "Email address invalid": [
         "Adresse électronique invalide"
       ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "Le navigateur que vous utilisez ne permet pas de finaliser l’autorisation de paiement. Veuillez utiliser un autre navigateur ou vous connecter via un ordinateur."
+      ],
       "The composer failed to load.": [
         "Le composeur n'a pas pu être chargé."
       ],
       "Please refresh the page.": [
         "Veuillez actualiser la page."
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "Le navigateur que vous utilisez ne permet pas de finaliser l’autorisation de paiement. Veuillez utiliser un autre navigateur ou vous connecter via un ordinateur."
       ],
       "Some groups could not be deleted": [
         "Certains groupes n'ont pas pu être supprimés"
@@ -154,9 +154,6 @@
       "A group with this name already exists": [
         "Un groupe portant ce nom existe déjà"
       ],
-      "File has no contents to preview": [
-        "Ce fichier n'a pas de contenu à prévisualiser"
-      ],
       "Incorrect mailbox password. Please try again": [
         "Mot de passe de la messagerie incorrect. Veuillez réessayer"
       ],
@@ -177,6 +174,15 @@
       ],
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "Quelque chose s'est mal passé, veuillez ${ refresh } afin de pouvoir continuer. Si ce message d'erreur s'affiche toujours, veuillez contacter notre ${ supportTeam }."
+      ],
+      "We were unable to connect to your service provider.": [
+        "Nous n'avons pas pu nous connecter à votre fournisseur de service."
+      ],
+      "Please try to reauthenticate and make sure the permissions are set correctly.": [
+        "Veuillez essayer de vous authentifier à nouveau et vous assurer que les autorisations sont définies correctement."
+      ],
+      "File has no contents to preview": [
+        "Ce fichier n'a pas de contenu à prévisualiser"
       ],
       "Process aborted": [
         "Processus interrompu"
@@ -237,12 +243,6 @@
       ],
       "Invalid code": [
         "Code non valide"
-      ],
-      "We were unable to connect to your service provider.": [
-        "Nous n'avons pas pu nous connecter à votre fournisseur de service."
-      ],
-      "Please try to reauthenticate and make sure the permissions are set correctly.": [
-        "Veuillez essayer de vous authentifier à nouveau et vous assurer que les autorisations sont définies correctement."
       ],
       "Empty condition": [
         "Condition vide"
@@ -568,6 +568,9 @@
       "Learn more": [
         "En savoir plus"
       ],
+      "Loading": [
+        "Chargement"
+      ],
       "Insert image": [
         "Insérer une image"
       ],
@@ -613,9 +616,6 @@
       "Change your default in settings": [
         "Changez votre valeur par défaut dans les paramètres"
       ],
-      "Default": [
-        "Par défaut"
-      ],
       "Text color": [
         "Couleur du texte"
       ],
@@ -645,9 +645,6 @@
       ],
       "Plain text": [
         "Texte brut"
-      ],
-      "Loading": [
-        "Chargement"
       ],
       "Drop the file here to upload": [
         "Déposez un fichier ici pour le télécharger"
@@ -774,24 +771,6 @@
         "${ addressCount } adresse électronique",
         "${ addressCount } adresses électroniques"
       ],
-      "Unsupported file": [
-        "Fichier non pris en charge"
-      ],
-      "No preview available": [
-        "Aucun aperçu disponible"
-      ],
-      "Preview": [
-        "Aperçu"
-      ],
-      "Loading preview": [
-        "Chargement de l'aperçu"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "Ce navigateur ne prend pas en charge l'aperçu des documents PDF. Veuillez télécharger le fichier."
-      ],
-      "of": [
-        "sur"
-      ],
       "here": [
         "ici"
       ],
@@ -830,6 +809,57 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Si vous rencontrez des difficultés à créer votre compte, veuillez demander une invitation et nous vous répondrons dans un délai d'un jour ouvré."
+      ],
+      "support team": [
+        "équipe d'assistance"
+      ],
+      "Import contacts": [
+        "Importer les contacts"
+      ],
+      "Your contacts are being imported from": [
+        "Vos contacts sont importés depuis"
+      ],
+      "to": [
+        "vers"
+      ],
+      "Your import has started!": [
+        "Votre importation a commencé !"
+      ],
+      "We will notify you once your import is finished.": [
+        "Nous vous informerons lorsque votre importation sera terminée."
+      ],
+      "Large imports can take several days to complete.": [
+        "Les importations importantes peuvent prendre plusieurs jours."
+      ],
+      "You can continue using Proton services as usual.": [
+        "Vous pouvez continuer à utiliser les services Proton comme d'habitude."
+      ],
+      "Your import will not be processed.": [
+        "Votre importation ne sera pas traitée."
+      ],
+      "Screenshot(s) attached": [
+        "Capture(s) d’écran jointe(s)"
+      ],
+      "Refreshing the page or ${ link } will automatically resolve most issues.": [
+        "Rafraîchir la page ou ${ link } résoudra automatiquement la plupart des problèmes."
+      ],
+      "Unsupported file": [
+        "Fichier non pris en charge"
+      ],
+      "No preview available": [
+        "Aucun aperçu disponible"
+      ],
+      "Preview": [
+        "Aperçu"
+      ],
+      "Loading preview": [
+        "Chargement de l'aperçu"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "Ce navigateur ne prend pas en charge l'aperçu des documents PDF. Veuillez télécharger le fichier."
+      ],
+      "of": [
+        "sur"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "La navigation de base et les actions restent disponibles indépendamment des raccourcis clavier activés ou non dans les paramètres."
@@ -890,15 +920,6 @@
       ],
       "You have disabled Beta Access. Click ${ refreshButton } to use the stable version of ${ appName }. The application will be reloaded.": [
         "Vous avez désactivé l'accès à la version bêta. Cliquez ${ refreshButton } pour utiliser la version stable de ${ appName }. L'application sera rechargée."
-      ],
-      "support team": [
-        "équipe d'assistance"
-      ],
-      "Screenshot(s) attached": [
-        "Capture(s) d’écran jointe(s)"
-      ],
-      "Refreshing the page or ${ link } will automatically resolve most issues.": [
-        "Rafraîchir la page ou ${ link } résoudra automatiquement la plupart des problèmes."
       ],
       "Since you're a loyal user, your account has additional features enabled.": [
         "Puisque vous êtes un utilisateur fidèle, votre compte dispose de fonctionnalités supplémentaires activées."
@@ -1138,30 +1159,6 @@
       ],
       "Expired": [
         "Expirée"
-      ],
-      "Import contacts": [
-        "Importer les contacts"
-      ],
-      "Your contacts are being imported from": [
-        "Vos contacts sont importés depuis"
-      ],
-      "to": [
-        "vers"
-      ],
-      "Your import has started!": [
-        "Votre importation a commencé !"
-      ],
-      "We will notify you once your import is finished.": [
-        "Nous vous informerons lorsque votre importation sera terminée."
-      ],
-      "Large imports can take several days to complete.": [
-        "Les importations importantes peuvent prendre plusieurs jours."
-      ],
-      "You can continue using Proton services as usual.": [
-        "Vous pouvez continuer à utiliser les services Proton comme d'habitude."
-      ],
-      "Your import will not be processed.": [
-        "Votre importation ne sera pas traitée."
       ],
       "Inherited from parent folder": [
         "Hérité du dossier parent"
@@ -1712,25 +1709,37 @@
       "Download our mobile application from your favorite app store to communicate securely on-the-go.": [
         "Téléchargez notre application mobile depuis votre boutique d'applications préférée pour communiquer en toute sécurité."
       ],
-      "${ count } conversation": [
-        "${ count } conversation",
-        "${ count } conversations"
+      "You selected **${ count } conversation** from this folder": [
+        "",
+        ""
       ],
-      "${ count } message": [
-        "${ count } message",
-        "${ count } messages"
+      "You selected **${ count } message** from this folder": [
+        "",
+        ""
       ],
-      "You selected ${ countOfConversationOrMessage } from this folder": [
-        "Vous avez sélectionné ${ countOfConversationOrMessage } de ce dossier"
+      "You have **${ count } conversation** stored in this folder": [
+        "",
+        ""
       ],
-      "You have ${ countOfConversationOrMessage } stored in this folder": [
-        "Vous avez ${ countOfConversationOrMessage } stockés dans ce dossier"
+      "You have **${ count } message** stored in this folder": [
+        "",
+        ""
       ],
-      "You selected ${ countOfConversationOrMessage } with this label": [
-        "Vous avez sélectionné ${ countOfConversationOrMessage } avec ce label"
+      "You selected **${ count } conversation** with this label": [
+        "",
+        ""
       ],
-      "You have ${ countOfConversationOrMessage } tagged with this label": [
-        "Vous avez sélectionné ${ countOfConversationOrMessage } marqués avec ce label"
+      "You selected **${ count } message** with this label": [
+        "",
+        ""
+      ],
+      "You have **${ count } conversation** tagged with this label": [
+        "",
+        ""
+      ],
+      "You have **${ count } message** tagged with this label": [
+        "",
+        ""
       ],
       "Using your mobile device, scan this QR-Code or visit ${ link }.": [
         "Avec votre appareil mobile, scannez ce QR-Code ou visitez ${ link }."
@@ -2890,27 +2899,6 @@
       "Next": [
         "Suivant"
       ],
-      "Details": [
-        "Détails"
-      ],
-      "Share via link": [
-        "Partager avec un lien"
-      ],
-      "Sharing options": [
-        "Options de partage"
-      ],
-      "Zoom out": [
-        "Zoom arrière"
-      ],
-      "Reset zoom": [
-        "Réinitialiser le zoom"
-      ],
-      "Zoom in": [
-        "Zoom avant"
-      ],
-      "Previous": [
-        "Précédent"
-      ],
       "Log in": [
         "Se connecter"
       ],
@@ -2938,6 +2926,57 @@
       "Edit phone number": [
         "Modifier le numéro de téléphone"
       ],
+      "Use ${ label } theme": [
+        "Utiliser le thème « ${ label } »"
+      ],
+      "OK": [
+        "OK"
+      ],
+      "Continue import": [
+        "Continuer l'importation"
+      ],
+      "Discard": [
+        "Abandonner"
+      ],
+      "Reconnect": [
+        "Reconnecter"
+      ],
+      "Start import": [
+        "Démarrer l'importation"
+      ],
+      "Clear": [
+        "Effacer"
+      ],
+      "Add screenshot(s)": [
+        "Ajouter une ou des capture(s) d'écran"
+      ],
+      "Hide info": [
+        "Masquer les infos"
+      ],
+      "Show info": [
+        "Afficher les infos"
+      ],
+      "Details": [
+        "Détails"
+      ],
+      "Share via link": [
+        "Partager avec un lien"
+      ],
+      "Sharing options": [
+        "Options de partage"
+      ],
+      "Zoom out": [
+        "Zoom arrière"
+      ],
+      "Reset zoom": [
+        "Réinitialiser le zoom"
+      ],
+      "Zoom in": [
+        "Zoom avant"
+      ],
+      "Previous": [
+        "Précédent"
+      ],
       "Get started": [
         "Commencer"
       ],
@@ -2949,12 +2988,6 @@
       ],
       "Back": [
         "Précédent"
-      ],
-      "Use ${ label } theme": [
-        "Utiliser le thème « ${ label } »"
-      ],
-      "OK": [
-        "OK"
       ],
       "Copy to clipboard": [
         "Copier dans le presse-papiers"
@@ -2979,9 +3012,6 @@
       ],
       "Search": [
         "Rechercher"
-      ],
-      "Clear": [
-        "Effacer"
       ],
       "${ BRAND_NAME } introduction": [
         "Présentation de ${ BRAND_NAME }"
@@ -3027,15 +3057,6 @@
       ],
       "Composer size": [
         "Taille du composeur"
-      ],
-      "Add screenshot(s)": [
-        "Ajouter une ou des capture(s) d'écran"
-      ],
-      "Hide info": [
-        "Masquer les infos"
-      ],
-      "Show info": [
-        "Afficher les infos"
       ],
       "Remove bonuses": [
         "Retirer les bonus"
@@ -3084,18 +3105,6 @@
       ],
       "Increase": [
         "Augmenter"
-      ],
-      "Continue import": [
-        "Continuer l'importation"
-      ],
-      "Discard": [
-        "Abandonner"
-      ],
-      "Reconnect": [
-        "Reconnecter"
-      ],
-      "Start import": [
-        "Démarrer l'importation"
       ],
       "Preview": [
         "Aperçu"
@@ -3638,6 +3647,15 @@
       "Select a theme": [
         "Choisissez un thème"
       ],
+      "Start import process": [
+        "Démarrer le processus d'importation"
+      ],
+      "Import in progress": [
+        "Importation en cours"
+      ],
+      "Report a problem": [
+        "Signaler un problème"
+      ],
       "${ appName } Keyboard Shortcuts": [
         "Raccourcis clavier ${ appName }"
       ],
@@ -3658,9 +3676,6 @@
       ],
       "Open settings menu": [
         "Ouvrir le menu des paramètres"
-      ],
-      "Report a problem": [
-        "Signaler un problème"
       ],
       "Confirm loss of Proton bonuses": [
         "Confirmer la perte des bonus Proton"
@@ -3751,12 +3766,6 @@
       ],
       "${ appName } customization": [
         "Personnalisation de ${ appName }"
-      ],
-      "Start import process": [
-        "Démarrer le processus d'importation"
-      ],
-      "Import in progress": [
-        "Importation en cours"
       ],
       "Beta Access": [
         "Accès à la version bêta"
@@ -3992,6 +4001,9 @@
       "Request an invite": [
         "Demander une invitation"
       ],
+      "clearing your browser cache": [
+        "vider le cache de votre navigateur"
+      ],
       "Pay invoice": [
         "Payer la facture"
       ],
@@ -4003,9 +4015,6 @@
       ],
       "Go to subscription plans": [
         "Aller aux abonnements"
-      ],
-      "clearing your browser cache": [
-        "vider le cache de votre navigateur"
       ],
       "click here": [
         "cliquez ici"
@@ -4240,26 +4249,11 @@
       "Enter the 6-digit code": [
         "Saisissez le code à 6 chiffres"
       ],
-      "Display name": [
-        "Nom d'affichage"
+      "From: ${ fromEmailAddress }": [
+        "De : { fromEmailAddress }$"
       ],
-      "Keyboard shortcuts": [
-        "Raccourcis clavier"
-      ],
-      "Select how your list of messages looks like by default.": [
-        "Sélectionnez l'apparence de votre liste de messages par défaut."
-      ],
-      "Select how your mailbox looks like by default.": [
-        "Sélectionnez l'apparence de votre boîte aux lettres par défaut."
-      ],
-      "Select how your composer opens by default.": [
-        "Sélectionnez la façon dont votre composeur s'ouvre par défaut."
-      ],
-      "Recovery phrase": [
-        "Phrase de récupération"
-      ],
-      "Your recovery phrase": [
-        "Votre phrase de récupération"
+      "To: ${ toEmailAddress }": [
+        "À : ${ toEmailAddress }"
       ],
       "Operating system": [
         "Système d'exploitation"
@@ -4284,6 +4278,27 @@
       ],
       "Browser version": [
         "Version du navigateur"
+      ],
+      "Display name": [
+        "Nom d'affichage"
+      ],
+      "Keyboard shortcuts": [
+        "Raccourcis clavier"
+      ],
+      "Select how your list of messages looks like by default.": [
+        "Sélectionnez l'apparence de votre liste de messages par défaut."
+      ],
+      "Select how your mailbox looks like by default.": [
+        "Sélectionnez l'apparence de votre boîte aux lettres par défaut."
+      ],
+      "Select how your composer opens by default.": [
+        "Sélectionnez la façon dont votre composeur s'ouvre par défaut."
+      ],
+      "Recovery phrase": [
+        "Phrase de récupération"
+      ],
+      "Your recovery phrase": [
+        "Votre phrase de récupération"
       ],
       "Name on card": [
         "Nom sur la carte"
@@ -4332,12 +4347,6 @@
       ],
       "Payer": [
         "Payeur"
-      ],
-      "From: ${ fromEmailAddress }": [
-        "De : { fromEmailAddress }$"
-      ],
-      "To: ${ toEmailAddress }": [
-        "À : ${ toEmailAddress }"
       ],
       "Enable Beta Access": [
         "Activer l'accès à la version bêta"
@@ -4590,9 +4599,6 @@
       "Mailbox password": [
         "Mot de passe de la messagerie"
       ],
-      "e.g. Julia Smith": [
-        "p. ex. Julia Smith"
-      ],
       "OS name": [
         "Nom du système d'exploitation"
       ],
@@ -4613,6 +4619,9 @@
       ],
       "Browser version": [
         "Version du navigateur"
+      ],
+      "e.g. Julia Smith": [
+        "p. ex. Julia Smith"
       ],
       "ZIP": [
         "Code postal"
@@ -4698,6 +4707,16 @@
     "PGP key encryption warning": {
       "Key cannot be used for encryption": [
         "La clé ne peut pas être utilisée pour le chiffrement"
+      ]
+    },
+    "Font Face Default": {
+      "Default": [
+        ""
+      ]
+    },
+    "Font Size Default": {
+      "Default": [
+        ""
       ]
     },
     "Storage": {
@@ -4833,8 +4852,8 @@
       "Contacts could not be merged": [
         "Les contacts n'ont pas pu être fusionnés"
       ],
-      "Your local date & time settings seem to be out of sync.": [
-        "Vos paramètres de date et d'heure locaux semblent désynchronisés."
+      "Are you sure you want to discard your import?": [
+        "Êtes-vous sûr de vouloir annuler votre importation ?"
       ],
       "Live chat is a premium feature available only to those with paid ProtonVPN plans. Please open a ticket instead.": [
         "Le dialogue en ligne en temps réel est une fonctionnalité premium disponible uniquement pour les personnes disposant d’une offre ProtonVPN payante. Veuillez ouvrir un ticket à la place."
@@ -4845,11 +4864,11 @@
       "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
         "Les rapports d’erreur ne sont pas chiffrés de bout en bout, merci de ne pas envoyer d'informations sensibles."
       ],
+      "Your local date & time settings seem to be out of sync.": [
+        "Vos paramètres de date et d'heure locaux semblent désynchronisés."
+      ],
       "Please note that by choosing this payment method, your account cannot be upgraded immediately. We will update your account once the payment is cleared.": [
         "Veuillez noter qu'en choisissant ce mode de paiement, vous ne pourrez avoir accès à votre nouvelle offre immédiatement. Nous mettrons à jour votre compte une fois le paiement effectué."
-      ],
-      "Are you sure you want to discard your import?": [
-        "Êtes-vous sûr de vouloir annuler votre importation ?"
       ],
       "The attachment's signature failed verification.\nYou can still download this attachment but it might have been tampered with.": [
         "La signature de la pièce jointe a échoué à la vérification.\nVous pouvez toujours télécharger cette pièce jointe, mais elle pourrait avoir été altérée.",
@@ -4892,14 +4911,14 @@
       "Verification successful": [
         "Vérification réussie"
       ],
+      "Bug reported": [
+        "Bug signalé"
+      ],
       "Keyboard shortcuts preferences updated": [
         "Préférences des raccourcis clavier mises à jour"
       ],
       "Preference saved": [
         "Préférence enregistrée"
-      ],
-      "Bug reported": [
-        "Bug signalé"
       ],
       "You have successfully unsubscribed": [
         "Vous vous êtes désabonné avec succès"
@@ -5374,11 +5393,6 @@
         "${ totalImported }/${ totalToImport } contacts chiffrés et ajoutés à votre liste de contacts"
       ]
     },
-    "Select files": {
-      "Upload": [
-        "Importer"
-      ]
-    },
     "Delinquent modal title": {
       "Overdue invoice": [
         "Facture impayée"
@@ -5401,78 +5415,12 @@
         "Aucune méthode de vérification disponible"
       ]
     },
-    "Onboarding Proton": {
-      "This is what people will see when you send them an email, invite them to an event, or share a file with them.": [
-        "C'est ce que les gens verront quand vous leur enverrez un courriel, les inviterez à un événement ou partagerez un fichier avec eux."
-      ],
-      "Choose a display name": [
-        "Choisissez un nom d'affichage"
-      ],
-      "Select a theme": [
-        "Choisissez un thème"
-      ],
-      "You can change this anytime in your settings.": [
-        "Vous pouvez modifier cela à tout moment dans vos paramètres."
-      ],
-      "Discover all Proton services": [
-        "Découvrez tous les services Proton"
-      ],
-      "Use the app selector in the top left to access other Proton services, including VPN, Calendar and Drive.": [
-        "Utilisez le sélecteur d'applications en haut à gauche pour accéder à d'autres services Proton, y compris VPN, Calendar et Drive."
-      ],
-      "Welcome to Proton": [
-        "Bienvenue sur Proton"
-      ],
-      "Our mission is to build an internet where you are in control of your data and your privacy. We have recently updated Proton - welcome to the secure internet.": [
-        "Notre mission est de construire un Internet où vous contrôlez vos données et votre confidentialité. Nous avons récemment mis à jour Proton - bienvenue sur un Internet sécurisé."
-      ],
-      "Set up your organization": [
-        "Configurez votre organisation"
-      ],
-      "Configure your organization, link your domain name, and create accounts to ensure all members of your organization are protected.": [
-        "Configurez votre organisation, associez votre nom de domaine et créez des comptes pour garantir la protection de tous les membres de votre organisation."
+    "Select files": {
+      "Upload": [
+        "Importer"
       ]
     },
-    "Onboarding Beta": {
-      "Got it": [
-        "J'ai compris"
-      ],
-      "Beta enabled": [
-        "Bêta activée"
-      ],
-      "To disable beta, open the settings dropdown menu and click on the “Beta Access” option.": [
-        "Pour désactiver la version bêta, ouvrez le menu déroulant des paramètres et cliquez sur l'option « Accès anticipé »."
-      ]
-    },
-    "Message display when a new app version is available": {
-      "A new version of ${ appName } is available. ${ reloadButton }.": [
-        "Une nouvelle version de ${ appName } est disponible. ${ reloadButton }."
-      ]
-    },
-    "Text": {
-      "Settings": [
-        "Paramètres"
-      ]
-    },
-    "Enabled": {
-      "On": [
-        "Activé"
-      ]
-    },
-    "Disabled": {
-      "Off": [
-        "Désactivé"
-      ]
-    },
-    "Layout mode": {
-      "Column": [
-        "Colonne"
-      ],
-      "Row": [
-        "Ligne"
-      ]
-    },
-    "Density mode": {
+    "Label to change density": {
       "Comfortable": [
         "Confortable"
       ],
@@ -5480,12 +5428,47 @@
         "Compact"
       ]
     },
-    "Composer size": {
-      "Maximized": [
-        "Maximisé"
+    "Label to change view layout": {
+      "Column": [
+        "Colonne"
       ],
+      "Row": [
+        "Ligne"
+      ]
+    },
+    "Label to change composer mode": {
       "Normal": [
         "Normal"
+      ],
+      "Maximized": [
+        "Maximisé"
+      ]
+    },
+    "Loading info": {
+      "Connecting to your contacts provider": [
+        "Connexion à votre fournisseur de contacts"
+      ]
+    },
+    "Wizard step": {
+      "Authenticate": [
+        "S'authentifier"
+      ],
+      "Configure Import": [
+        "Configurer l'importation"
+      ],
+      "Import": [
+        "Importer"
+      ]
+    },
+    "Confirm modal title": {
+      "Quit import?": [
+        "Quitter l'importation ?"
+      ],
+      "Message saved to Drafts": [
+        "Message déplacé dans les brouillons"
+      ],
+      "Edit and reschedule": [
+        "Modifier et reprogrammer"
       ]
     },
     "Error notification in the bug report modal when the user upload file": {
@@ -5598,6 +5581,103 @@
     "Label, make it short please": {
       "Attach screenshot(s)": [
         "Joindre une ou des capture(s) d'écran"
+      ]
+    },
+    "Onboarding Proton": {
+      "This is what people will see when you send them an email, invite them to an event, or share a file with them.": [
+        "C'est ce que les gens verront quand vous leur enverrez un courriel, les inviterez à un événement ou partagerez un fichier avec eux."
+      ],
+      "Choose a display name": [
+        "Choisissez un nom d'affichage"
+      ],
+      "Select a theme": [
+        "Choisissez un thème"
+      ],
+      "You can change this anytime in your settings.": [
+        "Vous pouvez modifier cela à tout moment dans vos paramètres."
+      ],
+      "Discover all Proton services": [
+        "Découvrez tous les services Proton"
+      ],
+      "Use the app selector in the top left to access other Proton services, including VPN, Calendar and Drive.": [
+        "Utilisez le sélecteur d'applications en haut à gauche pour accéder à d'autres services Proton, y compris VPN, Calendar et Drive."
+      ],
+      "Welcome to Proton": [
+        "Bienvenue sur Proton"
+      ],
+      "Our mission is to build an internet where you are in control of your data and your privacy. We have recently updated Proton - welcome to the secure internet.": [
+        "Notre mission est de construire un Internet où vous contrôlez vos données et votre confidentialité. Nous avons récemment mis à jour Proton - bienvenue sur un Internet sécurisé."
+      ],
+      "Set up your organization": [
+        "Configurez votre organisation"
+      ],
+      "Configure your organization, link your domain name, and create accounts to ensure all members of your organization are protected.": [
+        "Configurez votre organisation, associez votre nom de domaine et créez des comptes pour garantir la protection de tous les membres de votre organisation."
+      ]
+    },
+    "Onboarding Beta": {
+      "Got it": [
+        "J'ai compris"
+      ],
+      "Beta enabled": [
+        "Bêta activée"
+      ],
+      "To disable beta, open the settings dropdown menu and click on the “Beta Access” option.": [
+        "Pour désactiver la version bêta, ouvrez le menu déroulant des paramètres et cliquez sur l'option « Accès anticipé »."
+      ]
+    },
+    "Message display when a new app version is available": {
+      "A new version of ${ appName } is available. ${ reloadButton }.": [
+        "Une nouvelle version de ${ appName } est disponible. ${ reloadButton }."
+      ]
+    },
+    "Text": {
+      "Settings": [
+        "Paramètres"
+      ]
+    },
+    "Early Access Enabled": {
+      "On": [
+        ""
+      ]
+    },
+    "Early Access Disabled": {
+      "Off": [
+        ""
+      ]
+    },
+    "Keyboard Shortcuts Enabled": {
+      "On": [
+        ""
+      ]
+    },
+    "Keyboard Shortcuts Disabled": {
+      "Off": [
+        ""
+      ]
+    },
+    "Layout mode": {
+      "Column": [
+        "Colonne"
+      ],
+      "Row": [
+        "Ligne"
+      ]
+    },
+    "Density mode": {
+      "Comfortable": [
+        "Confortable"
+      ],
+      "Compact": [
+        "Compact"
+      ]
+    },
+    "Composer size": {
+      "Maximized": [
+        "Maximisé"
+      ],
+      "Normal": [
+        "Normal"
       ]
     },
     "Info for cash payment method": {
@@ -6045,57 +6125,6 @@
       ],
       "Bitcoin": [
         "Bitcoin"
-      ]
-    },
-    "Label to change density": {
-      "Comfortable": [
-        "Confortable"
-      ],
-      "Compact": [
-        "Compact"
-      ]
-    },
-    "Label to change view layout": {
-      "Column": [
-        "Colonne"
-      ],
-      "Row": [
-        "Ligne"
-      ]
-    },
-    "Label to change composer mode": {
-      "Normal": [
-        "Normal"
-      ],
-      "Maximized": [
-        "Maximisé"
-      ]
-    },
-    "Loading info": {
-      "Connecting to your contacts provider": [
-        "Connexion à votre fournisseur de contacts"
-      ]
-    },
-    "Wizard step": {
-      "Authenticate": [
-        "S'authentifier"
-      ],
-      "Configure Import": [
-        "Configurer l'importation"
-      ],
-      "Import": [
-        "Importer"
-      ]
-    },
-    "Confirm modal title": {
-      "Quit import?": [
-        "Quitter l'importation ?"
-      ],
-      "Message saved to Drafts": [
-        "Message déplacé dans les brouillons"
-      ],
-      "Edit and reschedule": [
-        "Modifier et reprogrammer"
       ]
     },
     "Beta access description": {
