@@ -5,18 +5,36 @@
   },
   "contexts": {
     "": {},
-    "Message": {
-      "Re:": [
-        "Re:"
+    "file size format": {
+      "bytes": [
+        "байт"
       ],
-      "Fw:": [
-        "Fw:"
+      "KB": [
+        "КБ"
       ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "${ date }, ${ name } ${ address } написал(а):"
+      "MB": [
+        "МБ"
+      ],
+      "GB": [
+        "ГБ"
       ]
     },
     "Error": {
+      "This field is required": [
+        "Это обязательное поле"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Минимальная длина для этого поля: ${ minimumLength }."
+      ],
+      "Email is not valid": [
+        "Эл. почта недействительна"
+      ],
+      "Not a valid number": [
+        "Номер недействителен"
+      ],
+      "Passwords do not match": [
+        "Пароли не совпадают"
+      ],
       "Email address disabled": [
         "Адрес электронной почты неактивен"
       ],
@@ -41,23 +59,14 @@
       "The sending key is not valid": [
         "Недействительный ключ отправки"
       ],
-      "This field is required": [
-        "Это обязательное поле"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Минимальная длина для этого поля: ${ minimumLength }."
-      ],
-      "Email is not valid": [
-        "Эл. почта недействительна"
-      ],
-      "Not a valid number": [
-        "Номер недействителен"
-      ],
-      "Passwords do not match": [
-        "Пароли не совпадают"
-      ],
       "Request timed out.": [
         "Истекло время ожидания запроса."
+      ],
+      "Signature verification failed": [
+        "Проверка подписи не удалась"
+      ],
+      "Could not find address ${ email }.": [
+        "Не могу найти адрес ${ email }."
       ],
       "Missing signature": [
         "Подпись отсутствует"
@@ -73,12 +82,6 @@
       ],
       "The key properties for ${ emailAddress } could not be extracted": [
         "Не удалось извлечь свойства ключа для ${ emailAddress }"
-      ],
-      "Signature verification failed": [
-        "Проверка подписи не удалась"
-      ],
-      "Could not find address ${ email }.": [
-        "Не могу найти адрес ${ email }."
       ],
       "Address primary private key not found": [
         "Основной секретный ключ для адреса не найден"
@@ -112,6 +115,27 @@
       ],
       "Please refresh the page.": [
         "Пожалуйста, обновите страницу."
+      ],
+      "Incorrect mailbox password. Please try again": [
+        "Неверный пароль. Пожалуйста, попробуйте еще раз"
+      ],
+      "Incorrect login credentials. Please try again": [
+        "Неверные учетные данные. Повторите попытку"
+      ],
+      "Can't validate email, try again later": [
+        "Не удается проверить адрес электронной почты. Повторите попытку позже."
+      ],
+      "Can't validate phone, try again later": [
+        "Не удается проверить номер телефона. Повторите попытку позже."
+      ],
+      "Enter 6 digits": [
+        "Введите 6 цифр"
+      ],
+      "Invalid verification code": [
+        "Неверный проверочный код"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Что-то пошло не так. Пожалуйста ${ refresh } чтобы продолжить. Если вы все еще видите сообщение об ошибке, пожалуйста свяжитесь нашей ${ supportTeam }."
       ],
       "Some groups could not be deleted": [
         "Некоторые группы не могут быть удалены"
@@ -157,27 +181,6 @@
       ],
       "A group with this name already exists": [
         "Группа с таким именем уже существует"
-      ],
-      "Incorrect mailbox password. Please try again": [
-        "Неверный пароль. Пожалуйста, попробуйте еще раз"
-      ],
-      "Incorrect login credentials. Please try again": [
-        "Неверные учетные данные. Повторите попытку"
-      ],
-      "Can't validate email, try again later": [
-        "Не удается проверить адрес электронной почты. Повторите попытку позже."
-      ],
-      "Can't validate phone, try again later": [
-        "Не удается проверить номер телефона. Повторите попытку позже."
-      ],
-      "Enter 6 digits": [
-        "Введите 6 цифр"
-      ],
-      "Invalid verification code": [
-        "Неверный проверочный код"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Что-то пошло не так. Пожалуйста ${ refresh } чтобы продолжить. Если вы все еще видите сообщение об ошибке, пожалуйста свяжитесь нашей ${ supportTeam }."
       ],
       "We were unable to connect to your service provider.": [
         "Не удалось подключиться к вашему поставщику услуг."
@@ -390,18 +393,12 @@
         "Слишком много активных фильтров. Пожалуйста, перейдите на платный план для активации дополнительных фильтров"
       ]
     },
-    "file size format": {
-      "bytes": [
-        "байт"
-      ],
-      "KB": [
-        "КБ"
-      ],
-      "MB": [
-        "МБ"
-      ],
-      "GB": [
-        "ГБ"
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "Пароль должен включать по меньшей мере ${ length } символ",
+        "Пароль должен включать по меньшей мере ${ length } символа",
+        "Пароль должен включать по меньшей мере ${ length } символов",
+        "Пароль должен включать по меньшей мере ${ length } символа"
       ]
     },
     "Contact field label": {
@@ -518,12 +515,15 @@
         "Адрес"
       ]
     },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "Пароль должен включать по меньшей мере ${ length } символ",
-        "Пароль должен включать по меньшей мере ${ length } символа",
-        "Пароль должен включать по меньшей мере ${ length } символов",
-        "Пароль должен включать по меньшей мере ${ length } символа"
+    "Message": {
+      "Re:": [
+        "Re:"
+      ],
+      "Fw:": [
+        "Fw:"
+      ],
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "${ date }, ${ name } ${ address } написал(а):"
       ]
     },
     "Info": {
@@ -572,6 +572,9 @@
         "(${ memberCount } участников)",
         "(${ memberCount } участника)"
       ],
+      "Loading": [
+        "Загрузка"
+      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Эта ссылка может быть омографической атакой и не может быть открыта браузерами Internet Explorer и Edge. Если вы уверены, что ссылка безопасна, то, пожалуйста, воспользуйтесь другим браузером для её открытия."
       ],
@@ -583,9 +586,6 @@
       ],
       "Learn more": [
         "Узнать больше"
-      ],
-      "Loading": [
-        "Загрузка"
       ],
       "Insert image": [
         "Вставить изображение"
@@ -667,6 +667,48 @@
       ],
       "Loading ${ appName }": [
         "Загрузка ${ appName }"
+      ],
+      "here": [
+        "здесь"
+      ],
+      "This account has been suspended due to a potential policy violation.": [
+        "Этот аккаунт был приостановлен из-за потенциального нарушения политики."
+      ],
+      "If you believe this is in error, please contact us ${ contactLink }.": [
+        "Если вы считаете, что это ошибка, пожалуйста, свяжитесь с нами ${ contactLink }."
+      ],
+      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
+        "Сейчас Ваш аккаунт Proton приостановлен. Чтобы продолжить использование вашего аккаунта, пожалуйста, оплатите просроченные счета."
+      ],
+      "Would you like to receive a new verification code or use an alternative verification method?": [
+        "Вы хотите получить новый проверочный код или использовать другой метод проверки?"
+      ],
+      "Enter the verification code that was sent to ${ destinationText }.": [
+        "Введите код подтверждения, отправленный на ${ destinationText }."
+      ],
+      "If you don't find the email in your inbox, please check your spam folder.": [
+        "Если сообщения нет в папке \"Входящие\" — проверьте, не попало ли оно в папку «спам»."
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
+        "Нажмите «Запросить новый код», и мы отправим новый проверочный код на ${ strong }. Если этот адрес электронной почты неверный, выберите «Изменить» для обновления."
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
+        "Нажмите «Запросить новый код», и мы отправим новый проверочный код на ${ strong }. Если этот номер телефона неверный, выберите «Изменить» для обновления."
+      ],
+      "To fight spam and abuse, please verify you are human.": [
+        "Для предотвращения распространения спама и иных злоупотреблений нашим сервисом, нам нужно убедиться, что вы человек."
+      ],
+      "Your email will only be used for this one-time verification.": [
+        "Ваш адрес электронной почты будет использован только для этой разовой проверки."
+      ],
+      "Your phone number will only be used for this one-time verification.": [
+        "Ваш номер телефона будет использоваться только для этой разовой проверки."
+      ],
+      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
+        "Если у вас возникли проблемы с созданием учетной записи, пожалуйста, запросите приглашение и мы ответим в течение одного рабочего дня."
+      ],
+      "support team": [
+        "служба поддержки"
       ],
       "No contacts added yet": [
         "Контакты ещё не добавлены"
@@ -796,48 +838,6 @@
         "${ addressCount } адреса электронной почты",
         "${ addressCount } адресов электронной почты",
         "${ addressCount } адреса электронной почты"
-      ],
-      "here": [
-        "здесь"
-      ],
-      "This account has been suspended due to a potential policy violation.": [
-        "Этот аккаунт был приостановлен из-за потенциального нарушения политики."
-      ],
-      "If you believe this is in error, please contact us ${ contactLink }.": [
-        "Если вы считаете, что это ошибка, пожалуйста, свяжитесь с нами ${ contactLink }."
-      ],
-      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
-        "Сейчас Ваш аккаунт Proton приостановлен. Чтобы продолжить использование вашего аккаунта, пожалуйста, оплатите просроченные счета."
-      ],
-      "Would you like to receive a new verification code or use an alternative verification method?": [
-        "Вы хотите получить новый проверочный код или использовать другой метод проверки?"
-      ],
-      "Enter the verification code that was sent to ${ destinationText }.": [
-        "Введите код подтверждения, отправленный на ${ destinationText }."
-      ],
-      "If you don't find the email in your inbox, please check your spam folder.": [
-        "Если сообщения нет в папке \"Входящие\" — проверьте, не попало ли оно в папку «спам»."
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
-        "Нажмите «Запросить новый код», и мы отправим новый проверочный код на ${ strong }. Если этот адрес электронной почты неверный, выберите «Изменить» для обновления."
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
-        "Нажмите «Запросить новый код», и мы отправим новый проверочный код на ${ strong }. Если этот номер телефона неверный, выберите «Изменить» для обновления."
-      ],
-      "To fight spam and abuse, please verify you are human.": [
-        "Для предотвращения распространения спама и иных злоупотреблений нашим сервисом, нам нужно убедиться, что вы человек."
-      ],
-      "Your email will only be used for this one-time verification.": [
-        "Ваш адрес электронной почты будет использован только для этой разовой проверки."
-      ],
-      "Your phone number will only be used for this one-time verification.": [
-        "Ваш номер телефона будет использоваться только для этой разовой проверки."
-      ],
-      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
-        "Если у вас возникли проблемы с созданием учетной записи, пожалуйста, запросите приглашение и мы ответим в течение одного рабочего дня."
-      ],
-      "support team": [
-        "служба поддержки"
       ],
       "Import contacts": [
         "Импортировать контакты"
@@ -1839,6 +1839,11 @@
         "Используя мобильное устройство, отсканируйте этот QR-код или перейдите по ссылке ${ link }."
       ]
     },
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "Адрес электронной почты не найден среди идентификаторов пользователя, определенных в ключе отправки (${ keyUserIds })"
+      ]
+    },
     "Default display name vcard": {
       "Unknown": [
         "Неизвестный"
@@ -1883,11 +1888,6 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "Произошла ошибка при чтении файла ${ formattedFilename }. Формат файла не поддерживается."
-      ]
-    },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "Адрес электронной почты не найден среди идентификаторов пользователя, определенных в ключе отправки (${ keyUserIds })"
       ]
     },
     "Keyboard shortcut section name": {
@@ -2239,17 +2239,11 @@
       ]
     },
     "Email subject": {
-      "Cancellation of an event on ${ formattedStart }": [
-        "Отмена события, начинающегося ${ formattedStart }"
-      ],
       "Invitation for an event on ${ formattedStart }": [
         "Приглашение на мероприятие, начинающееся ${ formattedStart }"
       ],
       "Update for an event on ${ formattedStart }": [
         "Обновление события, начинающегося ${ formattedStart }"
-      ],
-      "Cancellation of an event starting on ${ formattedStart }": [
-        "Отмена события, начинающегося ${ formattedStart }"
       ],
       "Invitation for an event starting on ${ formattedStart }": [
         "Приглашение на событие, начинающееся ${ formattedStart }"
@@ -2257,8 +2251,11 @@
       "Update for an event starting on ${ formattedStart }": [
         "Обновить для события, начинающегося ${ formattedStart }"
       ],
-      "Invitation: ${ eventTitle }": [
-        "Приглашение: ${ eventTitle }"
+      "Cancellation of an event on ${ formattedStart }": [
+        "Отмена события, начинающегося ${ formattedStart }"
+      ],
+      "Cancellation of an event starting on ${ formattedStart }": [
+        "Отмена события, начинающегося ${ formattedStart }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -2914,6 +2911,33 @@
       "refresh the page": [
         "обновить страницу"
       ],
+      "Log in": [
+        "Войти"
+      ],
+      "View invoice": [
+        "Посмотреть счёт"
+      ],
+      "Get verification code": [
+        "Получить проверочный код"
+      ],
+      "Try another method": [
+        "Попробуйте другой способ"
+      ],
+      "Request new code": [
+        "Запросить новый код"
+      ],
+      "Verify": [
+        "Подтвердить"
+      ],
+      "Did not receive the code?": [
+        "Вы не получили код?"
+      ],
+      "Edit email address": [
+        "Изменить адрес эл. почты"
+      ],
+      "Edit phone number": [
+        "Изменить номер телефона"
+      ],
       "Upgrade": [
         "Повысить"
       ],
@@ -3072,33 +3096,6 @@
       ],
       "Next": [
         "Далее"
-      ],
-      "Log in": [
-        "Войти"
-      ],
-      "View invoice": [
-        "Посмотреть счёт"
-      ],
-      "Get verification code": [
-        "Получить проверочный код"
-      ],
-      "Try another method": [
-        "Попробуйте другой способ"
-      ],
-      "Request new code": [
-        "Запросить новый код"
-      ],
-      "Verify": [
-        "Подтвердить"
-      ],
-      "Did not receive the code?": [
-        "Вы не получили код?"
-      ],
-      "Edit email address": [
-        "Изменить адрес эл. почты"
-      ],
-      "Edit phone number": [
-        "Изменить номер телефона"
       ],
       "Use ${ label } theme": [
         "Использовать тему ${ label }"
@@ -3675,6 +3672,27 @@
       "What's new": [
         "Что нового"
       ],
+      "Sign in again to continue": [
+        "Чтобы продолжить, повторно войдите ещё раз"
+      ],
+      "Account suspended": [
+        "Учетная запись приостановлена"
+      ],
+      "Enter your username or ProtonMail email address": [
+        "Введите ваше имя пользователя или адрес эл. почты ProtonMail"
+      ],
+      "Enter your password": [
+        "Введите свой пароль"
+      ],
+      "Invalid verification code": [
+        "Неверный проверочный код"
+      ],
+      "Request new code": [
+        "Запросить новый код"
+      ],
+      "Human verification": [
+        "Проверка \"Я не робот\""
+      ],
       "Upgrade required": [
         "Требуется переход на платную версию"
       ],
@@ -3806,27 +3824,6 @@
       ],
       "Import contacts": [
         "Импорт контактов"
-      ],
-      "Sign in again to continue": [
-        "Чтобы продолжить, повторно войдите ещё раз"
-      ],
-      "Account suspended": [
-        "Учетная запись приостановлена"
-      ],
-      "Enter your username or ProtonMail email address": [
-        "Введите ваше имя пользователя или адрес эл. почты ProtonMail"
-      ],
-      "Enter your password": [
-        "Введите свой пароль"
-      ],
-      "Invalid verification code": [
-        "Неверный проверочный код"
-      ],
-      "Request new code": [
-        "Запросить новый код"
-      ],
-      "Human verification": [
-        "Проверка \"Я не робот\""
       ],
       "Select a theme": [
         "Выбор темы"
@@ -4186,6 +4183,11 @@
         "Добро пожаловать"
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        "Ключ не может быть использован для шифрования"
+      ]
+    },
     "Link": {
       "Learn more": [
         "Подробнее"
@@ -4213,6 +4215,36 @@
       ],
       "Add a gift code": [
         "Добавить подарочный код"
+      ],
+      "Inbox": [
+        "Входящие"
+      ],
+      "Drafts": [
+        "Черновики"
+      ],
+      "Sent": [
+        "Отправленные"
+      ],
+      "Trash": [
+        "Корзина"
+      ],
+      "Spam": [
+        "Спам"
+      ],
+      "All mail": [
+        "Вся почта"
+      ],
+      "Archive": [
+        "Архив"
+      ],
+      "Starred": [
+        "Со звёздами"
+      ],
+      "Outbox": [
+        "Исходящие"
+      ],
+      "Scheduled": [
+        "Расписание"
       ],
       "You need to activate your calendar keys to add this event": [
         "Вы должны активировать ключи вашего календаря, чтобы добавить это событие"
@@ -4289,33 +4321,6 @@
       "Add label": [
         "Добавить ярлык"
       ],
-      "Inbox": [
-        "Входящие"
-      ],
-      "Drafts": [
-        "Черновики"
-      ],
-      "Scheduled": [
-        "Расписание"
-      ],
-      "Sent": [
-        "Отправленные"
-      ],
-      "Starred": [
-        "Со звёздами"
-      ],
-      "Archive": [
-        "Архив"
-      ],
-      "Spam": [
-        "Спам"
-      ],
-      "Trash": [
-        "Корзина"
-      ],
-      "All mail": [
-        "Вся почта"
-      ],
       "Folders": [
         "Папки"
       ],
@@ -4327,9 +4332,6 @@
       ],
       "Manage your labels": [
         "Управлять вашими ярлыками"
-      ],
-      "Outbox": [
-        "Исходящие"
       ]
     },
     "Label": {
@@ -4344,6 +4346,36 @@
       ],
       "Do not ask again": [
         "Больше не спрашивать"
+      ],
+      "Cancel": [
+        "Отменить"
+      ],
+      "Submit": [
+        "Отправить"
+      ],
+      "Password": [
+        "Пароль"
+      ],
+      "Mailbox password": [
+        "Пароль почтового ящика"
+      ],
+      "Two-factor authentication code": [
+        "Код двухфакторной аутентификации"
+      ],
+      "Username or ProtonMail address": [
+        "Имя пользователя или адрес ProtonMail"
+      ],
+      "Email address": [
+        "Адрес эл. почты"
+      ],
+      "Phone number": [
+        "Номер телефона"
+      ],
+      "Verification code": [
+        "Проверочный код"
+      ],
+      "Enter the 6-digit code": [
+        "Введите код из шести цифр"
       ],
       "Add email address": [
         "Добавить адрес эл. почты"
@@ -4410,36 +4442,6 @@
       ],
       "Export contacts": [
         "Экспорт контактов"
-      ],
-      "Cancel": [
-        "Отменить"
-      ],
-      "Submit": [
-        "Отправить"
-      ],
-      "Password": [
-        "Пароль"
-      ],
-      "Mailbox password": [
-        "Пароль почтового ящика"
-      ],
-      "Two-factor authentication code": [
-        "Код двухфакторной аутентификации"
-      ],
-      "Username or ProtonMail address": [
-        "Имя пользователя или адрес ProtonMail"
-      ],
-      "Email address": [
-        "Адрес эл. почты"
-      ],
-      "Phone number": [
-        "Номер телефона"
-      ],
-      "Verification code": [
-        "Проверочный код"
-      ],
-      "Enter the 6-digit code": [
-        "Введите код из шести цифр"
       ],
       "From: ${ fromEmailAddress }": [
         "От: ${ fromEmailAddress }"
@@ -4714,29 +4716,20 @@
       "Keyword": [
         "Ключевое слово"
       ],
-      "Address": [
-        "Адрес"
-      ],
-      "Sender": [
-        "Отправитель"
-      ],
       "From": [
         "От"
-      ],
-      "Recipient": [
-        "Получатель"
       ],
       "To": [
         "Кому"
       ],
-      "Between": [
-        "Между"
+      "Sender": [
+        "Отправитель"
+      ],
+      "Recipient": [
+        "Получатель"
       ],
       "Attachments": [
         "Вложения"
-      ],
-      "Filter": [
-        "Фильтр"
       ],
       "Also archive": [
         "Также перенести в архив"
@@ -4767,6 +4760,9 @@
       "Text": [
         "Текст"
       ],
+      "Mailbox password": [
+        "Пароль почтового ящика"
+      ],
       "Start typing an email address": [
         "Начните вводить адрес эл. почты"
       ],
@@ -4787,9 +4783,6 @@
       ],
       "Name": [
         "Название"
-      ],
-      "Mailbox password": [
-        "Пароль почтового ящика"
       ],
       "OS name": [
         "Название ОС"
@@ -4842,14 +4835,17 @@
       "Hint": [
         "Подсказка"
       ],
-      "Name or email address": [
-        "Имя или адрес эл. почты"
+      "Search Messages": [
+        ""
       ],
       "Start date": [
         "Начиная с"
       ],
       "End date": [
         "Дата окончания"
+      ],
+      "Name or email address": [
+        "Имя или адрес эл. почты"
       ],
       "Search messages": [
         "Поиск сообщений"
@@ -4908,11 +4904,6 @@
         "Найдено ${ items.length } предложения, используйте клавиатуру для навигации.",
         "Найдено ${ items.length } предложений, используйте клавиатуру для навигации.",
         "Найдено ${ items.length } предложений, используйте клавиатуру для навигации."
-      ]
-    },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        "Ключ не может быть использован для шифрования"
       ]
     },
     "Font Face Default": {
@@ -4990,104 +4981,18 @@
         "Перейти к ${ vpnName }"
       ]
     },
-    "Table header": {
-      "Name": [
-        "Имя"
-      ],
-      "Address": [
-        "Адрес"
-      ],
-      "Action": [
-        "Действие"
-      ],
-      "Fingerprint": [
-        "Отпечаток"
-      ],
-      "Created": [
-        "Создано"
-      ],
-      "Expires": [
-        "Истекает"
-      ],
-      "Type": [
-        "Тип"
-      ],
-      "Status": [
-        "Состояние"
-      ],
-      "Actions": [
-        "Действия"
-      ]
-    },
-    "Warning": {
-      "This feature requires a paid Proton account": [
-        "Для этой функции требуется платная учётная запись Proton"
-      ],
-      "Are you sure you want to permanently delete this contact group?": [
-        "Вы уверены, что хотите удалить эту группу контактов?"
-      ],
-      "Are you sure you want to permanently delete ${ count } contact group?": [
-        "Вы уверены, что хотите навсегда удалить ${ count } группу контактов?",
-        "Вы уверены, что хотите навсегда удалить ${ count } группы контактов?",
-        "Вы уверены, что хотите навсегда удалить ${ count } групп контактов?",
-        "Вы уверены, что хотите навсегда удалить ${ count } групп контактов?"
-      ],
-      "Are you sure you want to permanently delete this contact?": [
-        "Вы уверены, что хотите навсегда удалить этот контакт?"
-      ],
-      "Are you sure you want to permanently delete ${ count } contact?": [
-        "Вы уверены, что хотите навсегда удалить ${ count } контакт?",
-        "Вы уверены, что хотите навсегда удалить ${ count } контакта?",
-        "Вы уверены, что хотите навсегда удалить ${ count } контактов?",
-        "Вы уверены, что хотите навсегда удалить ${ count } контактов?"
-      ],
-      "If you don’t remember your password, it is impossible to re-activate your key. We can help you dismiss the alert banner but in the process you will permanently lose access to all the data encrypted with that key.": [
-        "Если вы не помните свой пароль, повторно активировать ключ невозможно. Мы можем помочь вам отключить предупреждение, но тогда вы навсегда потеряете доступ ко всем данным, зашифрованным с помощью этого ключа."
-      ],
-      "This action is irreversible. Please enter the word ${ boldDanger } in the field to proceed.": [
-        "Это действие необратимо. Пожалуйста, введите слово «${ boldDanger }» в поле для продолжения."
-      ],
-      "The decryption of the encrypted content failed.": [
-        "Не удалось расшифровать зашифрованный контент."
-      ],
-      "The verification of the contact details' signature failed.": [
-        "Сбой проверки подписи контактных данных."
-      ],
-      "The contact failed to load.": [
-        "Контакт не загрузился."
-      ],
-      "Some of the contacts to be merged display errors. Please review them individually": [
-        "Некоторые из планируемых к объединению контактов отображают ошибки. Пожалуйста, рассмотрите каждый из них по отдельности"
-      ],
-      "Contacts could not be merged": [
-        "Контакты не могут быть объединены"
-      ],
-      "Are you sure you want to discard your import?": [
-        "Вы уверены, что решили отменить ваш импорт?"
-      ],
-      "Live chat is a premium feature available only to those with paid ProtonVPN plans. Please open a ticket instead.": [
-        ""
-      ],
-      "Unfortunately, we’re not online at the moment. Please complete the form below to describe your issue, and we will look into it and be in touch when we’re back online.": [
-        "К сожалению, в данный момент мы не работаем в режиме онлайн. Пожалуйста, заполните форму ниже, чтобы описать вашу проблему, и мы рассмотрим ее и свяжемся с вами, когда вернемся к работе."
-      ],
-      "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
-        "Отчеты отправляются без сквозного шифрования. Пожалуйста, не указывайте никакой конфиденциальной информации."
-      ],
-      "Your local date & time settings seem to be out of sync.": [
-        "Ваши локальные параметры даты и времени не синхронизированы."
-      ],
-      "Please note that by choosing this payment method, your account cannot be upgraded immediately. We will update your account once the payment is cleared.": [
-        "Пожалуйста, обратите внимание, что при выборе этого способа оплаты ваша учетная запись не может быть обновлена сразу. Мы обновим вашу учетную запись после подтверждения оплаты."
-      ],
-      "The attachment's signature failed verification.\nYou can still download this attachment but it might have been tampered with.": [
-        "Не удалось проверить подпись вложения.\nВы можете загрузить это вложение, но оно могло быть изменено.",
-        "Не удалось проверить подпись некоторых вложений.\nТем не менее вы можете скачать эти вложения, но оно могли быть подменены.",
-        "Не удалось проверить подпись некоторых вложений.\nТем не менее вы можете скачать эти вложения, но оно могли быть подменены.",
-        "Не удалось проверить подпись некоторых вложений.\nТем не менее вы можете скачать эти вложения, но оно могли быть подменены."
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "Просроченный счёт"
       ]
     },
     "Success": {
+      "Code sent to ${ methodTo }": [
+        "Код отправлен на ${ methodTo }"
+      ],
+      "Verification successful": [
+        "Проверка прошла успешно"
+      ],
       "Contact group deleted": [
         "Группа контактов удалена",
         "Группы контактов удалены",
@@ -5120,12 +5025,6 @@
       ],
       "Address copied to clipboard": [
         "Адрес скопирован в буфер обмена"
-      ],
-      "Code sent to ${ methodTo }": [
-        "Код отправлен на ${ methodTo }"
-      ],
-      "Verification successful": [
-        "Проверка прошла успешно"
       ],
       "Bug reported": [
         "Отчёт об ошибке отправлен"
@@ -5315,6 +5214,120 @@
         "Переместить ${ selectionCount } цепочки писем",
         "Переместить ${ selectionCount } цепочки писем",
         "Переместить ${ selectionCount } цепочки писем"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "Капча"
+      ],
+      "Email": [
+        "Эл. почта"
+      ],
+      "SMS": [
+        "Короткое сообщение на телефон"
+      ],
+      "Manual": [
+        "Вручную"
+      ],
+      "No verification method available": [
+        "Нет доступных способов проверки"
+      ]
+    },
+    "Table header": {
+      "Name": [
+        "Имя"
+      ],
+      "Address": [
+        "Адрес"
+      ],
+      "Action": [
+        "Действие"
+      ],
+      "Fingerprint": [
+        "Отпечаток"
+      ],
+      "Created": [
+        "Создано"
+      ],
+      "Expires": [
+        "Истекает"
+      ],
+      "Type": [
+        "Тип"
+      ],
+      "Status": [
+        "Состояние"
+      ],
+      "Actions": [
+        "Действия"
+      ]
+    },
+    "Warning": {
+      "This feature requires a paid Proton account": [
+        "Для этой функции требуется платная учётная запись Proton"
+      ],
+      "Are you sure you want to permanently delete this contact group?": [
+        "Вы уверены, что хотите удалить эту группу контактов?"
+      ],
+      "Are you sure you want to permanently delete ${ count } contact group?": [
+        "Вы уверены, что хотите навсегда удалить ${ count } группу контактов?",
+        "Вы уверены, что хотите навсегда удалить ${ count } группы контактов?",
+        "Вы уверены, что хотите навсегда удалить ${ count } групп контактов?",
+        "Вы уверены, что хотите навсегда удалить ${ count } групп контактов?"
+      ],
+      "Are you sure you want to permanently delete this contact?": [
+        "Вы уверены, что хотите навсегда удалить этот контакт?"
+      ],
+      "Are you sure you want to permanently delete ${ count } contact?": [
+        "Вы уверены, что хотите навсегда удалить ${ count } контакт?",
+        "Вы уверены, что хотите навсегда удалить ${ count } контакта?",
+        "Вы уверены, что хотите навсегда удалить ${ count } контактов?",
+        "Вы уверены, что хотите навсегда удалить ${ count } контактов?"
+      ],
+      "If you don’t remember your password, it is impossible to re-activate your key. We can help you dismiss the alert banner but in the process you will permanently lose access to all the data encrypted with that key.": [
+        "Если вы не помните свой пароль, повторно активировать ключ невозможно. Мы можем помочь вам отключить предупреждение, но тогда вы навсегда потеряете доступ ко всем данным, зашифрованным с помощью этого ключа."
+      ],
+      "This action is irreversible. Please enter the word ${ boldDanger } in the field to proceed.": [
+        "Это действие необратимо. Пожалуйста, введите слово «${ boldDanger }» в поле для продолжения."
+      ],
+      "The decryption of the encrypted content failed.": [
+        "Не удалось расшифровать зашифрованный контент."
+      ],
+      "The verification of the contact details' signature failed.": [
+        "Сбой проверки подписи контактных данных."
+      ],
+      "The contact failed to load.": [
+        "Контакт не загрузился."
+      ],
+      "Some of the contacts to be merged display errors. Please review them individually": [
+        "Некоторые из планируемых к объединению контактов отображают ошибки. Пожалуйста, рассмотрите каждый из них по отдельности"
+      ],
+      "Contacts could not be merged": [
+        "Контакты не могут быть объединены"
+      ],
+      "Are you sure you want to discard your import?": [
+        "Вы уверены, что решили отменить ваш импорт?"
+      ],
+      "Live chat is a premium feature available only to those with paid ProtonVPN plans. Please open a ticket instead.": [
+        ""
+      ],
+      "Unfortunately, we’re not online at the moment. Please complete the form below to describe your issue, and we will look into it and be in touch when we’re back online.": [
+        "К сожалению, в данный момент мы не работаем в режиме онлайн. Пожалуйста, заполните форму ниже, чтобы описать вашу проблему, и мы рассмотрим ее и свяжемся с вами, когда вернемся к работе."
+      ],
+      "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
+        "Отчеты отправляются без сквозного шифрования. Пожалуйста, не указывайте никакой конфиденциальной информации."
+      ],
+      "Your local date & time settings seem to be out of sync.": [
+        "Ваши локальные параметры даты и времени не синхронизированы."
+      ],
+      "Please note that by choosing this payment method, your account cannot be upgraded immediately. We will update your account once the payment is cleared.": [
+        "Пожалуйста, обратите внимание, что при выборе этого способа оплаты ваша учетная запись не может быть обновлена сразу. Мы обновим вашу учетную запись после подтверждения оплаты."
+      ],
+      "The attachment's signature failed verification.\nYou can still download this attachment but it might have been tampered with.": [
+        "Не удалось проверить подпись вложения.\nВы можете загрузить это вложение, но оно могло быть изменено.",
+        "Не удалось проверить подпись некоторых вложений.\nТем не менее вы можете скачать эти вложения, но оно могли быть подменены.",
+        "Не удалось проверить подпись некоторых вложений.\nТем не менее вы можете скачать эти вложения, но оно могли быть подменены.",
+        "Не удалось проверить подпись некоторых вложений.\nТем не менее вы можете скачать эти вложения, но оно могли быть подменены."
       ]
     },
     "Label for contact group name": {
@@ -5578,9 +5591,6 @@
       ],
       "No parent folder": [
         "Без родительской папки"
-      ],
-      "All": [
-        "Все"
       ]
     },
     "Import contact groups info": {
@@ -5657,33 +5667,6 @@
         "${ totalImported }/${ totalToImport } контактов зашифровано и добавлено в ваш список контактов"
       ]
     },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "Просроченный счёт"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "Капча"
-      ],
-      "Email": [
-        "Эл. почта"
-      ],
-      "SMS": [
-        "Короткое сообщение на телефон"
-      ],
-      "Manual": [
-        "Вручную"
-      ],
-      "No verification method available": [
-        "Нет доступных способов проверки"
-      ]
-    },
-    "Select files": {
-      "Upload": [
-        "Загрузить"
-      ]
-    },
     "Label to change density": {
       "Comfortable": [
         "Удобный"
@@ -5706,6 +5689,11 @@
       ],
       "Maximized": [
         "Максимизированный"
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "Загрузить"
       ]
     },
     "Loading info": {
@@ -7151,17 +7139,11 @@
       "All": [
         "Все"
       ],
-      "Yes": [
-        "Да"
+      "With": [
+        ""
       ],
-      "No": [
-        "Нет"
-      ],
-      "Read": [
-        "Прочитанные"
-      ],
-      "Unread": [
-        "Непрочитанные"
+      "Without": [
+        ""
       ]
     },
     "Filter option": {

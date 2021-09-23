@@ -5,18 +5,36 @@
   },
   "contexts": {
     "": {},
-    "Message": {
-      "Re:": [
-        "Re:"
+    "file size format": {
+      "bytes": [
+        "bytes"
       ],
-      "Fw:": [
-        "Enc:"
+      "KB": [
+        "KB"
       ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "Em ${ date }, ${ name } ${ address } escreveu:"
+      "MB": [
+        "MB"
+      ],
+      "GB": [
+        "GB"
       ]
     },
     "Error": {
+      "This field is required": [
+        "Este campo é obrigatório"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Este campo exige um mínimo de ${ minimumLength } caracteres."
+      ],
+      "Email is not valid": [
+        "O e-mail é inválido"
+      ],
+      "Not a valid number": [
+        "Não é um número válido"
+      ],
+      "Passwords do not match": [
+        "As senhas não correspondem"
+      ],
       "Email address disabled": [
         "Endereço de e-mail desativado"
       ],
@@ -41,23 +59,14 @@
       "The sending key is not valid": [
         "A chave de envio não é válida"
       ],
-      "This field is required": [
-        "Este campo é obrigatório"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Este campo exige um mínimo de ${ minimumLength } caracteres."
-      ],
-      "Email is not valid": [
-        "O e-mail é inválido"
-      ],
-      "Not a valid number": [
-        "Não é um número válido"
-      ],
-      "Passwords do not match": [
-        "As senhas não correspondem"
-      ],
       "Request timed out.": [
         "A solicitação expirou."
+      ],
+      "Signature verification failed": [
+        "Falha na verificação da assinatura"
+      ],
+      "Could not find address ${ email }.": [
+        "Não foi possível encontrar o endereço ${ email }."
       ],
       "Missing signature": [
         "Assinatura ausente"
@@ -73,12 +82,6 @@
       ],
       "The key properties for ${ emailAddress } could not be extracted": [
         "As propriedades da chave do ${ emailAddress } não puderam ser extraídas"
-      ],
-      "Signature verification failed": [
-        "Falha na verificação da assinatura"
-      ],
-      "Could not find address ${ email }.": [
-        "Não foi possível encontrar o endereço ${ email }."
       ],
       "Address primary private key not found": [
         "Chave privada primária do endereço não encontrada"
@@ -112,6 +115,27 @@
       ],
       "Please refresh the page.": [
         "Por favor atualize a página."
+      ],
+      "Incorrect mailbox password. Please try again": [
+        "E-mail ou senha incorreta. Por favor, tente novamente"
+      ],
+      "Incorrect login credentials. Please try again": [
+        "Credenciais de acesso incorretas. Por favor, tente novamente"
+      ],
+      "Can't validate email, try again later": [
+        "Não foi possível validar o e-mail, tente novamente mais tarde"
+      ],
+      "Can't validate phone, try again later": [
+        "Não foi possível validar o telefone, tente novamente mais tarde"
+      ],
+      "Enter 6 digits": [
+        "Insira 6 dígitos"
+      ],
+      "Invalid verification code": [
+        "Código de verificação inválido"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Algo deu errado. Por favor, ${ refresh } a página para continuar. Se você continuar vendo esta mensagem de erro, entre em contato com nossa ${ supportTeam }."
       ],
       "Some groups could not be deleted": [
         "Alguns grupos não puderam ser excluídos"
@@ -153,27 +177,6 @@
       ],
       "A group with this name already exists": [
         "Já existe um grupo com esse"
-      ],
-      "Incorrect mailbox password. Please try again": [
-        "E-mail ou senha incorreta. Por favor, tente novamente"
-      ],
-      "Incorrect login credentials. Please try again": [
-        "Credenciais de acesso incorretas. Por favor, tente novamente"
-      ],
-      "Can't validate email, try again later": [
-        "Não foi possível validar o e-mail, tente novamente mais tarde"
-      ],
-      "Can't validate phone, try again later": [
-        "Não foi possível validar o telefone, tente novamente mais tarde"
-      ],
-      "Enter 6 digits": [
-        "Insira 6 dígitos"
-      ],
-      "Invalid verification code": [
-        "Código de verificação inválido"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Algo deu errado. Por favor, ${ refresh } a página para continuar. Se você continuar vendo esta mensagem de erro, entre em contato com nossa ${ supportTeam }."
       ],
       "We were unable to connect to your service provider.": [
         "Não foi possível conectar ao seu provedor de serviços."
@@ -378,18 +381,10 @@
         "Muitos filtros ativos. Por favor, atualize para um plano pago para ativar mais filtros"
       ]
     },
-    "file size format": {
-      "bytes": [
-        "bytes"
-      ],
-      "KB": [
-        "KB"
-      ],
-      "MB": [
-        "MB"
-      ],
-      "GB": [
-        "GB"
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "A senha deve conter ao menos ${ length } caractere",
+        "A senha deve conter ao menos ${ length } caracteres"
       ]
     },
     "Contact field label": {
@@ -506,10 +501,15 @@
         "Endereço"
       ]
     },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "A senha deve conter ao menos ${ length } caractere",
-        "A senha deve conter ao menos ${ length } caracteres"
+    "Message": {
+      "Re:": [
+        "Re:"
+      ],
+      "Fw:": [
+        "Enc:"
+      ],
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "Em ${ date }, ${ name } ${ address } escreveu:"
       ]
     },
     "Info": {
@@ -556,6 +556,9 @@
         "(${ memberCount } membro)",
         "(${ memberCount } membros)"
       ],
+      "Loading": [
+        "Carregando"
+      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Este link pode ser um ataque homográfico e não pode ser aberto pelos navegadores Internet Explorer e Microsoft Edge. Se você tiver certeza de que este link é legítimo, use um navegador diferente para abri-lo."
       ],
@@ -567,9 +570,6 @@
       ],
       "Learn more": [
         "Saiba mais"
-      ],
-      "Loading": [
-        "Carregando"
       ],
       "Insert image": [
         "Inserir imagem"
@@ -651,6 +651,48 @@
       ],
       "Loading ${ appName }": [
         "Carregando ${ appName }"
+      ],
+      "here": [
+        "aqui"
+      ],
+      "This account has been suspended due to a potential policy violation.": [
+        "Essa conta foi suspensa devido a uma potencial violação da política."
+      ],
+      "If you believe this is in error, please contact us ${ contactLink }.": [
+        "Se você acredita que seja um erro, entre em contato conosco ${ contactLink }."
+      ],
+      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
+        "Sua conta Proton está atualmente suspensa. Para continuar usando sua conta, pague as faturas pendentes."
+      ],
+      "Would you like to receive a new verification code or use an alternative verification method?": [
+        "Você gostaria de receber um novo código de verificação ou usar um método de verificação diferente?"
+      ],
+      "Enter the verification code that was sent to ${ destinationText }.": [
+        "Digite o código de verificação que foi enviado para ${ destinationText }."
+      ],
+      "If you don't find the email in your inbox, please check your spam folder.": [
+        "Se você não encontrar o e-mail na caixa de entrada. Por favor, verifique a pasta de spam."
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
+        "Clique em \"Solicitar novo código\" para que um novo código seja enviado para ${ strong }. Se esse e-mail estiver incorreto, clique em \"Editar\" para corrigir isso."
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
+        "Clique em \"Solicitar novo código\" para que um novo código seja enviado para ${ strong }. Se esse número de telefone estiver incorreto, clique em \"Editar\" para corrigir isso."
+      ],
+      "To fight spam and abuse, please verify you are human.": [
+        "Para combater o spam e/ou abuso, verifique se você é humano."
+      ],
+      "Your email will only be used for this one-time verification.": [
+        "Seu e-mail só será utilizado para essa verificação única."
+      ],
+      "Your phone number will only be used for this one-time verification.": [
+        "Seu número de telefone somente será utilizado nessa verificação única."
+      ],
+      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
+        "Se você estiver tendo problemas para criar sua conta, solicite um convite e nós responderemos no prazo de um dia útil."
+      ],
+      "support team": [
+        "equipe de suporte"
       ],
       "No contacts added yet": [
         "Nenhum contato foi adicionado ainda"
@@ -770,48 +812,6 @@
       "${ addressCount } email address": [
         "${ addressCount } endereço de e-mail",
         "${ addressCount } endereços de e-mail"
-      ],
-      "here": [
-        "aqui"
-      ],
-      "This account has been suspended due to a potential policy violation.": [
-        "Essa conta foi suspensa devido a uma potencial violação da política."
-      ],
-      "If you believe this is in error, please contact us ${ contactLink }.": [
-        "Se você acredita que seja um erro, entre em contato conosco ${ contactLink }."
-      ],
-      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
-        "Sua conta Proton está atualmente suspensa. Para continuar usando sua conta, pague as faturas pendentes."
-      ],
-      "Would you like to receive a new verification code or use an alternative verification method?": [
-        "Você gostaria de receber um novo código de verificação ou usar um método de verificação diferente?"
-      ],
-      "Enter the verification code that was sent to ${ destinationText }.": [
-        "Digite o código de verificação que foi enviado para ${ destinationText }."
-      ],
-      "If you don't find the email in your inbox, please check your spam folder.": [
-        "Se você não encontrar o e-mail na caixa de entrada. Por favor, verifique a pasta de spam."
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
-        "Clique em \"Solicitar novo código\" para que um novo código seja enviado para ${ strong }. Se esse e-mail estiver incorreto, clique em \"Editar\" para corrigir isso."
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
-        "Clique em \"Solicitar novo código\" para que um novo código seja enviado para ${ strong }. Se esse número de telefone estiver incorreto, clique em \"Editar\" para corrigir isso."
-      ],
-      "To fight spam and abuse, please verify you are human.": [
-        "Para combater o spam e/ou abuso, verifique se você é humano."
-      ],
-      "Your email will only be used for this one-time verification.": [
-        "Seu e-mail só será utilizado para essa verificação única."
-      ],
-      "Your phone number will only be used for this one-time verification.": [
-        "Seu número de telefone somente será utilizado nessa verificação única."
-      ],
-      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
-        "Se você estiver tendo problemas para criar sua conta, solicite um convite e nós responderemos no prazo de um dia útil."
-      ],
-      "support team": [
-        "equipe de suporte"
       ],
       "Import contacts": [
         "Importar contatos"
@@ -1745,6 +1745,11 @@
         "Utilizando o seu dispositivo móvel, escaneie este código QR ou visite ${ link }."
       ]
     },
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "Endereço de e-mail não encontrado entre as ids de usuário definidas na chave de envio (${ keyUserIds })"
+      ]
+    },
     "Default display name vcard": {
       "Unknown": [
         "Desconhecido"
@@ -1789,11 +1794,6 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "Ocorreu um erro ao ler o arquivo ${ formattedFilename }. O arquivo não tem o formato correto."
-      ]
-    },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "Endereço de e-mail não encontrado entre as ids de usuário definidas na chave de envio (${ keyUserIds })"
       ]
     },
     "Keyboard shortcut section name": {
@@ -2145,17 +2145,11 @@
       ]
     },
     "Email subject": {
-      "Cancellation of an event on ${ formattedStart }": [
-        "Cancelamento de um evento em ${ formattedStart }"
-      ],
       "Invitation for an event on ${ formattedStart }": [
         "Convite para um evento em ${ formattedStart }"
       ],
       "Update for an event on ${ formattedStart }": [
         "Atualização de um evento em ${ formattedStart }"
-      ],
-      "Cancellation of an event starting on ${ formattedStart }": [
-        "Cancelamento de um evento começando em ${ formattedStart }"
       ],
       "Invitation for an event starting on ${ formattedStart }": [
         "Convite para um evento começando em ${ formattedStart }"
@@ -2163,8 +2157,11 @@
       "Update for an event starting on ${ formattedStart }": [
         "Atualização para um evento começando em ${ formattedStart }"
       ],
-      "Invitation: ${ eventTitle }": [
-        "Convite: ${ eventTitle }"
+      "Cancellation of an event on ${ formattedStart }": [
+        "Cancelamento de um evento em ${ formattedStart }"
+      ],
+      "Cancellation of an event starting on ${ formattedStart }": [
+        "Cancelamento de um evento começando em ${ formattedStart }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -2746,6 +2743,33 @@
       "refresh the page": [
         "atualizar a página"
       ],
+      "Log in": [
+        "Iniciar sessão"
+      ],
+      "View invoice": [
+        "Visualizar fatura"
+      ],
+      "Get verification code": [
+        "Obter código de verificação"
+      ],
+      "Try another method": [
+        "Tentar outro método"
+      ],
+      "Request new code": [
+        "Solicitar um novo código"
+      ],
+      "Verify": [
+        "Verificar"
+      ],
+      "Did not receive the code?": [
+        "Não recebeu o código?"
+      ],
+      "Edit email address": [
+        "Editar endereço de e-mail"
+      ],
+      "Edit phone number": [
+        "Editar número de telefone"
+      ],
       "Upgrade": [
         "Upgrade"
       ],
@@ -2898,33 +2922,6 @@
       ],
       "Next": [
         "Próximo"
-      ],
-      "Log in": [
-        "Iniciar sessão"
-      ],
-      "View invoice": [
-        "Visualizar fatura"
-      ],
-      "Get verification code": [
-        "Obter código de verificação"
-      ],
-      "Try another method": [
-        "Tentar outro método"
-      ],
-      "Request new code": [
-        "Solicitar um novo código"
-      ],
-      "Verify": [
-        "Verificar"
-      ],
-      "Did not receive the code?": [
-        "Não recebeu o código?"
-      ],
-      "Edit email address": [
-        "Editar endereço de e-mail"
-      ],
-      "Edit phone number": [
-        "Editar número de telefone"
       ],
       "Use ${ label } theme": [
         "Usar o tema ${ label }"
@@ -3499,6 +3496,27 @@
       "What's new": [
         "O que há de novo"
       ],
+      "Sign in again to continue": [
+        "Inicie a sessão novamente para continuar"
+      ],
+      "Account suspended": [
+        "Conta suspensa"
+      ],
+      "Enter your username or ProtonMail email address": [
+        "Digite seu nome de usuário ou o endereço de e-mail do ProtonMail"
+      ],
+      "Enter your password": [
+        "Digite sua senha"
+      ],
+      "Invalid verification code": [
+        "Código de verificação inválido"
+      ],
+      "Request new code": [
+        "Solicitar novo código"
+      ],
+      "Human verification": [
+        "Verificação humana"
+      ],
       "Upgrade required": [
         "Upgrade necessário"
       ],
@@ -3622,27 +3640,6 @@
       ],
       "Import contacts": [
         "Importar contatos"
-      ],
-      "Sign in again to continue": [
-        "Inicie a sessão novamente para continuar"
-      ],
-      "Account suspended": [
-        "Conta suspensa"
-      ],
-      "Enter your username or ProtonMail email address": [
-        "Digite seu nome de usuário ou o endereço de e-mail do ProtonMail"
-      ],
-      "Enter your password": [
-        "Digite sua senha"
-      ],
-      "Invalid verification code": [
-        "Código de verificação inválido"
-      ],
-      "Request new code": [
-        "Solicitar novo código"
-      ],
-      "Human verification": [
-        "Verificação humana"
       ],
       "Select a theme": [
         "Selecione um tema"
@@ -3994,6 +3991,11 @@
         "Bem-vindo"
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        "A chave não pode ser usada para criptografar"
+      ]
+    },
     "Link": {
       "Learn more": [
         "Saiba mais"
@@ -4021,6 +4023,36 @@
       ],
       "Add a gift code": [
         "Adicionar código de vale-presente"
+      ],
+      "Inbox": [
+        "Caixa de entrada"
+      ],
+      "Drafts": [
+        "Rascunhos"
+      ],
+      "Sent": [
+        "Enviados"
+      ],
+      "Trash": [
+        "Lixeira"
+      ],
+      "Spam": [
+        "Spam"
+      ],
+      "All mail": [
+        "Todos os e-mails"
+      ],
+      "Archive": [
+        "Arquivo"
+      ],
+      "Starred": [
+        "Com estrela"
+      ],
+      "Outbox": [
+        "Caixa de saída"
+      ],
+      "Scheduled": [
+        "Agendado"
       ],
       "You need to activate your calendar keys to add this event": [
         "Você precisa ativar suas chaves de calendário para adicionar este evento"
@@ -4097,33 +4129,6 @@
       "Add label": [
         "Adicionar etiqueta"
       ],
-      "Inbox": [
-        "Caixa de entrada"
-      ],
-      "Drafts": [
-        "Rascunhos"
-      ],
-      "Scheduled": [
-        "Agendado"
-      ],
-      "Sent": [
-        "Enviados"
-      ],
-      "Starred": [
-        "Com estrela"
-      ],
-      "Archive": [
-        "Arquivo"
-      ],
-      "Spam": [
-        "Spam"
-      ],
-      "Trash": [
-        "Lixeira"
-      ],
-      "All mail": [
-        "Todos os e-mails"
-      ],
       "Folders": [
         "Pastas"
       ],
@@ -4135,9 +4140,6 @@
       ],
       "Manage your labels": [
         "Gerenciar seus marcadores"
-      ],
-      "Outbox": [
-        "Caixa de saída"
       ]
     },
     "Label": {
@@ -4152,6 +4154,36 @@
       ],
       "Do not ask again": [
         "Não perguntar novamente"
+      ],
+      "Cancel": [
+        "Cancelar"
+      ],
+      "Submit": [
+        "Enviar"
+      ],
+      "Password": [
+        "Senha"
+      ],
+      "Mailbox password": [
+        "Senha da caixa de correio"
+      ],
+      "Two-factor authentication code": [
+        "Autenticação de dois fatores"
+      ],
+      "Username or ProtonMail address": [
+        "Nome de usuário ou endereço do ProtonMail"
+      ],
+      "Email address": [
+        "Endereço de e-mail"
+      ],
+      "Phone number": [
+        "Número do telefone"
+      ],
+      "Verification code": [
+        "Código de verificação"
+      ],
+      "Enter the 6-digit code": [
+        "Insira o código de 6 dígitos"
       ],
       "Add email address": [
         "Adicionar endereços de e-mail"
@@ -4218,36 +4250,6 @@
       ],
       "Export contacts": [
         "Exportar contatos"
-      ],
-      "Cancel": [
-        "Cancelar"
-      ],
-      "Submit": [
-        "Enviar"
-      ],
-      "Password": [
-        "Senha"
-      ],
-      "Mailbox password": [
-        "Senha da caixa de correio"
-      ],
-      "Two-factor authentication code": [
-        "Autenticação de dois fatores"
-      ],
-      "Username or ProtonMail address": [
-        "Nome de usuário ou endereço do ProtonMail"
-      ],
-      "Email address": [
-        "Endereço de e-mail"
-      ],
-      "Phone number": [
-        "Número do telefone"
-      ],
-      "Verification code": [
-        "Código de verificação"
-      ],
-      "Enter the 6-digit code": [
-        "Insira o código de 6 dígitos"
       ],
       "From: ${ fromEmailAddress }": [
         "De: ${ fromEmailAddress }"
@@ -4522,29 +4524,20 @@
       "Keyword": [
         "Palavra-chave"
       ],
-      "Address": [
-        "Endereço"
-      ],
-      "Sender": [
-        "Remetente"
-      ],
       "From": [
         "De"
-      ],
-      "Recipient": [
-        "Destinatário"
       ],
       "To": [
         "Para"
       ],
-      "Between": [
-        "Entre"
+      "Sender": [
+        "Remetente"
+      ],
+      "Recipient": [
+        "Destinatário"
       ],
       "Attachments": [
         "Anexos"
-      ],
-      "Filter": [
-        "Filtro"
       ],
       "Also archive": [
         "Também arquivar"
@@ -4575,6 +4568,9 @@
       "Text": [
         "Texto"
       ],
+      "Mailbox password": [
+        "Senha da caixa de correio"
+      ],
       "Start typing an email address": [
         "Comece a digitar um endereço de e-mail"
       ],
@@ -4595,9 +4591,6 @@
       ],
       "Name": [
         "Nome"
-      ],
-      "Mailbox password": [
-        "Senha da caixa de correio"
       ],
       "OS name": [
         "Nome do SO"
@@ -4650,14 +4643,17 @@
       "Hint": [
         "Dica"
       ],
-      "Name or email address": [
-        "Nome ou endereço de e-mail"
+      "Search Messages": [
+        "Pesquisar mensagens"
       ],
       "Start date": [
         "Data de início"
       ],
       "End date": [
         "Data de término"
+      ],
+      "Name or email address": [
+        "Nome ou endereço de e-mail"
       ],
       "Search messages": [
         "Pesquisar mensagens"
@@ -4702,11 +4698,6 @@
       "Found ${ items.length } suggestion, use keyboard to navigate.": [
         "Encontrada ${ items.length } sugestão, use o teclado para navegar.",
         "Encontradas ${ items.length } sugestões, use o teclado para navegar."
-      ]
-    },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        "A chave não pode ser usada para criptografar"
       ]
     },
     "Font Face Default": {
@@ -4784,98 +4775,18 @@
         "Ir para ${ vpnName }"
       ]
     },
-    "Table header": {
-      "Name": [
-        "Nome"
-      ],
-      "Address": [
-        "Endereço"
-      ],
-      "Action": [
-        "Ação"
-      ],
-      "Fingerprint": [
-        "Impressão digital"
-      ],
-      "Created": [
-        "Criada"
-      ],
-      "Expires": [
-        "Expira"
-      ],
-      "Type": [
-        "Tipo"
-      ],
-      "Status": [
-        "Status"
-      ],
-      "Actions": [
-        "Ações"
-      ]
-    },
-    "Warning": {
-      "This feature requires a paid Proton account": [
-        "Este recurso requer um plano pago do Proton"
-      ],
-      "Are you sure you want to permanently delete this contact group?": [
-        "Você tem certeza de que deseja excluir permanentemente este grupo de contatos?"
-      ],
-      "Are you sure you want to permanently delete ${ count } contact group?": [
-        "Você tem certeza de que deseja excluir permanentemente ${ count } grupo de contatos?",
-        "Você tem certeza de que deseja excluir permanentemente ${ count } grupos de contatos?"
-      ],
-      "Are you sure you want to permanently delete this contact?": [
-        "Você tem certeza que deseja excluir este contato permanentemente?"
-      ],
-      "Are you sure you want to permanently delete ${ count } contact?": [
-        "Você tem certeza de que deseja excluir permanentemente ${ count } contato?",
-        "Você tem certeza de que deseja excluir permanentemente ${ count } contatos?"
-      ],
-      "If you don’t remember your password, it is impossible to re-activate your key. We can help you dismiss the alert banner but in the process you will permanently lose access to all the data encrypted with that key.": [
-        "Se você não se lembra de sua senha, é impossível reativar sua chave. Nós podemos ajudá-lo a descartar o banner de alerta, mas no processo você perderá o acesso permanente a todos os dados criptografados com essa chave."
-      ],
-      "This action is irreversible. Please enter the word ${ boldDanger } in the field to proceed.": [
-        "Essa ação é irreversível. Digite a palavra ${ boldDanger } no campo para continuar."
-      ],
-      "The decryption of the encrypted content failed.": [
-        "A descriptografia do conteúdo criptografado falhou."
-      ],
-      "The verification of the contact details' signature failed.": [
-        "A verificação da assinatura dos detalhes de contato falhou."
-      ],
-      "The contact failed to load.": [
-        "Falha ao carregar o contato."
-      ],
-      "Some of the contacts to be merged display errors. Please review them individually": [
-        "Alguns dos contatos a serem mesclados apresentam erro. Verifique-os individualmente"
-      ],
-      "Contacts could not be merged": [
-        "Os contatos não puderam ser mesclados"
-      ],
-      "Are you sure you want to discard your import?": [
-        "Tem certeza de que quer descartar sua importação?"
-      ],
-      "Live chat is a premium feature available only to those with paid ProtonVPN plans. Please open a ticket instead.": [
-        ""
-      ],
-      "Unfortunately, we’re not online at the moment. Please complete the form below to describe your issue, and we will look into it and be in touch when we’re back online.": [
-        "Infelizmente, não estamos on-line no momento. Preencha o formulário abaixo para descrever seu problema. Nós investigaremos e entraremos em contato quando estivermos de volta."
-      ],
-      "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
-        "Os relatórios não são criptografados de ponta a ponta. Não envie nenhuma informação confidencial."
-      ],
-      "Your local date & time settings seem to be out of sync.": [
-        "Suas configurações locais de data e hora parecem estar fora de sincronia."
-      ],
-      "Please note that by choosing this payment method, your account cannot be upgraded immediately. We will update your account once the payment is cleared.": [
-        "Note que, ao escolher este método de pagamento, a sua conta não poderá ser imediatamente atualizada. Atualizaremos a sua conta assim que o pagamento for compensado."
-      ],
-      "The attachment's signature failed verification.\nYou can still download this attachment but it might have been tampered with.": [
-        "Falha na verificação da assinatura do anexo.\nVocê ainda pode baixar este anexo, mas ele pode ter sido adulterado.",
-        "Algumas das assinaturas dos anexos falharam na verificação.\nVocê ainda pode baixar esses anexos, mas eles podem ter sido adulterados."
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "Fatura vencida"
       ]
     },
     "Success": {
+      "Code sent to ${ methodTo }": [
+        "Código enviado para ${ methodTo }"
+      ],
+      "Verification successful": [
+        "Verificado com sucesso"
+      ],
       "Contact group deleted": [
         "Grupo de contatos excluído",
         "Grupos de contatos excluídos"
@@ -4904,12 +4815,6 @@
       ],
       "Address copied to clipboard": [
         "O endereço foi copiado para a área de transferência"
-      ],
-      "Code sent to ${ methodTo }": [
-        "Código enviado para ${ methodTo }"
-      ],
-      "Verification successful": [
-        "Verificado com sucesso"
       ],
       "Bug reported": [
         "Relatório de erros enviado"
@@ -5065,6 +4970,114 @@
       "Move ${ selectionCount } conversation": [
         "Mover ${ selectionCount } conversa",
         "Mover ${ selectionCount } conversas"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "E-mail"
+      ],
+      "SMS": [
+        "SMS"
+      ],
+      "Manual": [
+        "Manual"
+      ],
+      "No verification method available": [
+        "Nenhum método de verificação disponível"
+      ]
+    },
+    "Table header": {
+      "Name": [
+        "Nome"
+      ],
+      "Address": [
+        "Endereço"
+      ],
+      "Action": [
+        "Ação"
+      ],
+      "Fingerprint": [
+        "Impressão digital"
+      ],
+      "Created": [
+        "Criada"
+      ],
+      "Expires": [
+        "Expira"
+      ],
+      "Type": [
+        "Tipo"
+      ],
+      "Status": [
+        "Status"
+      ],
+      "Actions": [
+        "Ações"
+      ]
+    },
+    "Warning": {
+      "This feature requires a paid Proton account": [
+        "Este recurso requer um plano pago do Proton"
+      ],
+      "Are you sure you want to permanently delete this contact group?": [
+        "Você tem certeza de que deseja excluir permanentemente este grupo de contatos?"
+      ],
+      "Are you sure you want to permanently delete ${ count } contact group?": [
+        "Você tem certeza de que deseja excluir permanentemente ${ count } grupo de contatos?",
+        "Você tem certeza de que deseja excluir permanentemente ${ count } grupos de contatos?"
+      ],
+      "Are you sure you want to permanently delete this contact?": [
+        "Você tem certeza que deseja excluir este contato permanentemente?"
+      ],
+      "Are you sure you want to permanently delete ${ count } contact?": [
+        "Você tem certeza de que deseja excluir permanentemente ${ count } contato?",
+        "Você tem certeza de que deseja excluir permanentemente ${ count } contatos?"
+      ],
+      "If you don’t remember your password, it is impossible to re-activate your key. We can help you dismiss the alert banner but in the process you will permanently lose access to all the data encrypted with that key.": [
+        "Se você não se lembra de sua senha, é impossível reativar sua chave. Nós podemos ajudá-lo a descartar o banner de alerta, mas no processo você perderá o acesso permanente a todos os dados criptografados com essa chave."
+      ],
+      "This action is irreversible. Please enter the word ${ boldDanger } in the field to proceed.": [
+        "Essa ação é irreversível. Digite a palavra ${ boldDanger } no campo para continuar."
+      ],
+      "The decryption of the encrypted content failed.": [
+        "A descriptografia do conteúdo criptografado falhou."
+      ],
+      "The verification of the contact details' signature failed.": [
+        "A verificação da assinatura dos detalhes de contato falhou."
+      ],
+      "The contact failed to load.": [
+        "Falha ao carregar o contato."
+      ],
+      "Some of the contacts to be merged display errors. Please review them individually": [
+        "Alguns dos contatos a serem mesclados apresentam erro. Verifique-os individualmente"
+      ],
+      "Contacts could not be merged": [
+        "Os contatos não puderam ser mesclados"
+      ],
+      "Are you sure you want to discard your import?": [
+        "Tem certeza de que quer descartar sua importação?"
+      ],
+      "Live chat is a premium feature available only to those with paid ProtonVPN plans. Please open a ticket instead.": [
+        ""
+      ],
+      "Unfortunately, we’re not online at the moment. Please complete the form below to describe your issue, and we will look into it and be in touch when we’re back online.": [
+        "Infelizmente, não estamos on-line no momento. Preencha o formulário abaixo para descrever seu problema. Nós investigaremos e entraremos em contato quando estivermos de volta."
+      ],
+      "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
+        "Os relatórios não são criptografados de ponta a ponta. Não envie nenhuma informação confidencial."
+      ],
+      "Your local date & time settings seem to be out of sync.": [
+        "Suas configurações locais de data e hora parecem estar fora de sincronia."
+      ],
+      "Please note that by choosing this payment method, your account cannot be upgraded immediately. We will update your account once the payment is cleared.": [
+        "Note que, ao escolher este método de pagamento, a sua conta não poderá ser imediatamente atualizada. Atualizaremos a sua conta assim que o pagamento for compensado."
+      ],
+      "The attachment's signature failed verification.\nYou can still download this attachment but it might have been tampered with.": [
+        "Falha na verificação da assinatura do anexo.\nVocê ainda pode baixar este anexo, mas ele pode ter sido adulterado.",
+        "Algumas das assinaturas dos anexos falharam na verificação.\nVocê ainda pode baixar esses anexos, mas eles podem ter sido adulterados."
       ]
     },
     "Label for contact group name": {
@@ -5322,9 +5335,6 @@
       ],
       "No parent folder": [
         "Nenhuma pasta acima"
-      ],
-      "All": [
-        "Todos"
       ]
     },
     "Import contact groups info": {
@@ -5393,33 +5403,6 @@
         "${ totalImported }/${ totalToImport } contatos criptografados e adicionados à sua lista de contatos"
       ]
     },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "Fatura vencida"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
-      ],
-      "Email": [
-        "E-mail"
-      ],
-      "SMS": [
-        "SMS"
-      ],
-      "Manual": [
-        "Manual"
-      ],
-      "No verification method available": [
-        "Nenhum método de verificação disponível"
-      ]
-    },
-    "Select files": {
-      "Upload": [
-        "Enviar"
-      ]
-    },
     "Label to change density": {
       "Comfortable": [
         "Confortável"
@@ -5442,6 +5425,11 @@
       ],
       "Maximized": [
         "Maximizado"
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "Enviar"
       ]
     },
     "Loading info": {
@@ -6849,17 +6837,11 @@
       "All": [
         "Todos"
       ],
-      "Yes": [
-        "Sim"
+      "With": [
+        "Com"
       ],
-      "No": [
-        "Não"
-      ],
-      "Read": [
-        "Lido"
-      ],
-      "Unread": [
-        "Não lida"
+      "Without": [
+        "Sem"
       ]
     },
     "Filter option": {

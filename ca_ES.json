@@ -5,18 +5,36 @@
   },
   "contexts": {
     "": {},
-    "Message": {
-      "Re:": [
-        "Re:"
+    "file size format": {
+      "bytes": [
+        "bytes"
       ],
-      "Fw:": [
-        "Fw:"
+      "KB": [
+        "KB"
       ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "El ${ date }, ${ name } ${ address } va escriure:"
+      "MB": [
+        "MB"
+      ],
+      "GB": [
+        "GB"
       ]
     },
     "Error": {
+      "This field is required": [
+        "Aquest camp és obligatori"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Aquest camp requereix un mínim de ${ minimumLength } caràcters."
+      ],
+      "Email is not valid": [
+        "El correu electrònic no és vàlid"
+      ],
+      "Not a valid number": [
+        "Número no vàlid"
+      ],
+      "Passwords do not match": [
+        "Les contrasenyes no coincideixen"
+      ],
       "Email address disabled": [
         "Correu electrònic deshabilitada"
       ],
@@ -41,23 +59,14 @@
       "The sending key is not valid": [
         "La clau enviada no es vàlida"
       ],
-      "This field is required": [
-        "Aquest camp és obligatori"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Aquest camp requereix un mínim de ${ minimumLength } caràcters."
-      ],
-      "Email is not valid": [
-        "El correu electrònic no és vàlid"
-      ],
-      "Not a valid number": [
-        "Número no vàlid"
-      ],
-      "Passwords do not match": [
-        "Les contrasenyes no coincideixen"
-      ],
       "Request timed out.": [
         "S'ha esgotat el temps d'espera."
+      ],
+      "Signature verification failed": [
+        "Verificació de la signatura fallida"
+      ],
+      "Could not find address ${ email }.": [
+        "No s'ha pogut trobar el correu ${ email }."
       ],
       "Missing signature": [
         "Signatura no trobada"
@@ -73,12 +82,6 @@
       ],
       "The key properties for ${ emailAddress } could not be extracted": [
         "No s'han pogut extreure les propietats clau de ${ emailAddress }"
-      ],
-      "Signature verification failed": [
-        "Verificació de la signatura fallida"
-      ],
-      "Could not find address ${ email }.": [
-        "No s'ha pogut trobar el correu ${ email }."
       ],
       "Address primary private key not found": [
         "No s'ha trobat la clau privada primària de l'adreça"
@@ -112,6 +115,27 @@
       ],
       "Please refresh the page.": [
         "Si us plau, refresqueu la pàgina."
+      ],
+      "Incorrect mailbox password. Please try again": [
+        "Contrasenya de bustia incorrecta, si us plau, torneu-ho a provar de nou"
+      ],
+      "Incorrect login credentials. Please try again": [
+        "Credencials de connexió incorrectes. Si us plau, torni-ho a intentar"
+      ],
+      "Can't validate email, try again later": [
+        "No es pot validar el correu electrònic, torneu-ho a provar més tard"
+      ],
+      "Can't validate phone, try again later": [
+        "No es pot validar el telèfon, torneu-ho a provar més tard"
+      ],
+      "Enter 6 digits": [
+        "Introduïu 6 dígits"
+      ],
+      "Invalid verification code": [
+        "Codi de verificació no vàlid"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "S'ha produït un error, ${ refresh } per continuar. Si continueu veient aquest missatge d'error, poseu-vos en contacte amb el nostre ${ supportTeam }."
       ],
       "Some groups could not be deleted": [
         "Alguns grups no poden ser esborrats"
@@ -153,27 +177,6 @@
       ],
       "A group with this name already exists": [
         "Ja existeix un grup amb aquest nom"
-      ],
-      "Incorrect mailbox password. Please try again": [
-        "Contrasenya de bustia incorrecta, si us plau, torneu-ho a provar de nou"
-      ],
-      "Incorrect login credentials. Please try again": [
-        "Credencials de connexió incorrectes. Si us plau, torni-ho a intentar"
-      ],
-      "Can't validate email, try again later": [
-        "No es pot validar el correu electrònic, torneu-ho a provar més tard"
-      ],
-      "Can't validate phone, try again later": [
-        "No es pot validar el telèfon, torneu-ho a provar més tard"
-      ],
-      "Enter 6 digits": [
-        "Introduïu 6 dígits"
-      ],
-      "Invalid verification code": [
-        "Codi de verificació no vàlid"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "S'ha produït un error, ${ refresh } per continuar. Si continueu veient aquest missatge d'error, poseu-vos en contacte amb el nostre ${ supportTeam }."
       ],
       "We were unable to connect to your service provider.": [
         "No hem pogut connectar-nos al vostre proveïdor de serveis."
@@ -378,18 +381,10 @@
         "Massa filtres actius. Actualitzeu a un pla de pagament per activar més filtres"
       ]
     },
-    "file size format": {
-      "bytes": [
-        "bytes"
-      ],
-      "KB": [
-        "KB"
-      ],
-      "MB": [
-        "MB"
-      ],
-      "GB": [
-        "GB"
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "La contrasenya ha de tenir com a mínim ${ length } caràcter",
+        "La contrasenya ha de tenir com a mínim ${ length } caràcters"
       ]
     },
     "Contact field label": {
@@ -506,10 +501,15 @@
         "Adreça"
       ]
     },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "La contrasenya ha de tenir com a mínim ${ length } caràcter",
-        "La contrasenya ha de tenir com a mínim ${ length } caràcters"
+    "Message": {
+      "Re:": [
+        "Re:"
+      ],
+      "Fw:": [
+        "Fw:"
+      ],
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "El ${ date }, ${ name } ${ address } va escriure:"
       ]
     },
     "Info": {
@@ -556,6 +556,9 @@
         "(${ memberCount } membre)",
         "(${ memberCount } membres)"
       ],
+      "Loading": [
+        "Carregant"
+      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Aquest enllaç pot ser un atac de homògraf i no es pot obrir amb els navegadors Internet Explorer i Edge. Si esteu segurs que l’enllaç és legítim, utilitzeu un navegador diferent per obrir-lo."
       ],
@@ -567,9 +570,6 @@
       ],
       "Learn more": [
         "Més informació"
-      ],
-      "Loading": [
-        "Carregant"
       ],
       "Insert image": [
         "Afegeix imatge"
@@ -651,6 +651,48 @@
       ],
       "Loading ${ appName }": [
         "Carregant ${ appName }"
+      ],
+      "here": [
+        "aquí"
+      ],
+      "This account has been suspended due to a potential policy violation.": [
+        "Aquest compte ha estat suspès a causa d'una possible infracció de les polítiques."
+      ],
+      "If you believe this is in error, please contact us ${ contactLink }.": [
+        "Si creieu que es tracta d'un error, poseu-vos en contacte amb nosaltres ${ contactLink }."
+      ],
+      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
+        "Actualment, el vostre compte Proton està en suspensió. Per continuar utilitzant el vostre compte, pagueu qualsevol factura que hagi pendent."
+      ],
+      "Would you like to receive a new verification code or use an alternative verification method?": [
+        "Voleu rebre un codi de verificació nou o utilitzar un mètode de verificació alternatiu?"
+      ],
+      "Enter the verification code that was sent to ${ destinationText }.": [
+        "Introduïu el codi de verificació que s’ha enviat a ${ destinationText }."
+      ],
+      "If you don't find the email in your inbox, please check your spam folder.": [
+        "Si no trobeu el correu electrònic a la safata d'entrada, comproveu la vostra carpeta de correu brossa."
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
+        "Feu clic a \"Sol·licitar un nou codi\" per rebre un codi de verificació nou a ${ strong }. Si aquesta adreça de correu electrònic és incorrecta, feu clic a \"Editar\" per corregir-la."
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
+        "Feu clic a \"Sol·licitar un nou codi\" per rebre un codi de verificació nou a ${ strong }. Si aquest número de telèfon és incorrecte, feu clic a \"Editar\" per corregir-lo."
+      ],
+      "To fight spam and abuse, please verify you are human.": [
+        "Per combatre el correu brossa, si us plau verifiqueu que sou humà."
+      ],
+      "Your email will only be used for this one-time verification.": [
+        "El vostre correu electrònic només s’utilitzarà per a aquesta única verificació."
+      ],
+      "Your phone number will only be used for this one-time verification.": [
+        "El vostre número de telèfon només s’utilitzarà per a aquesta única verificació."
+      ],
+      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
+        "Si teniu problemes per crear el vostre compte, sol·liciteu una invitació i us respondrem en un dia laborable."
+      ],
+      "support team": [
+        "equip de suport"
       ],
       "No contacts added yet": [
         "Encara no s'han afegit contactes"
@@ -770,48 +812,6 @@
       "${ addressCount } email address": [
         "${ addressCount } adreça de correu electrònic",
         "${ addressCount } adreces de correu electrònic"
-      ],
-      "here": [
-        "aquí"
-      ],
-      "This account has been suspended due to a potential policy violation.": [
-        "Aquest compte ha estat suspès a causa d'una possible infracció de les polítiques."
-      ],
-      "If you believe this is in error, please contact us ${ contactLink }.": [
-        "Si creieu que es tracta d'un error, poseu-vos en contacte amb nosaltres ${ contactLink }."
-      ],
-      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
-        "Actualment, el vostre compte Proton està en suspensió. Per continuar utilitzant el vostre compte, pagueu qualsevol factura que hagi pendent."
-      ],
-      "Would you like to receive a new verification code or use an alternative verification method?": [
-        "Voleu rebre un codi de verificació nou o utilitzar un mètode de verificació alternatiu?"
-      ],
-      "Enter the verification code that was sent to ${ destinationText }.": [
-        "Introduïu el codi de verificació que s’ha enviat a ${ destinationText }."
-      ],
-      "If you don't find the email in your inbox, please check your spam folder.": [
-        "Si no trobeu el correu electrònic a la safata d'entrada, comproveu la vostra carpeta de correu brossa."
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
-        "Feu clic a \"Sol·licitar un nou codi\" per rebre un codi de verificació nou a ${ strong }. Si aquesta adreça de correu electrònic és incorrecta, feu clic a \"Editar\" per corregir-la."
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
-        "Feu clic a \"Sol·licitar un nou codi\" per rebre un codi de verificació nou a ${ strong }. Si aquest número de telèfon és incorrecte, feu clic a \"Editar\" per corregir-lo."
-      ],
-      "To fight spam and abuse, please verify you are human.": [
-        "Per combatre el correu brossa, si us plau verifiqueu que sou humà."
-      ],
-      "Your email will only be used for this one-time verification.": [
-        "El vostre correu electrònic només s’utilitzarà per a aquesta única verificació."
-      ],
-      "Your phone number will only be used for this one-time verification.": [
-        "El vostre número de telèfon només s’utilitzarà per a aquesta única verificació."
-      ],
-      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
-        "Si teniu problemes per crear el vostre compte, sol·liciteu una invitació i us respondrem en un dia laborable."
-      ],
-      "support team": [
-        "equip de suport"
       ],
       "Import contacts": [
         "Importar contactes"
@@ -1745,6 +1745,11 @@
         "Utilitzant el vostre dispositiu mòbil, escanegeu aquest codi QR o visiteu ${ link }."
       ]
     },
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "L'adreça de correu electrònic que no es troba entre els identificadors d'usuari definits a la clau d'enviament (${ keyUserIds })"
+      ]
+    },
     "Default display name vcard": {
       "Unknown": [
         "Desconegut"
@@ -1789,11 +1794,6 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "S'ha produït un error llegint el fitxer ${ formattedFilename }. El fitxer no té el format adequat."
-      ]
-    },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "L'adreça de correu electrònic que no es troba entre els identificadors d'usuari definits a la clau d'enviament (${ keyUserIds })"
       ]
     },
     "Keyboard shortcut section name": {
@@ -2145,17 +2145,11 @@
       ]
     },
     "Email subject": {
-      "Cancellation of an event on ${ formattedStart }": [
-        "Cancel·lació d'un esdeveniment el ${ formattedStart }"
-      ],
       "Invitation for an event on ${ formattedStart }": [
         "Invitació a un esdeveniment el ${ formattedStart }"
       ],
       "Update for an event on ${ formattedStart }": [
         "Actualització d'un esdeveniment el ${ formattedStart }"
-      ],
-      "Cancellation of an event starting on ${ formattedStart }": [
-        "Cancel·lació d'un esdeveniment que comença el ${ formattedStart }"
       ],
       "Invitation for an event starting on ${ formattedStart }": [
         "Invitació a un esdeveniment que comença el ${ formattedStart }"
@@ -2163,8 +2157,11 @@
       "Update for an event starting on ${ formattedStart }": [
         "Actualització d'un esdeveniment que comença el ${ formattedStart }"
       ],
-      "Invitation: ${ eventTitle }": [
-        "Invitació: ${ eventTitle }"
+      "Cancellation of an event on ${ formattedStart }": [
+        "Cancel·lació d'un esdeveniment el ${ formattedStart }"
+      ],
+      "Cancellation of an event starting on ${ formattedStart }": [
+        "Cancel·lació d'un esdeveniment que comença el ${ formattedStart }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -2746,6 +2743,33 @@
       "refresh the page": [
         "refresqueu la pàgina"
       ],
+      "Log in": [
+        "Inicia sessió"
+      ],
+      "View invoice": [
+        "Veure factura"
+      ],
+      "Get verification code": [
+        "Obtenir codi de verificació"
+      ],
+      "Try another method": [
+        "Proveu amb un altre mètode"
+      ],
+      "Request new code": [
+        "Demana un nou codi"
+      ],
+      "Verify": [
+        "Verificar"
+      ],
+      "Did not receive the code?": [
+        "No has regut el codi?"
+      ],
+      "Edit email address": [
+        "Editar l'adreça de correu electrònic"
+      ],
+      "Edit phone number": [
+        "Editar el número de telèfon"
+      ],
       "Upgrade": [
         "Actualitzar"
       ],
@@ -2898,33 +2922,6 @@
       ],
       "Next": [
         "Següent"
-      ],
-      "Log in": [
-        "Inicia sessió"
-      ],
-      "View invoice": [
-        "Veure factura"
-      ],
-      "Get verification code": [
-        "Obtenir codi de verificació"
-      ],
-      "Try another method": [
-        "Proveu amb un altre mètode"
-      ],
-      "Request new code": [
-        "Demana un nou codi"
-      ],
-      "Verify": [
-        "Verificar"
-      ],
-      "Did not receive the code?": [
-        "No has regut el codi?"
-      ],
-      "Edit email address": [
-        "Editar l'adreça de correu electrònic"
-      ],
-      "Edit phone number": [
-        "Editar el número de telèfon"
       ],
       "Use ${ label } theme": [
         "Utilitzar el tema ${ label }"
@@ -3499,6 +3496,27 @@
       "What's new": [
         "Novetats"
       ],
+      "Sign in again to continue": [
+        "Inicia sessió per continuar"
+      ],
+      "Account suspended": [
+        "Compte suspès"
+      ],
+      "Enter your username or ProtonMail email address": [
+        "Introduïu el vostre nom d'usuari o adreça de correu electrònic ProtonMail"
+      ],
+      "Enter your password": [
+        "Introdueix la teva contrasenya"
+      ],
+      "Invalid verification code": [
+        "Codi de verificació no vàlid"
+      ],
+      "Request new code": [
+        "Demanar un codi nou"
+      ],
+      "Human verification": [
+        "Verificació humana"
+      ],
       "Upgrade required": [
         "Actualització necessària"
       ],
@@ -3622,27 +3640,6 @@
       ],
       "Import contacts": [
         "Importar contactes"
-      ],
-      "Sign in again to continue": [
-        "Inicia sessió per continuar"
-      ],
-      "Account suspended": [
-        "Compte suspès"
-      ],
-      "Enter your username or ProtonMail email address": [
-        "Introduïu el vostre nom d'usuari o adreça de correu electrònic ProtonMail"
-      ],
-      "Enter your password": [
-        "Introdueix la teva contrasenya"
-      ],
-      "Invalid verification code": [
-        "Codi de verificació no vàlid"
-      ],
-      "Request new code": [
-        "Demanar un codi nou"
-      ],
-      "Human verification": [
-        "Verificació humana"
       ],
       "Select a theme": [
         "Seleccionar un tema"
@@ -3994,6 +3991,11 @@
         "Benvingut/da"
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        "La clau no es pot utilitzar per al xifratge"
+      ]
+    },
     "Link": {
       "Learn more": [
         "Més informació"
@@ -4021,6 +4023,36 @@
       ],
       "Add a gift code": [
         "Afegiu un codi regal"
+      ],
+      "Inbox": [
+        "Safata d'entrada"
+      ],
+      "Drafts": [
+        "Esborranys"
+      ],
+      "Sent": [
+        "Enviats"
+      ],
+      "Trash": [
+        "Paperera"
+      ],
+      "Spam": [
+        "Correu brossa"
+      ],
+      "All mail": [
+        "Tot el correu"
+      ],
+      "Archive": [
+        "Arxiu"
+      ],
+      "Starred": [
+        "Destacats"
+      ],
+      "Outbox": [
+        "Safata de sortida"
+      ],
+      "Scheduled": [
+        "Programats"
       ],
       "You need to activate your calendar keys to add this event": [
         "Heu d'activar les claus del calendari per afegir aquest esdeveniment"
@@ -4097,33 +4129,6 @@
       "Add label": [
         "Afegir etiqueta"
       ],
-      "Inbox": [
-        "Safata d'entrada"
-      ],
-      "Drafts": [
-        "Esborranys"
-      ],
-      "Scheduled": [
-        "Programats"
-      ],
-      "Sent": [
-        "Enviats"
-      ],
-      "Starred": [
-        "Destacats"
-      ],
-      "Archive": [
-        "Arxiu"
-      ],
-      "Spam": [
-        "Correu brossa"
-      ],
-      "Trash": [
-        "Paperera"
-      ],
-      "All mail": [
-        "Tot el correu"
-      ],
       "Folders": [
         "Carpetes"
       ],
@@ -4135,9 +4140,6 @@
       ],
       "Manage your labels": [
         "Gestioneu les vostres etiquetes"
-      ],
-      "Outbox": [
-        "Safata de sortida"
       ]
     },
     "Label": {
@@ -4152,6 +4154,36 @@
       ],
       "Do not ask again": [
         "No tornis a preguntar"
+      ],
+      "Cancel": [
+        "Cancel·lar"
+      ],
+      "Submit": [
+        "Envia"
+      ],
+      "Password": [
+        "Contrasenya"
+      ],
+      "Mailbox password": [
+        "Contrasenya de la bústia"
+      ],
+      "Two-factor authentication code": [
+        "Codi d'autenticació de dos factors"
+      ],
+      "Username or ProtonMail address": [
+        "Nom d'usuari o adreça ProtonMail"
+      ],
+      "Email address": [
+        "Adreça de correu electrònic"
+      ],
+      "Phone number": [
+        "Número de telèfon"
+      ],
+      "Verification code": [
+        "Codi de verificació"
+      ],
+      "Enter the 6-digit code": [
+        "Introduïu el codi de 6 dígits"
       ],
       "Add email address": [
         "Afegir adreça de correu electrònic"
@@ -4218,36 +4250,6 @@
       ],
       "Export contacts": [
         "Exportar contactes"
-      ],
-      "Cancel": [
-        "Cancel·lar"
-      ],
-      "Submit": [
-        "Envia"
-      ],
-      "Password": [
-        "Contrasenya"
-      ],
-      "Mailbox password": [
-        "Contrasenya de la bústia"
-      ],
-      "Two-factor authentication code": [
-        "Codi d'autenticació de dos factors"
-      ],
-      "Username or ProtonMail address": [
-        "Nom d'usuari o adreça ProtonMail"
-      ],
-      "Email address": [
-        "Adreça de correu electrònic"
-      ],
-      "Phone number": [
-        "Número de telèfon"
-      ],
-      "Verification code": [
-        "Codi de verificació"
-      ],
-      "Enter the 6-digit code": [
-        "Introduïu el codi de 6 dígits"
       ],
       "From: ${ fromEmailAddress }": [
         "De: ${ fromEmailAddress }"
@@ -4522,29 +4524,20 @@
       "Keyword": [
         "Paraula clau"
       ],
-      "Address": [
-        "Adreça"
-      ],
-      "Sender": [
-        "Remitent"
-      ],
       "From": [
         "Des de"
-      ],
-      "Recipient": [
-        "Destinatari"
       ],
       "To": [
         "Per a"
       ],
-      "Between": [
-        "Entre"
+      "Sender": [
+        "Remitent"
+      ],
+      "Recipient": [
+        "Destinatari"
       ],
       "Attachments": [
         "Adjunts"
-      ],
-      "Filter": [
-        "Filtre"
       ],
       "Also archive": [
         "Arxivar també"
@@ -4575,6 +4568,9 @@
       "Text": [
         "Text"
       ],
+      "Mailbox password": [
+        "Contrasenya de la bústia"
+      ],
       "Start typing an email address": [
         "Començi a escriure una adreça de correu electrònic"
       ],
@@ -4595,9 +4591,6 @@
       ],
       "Name": [
         "Nom"
-      ],
-      "Mailbox password": [
-        "Contrasenya de la bústia"
       ],
       "OS name": [
         "Nom de Sistema Operatiu"
@@ -4650,14 +4643,17 @@
       "Hint": [
         "Pista"
       ],
-      "Name or email address": [
-        "Nom o adreça de correu electrònic"
+      "Search Messages": [
+        "Cercar Missatges"
       ],
       "Start date": [
         "Data d'inici"
       ],
       "End date": [
         "Data de finalització"
+      ],
+      "Name or email address": [
+        "Nom o adreça de correu electrònic"
       ],
       "Search messages": [
         "Cercar missatges"
@@ -4702,11 +4698,6 @@
       "Found ${ items.length } suggestion, use keyboard to navigate.": [
         "S'ha trobat ${ items.length } suggerència, utilitza el teclat per navegar.",
         "S'han trobat ${ items.length } suggeriments, utilitzant el teclat per navegar."
-      ]
-    },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        "La clau no es pot utilitzar per al xifratge"
       ]
     },
     "Font Face Default": {
@@ -4784,98 +4775,18 @@
         "Anar a ${ vpnName }"
       ]
     },
-    "Table header": {
-      "Name": [
-        "Nom"
-      ],
-      "Address": [
-        "Adreça"
-      ],
-      "Action": [
-        "Acció"
-      ],
-      "Fingerprint": [
-        "Empremta dactilar"
-      ],
-      "Created": [
-        "Creat"
-      ],
-      "Expires": [
-        "Expira"
-      ],
-      "Type": [
-        "Tipus"
-      ],
-      "Status": [
-        "Estat"
-      ],
-      "Actions": [
-        "Accions"
-      ]
-    },
-    "Warning": {
-      "This feature requires a paid Proton account": [
-        "Aquesta característica requereix un compte de pagament de Proton"
-      ],
-      "Are you sure you want to permanently delete this contact group?": [
-        "N'esteu segur, de voler eliminar permanentment aquest grup de contactes?"
-      ],
-      "Are you sure you want to permanently delete ${ count } contact group?": [
-        "N'esteu segur, de voler eliminar permanentment ${ count } grup de contactes?",
-        "N'esteu segur, de voler eliminar permanentment ${ count } grups de contactes?"
-      ],
-      "Are you sure you want to permanently delete this contact?": [
-        "Estàs segur de que vols eliminar aquest contacte permanentment?"
-      ],
-      "Are you sure you want to permanently delete ${ count } contact?": [
-        "Estàs segur de que vols eliminar ${ count } contacte definitivament?",
-        "Estàs segur de que vols eliminar ${ count } contactes definitivament?"
-      ],
-      "If you don’t remember your password, it is impossible to re-activate your key. We can help you dismiss the alert banner but in the process you will permanently lose access to all the data encrypted with that key.": [
-        "Si no recordeu la vostra contrasenya és impossible reactivar la vostra clau. Us podem ajudar a desactivar l'alerta però en el procés perdreu permanentment l'accés a totes les dades xifrades amb aquesta clau."
-      ],
-      "This action is irreversible. Please enter the word ${ boldDanger } in the field to proceed.": [
-        "Aquesta acció és irreversible. Si us plau, introduïu la paraula ${ boldDanger } al camp per continuar."
-      ],
-      "The decryption of the encrypted content failed.": [
-        "El desxifratge del contingut xifrat ha fallat."
-      ],
-      "The verification of the contact details' signature failed.": [
-        "La verificació de la signatura dels detalls del contacte ha fallat."
-      ],
-      "The contact failed to load.": [
-        "No s'ha pogut carregar el contacte."
-      ],
-      "Some of the contacts to be merged display errors. Please review them individually": [
-        "Alguns dels contactes que s'han de combinar tenen errors. Reviseu-los individualment"
-      ],
-      "Contacts could not be merged": [
-        "Els contactes no s’han pogut combinar"
-      ],
-      "Are you sure you want to discard your import?": [
-        "N'esteu segur, de voler descartar la vostra importació?"
-      ],
-      "Live chat is a premium feature available only to those with paid ProtonVPN plans. Please open a ticket instead.": [
-        "El xat en directe és una funcionalitat prèmium que només està disponible per aquells qui tenen plans de pagament de ProtonVPN. En comptes d'això, obriu una incidència."
-      ],
-      "Unfortunately, we’re not online at the moment. Please complete the form below to describe your issue, and we will look into it and be in touch when we’re back online.": [
-        "Lamentablement no estem en línia en aquest moment. Completeu el formulari de sota per descriure el vostre problema, i ho mirarem i ens posarem en contacte quan tornem a estar en línia."
-      ],
-      "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
-        "Els informes no estan xifrats d'extrem a extrem. Si us plau, no envieu informació sensible."
-      ],
-      "Your local date & time settings seem to be out of sync.": [
-        "La vostra configuració de data i hora local no sembla estar sincronitzada."
-      ],
-      "Please note that by choosing this payment method, your account cannot be upgraded immediately. We will update your account once the payment is cleared.": [
-        "Tingueu en compte que escollint aquest mètode de pagament, el vostre compte no es pot actualitzar immediatament. Actualitzarem el vostre compte un cop efectuat el pagament."
-      ],
-      "The attachment's signature failed verification.\nYou can still download this attachment but it might have been tampered with.": [
-        "No s'ha pogut verificar la signatura del fitxer adjunt.\nEncara podeu baixar aquest fitxer adjunt, però és possible que s'hagi manipulat.",
-        "No s'ha pogut verificar la signatura del fitxers adjunto.\nEncara podeu baixar aquests fitxers adjunts, però és possible que s'hagin manipulat."
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "Factura vençuda"
       ]
     },
     "Success": {
+      "Code sent to ${ methodTo }": [
+        "Codi enviat a ${ methodTo }"
+      ],
+      "Verification successful": [
+        "Èxit de verificació"
+      ],
       "Contact group deleted": [
         "S'ha eliminat el grup",
         "S'han eliminat els grups"
@@ -4904,12 +4815,6 @@
       ],
       "Address copied to clipboard": [
         "Adreça copiada al porta-retalls"
-      ],
-      "Code sent to ${ methodTo }": [
-        "Codi enviat a ${ methodTo }"
-      ],
-      "Verification successful": [
-        "Èxit de verificació"
       ],
       "Bug reported": [
         "Error notificat"
@@ -5065,6 +4970,114 @@
       "Move ${ selectionCount } conversation": [
         "Mou ${ selectionCount } conversa",
         "Mou ${ selectionCount } converses"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "Correu electrònic"
+      ],
+      "SMS": [
+        "SMS"
+      ],
+      "Manual": [
+        "Manual"
+      ],
+      "No verification method available": [
+        "Cap mètode de verificació disponible"
+      ]
+    },
+    "Table header": {
+      "Name": [
+        "Nom"
+      ],
+      "Address": [
+        "Adreça"
+      ],
+      "Action": [
+        "Acció"
+      ],
+      "Fingerprint": [
+        "Empremta dactilar"
+      ],
+      "Created": [
+        "Creat"
+      ],
+      "Expires": [
+        "Expira"
+      ],
+      "Type": [
+        "Tipus"
+      ],
+      "Status": [
+        "Estat"
+      ],
+      "Actions": [
+        "Accions"
+      ]
+    },
+    "Warning": {
+      "This feature requires a paid Proton account": [
+        "Aquesta característica requereix un compte de pagament de Proton"
+      ],
+      "Are you sure you want to permanently delete this contact group?": [
+        "N'esteu segur, de voler eliminar permanentment aquest grup de contactes?"
+      ],
+      "Are you sure you want to permanently delete ${ count } contact group?": [
+        "N'esteu segur, de voler eliminar permanentment ${ count } grup de contactes?",
+        "N'esteu segur, de voler eliminar permanentment ${ count } grups de contactes?"
+      ],
+      "Are you sure you want to permanently delete this contact?": [
+        "Estàs segur de que vols eliminar aquest contacte permanentment?"
+      ],
+      "Are you sure you want to permanently delete ${ count } contact?": [
+        "Estàs segur de que vols eliminar ${ count } contacte definitivament?",
+        "Estàs segur de que vols eliminar ${ count } contactes definitivament?"
+      ],
+      "If you don’t remember your password, it is impossible to re-activate your key. We can help you dismiss the alert banner but in the process you will permanently lose access to all the data encrypted with that key.": [
+        "Si no recordeu la vostra contrasenya és impossible reactivar la vostra clau. Us podem ajudar a desactivar l'alerta però en el procés perdreu permanentment l'accés a totes les dades xifrades amb aquesta clau."
+      ],
+      "This action is irreversible. Please enter the word ${ boldDanger } in the field to proceed.": [
+        "Aquesta acció és irreversible. Si us plau, introduïu la paraula ${ boldDanger } al camp per continuar."
+      ],
+      "The decryption of the encrypted content failed.": [
+        "El desxifratge del contingut xifrat ha fallat."
+      ],
+      "The verification of the contact details' signature failed.": [
+        "La verificació de la signatura dels detalls del contacte ha fallat."
+      ],
+      "The contact failed to load.": [
+        "No s'ha pogut carregar el contacte."
+      ],
+      "Some of the contacts to be merged display errors. Please review them individually": [
+        "Alguns dels contactes que s'han de combinar tenen errors. Reviseu-los individualment"
+      ],
+      "Contacts could not be merged": [
+        "Els contactes no s’han pogut combinar"
+      ],
+      "Are you sure you want to discard your import?": [
+        "N'esteu segur, de voler descartar la vostra importació?"
+      ],
+      "Live chat is a premium feature available only to those with paid ProtonVPN plans. Please open a ticket instead.": [
+        "El xat en directe és una funcionalitat prèmium que només està disponible per aquells qui tenen plans de pagament de ProtonVPN. En comptes d'això, obriu una incidència."
+      ],
+      "Unfortunately, we’re not online at the moment. Please complete the form below to describe your issue, and we will look into it and be in touch when we’re back online.": [
+        "Lamentablement no estem en línia en aquest moment. Completeu el formulari de sota per descriure el vostre problema, i ho mirarem i ens posarem en contacte quan tornem a estar en línia."
+      ],
+      "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
+        "Els informes no estan xifrats d'extrem a extrem. Si us plau, no envieu informació sensible."
+      ],
+      "Your local date & time settings seem to be out of sync.": [
+        "La vostra configuració de data i hora local no sembla estar sincronitzada."
+      ],
+      "Please note that by choosing this payment method, your account cannot be upgraded immediately. We will update your account once the payment is cleared.": [
+        "Tingueu en compte que escollint aquest mètode de pagament, el vostre compte no es pot actualitzar immediatament. Actualitzarem el vostre compte un cop efectuat el pagament."
+      ],
+      "The attachment's signature failed verification.\nYou can still download this attachment but it might have been tampered with.": [
+        "No s'ha pogut verificar la signatura del fitxer adjunt.\nEncara podeu baixar aquest fitxer adjunt, però és possible que s'hagi manipulat.",
+        "No s'ha pogut verificar la signatura del fitxers adjunto.\nEncara podeu baixar aquests fitxers adjunts, però és possible que s'hagin manipulat."
       ]
     },
     "Label for contact group name": {
@@ -5322,9 +5335,6 @@
       ],
       "No parent folder": [
         "No hi ha la carpeta pare"
-      ],
-      "All": [
-        "Tot"
       ]
     },
     "Import contact groups info": {
@@ -5393,33 +5403,6 @@
         "${ totalImported }/${ totalToImport } contactes xifrats i afegits a la vostra llista de contactes"
       ]
     },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "Factura vençuda"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
-      ],
-      "Email": [
-        "Correu electrònic"
-      ],
-      "SMS": [
-        "SMS"
-      ],
-      "Manual": [
-        "Manual"
-      ],
-      "No verification method available": [
-        "Cap mètode de verificació disponible"
-      ]
-    },
-    "Select files": {
-      "Upload": [
-        "Carregar"
-      ]
-    },
     "Label to change density": {
       "Comfortable": [
         "Còmode"
@@ -5442,6 +5425,11 @@
       ],
       "Maximized": [
         "Maximitzat"
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "Carregar"
       ]
     },
     "Loading info": {
@@ -6849,17 +6837,11 @@
       "All": [
         "Tot"
       ],
-      "Yes": [
-        "Si"
+      "With": [
+        "Amb"
       ],
-      "No": [
-        "No"
-      ],
-      "Read": [
-        "Llegit"
-      ],
-      "Unread": [
-        "No llegit"
+      "Without": [
+        "Sense"
       ]
     },
     "Filter option": {

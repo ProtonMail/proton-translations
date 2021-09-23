@@ -5,18 +5,36 @@
   },
   "contexts": {
     "": {},
-    "Message": {
-      "Re:": [
-        "回覆:"
+    "file size format": {
+      "bytes": [
+        "位元組"
       ],
-      "Fw:": [
-        "轉寄:"
+      "KB": [
+        "KB"
       ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "在 ${ date }，${ name } ${ address } 寫道："
+      "MB": [
+        "MB"
+      ],
+      "GB": [
+        "GB"
       ]
     },
     "Error": {
+      "This field is required": [
+        "此欄位必填"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "此欄位至少須有 ${ minimumLength } 個字元。"
+      ],
+      "Email is not valid": [
+        "電子郵件無效"
+      ],
+      "Not a valid number": [
+        "不是有效的數字"
+      ],
+      "Passwords do not match": [
+        "密碼不符合"
+      ],
       "Email address disabled": [
         "電子郵件地址已停用"
       ],
@@ -41,23 +59,14 @@
       "The sending key is not valid": [
         "寄送金鑰無效"
       ],
-      "This field is required": [
-        "此欄位必填"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "此欄位至少須有 ${ minimumLength } 個字元。"
-      ],
-      "Email is not valid": [
-        "電子郵件無效"
-      ],
-      "Not a valid number": [
-        "不是有效的數字"
-      ],
-      "Passwords do not match": [
-        "密碼不符合"
-      ],
       "Request timed out.": [
         "請求已逾時。"
+      ],
+      "Signature verification failed": [
+        "簽章驗證失敗"
+      ],
+      "Could not find address ${ email }.": [
+        "找不到電子郵件地址 ${ email }。"
       ],
       "Missing signature": [
         "簽章遺失"
@@ -73,12 +82,6 @@
       ],
       "The key properties for ${ emailAddress } could not be extracted": [
         "${ emailAddress } 的金鑰屬性無法擷取"
-      ],
-      "Signature verification failed": [
-        "簽章驗證失敗"
-      ],
-      "Could not find address ${ email }.": [
-        "找不到電子郵件地址 ${ email }。"
       ],
       "Address primary private key not found": [
         "找不到電子郵件地址主要私密金鑰"
@@ -112,6 +115,27 @@
       ],
       "Please refresh the page.": [
         "請重新整理此頁面。"
+      ],
+      "Incorrect mailbox password. Please try again": [
+        "郵箱密碼不正確，請再試一次"
+      ],
+      "Incorrect login credentials. Please try again": [
+        "登入認證不正確，請再試一次"
+      ],
+      "Can't validate email, try again later": [
+        "無法驗證電子郵件，請稍後再試"
+      ],
+      "Can't validate phone, try again later": [
+        "無法驗證電話號碼，請稍後再試"
+      ],
+      "Enter 6 digits": [
+        "輸入6位數"
+      ],
+      "Invalid verification code": [
+        "驗證碼無效"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "發生錯誤，請${ refresh }以繼續。如果您仍看到此錯誤訊息，請聯絡我們的${ supportTeam }。"
       ],
       "Some groups could not be deleted": [
         "部分聯絡人群組無法刪除"
@@ -151,27 +175,6 @@
       ],
       "A group with this name already exists": [
         "以此為名的群組已存在"
-      ],
-      "Incorrect mailbox password. Please try again": [
-        "郵箱密碼不正確，請再試一次"
-      ],
-      "Incorrect login credentials. Please try again": [
-        "登入認證不正確，請再試一次"
-      ],
-      "Can't validate email, try again later": [
-        "無法驗證電子郵件，請稍後再試"
-      ],
-      "Can't validate phone, try again later": [
-        "無法驗證電話號碼，請稍後再試"
-      ],
-      "Enter 6 digits": [
-        "輸入6位數"
-      ],
-      "Invalid verification code": [
-        "驗證碼無效"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "發生錯誤，請${ refresh }以繼續。如果您仍看到此錯誤訊息，請聯絡我們的${ supportTeam }。"
       ],
       "We were unable to connect to your service provider.": [
         "我們無法連結到您的服務提供者。"
@@ -372,18 +375,9 @@
         "使用中篩選器太多。請升級至付費方案以啟用更多篩選器"
       ]
     },
-    "file size format": {
-      "bytes": [
-        "位元組"
-      ],
-      "KB": [
-        "KB"
-      ],
-      "MB": [
-        "MB"
-      ],
-      "GB": [
-        "GB"
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "密碼至少必須包含 ${ length } 個字元"
       ]
     },
     "Contact field label": {
@@ -500,9 +494,15 @@
         "地址"
       ]
     },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "密碼至少必須包含 ${ length } 個字元"
+    "Message": {
+      "Re:": [
+        "回覆:"
+      ],
+      "Fw:": [
+        "轉寄:"
+      ],
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "在 ${ date }，${ name } ${ address } 寫道："
       ]
     },
     "Info": {
@@ -548,6 +548,9 @@
       "(${ memberCount } member)": [
         "(${ memberCount } 個成員)"
       ],
+      "Loading": [
+        "正在載入"
+      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "此連結可能是同形異義詞的偽裝攻擊 (homograph attack)，且無法以 Internet Explorer 或 Edge 瀏覽器開啟。如果您確定這是一個正當的連結，請使用其他瀏覽器來開啟。"
       ],
@@ -559,9 +562,6 @@
       ],
       "Learn more": [
         "瞭解更多"
-      ],
-      "Loading": [
-        "正在載入"
       ],
       "Insert image": [
         "插入圖片"
@@ -643,6 +643,48 @@
       ],
       "Loading ${ appName }": [
         "正在載入 ${ appName }"
+      ],
+      "here": [
+        "這裡"
+      ],
+      "This account has been suspended due to a potential policy violation.": [
+        "此帳號可能有違政策，因此已被暫停使用。"
+      ],
+      "If you believe this is in error, please contact us ${ contactLink }.": [
+        "若您相信箇中有誤，請聯絡我們：{ contactLink }。"
+      ],
+      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
+        "您的 Proton 帳號目前被凍結。如要繼續使用您的帳號，請先支付逾期帳單。"
+      ],
+      "Would you like to receive a new verification code or use an alternative verification method?": [
+        "您想要接收新的驗證碼，還是換一個驗證方法？"
+      ],
+      "Enter the verification code that was sent to ${ destinationText }.": [
+        "請輸入發送到 ${ destinationText } 的驗證碼。"
+      ],
+      "If you don't find the email in your inbox, please check your spam folder.": [
+        "若您在收件匣中找不到該電子郵件，請查看垃圾郵件資料夾。"
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
+        "按一下「要求新代碼」向 ${ strong } 發送新的驗證碼。如果此電子郵件地址不正確，請按一下「編輯」作出修正。"
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
+        "按一下「要求新代碼」向 ${ strong } 發送新的驗證碼。如果此電話號碼不正確，請按一下「編輯」作出修正。"
+      ],
+      "To fight spam and abuse, please verify you are human.": [
+        "為防止垃圾郵件及濫用，請驗證您是真人。"
+      ],
+      "Your email will only be used for this one-time verification.": [
+        "您的電子郵件只會用於此一次驗證。"
+      ],
+      "Your phone number will only be used for this one-time verification.": [
+        "您的電話號碼只會用於此一次驗證。"
+      ],
+      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
+        "若您在建立帳號時遇上問題，請提出邀請要求，我們會在一個工作天內回覆。"
+      ],
+      "support team": [
+        "支援團隊"
       ],
       "No contacts added yet": [
         "未新增任何聯絡人"
@@ -757,48 +799,6 @@
       ],
       "${ addressCount } email address": [
         "${ addressCount } 個電子郵件地址"
-      ],
-      "here": [
-        "這裡"
-      ],
-      "This account has been suspended due to a potential policy violation.": [
-        "此帳號可能有違政策，因此已被暫停使用。"
-      ],
-      "If you believe this is in error, please contact us ${ contactLink }.": [
-        "若您相信箇中有誤，請聯絡我們：{ contactLink }。"
-      ],
-      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
-        "您的 Proton 帳號目前被凍結。如要繼續使用您的帳號，請先支付逾期帳單。"
-      ],
-      "Would you like to receive a new verification code or use an alternative verification method?": [
-        "您想要接收新的驗證碼，還是換一個驗證方法？"
-      ],
-      "Enter the verification code that was sent to ${ destinationText }.": [
-        "請輸入發送到 ${ destinationText } 的驗證碼。"
-      ],
-      "If you don't find the email in your inbox, please check your spam folder.": [
-        "若您在收件匣中找不到該電子郵件，請查看垃圾郵件資料夾。"
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
-        "按一下「要求新代碼」向 ${ strong } 發送新的驗證碼。如果此電子郵件地址不正確，請按一下「編輯」作出修正。"
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
-        "按一下「要求新代碼」向 ${ strong } 發送新的驗證碼。如果此電話號碼不正確，請按一下「編輯」作出修正。"
-      ],
-      "To fight spam and abuse, please verify you are human.": [
-        "為防止垃圾郵件及濫用，請驗證您是真人。"
-      ],
-      "Your email will only be used for this one-time verification.": [
-        "您的電子郵件只會用於此一次驗證。"
-      ],
-      "Your phone number will only be used for this one-time verification.": [
-        "您的電話號碼只會用於此一次驗證。"
-      ],
-      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
-        "若您在建立帳號時遇上問題，請提出邀請要求，我們會在一個工作天內回覆。"
-      ],
-      "support team": [
-        "支援團隊"
       ],
       "Import contacts": [
         "匯入聯絡人"
@@ -1698,6 +1698,11 @@
         "請以您的行動裝置，掃描此二維碼，或瀏覽 ${ link }。"
       ]
     },
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "寄送金鑰所定義的使用者識別碼 (${ keyUserIds }) 中找不到電子郵件地址"
+      ]
+    },
     "Default display name vcard": {
       "Unknown": [
         "未知"
@@ -1742,11 +1747,6 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "讀取您的檔案 ${ formattedFilename } 時發生錯誤。檔案格式有誤。"
-      ]
-    },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "寄送金鑰所定義的使用者識別碼 (${ keyUserIds }) 中找不到電子郵件地址"
       ]
     },
     "Keyboard shortcut section name": {
@@ -2098,17 +2098,11 @@
       ]
     },
     "Email subject": {
-      "Cancellation of an event on ${ formattedStart }": [
-        "原訂 ${ formattedStart } 一事取消"
-      ],
       "Invitation for an event on ${ formattedStart }": [
         "誠邀 ${ formattedStart } 撥冗出席"
       ],
       "Update for an event on ${ formattedStart }": [
         "原訂 ${ formattedStart } 一事有變"
-      ],
-      "Cancellation of an event starting on ${ formattedStart }": [
-        "原訂自 ${ formattedStart } 起一事取消"
       ],
       "Invitation for an event starting on ${ formattedStart }": [
         "誠邀自 ${ formattedStart } 起撥冗出席"
@@ -2116,8 +2110,11 @@
       "Update for an event starting on ${ formattedStart }": [
         "原訂自 ${ formattedStart } 起一事有變"
       ],
-      "Invitation: ${ eventTitle }": [
-        "邀請：${ eventTitle }"
+      "Cancellation of an event on ${ formattedStart }": [
+        "原訂 ${ formattedStart } 一事取消"
+      ],
+      "Cancellation of an event starting on ${ formattedStart }": [
+        "原訂自 ${ formattedStart } 起一事取消"
       ]
     },
     "Email body for invitation (date part)": {
@@ -2662,6 +2659,33 @@
       "refresh the page": [
         "更新頁面"
       ],
+      "Log in": [
+        "登入"
+      ],
+      "View invoice": [
+        "查看帳單"
+      ],
+      "Get verification code": [
+        "取得驗證碼"
+      ],
+      "Try another method": [
+        "換另一個方法試試"
+      ],
+      "Request new code": [
+        "要求新代碼"
+      ],
+      "Verify": [
+        "驗證"
+      ],
+      "Did not receive the code?": [
+        "沒收到代碼？"
+      ],
+      "Edit email address": [
+        "編輯電子郵件位址"
+      ],
+      "Edit phone number": [
+        "編輯電話號碼"
+      ],
       "Upgrade": [
         "升級"
       ],
@@ -2811,33 +2835,6 @@
       ],
       "Next": [
         "下一步"
-      ],
-      "Log in": [
-        "登入"
-      ],
-      "View invoice": [
-        "查看帳單"
-      ],
-      "Get verification code": [
-        "取得驗證碼"
-      ],
-      "Try another method": [
-        "換另一個方法試試"
-      ],
-      "Request new code": [
-        "要求新代碼"
-      ],
-      "Verify": [
-        "驗證"
-      ],
-      "Did not receive the code?": [
-        "沒收到代碼？"
-      ],
-      "Edit email address": [
-        "編輯電子郵件位址"
-      ],
-      "Edit phone number": [
-        "編輯電話號碼"
       ],
       "Use ${ label } theme": [
         "使用 ${ label } 佈景主題"
@@ -3411,6 +3408,27 @@
       "What's new": [
         "熱門"
       ],
+      "Sign in again to continue": [
+        "請再次登入以繼續"
+      ],
+      "Account suspended": [
+        "帳號已停用"
+      ],
+      "Enter your username or ProtonMail email address": [
+        "請輸入您的使用者名稱或 ProtonMail 電子郵件地址"
+      ],
+      "Enter your password": [
+        "請輸入您的密碼"
+      ],
+      "Invalid verification code": [
+        "驗證碼無效"
+      ],
+      "Request new code": [
+        "重發驗證碼"
+      ],
+      "Human verification": [
+        "真人驗證"
+      ],
       "Upgrade required": [
         "需要升級"
       ],
@@ -3530,27 +3548,6 @@
       ],
       "Import contacts": [
         "匯入聯絡人"
-      ],
-      "Sign in again to continue": [
-        "請再次登入以繼續"
-      ],
-      "Account suspended": [
-        "帳號已停用"
-      ],
-      "Enter your username or ProtonMail email address": [
-        "請輸入您的使用者名稱或 ProtonMail 電子郵件地址"
-      ],
-      "Enter your password": [
-        "請輸入您的密碼"
-      ],
-      "Invalid verification code": [
-        "驗證碼無效"
-      ],
-      "Request new code": [
-        "重發驗證碼"
-      ],
-      "Human verification": [
-        "真人驗證"
       ],
       "Select a theme": [
         "選擇佈景主題"
@@ -3898,6 +3895,11 @@
         "歡迎"
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        "此金鑰不適用於加密"
+      ]
+    },
     "Link": {
       "Learn more": [
         "瞭解更多"
@@ -3925,6 +3927,36 @@
       ],
       "Add a gift code": [
         "新增禮品代碼"
+      ],
+      "Inbox": [
+        "收件匣"
+      ],
+      "Drafts": [
+        "草稿"
+      ],
+      "Sent": [
+        "已傳送"
+      ],
+      "Trash": [
+        "垃圾桶"
+      ],
+      "Spam": [
+        "垃圾郵件"
+      ],
+      "All mail": [
+        "所有郵件"
+      ],
+      "Archive": [
+        "封存"
+      ],
+      "Starred": [
+        "已加星號"
+      ],
+      "Outbox": [
+        "寄件匣"
+      ],
+      "Scheduled": [
+        "已排程"
       ],
       "You need to activate your calendar keys to add this event": [
         "您需要先啟用您的行事曆金鑰，才可以新增此事件"
@@ -4001,33 +4033,6 @@
       "Add label": [
         "新增標籤"
       ],
-      "Inbox": [
-        "收件匣"
-      ],
-      "Drafts": [
-        "草稿"
-      ],
-      "Scheduled": [
-        "已排程"
-      ],
-      "Sent": [
-        "已傳送"
-      ],
-      "Starred": [
-        "已加星號"
-      ],
-      "Archive": [
-        "封存"
-      ],
-      "Spam": [
-        "垃圾郵件"
-      ],
-      "Trash": [
-        "垃圾桶"
-      ],
-      "All mail": [
-        "所有郵件"
-      ],
       "Folders": [
         "資料夾"
       ],
@@ -4039,9 +4044,6 @@
       ],
       "Manage your labels": [
         "管理您的標籤"
-      ],
-      "Outbox": [
-        "寄件匣"
       ]
     },
     "Label": {
@@ -4056,6 +4058,36 @@
       ],
       "Do not ask again": [
         "不要再詢問"
+      ],
+      "Cancel": [
+        "取消"
+      ],
+      "Submit": [
+        "提交"
+      ],
+      "Password": [
+        "密碼"
+      ],
+      "Mailbox password": [
+        "郵箱密碼"
+      ],
+      "Two-factor authentication code": [
+        "兩步驟驗證代碼"
+      ],
+      "Username or ProtonMail address": [
+        "使用者名稱或 ProtonMail 電子郵件地址"
+      ],
+      "Email address": [
+        "電子郵件地址"
+      ],
+      "Phone number": [
+        "電話號碼"
+      ],
+      "Verification code": [
+        "驗證碼"
+      ],
+      "Enter the 6-digit code": [
+        "輸入六位數的碼"
       ],
       "Add email address": [
         "新增電子郵件地址"
@@ -4122,36 +4154,6 @@
       ],
       "Export contacts": [
         "匯出聯絡人"
-      ],
-      "Cancel": [
-        "取消"
-      ],
-      "Submit": [
-        "提交"
-      ],
-      "Password": [
-        "密碼"
-      ],
-      "Mailbox password": [
-        "郵箱密碼"
-      ],
-      "Two-factor authentication code": [
-        "兩步驟驗證代碼"
-      ],
-      "Username or ProtonMail address": [
-        "使用者名稱或 ProtonMail 電子郵件地址"
-      ],
-      "Email address": [
-        "電子郵件地址"
-      ],
-      "Phone number": [
-        "電話號碼"
-      ],
-      "Verification code": [
-        "驗證碼"
-      ],
-      "Enter the 6-digit code": [
-        "輸入六位數的碼"
       ],
       "From: ${ fromEmailAddress }": [
         "寄件者：${ fromEmailAddress }"
@@ -4426,29 +4428,20 @@
       "Keyword": [
         "關鍵字"
       ],
-      "Address": [
-        "電子郵件地址"
-      ],
-      "Sender": [
-        "寄件者"
-      ],
       "From": [
         "寄件人"
-      ],
-      "Recipient": [
-        "收件者"
       ],
       "To": [
         "發送到"
       ],
-      "Between": [
-        "介乎"
+      "Sender": [
+        "寄件者"
+      ],
+      "Recipient": [
+        "收件者"
       ],
       "Attachments": [
         "附件"
-      ],
-      "Filter": [
-        "篩選器"
       ],
       "Also archive": [
         "同時封存"
@@ -4479,6 +4472,9 @@
       "Text": [
         "文字"
       ],
+      "Mailbox password": [
+        "郵箱密碼"
+      ],
       "Start typing an email address": [
         "在此輸入一個電子郵件地址"
       ],
@@ -4499,9 +4495,6 @@
       ],
       "Name": [
         "名稱"
-      ],
-      "Mailbox password": [
-        "郵箱密碼"
       ],
       "OS name": [
         "作業系統名稱"
@@ -4554,14 +4547,17 @@
       "Hint": [
         "提示"
       ],
-      "Name or email address": [
-        "名稱或電子郵件地址"
+      "Search Messages": [
+        ""
       ],
       "Start date": [
         "開始日期"
       ],
       "End date": [
         "結束日期"
+      ],
+      "Name or email address": [
+        "名稱或電子郵件地址"
       ],
       "Search messages": [
         "搜尋訊息"
@@ -4599,11 +4595,6 @@
       ],
       "Found ${ items.length } suggestion, use keyboard to navigate.": [
         "找到 ${ items.length } 建議，使用鍵盤來選取。"
-      ]
-    },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        "此金鑰不適用於加密"
       ]
     },
     "Font Face Default": {
@@ -4681,95 +4672,18 @@
         "前往 ${ vpnName }"
       ]
     },
-    "Table header": {
-      "Name": [
-        "名稱"
-      ],
-      "Address": [
-        "電子郵件地址"
-      ],
-      "Action": [
-        "動作"
-      ],
-      "Fingerprint": [
-        "指紋"
-      ],
-      "Created": [
-        "建立時間"
-      ],
-      "Expires": [
-        "到期日"
-      ],
-      "Type": [
-        "類型"
-      ],
-      "Status": [
-        "狀態"
-      ],
-      "Actions": [
-        "動作"
-      ]
-    },
-    "Warning": {
-      "This feature requires a paid Proton account": [
-        "付費的 Proton 帳號才能使用此功能"
-      ],
-      "Are you sure you want to permanently delete this contact group?": [
-        "您確定要永久刪除此聯絡人群組嗎？"
-      ],
-      "Are you sure you want to permanently delete ${ count } contact group?": [
-        "您確定要永久刪除 ${ count } 個聯絡人群組嗎？"
-      ],
-      "Are you sure you want to permanently delete this contact?": [
-        "您確定要永久刪除此聯絡人嗎？"
-      ],
-      "Are you sure you want to permanently delete ${ count } contact?": [
-        "您確定要永久刪除 ${ count } 個聯絡人嗎？"
-      ],
-      "If you don’t remember your password, it is impossible to re-activate your key. We can help you dismiss the alert banner but in the process you will permanently lose access to all the data encrypted with that key.": [
-        "若您記不起您的密碼，則沒辦法重新啟用您的金鑰。我們可幫助您關閉提示橫幅，然而在此過程中，您將永久失去所有以該金鑰加密的資料的存取。"
-      ],
-      "This action is irreversible. Please enter the word ${ boldDanger } in the field to proceed.": [
-        "此動作無法復原。請在欄位輸入「{ boldDanger }」一詞以繼續。"
-      ],
-      "The decryption of the encrypted content failed.": [
-        "已加密內容的解密失敗。"
-      ],
-      "The verification of the contact details' signature failed.": [
-        "聯絡人詳細資料的簽章驗證失敗。"
-      ],
-      "The contact failed to load.": [
-        "聯絡人載入失敗。"
-      ],
-      "Some of the contacts to be merged display errors. Please review them individually": [
-        "一些欲合併的聯絡人發現錯誤，請逐一複閱"
-      ],
-      "Contacts could not be merged": [
-        "聯絡人無法合併"
-      ],
-      "Are you sure you want to discard your import?": [
-        "您確定要捨棄您的匯入嗎？"
-      ],
-      "Live chat is a premium feature available only to those with paid ProtonVPN plans. Please open a ticket instead.": [
-        ""
-      ],
-      "Unfortunately, we’re not online at the moment. Please complete the form below to describe your issue, and we will look into it and be in touch when we’re back online.": [
-        "不幸的是，我們目前不在線上。請填寫下面的表單來描述您的問題，我們將會進行調查並在我們重新上線後與您聯絡。"
-      ],
-      "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
-        "錯誤提報表並未使用端到端加密，請勿傳送任何敏感資訊。"
-      ],
-      "Your local date & time settings seem to be out of sync.": [
-        "您的本機日期和時間設定似乎出現偏差。"
-      ],
-      "Please note that by choosing this payment method, your account cannot be upgraded immediately. We will update your account once the payment is cleared.": [
-        "請注意：選取此支付方法時，您的帳號無法立即升級。付款一經結算完成，我們就會升級您的帳號。"
-      ],
-      "The attachment's signature failed verification.\nYou can still download this attachment but it might have been tampered with.": [
-        "附件簽章驗證失敗。\n您仍可下載附件，惟附件可能已遭篡改。"
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "逾期帳單"
       ]
     },
     "Success": {
+      "Code sent to ${ methodTo }": [
+        "代碼已發送到 ${ methodTo }"
+      ],
+      "Verification successful": [
+        "驗證成功"
+      ],
       "Contact group deleted": [
         "聯絡人群組已刪除"
       ],
@@ -4796,12 +4710,6 @@
       ],
       "Address copied to clipboard": [
         "地址已複製到剪貼簿"
-      ],
-      "Code sent to ${ methodTo }": [
-        "代碼已發送到 ${ methodTo }"
-      ],
-      "Verification successful": [
-        "驗證成功"
       ],
       "Bug reported": [
         "錯誤已報告"
@@ -4940,6 +4848,111 @@
       ],
       "Move ${ selectionCount } conversation": [
         "移動 ${ selectionCount } 個會話"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "電子郵件"
+      ],
+      "SMS": [
+        "簡訊"
+      ],
+      "Manual": [
+        "手動"
+      ],
+      "No verification method available": [
+        "無可用的驗證方法"
+      ]
+    },
+    "Table header": {
+      "Name": [
+        "名稱"
+      ],
+      "Address": [
+        "電子郵件地址"
+      ],
+      "Action": [
+        "動作"
+      ],
+      "Fingerprint": [
+        "指紋"
+      ],
+      "Created": [
+        "建立時間"
+      ],
+      "Expires": [
+        "到期日"
+      ],
+      "Type": [
+        "類型"
+      ],
+      "Status": [
+        "狀態"
+      ],
+      "Actions": [
+        "動作"
+      ]
+    },
+    "Warning": {
+      "This feature requires a paid Proton account": [
+        "付費的 Proton 帳號才能使用此功能"
+      ],
+      "Are you sure you want to permanently delete this contact group?": [
+        "您確定要永久刪除此聯絡人群組嗎？"
+      ],
+      "Are you sure you want to permanently delete ${ count } contact group?": [
+        "您確定要永久刪除 ${ count } 個聯絡人群組嗎？"
+      ],
+      "Are you sure you want to permanently delete this contact?": [
+        "您確定要永久刪除此聯絡人嗎？"
+      ],
+      "Are you sure you want to permanently delete ${ count } contact?": [
+        "您確定要永久刪除 ${ count } 個聯絡人嗎？"
+      ],
+      "If you don’t remember your password, it is impossible to re-activate your key. We can help you dismiss the alert banner but in the process you will permanently lose access to all the data encrypted with that key.": [
+        "若您記不起您的密碼，則沒辦法重新啟用您的金鑰。我們可幫助您關閉提示橫幅，然而在此過程中，您將永久失去所有以該金鑰加密的資料的存取。"
+      ],
+      "This action is irreversible. Please enter the word ${ boldDanger } in the field to proceed.": [
+        "此動作無法復原。請在欄位輸入「{ boldDanger }」一詞以繼續。"
+      ],
+      "The decryption of the encrypted content failed.": [
+        "已加密內容的解密失敗。"
+      ],
+      "The verification of the contact details' signature failed.": [
+        "聯絡人詳細資料的簽章驗證失敗。"
+      ],
+      "The contact failed to load.": [
+        "聯絡人載入失敗。"
+      ],
+      "Some of the contacts to be merged display errors. Please review them individually": [
+        "一些欲合併的聯絡人發現錯誤，請逐一複閱"
+      ],
+      "Contacts could not be merged": [
+        "聯絡人無法合併"
+      ],
+      "Are you sure you want to discard your import?": [
+        "您確定要捨棄您的匯入嗎？"
+      ],
+      "Live chat is a premium feature available only to those with paid ProtonVPN plans. Please open a ticket instead.": [
+        ""
+      ],
+      "Unfortunately, we’re not online at the moment. Please complete the form below to describe your issue, and we will look into it and be in touch when we’re back online.": [
+        "不幸的是，我們目前不在線上。請填寫下面的表單來描述您的問題，我們將會進行調查並在我們重新上線後與您聯絡。"
+      ],
+      "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
+        "錯誤提報表並未使用端到端加密，請勿傳送任何敏感資訊。"
+      ],
+      "Your local date & time settings seem to be out of sync.": [
+        "您的本機日期和時間設定似乎出現偏差。"
+      ],
+      "Please note that by choosing this payment method, your account cannot be upgraded immediately. We will update your account once the payment is cleared.": [
+        "請注意：選取此支付方法時，您的帳號無法立即升級。付款一經結算完成，我們就會升級您的帳號。"
+      ],
+      "The attachment's signature failed verification.\nYou can still download this attachment but it might have been tampered with.": [
+        "附件簽章驗證失敗。\n您仍可下載附件，惟附件可能已遭篡改。"
       ]
     },
     "Label for contact group name": {
@@ -5194,9 +5207,6 @@
       ],
       "No parent folder": [
         "無上層資料夾"
-      ],
-      "All": [
-        "全部"
       ]
     },
     "Import contact groups info": {
@@ -5261,33 +5271,6 @@
         "${ totalImported }/${ totalToImport } 個聯絡人已加密並新增到您的聯絡人清單"
       ]
     },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "逾期帳單"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
-      ],
-      "Email": [
-        "電子郵件"
-      ],
-      "SMS": [
-        "簡訊"
-      ],
-      "Manual": [
-        "手動"
-      ],
-      "No verification method available": [
-        "無可用的驗證方法"
-      ]
-    },
-    "Select files": {
-      "Upload": [
-        "上載"
-      ]
-    },
     "Label to change density": {
       "Comfortable": [
         "舒適"
@@ -5310,6 +5293,11 @@
       ],
       "Maximized": [
         "最大化"
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "上載"
       ]
     },
     "Loading info": {
@@ -6698,17 +6686,11 @@
       "All": [
         "全部"
       ],
-      "Yes": [
-        "是"
+      "With": [
+        ""
       ],
-      "No": [
-        "否"
-      ],
-      "Read": [
-        "已讀"
-      ],
-      "Unread": [
-        "尚未讀取"
+      "Without": [
+        ""
       ]
     },
     "Filter option": {

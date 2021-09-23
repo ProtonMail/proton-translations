@@ -5,18 +5,36 @@
   },
   "contexts": {
     "": {},
-    "Message": {
-      "Re:": [
-        "Re:"
+    "file size format": {
+      "bytes": [
+        "bytes"
       ],
-      "Fw:": [
-        "Fw:"
+      "KB": [
+        "KB"
       ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "Op ${ date } schreef ${ name } ${ address }:"
+      "MB": [
+        "MB"
+      ],
+      "GB": [
+        "GB"
       ]
     },
     "Error": {
+      "This field is required": [
+        "Dit veld is vereist"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Dit veld vereist een minimum van ${ minimumLength } tekens."
+      ],
+      "Email is not valid": [
+        "E-mailadres is ongeldig"
+      ],
+      "Not a valid number": [
+        "Geen geldig getal"
+      ],
+      "Passwords do not match": [
+        "Wachtwoorden komen niet overeen"
+      ],
       "Email address disabled": [
         "E-mailadres uitgeschakeld"
       ],
@@ -41,23 +59,14 @@
       "The sending key is not valid": [
         "De verzend-sleutel is ongeldig"
       ],
-      "This field is required": [
-        "Dit veld is vereist"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Dit veld vereist een minimum van ${ minimumLength } tekens."
-      ],
-      "Email is not valid": [
-        "E-mailadres is ongeldig"
-      ],
-      "Not a valid number": [
-        "Geen geldig getal"
-      ],
-      "Passwords do not match": [
-        "Wachtwoorden komen niet overeen"
-      ],
       "Request timed out.": [
         "Het verzoek timed out."
+      ],
+      "Signature verification failed": [
+        "Controle van handtekening mislukt"
+      ],
+      "Could not find address ${ email }.": [
+        "Kon adres ${ email } niet vinden."
       ],
       "Missing signature": [
         "Handtekening ontbreekt"
@@ -73,12 +82,6 @@
       ],
       "The key properties for ${ emailAddress } could not be extracted": [
         "De kerneigenschappen van ${ emailAddress } kunnen niet verkregen worden"
-      ],
-      "Signature verification failed": [
-        "Controle van handtekening mislukt"
-      ],
-      "Could not find address ${ email }.": [
-        "Kon adres ${ email } niet vinden."
       ],
       "Address primary private key not found": [
         "Primaire adressleutel is niet gevonden"
@@ -112,6 +115,27 @@
       ],
       "Please refresh the page.": [
         "Vernieuw de pagina."
+      ],
+      "Incorrect mailbox password. Please try again": [
+        "Onjuist mailbox-wachtwoord. Probeer het opnieuw"
+      ],
+      "Incorrect login credentials. Please try again": [
+        "Onjuiste inloggegevens. Gelieve opnieuw te proberen"
+      ],
+      "Can't validate email, try again later": [
+        "Kan e-mail niet valideren, probeer het later opnieuw"
+      ],
+      "Can't validate phone, try again later": [
+        "Kan telefoon niet valideren, probeer het later opnieuw"
+      ],
+      "Enter 6 digits": [
+        "Voer 6 cijfers in"
+      ],
+      "Invalid verification code": [
+        "De ingevoerde code is ongeldig"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Er ging iets mis, gelieve ${ refresh } om door te gaan. Als je dit foutbericht nog steeds ziet, neem dan contact op met onze ${ supportTeam }."
       ],
       "Some groups could not be deleted": [
         "Sommige groepen konden niet worden verwijderd"
@@ -153,27 +177,6 @@
       ],
       "A group with this name already exists": [
         "Er bestaat al een groep met deze naam"
-      ],
-      "Incorrect mailbox password. Please try again": [
-        "Onjuist mailbox-wachtwoord. Probeer het opnieuw"
-      ],
-      "Incorrect login credentials. Please try again": [
-        "Onjuiste inloggegevens. Gelieve opnieuw te proberen"
-      ],
-      "Can't validate email, try again later": [
-        "Kan e-mail niet valideren, probeer het later opnieuw"
-      ],
-      "Can't validate phone, try again later": [
-        "Kan telefoon niet valideren, probeer het later opnieuw"
-      ],
-      "Enter 6 digits": [
-        "Voer 6 cijfers in"
-      ],
-      "Invalid verification code": [
-        "De ingevoerde code is ongeldig"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Er ging iets mis, gelieve ${ refresh } om door te gaan. Als je dit foutbericht nog steeds ziet, neem dan contact op met onze ${ supportTeam }."
       ],
       "We were unable to connect to your service provider.": [
         "We kunnen geen verbinding maken met uw serviceprovider."
@@ -378,18 +381,10 @@
         "Te veel actieve filters. Upgrade naar een betaald abonnement om meer filters te activeren"
       ]
     },
-    "file size format": {
-      "bytes": [
-        "bytes"
-      ],
-      "KB": [
-        "KB"
-      ],
-      "MB": [
-        "MB"
-      ],
-      "GB": [
-        "GB"
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "Wachtwoord moet ten minste ${ length } teken bevatten",
+        "Wachtwoord moet ten minste ${ length } tekens bevatten"
       ]
     },
     "Contact field label": {
@@ -506,10 +501,15 @@
         "Adres"
       ]
     },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "Wachtwoord moet ten minste ${ length } teken bevatten",
-        "Wachtwoord moet ten minste ${ length } tekens bevatten"
+    "Message": {
+      "Re:": [
+        "Re:"
+      ],
+      "Fw:": [
+        "Fw:"
+      ],
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "Op ${ date } schreef ${ name } ${ address }:"
       ]
     },
     "Info": {
@@ -556,6 +556,9 @@
         "(${ memberCount } lid)",
         "(${ memberCount } leden)"
       ],
+      "Loading": [
+        "Laden"
+      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Deze link kan een homografie-aanval zijn en kan niet geopend worden in Internet Explorer en Edge. Als u zeker bent dat de link legitiem is, gebruik dan een andere browser om het te bezoeken."
       ],
@@ -567,9 +570,6 @@
       ],
       "Learn more": [
         "Meer informatie"
-      ],
-      "Loading": [
-        "Laden"
       ],
       "Insert image": [
         "Afbeelding invoegen"
@@ -651,6 +651,48 @@
       ],
       "Loading ${ appName }": [
         "${ appName } laden"
+      ],
+      "here": [
+        "hier"
+      ],
+      "This account has been suspended due to a potential policy violation.": [
+        "Dit account is opgeschort vanwege een potentiële schending van het beleid."
+      ],
+      "If you believe this is in error, please contact us ${ contactLink }.": [
+        "Als u denkt dat dit een fout is, neem dan contact met ons op via ${ contactLink }."
+      ],
+      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
+        "Uw Proton-account is bevroren. Betaal onbetaalde facturen om uw account weer te gebruiken."
+      ],
+      "Would you like to receive a new verification code or use an alternative verification method?": [
+        "Wilt u een nieuwe verificatiecode ontvangen of een alternatieve verificatiemethode kiezen?"
+      ],
+      "Enter the verification code that was sent to ${ destinationText }.": [
+        "Vul de verificatiecode in die naar ${ destinationText } verzonden is."
+      ],
+      "If you don't find the email in your inbox, please check your spam folder.": [
+        "Als u de e-mail niet in de inbox kan vinden, check dan uw map met spam."
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
+        "Klik op \"Vraag nieuwe code aan\" om een nieuwe verificatiecode te sturen naar ${ strong }. Als dit e-mailadres onjuist is, klik op \"Bewerken\" om het te corrigeren."
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
+        "Klik op \"Vraag nieuwe code aan\" om een nieuwe verificatiecode te sturen naar ${ strong }. Als dit telefoonnummer onjuist is, klik op \"Bewerken\" om het te corrigeren."
+      ],
+      "To fight spam and abuse, please verify you are human.": [
+        "Bevestig dat u een natuurlijk persoon bent, om spam en misbruik tegen te gaan."
+      ],
+      "Your email will only be used for this one-time verification.": [
+        "Uw e-mailadres wordt alleen gebruikt voor deze eenmalige verificatie."
+      ],
+      "Your phone number will only be used for this one-time verification.": [
+        "Uw telefoonnummer wordt alleen gebruikt voor deze eenmalige verificatie."
+      ],
+      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
+        "Als u problemen ondervindt met het aanmaken van uw account, vraag dan een uitnodiging aan. Wij reageren op uw verzoek binnen een werkdag."
+      ],
+      "support team": [
+        "ondersteuningsteam"
       ],
       "No contacts added yet": [
         "Nog geen contactpersonen toegevoegd"
@@ -770,48 +812,6 @@
       "${ addressCount } email address": [
         "${ addressCount } e-mailadres",
         "${ addressCount } e-mailadressen"
-      ],
-      "here": [
-        "hier"
-      ],
-      "This account has been suspended due to a potential policy violation.": [
-        "Dit account is opgeschort vanwege een potentiële schending van het beleid."
-      ],
-      "If you believe this is in error, please contact us ${ contactLink }.": [
-        "Als u denkt dat dit een fout is, neem dan contact met ons op via ${ contactLink }."
-      ],
-      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
-        "Uw Proton-account is bevroren. Betaal onbetaalde facturen om uw account weer te gebruiken."
-      ],
-      "Would you like to receive a new verification code or use an alternative verification method?": [
-        "Wilt u een nieuwe verificatiecode ontvangen of een alternatieve verificatiemethode kiezen?"
-      ],
-      "Enter the verification code that was sent to ${ destinationText }.": [
-        "Vul de verificatiecode in die naar ${ destinationText } verzonden is."
-      ],
-      "If you don't find the email in your inbox, please check your spam folder.": [
-        "Als u de e-mail niet in de inbox kan vinden, check dan uw map met spam."
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
-        "Klik op \"Vraag nieuwe code aan\" om een nieuwe verificatiecode te sturen naar ${ strong }. Als dit e-mailadres onjuist is, klik op \"Bewerken\" om het te corrigeren."
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
-        "Klik op \"Vraag nieuwe code aan\" om een nieuwe verificatiecode te sturen naar ${ strong }. Als dit telefoonnummer onjuist is, klik op \"Bewerken\" om het te corrigeren."
-      ],
-      "To fight spam and abuse, please verify you are human.": [
-        "Bevestig dat u een natuurlijk persoon bent, om spam en misbruik tegen te gaan."
-      ],
-      "Your email will only be used for this one-time verification.": [
-        "Uw e-mailadres wordt alleen gebruikt voor deze eenmalige verificatie."
-      ],
-      "Your phone number will only be used for this one-time verification.": [
-        "Uw telefoonnummer wordt alleen gebruikt voor deze eenmalige verificatie."
-      ],
-      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
-        "Als u problemen ondervindt met het aanmaken van uw account, vraag dan een uitnodiging aan. Wij reageren op uw verzoek binnen een werkdag."
-      ],
-      "support team": [
-        "ondersteuningsteam"
       ],
       "Import contacts": [
         "Contactpersonen importeren"
@@ -1745,6 +1745,11 @@
         "Met uw mobiele apparaat, scan deze QR-Code of bezoek ${ link }."
       ]
     },
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "E-mailadres is niet gevonden in de user id's van verzendsleutel (${ keyUserIds })"
+      ]
+    },
     "Default display name vcard": {
       "Unknown": [
         "Onbekend"
@@ -1789,11 +1794,6 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "Er is een fout opgetreden tijdens het lezen van uw bestand ${ formattedFilename }. Bestand heeft niet de juiste indeling."
-      ]
-    },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "E-mailadres is niet gevonden in de user id's van verzendsleutel (${ keyUserIds })"
       ]
     },
     "Keyboard shortcut section name": {
@@ -2145,17 +2145,11 @@
       ]
     },
     "Email subject": {
-      "Cancellation of an event on ${ formattedStart }": [
-        "Annulering van een afspraak op ${ formattedStart }"
-      ],
       "Invitation for an event on ${ formattedStart }": [
         "Uitnodiging voor een afspraak op ${ formattedStart }"
       ],
       "Update for an event on ${ formattedStart }": [
         "Update voor een afspraak op ${ formattedStart }"
-      ],
-      "Cancellation of an event starting on ${ formattedStart }": [
-        "Annulering van een afspraak die begint op ${ formattedStart }"
       ],
       "Invitation for an event starting on ${ formattedStart }": [
         "Uitnodiging voor een afspraak die begint op ${ formattedStart }"
@@ -2163,8 +2157,11 @@
       "Update for an event starting on ${ formattedStart }": [
         "Update voor een afspraak die begint op ${ formattedStart }"
       ],
-      "Invitation: ${ eventTitle }": [
-        "Uitnodiging: ${ eventTitle }"
+      "Cancellation of an event on ${ formattedStart }": [
+        "Annulering van een afspraak op ${ formattedStart }"
+      ],
+      "Cancellation of an event starting on ${ formattedStart }": [
+        "Annulering van een afspraak die begint op ${ formattedStart }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -2746,6 +2743,33 @@
       "refresh the page": [
         "pagina vernieuwen"
       ],
+      "Log in": [
+        "Aanmelden"
+      ],
+      "View invoice": [
+        "Factuur bekijken"
+      ],
+      "Get verification code": [
+        "Krijg verificatie code"
+      ],
+      "Try another method": [
+        "Andere methode proberen"
+      ],
+      "Request new code": [
+        "Nieuwe code aanvragen"
+      ],
+      "Verify": [
+        "Verifiëren"
+      ],
+      "Did not receive the code?": [
+        "Heeft u de code niet ontvangen?"
+      ],
+      "Edit email address": [
+        "Wijzig e-mailadres"
+      ],
+      "Edit phone number": [
+        "Wijzig telefoonnummer"
+      ],
       "Upgrade": [
         "Upgraden"
       ],
@@ -2898,33 +2922,6 @@
       ],
       "Next": [
         "Volgende"
-      ],
-      "Log in": [
-        "Aanmelden"
-      ],
-      "View invoice": [
-        "Factuur bekijken"
-      ],
-      "Get verification code": [
-        "Krijg verificatie code"
-      ],
-      "Try another method": [
-        "Andere methode proberen"
-      ],
-      "Request new code": [
-        "Nieuwe code aanvragen"
-      ],
-      "Verify": [
-        "Verifiëren"
-      ],
-      "Did not receive the code?": [
-        "Heeft u de code niet ontvangen?"
-      ],
-      "Edit email address": [
-        "Wijzig e-mailadres"
-      ],
-      "Edit phone number": [
-        "Wijzig telefoonnummer"
       ],
       "Use ${ label } theme": [
         "Gebruik ${ label } thema"
@@ -3499,6 +3496,27 @@
       "What's new": [
         "Wat is er nieuw"
       ],
+      "Sign in again to continue": [
+        "Log opnieuw in om door te gaan"
+      ],
+      "Account suspended": [
+        "Account opgeschort"
+      ],
+      "Enter your username or ProtonMail email address": [
+        "Vul uw gebruikersnaam of ProtonMail e-mailadres in"
+      ],
+      "Enter your password": [
+        "Voer uw wachtwoord in"
+      ],
+      "Invalid verification code": [
+        "De ingevoerde code is ongeldig"
+      ],
+      "Request new code": [
+        "Nieuwe code aanvragen"
+      ],
+      "Human verification": [
+        "Persoonsverificatie"
+      ],
       "Upgrade required": [
         "Upgrade vereist"
       ],
@@ -3622,27 +3640,6 @@
       ],
       "Import contacts": [
         "Contactpersonen importeren"
-      ],
-      "Sign in again to continue": [
-        "Log opnieuw in om door te gaan"
-      ],
-      "Account suspended": [
-        "Account opgeschort"
-      ],
-      "Enter your username or ProtonMail email address": [
-        "Vul uw gebruikersnaam of ProtonMail e-mailadres in"
-      ],
-      "Enter your password": [
-        "Voer uw wachtwoord in"
-      ],
-      "Invalid verification code": [
-        "De ingevoerde code is ongeldig"
-      ],
-      "Request new code": [
-        "Nieuwe code aanvragen"
-      ],
-      "Human verification": [
-        "Persoonsverificatie"
       ],
       "Select a theme": [
         "Selecteer een thema"
@@ -3994,6 +3991,11 @@
         "Welkom"
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        "Sleutel kan niet worden gebruikt voor versleuteling"
+      ]
+    },
     "Link": {
       "Learn more": [
         "Meer informatie"
@@ -4021,6 +4023,36 @@
       ],
       "Add a gift code": [
         "Voeg een geschenkcode toe"
+      ],
+      "Inbox": [
+        "Inbox"
+      ],
+      "Drafts": [
+        "Concepten"
+      ],
+      "Sent": [
+        "Verzonden"
+      ],
+      "Trash": [
+        "Prullenbak"
+      ],
+      "Spam": [
+        "Spam"
+      ],
+      "All mail": [
+        "Alle e-mail"
+      ],
+      "Archive": [
+        "Archiveren"
+      ],
+      "Starred": [
+        "Met ster"
+      ],
+      "Outbox": [
+        "Postvak UIT"
+      ],
+      "Scheduled": [
+        "Gepland"
       ],
       "You need to activate your calendar keys to add this event": [
         ""
@@ -4097,33 +4129,6 @@
       "Add label": [
         "Label toevoegen"
       ],
-      "Inbox": [
-        "Inbox"
-      ],
-      "Drafts": [
-        "Concepten"
-      ],
-      "Scheduled": [
-        "Gepland"
-      ],
-      "Sent": [
-        "Verzonden"
-      ],
-      "Starred": [
-        "Met ster"
-      ],
-      "Archive": [
-        "Archiveren"
-      ],
-      "Spam": [
-        "Spam"
-      ],
-      "Trash": [
-        "Prullenbak"
-      ],
-      "All mail": [
-        "Alle e-mail"
-      ],
       "Folders": [
         "Mappen"
       ],
@@ -4135,9 +4140,6 @@
       ],
       "Manage your labels": [
         "Labels beheren"
-      ],
-      "Outbox": [
-        "Postvak UIT"
       ]
     },
     "Label": {
@@ -4152,6 +4154,36 @@
       ],
       "Do not ask again": [
         "Niet opnieuw vragen"
+      ],
+      "Cancel": [
+        "Annuleren"
+      ],
+      "Submit": [
+        "Versturen"
+      ],
+      "Password": [
+        "Wachtwoord"
+      ],
+      "Mailbox password": [
+        "Mailboxwachtwoord"
+      ],
+      "Two-factor authentication code": [
+        "Tweestapsverificatiecode"
+      ],
+      "Username or ProtonMail address": [
+        "Gebruikersnaam of ProtonMail e-mailadres"
+      ],
+      "Email address": [
+        "E-mailadres"
+      ],
+      "Phone number": [
+        "Telefoonnummer"
+      ],
+      "Verification code": [
+        "Verificatiecode"
+      ],
+      "Enter the 6-digit code": [
+        "Voer de 6-cijferige code in"
       ],
       "Add email address": [
         "E-mailadres toevoegen"
@@ -4218,36 +4250,6 @@
       ],
       "Export contacts": [
         "Contacten exporteren"
-      ],
-      "Cancel": [
-        "Annuleren"
-      ],
-      "Submit": [
-        "Versturen"
-      ],
-      "Password": [
-        "Wachtwoord"
-      ],
-      "Mailbox password": [
-        "Mailboxwachtwoord"
-      ],
-      "Two-factor authentication code": [
-        "Tweestapsverificatiecode"
-      ],
-      "Username or ProtonMail address": [
-        "Gebruikersnaam of ProtonMail e-mailadres"
-      ],
-      "Email address": [
-        "E-mailadres"
-      ],
-      "Phone number": [
-        "Telefoonnummer"
-      ],
-      "Verification code": [
-        "Verificatiecode"
-      ],
-      "Enter the 6-digit code": [
-        "Voer de 6-cijferige code in"
       ],
       "From: ${ fromEmailAddress }": [
         "Van: ${ fromEmailAddress }"
@@ -4522,29 +4524,20 @@
       "Keyword": [
         "Trefwoord"
       ],
-      "Address": [
-        "Adres"
-      ],
-      "Sender": [
-        "Afzender"
-      ],
       "From": [
         "Van"
-      ],
-      "Recipient": [
-        "Ontvanger"
       ],
       "To": [
         "Naar"
       ],
-      "Between": [
-        "Tussen"
+      "Sender": [
+        "Afzender"
+      ],
+      "Recipient": [
+        "Ontvanger"
       ],
       "Attachments": [
         "Bijlagen"
-      ],
-      "Filter": [
-        "Filter"
       ],
       "Also archive": [
         "Ook archiveren"
@@ -4575,6 +4568,9 @@
       "Text": [
         "Tekst"
       ],
+      "Mailbox password": [
+        "Mailboxwachtwoord"
+      ],
       "Start typing an email address": [
         "Voer een e-mailadres in"
       ],
@@ -4595,9 +4591,6 @@
       ],
       "Name": [
         "Naam"
-      ],
-      "Mailbox password": [
-        "Mailboxwachtwoord"
       ],
       "OS name": [
         "Naam besturingssysteem"
@@ -4650,14 +4643,17 @@
       "Hint": [
         "Hint"
       ],
-      "Name or email address": [
-        "Naam of e-mailadres"
+      "Search Messages": [
+        ""
       ],
       "Start date": [
         "Begindatum"
       ],
       "End date": [
         "Einddatum"
+      ],
+      "Name or email address": [
+        "Naam of e-mailadres"
       ],
       "Search messages": [
         "Zoek berichten"
@@ -4702,11 +4698,6 @@
       "Found ${ items.length } suggestion, use keyboard to navigate.": [
         "${ items.length } suggestie gevonden, gebruik het toetsenbord om te navigeren.",
         "${ items.length } suggesties gevonden, gebruik het toetsenbord om te navigeren."
-      ]
-    },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        "Sleutel kan niet worden gebruikt voor versleuteling"
       ]
     },
     "Font Face Default": {
@@ -4784,98 +4775,18 @@
         "Ga naar ${ vpnName }"
       ]
     },
-    "Table header": {
-      "Name": [
-        "Naam"
-      ],
-      "Address": [
-        "Adres"
-      ],
-      "Action": [
-        "Actie"
-      ],
-      "Fingerprint": [
-        "Vingerafdruk"
-      ],
-      "Created": [
-        "Aangemaakt"
-      ],
-      "Expires": [
-        "Verloopt"
-      ],
-      "Type": [
-        "Soort"
-      ],
-      "Status": [
-        "Status"
-      ],
-      "Actions": [
-        "Acties"
-      ]
-    },
-    "Warning": {
-      "This feature requires a paid Proton account": [
-        "Deze functie vereist een betaald Proton-account"
-      ],
-      "Are you sure you want to permanently delete this contact group?": [
-        "Weet u zeker dat u deze contactgroep permanent wilt verwijderen?"
-      ],
-      "Are you sure you want to permanently delete ${ count } contact group?": [
-        "Weet u zeker dat u ${ count } contactgroep permanent wilt verwijderen?",
-        "Weet u zeker dat u ${ count } contactgroepen permanent wilt verwijderen?"
-      ],
-      "Are you sure you want to permanently delete this contact?": [
-        "Weet u zeker dat u dit contact permanent wilt verwijderen?"
-      ],
-      "Are you sure you want to permanently delete ${ count } contact?": [
-        "Weet u zeker dat u ${ count } contact permanent wilt verwijderen?",
-        "Weet u zeker dat u ${ count } contacten permanent wilt verwijderen?"
-      ],
-      "If you don’t remember your password, it is impossible to re-activate your key. We can help you dismiss the alert banner but in the process you will permanently lose access to all the data encrypted with that key.": [
-        "Als u uw wachtwoord niet meer weet, is het onmogelijk om uw sleutel opnieuw te activeren. We kunnen u helpen om de waarschuwingsbanner te verwijderen, maar in het proces zult u permanent toegang verliezen tot alle gegevens die versleuteld zijn met die sleutel."
-      ],
-      "This action is irreversible. Please enter the word ${ boldDanger } in the field to proceed.": [
-        "Deze actie is onomkeerbaar. Voer het woord ${ boldDanger } in het veld in om door te gaan."
-      ],
-      "The decryption of the encrypted content failed.": [
-        "Decoderen van de versleutelde inhoud is mislukt."
-      ],
-      "The verification of the contact details' signature failed.": [
-        "De verificatie van de handtekening van de contactgegevens is mislukt."
-      ],
-      "The contact failed to load.": [
-        "Het laden van het contactpersoon is mislukt."
-      ],
-      "Some of the contacts to be merged display errors. Please review them individually": [
-        "Enkele contactpersonen die moeten worden samengevoegd bevatten fouten. Controleer ze individueel"
-      ],
-      "Contacts could not be merged": [
-        "Contactpersonen konden niet samengevoegd worden"
-      ],
-      "Are you sure you want to discard your import?": [
-        "Weet u zeker dat u uw import wilt verwijderen?"
-      ],
-      "Live chat is a premium feature available only to those with paid ProtonVPN plans. Please open a ticket instead.": [
-        ""
-      ],
-      "Unfortunately, we’re not online at the moment. Please complete the form below to describe your issue, and we will look into it and be in touch when we’re back online.": [
-        ""
-      ],
-      "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
-        "Rapporten zijn niet versleuteld met end-to-end-versleuteling, stuur geen gevoelige informatie."
-      ],
-      "Your local date & time settings seem to be out of sync.": [
-        "Uw lokale datum- en tijdinstellingen lijken niet gesynchroniseerd te zijn."
-      ],
-      "Please note that by choosing this payment method, your account cannot be upgraded immediately. We will update your account once the payment is cleared.": [
-        "Houd er rekening mee dat door deze betaalmethode te kiezen je account niet onmiddellijk kan worden bijgewerkt. We zullen je account bijwerken zodra de betaling is gewist."
-      ],
-      "The attachment's signature failed verification.\nYou can still download this attachment but it might have been tampered with.": [
-        "Verificatie van de bijlage is mislukt.\nU kunt deze bijlage nog steeds downloaden, maar het kan zijn veranderd.",
-        "Sommige handtekeningen van de bijlagen zijn niet geverifieerd.\nU kunt deze bijlagen nog steeds downloaden, maar ze kunnen eventueel zijn gewijzigd."
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "Onbetaalde factuur"
       ]
     },
     "Success": {
+      "Code sent to ${ methodTo }": [
+        "Code verzonden naar ${ methodTo }"
+      ],
+      "Verification successful": [
+        "Verificatie gelukt"
+      ],
       "Contact group deleted": [
         "Contactgroep verwijderd",
         "Contactgroepen verwijderd"
@@ -4904,12 +4815,6 @@
       ],
       "Address copied to clipboard": [
         "Adres gekopieerd naar het klembord"
-      ],
-      "Code sent to ${ methodTo }": [
-        "Code verzonden naar ${ methodTo }"
-      ],
-      "Verification successful": [
-        "Verificatie gelukt"
       ],
       "Bug reported": [
         "Bug gemeld"
@@ -5065,6 +4970,114 @@
       "Move ${ selectionCount } conversation": [
         "Verplaats ${ selectionCount } gesprek",
         "Verplaats ${ selectionCount } gesprekken"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "E-mailadres"
+      ],
+      "SMS": [
+        "SMS"
+      ],
+      "Manual": [
+        "Handmatig"
+      ],
+      "No verification method available": [
+        "Geen verificatiemethode beschikbaar"
+      ]
+    },
+    "Table header": {
+      "Name": [
+        "Naam"
+      ],
+      "Address": [
+        "Adres"
+      ],
+      "Action": [
+        "Actie"
+      ],
+      "Fingerprint": [
+        "Vingerafdruk"
+      ],
+      "Created": [
+        "Aangemaakt"
+      ],
+      "Expires": [
+        "Verloopt"
+      ],
+      "Type": [
+        "Soort"
+      ],
+      "Status": [
+        "Status"
+      ],
+      "Actions": [
+        "Acties"
+      ]
+    },
+    "Warning": {
+      "This feature requires a paid Proton account": [
+        "Deze functie vereist een betaald Proton-account"
+      ],
+      "Are you sure you want to permanently delete this contact group?": [
+        "Weet u zeker dat u deze contactgroep permanent wilt verwijderen?"
+      ],
+      "Are you sure you want to permanently delete ${ count } contact group?": [
+        "Weet u zeker dat u ${ count } contactgroep permanent wilt verwijderen?",
+        "Weet u zeker dat u ${ count } contactgroepen permanent wilt verwijderen?"
+      ],
+      "Are you sure you want to permanently delete this contact?": [
+        "Weet u zeker dat u dit contact permanent wilt verwijderen?"
+      ],
+      "Are you sure you want to permanently delete ${ count } contact?": [
+        "Weet u zeker dat u ${ count } contact permanent wilt verwijderen?",
+        "Weet u zeker dat u ${ count } contacten permanent wilt verwijderen?"
+      ],
+      "If you don’t remember your password, it is impossible to re-activate your key. We can help you dismiss the alert banner but in the process you will permanently lose access to all the data encrypted with that key.": [
+        "Als u uw wachtwoord niet meer weet, is het onmogelijk om uw sleutel opnieuw te activeren. We kunnen u helpen om de waarschuwingsbanner te verwijderen, maar in het proces zult u permanent toegang verliezen tot alle gegevens die versleuteld zijn met die sleutel."
+      ],
+      "This action is irreversible. Please enter the word ${ boldDanger } in the field to proceed.": [
+        "Deze actie is onomkeerbaar. Voer het woord ${ boldDanger } in het veld in om door te gaan."
+      ],
+      "The decryption of the encrypted content failed.": [
+        "Decoderen van de versleutelde inhoud is mislukt."
+      ],
+      "The verification of the contact details' signature failed.": [
+        "De verificatie van de handtekening van de contactgegevens is mislukt."
+      ],
+      "The contact failed to load.": [
+        "Het laden van het contactpersoon is mislukt."
+      ],
+      "Some of the contacts to be merged display errors. Please review them individually": [
+        "Enkele contactpersonen die moeten worden samengevoegd bevatten fouten. Controleer ze individueel"
+      ],
+      "Contacts could not be merged": [
+        "Contactpersonen konden niet samengevoegd worden"
+      ],
+      "Are you sure you want to discard your import?": [
+        "Weet u zeker dat u uw import wilt verwijderen?"
+      ],
+      "Live chat is a premium feature available only to those with paid ProtonVPN plans. Please open a ticket instead.": [
+        ""
+      ],
+      "Unfortunately, we’re not online at the moment. Please complete the form below to describe your issue, and we will look into it and be in touch when we’re back online.": [
+        ""
+      ],
+      "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
+        "Rapporten zijn niet versleuteld met end-to-end-versleuteling, stuur geen gevoelige informatie."
+      ],
+      "Your local date & time settings seem to be out of sync.": [
+        "Uw lokale datum- en tijdinstellingen lijken niet gesynchroniseerd te zijn."
+      ],
+      "Please note that by choosing this payment method, your account cannot be upgraded immediately. We will update your account once the payment is cleared.": [
+        "Houd er rekening mee dat door deze betaalmethode te kiezen je account niet onmiddellijk kan worden bijgewerkt. We zullen je account bijwerken zodra de betaling is gewist."
+      ],
+      "The attachment's signature failed verification.\nYou can still download this attachment but it might have been tampered with.": [
+        "Verificatie van de bijlage is mislukt.\nU kunt deze bijlage nog steeds downloaden, maar het kan zijn veranderd.",
+        "Sommige handtekeningen van de bijlagen zijn niet geverifieerd.\nU kunt deze bijlagen nog steeds downloaden, maar ze kunnen eventueel zijn gewijzigd."
       ]
     },
     "Label for contact group name": {
@@ -5322,9 +5335,6 @@
       ],
       "No parent folder": [
         "Geen bovenliggende map"
-      ],
-      "All": [
-        "Alles"
       ]
     },
     "Import contact groups info": {
@@ -5393,33 +5403,6 @@
         "${ totalImported }/${ totalToImport } contacten versleuteld en toegevoegd aan uw contactenlijst"
       ]
     },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "Onbetaalde factuur"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
-      ],
-      "Email": [
-        "E-mailadres"
-      ],
-      "SMS": [
-        "SMS"
-      ],
-      "Manual": [
-        "Handmatig"
-      ],
-      "No verification method available": [
-        "Geen verificatiemethode beschikbaar"
-      ]
-    },
-    "Select files": {
-      "Upload": [
-        "Uploaden"
-      ]
-    },
     "Label to change density": {
       "Comfortable": [
         "Comfortabel"
@@ -5442,6 +5425,11 @@
       ],
       "Maximized": [
         "Gemaximaliseerd"
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "Uploaden"
       ]
     },
     "Loading info": {
@@ -6849,17 +6837,11 @@
       "All": [
         "Alles"
       ],
-      "Yes": [
-        "Ja"
+      "With": [
+        ""
       ],
-      "No": [
-        "Nee"
-      ],
-      "Read": [
-        "Lezen"
-      ],
-      "Unread": [
-        "Ongelezen"
+      "Without": [
+        ""
       ]
     },
     "Filter option": {
