@@ -62,6 +62,72 @@
       "Authentication error.": [
         "Помилка автентифікації."
       ],
+      "Email address invalid": [
+        "Недійсна адреса електронної пошти"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "Браузер, який ви використовуєте, не дозволяє повністю авторизувати платіж. Будь ласка, скористайтеся іншим браузером або увійдіть за допомогою комп'ютера."
+      ],
+      "Process aborted": [
+        "Процес перервано"
+      ],
+      "Payment process cancelled": [
+        "Обробку платежу скасовано"
+      ],
+      "Payment process failed": [
+        "Не вдалося обробити платіж"
+      ],
+      "Payment process consumed": [
+        "Обробку платежу завершено"
+      ],
+      "Payment process not supported": [
+        "Обробка платежу не підтримується"
+      ],
+      "Unknown payment token status": [
+        "Невідомий стан платіжного токена"
+      ],
+      "Tab closed": [
+        "Вкладку закрито"
+      ],
+      "Name on card required": [
+        "Необхідно ввести ім'я, вказане на картці"
+      ],
+      "Invalid expiration date": [
+        "Недійсний термін дії картки"
+      ],
+      "Invalid card number": [
+        "Недійсний номер картки"
+      ],
+      "Invalid ${ name } code": [
+        "Недійсний код ${ name }"
+      ],
+      "Invalid postal code": [
+        "Недійсний поштовий індекс"
+      ],
+      "Error connecting to the Bitcoin API.": [
+        "Помилка підключення до Bitcoin API."
+      ],
+      "Amount below minimum.": [
+        "Сума менше допустимого обмеження."
+      ],
+      "Amount above the maximum.": [
+        "Сума перевищує обмеження."
+      ],
+      "The minimum amount that can be donated is ${ price }": [
+        "Найменша сума, яку можна внести, становить ${ price }"
+      ],
+      "The minimum amount of credit that can be added is ${ _price }": [
+        "Найменша сума, яку можна додати, становить ${ _price }"
+      ],
+      "The minimum payment we accept is ${ _price2 }": [
+        "Найменший платіж, який ми приймаємо, становить ${ _price2 }"
+      ],
+      "Checkout expired, please try again.": [
+        "Час оформлення замовлення минув, повторіть спробу."
+      ],
+      "Invalid code": [
+        "Недійсний код"
+      ],
       "Incorrect mailbox password. Please try again": [
         "Неправильний пароль поштової скриньки. Спробуйте знову"
       ],
@@ -128,66 +194,6 @@
       "A group with this name already exists": [
         "Група з такою назвою вже існує"
       ],
-      "Process aborted": [
-        "Процес перервано"
-      ],
-      "Payment process cancelled": [
-        "Обробку платежу скасовано"
-      ],
-      "Payment process failed": [
-        "Не вдалося обробити платіж"
-      ],
-      "Payment process consumed": [
-        "Обробку платежу завершено"
-      ],
-      "Payment process not supported": [
-        "Обробка платежу не підтримується"
-      ],
-      "Unknown payment token status": [
-        "Невідомий стан платіжного токена"
-      ],
-      "Tab closed": [
-        "Вкладку закрито"
-      ],
-      "Name on card required": [
-        "Необхідно ввести ім'я, вказане на картці"
-      ],
-      "Invalid expiration date": [
-        "Недійсний термін дії картки"
-      ],
-      "Invalid card number": [
-        "Недійсний номер картки"
-      ],
-      "Invalid ${ name } code": [
-        "Недійсний код ${ name }"
-      ],
-      "Invalid postal code": [
-        "Недійсний поштовий індекс"
-      ],
-      "Error connecting to the Bitcoin API.": [
-        "Помилка підключення до Bitcoin API."
-      ],
-      "Amount below minimum.": [
-        "Сума менше допустимого обмеження."
-      ],
-      "Amount above the maximum.": [
-        "Сума перевищує обмеження."
-      ],
-      "The minimum amount that can be donated is ${ price }": [
-        "Найменша сума, яку можна внести, становить ${ price }"
-      ],
-      "The minimum amount of credit that can be added is ${ _price }": [
-        "Найменша сума, яку можна додати, становить ${ _price }"
-      ],
-      "The minimum payment we accept is ${ _price2 }": [
-        "Найменший платіж, який ми приймаємо, становить ${ _price2 }"
-      ],
-      "Checkout expired, please try again.": [
-        "Час оформлення замовлення минув, повторіть спробу."
-      ],
-      "Invalid code": [
-        "Недійсний код"
-      ],
       "We were unable to connect to your service provider.": [
         ""
       ],
@@ -197,11 +203,32 @@
       "File has no contents to preview": [
         "Файл не має вмісту для перегляду"
       ],
-      "Email address invalid": [
-        "Недійсна адреса електронної пошти"
+      "Could not generate file keys": [
+        "Не вдається згенерувати ключі файлу"
       ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "Браузер, який ви використовуєте, не дозволяє повністю авторизувати платіж. Будь ласка, скористайтеся іншим браузером або увійдіть за допомогою комп'ютера."
+      "The original file has missing active revision": [
+        "Оригінальний файл не має активної ревізії"
+      ],
+      "The original file has missing session key": [
+        "Оригінальний файл не має ключа сеансу"
+      ],
+      "The new revision of original file is not uploaded yet, please try again later": [
+        "Нову версію оригінального файлу ще не вивантажено. Спробуйте знову пізніше"
+      ],
+      "The original file is not uploaded yet, please try again later": [
+        "Оригінальний файл ще не вивантажено. Спробуйте знову пізніше"
+      ],
+      "The original file has missing hash key": [
+        "Оригінальний файл не має ключа хешу"
+      ],
+      "The original folder not found": [
+        "Оригінальну теку не знайдено"
+      ],
+      "File cannot be merged with folder": [
+        "Не можна об'єднувати файл з текою"
+      ],
+      "The original folder or file not found": [
+        "Оригінальну теку чи файл не знайдено"
       ],
       "Incorrect password. Please try again.": [
         "Хибний пароль. Повторіть спробу."
@@ -356,6 +383,30 @@
       "Servers are unreachable.": [
         "Сервери недоступні."
       ],
+      "No results found": [
+        "Результатів не знайдено"
+      ],
+      "Week": [
+        "Тиждень"
+      ],
+      "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
+        "Це посилання може бути гомографічною атакою і його не можна відкрити в браузерах Internet Explorer чи Edge. Якщо ви впевнені, що це надійне посилання, відкрийте його в іншому браузері."
+      ],
+      "This link may be a homograph attack. Please verify this is the link you wish to visit, or don't open it.": [
+        "Це посилання може бути гомографічною атакою. Впевніться, що це саме те посилання, яке ви хочете відвідати, або не відкривайте його."
+      ],
+      "You are about to open another browser tab and visit:": [
+        "Ви збираєтесь відкрити іншу вкладку браузера й відвідати:"
+      ],
+      "Learn more": [
+        "Докладніше"
+      ],
+      "Drop the file here to upload": [
+        "Для завантаження файлу перетягніть його сюди"
+      ],
+      "Loading": [
+        "Завантаження"
+      ],
       "Loading ${ appName }": [
         "Завантаження ${ appName }"
       ],
@@ -398,179 +449,11 @@
       "You have disabled Beta Access. Click ${ refreshButton } to use the stable version of ${ appName }. The application will be reloaded.": [
         "Ви вимкнули бета-доступ. Натисніть ${ refreshButton }, щоб використовувати стабільну версію ${ appName }. Програму буде перезавантажено."
       ],
-      "here": [
-        "тут"
-      ],
-      "This account has been suspended due to a potential policy violation.": [
-        "Цей обліковий запис було призупинено через потенційне порушення правил."
-      ],
-      "If you believe this is in error, please contact us ${ contactLink }.": [
-        "Якщо ви вважаєте, що це помилка, зв'яжіться з нами ${ contactLink }."
-      ],
-      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
-        "Робота вашого облікового запису Proton тимчасово зупинена. Щоб відновити роботу, будь ласка, сплатіть прострочені рахунки."
-      ],
-      "Would you like to receive a new verification code or use an alternative verification method?": [
-        "Бажаєте отримати новий код перевірки чи скористатися іншим способом перевірки?"
-      ],
-      "Enter the verification code that was sent to ${ destinationText }.": [
-        "Введіть код перевірки, який був надісланий на ${ destinationText }."
-      ],
-      "If you don't find the email in your inbox, please check your spam folder.": [
-        "Якщо ви не можете знайти лист у вхідних повідомленнях, перевірте свою теку спаму."
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
-        "Натисніть \"Запитати новий код\", щоб отримати новий код перевірки на ${ strong }. Якщо ця адреса е-пошти неправильна, натисніть \"Змінити\" для її виправлення."
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
-        "Натисніть \"Запитати новий код\", щоб отримати новий код перевірки на ${ strong }. Якщо цей номер телефону неправильний, натисніть \"Змінити\" для його виправлення."
-      ],
-      "To fight spam and abuse, please verify you are human.": [
-        "З метою протидії спаму та зловживанням, будь ласка, підтвердьте, що ви людина."
-      ],
-      "Your email will only be used for this one-time verification.": [
-        "Ваша електронна пошта використається лише для цієї одноразової перевірки."
-      ],
-      "Your phone number will only be used for this one-time verification.": [
-        "Ваш номер телефону використається лише для цієї одноразової перевірки."
-      ],
-      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
-        "Якщо у вас виникли труднощі під час створення облікового запису, подайте запит на запрошення і ми відповімо протягом одного робочого дня."
-      ],
-      "support team": [
-        "командою підтримки"
-      ],
       "Screenshot(s) attached": [
         "Знімки екрана додано"
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "Оновлення сторінки чи ${ link } автоматично розв'яже більшість проблем."
-      ],
-      "${ contactEmailsLength } Member": [
-        "${ contactEmailsLength } учасник",
-        "${ contactEmailsLength } учасники",
-        "${ contactEmailsLength } учасників",
-        "${ contactEmailsLength } учасників"
-      ],
-      "${ namesWithoutLast } and ${ nameOfLast }": [
-        "${ namesWithoutLast } та ${ nameOfLast }"
-      ],
-      "${ contactName } contains multiple email addresses. Please select which email address or addresses to add to this group.": [
-        "${ contactName } містить декілька адрес електронної пошти. Виберіть одну чи декілька адрес для додавання до цієї групи."
-      ],
-      "${ contactName } contains multiple email addresses. Please select which email address or addresses to add to ${ groupsEnumeration }.": [
-        "${ contactName } містить декілька адрес електронної пошти. Виберіть одну чи декілька адрес для додавання до ${ groupsEnumeration }."
-      ],
-      "${ contactsEnumeration } contain multiple email addresses. Please select which email address or addresses to add to this group.": [
-        "${ contactsEnumeration } містить декілька адрес електронної пошти. Виберіть одну чи декілька адрес для додавання до цієї групи."
-      ],
-      "${ contactsEnumeration } contain multiple email addresses. Please select which email address or addresses to add to ${ groupsEnumeration }.": [
-        "${ contactsEnumeration } містить декілька адрес електронної пошти. Виберіть одну чи декілька адрес для додавання до ${ groupsEnumeration }."
-      ],
-      "Please wait while we look for contacts that contain data encrypted with the inactive key.": [
-        "Будь ласка, зачекайте поки ми перевіряємо контакти, що містять дані, зашифровані неактивним ключем."
-      ],
-      "Checking contact ${ progress } of ${ max }...": [
-        "Перевірка контактів ${ progress } з ${ max }..."
-      ],
-      "${ updated } contact updated successfully.": [
-        "${ updated } контакт успішно оновлений.",
-        "${ updated } контакти успішно оновлені.",
-        "${ updated } контактів успішно оновлено.",
-        "${ updated } контактів успішно оновлено."
-      ],
-      "To recover your data, you need to re-activate the contact encryption key used at the time when the data was created. This will require you to remember the password used when the key was generated.": [
-        "Для відновлення ваших даних вам необхідно повторно активувати ключ шифрування контакту, що використовувався в момент створення даних. Для цього необхідно пам'ятати пароль, який використовувався при генеруванні ключа."
-      ],
-      "Key fingerprint": [
-        "Цифровий відбиток ключа"
-      ],
-      "Cannot remember your password? We can help you clear the encrypted data of all contacts encrypted with this key and in the process dismiss the alert.": [
-        "Не можете згадати свій пароль? Ми можемо допомогти вам стерти зашифровані дані в усіх контактах, які були зашифровані цим ключем, а також в процесі відхилити попередження."
-      ],
-      "Please wait while we look for contacts that can be re-signed with the primary encryption key.": [
-        "Зачекайте, поки ми перевіряємо контакти, які можуть бути повторно підписані з використанням основного ключа шифрування."
-      ],
-      "To re-sign your contacts, we need to check every contact against the list of encryption keys available in your account. If no match is found, your contact will be re-signed with the primary encryption key.": [
-        "Щоб повторно підписати контакти, нам необхідно перевірити кожен контакт на відповідність списку ключів шифрування, доступних у вашому обліковому записі. Якщо збігів не знайдеться, ваш контакт буде повторно підписано з використанням основного ключа шифрування."
-      ],
-      "Please note that this process may take some time depending on the size of your address book.": [
-        "Зверніть увагу, що цей процес може тривати деякий час, залежно від розміру вашої адресної книги."
-      ],
-      "Select the email format you want to be used by default when sending an email to this email address.": [
-        "Оберіть формат повідомлення, який ви хочете використовувати при надсиланні на цю адресу е-пошти."
-      ],
-      "PGP/Inline is only compatible with Plain Text format. Please note that ProtonMail always signs encrypted messages.": [
-        "PGP/Inline сумісний лише з форматом звичайного тексту. Зверніть увагу, що ProtonMail завжди підписує зашифровані повідомлення."
-      ],
-      "PGP/MIME automatically sends the message using the current composer mode. Please note that ProtonMail always signs encrypted messages": [
-        "PGP/MIME автоматично надсилає повідомлення з використанням поточного режиму редактора. Зверніть увагу, що ProtonMail завжди підписує зашифровані повідомлення"
-      ],
-      "Please note that addresses assigned to this group will NOT be deleted.": [
-        "Зауважте, що адреси, призначені цій групі, не будуть видалені."
-      ],
-      "No contacts added yet": [
-        "Контактів ще не додано"
-      ],
-      "Group assignment applied": [
-        "Призначення групи застосовано"
-      ],
-      "Create a new contact group": [
-        "Створити нову групу контактів"
-      ],
-      "No group found": [
-        "Груп не знайдено"
-      ],
-      "Primary": [
-        "Основний"
-      ],
-      "Duplicate key updated": [
-        "Дублікат ключа оновлено"
-      ],
-      "Setting up PGP allows you to send end-to-end encrypted emails with a non-ProtonMail user that uses a PGP compatible service.": [
-        "Встановлення PGP дозволяє вам надсилати наскрізно зашифровані повідомлення користувачам за межами ProtonMail, які використовують PGP-сумісний сервіс."
-      ],
-      "Address Verification with Trusted Keys is enabled for this address. To be able to send to this address, first trust public keys that can be used for sending.": [
-        "Перевірка адреси з довіреними ключами увімкнена для цієї адреси. Щоб мати змогу надсилати на цю адресу, спочатку зробіть довіреними відкриті ключі, які можна використовувати для надсилання."
-      ],
-      "This address is disabled. To be able to send to this address, the owner must first enable the address.": [
-        "Цю адресу вимкнено. Щоб мати змогу надсилати на цю адресу, власник повинен спочатку активувати адресу."
-      ],
-      "To use Address Verification, you must trust one or more available public keys, including the one you want to use for sending. This prevents the encryption keys from being faked.": [
-        "Для використання перевірки адреси ви повинні зробити довіреним один чи декілька доступних відкритих ключів, включаючи той, який ви хочете використовувати для надсилання. Це запобігає підроблюванню ключів шифрування."
-      ],
-      "Only change these settings if you are using PGP with non-ProtonMail recipients.": [
-        "Змінюйте ці налаштування лише якщо ви використовуєте PGP з отримувачами поза ProtonMail."
-      ],
-      "None of the uploaded keys are valid for encryption. Encryption is automatically disabled.": [
-        "Жоден із вивантажених ключів не є дійсним для шифрування. Шифрування автоматично вимкнено."
-      ],
-      "No email address": [
-        "Немає адреси е-пошти"
-      ],
-      "${ contactsCount } contact found": [
-        "Знайдено ${ contactsCount } контакт",
-        "Знайдено ${ contactsCount } контакти",
-        "Знайдено ${ contactsCount } контактів",
-        "Знайдено ${ contactsCount } контактів"
-      ],
-      "${ groupCounts } group found": [
-        "Знайдено ${ groupCounts } групу",
-        "Знайдено ${ groupCounts } групи",
-        "Знайдено ${ groupCounts } груп",
-        "Знайдено ${ groupCounts } груп"
-      ],
-      "We support importing CSV files from Outlook, Outlook Express, Yahoo! Mail, Hotmail, Eudora and some other apps. We also support importing vCard 4.0. (UTF-8 encoding).": [
-        "Ми підтримуємо імпорт файлів CSV з Outlook, Outlook Express, Yahoo! Mail, Hotmail, Eudora та деяких інших програм. Ми також підтримуємо імпорт vCard 4.0. (UTF-8 кодування)."
-      ],
-      "The application needs to locally decrypt your contacts before they can be exported. At the end of the process, a VCF file will be generated and you will be able to download it.": [
-        "Програма повинна локально розшифрувати ваші контакти для можливості їх експортування. Після завершення процесу буде згенеровано файл VCF і ви зможете його завантажити."
-      ],
-      "${ addressCount } email address": [
-        "${ addressCount } адреса е-пошти",
-        "${ addressCount } адреси е-пошти",
-        "${ addressCount } адрес е-пошти",
-        "${ addressCount } адрес е-пошти"
       ],
       "Since you're a loyal user, your account has additional features enabled.": [
         "Оскільки ви лояльний користувач, ваш обліковий запис має увімкнені додаткові функції."
@@ -815,6 +698,174 @@
       "Expired": [
         "Протерміновано"
       ],
+      "here": [
+        "тут"
+      ],
+      "This account has been suspended due to a potential policy violation.": [
+        "Цей обліковий запис було призупинено через потенційне порушення правил."
+      ],
+      "If you believe this is in error, please contact us ${ contactLink }.": [
+        "Якщо ви вважаєте, що це помилка, зв'яжіться з нами ${ contactLink }."
+      ],
+      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
+        "Робота вашого облікового запису Proton тимчасово зупинена. Щоб відновити роботу, будь ласка, сплатіть прострочені рахунки."
+      ],
+      "Would you like to receive a new verification code or use an alternative verification method?": [
+        "Бажаєте отримати новий код перевірки чи скористатися іншим способом перевірки?"
+      ],
+      "Enter the verification code that was sent to ${ destinationText }.": [
+        "Введіть код перевірки, який був надісланий на ${ destinationText }."
+      ],
+      "If you don't find the email in your inbox, please check your spam folder.": [
+        "Якщо ви не можете знайти лист у вхідних повідомленнях, перевірте свою теку спаму."
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
+        "Натисніть \"Запитати новий код\", щоб отримати новий код перевірки на ${ strong }. Якщо ця адреса е-пошти неправильна, натисніть \"Змінити\" для її виправлення."
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
+        "Натисніть \"Запитати новий код\", щоб отримати новий код перевірки на ${ strong }. Якщо цей номер телефону неправильний, натисніть \"Змінити\" для його виправлення."
+      ],
+      "To fight spam and abuse, please verify you are human.": [
+        "З метою протидії спаму та зловживанням, будь ласка, підтвердьте, що ви людина."
+      ],
+      "Your email will only be used for this one-time verification.": [
+        "Ваша електронна пошта використається лише для цієї одноразової перевірки."
+      ],
+      "Your phone number will only be used for this one-time verification.": [
+        "Ваш номер телефону використається лише для цієї одноразової перевірки."
+      ],
+      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
+        "Якщо у вас виникли труднощі під час створення облікового запису, подайте запит на запрошення і ми відповімо протягом одного робочого дня."
+      ],
+      "support team": [
+        "командою підтримки"
+      ],
+      "${ contactEmailsLength } Member": [
+        "${ contactEmailsLength } учасник",
+        "${ contactEmailsLength } учасники",
+        "${ contactEmailsLength } учасників",
+        "${ contactEmailsLength } учасників"
+      ],
+      "${ namesWithoutLast } and ${ nameOfLast }": [
+        "${ namesWithoutLast } та ${ nameOfLast }"
+      ],
+      "${ contactName } contains multiple email addresses. Please select which email address or addresses to add to this group.": [
+        "${ contactName } містить декілька адрес електронної пошти. Виберіть одну чи декілька адрес для додавання до цієї групи."
+      ],
+      "${ contactName } contains multiple email addresses. Please select which email address or addresses to add to ${ groupsEnumeration }.": [
+        "${ contactName } містить декілька адрес електронної пошти. Виберіть одну чи декілька адрес для додавання до ${ groupsEnumeration }."
+      ],
+      "${ contactsEnumeration } contain multiple email addresses. Please select which email address or addresses to add to this group.": [
+        "${ contactsEnumeration } містить декілька адрес електронної пошти. Виберіть одну чи декілька адрес для додавання до цієї групи."
+      ],
+      "${ contactsEnumeration } contain multiple email addresses. Please select which email address or addresses to add to ${ groupsEnumeration }.": [
+        "${ contactsEnumeration } містить декілька адрес електронної пошти. Виберіть одну чи декілька адрес для додавання до ${ groupsEnumeration }."
+      ],
+      "Please wait while we look for contacts that contain data encrypted with the inactive key.": [
+        "Будь ласка, зачекайте поки ми перевіряємо контакти, що містять дані, зашифровані неактивним ключем."
+      ],
+      "Checking contact ${ progress } of ${ max }...": [
+        "Перевірка контактів ${ progress } з ${ max }..."
+      ],
+      "${ updated } contact updated successfully.": [
+        "${ updated } контакт успішно оновлений.",
+        "${ updated } контакти успішно оновлені.",
+        "${ updated } контактів успішно оновлено.",
+        "${ updated } контактів успішно оновлено."
+      ],
+      "To recover your data, you need to re-activate the contact encryption key used at the time when the data was created. This will require you to remember the password used when the key was generated.": [
+        "Для відновлення ваших даних вам необхідно повторно активувати ключ шифрування контакту, що використовувався в момент створення даних. Для цього необхідно пам'ятати пароль, який використовувався при генеруванні ключа."
+      ],
+      "Key fingerprint": [
+        "Цифровий відбиток ключа"
+      ],
+      "Cannot remember your password? We can help you clear the encrypted data of all contacts encrypted with this key and in the process dismiss the alert.": [
+        "Не можете згадати свій пароль? Ми можемо допомогти вам стерти зашифровані дані в усіх контактах, які були зашифровані цим ключем, а також в процесі відхилити попередження."
+      ],
+      "Please wait while we look for contacts that can be re-signed with the primary encryption key.": [
+        "Зачекайте, поки ми перевіряємо контакти, які можуть бути повторно підписані з використанням основного ключа шифрування."
+      ],
+      "To re-sign your contacts, we need to check every contact against the list of encryption keys available in your account. If no match is found, your contact will be re-signed with the primary encryption key.": [
+        "Щоб повторно підписати контакти, нам необхідно перевірити кожен контакт на відповідність списку ключів шифрування, доступних у вашому обліковому записі. Якщо збігів не знайдеться, ваш контакт буде повторно підписано з використанням основного ключа шифрування."
+      ],
+      "Please note that this process may take some time depending on the size of your address book.": [
+        "Зверніть увагу, що цей процес може тривати деякий час, залежно від розміру вашої адресної книги."
+      ],
+      "Select the email format you want to be used by default when sending an email to this email address.": [
+        "Оберіть формат повідомлення, який ви хочете використовувати при надсиланні на цю адресу е-пошти."
+      ],
+      "PGP/Inline is only compatible with Plain Text format. Please note that ProtonMail always signs encrypted messages.": [
+        "PGP/Inline сумісний лише з форматом звичайного тексту. Зверніть увагу, що ProtonMail завжди підписує зашифровані повідомлення."
+      ],
+      "PGP/MIME automatically sends the message using the current composer mode. Please note that ProtonMail always signs encrypted messages": [
+        "PGP/MIME автоматично надсилає повідомлення з використанням поточного режиму редактора. Зверніть увагу, що ProtonMail завжди підписує зашифровані повідомлення"
+      ],
+      "Please note that addresses assigned to this group will NOT be deleted.": [
+        "Зауважте, що адреси, призначені цій групі, не будуть видалені."
+      ],
+      "No contacts added yet": [
+        "Контактів ще не додано"
+      ],
+      "Group assignment applied": [
+        "Призначення групи застосовано"
+      ],
+      "Create a new contact group": [
+        "Створити нову групу контактів"
+      ],
+      "No group found": [
+        "Груп не знайдено"
+      ],
+      "Primary": [
+        "Основний"
+      ],
+      "Duplicate key updated": [
+        "Дублікат ключа оновлено"
+      ],
+      "Setting up PGP allows you to send end-to-end encrypted emails with a non-ProtonMail user that uses a PGP compatible service.": [
+        "Встановлення PGP дозволяє вам надсилати наскрізно зашифровані повідомлення користувачам за межами ProtonMail, які використовують PGP-сумісний сервіс."
+      ],
+      "Address Verification with Trusted Keys is enabled for this address. To be able to send to this address, first trust public keys that can be used for sending.": [
+        "Перевірка адреси з довіреними ключами увімкнена для цієї адреси. Щоб мати змогу надсилати на цю адресу, спочатку зробіть довіреними відкриті ключі, які можна використовувати для надсилання."
+      ],
+      "This address is disabled. To be able to send to this address, the owner must first enable the address.": [
+        "Цю адресу вимкнено. Щоб мати змогу надсилати на цю адресу, власник повинен спочатку активувати адресу."
+      ],
+      "To use Address Verification, you must trust one or more available public keys, including the one you want to use for sending. This prevents the encryption keys from being faked.": [
+        "Для використання перевірки адреси ви повинні зробити довіреним один чи декілька доступних відкритих ключів, включаючи той, який ви хочете використовувати для надсилання. Це запобігає підроблюванню ключів шифрування."
+      ],
+      "Only change these settings if you are using PGP with non-ProtonMail recipients.": [
+        "Змінюйте ці налаштування лише якщо ви використовуєте PGP з отримувачами поза ProtonMail."
+      ],
+      "None of the uploaded keys are valid for encryption. Encryption is automatically disabled.": [
+        "Жоден із вивантажених ключів не є дійсним для шифрування. Шифрування автоматично вимкнено."
+      ],
+      "No email address": [
+        "Немає адреси е-пошти"
+      ],
+      "${ contactsCount } contact found": [
+        "Знайдено ${ contactsCount } контакт",
+        "Знайдено ${ contactsCount } контакти",
+        "Знайдено ${ contactsCount } контактів",
+        "Знайдено ${ contactsCount } контактів"
+      ],
+      "${ groupCounts } group found": [
+        "Знайдено ${ groupCounts } групу",
+        "Знайдено ${ groupCounts } групи",
+        "Знайдено ${ groupCounts } груп",
+        "Знайдено ${ groupCounts } груп"
+      ],
+      "We support importing CSV files from Outlook, Outlook Express, Yahoo! Mail, Hotmail, Eudora and some other apps. We also support importing vCard 4.0. (UTF-8 encoding).": [
+        "Ми підтримуємо імпорт файлів CSV з Outlook, Outlook Express, Yahoo! Mail, Hotmail, Eudora та деяких інших програм. Ми також підтримуємо імпорт vCard 4.0. (UTF-8 кодування)."
+      ],
+      "The application needs to locally decrypt your contacts before they can be exported. At the end of the process, a VCF file will be generated and you will be able to download it.": [
+        "Програма повинна локально розшифрувати ваші контакти для можливості їх експортування. Після завершення процесу буде згенеровано файл VCF і ви зможете його завантажити."
+      ],
+      "${ addressCount } email address": [
+        "${ addressCount } адреса е-пошти",
+        "${ addressCount } адреси е-пошти",
+        "${ addressCount } адрес е-пошти",
+        "${ addressCount } адрес е-пошти"
+      ],
       "Import contacts": [
         ""
       ],
@@ -839,6 +890,9 @@
       "Your import will not be processed.": [
         ""
       ],
+      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
+        "Основні функції навігації та дії залишаються доступними, незалежно від того, активовані комбінації клавіш в налаштуваннях чи ні."
+      ],
       "Unsupported file": [
         "Непідтримуваний файл"
       ],
@@ -857,32 +911,20 @@
       "of": [
         "з"
       ],
-      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
-        "Основні функції навігації та дії залишаються доступними, незалежно від того, активовані комбінації клавіш в налаштуваннях чи ні."
+      "Transfer skipped for file \"${ file.name }\"": [
+        "Пропущено передавання для файлу \"${ file.name }\""
       ],
-      "No results found": [
-        "Результатів не знайдено"
+      "Transfer canceled for file \"${ name }\"": [
+        "Передавання скасовано для файлу \"${ name }\""
       ],
-      "Week": [
-        "Тиждень"
+      "Transfer skipped for folder \"${ folderName }\"": [
+        "Пропущено передавання для теки \"${ folderName }\""
       ],
-      "Loading": [
-        "Завантаження"
+      "Transfer canceled for folder \"${ name }\"": [
+        "Передавання скасовано для теки \"${ name }\""
       ],
-      "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
-        "Це посилання може бути гомографічною атакою і його не можна відкрити в браузерах Internet Explorer чи Edge. Якщо ви впевнені, що це надійне посилання, відкрийте його в іншому браузері."
-      ],
-      "This link may be a homograph attack. Please verify this is the link you wish to visit, or don't open it.": [
-        "Це посилання може бути гомографічною атакою. Впевніться, що це саме те посилання, яке ви хочете відвідати, або не відкривайте його."
-      ],
-      "You are about to open another browser tab and visit:": [
-        "Ви збираєтесь відкрити іншу вкладку браузера й відвідати:"
-      ],
-      "Learn more": [
-        "Докладніше"
-      ],
-      "Drop the file here to upload": [
-        "Для завантаження файлу перетягніть його сюди"
+      "Uploading hundreds of files at once may have a performance impact.": [
+        "Завантаження сотень файлів одразу може вплинути на швидкодію."
       ],
       "${ uploadName } already exists in this location.": [
         "${ uploadName } вже існує в цьому розташуванні."
@@ -913,6 +955,30 @@
       ],
       "Your files will be encrypted and then saved.": [
         "Ваші файли буде зашифровано, а потім збережено."
+      ],
+      "There are no files yet": [
+        "Поки що тут немає файлів"
+      ],
+      "Drag and drop a file here or choose to upload.": [
+        "Перетягніть файл сюди або виберіть що вивантажити."
+      ],
+      "Share files with links": [
+        "Поділіться файлами за допомогою посилань"
+      ],
+      "Create links and share your files with others.": [
+        "Створіть посилання та діліться файлами з іншими."
+      ],
+      "My Links": [
+        "Мої посилання"
+      ],
+      "Are you sure you want to empty trash and permanently delete all the items?": [
+        "Ви впевнені, що хочете спорожнити смітник та остаточно видалити всі елементи?"
+      ],
+      "No files or folders in trash": [
+        "Немає файлів чи тек у смітнику"
+      ],
+      "Trash": [
+        "Смітник"
       ],
       "${ doneCount } Finished": [
         "${ doneCount } завершено",
@@ -1007,30 +1073,6 @@
       "Closing transfer manager will cancel all active transfers, are you sure?": [
         "Закриття менеджера передавання скасує всі активні передавання, ви впевнені?"
       ],
-      "There are no files yet": [
-        "Поки що тут немає файлів"
-      ],
-      "Drag and drop a file here or choose to upload.": [
-        "Перетягніть файл сюди або виберіть що вивантажити."
-      ],
-      "Share files with links": [
-        "Поділіться файлами за допомогою посилань"
-      ],
-      "Create links and share your files with others.": [
-        "Створіть посилання та діліться файлами з іншими."
-      ],
-      "My Links": [
-        "Мої посилання"
-      ],
-      "Are you sure you want to empty trash and permanently delete all the items?": [
-        "Ви впевнені, що хочете спорожнити смітник та остаточно видалити всі елементи?"
-      ],
-      "No files or folders in trash": [
-        "Немає файлів чи тек у смітнику"
-      ],
-      "Trash": [
-        "Смітник"
-      ],
       "Link expires: ": [
         "Термін дії посилання: "
       ],
@@ -1115,9 +1157,6 @@
       "Loading folder contents": [
         "Завантаження вмісту теки"
       ],
-      "Uploading hundreds of files at once may have a performance impact.": [
-        "Завантаження сотень файлів одразу може вплинути на швидкодію."
-      ],
       "Moving files": [
         "Переміщення файлів"
       ],
@@ -1138,11 +1177,11 @@
       ]
     },
     "Calendar status": {
-      "Not synced": [
-        "Не синхронізовано"
-      ],
       "Syncing": [
         "Синхронізація"
+      ],
+      "Not synced": [
+        "Не синхронізовано"
       ]
     },
     "Calendar subscription not synced error": {
@@ -1390,14 +1429,62 @@
       ]
     },
     "Action": {
+      "Close": [
+        "Закрити"
+      ],
+      "Confirm": [
+        "Підтвердити"
+      ],
+      "Cancel": [
+        "Скасувати"
+      ],
+      "Submit": [
+        "Надіслати"
+      ],
+      "Close modal": [
+        "Закрити вікно"
+      ],
+      "Use “${ label }” setting": [
+        "Використовувати налаштування“${ label }”"
+      ],
+      "Close navigation": [
+        "Закрити панель навігації"
+      ],
+      "Open navigation": [
+        "Відкрити панель навігації"
+      ],
+      "More info: ${ safeTitle }": [
+        "Докладніше: ${ safeTitle }"
+      ],
+      "Go to panel ${ index }": [
+        "Перейти до панелі ${ index }"
+      ],
+      "Load image": [
+        "Завантажити зображення"
+      ],
+      "Next month": [
+        "Наступний місяць"
+      ],
+      "Previous month": [
+        "Попередній місяць"
+      ],
+      "Remove": [
+        "Вилучити"
+      ],
+      "Confirm opening of link ${ link }": [
+        "Підтвердити відкриття посилання ${ link }"
+      ],
+      "Continue with Google": [
+        "Продовжити з Google"
+      ],
+      "Delete": [
+        "Видалити"
+      ],
       "Signing out": [
         "Вихід"
       ],
       "refresh the page": [
         "оновити сторінку"
-      ],
-      "Close": [
-        "Закрити"
       ],
       "Close this banner": [
         "Закрити цей банер"
@@ -1410,39 +1497,6 @@
       ],
       "here": [
         "тут"
-      ],
-      "Submit": [
-        "Надіслати"
-      ],
-      "Log in": [
-        "Увійти"
-      ],
-      "Cancel": [
-        "Скасувати"
-      ],
-      "View invoice": [
-        "Переглянути рахунок-фактуру"
-      ],
-      "Get verification code": [
-        "Отримати код підтвердження"
-      ],
-      "Try another method": [
-        "Спробувати інший метод"
-      ],
-      "Request new code": [
-        "Запит нового коду"
-      ],
-      "Verify": [
-        "Перевірити"
-      ],
-      "Did not receive the code?": [
-        "Не отримали код?"
-      ],
-      "Edit email address": [
-        "Змінити адресу е-пошти"
-      ],
-      "Edit phone number": [
-        "Змінити номер телефону"
       ],
       "Copy email to clipboard": [
         "Копіювати е-пошту в буфер обміну"
@@ -1528,6 +1582,87 @@
       "Show info": [
         "Показати відомості"
       ],
+      "Remove bonuses": [
+        "Вилучити бонуси"
+      ],
+      "Verify": [
+        "Перевірити"
+      ],
+      "Try again": [
+        "Спробувати знову"
+      ],
+      "Use a different card": [
+        "Використати іншу картку"
+      ],
+      "Use a different payment method": [
+        "Використати інший спосіб оплати"
+      ],
+      "Retry": [
+        "Повторити спробу"
+      ],
+      "Loading verification": [
+        "Завантаження підтвердження"
+      ],
+      "Select plan": [
+        "Обрати тарифний план"
+      ],
+      "Compare all features": [
+        "Порівняти всі функції"
+      ],
+      "${ boldSave } by switching to annual billing": [
+        "${ boldSave } перейшовши на річну передплату"
+      ],
+      "Continue": [
+        "Продовжити"
+      ],
+      "Pay": [
+        "Сплатити"
+      ],
+      "Apply": [
+        "Застосувати"
+      ],
+      "Open ${ CALENDAR_APP_NAME } settings": [
+        "Відкрити налаштування ${ CALENDAR_APP_NAME }"
+      ],
+      "Remove gift code": [
+        "Вилучити подарунковий код"
+      ],
+      "annual billing": [
+        "річна передплата"
+      ],
+      "Compare plans": [
+        "Порівняти тарифні плани"
+      ],
+      "Decrease": [
+        "Зменшити"
+      ],
+      "Increase": [
+        "Збільшити"
+      ],
+      "Log in": [
+        "Увійти"
+      ],
+      "View invoice": [
+        "Переглянути рахунок-фактуру"
+      ],
+      "Get verification code": [
+        "Отримати код підтвердження"
+      ],
+      "Try another method": [
+        "Спробувати інший метод"
+      ],
+      "Request new code": [
+        "Запит нового коду"
+      ],
+      "Did not receive the code?": [
+        "Не отримали код?"
+      ],
+      "Edit email address": [
+        "Змінити адресу е-пошти"
+      ],
+      "Edit phone number": [
+        "Змінити номер телефону"
+      ],
       "Save": [
         "Зберегти"
       ],
@@ -1536,12 +1671,6 @@
       ],
       "Add": [
         "Додати"
-      ],
-      "Apply": [
-        "Застосувати"
-      ],
-      "Delete": [
-        "Видалити"
       ],
       "Clear data": [
         "Очистити дані"
@@ -1555,9 +1684,6 @@
       "Re-sign": [
         "Перепідписати"
       ],
-      "Close modal": [
-        "Закрити вікно"
-      ],
       "Hide advanced PGP settings": [
         "Сховати розширені налаштування PGP"
       ],
@@ -1567,9 +1693,6 @@
       "Edit": [
         "Редагувати"
       ],
-      "Remove": [
-        "Вилучити"
-      ],
       "Add to group": [
         "Додати до групи"
       ],
@@ -1578,9 +1701,6 @@
       ],
       "Contact group": [
         "Група контактів"
-      ],
-      "Load image": [
-        "Завантажити зображення"
       ],
       "Export": [
         "Експорт"
@@ -1614,9 +1734,6 @@
       ],
       "Preview contact": [
         "Перегляд контакту"
-      ],
-      "Continue": [
-        "Продовжити"
       ],
       "Delete contact": [
         "Видалити контакт"
@@ -1681,57 +1798,6 @@
       "Import": [
         "Імпорт"
       ],
-      "Remove bonuses": [
-        "Вилучити бонуси"
-      ],
-      "Try again": [
-        "Спробувати знову"
-      ],
-      "Use a different card": [
-        "Використати іншу картку"
-      ],
-      "Use a different payment method": [
-        "Використати інший спосіб оплати"
-      ],
-      "Retry": [
-        "Повторити спробу"
-      ],
-      "Loading verification": [
-        "Завантаження підтвердження"
-      ],
-      "Select plan": [
-        "Обрати тарифний план"
-      ],
-      "Compare all features": [
-        "Порівняти всі функції"
-      ],
-      "${ boldSave } by switching to annual billing": [
-        "${ boldSave } перейшовши на річну передплату"
-      ],
-      "Confirm": [
-        "Підтвердити"
-      ],
-      "Pay": [
-        "Сплатити"
-      ],
-      "Open ${ CALENDAR_APP_NAME } settings": [
-        "Відкрити налаштування ${ CALENDAR_APP_NAME }"
-      ],
-      "Remove gift code": [
-        "Вилучити подарунковий код"
-      ],
-      "annual billing": [
-        "річна передплата"
-      ],
-      "Compare plans": [
-        "Порівняти тарифні плани"
-      ],
-      "Decrease": [
-        "Зменшити"
-      ],
-      "Increase": [
-        "Збільшити"
-      ],
       "Continue import": [
         ""
       ],
@@ -1765,89 +1831,8 @@
       "Previous": [
         "Попередня"
       ],
-      "Use “${ label }” setting": [
-        "Використовувати налаштування“${ label }”"
-      ],
-      "Close navigation": [
-        "Закрити панель навігації"
-      ],
-      "Open navigation": [
-        "Відкрити панель навігації"
-      ],
-      "More info: ${ safeTitle }": [
-        "Докладніше: ${ safeTitle }"
-      ],
-      "Go to panel ${ index }": [
-        "Перейти до панелі ${ index }"
-      ],
-      "Next month": [
-        "Наступний місяць"
-      ],
-      "Previous month": [
-        "Попередній місяць"
-      ],
-      "Confirm opening of link ${ link }": [
-        "Підтвердити відкриття посилання ${ link }"
-      ],
-      "Continue with Google": [
-        "Продовжити з Google"
-      ],
       "Cancel all uploads": [
         "Скасувати всі вивантаження"
-      ],
-      "Share": [
-        "Поділитися"
-      ],
-      "Show shared link details": [
-        "Показати подробиці посилання для спільного доступу"
-      ],
-      "Maximize transfers": [
-        "Розгорнути передавання"
-      ],
-      "Minimize transfers": [
-        "Згорнути передачі"
-      ],
-      "Close transfers": [
-        "Закрити передавання"
-      ],
-      "Pause download": [
-        "Призупинити завантаження"
-      ],
-      "Pause upload": [
-        "Призупинити вивантаження"
-      ],
-      "Resume download": [
-        "Відновити завантаження"
-      ],
-      "Resume upload": [
-        "Відновити вивантаження"
-      ],
-      "Cancel download": [
-        "Скасувати завантаження"
-      ],
-      "Cancel upload": [
-        "Скасувати вивантаження"
-      ],
-      "Restart download": [
-        "Перезапустити завантаження"
-      ],
-      "Restart upload": [
-        "Перезапустити вивантаження"
-      ],
-      "Remove from this list": [
-        "Вилучити з цього списку"
-      ],
-      "Resume transfers": [
-        "Відновити передавання"
-      ],
-      "Pause transfers": [
-        "Призупинити передавання"
-      ],
-      "Cancel transfers": [
-        "Скасувати передавання"
-      ],
-      "Restart transfers": [
-        "Перезапустити передавання"
       ],
       "New upload": [
         "Нове вивантаження"
@@ -1863,6 +1848,9 @@
       ],
       "Share options": [
         "Параметри надсилання"
+      ],
+      "Share": [
+        "Поділитися"
       ],
       "Create new folder": [
         "Створити нову теку"
@@ -1921,6 +1909,57 @@
       "Restore from trash": [
         "Відновити зі смітника"
       ],
+      "Maximize transfers": [
+        "Розгорнути передавання"
+      ],
+      "Minimize transfers": [
+        "Згорнути передачі"
+      ],
+      "Close transfers": [
+        "Закрити передавання"
+      ],
+      "Pause download": [
+        "Призупинити завантаження"
+      ],
+      "Pause upload": [
+        "Призупинити вивантаження"
+      ],
+      "Resume download": [
+        "Відновити завантаження"
+      ],
+      "Resume upload": [
+        "Відновити вивантаження"
+      ],
+      "Cancel download": [
+        "Скасувати завантаження"
+      ],
+      "Cancel upload": [
+        "Скасувати вивантаження"
+      ],
+      "Restart download": [
+        "Перезапустити завантаження"
+      ],
+      "Restart upload": [
+        "Перезапустити вивантаження"
+      ],
+      "Remove from this list": [
+        "Вилучити з цього списку"
+      ],
+      "Resume transfers": [
+        "Відновити передавання"
+      ],
+      "Pause transfers": [
+        "Призупинити передавання"
+      ],
+      "Cancel transfers": [
+        "Скасувати передавання"
+      ],
+      "Restart transfers": [
+        "Перезапустити передавання"
+      ],
+      "Show shared link details": [
+        "Показати подробиці посилання для спільного доступу"
+      ],
       "Start recovering": [
         "Почати відновлення"
       ],
@@ -1943,155 +1982,124 @@
         "Відновити"
       ]
     },
-    "Error message": {
-      "Oops, something went wrong": [
-        "Ой, щось пішло не так"
-      ],
-      "There was a problem connecting to Proton.": [
-        "Виникла проблема під час з'єднання з Proton."
-      ],
-      "Please ${ refresh } or check your connection.": [
-        "Будь ласка, ${ refresh } або перевірте ваше з'єднання."
-      ],
-      "Error: ${ errorMessage }": [
-        "Помилка: ${ errorMessage }"
-      ],
-      "Internal server error": [
-        "Внутрішня помилка сервера"
-      ],
-      "Brace yourself till we get the error fixed.": [
-        "Дочекайтеся, доки ми виправимо помилку."
-      ],
-      "You may also refresh the page or try again later.": [
-        "Ви також можете оновити сторінку або спробувати знову пізніше."
-      ],
-      "Not found": [
-        "Не знайдено"
-      ],
-      "Access denied": [
-        "Доступ заборонений"
-      ],
-      "You may also ${ refresh } or try again later.": [
-        "Ви можете також ${ refresh }, або спробувати знову пізніше."
-      ]
-    },
-    "Apps dropdown": {
-      "Proton applications": [
-        "Програми Proton"
-      ],
-      "Go to ${ title }": [
-        "Перейти до ${ title }"
-      ],
-      "Go to ${ vpnName }": [
-        "Перейти до ${ vpnName }"
-      ]
-    },
-    "Message display when a new app version is available": {
-      "A new version of ${ appName } is available. ${ reloadButton }.": [
-        "Доступна нова версія ${ appName }. ${ reloadButton }."
-      ]
-    },
-    "Link": {
-      "Pay invoice": [
-        "Сплатити рахунок"
-      ],
-      "Upgrade account": [
-        "Покращити обліковий запис"
-      ],
-      "Request an invite": [
-        "Запитати запрошення"
-      ],
-      "Upgrade": [
-        "Покращити"
-      ],
-      "Go to subscription plans": [
-        "Перейти до тарифних планів"
-      ],
-      "clearing your browser cache": [
-        "очищення кешу браузера"
-      ],
-      "Learn more": [
-        "Докладніше"
-      ],
-      "click here": [
-        "натисніть тут"
-      ],
-      "Add a gift code": [
-        "Додати подарунковий код"
-      ],
-      "My files": [
-        "Мої файли"
-      ],
-      "Shared": [
-        "Спільний доступ"
-      ],
-      "Trash": [
-        "Смітник"
-      ]
-    },
-    "Warning": {
-      "Your local date & time settings seem to be out of sync.": [
-        "Здається, ваші локальні налаштування дати та часу не синхронізовані."
-      ],
-      "Live chat is a premium feature available only to those with paid ProtonVPN plans. Please open a ticket instead.": [
-        "Живий чат - це преміум можливість, доступна лише користувачам платних тарифних планів ProtonVPN. Будь ласка, створіть запит натомість."
-      ],
-      "Unfortunately, we’re not online at the moment. Please complete the form below to describe your issue, and we will look into it and be in touch when we’re back online.": [
-        "На жаль, зараз ми не в мережі. Будь ласка, заповніть форму внизу, щоб описати вашу проблему. Ми розглянемо її та зв'яжемося з вами, коли будемо знову в мережі."
-      ],
-      "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
-        "Повідомлення не шифруються наскрізно. Будь ласка, не відправляйте будь-яку конфіденційну інформацію."
-      ],
-      "Are you sure you want to permanently delete this contact?": [
-        "Ви дійсно бажаєте остаточно видалити цей контакт?"
-      ],
-      "Are you sure you want to permanently delete ${ count } contact?": [
-        "Ви дійсно хочете остаточно видалити ${ count } контакт?",
-        "Ви дійсно хочете остаточно видалити ${ count } контакти?",
-        "Ви дійсно хочете остаточно видалити ${ count } контактів?",
-        "Ви дійсно хочете остаточно видалити ${ count } контактів?"
-      ],
-      "If you don’t remember your password, it is impossible to re-activate your key. We can help you dismiss the alert banner but in the process you will permanently lose access to all the data encrypted with that key.": [
-        "Неможливо повторно активувати ваш ключ, якщо ви не пам'ятаєте свій пароль. Ми можемо допомогти вам відхилити банер з попередженням, але при цьому ви остаточно втратите доступ до всіх даних, що були зашифровані з використанням цього ключа."
-      ],
-      "This action is irreversible. Please enter the word ${ boldDanger } in the field to proceed.": [
-        "Це незворотна дія. Будь ласка, для продовження введіть слово ${ boldDanger }."
-      ],
-      "Are you sure you want to permanently delete this contact group?": [
-        "Ви дійсно бажаєте остаточно видалити цю групу контактів?"
-      ],
-      "Are you sure you want to permanently delete ${ count } contact group?": [
-        "Ви дійсно хочете остаточно видалити ${ count } групу контактів?",
-        "Ви дійсно хочете остаточно видалити ${ count } групи контактів?",
-        "Ви дійсно хочете остаточно видалити ${ count } груп контактів?",
-        "Ви дійсно хочете остаточно видалити ${ count } груп контактів?"
-      ],
-      "This feature requires a paid Proton account": [
-        "Ця функція вимагає платного тарифного плану Proton"
-      ],
-      "The decryption of the encrypted content failed.": [
-        "Не вдалося розшифрувати зашифрований вміст."
-      ],
-      "The verification of the contact details' signature failed.": [
-        "Не вдалося перевірити підпис подробиць контакту."
-      ],
-      "The contact failed to load.": [
-        "Не вдалося завантажити контакт."
-      ],
-      "Some of the contacts to be merged display errors. Please review them individually": [
-        "Деякі об'єднувані контакти мають помилки. Будь ласка, перегляньте їх окремо"
-      ],
-      "Contacts could not be merged": [
-        "Не вдається об'єднати контакти"
-      ],
-      "Please note that by choosing this payment method, your account cannot be upgraded immediately. We will update your account once the payment is cleared.": [
-        "Зверніть увагу, що вибравши цей спосіб оплати, ваш обліковий запис не може бути оновлено негайно. Ми оновимо ваш обліковий запис одразу після підтвердження платежу."
-      ],
-      "Are you sure you want to discard your import?": [
-        ""
-      ]
-    },
     "Title": {
+      "Open actions dropdown": [
+        "Випадне меню дій"
+      ],
+      "Link confirmation": [
+        "Підтвердження посилання"
+      ],
+      "Keyboard Shortcuts": [
+        "Комбінації клавіш"
+      ],
+      "What's new": [
+        "Що нового"
+      ],
+      "Open help menu": [
+        "Відкрити меню довідки"
+      ],
+      "Back": [
+        "Назад"
+      ],
+      "Open settings menu": [
+        "Відкрити меню налаштувань"
+      ],
+      "Select a theme": [
+        "Вибрати тему"
+      ],
+      "Report a problem": [
+        "Повідомити про проблему"
+      ],
+      "Confirm loss of Proton bonuses": [
+        "Підтвердити втрату бонусів Proton"
+      ],
+      "Unsupported browser": [
+        "Непідтримуваний браузер"
+      ],
+      "Card verification": [
+        "Перевірка картки"
+      ],
+      "Payment verification": [
+        "Перевірка платежу"
+      ],
+      "Processing...": [
+        "Обробка..."
+      ],
+      "Card verification in progress": [
+        "Триває перевірка картки"
+      ],
+      "Payment verification in progress": [
+        "Триває перевірка платежу"
+      ],
+      "PayPal verification failed": [
+        "Не вдалося пройти перевірку PayPal"
+      ],
+      "3-D Secure verification failed": [
+        "Не вдалося пройти перевірку 3-D Secure"
+      ],
+      "Error": [
+        "Помилка"
+      ],
+      "ZIP / postal code": [
+        "Поштовий індекс"
+      ],
+      "Payment details": [
+        "Подробиці платежу"
+      ],
+      "Currency": [
+        "Валюта"
+      ],
+      "Billing cycle": [
+        "Платіжний цикл"
+      ],
+      "Current plan": [
+        "Чинний тарифний план"
+      ],
+      "Processing": [
+        "Обробка"
+      ],
+      "Apply gift code": [
+        "Застосувати подарунковий код"
+      ],
+      "Subtotal": [
+        "Попередній підсумок"
+      ],
+      "Coupon discount": [
+        "Знижка за купоном"
+      ],
+      "Total (monthly)": [
+        "Всього (щомісячно)"
+      ],
+      "Credits": [
+        "Кредити"
+      ],
+      "Gift code": [
+        "Подарунковий код"
+      ],
+      "Amount due": [
+        "До сплати"
+      ],
+      "Cancel subscription": [
+        "Скасувати передплату"
+      ],
+      "Network error": [
+        "Помилка мережі"
+      ],
+      "Select a plan": [
+        "Оберіть тарифний план"
+      ],
+      "Customize your plan": [
+        "Налаштуйте свій тарифний план"
+      ],
+      "Checkout": [
+        "Розрахунок"
+      ],
+      "Plan summary": [
+        "Підсумок плану"
+      ],
+      "${ appName } customization": [
+        "Налаштування ${ appName }"
+      ],
       "Sign in again to continue": [
         "Увійдіть знову для продовження"
       ],
@@ -2112,21 +2120,6 @@
       ],
       "Human verification": [
         "Перевірка \"Я не робот\""
-      ],
-      "Open help menu": [
-        "Відкрити меню довідки"
-      ],
-      "Back": [
-        "Назад"
-      ],
-      "Open settings menu": [
-        "Відкрити меню налаштувань"
-      ],
-      "Select a theme": [
-        "Вибрати тему"
-      ],
-      "Report a problem": [
-        "Повідомити про проблему"
       ],
       "Edit image": [
         "Змінити зображення"
@@ -2257,96 +2250,6 @@
       "Import contacts": [
         "Імпортувати контакти"
       ],
-      "Confirm loss of Proton bonuses": [
-        "Підтвердити втрату бонусів Proton"
-      ],
-      "Unsupported browser": [
-        "Непідтримуваний браузер"
-      ],
-      "Card verification": [
-        "Перевірка картки"
-      ],
-      "Payment verification": [
-        "Перевірка платежу"
-      ],
-      "Processing...": [
-        "Обробка..."
-      ],
-      "Card verification in progress": [
-        "Триває перевірка картки"
-      ],
-      "Payment verification in progress": [
-        "Триває перевірка платежу"
-      ],
-      "PayPal verification failed": [
-        "Не вдалося пройти перевірку PayPal"
-      ],
-      "3-D Secure verification failed": [
-        "Не вдалося пройти перевірку 3-D Secure"
-      ],
-      "Error": [
-        "Помилка"
-      ],
-      "ZIP / postal code": [
-        "Поштовий індекс"
-      ],
-      "Payment details": [
-        "Подробиці платежу"
-      ],
-      "Currency": [
-        "Валюта"
-      ],
-      "Billing cycle": [
-        "Платіжний цикл"
-      ],
-      "Current plan": [
-        "Чинний тарифний план"
-      ],
-      "Processing": [
-        "Обробка"
-      ],
-      "Apply gift code": [
-        "Застосувати подарунковий код"
-      ],
-      "Subtotal": [
-        "Попередній підсумок"
-      ],
-      "Coupon discount": [
-        "Знижка за купоном"
-      ],
-      "Total (monthly)": [
-        "Всього (щомісячно)"
-      ],
-      "Credits": [
-        "Кредити"
-      ],
-      "Gift code": [
-        "Подарунковий код"
-      ],
-      "Amount due": [
-        "До сплати"
-      ],
-      "Cancel subscription": [
-        "Скасувати передплату"
-      ],
-      "Network error": [
-        "Помилка мережі"
-      ],
-      "Select a plan": [
-        "Оберіть тарифний план"
-      ],
-      "Customize your plan": [
-        "Налаштуйте свій тарифний план"
-      ],
-      "Checkout": [
-        "Розрахунок"
-      ],
-      "Plan summary": [
-        "Підсумок плану"
-      ],
-      "${ appName } customization": [
-        "Налаштування ${ appName }"
-      ],
       "Start import process": [
         ""
       ],
@@ -2368,18 +2271,6 @@
       "Beta Access": [
         "Бета-доступ"
       ],
-      "Open actions dropdown": [
-        "Випадне меню дій"
-      ],
-      "Link confirmation": [
-        "Підтвердження посилання"
-      ],
-      "Keyboard Shortcuts": [
-        "Комбінації клавіш"
-      ],
-      "What's new": [
-        "Що нового"
-      ],
       "Duplicate folder found": [
         "Знайдено дублікат теки"
       ],
@@ -2389,20 +2280,14 @@
       "Drop to upload": [
         "Перетягніть для вивантаження"
       ],
-      "My files": [
-        "Мої файли"
-      ],
-      "Additional settings": [
-        "Додаткові налаштування"
-      ],
-      "Cancel all active transfers": [
-        "Скасувати всі активні передавання"
-      ],
       "Show actions": [
         "Показати дії"
       ],
       "Sort files/folders": [
         "Сортувати файли/теки"
+      ],
+      "My files": [
+        "Мої файли"
       ],
       "Change layout": [
         "Змінити вигляд"
@@ -2415,6 +2300,12 @@
       ],
       "Trash": [
         "Смітник"
+      ],
+      "Additional settings": [
+        "Додаткові налаштування"
+      ],
+      "Cancel all active transfers": [
+        "Скасувати всі активні передавання"
       ],
       "Your file is ready to be downloaded": [
         "Файл готовий до завантаження"
@@ -2538,35 +2429,17 @@
       ]
     },
     "Label": {
-      "Cancel": [
-        "Скасувати"
+      "Copy": [
+        "Копіювати"
       ],
-      "Submit": [
-        "Надіслати"
+      "Reveal password": [
+        "Показати пароль"
       ],
-      "Password": [
-        "Пароль"
+      "Hide password": [
+        "Сховати пароль"
       ],
-      "Mailbox password": [
-        "Пароль поштової скриньки"
-      ],
-      "Two-factor authentication code": [
-        "Код двоетапної перевірки"
-      ],
-      "Username or ProtonMail address": [
-        "Ім'я користувача або адреса ProtonMail"
-      ],
-      "Email address": [
-        "Адрес електронної пошти"
-      ],
-      "Phone number": [
-        "Номер телефону"
-      ],
-      "Verification code": [
-        "Код підтвердження"
-      ],
-      "Enter the 6-digit code": [
-        "Введіть 6-значний код"
+      "Do not ask again": [
+        "Не питати знову"
       ],
       "Display name": [
         "Показуване ім'я"
@@ -2579,6 +2452,9 @@
       ],
       "Proton username": [
         "Ім'я користувача Proton"
+      ],
+      "Email address": [
+        "Адрес електронної пошти"
       ],
       "Category": [
         "Категорія"
@@ -2595,63 +2471,6 @@
       "Browser version": [
         "Версія браузера"
       ],
-      "Add image URL": [
-        "Додати URL-адресу зображення"
-      ],
-      "Upload picture": [
-        "Вивантажити зображення"
-      ],
-      "Add email address": [
-        "Додати адресу е-пошти"
-      ],
-      "Email format": [
-        "Формат електронної пошти"
-      ],
-      "Street address": [
-        "Вулиця"
-      ],
-      "City": [
-        "Місто"
-      ],
-      "Region": [
-        "Область"
-      ],
-      "Postal code": [
-        "Поштовий індекс"
-      ],
-      "Country": [
-        "Країна"
-      ],
-      "Post office box": [
-        "Поштова скринька"
-      ],
-      "Extended address": [
-        "Додаткова адреса"
-      ],
-      "Add to group": [
-        "Додати до групи"
-      ],
-      "Encrypt emails": [
-        "Шифрувати листи"
-      ],
-      "Sign emails": [
-        "Підписувати листи"
-      ],
-      "Cryptographic scheme": [
-        "Криптографічна схема"
-      ],
-      "Public keys": [
-        "Відкриті ключі"
-      ],
-      "Automatically save contacts": [
-        "Автоматично зберігати контакти"
-      ],
-      "Import contacts": [
-        "Імпортувати контакти"
-      ],
-      "Export contacts": [
-        "Експортувати контакти"
-      ],
       "Name on card": [
         "Ім'я на картці"
       ],
@@ -2664,10 +2483,16 @@
       "CVV code": [
         "Код CVV"
       ],
+      "Country": [
+        "Країна"
+      ],
       "Select your country": [
         "Виберіть свою країну"
       ],
       "ZIP": [
+        "Поштовий індекс"
+      ],
+      "Postal code": [
         "Поштовий індекс"
       ],
       "BTC amount:": [
@@ -2700,6 +2525,84 @@
       "Payer": [
         "Платник"
       ],
+      "Cancel": [
+        "Скасувати"
+      ],
+      "Submit": [
+        "Надіслати"
+      ],
+      "Password": [
+        "Пароль"
+      ],
+      "Mailbox password": [
+        "Пароль поштової скриньки"
+      ],
+      "Two-factor authentication code": [
+        "Код двоетапної перевірки"
+      ],
+      "Username or ProtonMail address": [
+        "Ім'я користувача або адреса ProtonMail"
+      ],
+      "Phone number": [
+        "Номер телефону"
+      ],
+      "Verification code": [
+        "Код підтвердження"
+      ],
+      "Enter the 6-digit code": [
+        "Введіть 6-значний код"
+      ],
+      "Add image URL": [
+        "Додати URL-адресу зображення"
+      ],
+      "Upload picture": [
+        "Вивантажити зображення"
+      ],
+      "Add email address": [
+        "Додати адресу е-пошти"
+      ],
+      "Email format": [
+        "Формат електронної пошти"
+      ],
+      "Street address": [
+        "Вулиця"
+      ],
+      "City": [
+        "Місто"
+      ],
+      "Region": [
+        "Область"
+      ],
+      "Post office box": [
+        "Поштова скринька"
+      ],
+      "Extended address": [
+        "Додаткова адреса"
+      ],
+      "Add to group": [
+        "Додати до групи"
+      ],
+      "Encrypt emails": [
+        "Шифрувати листи"
+      ],
+      "Sign emails": [
+        "Підписувати листи"
+      ],
+      "Cryptographic scheme": [
+        "Криптографічна схема"
+      ],
+      "Public keys": [
+        "Відкриті ключі"
+      ],
+      "Automatically save contacts": [
+        "Автоматично зберігати контакти"
+      ],
+      "Import contacts": [
+        "Імпортувати контакти"
+      ],
+      "Export contacts": [
+        "Експортувати контакти"
+      ],
       "From: ${ fromEmailAddress }": [
         ""
       ],
@@ -2720,18 +2623,6 @@
       ],
       "Enable Beta Access": [
         "Увімкнути бета-доступ"
-      ],
-      "Reveal password": [
-        "Показати пароль"
-      ],
-      "Hide password": [
-        "Сховати пароль"
-      ],
-      "Copy": [
-        "Копіювати"
-      ],
-      "Do not ask again": [
-        "Не питати знову"
       ],
       "Merge a folder": [
         "Об'єднати теку"
@@ -2757,20 +2648,26 @@
       "Apply to all duplicated files": [
         "Застосувати до всіх дублікатів файлів"
       ],
-      "Folder": [
-        "Тека"
+      "Audio file": [
+        "Звуковий файл"
       ],
-      "(Expired)": [
-        "(Термін дії завершився)"
+      "Video file": [
+        "Відеофайл"
       ],
-      "Expired": [
-        "Термін дії завершився"
+      "Text": [
+        "Текст"
       ],
-      "Never": [
-        "Ніколи"
+      "Image": [
+        "Зображення"
       ],
-      "File": [
-        "Файл"
+      "Unknown file": [
+        "Невідомий файл"
+      ],
+      "Up to the parent folder": [
+        ""
+      ],
+      "Up to ${ parentLinkName }": [
+        "Повернутися до ${ parentLinkName }"
       ],
       "All": [
         "Усі"
@@ -2787,20 +2684,20 @@
       "Apply to selection": [
         "Застосувати до вибраного"
       ],
-      "Audio file": [
-        "Звуковий файл"
+      "Folder": [
+        "Тека"
       ],
-      "Video file": [
-        "Відеофайл"
+      "(Expired)": [
+        "(Термін дії завершився)"
       ],
-      "Text": [
-        "Текст"
+      "Expired": [
+        "Термін дії завершився"
       ],
-      "Image": [
-        "Зображення"
+      "Never": [
+        "Ніколи"
       ],
-      "Unknown file": [
-        "Невідомий файл"
+      "File": [
+        "Файл"
       ],
       "Get your own ${ appName }": [
         "Отримайте свій ${ appName }"
@@ -2822,8 +2719,8 @@
       ]
     },
     "Placeholder": {
-      "Mailbox password": [
-        "Пароль поштової скриньки"
+      "E.g., ": [
+        "Наприклад, "
       ],
       "e.g. Julia Smith": [
         "наприклад, Джулія Сміт"
@@ -2849,6 +2746,18 @@
       "Browser version": [
         "Версія браузера"
       ],
+      "ZIP": [
+        "Поштовий індекс"
+      ],
+      "Postal code": [
+        "Поштовий індекс"
+      ],
+      "Gift code": [
+        "Подарунковий код"
+      ],
+      "Mailbox password": [
+        "Пароль поштової скриньки"
+      ],
       "Image URL": [
         "URL-адреса зображення"
       ],
@@ -2867,18 +2776,6 @@
       "Name": [
         "Ім'я"
       ],
-      "ZIP": [
-        "Поштовий індекс"
-      ],
-      "Postal code": [
-        "Поштовий індекс"
-      ],
-      "Gift code": [
-        "Подарунковий код"
-      ],
-      "E.g., ": [
-        "Наприклад, "
-      ],
       "New name": [
         "Нова назва"
       ],
@@ -2886,23 +2783,210 @@
         "Уведіть нову назву теки"
       ]
     },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "Протермінований рахунок"
+    "Time unit": {
+      "${ hours } hour": [
+        "${ hours } година",
+        "${ hours } години",
+        "${ hours } годин",
+        "${ hours } годин"
+      ],
+      "${ minutes } minute": [
+        "${ minutes } хвилина",
+        "${ minutes } хвилини",
+        "${ minutes } хвилин",
+        "${ minutes } хвилин"
+      ]
+    },
+    "Storage": {
+      "Your current storage:": [
+        "Ваше поточне сховище:"
+      ],
+      "Upgrade storage": [
+        "Збільшити сховище"
+      ],
+      "Release notes": [
+        "Примітки до випуску"
+      ]
+    },
+    "Link": {
+      "Learn more": [
+        "Докладніше"
+      ],
+      "Pay invoice": [
+        "Сплатити рахунок"
+      ],
+      "Upgrade account": [
+        "Покращити обліковий запис"
+      ],
+      "Upgrade": [
+        "Покращити"
+      ],
+      "Go to subscription plans": [
+        "Перейти до тарифних планів"
+      ],
+      "clearing your browser cache": [
+        "очищення кешу браузера"
+      ],
+      "click here": [
+        "натисніть тут"
+      ],
+      "Add a gift code": [
+        "Додати подарунковий код"
+      ],
+      "Request an invite": [
+        "Запитати запрошення"
+      ],
+      "My files": [
+        "Мої файли"
+      ],
+      "Shared": [
+        "Спільний доступ"
+      ],
+      "Trash": [
+        "Смітник"
+      ]
+    },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        "Ключ не можна застосовувати для шифрування"
+      ]
+    },
+    "Hint": {
+      "Use Up and Down keys to access and browse suggestions after input. Press Enter to confirm your choice, or Escape to close the suggestions box.": [
+        "Використовуйте клавіші Вгору і Вниз для доступу до пропозицій перегляду після введення. Натисніть Enter для підтвердження свого вибору, або Escape для закриття пропозицій."
+      ],
+      "Found ${ items.length } suggestion, use keyboard to navigate.": [
+        "Знайдено ${ items.length } пропозицію. Використовуйте клавіатуру для вибору.",
+        "Знайдено ${ items.length } пропозиції. Використовуйте клавіатуру для вибору.",
+        "Знайдено ${ items.length } пропозицій. Використовуйте клавіатуру для вибору.",
+        "Знайдено ${ items.length } пропозицій. Використовуйте клавіатуру для вибору."
+      ]
+    },
+    "Apps dropdown": {
+      "Proton applications": [
+        "Програми Proton"
+      ],
+      "Go to ${ title }": [
+        "Перейти до ${ title }"
+      ],
+      "Go to ${ vpnName }": [
+        "Перейти до ${ vpnName }"
+      ]
+    },
+    "Error message": {
+      "Oops, something went wrong": [
+        "Ой, щось пішло не так"
+      ],
+      "There was a problem connecting to Proton.": [
+        "Виникла проблема під час з'єднання з Proton."
+      ],
+      "Please ${ refresh } or check your connection.": [
+        "Будь ласка, ${ refresh } або перевірте ваше з'єднання."
+      ],
+      "Error: ${ errorMessage }": [
+        "Помилка: ${ errorMessage }"
+      ],
+      "Internal server error": [
+        "Внутрішня помилка сервера"
+      ],
+      "Brace yourself till we get the error fixed.": [
+        "Дочекайтеся, доки ми виправимо помилку."
+      ],
+      "You may also refresh the page or try again later.": [
+        "Ви також можете оновити сторінку або спробувати знову пізніше."
+      ],
+      "Not found": [
+        "Не знайдено"
+      ],
+      "Access denied": [
+        "Доступ заборонений"
+      ],
+      "You may also ${ refresh } or try again later.": [
+        "Ви можете також ${ refresh }, або спробувати знову пізніше."
+      ]
+    },
+    "Message display when a new app version is available": {
+      "A new version of ${ appName } is available. ${ reloadButton }.": [
+        "Доступна нова версія ${ appName }. ${ reloadButton }."
+      ]
+    },
+    "Warning": {
+      "Your local date & time settings seem to be out of sync.": [
+        "Здається, ваші локальні налаштування дати та часу не синхронізовані."
+      ],
+      "Live chat is a premium feature available only to those with paid ProtonVPN plans. Please open a ticket instead.": [
+        "Живий чат - це преміум можливість, доступна лише користувачам платних тарифних планів ProtonVPN. Будь ласка, створіть запит натомість."
+      ],
+      "Unfortunately, we’re not online at the moment. Please complete the form below to describe your issue, and we will look into it and be in touch when we’re back online.": [
+        "На жаль, зараз ми не в мережі. Будь ласка, заповніть форму внизу, щоб описати вашу проблему. Ми розглянемо її та зв'яжемося з вами, коли будемо знову в мережі."
+      ],
+      "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
+        "Повідомлення не шифруються наскрізно. Будь ласка, не відправляйте будь-яку конфіденційну інформацію."
+      ],
+      "Please note that by choosing this payment method, your account cannot be upgraded immediately. We will update your account once the payment is cleared.": [
+        "Зверніть увагу, що вибравши цей спосіб оплати, ваш обліковий запис не може бути оновлено негайно. Ми оновимо ваш обліковий запис одразу після підтвердження платежу."
+      ],
+      "Are you sure you want to permanently delete this contact?": [
+        "Ви дійсно бажаєте остаточно видалити цей контакт?"
+      ],
+      "Are you sure you want to permanently delete ${ count } contact?": [
+        "Ви дійсно хочете остаточно видалити ${ count } контакт?",
+        "Ви дійсно хочете остаточно видалити ${ count } контакти?",
+        "Ви дійсно хочете остаточно видалити ${ count } контактів?",
+        "Ви дійсно хочете остаточно видалити ${ count } контактів?"
+      ],
+      "If you don’t remember your password, it is impossible to re-activate your key. We can help you dismiss the alert banner but in the process you will permanently lose access to all the data encrypted with that key.": [
+        "Неможливо повторно активувати ваш ключ, якщо ви не пам'ятаєте свій пароль. Ми можемо допомогти вам відхилити банер з попередженням, але при цьому ви остаточно втратите доступ до всіх даних, що були зашифровані з використанням цього ключа."
+      ],
+      "This action is irreversible. Please enter the word ${ boldDanger } in the field to proceed.": [
+        "Це незворотна дія. Будь ласка, для продовження введіть слово ${ boldDanger }."
+      ],
+      "Are you sure you want to permanently delete this contact group?": [
+        "Ви дійсно бажаєте остаточно видалити цю групу контактів?"
+      ],
+      "Are you sure you want to permanently delete ${ count } contact group?": [
+        "Ви дійсно хочете остаточно видалити ${ count } групу контактів?",
+        "Ви дійсно хочете остаточно видалити ${ count } групи контактів?",
+        "Ви дійсно хочете остаточно видалити ${ count } груп контактів?",
+        "Ви дійсно хочете остаточно видалити ${ count } груп контактів?"
+      ],
+      "This feature requires a paid Proton account": [
+        "Ця функція вимагає платного тарифного плану Proton"
+      ],
+      "The decryption of the encrypted content failed.": [
+        "Не вдалося розшифрувати зашифрований вміст."
+      ],
+      "The verification of the contact details' signature failed.": [
+        "Не вдалося перевірити підпис подробиць контакту."
+      ],
+      "The contact failed to load.": [
+        "Не вдалося завантажити контакт."
+      ],
+      "Some of the contacts to be merged display errors. Please review them individually": [
+        "Деякі об'єднувані контакти мають помилки. Будь ласка, перегляньте їх окремо"
+      ],
+      "Contacts could not be merged": [
+        "Не вдається об'єднати контакти"
+      ],
+      "Are you sure you want to discard your import?": [
+        ""
       ]
     },
     "Success": {
-      "Code sent to ${ methodTo }": [
-        "Код надісланий на ${ methodTo }"
-      ],
-      "Verification successful": [
-        "Перевірку виконано успішно"
-      ],
       "Email address copied to clipboard": [
         "Адресу е-пошти скопійовано до буфера обміну"
       ],
       "Bug reported": [
         "Звіт про помилку було надіслано"
+      ],
+      "You have successfully unsubscribed": [
+        "Ви успішно скасували передплату"
+      ],
+      "Code sent to ${ methodTo }": [
+        "Код надісланий на ${ methodTo }"
+      ],
+      "Verification successful": [
+        "Перевірку виконано успішно"
       ],
       "Contact saved": [
         "Контакт збережено"
@@ -2934,9 +3018,6 @@
       "Address copied to clipboard": [
         "Адресу скопійовано до буфера обміну"
       ],
-      "You have successfully unsubscribed": [
-        "Ви успішно скасували передплату"
-      ],
       "Preference saved": [
         "Налаштування збережено"
       ],
@@ -2957,23 +3038,6 @@
       ],
       "Your files were successfully recovered to \"My files\".": [
         "Ваші файли успішно відновлено до \"Мої файли\"."
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
-      ],
-      "Email": [
-        "Е-пошта"
-      ],
-      "SMS": [
-        "СМС"
-      ],
-      "Manual": [
-        "Вручну"
-      ],
-      "No verification method available": [
-        "Немає доступних способів перевірки"
       ]
     },
     "Header": {
@@ -3171,591 +3235,6 @@
         "Додати знімки екрану"
       ]
     },
-    "Label to change density": {
-      "Comfortable": [
-        "Комфортний"
-      ],
-      "Compact": [
-        "Компактний"
-      ]
-    },
-    "Label to change view layout": {
-      "Column": [
-        "Стовпчик"
-      ],
-      "Row": [
-        "Рядок"
-      ]
-    },
-    "Label to change composer mode": {
-      "Normal": [
-        "Звичайний"
-      ],
-      "Maximized": [
-        "Розгорнутий"
-      ]
-    },
-    "Label for contact group name": {
-      "Name": [
-        "Назва"
-      ]
-    },
-    "Placeholder for contact group name": {
-      "Name": [
-        "Назва"
-      ]
-    },
-    "Label for contact group color": {
-      "Color": [
-        "Колір"
-      ]
-    },
-    "Tooltip": {
-      "Automatic indicates that the format in the composer is used to send to this user. Plain text indicates that the message will always be converted to plain text on send.": [
-        "Автоматично означає, що для надсилання цьому користувачу використовується формат редактора. Звичайний текст означає, що повідомлення завжди перетворюватиметься у звичайний текст під час надсилання."
-      ],
-      "Encrypted data with verified digital signature": [
-        "Зашифровані дані з перевіреним цифровим підписом"
-      ],
-      "Email encryption forces email signature to help authenticate your sent messages": [
-        "Шифрування пошти примусово застосовує цифровий підпис, щоб допомогти засвідчити справжність ваших надісланих повідомлень"
-      ],
-      "Digitally signing emails helps authenticating that messages are sent by you": [
-        "Цифровий підпис листів допомагає засвідчити справжність надісланих вами повідомлень"
-      ],
-      "Select the PGP scheme to be used when signing or encrypting to a user. Note that PGP/Inline forces plain text messages": [
-        "Оберіть PGP-схему для використання при підписуванні чи шифруванні для користувача. Зауважте, що PGP/Inline примусово перетворює повідомлення у звичайний текст"
-      ],
-      "Upload a public key to enable sending end-to-end encrypted emails to this email": [
-        "Вивантажте відкритий ключ, щоб увімкнути надсилання наскрізно зашифрованих листів на цю адресу"
-      ],
-      "You do not have any contacts to export": [
-        "У вас немає контактів для експорту"
-      ],
-      "Use multiple addresses / aliases linked to your account, e.g. username2@protonmail.com": [
-        "Використовуйте декілька адрес / псевдонімів, пов'язаних з вашим обліковим записом, наприклад, username2@protonmail.com"
-      ],
-      "Host emails for your own domain(s) at ProtonMail, e.g. john.smith@example.com": [
-        "Розмістіть електронну пошту для власних доменів на ProtonMail, наприклад, john.smith@example.com"
-      ],
-      "Use the personal address username@pm.me to send emails": [
-        "Використовуйте особисту адресу username@pm.me для надсилання листів"
-      ],
-      "Multi-user support is only applicable to plans with 2 or more users": [
-        "Підтримка декількох користувачів доступна лише для тарифів з 2 чи більше користувачами"
-      ],
-      "NetShield protects your device and speeds up your browsing by blocking ads, trackers, and malware.": [
-        "NetShield захищає ваш пристрій та пришвидшує перегляд в Інтернеті, блокуючи рекламу, стеження та зловмисні програми."
-      ],
-      "Support for file sharing protocols such as BitTorrent.": [
-        "Підтримка протоколів обміну файлами, наприклад, BitTorrent."
-      ],
-      "Access geo-blocked content (Netflix, Amazon Prime Video, BBC iPlayer, Wikipedia, Facebook, YouTube, etc) no matter where you are.": [
-        "Доступ до вмісту, обмеженого розташуванням (Netflix, Amazon Prime Video, BBC iPlayer, Wikipedia, Facebook, YouTube тощо), незалежно від того, де ви знаходитесь."
-      ],
-      "Route your Internet traffic through the Tor network with a single click.": [
-        "Спрямовуйте свій Інтернет-трафік через мережу Tor одним натисканням."
-      ],
-      "Defends against threats to VPN privacy by passing your Internet traffic through multiple servers.": [
-        "Захищає від загроз приватності VPN, спрямовуючи ваш Інтернет-трафік через різні сервери."
-      ],
-      "Get access to all the paid features for both ProtonVPN and ProtonMail (the encrypted email service that millions use to protect their data) with one plan.": [
-        "Отримайте доступ до всіх платних функцій для ProtonVPN та ProtonMail (служба зашифрованої електронної пошти, якою користуються мільйони для захисту своїх даних) з єдиним тарифним планом."
-      ],
-      "Get access to all the paid features for both ${ vpnAppName } and ${ mailAppName } (the encrypted email service that millions use to protect their data) with one plan.": [
-        "Отримайте доступ до всіх платних функцій для ${ vpnAppName } та ${ mailAppName } (служба зашифрованої електронної пошти, якою користуються мільйони для захисту своїх даних) з єдиним тарифним планом."
-      ],
-      "Host emails for your own domain(s) at ${ mailAppName }, e.g. john.smith@example.com": [
-        "Розмістіть електронну пошту для власних доменів на ${ mailAppName }, наприклад, john.smith@example.com"
-      ],
-      "Create multiple email addresses linked to your account, e.g. username2@protonmail.com": [
-        "Створіть декілька адрес електронної пошти, пов'язаних з вашим обліковим записом, наприклад, username2@protonmail.com"
-      ],
-      "Discount applied for annual billing cycle": [
-        "Знижка застосовується до річного циклу платежів"
-      ],
-      "Discount applied for two-year billing cycle": [
-        "Знижка застосовується до дворічного циклу платежів"
-      ],
-      "If you purchased a gift code or received one from our support team, you can enter it here.": [
-        "Якщо ви придбали подарунковий код або отримали його від нашої служби підтримки, ви можете ввести його тут."
-      ],
-      "Expired sharing link": [
-        "Застаріле посилання спільного доступу"
-      ],
-      "Inactive sharing link": [
-        "Неактивне посилання для спільного доступу"
-      ],
-      "Active sharing link": [
-        "Активне посилання спільного доступу"
-      ]
-    },
-    "Progress bar description": {
-      "${ contactsExported.length } out of ${ countContacts } contacts successfully exported.": [
-        "${ contactsExported.length } з ${ countContacts } контактів успішно експортовано."
-      ],
-      "No contacts exported.": [
-        "Контакти не експортовано."
-      ],
-      "Progress: ${ combinedProgress }%": [
-        "Перебіг: ${ combinedProgress }%"
-      ],
-      "${ model.deleted.length } out of ${ totalBeDeleted } contact successfully deleted.": [
-        "${ model.deleted.length } контакт з ${ totalBeDeleted } успішно видалено.",
-        "${ model.deleted.length } контакти з ${ totalBeDeleted } успішно видалено.",
-        "${ model.deleted.length } контактів з ${ totalBeDeleted } успішно видалено.",
-        "${ model.deleted.length } контактів з ${ totalBeDeleted } успішно видалено."
-      ],
-      "${ model.submitted.length } out of ${ totalBeMerged } contact successfully merged.": [
-        "${ model.submitted.length } контакт з ${ totalBeMerged } успішно об'єднано.",
-        "${ model.submitted.length } контакти з ${ totalBeMerged } успішно об'єднано.",
-        "${ model.submitted.length } контактів з ${ totalBeMerged } успішно об'єднано.",
-        "${ model.submitted.length } контактів з ${ totalBeMerged } успішно об'єднано."
-      ],
-      "No contacts merged.": [
-        "Контакти не об'єднано."
-      ]
-    },
-    "Description": {
-      "Decrypting contacts... This may take a few minutes. When the process is completed, you will be able to download the file with all your contacts exported.": [
-        "Розшифрування контактів... Це може тривати кілька хвилин. Після завершення процесу ви зможете завантажити файл з усіма експортованими контактами."
-      ],
-      "Merging contacts... This may take a few minutes. When the process is completed, you can close this modal.": [
-        "Об'єднання контактів... Це може тривати кілька хвилин. Коли процес завершиться, ви можете закрити це вікно."
-      ],
-      "Deleting contacts... This may take a few minutes. When the process is completed, you can close this modal.": [
-        "Видалення контактів... Це може тривати кілька хвилин. Коли процес завершиться, ви можете закрити це вікно."
-      ],
-      "Use Drag and Drop to rank merging priority between contacts. Uncheck the contacts you do not want to merge.": [
-        "Використовуйте перетягування для пріоритету об'єднання між контактами. Приберіть позначку з тих контактів, які ви не хочете об'єднувати."
-      ],
-      "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
-        "Ви можете позначити ті контакти, які ви не хочете ані об’єднувати, ані зберігати. Видалення відбудеться лише після натискання кнопки об'єднання"
-      ],
-      "The file should have a maximum size of ${ MAX_IMPORT_FILE_SIZE_STRING } and have up to ${ MAX_IMPORT_CONTACTS_STRING } contact. If your file is bigger, please split it into smaller files.": [
-        "Файл повинен мати максимальний розмір ${ MAX_IMPORT_FILE_SIZE_STRING } та містити до ${ MAX_IMPORT_CONTACTS_STRING } контакту. Якщо ваш файл більший, розділіть його на менші файли.",
-        "Файл повинен мати максимальний розмір ${ MAX_IMPORT_FILE_SIZE_STRING } та містити до ${ MAX_IMPORT_CONTACTS_STRING } контактів. Якщо ваш файл більший, розділіть його на менші файли.",
-        "Файл повинен мати максимальний розмір ${ MAX_IMPORT_FILE_SIZE_STRING } та містити до ${ MAX_IMPORT_CONTACTS_STRING } контактів. Якщо ваш файл більший, розділіть його на менші файли.",
-        "Файл повинен мати максимальний розмір ${ MAX_IMPORT_FILE_SIZE_STRING } та містити до ${ MAX_IMPORT_CONTACTS_STRING } контактів. Якщо ваш файл більший, розділіть його на менші файли."
-      ],
-      "It looks like the contact list you are importing contains some groups. Please review how these groups should be imported.": [
-        "Схоже, що список контактів, який ви імпортуєте, містить групи. Перегляньте, як ці групи повинні бути імпортовані."
-      ],
-      "Encrypting and importing contacts... This may take a few minutes. When the process is completed, you can close this modal.": [
-        "Об'єднання та імпортування контактів... Це може тривати кілька хвилин. Коли процес завершиться, ви можете закрити це вікно."
-      ]
-    },
-    "Table header": {
-      "Name": [
-        "Ім'я"
-      ],
-      "Address": [
-        "Адреса"
-      ],
-      "Action": [
-        "Дія"
-      ],
-      "Fingerprint": [
-        "Відбиток"
-      ],
-      "Created": [
-        "Створено"
-      ],
-      "Expires": [
-        "Завершується"
-      ],
-      "Type": [
-        "Тип"
-      ],
-      "Status": [
-        "Стан"
-      ],
-      "Actions": [
-        "Дії"
-      ]
-    },
-    "Notification": {
-      "Contact group updated": [
-        "Групу контактів оновлено"
-      ],
-      "Contact group created": [
-        "Групу контактів створено"
-      ],
-      "Move ${ movingCount } file": [
-        "Перемістити ${ movingCount } файл",
-        "Перемістити ${ movingCount } файли",
-        "Перемістити ${ movingCount } файлів",
-        "Перемістити ${ movingCount } файлів"
-      ],
-      "Move ${ movingCount } folder": [
-        "Перемістити ${ movingCount } теку",
-        "Перемістити ${ movingCount } теки",
-        "Перемістити ${ movingCount } тек",
-        "Перемістити ${ movingCount } тек"
-      ],
-      "Move ${ movingCount } item": [
-        "Перемістити ${ movingCount } елемент",
-        "Перемістити ${ movingCount } елементи",
-        "Перемістити ${ movingCount } елементів",
-        "Перемістити ${ movingCount } елементів"
-      ],
-      "All items will soon be permanently deleted from trash": [
-        "Усі елементи скоро буде остаточно видалено з смітника"
-      ],
-      "Failed to move, please try again": [
-        "Не вдалося перемістити, повторіть спробу"
-      ],
-      "Move ${ itemsToMoveCount } file": [
-        "Перемістити ${ itemsToMoveCount } файл",
-        "Перемістити ${ itemsToMoveCount } файли",
-        "Перемістити ${ itemsToMoveCount } файлів",
-        "Перемістити ${ itemsToMoveCount } файлів"
-      ],
-      "Move ${ itemsToMoveCount } folder": [
-        "Перемістити ${ itemsToMoveCount } теку",
-        "Перемістити ${ itemsToMoveCount } теки",
-        "Перемістити ${ itemsToMoveCount } тек",
-        "Перемістити ${ itemsToMoveCount } тек"
-      ],
-      "Move ${ itemsToMoveCount } item": [
-        "Перемістити ${ itemsToMoveCount } елемент",
-        "Перемістити ${ itemsToMoveCount } елементи",
-        "Перемістити ${ itemsToMoveCount } елементів",
-        "Перемістити ${ itemsToMoveCount } елементів"
-      ],
-      "Your settings have been changed successfully.": [
-        "Ваші налаштування успішно змінено."
-      ],
-      "The link to your file was deleted.": [
-        "Посилання на ваш файл було видалено."
-      ],
-      "Not enough space to upload ${ formattedRemaining }": [
-        "Недостатньо місця для вивантаження ${ formattedRemaining }"
-      ],
-      "\"${ firstItemName }\" deleted permanently from trash": [
-        "\"${ firstItemName }\" видалено зі смітника остаточно"
-      ],
-      "${ deletedItemsCount } file deleted permanently from trash": [
-        "${ deletedItemsCount } файл видалено зі смітника остаточно",
-        "${ deletedItemsCount } файли видалено зі смітника остаточно",
-        "${ deletedItemsCount } файлів видалено зі смітника остаточно",
-        "${ deletedItemsCount } файлів видалено зі смітника остаточно"
-      ],
-      "${ deletedItemsCount } folder deleted permanently from trash": [
-        "${ deletedItemsCount } теку видалено зі смітника остаточно",
-        "${ deletedItemsCount } теки видалено зі смітника остаточно",
-        "${ deletedItemsCount } тек видалено зі смітника остаточно",
-        "${ deletedItemsCount } тек видалено зі смітника остаточно"
-      ],
-      "${ deletedItemsCount } item deleted permanently from trash": [
-        "${ deletedItemsCount } елемент видалено зі смітника остаточно",
-        "${ deletedItemsCount } елементи видалено зі смітника остаточно",
-        "${ deletedItemsCount } елементів видалено зі смітника остаточно",
-        "${ deletedItemsCount } елементів видалено зі смітника остаточно"
-      ],
-      "\"${ firstItemName }\" moved to trash": [
-        "\"${ firstItemName }\" переміщено до смітника"
-      ],
-      "${ trashedLinksCount } file moved to trash": [
-        "${ trashedLinksCount } файл переміщено до смітника",
-        "${ trashedLinksCount } файли переміщено до смітника",
-        "${ trashedLinksCount } файлів переміщено до смітника",
-        "${ trashedLinksCount } файлів переміщено до смітника"
-      ],
-      "${ trashedLinksCount } folder moved to trash": [
-        "${ trashedLinksCount } теку переміщено до смітника",
-        "${ trashedLinksCount } теки переміщено до смітника",
-        "${ trashedLinksCount } тек переміщено до смітника",
-        "${ trashedLinksCount } тек переміщено до смітника"
-      ],
-      "${ trashedLinksCount } item moved to trash": [
-        "${ trashedLinksCount } елемент переміщено до смітника",
-        "${ trashedLinksCount } елементи переміщено до смітника",
-        "${ trashedLinksCount } елементів переміщено до смітника",
-        "${ trashedLinksCount } елементів переміщено до смітника"
-      ],
-      "\"${ firstItemName }\" restored from trash": [
-        "\"${ firstItemName }\" відновлено зі смітника"
-      ],
-      "${ restoredItemsCount } file restored from trash": [
-        "${ restoredItemsCount } файл відновлено зі смітника",
-        "${ restoredItemsCount } файли відновлено зі смітника",
-        "${ restoredItemsCount } файлів відновлено зі смітника",
-        "${ restoredItemsCount } файлів відновлено зі смітника"
-      ],
-      "${ restoredItemsCount } folder restored from trash": [
-        "${ restoredItemsCount } теку відновлено зі смітника",
-        "${ restoredItemsCount } теки відновлено зі смітника",
-        "${ restoredItemsCount } тек відновлено зі смітника",
-        "${ restoredItemsCount } тек відновлено зі смітника"
-      ],
-      "${ restoredItemsCount } item restored from trash": [
-        "${ restoredItemsCount } елемент відновлено зі смітника",
-        "${ restoredItemsCount } елементи відновлено зі смітника",
-        "${ restoredItemsCount } елементів відновлено зі смітника",
-        "${ restoredItemsCount } елементів відновлено зі смітника"
-      ],
-      "An item with the name \"${ name }\" already exists in the current folder": [
-        "Елемент з назвою \"${ name }\" вже існує в поточній теці"
-      ],
-      "\"${ _firstItemName }\" successfully moved": [
-        "\"${ _firstItemName }\" успішно переміщено"
-      ],
-      "${ movedLinksCount } file successfully moved": [
-        "${ movedLinksCount } файл успішно переміщено",
-        "${ movedLinksCount } файли успішно переміщено",
-        "${ movedLinksCount } файлів успішно переміщено",
-        "${ movedLinksCount } файлів успішно переміщено"
-      ],
-      "${ movedLinksCount } folder successfully moved": [
-        "${ movedLinksCount } теку успішно переміщено",
-        "${ movedLinksCount } теки успішно переміщено",
-        "${ movedLinksCount } тек успішно переміщено",
-        "${ movedLinksCount } тек успішно переміщено"
-      ],
-      "${ movedLinksCount } item successfully moved": [
-        "${ movedLinksCount } елемент успішно переміщено",
-        "${ movedLinksCount } елементи успішно переміщено",
-        "${ movedLinksCount } елементів успішно переміщено",
-        "${ movedLinksCount } елементів успішно переміщено"
-      ],
-      "\"${ firstItemName }\" failed to be moved": [
-        "\"${ firstItemName }\" не вдалося перемістити"
-      ],
-      "${ failedMovesCount } file failed to be moved": [
-        "${ failedMovesCount } файл не вдалося перемістити",
-        "${ failedMovesCount } файли не вдалося перемістити",
-        "${ failedMovesCount } файлів не вдалося перемістити",
-        "${ failedMovesCount } файлів не вдалося перемістити"
-      ],
-      "${ failedMovesCount } folder failed to be moved": [
-        "${ failedMovesCount } теку не вдалося перемістити",
-        "${ failedMovesCount } теки не вдалося перемістити",
-        "${ failedMovesCount } тек не вдалося перемістити",
-        "${ failedMovesCount } тек не вдалося перемістити"
-      ],
-      "${ failedMovesCount } item failed to be moved": [
-        "${ failedMovesCount } елемент не вдалося перемістити",
-        "${ failedMovesCount } елементи не вдалося перемістити",
-        "${ failedMovesCount } елементів не вдалося перемістити",
-        "${ failedMovesCount } елементів не вдалося перемістити"
-      ],
-      "${ deletedCount } link to your file was deleted.": [
-        "${ deletedCount } посилання на ваш файл було видалено.",
-        "${ deletedCount } посилання на ваш файл було видалено.",
-        "${ deletedCount } посилань на ваш файл було видалено.",
-        "${ deletedCount } посилань на ваш файл було видалено."
-      ],
-      "The link to your file failed to be deleted.": [
-        "Не вдалося видалити посилання на ваш файл."
-      ],
-      "${ failedCount } link to your file failed to be deleted.": [
-        "Не вдалося видалити ${ failedCount } посилання на ваш файл.",
-        "Не вдалося видалити ${ failedCount } посилання на ваш файл.",
-        "Не вдалося видалити ${ failedCount } посилань на ваш файл.",
-        "Не вдалося видалити ${ failedCount } посилань на ваш файл."
-      ]
-    },
-    "MIME type": {
-      "Automatic": [
-        "Автоматично"
-      ],
-      "Plain text": [
-        "Звичайний текст"
-      ]
-    },
-    "Default encryption scheme": {
-      "Use global default (${ defaultValueText })": [
-        "Глобальне типове значення (${ defaultValueText })"
-      ]
-    },
-    "Key badge": {
-      "Primary": [
-        "Основний"
-      ],
-      "Verification only": [
-        "Лише перевірка"
-      ],
-      "WKD": [
-        "WKD"
-      ],
-      "Trusted": [
-        "Надійний"
-      ],
-      "Revoked": [
-        "Відкликаний"
-      ],
-      "Expired": [
-        "Протермінований"
-      ]
-    },
-    "TableHeader": {
-      "Name": [
-        "Назва"
-      ],
-      "Address": [
-        "Адреса"
-      ],
-      "Actions": [
-        "Дії"
-      ],
-      "Import": [
-        "Імпорт"
-      ],
-      "CSV field": [
-        "Поле CSV"
-      ],
-      "vCard field": [
-        "Поле vCard"
-      ],
-      "Values": [
-        "Значення"
-      ],
-      "Location": [
-        "Розташування"
-      ],
-      "Type": [
-        "Тип"
-      ],
-      "Modified": [
-        "Змінено"
-      ],
-      "Deleted": [
-        "Видалено"
-      ],
-      "Size": [
-        "Розмір"
-      ],
-      "Created": [
-        "Створено"
-      ],
-      "# of accesses": [
-        "# доступів"
-      ],
-      "Expires": [
-        "Завершується"
-      ]
-    },
-    "Actions message": {
-      "You don't have any groups.": [
-        "У вас немає жодної групи."
-      ],
-      "No results found.": [
-        "Результатів не знайдено."
-      ],
-      "Please try another search term.": [
-        "Спробуйте інший термін пошуку."
-      ],
-      "You don't have any contacts.": [
-        "У вас немає контактів."
-      ],
-      "${ addContact } or ${ importContact }.": [
-        "${ addContact } або ${ importContact }."
-      ]
-    },
-    "Info, no need for singular": {
-      "Multiple contacts look identical. ${ mergeAction }": [
-        "Деякі контакти виглядають однаково. ${ mergeAction }"
-      ]
-    },
-    "Error notification": {
-      "First name and last name cannot be unchecked at the same time": [
-        "Не можна прибрати позначку одночасно з імені та прізвища"
-      ]
-    },
-    "Description of the purpose of the import CSV modal": {
-      "We have detected the following fields in the CSV file you uploaded. Check the ones you want to import.": [
-        "Ми виявили такі поля в завантаженому вами файлі CSV. Перевірте, які ви хочете імпортувати."
-      ],
-      "Also, we have automatically matched CSV fields with vCard fields. You can review and change this matching manually.": [
-        "Ми також автоматично виявили збіги полів CSV з полями vCard. Ви можете переглянути й змінити ці збіги вручну."
-      ]
-    },
-    "Option": {
-      "Add to existing group": [
-        "Додати до наявної групи"
-      ],
-      "Create new group": [
-        "Створити нову групу"
-      ],
-      "Ignore group": [
-        "Нехтувати групою"
-      ]
-    },
-    "Import contact groups info": {
-      "${ totalContacts } contact": [
-        "${ totalContacts } контакт",
-        "${ totalContacts } контакти",
-        "${ totalContacts } контактів",
-        "${ totalContacts } контактів"
-      ]
-    },
-    "Alert": {
-      "By leaving now, some contacts may not be imported": [
-        "Якщо ви зараз вийдете, деякі контакти можуть не імпортуватися"
-      ]
-    },
-    "Import calendar": {
-      "Encrypting and adding contacts: ${ totalImported }/${ totalToImport }": [
-        "Шифрування та додавання контактів: ${ totalImported }/${ totalToImport }"
-      ]
-    },
-    "Import contact error": {
-      "Contact ${ contactId }: ": [
-        "Контакт ${ contactId }: "
-      ]
-    },
-    "Info on errors": {
-      "Click for details": [
-        "Натисніть для подробиць"
-      ]
-    },
-    "Import contacts warning": {
-      "for now": [
-        "зараз"
-      ],
-      "ProtonContacts does not support ${ forNow }:": [
-        "ProtonContacts не підтримує ${ forNow }:"
-      ]
-    },
-    "Import warning": {
-      "No contact can be imported. Click for details": [
-        "Неможливо імпортувати контакти. Натисніть для подробиць"
-      ],
-      "${ totalContactsDiscarded } out of ${ totalContacts } contacts will not be imported. Click for details": [
-        "${ totalContactsDiscarded } із ${ totalContacts } контактів не будуть імпортовані. Натисніть для подробиць"
-      ]
-    },
-    "Import calendar warning": {
-      "vCard versions < 3.0": [
-        "vCard версії < 3.0"
-      ]
-    },
-    "Import contacts": {
-      "Contact successfully imported. The imported contact will now appear in your contact list.": [
-        "Контакт успішно імпортовано. Тепер він з'явиться у вашому списку контактів.",
-        "Контакти успішно імпортовано. Тепер вони з'являться у вашому списку контактів.",
-        "Контакти успішно імпортовано. Тепер вони з'являться у вашому списку контактів.",
-        "Контакти успішно імпортовано. Тепер вони з'являться у вашому списку контактів."
-      ],
-      "An error occurred while encrypting and adding your contacts. ${ totalImported } out of ${ totalToImport } contacts successfully imported.": [
-        "При шифруванні та додаванні ваших контактів сталася помилка. ${ totalImported } із ${ totalToImport } контактів успішно імпортовано."
-      ]
-    },
-    "Import contact": {
-      "An error occurred while encrypting and adding your contact. No contact could be imported.": [
-        "При шифруванні та додаванні вашого контакту сталася помилка. Неможливо імпортувати контакт.",
-        "При шифруванні та додаванні ваших контактів сталася помилка. Неможливо імпортувати контакти.",
-        "При шифруванні та додаванні ваших контактів сталася помилка. Неможливо імпортувати контакти.",
-        "При шифруванні та додаванні ваших контактів сталася помилка. Неможливо імпортувати контакти."
-      ],
-      "${ totalImported }/${ totalToImport } contact encrypted and added to your contact list": [
-        "${ totalImported }/${ totalToImport } контакт зашифровано та додано до вашого списку контактів",
-        "${ totalImported }/${ totalToImport } контакти зашифровано та додано до вашого списку контактів",
-        "${ totalImported }/${ totalToImport } контактів зашифровано та додано до вашого списку контактів",
-        "${ totalImported }/${ totalToImport } контактів зашифровано та додано до вашого списку контактів"
-      ]
-    },
     "Info for cash payment method": {
       "Please contact us at ${ email } for instructions on how to pay us with cash.": [
         "Будь ласка, зв'яжіться з нами через ${ email } для отримання інструкцій про те, як сплатити готівкою."
@@ -3862,6 +3341,86 @@
       ],
       "Unlimited": [
         "Необмежено"
+      ]
+    },
+    "Tooltip": {
+      "Use multiple addresses / aliases linked to your account, e.g. username2@protonmail.com": [
+        "Використовуйте декілька адрес / псевдонімів, пов'язаних з вашим обліковим записом, наприклад, username2@protonmail.com"
+      ],
+      "Host emails for your own domain(s) at ProtonMail, e.g. john.smith@example.com": [
+        "Розмістіть електронну пошту для власних доменів на ProtonMail, наприклад, john.smith@example.com"
+      ],
+      "Use the personal address username@pm.me to send emails": [
+        "Використовуйте особисту адресу username@pm.me для надсилання листів"
+      ],
+      "Multi-user support is only applicable to plans with 2 or more users": [
+        "Підтримка декількох користувачів доступна лише для тарифів з 2 чи більше користувачами"
+      ],
+      "NetShield protects your device and speeds up your browsing by blocking ads, trackers, and malware.": [
+        "NetShield захищає ваш пристрій та пришвидшує перегляд в Інтернеті, блокуючи рекламу, стеження та зловмисні програми."
+      ],
+      "Support for file sharing protocols such as BitTorrent.": [
+        "Підтримка протоколів обміну файлами, наприклад, BitTorrent."
+      ],
+      "Access geo-blocked content (Netflix, Amazon Prime Video, BBC iPlayer, Wikipedia, Facebook, YouTube, etc) no matter where you are.": [
+        "Доступ до вмісту, обмеженого розташуванням (Netflix, Amazon Prime Video, BBC iPlayer, Wikipedia, Facebook, YouTube тощо), незалежно від того, де ви знаходитесь."
+      ],
+      "Route your Internet traffic through the Tor network with a single click.": [
+        "Спрямовуйте свій Інтернет-трафік через мережу Tor одним натисканням."
+      ],
+      "Defends against threats to VPN privacy by passing your Internet traffic through multiple servers.": [
+        "Захищає від загроз приватності VPN, спрямовуючи ваш Інтернет-трафік через різні сервери."
+      ],
+      "Get access to all the paid features for both ProtonVPN and ProtonMail (the encrypted email service that millions use to protect their data) with one plan.": [
+        "Отримайте доступ до всіх платних функцій для ProtonVPN та ProtonMail (служба зашифрованої електронної пошти, якою користуються мільйони для захисту своїх даних) з єдиним тарифним планом."
+      ],
+      "Get access to all the paid features for both ${ vpnAppName } and ${ mailAppName } (the encrypted email service that millions use to protect their data) with one plan.": [
+        "Отримайте доступ до всіх платних функцій для ${ vpnAppName } та ${ mailAppName } (служба зашифрованої електронної пошти, якою користуються мільйони для захисту своїх даних) з єдиним тарифним планом."
+      ],
+      "Host emails for your own domain(s) at ${ mailAppName }, e.g. john.smith@example.com": [
+        "Розмістіть електронну пошту для власних доменів на ${ mailAppName }, наприклад, john.smith@example.com"
+      ],
+      "Create multiple email addresses linked to your account, e.g. username2@protonmail.com": [
+        "Створіть декілька адрес електронної пошти, пов'язаних з вашим обліковим записом, наприклад, username2@protonmail.com"
+      ],
+      "Discount applied for annual billing cycle": [
+        "Знижка застосовується до річного циклу платежів"
+      ],
+      "Discount applied for two-year billing cycle": [
+        "Знижка застосовується до дворічного циклу платежів"
+      ],
+      "If you purchased a gift code or received one from our support team, you can enter it here.": [
+        "Якщо ви придбали подарунковий код або отримали його від нашої служби підтримки, ви можете ввести його тут."
+      ],
+      "Automatic indicates that the format in the composer is used to send to this user. Plain text indicates that the message will always be converted to plain text on send.": [
+        "Автоматично означає, що для надсилання цьому користувачу використовується формат редактора. Звичайний текст означає, що повідомлення завжди перетворюватиметься у звичайний текст під час надсилання."
+      ],
+      "Encrypted data with verified digital signature": [
+        "Зашифровані дані з перевіреним цифровим підписом"
+      ],
+      "Email encryption forces email signature to help authenticate your sent messages": [
+        "Шифрування пошти примусово застосовує цифровий підпис, щоб допомогти засвідчити справжність ваших надісланих повідомлень"
+      ],
+      "Digitally signing emails helps authenticating that messages are sent by you": [
+        "Цифровий підпис листів допомагає засвідчити справжність надісланих вами повідомлень"
+      ],
+      "Select the PGP scheme to be used when signing or encrypting to a user. Note that PGP/Inline forces plain text messages": [
+        "Оберіть PGP-схему для використання при підписуванні чи шифруванні для користувача. Зауважте, що PGP/Inline примусово перетворює повідомлення у звичайний текст"
+      ],
+      "Upload a public key to enable sending end-to-end encrypted emails to this email": [
+        "Вивантажте відкритий ключ, щоб увімкнути надсилання наскрізно зашифрованих листів на цю адресу"
+      ],
+      "You do not have any contacts to export": [
+        "У вас немає контактів для експорту"
+      ],
+      "Expired sharing link": [
+        "Застаріле посилання спільного доступу"
+      ],
+      "Inactive sharing link": [
+        "Неактивне посилання для спільного доступу"
+      ],
+      "Active sharing link": [
+        "Активне посилання спільного доступу"
       ]
     },
     "Mail feature option: 5 email addresses / user": {
@@ -4225,6 +3784,548 @@
         "Bitcoin"
       ]
     },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "Протермінований рахунок"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "Е-пошта"
+      ],
+      "SMS": [
+        "СМС"
+      ],
+      "Manual": [
+        "Вручну"
+      ],
+      "No verification method available": [
+        "Немає доступних способів перевірки"
+      ]
+    },
+    "Label for contact group name": {
+      "Name": [
+        "Назва"
+      ]
+    },
+    "Placeholder for contact group name": {
+      "Name": [
+        "Назва"
+      ]
+    },
+    "Label for contact group color": {
+      "Color": [
+        "Колір"
+      ]
+    },
+    "Progress bar description": {
+      "${ contactsExported.length } out of ${ countContacts } contacts successfully exported.": [
+        "${ contactsExported.length } з ${ countContacts } контактів успішно експортовано."
+      ],
+      "No contacts exported.": [
+        "Контакти не експортовано."
+      ],
+      "Progress: ${ combinedProgress }%": [
+        "Перебіг: ${ combinedProgress }%"
+      ],
+      "${ model.deleted.length } out of ${ totalBeDeleted } contact successfully deleted.": [
+        "${ model.deleted.length } контакт з ${ totalBeDeleted } успішно видалено.",
+        "${ model.deleted.length } контакти з ${ totalBeDeleted } успішно видалено.",
+        "${ model.deleted.length } контактів з ${ totalBeDeleted } успішно видалено.",
+        "${ model.deleted.length } контактів з ${ totalBeDeleted } успішно видалено."
+      ],
+      "${ model.submitted.length } out of ${ totalBeMerged } contact successfully merged.": [
+        "${ model.submitted.length } контакт з ${ totalBeMerged } успішно об'єднано.",
+        "${ model.submitted.length } контакти з ${ totalBeMerged } успішно об'єднано.",
+        "${ model.submitted.length } контактів з ${ totalBeMerged } успішно об'єднано.",
+        "${ model.submitted.length } контактів з ${ totalBeMerged } успішно об'єднано."
+      ],
+      "No contacts merged.": [
+        "Контакти не об'єднано."
+      ]
+    },
+    "Description": {
+      "Decrypting contacts... This may take a few minutes. When the process is completed, you will be able to download the file with all your contacts exported.": [
+        "Розшифрування контактів... Це може тривати кілька хвилин. Після завершення процесу ви зможете завантажити файл з усіма експортованими контактами."
+      ],
+      "Merging contacts... This may take a few minutes. When the process is completed, you can close this modal.": [
+        "Об'єднання контактів... Це може тривати кілька хвилин. Коли процес завершиться, ви можете закрити це вікно."
+      ],
+      "Deleting contacts... This may take a few minutes. When the process is completed, you can close this modal.": [
+        "Видалення контактів... Це може тривати кілька хвилин. Коли процес завершиться, ви можете закрити це вікно."
+      ],
+      "Use Drag and Drop to rank merging priority between contacts. Uncheck the contacts you do not want to merge.": [
+        "Використовуйте перетягування для пріоритету об'єднання між контактами. Приберіть позначку з тих контактів, які ви не хочете об'єднувати."
+      ],
+      "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
+        "Ви можете позначити ті контакти, які ви не хочете ані об’єднувати, ані зберігати. Видалення відбудеться лише після натискання кнопки об'єднання"
+      ],
+      "The file should have a maximum size of ${ MAX_IMPORT_FILE_SIZE_STRING } and have up to ${ MAX_IMPORT_CONTACTS_STRING } contact. If your file is bigger, please split it into smaller files.": [
+        "Файл повинен мати максимальний розмір ${ MAX_IMPORT_FILE_SIZE_STRING } та містити до ${ MAX_IMPORT_CONTACTS_STRING } контакту. Якщо ваш файл більший, розділіть його на менші файли.",
+        "Файл повинен мати максимальний розмір ${ MAX_IMPORT_FILE_SIZE_STRING } та містити до ${ MAX_IMPORT_CONTACTS_STRING } контактів. Якщо ваш файл більший, розділіть його на менші файли.",
+        "Файл повинен мати максимальний розмір ${ MAX_IMPORT_FILE_SIZE_STRING } та містити до ${ MAX_IMPORT_CONTACTS_STRING } контактів. Якщо ваш файл більший, розділіть його на менші файли.",
+        "Файл повинен мати максимальний розмір ${ MAX_IMPORT_FILE_SIZE_STRING } та містити до ${ MAX_IMPORT_CONTACTS_STRING } контактів. Якщо ваш файл більший, розділіть його на менші файли."
+      ],
+      "It looks like the contact list you are importing contains some groups. Please review how these groups should be imported.": [
+        "Схоже, що список контактів, який ви імпортуєте, містить групи. Перегляньте, як ці групи повинні бути імпортовані."
+      ],
+      "Encrypting and importing contacts... This may take a few minutes. When the process is completed, you can close this modal.": [
+        "Об'єднання та імпортування контактів... Це може тривати кілька хвилин. Коли процес завершиться, ви можете закрити це вікно."
+      ]
+    },
+    "Table header": {
+      "Name": [
+        "Ім'я"
+      ],
+      "Address": [
+        "Адреса"
+      ],
+      "Action": [
+        "Дія"
+      ],
+      "Fingerprint": [
+        "Відбиток"
+      ],
+      "Created": [
+        "Створено"
+      ],
+      "Expires": [
+        "Завершується"
+      ],
+      "Type": [
+        "Тип"
+      ],
+      "Status": [
+        "Стан"
+      ],
+      "Actions": [
+        "Дії"
+      ]
+    },
+    "Notification": {
+      "Contact group updated": [
+        "Групу контактів оновлено"
+      ],
+      "Contact group created": [
+        "Групу контактів створено"
+      ],
+      "File or folder \"${ filename }\" is already uploading": [
+        "Файл чи тека \"${ filename }\" вже вивантажується"
+      ],
+      "File or folder \"${ filename }\" and ${ count } other are already uploading": [
+        "Файл чи тека \"${ filename }\" та ще ${ count } вже вивантажуються",
+        "Файл чи тека \"${ filename }\" та ще ${ count } вже вивантажуються",
+        "Файл чи тека \"${ filename }\" та ще ${ count } вже вивантажуються",
+        "Файл чи тека \"${ filename }\" та ще ${ count } вже вивантажуються"
+      ],
+      "File or folder is missing a name": [
+        "Файл чи тека не мають назви"
+      ],
+      "Not enough space to upload ${ formattedTotal }": [
+        "Недостатньо місця для вивантаження ${ formattedTotal }"
+      ],
+      "Failed to upload files: ${ err }": [
+        "Не вдалося вивантажити файли: ${ err }"
+      ],
+      "All items will soon be permanently deleted from trash": [
+        "Усі елементи скоро буде остаточно видалено з смітника"
+      ],
+      "Move ${ movingCount } file": [
+        "Перемістити ${ movingCount } файл",
+        "Перемістити ${ movingCount } файли",
+        "Перемістити ${ movingCount } файлів",
+        "Перемістити ${ movingCount } файлів"
+      ],
+      "Move ${ movingCount } folder": [
+        "Перемістити ${ movingCount } теку",
+        "Перемістити ${ movingCount } теки",
+        "Перемістити ${ movingCount } тек",
+        "Перемістити ${ movingCount } тек"
+      ],
+      "Move ${ movingCount } item": [
+        "Перемістити ${ movingCount } елемент",
+        "Перемістити ${ movingCount } елементи",
+        "Перемістити ${ movingCount } елементів",
+        "Перемістити ${ movingCount } елементів"
+      ],
+      "Failed to move, please try again": [
+        "Не вдалося перемістити, повторіть спробу"
+      ],
+      "Move ${ itemsToMoveCount } file": [
+        "Перемістити ${ itemsToMoveCount } файл",
+        "Перемістити ${ itemsToMoveCount } файли",
+        "Перемістити ${ itemsToMoveCount } файлів",
+        "Перемістити ${ itemsToMoveCount } файлів"
+      ],
+      "Move ${ itemsToMoveCount } folder": [
+        "Перемістити ${ itemsToMoveCount } теку",
+        "Перемістити ${ itemsToMoveCount } теки",
+        "Перемістити ${ itemsToMoveCount } тек",
+        "Перемістити ${ itemsToMoveCount } тек"
+      ],
+      "Move ${ itemsToMoveCount } item": [
+        "Перемістити ${ itemsToMoveCount } елемент",
+        "Перемістити ${ itemsToMoveCount } елементи",
+        "Перемістити ${ itemsToMoveCount } елементів",
+        "Перемістити ${ itemsToMoveCount } елементів"
+      ],
+      "Your settings have been changed successfully.": [
+        "Ваші налаштування успішно змінено."
+      ],
+      "The link to your file was deleted.": [
+        "Посилання на ваш файл було видалено."
+      ],
+      "\"${ firstItemName }\" deleted permanently from trash": [
+        "\"${ firstItemName }\" видалено зі смітника остаточно"
+      ],
+      "${ deletedItemsCount } file deleted permanently from trash": [
+        "${ deletedItemsCount } файл видалено зі смітника остаточно",
+        "${ deletedItemsCount } файли видалено зі смітника остаточно",
+        "${ deletedItemsCount } файлів видалено зі смітника остаточно",
+        "${ deletedItemsCount } файлів видалено зі смітника остаточно"
+      ],
+      "${ deletedItemsCount } folder deleted permanently from trash": [
+        "${ deletedItemsCount } теку видалено зі смітника остаточно",
+        "${ deletedItemsCount } теки видалено зі смітника остаточно",
+        "${ deletedItemsCount } тек видалено зі смітника остаточно",
+        "${ deletedItemsCount } тек видалено зі смітника остаточно"
+      ],
+      "${ deletedItemsCount } item deleted permanently from trash": [
+        "${ deletedItemsCount } елемент видалено зі смітника остаточно",
+        "${ deletedItemsCount } елементи видалено зі смітника остаточно",
+        "${ deletedItemsCount } елементів видалено зі смітника остаточно",
+        "${ deletedItemsCount } елементів видалено зі смітника остаточно"
+      ],
+      "\"${ firstItemName }\" moved to trash": [
+        "\"${ firstItemName }\" переміщено до смітника"
+      ],
+      "${ trashedLinksCount } file moved to trash": [
+        "${ trashedLinksCount } файл переміщено до смітника",
+        "${ trashedLinksCount } файли переміщено до смітника",
+        "${ trashedLinksCount } файлів переміщено до смітника",
+        "${ trashedLinksCount } файлів переміщено до смітника"
+      ],
+      "${ trashedLinksCount } folder moved to trash": [
+        "${ trashedLinksCount } теку переміщено до смітника",
+        "${ trashedLinksCount } теки переміщено до смітника",
+        "${ trashedLinksCount } тек переміщено до смітника",
+        "${ trashedLinksCount } тек переміщено до смітника"
+      ],
+      "${ trashedLinksCount } item moved to trash": [
+        "${ trashedLinksCount } елемент переміщено до смітника",
+        "${ trashedLinksCount } елементи переміщено до смітника",
+        "${ trashedLinksCount } елементів переміщено до смітника",
+        "${ trashedLinksCount } елементів переміщено до смітника"
+      ],
+      "\"${ firstItemName }\" restored from trash": [
+        "\"${ firstItemName }\" відновлено зі смітника"
+      ],
+      "${ restoredItemsCount } file restored from trash": [
+        "${ restoredItemsCount } файл відновлено зі смітника",
+        "${ restoredItemsCount } файли відновлено зі смітника",
+        "${ restoredItemsCount } файлів відновлено зі смітника",
+        "${ restoredItemsCount } файлів відновлено зі смітника"
+      ],
+      "${ restoredItemsCount } folder restored from trash": [
+        "${ restoredItemsCount } теку відновлено зі смітника",
+        "${ restoredItemsCount } теки відновлено зі смітника",
+        "${ restoredItemsCount } тек відновлено зі смітника",
+        "${ restoredItemsCount } тек відновлено зі смітника"
+      ],
+      "${ restoredItemsCount } item restored from trash": [
+        "${ restoredItemsCount } елемент відновлено зі смітника",
+        "${ restoredItemsCount } елементи відновлено зі смітника",
+        "${ restoredItemsCount } елементів відновлено зі смітника",
+        "${ restoredItemsCount } елементів відновлено зі смітника"
+      ],
+      "An item with the name \"${ name }\" already exists in the current folder": [
+        "Елемент з назвою \"${ name }\" вже існує в поточній теці"
+      ],
+      "\"${ _firstItemName }\" successfully moved": [
+        "\"${ _firstItemName }\" успішно переміщено"
+      ],
+      "${ movedLinksCount } file successfully moved": [
+        "${ movedLinksCount } файл успішно переміщено",
+        "${ movedLinksCount } файли успішно переміщено",
+        "${ movedLinksCount } файлів успішно переміщено",
+        "${ movedLinksCount } файлів успішно переміщено"
+      ],
+      "${ movedLinksCount } folder successfully moved": [
+        "${ movedLinksCount } теку успішно переміщено",
+        "${ movedLinksCount } теки успішно переміщено",
+        "${ movedLinksCount } тек успішно переміщено",
+        "${ movedLinksCount } тек успішно переміщено"
+      ],
+      "${ movedLinksCount } item successfully moved": [
+        "${ movedLinksCount } елемент успішно переміщено",
+        "${ movedLinksCount } елементи успішно переміщено",
+        "${ movedLinksCount } елементів успішно переміщено",
+        "${ movedLinksCount } елементів успішно переміщено"
+      ],
+      "\"${ firstItemName }\" failed to be moved": [
+        "\"${ firstItemName }\" не вдалося перемістити"
+      ],
+      "${ failedMovesCount } file failed to be moved": [
+        "${ failedMovesCount } файл не вдалося перемістити",
+        "${ failedMovesCount } файли не вдалося перемістити",
+        "${ failedMovesCount } файлів не вдалося перемістити",
+        "${ failedMovesCount } файлів не вдалося перемістити"
+      ],
+      "${ failedMovesCount } folder failed to be moved": [
+        "${ failedMovesCount } теку не вдалося перемістити",
+        "${ failedMovesCount } теки не вдалося перемістити",
+        "${ failedMovesCount } тек не вдалося перемістити",
+        "${ failedMovesCount } тек не вдалося перемістити"
+      ],
+      "${ failedMovesCount } item failed to be moved": [
+        "${ failedMovesCount } елемент не вдалося перемістити",
+        "${ failedMovesCount } елементи не вдалося перемістити",
+        "${ failedMovesCount } елементів не вдалося перемістити",
+        "${ failedMovesCount } елементів не вдалося перемістити"
+      ],
+      "${ deletedCount } link to your file was deleted.": [
+        "${ deletedCount } посилання на ваш файл було видалено.",
+        "${ deletedCount } посилання на ваш файл було видалено.",
+        "${ deletedCount } посилань на ваш файл було видалено.",
+        "${ deletedCount } посилань на ваш файл було видалено."
+      ],
+      "The link to your file failed to be deleted.": [
+        "Не вдалося видалити посилання на ваш файл."
+      ],
+      "${ failedCount } link to your file failed to be deleted.": [
+        "Не вдалося видалити ${ failedCount } посилання на ваш файл.",
+        "Не вдалося видалити ${ failedCount } посилання на ваш файл.",
+        "Не вдалося видалити ${ failedCount } посилань на ваш файл.",
+        "Не вдалося видалити ${ failedCount } посилань на ваш файл."
+      ]
+    },
+    "MIME type": {
+      "Automatic": [
+        "Автоматично"
+      ],
+      "Plain text": [
+        "Звичайний текст"
+      ]
+    },
+    "Default encryption scheme": {
+      "Use global default (${ defaultValueText })": [
+        "Глобальне типове значення (${ defaultValueText })"
+      ]
+    },
+    "Key badge": {
+      "Primary": [
+        "Основний"
+      ],
+      "Verification only": [
+        "Лише перевірка"
+      ],
+      "WKD": [
+        "WKD"
+      ],
+      "Trusted": [
+        "Надійний"
+      ],
+      "Revoked": [
+        "Відкликаний"
+      ],
+      "Expired": [
+        "Протермінований"
+      ]
+    },
+    "TableHeader": {
+      "Name": [
+        "Назва"
+      ],
+      "Address": [
+        "Адреса"
+      ],
+      "Actions": [
+        "Дії"
+      ],
+      "Import": [
+        "Імпорт"
+      ],
+      "CSV field": [
+        "Поле CSV"
+      ],
+      "vCard field": [
+        "Поле vCard"
+      ],
+      "Values": [
+        "Значення"
+      ],
+      "Location": [
+        "Розташування"
+      ],
+      "Type": [
+        "Тип"
+      ],
+      "Modified": [
+        "Змінено"
+      ],
+      "Deleted": [
+        "Видалено"
+      ],
+      "Size": [
+        "Розмір"
+      ],
+      "Created": [
+        "Створено"
+      ],
+      "# of accesses": [
+        "# доступів"
+      ],
+      "Expires": [
+        "Завершується"
+      ]
+    },
+    "Actions message": {
+      "You don't have any groups.": [
+        "У вас немає жодної групи."
+      ],
+      "No results found.": [
+        "Результатів не знайдено."
+      ],
+      "Please try another search term.": [
+        "Спробуйте інший термін пошуку."
+      ],
+      "You don't have any contacts.": [
+        "У вас немає контактів."
+      ],
+      "${ addContact } or ${ importContact }.": [
+        "${ addContact } або ${ importContact }."
+      ]
+    },
+    "Info, no need for singular": {
+      "Multiple contacts look identical. ${ mergeAction }": [
+        "Деякі контакти виглядають однаково. ${ mergeAction }"
+      ]
+    },
+    "Error notification": {
+      "First name and last name cannot be unchecked at the same time": [
+        "Не можна прибрати позначку одночасно з імені та прізвища"
+      ]
+    },
+    "Description of the purpose of the import CSV modal": {
+      "We have detected the following fields in the CSV file you uploaded. Check the ones you want to import.": [
+        "Ми виявили такі поля в завантаженому вами файлі CSV. Перевірте, які ви хочете імпортувати."
+      ],
+      "Also, we have automatically matched CSV fields with vCard fields. You can review and change this matching manually.": [
+        "Ми також автоматично виявили збіги полів CSV з полями vCard. Ви можете переглянути й змінити ці збіги вручну."
+      ]
+    },
+    "Option": {
+      "Add to existing group": [
+        "Додати до наявної групи"
+      ],
+      "Create new group": [
+        "Створити нову групу"
+      ],
+      "Ignore group": [
+        "Нехтувати групою"
+      ]
+    },
+    "Import contact groups info": {
+      "${ totalContacts } contact": [
+        "${ totalContacts } контакт",
+        "${ totalContacts } контакти",
+        "${ totalContacts } контактів",
+        "${ totalContacts } контактів"
+      ]
+    },
+    "Alert": {
+      "By leaving now, some contacts may not be imported": [
+        "Якщо ви зараз вийдете, деякі контакти можуть не імпортуватися"
+      ]
+    },
+    "Import calendar": {
+      "Encrypting and adding contacts: ${ totalImported }/${ totalToImport }": [
+        "Шифрування та додавання контактів: ${ totalImported }/${ totalToImport }"
+      ]
+    },
+    "Import contact error": {
+      "Contact ${ contactId }: ": [
+        "Контакт ${ contactId }: "
+      ]
+    },
+    "Info on errors": {
+      "Click for details": [
+        "Натисніть для подробиць"
+      ]
+    },
+    "Import contacts warning": {
+      "for now": [
+        "зараз"
+      ],
+      "ProtonContacts does not support ${ forNow }:": [
+        "ProtonContacts не підтримує ${ forNow }:"
+      ]
+    },
+    "Import warning": {
+      "No contact can be imported. Click for details": [
+        "Неможливо імпортувати контакти. Натисніть для подробиць"
+      ],
+      "${ totalContactsDiscarded } out of ${ totalContacts } contacts will not be imported. Click for details": [
+        "${ totalContactsDiscarded } із ${ totalContacts } контактів не будуть імпортовані. Натисніть для подробиць"
+      ]
+    },
+    "Import calendar warning": {
+      "vCard versions < 3.0": [
+        "vCard версії < 3.0"
+      ]
+    },
+    "Import contacts": {
+      "Contact successfully imported. The imported contact will now appear in your contact list.": [
+        "Контакт успішно імпортовано. Тепер він з'явиться у вашому списку контактів.",
+        "Контакти успішно імпортовано. Тепер вони з'являться у вашому списку контактів.",
+        "Контакти успішно імпортовано. Тепер вони з'являться у вашому списку контактів.",
+        "Контакти успішно імпортовано. Тепер вони з'являться у вашому списку контактів."
+      ],
+      "An error occurred while encrypting and adding your contacts. ${ totalImported } out of ${ totalToImport } contacts successfully imported.": [
+        "При шифруванні та додаванні ваших контактів сталася помилка. ${ totalImported } із ${ totalToImport } контактів успішно імпортовано."
+      ]
+    },
+    "Import contact": {
+      "An error occurred while encrypting and adding your contact. No contact could be imported.": [
+        "При шифруванні та додаванні вашого контакту сталася помилка. Неможливо імпортувати контакт.",
+        "При шифруванні та додаванні ваших контактів сталася помилка. Неможливо імпортувати контакти.",
+        "При шифруванні та додаванні ваших контактів сталася помилка. Неможливо імпортувати контакти.",
+        "При шифруванні та додаванні ваших контактів сталася помилка. Неможливо імпортувати контакти."
+      ],
+      "${ totalImported }/${ totalToImport } contact encrypted and added to your contact list": [
+        "${ totalImported }/${ totalToImport } контакт зашифровано та додано до вашого списку контактів",
+        "${ totalImported }/${ totalToImport } контакти зашифровано та додано до вашого списку контактів",
+        "${ totalImported }/${ totalToImport } контактів зашифровано та додано до вашого списку контактів",
+        "${ totalImported }/${ totalToImport } контактів зашифровано та додано до вашого списку контактів"
+      ]
+    },
+    "Label to change density": {
+      "Comfortable": [
+        "Комфортний"
+      ],
+      "Compact": [
+        "Компактний"
+      ]
+    },
+    "Label to change view layout": {
+      "Column": [
+        "Стовпчик"
+      ],
+      "Row": [
+        "Рядок"
+      ]
+    },
+    "Label to change composer mode": {
+      "Normal": [
+        "Звичайний"
+      ],
+      "Maximized": [
+        "Розгорнутий"
+      ]
+    },
     "Select files": {
       "Upload": [
         "Вивантажити"
@@ -4262,47 +4363,6 @@
     "Refresh on apply warning": {
       "Note: the service will reload after you click the Apply button.": [
         "Примітка: Після натискання кнопки Застосувати сервіс перезавантажиться."
-      ]
-    },
-    "Time unit": {
-      "${ hours } hour": [
-        "${ hours } година",
-        "${ hours } години",
-        "${ hours } годин",
-        "${ hours } годин"
-      ],
-      "${ minutes } minute": [
-        "${ minutes } хвилина",
-        "${ minutes } хвилини",
-        "${ minutes } хвилин",
-        "${ minutes } хвилин"
-      ]
-    },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        "Ключ не можна застосовувати для шифрування"
-      ]
-    },
-    "Storage": {
-      "Your current storage:": [
-        "Ваше поточне сховище:"
-      ],
-      "Upgrade storage": [
-        "Збільшити сховище"
-      ],
-      "Release notes": [
-        "Примітки до випуску"
-      ]
-    },
-    "Hint": {
-      "Use Up and Down keys to access and browse suggestions after input. Press Enter to confirm your choice, or Escape to close the suggestions box.": [
-        "Використовуйте клавіші Вгору і Вниз для доступу до пропозицій перегляду після введення. Натисніть Enter для підтвердження свого вибору, або Escape для закриття пропозицій."
-      ],
-      "Found ${ items.length } suggestion, use keyboard to navigate.": [
-        "Знайдено ${ items.length } пропозицію. Використовуйте клавіатуру для вибору.",
-        "Знайдено ${ items.length } пропозиції. Використовуйте клавіатуру для вибору.",
-        "Знайдено ${ items.length } пропозицій. Використовуйте клавіатуру для вибору.",
-        "Знайдено ${ items.length } пропозицій. Використовуйте клавіатуру для вибору."
       ]
     },
     "Validation Error": {
