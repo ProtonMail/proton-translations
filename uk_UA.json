@@ -5,36 +5,18 @@
   },
   "contexts": {
     "": {},
-    "file size format": {
-      "bytes": [
-        "байтів"
+    "Message": {
+      "Re:": [
+        "Re:"
       ],
-      "KB": [
-        "КБ"
+      "Fw:": [
+        "Fw:"
       ],
-      "MB": [
-        "МБ"
-      ],
-      "GB": [
-        "ГБ"
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "${ date }, ${ name } ${ address } пише:"
       ]
     },
     "Error": {
-      "This field is required": [
-        "Це поле є обов'язковим"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "В цьому полі повинно бути не менше ${ minimumLength } символів."
-      ],
-      "Email is not valid": [
-        "Е-пошта недійсна"
-      ],
-      "Not a valid number": [
-        "Номер недійсний"
-      ],
-      "Passwords do not match": [
-        "Паролі відрізняються"
-      ],
       "Email address disabled": [
         "Адреса е-пошти вимкнена"
       ],
@@ -58,6 +40,21 @@
       ],
       "The sending key is not valid": [
         "Ключ надсилання недійсний"
+      ],
+      "This field is required": [
+        "Це поле є обов'язковим"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "В цьому полі повинно бути не менше ${ minimumLength } символів."
+      ],
+      "Email is not valid": [
+        "Е-пошта недійсна"
+      ],
+      "Not a valid number": [
+        "Номер недійсний"
+      ],
+      "Passwords do not match": [
+        "Паролі відрізняються"
       ],
       "Request timed out.": [
         "Час очікування запиту завершився."
@@ -117,7 +114,7 @@
         "Будь ласка, оновіть сторінку."
       ],
       "Incorrect mailbox password. Please try again": [
-        "Неправильний пароль поштової скриньки. Будь ласка, спробуйте знову"
+        "Неправильний пароль поштової скриньки. Спробуйте знову"
       ],
       "Incorrect login credentials. Please try again": [
         "Неправильні дані для входу. Будь ласка, спробуйте ще раз"
@@ -133,9 +130,6 @@
       ],
       "Invalid verification code": [
         "Недійсний код підтвердження"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Щось пішло не так. Будь ласка, ${ refresh } для продовження. Якщо це повідомлення не зникає, зв'яжіться з нашою ${ supportTeam }."
       ],
       "Some groups could not be deleted": [
         "Не вдається видалити деякі групи"
@@ -182,14 +176,17 @@
       "A group with this name already exists": [
         "Група з таким ім'ям вже існує"
       ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Щось пішло не так. Будь ласка, ${ refresh } для продовження. Якщо це повідомлення не зникає, зв'яжіться з нашою ${ supportTeam }."
+      ],
+      "File has no contents to preview": [
+        "Файл не має вмісту для перегляду"
+      ],
       "We were unable to connect to your service provider.": [
         "Не вдається з'єднатися з вашим постачальником послуг."
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "Спробуйте пройти перевірку ще раз і переконайтеся, що дозволи встановлено належним чином."
-      ],
-      "File has no contents to preview": [
-        "Файл не має вмісту для перегляду"
       ],
       "Process aborted": [
         "Процес перервано"
@@ -231,10 +228,10 @@
         "Помилка підключення до Bitcoin API."
       ],
       "Amount below minimum.": [
-        "Сума менше за мінімум."
+        "Сума менше допустимого обмеження."
       ],
       "Amount above the maximum.": [
-        "Сума більше за максимум."
+        "Сума перевищує обмеження."
       ],
       "The minimum amount that can be donated is ${ price }": [
         "Найменша сума, яку можна внести, становить ${ price }"
@@ -258,10 +255,10 @@
         "Неповна умова"
       ],
       "Filter with this name already exists": [
-        "Фільтр з цим ім'ям вже існує"
+        "Фільтр з цією назвою вже існує"
       ],
       "Error in one of the conditions": [
-        "Помилка в одній із умов"
+        "Помилка в одній з умов"
       ],
       "Require at least one condition": [
         "Необхідна принаймні одна умова"
@@ -393,6 +390,20 @@
         "Забагато активних фільтрів. Перейдіть на платний тарифний план, щоб активувати більше фільтрів"
       ]
     },
+    "file size format": {
+      "bytes": [
+        "байтів"
+      ],
+      "KB": [
+        "КБ"
+      ],
+      "MB": [
+        "МБ"
+      ],
+      "GB": [
+        "ГБ"
+      ]
+    },
     "Validation": {
       "Password must contain at least ${ length } character": [
         "Пароль повинен містити принаймні ${ length } символ",
@@ -515,17 +526,6 @@
         "Адреса"
       ]
     },
-    "Message": {
-      "Re:": [
-        "Re:"
-      ],
-      "Fw:": [
-        "Fw:"
-      ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "${ date }, ${ name } ${ address } пише:"
-      ]
-    },
     "Info": {
       "Session timed out.": [
         "Сеанс завершився."
@@ -572,9 +572,6 @@
         "(${ memberCount } учасників)",
         "(${ memberCount } учасників)"
       ],
-      "Loading": [
-        "Завантаження"
-      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Це посилання може бути гомографічною атакою і його не можна відкрити в браузерах Internet Explorer чи Edge. Якщо ви впевнені, що це надійне посилання, відкрийте його в іншому браузері."
       ],
@@ -586,6 +583,9 @@
       ],
       "Learn more": [
         "Докладніше"
+      ],
+      "Loading": [
+        "Завантаження"
       ],
       "Insert image": [
         "Вставити зображення"
@@ -706,9 +706,6 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Якщо у вас виникли труднощі під час створення облікового запису, подайте запит на запрошення і ми відповімо протягом одного робочого дня."
-      ],
-      "support team": [
-        "командою підтримки"
       ],
       "No contacts added yet": [
         "Контактів ще не додано"
@@ -839,6 +836,27 @@
         "${ addressCount } адрес е-пошти",
         "${ addressCount } адрес е-пошти"
       ],
+      "support team": [
+        "командою підтримки"
+      ],
+      "Unsupported file": [
+        "Непідтримуваний файл"
+      ],
+      "No preview available": [
+        "Перегляд недоступний"
+      ],
+      "Preview": [
+        "Попередній перегляд"
+      ],
+      "Loading preview": [
+        "Завантаження попереднього перегляду"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "Цей браузер не підтримує перегляд PDF документів. Будь ласка, завантажте файл."
+      ],
+      "of": [
+        "з"
+      ],
       "Import contacts": [
         "Імпортувати контакти"
       ],
@@ -868,24 +886,6 @@
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "Оновлення сторінки чи ${ link } автоматично розв'яже більшість проблем."
-      ],
-      "Unsupported file": [
-        "Непідтримуваний файл"
-      ],
-      "No preview available": [
-        "Перегляд недоступний"
-      ],
-      "Preview": [
-        "Попередній перегляд"
-      ],
-      "Loading preview": [
-        "Завантаження попереднього перегляду"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "Цей браузер не підтримує перегляд PDF документів. Будь ласка, завантажте файл."
-      ],
-      "of": [
-        "з"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "Основні функції навігації та дії залишаються доступними, незалежно від того, активовані комбінації клавіш в налаштуваннях чи ні."
@@ -1557,7 +1557,7 @@
         "вбудованих зображень"
       ],
       "Message will be sent ${ dateString } at ${ formattedTime }": [
-        "Повідомлення буде надіслано ${ dateString }, о ${ formattedTime }"
+        "Повідомлення буде надіслано ${ dateString }, ${ formattedTime }"
       ],
       "Message sent": [
         "Повідомлення надіслано"
@@ -1791,49 +1791,49 @@
         "Ви вибрали **${ count } розмову** з цієї теки",
         "Ви вибрали **${ count } розмови** з цієї теки",
         "Ви вибрали **${ count } розмов** з цієї теки",
-        "Ви вибрали **${ count } розмови** з цієї теки"
+        "Ви вибрали **${ count } розмов** з цієї теки"
       ],
       "You selected **${ count } message** from this folder": [
         "Ви вибрали **${ count } повідомлення** з цієї теки",
         "Ви вибрали **${ count } повідомлення** з цієї теки",
         "Ви вибрали **${ count } повідомлень** з цієї теки",
-        "Ви вибрали **${ count } повідомлення** з цієї теки"
+        "Ви вибрали **${ count } повідомлень** з цієї теки"
       ],
       "You have **${ count } conversation** stored in this folder": [
         "У цій теці розміщена **${ count } розмова**",
         "У цій теці розміщено **${ count } розмови**",
         "У цій теці розміщено **${ count } розмов**",
-        "У цій теці розміщено **${ count } розмови**"
+        "У цій теці розміщено **${ count } розмов**"
       ],
       "You have **${ count } message** stored in this folder": [
-        "У цій теці розміщено **${ count } повідомлення**",
-        "У цій теці розміщено **${ count } повідомлення**",
-        "У цій теці розміщено **${ count } повідомлень**",
-        "У цій теці розміщено **${ count } повідомлення**"
+        "У цій теці міститься **${ count } повідомлення**",
+        "У цій теці міститься **${ count } повідомлення**",
+        "У цій теці міститься **${ count } повідомлень**",
+        "У цій теці міститься **${ count } повідомлень**"
       ],
       "You selected **${ count } conversation** with this label": [
         "Ви вибрали **${ count } розмову** з цією міткою",
         "Ви вибрали **${ count } розмови** з цією міткою",
         "Ви вибрали **${ count } розмов** з цією міткою",
-        "Ви вибрали **${ count } розмови** з цією міткою"
+        "Ви вибрали **${ count } розмов** з цією міткою"
       ],
       "You selected **${ count } message** with this label": [
         "Ви вибрали **${ count } повідомлення** з цією міткою",
         "Ви вибрали **${ count } повідомлення** з цією міткою",
         "Ви вибрали **${ count } повідомлень** з цією міткою",
-        "Ви вибрали **${ count } повідомлення** з цією міткою"
+        "Ви вибрали **${ count } повідомлень** з цією міткою"
       ],
       "You have **${ count } conversation** tagged with this label": [
-        "У вас **${ count } розмова**, позначена цією міткою",
-        "У вас **${ count } розмови**, позначені цією міткою",
-        "У вас **${ count } розмов**, позначених цією міткою",
-        "У вас **${ count } розмови**, позначені цією міткою"
+        "**${ count } розмова** позначена цією міткою",
+        "**${ count } розмови** позначені цією міткою",
+        "**${ count } розмов** позначені цією міткою",
+        "**${ count } розмов** позначені цією міткою"
       ],
       "You have **${ count } message** tagged with this label": [
-        "У вас **${ count } повідомлення**, позначене цією міткою",
-        "У вас **${ count } повідомлення**, позначених цією міткою",
-        "У вас **${ count } повідомлень**, позначених цією міткою",
-        "У вас **${ count } повідомлення**, позначених цією міткою"
+        "**${ count } повідомлення** позначене цією міткою",
+        "**${ count } повідомлення** позначені цією міткою",
+        "**${ count } повідомлень** позначені цією міткою",
+        "**${ count } повідомлень** позначені цією міткою"
       ],
       "Using your mobile device, scan this QR-Code or visit ${ link }.": [
         "Скануйте цей QR-код за допомогою свого мобільного пристрою, або відвідайте ${ link }."
@@ -1966,7 +1966,7 @@
         "Перейти до Спаму"
       ],
       "Go to All Mail": [
-        "Перейти до Всієї пошти"
+        "Перейти до всієї пошти"
       ],
       "Save draft": [
         "Зберегти чернетку"
@@ -2292,10 +2292,10 @@
     },
     "Email body for response to invitation": {
       "${ emailAddress } has accepted your invitation to ${ eventTitle }": [
-        "${ emailAddress } прийняв ваше запрошення на ${ eventTitle }"
+        "${ emailAddress } приймає ваше запрошення на ${ eventTitle }"
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
-        "${ emailAddress } попередньо приймає ваше запрошення на ${ eventTitle }"
+        "${ emailAddress } приймає із сумнівом ваше запрошення на ${ eventTitle }"
       ],
       "${ emailAddress } has declined your invitation to ${ eventTitle }": [
         "${ emailAddress } відхиляє ваше запрошення на ${ eventTitle }"
@@ -3103,30 +3103,6 @@
       "OK": [
         "OK"
       ],
-      "Continue import": [
-        "Продовжити імпорт"
-      ],
-      "Discard": [
-        "Відхилити"
-      ],
-      "Reconnect": [
-        "Повторно з'єднатися"
-      ],
-      "Start import": [
-        "Розпочати імпорт"
-      ],
-      "Clear": [
-        "Очистити"
-      ],
-      "Add screenshot(s)": [
-        "Додати знімок (знімки) екрана"
-      ],
-      "Hide info": [
-        "Приховати інформацію"
-      ],
-      "Show info": [
-        "Показати інформацію"
-      ],
       "Details": [
         "Подробиці"
       ],
@@ -3147,6 +3123,30 @@
       ],
       "Previous": [
         "Попередній"
+      ],
+      "Continue import": [
+        "Продовжити імпорт"
+      ],
+      "Discard": [
+        "Відхилити"
+      ],
+      "Reconnect": [
+        "Повторно з'єднатися"
+      ],
+      "Start import": [
+        "Розпочати імпорт"
+      ],
+      "Clear": [
+        "Очистити"
+      ],
+      "Add screenshot(s)": [
+        "Додати знімки екрана"
+      ],
+      "Hide info": [
+        "Приховати інформацію"
+      ],
+      "Show info": [
+        "Показати інформацію"
       ],
       "Get started": [
         "Розпочнімо"
@@ -3293,13 +3293,13 @@
         "Додати умову"
       ],
       "label emails as": [
-        "позначати листи міткою як"
+        "позначати листи міткою"
       ],
       "move emails to": [
-        "перемістити листи до"
+        "перемістити листи"
       ],
       "mark emails as": [
-        "позначити листи як"
+        "позначити листи"
       ],
       "send auto-reply email": [
         "надіслати лист з автоматичною відповіддю"
@@ -3490,6 +3490,12 @@
       "Accept": [
         "Схвалити"
       ],
+      "Show": [
+        "Показати"
+      ],
+      "Show less": [
+        ""
+      ],
       "Never show": [
         "Ніколи не показувати"
       ],
@@ -3516,9 +3522,6 @@
       ],
       "Hide": [
         "Приховати"
-      ],
-      "Show": [
-        "Показати"
       ],
       "Learn more": [
         "Докладніше"
@@ -3829,10 +3832,10 @@
         "Вибрати тему"
       ],
       "Start import process": [
-        "Розпочати процес імпорту"
+        "Розпочати процес імпортування"
       ],
       "Import in progress": [
-        "Виконується імпорт"
+        "Виконується імпортування"
       ],
       "Report a problem": [
         "Повідомити про проблему"
@@ -3889,7 +3892,7 @@
         "Помилка"
       ],
       "ZIP / postal code": [
-        "ZIP / поштовий індекс"
+        "Поштовий індекс"
       ],
       "Payment details": [
         "Подробиці платежу"
@@ -4216,36 +4219,6 @@
       "Add a gift code": [
         "Додати подарунковий код"
       ],
-      "Inbox": [
-        "Вхідні"
-      ],
-      "Drafts": [
-        "Чернетки"
-      ],
-      "Sent": [
-        "Надіслані"
-      ],
-      "Trash": [
-        "Смітник"
-      ],
-      "Spam": [
-        "Спам"
-      ],
-      "All mail": [
-        "Уся пошта"
-      ],
-      "Archive": [
-        "Архів"
-      ],
-      "Starred": [
-        "Із зірочкою"
-      ],
-      "Outbox": [
-        "Вихідні"
-      ],
-      "Scheduled": [
-        "Заплановані"
-      ],
       "You need to activate your calendar keys to add this event": [
         "Щоб додати цю подію, вам необхідно активувати свої ключі календаря"
       ],
@@ -4287,6 +4260,36 @@
       ],
       "Open in ${ calendarAppName }": [
         "Відкрити в ${ calendarAppName }"
+      ],
+      "Inbox": [
+        "Вхідні"
+      ],
+      "Drafts": [
+        "Чернетки"
+      ],
+      "Sent": [
+        "Надіслані"
+      ],
+      "Trash": [
+        "Смітник"
+      ],
+      "Spam": [
+        "Спам"
+      ],
+      "All mail": [
+        "Уся пошта"
+      ],
+      "Archive": [
+        "Архів"
+      ],
+      "Starred": [
+        "Із зірочкою"
+      ],
+      "Outbox": [
+        "Вихідні"
+      ],
+      "Scheduled": [
+        "Заплановані"
       ],
       "Re-enable the address linked to this calendar to manage your invitation.": [
         "Повторно активуйте адресу, пов'язану з цим календарем, щоб керувати вашим запрошенням."
@@ -4474,7 +4477,7 @@
         "Версія браузера"
       ],
       "Display name": [
-        "Відображуване ім'я"
+        "Показуване ім'я"
       ],
       "Keyboard shortcuts": [
         "Комбінації клавіш"
@@ -4689,32 +4692,11 @@
       "Labels:": [
         "Мітки:"
       ],
-      "Start time": [
-        "Час початку"
-      ],
-      "End time": [
-        "Час завершення"
-      ],
-      "Repeats": [
-        "Повторювання"
-      ],
-      "Calendar": [
-        "Календар"
+      "Keyword": [
+        "Ключове слово"
       ],
       "Location": [
         "Розташування"
-      ],
-      "Organizer": [
-        "Організатор"
-      ],
-      "Participant": [
-        "Учасник"
-      ],
-      "Participants (${ totalParticipants })": [
-        "Учасники (${ totalParticipants })"
-      ],
-      "Keyword": [
-        "Ключове слово"
       ],
       "From": [
         "Від"
@@ -5832,7 +5814,7 @@
     },
     "Label, make it short please": {
       "Attach screenshot(s)": [
-        "Додати знімок (знімки) екрану"
+        "Додати знімки екрану"
       ]
     },
     "Onboarding Proton": {
@@ -5840,7 +5822,7 @@
         "Ось, що побачать люди, коли ви надішлете їм лист, запросите на подію, чи поділитесь доступом до файлу."
       ],
       "Choose a display name": [
-        "Виберіть відображуване ім'я"
+        "Виберіть ім'я для показу"
       ],
       "Select a theme": [
         "Виберіть тему"
@@ -6763,11 +6745,6 @@
         "Завтра"
       ]
     },
-    "Invitation details (all-day event)": {
-      "${ formattedDate } (all day)": [
-        "${ formattedDate } (увесь день)"
-      ]
-    },
     "Calendar invite info": {
       "This response is out of date. This event has been updated.": [
         "Ця відповідь застаріла. Цю подію було оновлено."
@@ -6898,29 +6875,14 @@
       "This invitation is out of date. The event has been updated.": [
         "Це запрошення застаріло. Подію було оновлено."
       ],
-      "Your attendance at this event is required.": [
-        "Ваша участь у цій події обов'язкова."
+      "You already accepted this invitation.": [
+        ""
       ],
-      "Your attendance at this event is optional.": [
-        "Ваша участь у цій події необов'язкова."
+      "You already tentatively accepted this invitation.": [
+        ""
       ],
-      "Your attendance at this event is required. You already accepted this invitation.": [
-        "Ваша участь у цій події обов'язкова. Ви вже прийняли це запрошення."
-      ],
-      "Your attendance at this event is optional. You already accepted this invitation.": [
-        "Ваша участь у цій події необов'язкова. Ви вже прийняли це запрошення."
-      ],
-      "Your attendance at this event is required. You already tentatively accepted this invitation.": [
-        "Ваша участь у цій події обов'язкова. Ви вже прийняли із сумнівом це запрошення."
-      ],
-      "Your attendance at this event is optional. You already tentatively accepted this invitation.": [
-        "Ваша участь у цій події необов'язкова. Ви вже прийняли із сумнівом це запрошення."
-      ],
-      "Your attendance at this event is required. You already declined this invitation.": [
-        "Ваша участь у цій події обов'язкова. Ви вже відхилили це запрошення."
-      ],
-      "Your attendance at this event is optional. You already declined this invitation.": [
-        "Ваша участь у цій події необов'язкова. Ви вже відхилили це запрошення."
+      "You already declined this invitation.": [
+        ""
       ],
       "This event has been cancelled.": [
         "Цю подію було скасовано."
@@ -6930,6 +6892,9 @@
       ],
       "An occurrence has been added to the event ${ veventIcsTitle }": [
         "Додано повторення для події ${ veventIcsTitle }"
+      ],
+      "(Attendance optional)": [
+        ""
       ],
       "The sender of this email has not been invited to this event and cannot be added as a participant.": [
         "Відправника цього листа не запрошено на цю подію, тому його неможливо додати учасником."
@@ -7114,12 +7079,40 @@
         "Не вдалося відповісти на запрошення"
       ]
     },
+    "Calendar invite buttons label": {
+      "Attending?": [
+        ""
+      ]
+    },
     "Import ICS file from Mail": {
       "Calendar event created": [
         "Подію календаря створено"
       ],
       "Creating calendar event failed": [
         "Не вдалося створити подію календаря"
+      ]
+    },
+    "ICS widget label for event details": {
+      "Organizer:": [
+        ""
+      ],
+      "${ totalAttendees } Participant": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "Repeats": [
+        ""
+      ],
+      "Calendar": [
+        ""
+      ],
+      "Location": [
+        ""
+      ],
+      "Participants": [
+        ""
       ]
     },
     "Attachment signature verification": {

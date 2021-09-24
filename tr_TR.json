@@ -5,36 +5,18 @@
   },
   "contexts": {
     "": {},
-    "file size format": {
-      "bytes": [
-        "bayt"
+    "Message": {
+      "Re:": [
+        "Cevap:"
       ],
-      "KB": [
-        "KB"
+      "Fw:": [
+        "Fw:"
       ],
-      "MB": [
-        "MB"
-      ],
-      "GB": [
-        "GB"
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "${ name } ${ address } ${ date } tarihinde yazdı:"
       ]
     },
     "Error": {
-      "This field is required": [
-        "Bu alan gereklidir"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Bu alan en az ${ minimumLength } karakter gerektirir."
-      ],
-      "Email is not valid": [
-        "E-posta geçerli değil"
-      ],
-      "Not a valid number": [
-        "Geçerli bir numara değil"
-      ],
-      "Passwords do not match": [
-        "Parolalar eşleşmiyor"
-      ],
       "Email address disabled": [
         "E-posta adresi devre dışı"
       ],
@@ -58,6 +40,21 @@
       ],
       "The sending key is not valid": [
         "Gönderilen anahtar geçersiz"
+      ],
+      "This field is required": [
+        "Bu alan gereklidir"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Bu alan en az ${ minimumLength } karakter gerektirir."
+      ],
+      "Email is not valid": [
+        "E-posta geçerli değil"
+      ],
+      "Not a valid number": [
+        "Geçerli bir numara değil"
+      ],
+      "Passwords do not match": [
+        "Parolalar eşleşmiyor"
       ],
       "Request timed out.": [
         "İstek zaman aşımına uğradı."
@@ -134,9 +131,6 @@
       "Invalid verification code": [
         "Geçersiz doğrulama kodu"
       ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Bir şeyler ters gitti, devam etmek için ${ refresh }. Hala bu hata iletisini görüyorsanız lütfen ${ supportTeam } ile iletişime geçin."
-      ],
       "Some groups could not be deleted": [
         "Bazı gruplar silinemedi"
       ],
@@ -178,14 +172,17 @@
       "A group with this name already exists": [
         "Bu ada sahip bir grup zaten var"
       ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Bir şeyler ters gitti, devam etmek için ${ refresh }. Hala bu hata iletisini görüyorsanız lütfen ${ supportTeam } ile iletişime geçin."
+      ],
+      "File has no contents to preview": [
+        "Dosyanın önizlenecek içeriği yok"
+      ],
       "We were unable to connect to your service provider.": [
         "Hizmet sağlayıcınıza bağlanamadık."
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "Lütfen yeniden kimlik doğrulaması yapmayı deneyin ve izinlerin doğru ayarlandığından emin olun."
-      ],
-      "File has no contents to preview": [
-        "Dosyanın önizlenecek içeriği yok"
       ],
       "Process aborted": [
         "İşlem iptal edildi"
@@ -381,6 +378,20 @@
         "Çok fazla aktif filtre mevcut. Daha fazla aktif filtre kullanabilmek için ücretli plana geçin"
       ]
     },
+    "file size format": {
+      "bytes": [
+        "bayt"
+      ],
+      "KB": [
+        "KB"
+      ],
+      "MB": [
+        "MB"
+      ],
+      "GB": [
+        "GB"
+      ]
+    },
     "Validation": {
       "Password must contain at least ${ length } character": [
         "Şifre en az ${ length } karakter içermelidir",
@@ -501,17 +512,6 @@
         "Adres"
       ]
     },
-    "Message": {
-      "Re:": [
-        "Cevap:"
-      ],
-      "Fw:": [
-        "Fw:"
-      ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "${ name } ${ address } ${ date } tarihinde yazdı:"
-      ]
-    },
     "Info": {
       "Session timed out.": [
         "Oturum zaman aşımına uğradı."
@@ -556,9 +556,6 @@
         "(${ memberCount } üye)",
         "(${ memberCount } üye)"
       ],
-      "Loading": [
-        "Yükleniyor"
-      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Bu bağlantı bir homograf saldırısı olabilir ve Internet Explorer veya Edge tarayıcısı tarafından açılamaz."
       ],
@@ -570,6 +567,9 @@
       ],
       "Learn more": [
         "Daha fazla bilgi edinin"
+      ],
+      "Loading": [
+        "Yükleniyor"
       ],
       "Insert image": [
         "Resim ekle"
@@ -691,9 +691,6 @@
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Hesabınızı oluşturmada sorun yaşıyorsanız, lütfen bir davetiye isteyin, bir iş günü içinde yanıt vereceğiz."
       ],
-      "support team": [
-        "destek ekibi"
-      ],
       "No contacts added yet": [
         "Henüz kişi eklenmedi"
       ],
@@ -813,6 +810,27 @@
         "${ addressCount } e-posta adresi",
         "${ addressCount } e-posta adresi"
       ],
+      "support team": [
+        "destek ekibi"
+      ],
+      "Unsupported file": [
+        "Desteklenmeyen dosya"
+      ],
+      "No preview available": [
+        "Önizleme mevcut değil"
+      ],
+      "Preview": [
+        "Önizle"
+      ],
+      "Loading preview": [
+        "Önizleme yükleniyor"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "Bu tarayıcı, PDF belgelerinin önizlemesini desteklemiyor. Lütfen dosyayı indirin."
+      ],
+      "of": [
+        "/"
+      ],
       "Import contacts": [
         "Kişileri içe aktar"
       ],
@@ -842,24 +860,6 @@
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "Sayfayı yenilemek ya da ${ link } çoğu sorunu kendiliğinden çözecektir."
-      ],
-      "Unsupported file": [
-        "Desteklenmeyen dosya"
-      ],
-      "No preview available": [
-        "Önizleme mevcut değil"
-      ],
-      "Preview": [
-        "Önizle"
-      ],
-      "Loading preview": [
-        "Önizleme yükleniyor"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "Bu tarayıcı, PDF belgelerinin önizlemesini desteklemiyor. Lütfen dosyayı indirin."
-      ],
-      "of": [
-        "/"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "Temel gezinme ve eylemler, ayarlardaki klavye kısayollarının etkin olup olmamasından bağımsız olarak kullanılabilir kalır."
@@ -2929,6 +2929,27 @@
       "OK": [
         "Tamam"
       ],
+      "Details": [
+        "Ayrıntılar"
+      ],
+      "Share via link": [
+        "Bağlantı yoluyla paylaş"
+      ],
+      "Sharing options": [
+        "Paylaşım seçenekleri"
+      ],
+      "Zoom out": [
+        "Uzaklaştır"
+      ],
+      "Reset zoom": [
+        "Yakınlaştırmayı sıfırla"
+      ],
+      "Zoom in": [
+        "Yakınlaştır"
+      ],
+      "Previous": [
+        "Önceki"
+      ],
       "Continue import": [
         "İçe aktarmaya devam et"
       ],
@@ -2952,27 +2973,6 @@
       ],
       "Show info": [
         "Bilgiyi göster"
-      ],
-      "Details": [
-        "Ayrıntılar"
-      ],
-      "Share via link": [
-        "Bağlantı yoluyla paylaş"
-      ],
-      "Sharing options": [
-        "Paylaşım seçenekleri"
-      ],
-      "Zoom out": [
-        "Uzaklaştır"
-      ],
-      "Reset zoom": [
-        "Yakınlaştırmayı sıfırla"
-      ],
-      "Zoom in": [
-        "Yakınlaştır"
-      ],
-      "Previous": [
-        "Önceki"
       ],
       "Get started": [
         "Başlayalım"
@@ -3314,6 +3314,12 @@
       "Accept": [
         "Kabul et"
       ],
+      "Show": [
+        "Göster"
+      ],
+      "Show less": [
+        ""
+      ],
       "Never show": [
         "Asla gösterme"
       ],
@@ -3340,9 +3346,6 @@
       ],
       "Hide": [
         "Gizle"
-      ],
-      "Show": [
-        "Göster"
       ],
       "Learn more": [
         "Daha fazla öğrenin"
@@ -4024,36 +4027,6 @@
       "Add a gift code": [
         "Hediye kodu ekle"
       ],
-      "Inbox": [
-        "Gelen Kutusu"
-      ],
-      "Drafts": [
-        "Taslaklar"
-      ],
-      "Sent": [
-        "Gönderilen"
-      ],
-      "Trash": [
-        "Çöp Kutusu"
-      ],
-      "Spam": [
-        "İstenmeyen Posta"
-      ],
-      "All mail": [
-        "Tüm postalar"
-      ],
-      "Archive": [
-        "Arşiv"
-      ],
-      "Starred": [
-        "Yıldızlı"
-      ],
-      "Outbox": [
-        "Giden Kutusu"
-      ],
-      "Scheduled": [
-        "Planlama"
-      ],
       "You need to activate your calendar keys to add this event": [
         "Bu etkinliği eklemek için takvim anahtarlarınızı etkinleştirmeniz gerekir"
       ],
@@ -4095,6 +4068,36 @@
       ],
       "Open in ${ calendarAppName }": [
         "${ calendarAppName } uygulamasında aç"
+      ],
+      "Inbox": [
+        "Gelen Kutusu"
+      ],
+      "Drafts": [
+        "Taslaklar"
+      ],
+      "Sent": [
+        "Gönderilen"
+      ],
+      "Trash": [
+        "Çöp Kutusu"
+      ],
+      "Spam": [
+        "İstenmeyen Posta"
+      ],
+      "All mail": [
+        "Tüm postalar"
+      ],
+      "Archive": [
+        "Arşiv"
+      ],
+      "Starred": [
+        "Yıldızlı"
+      ],
+      "Outbox": [
+        "Giden Kutusu"
+      ],
+      "Scheduled": [
+        "Planlama"
       ],
       "Re-enable the address linked to this calendar to manage your invitation.": [
         "Davetinizi yönetmek için bu takvime bağlı adresi yeniden etkinleştirin."
@@ -4497,32 +4500,11 @@
       "Labels:": [
         "Etiketler:"
       ],
-      "Start time": [
-        "Başlama zamanı"
-      ],
-      "End time": [
-        "Bitiş zamanı"
-      ],
-      "Repeats": [
-        "Tekrarlar"
-      ],
-      "Calendar": [
-        "Takvim"
+      "Keyword": [
+        "Anahtar kelime"
       ],
       "Location": [
         "Konum"
-      ],
-      "Organizer": [
-        "Organizatör"
-      ],
-      "Participant": [
-        "Katılımcı"
-      ],
-      "Participants (${ totalParticipants })": [
-        "Katılımcılar (${ totalParticipants })"
-      ],
-      "Keyword": [
-        "Anahtar kelime"
       ],
       "From": [
         "Gönderen"
@@ -6473,11 +6455,6 @@
         "Yarın"
       ]
     },
-    "Invitation details (all-day event)": {
-      "${ formattedDate } (all day)": [
-        "${ formattedDate } (tüm gün)"
-      ]
-    },
     "Calendar invite info": {
       "This response is out of date. This event has been updated.": [
         "Bu yanıt güncel değil. Etkinlik güncellendi."
@@ -6608,29 +6585,14 @@
       "This invitation is out of date. The event has been updated.": [
         "Bu davetin süresi doldu. Etkinlik güncellendi."
       ],
-      "Your attendance at this event is required.": [
-        "Bu etkinliğe katılımınız zorunludur."
+      "You already accepted this invitation.": [
+        ""
       ],
-      "Your attendance at this event is optional.": [
-        "Bu etkinliğe katılımınız isteğe bağlıdır."
+      "You already tentatively accepted this invitation.": [
+        ""
       ],
-      "Your attendance at this event is required. You already accepted this invitation.": [
-        "Bu etkinliğe katılımınız zorunludur. Bu daveti zaten kabul ettiniz."
-      ],
-      "Your attendance at this event is optional. You already accepted this invitation.": [
-        "Bu etkinliğe katılımınız isteğe bağlıdır. Bu daveti zaten kabul ettiniz."
-      ],
-      "Your attendance at this event is required. You already tentatively accepted this invitation.": [
-        "Bu etkinliğe katılımınız zorunludur. Bu daveti geçici olarak zaten kabul ettiniz."
-      ],
-      "Your attendance at this event is optional. You already tentatively accepted this invitation.": [
-        "Bu etkinliğe katılımınız isteğe bağlıdır. Bu daveti geçici olarak zaten kabul ettiniz."
-      ],
-      "Your attendance at this event is required. You already declined this invitation.": [
-        "Bu etkinliğe katılımınız zorunludur. Bu daveti zaten reddettiniz."
-      ],
-      "Your attendance at this event is optional. You already declined this invitation.": [
-        "Bu etkinliğe katılımınız isteğe bağlıdır. Bu daveti zaten reddettiniz."
+      "You already declined this invitation.": [
+        ""
       ],
       "This event has been cancelled.": [
         "Bu etkinlik iptal edildi."
@@ -6640,6 +6602,9 @@
       ],
       "An occurrence has been added to the event ${ veventIcsTitle }": [
         "${ veventIcsTitle } etkinliğine bir olay eklendi"
+      ],
+      "(Attendance optional)": [
+        ""
       ],
       "The sender of this email has not been invited to this event and cannot be added as a participant.": [
         "Bu e-postayı gönderen kişi bu etkinliğe davet edilmediğinden katılımcı olarak eklenemez."
@@ -6812,12 +6777,38 @@
         "Davet yanıtlanamadı"
       ]
     },
+    "Calendar invite buttons label": {
+      "Attending?": [
+        ""
+      ]
+    },
     "Import ICS file from Mail": {
       "Calendar event created": [
         "Takvim etkinliği oluşturuldu"
       ],
       "Creating calendar event failed": [
         "Takvim etkinliği oluşturulamadı"
+      ]
+    },
+    "ICS widget label for event details": {
+      "Organizer:": [
+        ""
+      ],
+      "${ totalAttendees } Participant": [
+        "",
+        ""
+      ],
+      "Repeats": [
+        ""
+      ],
+      "Calendar": [
+        ""
+      ],
+      "Location": [
+        ""
+      ],
+      "Participants": [
+        ""
       ]
     },
     "Attachment signature verification": {

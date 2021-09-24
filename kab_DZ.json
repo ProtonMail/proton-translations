@@ -5,36 +5,18 @@
   },
   "contexts": {
     "": {},
-    "file size format": {
-      "bytes": [
-        "ibiten"
+    "Message": {
+      "Re:": [
+        "Err:"
       ],
-      "KB": [
-        "KAṬ"
+      "Fw:": [
+        "Welleh:"
       ],
-      "MB": [
-        "KAṬ"
-      ],
-      "GB": [
-        "GAṬ"
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "Deg ${ date }, ${ name } ${ address } t/yura :"
       ]
     },
     "Error": {
-      "This field is required": [
-        "Urti-agi ilaq"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Urti-a isra ma drus { minimumLength } n yizamulen."
-      ],
-      "Email is not valid": [
-        "Imayl mačči d ameɣtu"
-      ],
-      "Not a valid number": [
-        "Mačči d uṭṭun ameɣtu"
-      ],
-      "Passwords do not match": [
-        "Awalen uffiren ur menṭaḍen ara"
-      ],
       "Email address disabled": [
         "Tansa imayl tensa"
       ],
@@ -58,6 +40,21 @@
       ],
       "The sending key is not valid": [
         "Tasarut n tuzna ur d tameɣtut"
+      ],
+      "This field is required": [
+        "Urti-agi ilaq"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Urti-a isra ma drus { minimumLength } n yizamulen."
+      ],
+      "Email is not valid": [
+        "Imayl mačči d ameɣtu"
+      ],
+      "Not a valid number": [
+        "Mačči d uṭṭun ameɣtu"
+      ],
+      "Passwords do not match": [
+        "Awalen uffiren ur menṭaḍen ara"
       ],
       "Request timed out.": [
         "Akud n usuter yemmut."
@@ -134,9 +131,6 @@
       "Invalid verification code": [
         "Tangalt n usentem mačči d tameɣtut"
       ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Yella wayen ur neddi ara akken iwata, ma ulac aɣilif ${ refresh } asebter akken ad tkemmleḍ. Ma tezgiḍ tettwaliḍ izen-a n tuccḍa ma ulac aɣilif nermes ${ supportTeam } nneɣ."
-      ],
       "Some groups could not be deleted": [
         "Kra n yigrawen ur zmiren ara ad ttwakksen"
       ],
@@ -178,14 +172,17 @@
       "A group with this name already exists": [
         "Yella yakan ugraw s yisem-agi"
       ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Yella wayen ur neddi ara akken iwata, ma ulac aɣilif ${ refresh } asebter akken ad tkemmleḍ. Ma tezgiḍ tettwaliḍ izen-a n tuccḍa ma ulac aɣilif nermes ${ supportTeam } nneɣ."
+      ],
+      "File has no contents to preview": [
+        "Afaylu ur isεi ara agbur i teskant"
+      ],
       "We were unable to connect to your service provider.": [
         "Ur nessaweḍ ara ad neqqen ɣer usaǧǧaw-inek·inem n umeẓlu."
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "Ttxil-k·m εreḍ ad talseḍ asesteb yerna tḥeqqeq belli tisirag ttusbadunt akken iwata."
-      ],
-      "File has no contents to preview": [
-        "Afaylu ur isεi ara agbur i teskant"
       ],
       "Process aborted": [
         "Yettwanef ukala"
@@ -381,6 +378,20 @@
         "Aṭas n yimsizedgen urmiden. Ma ulac aɣilif, leqqem ɣer uɣawas s lexlaṣ i wakken ad tremdeḍ ugar n yimsizedgen"
       ]
     },
+    "file size format": {
+      "bytes": [
+        "ibiten"
+      ],
+      "KB": [
+        "KAṬ"
+      ],
+      "MB": [
+        "KAṬ"
+      ],
+      "GB": [
+        "GAṬ"
+      ]
+    },
     "Validation": {
       "Password must contain at least ${ length } character": [
         "Awal uffir ilaq ad isɛu ma drus ${ length } n usekkil",
@@ -501,17 +512,6 @@
         "Tansa"
       ]
     },
-    "Message": {
-      "Re:": [
-        "Err:"
-      ],
-      "Fw:": [
-        "Welleh:"
-      ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "Deg ${ date }, ${ name } ${ address } t/yura :"
-      ]
-    },
     "Info": {
       "Session timed out.": [
         "Yemmed wakud n tɣimit."
@@ -556,9 +556,6 @@
         "(${ memberCount } n uɛeggal)",
         "(${ memberCount } n yiɛeggalen)"
       ],
-      "Loading": [
-        "Azdam"
-      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Aseɣwen-a yezmer ad yili d aẓdam homograph, ulamek yeldi s yimingen Internet Explorer d Edge. Ma yella tetḥeqqeḍ belli aseɣwen-a iṣeḥḥa, ttxil-k·m seqdec iminig-nniḍen i twaledyawt-is."
       ],
@@ -570,6 +567,9 @@
       ],
       "Learn more": [
         "Issin ugar"
+      ],
+      "Loading": [
+        "Azdam"
       ],
       "Insert image": [
         "Ger tugna"
@@ -691,9 +691,6 @@
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Ma tufiḍ ugur deg usnulfu n umiḍan-inek/m, ttxil-k/m suter tinnubga ad d-nerr deg yiwen n wass uxeddim."
       ],
-      "support team": [
-        "tarbaɛt n tallalt"
-      ],
       "No contacts added yet": [
         "Ur ɛad ttwarnan inermisen"
       ],
@@ -813,6 +810,27 @@
         "${ addressCount } n tansa n yimayl",
         "${ addressCount } n tansiwin n yimayl"
       ],
+      "support team": [
+        "tarbaɛt n tallalt"
+      ],
+      "Unsupported file": [
+        "Afaylu ur yettwadhel ara"
+      ],
+      "No preview available": [
+        "Ulac taskant i yellan"
+      ],
+      "Preview": [
+        "Taskant"
+      ],
+      "Loading preview": [
+        "Asali n teskant"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "Iminig-agi ur yedhil ara tamuɣli n yisemliyen PDF. Ttxil-k•m sader afaylu."
+      ],
+      "of": [
+        "si"
+      ],
       "Import contacts": [
         "Kter inermisen"
       ],
@@ -842,24 +860,6 @@
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "Asmiren n usebter n ${ link } ad yefru s wudem awurman aṭas n wuguren."
-      ],
-      "Unsupported file": [
-        "Afaylu ur yettwadhel ara"
-      ],
-      "No preview available": [
-        "Ulac taskant i yellan"
-      ],
-      "Preview": [
-        "Taskant"
-      ],
-      "Loading preview": [
-        "Asali n teskant"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "Iminig-agi ur yedhil ara tamuɣli n yisemliyen PDF. Ttxil-k•m sader afaylu."
-      ],
-      "of": [
-        "si"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "Inig azaduran akked tigawin ad qqimen wejden ama remden neɣ ur rmiden ara yinegzumen n unasiw deg yiɣewwaren."
@@ -2929,6 +2929,27 @@
       "OK": [
         "Ih"
       ],
+      "Details": [
+        "Ifatusen"
+      ],
+      "Share via link": [
+        "Bḍu s useɣwen"
+      ],
+      "Sharing options": [
+        "Tinefrunin n beḍḍu"
+      ],
+      "Zoom out": [
+        "Semẓi"
+      ],
+      "Reset zoom": [
+        "Ales awennez n usemɣer"
+      ],
+      "Zoom in": [
+        "Semɣer"
+      ],
+      "Previous": [
+        "Ar deffir"
+      ],
       "Continue import": [
         "Kemmel taktert"
       ],
@@ -2952,27 +2973,6 @@
       ],
       "Show info": [
         "Sken isallen"
-      ],
-      "Details": [
-        "Ifatusen"
-      ],
-      "Share via link": [
-        "Bḍu s useɣwen"
-      ],
-      "Sharing options": [
-        "Tinefrunin n beḍḍu"
-      ],
-      "Zoom out": [
-        "Semẓi"
-      ],
-      "Reset zoom": [
-        "Ales awennez n usemɣer"
-      ],
-      "Zoom in": [
-        "Semɣer"
-      ],
-      "Previous": [
-        "Ar deffir"
       ],
       "Get started": [
         "Bdu"
@@ -3314,6 +3314,12 @@
       "Accept": [
         "Qbel"
       ],
+      "Show": [
+        "Sken"
+      ],
+      "Show less": [
+        ""
+      ],
       "Never show": [
         "Ur d-skan ara akk"
       ],
@@ -3340,9 +3346,6 @@
       ],
       "Hide": [
         "Ffer"
-      ],
-      "Show": [
-        "Sken"
       ],
       "Learn more": [
         "Issin ugar"
@@ -4024,36 +4027,6 @@
       "Add a gift code": [
         "Rnu tangalt n usefk"
       ],
-      "Inbox": [
-        "Tanaka n urmas"
-      ],
-      "Drafts": [
-        "Irewwayen"
-      ],
-      "Sent": [
-        "Yettwazen"
-      ],
-      "Trash": [
-        "Taqecwalt n yiḍumman"
-      ],
-      "Spam": [
-        "Aspam"
-      ],
-      "All mail": [
-        "Akk Imaylen"
-      ],
-      "Archive": [
-        "Tarcivt"
-      ],
-      "Starred": [
-        "S yitran"
-      ],
-      "Outbox": [
-        "Tanaka n tuzna"
-      ],
-      "Scheduled": [
-        "Yettusɣiwes"
-      ],
       "You need to activate your calendar keys to add this event": [
         "Ilaq ad tremdeḍ tisura n uwitay-inek·inem akken ad ternuḍ tadyant-a"
       ],
@@ -4095,6 +4068,36 @@
       ],
       "Open in ${ calendarAppName }": [
         "Ldi deg ${ calendarAppName }"
+      ],
+      "Inbox": [
+        "Tanaka n urmas"
+      ],
+      "Drafts": [
+        "Irewwayen"
+      ],
+      "Sent": [
+        "Yettwazen"
+      ],
+      "Trash": [
+        "Taqecwalt n yiḍumman"
+      ],
+      "Spam": [
+        "Aspam"
+      ],
+      "All mail": [
+        "Akk Imaylen"
+      ],
+      "Archive": [
+        "Tarcivt"
+      ],
+      "Starred": [
+        "S yitran"
+      ],
+      "Outbox": [
+        "Tanaka n tuzna"
+      ],
+      "Scheduled": [
+        "Yettusɣiwes"
       ],
       "Re-enable the address linked to this calendar to manage your invitation.": [
         "Ales asermed n tansa yurzen ɣer uwitay-a akken ad tesferkeḍ tinubga-inek·inem."
@@ -4497,32 +4500,11 @@
       "Labels:": [
         "Tibzimin:"
       ],
-      "Start time": [
-        "Akud n tazwara"
-      ],
-      "End time": [
-        "Asrag n tagara"
-      ],
-      "Repeats": [
-        "Allusen"
-      ],
-      "Calendar": [
-        "Awitay"
+      "Keyword": [
+        "Awal ufrir"
       ],
       "Location": [
         "Amḍiq"
-      ],
-      "Organizer": [
-        "Sefrek"
-      ],
-      "Participant": [
-        "Imttekki"
-      ],
-      "Participants (${ totalParticipants })": [
-        "Imttekiyen (${ totalParticipants })"
-      ],
-      "Keyword": [
-        "Awal ufrir"
       ],
       "From": [
         "Seg"
@@ -6473,11 +6455,6 @@
         "Azekka"
       ]
     },
-    "Invitation details (all-day event)": {
-      "${ formattedDate } (all day)": [
-        "${ formattedDate } (akk ass)"
-      ]
-    },
     "Calendar invite info": {
       "This response is out of date. This event has been updated.": [
         "Tiririt-a d taqburt. Tadyant-a tettuleqqem."
@@ -6608,29 +6585,14 @@
       "This invitation is out of date. The event has been updated.": [
         "Tinubga-a d taqburt. Tadyant-a tettuleqqem."
       ],
-      "Your attendance at this event is required.": [
-        "Attekki-inek·inem deg tedyant-a ilaq."
+      "You already accepted this invitation.": [
+        ""
       ],
-      "Your attendance at this event is optional.": [
-        "Attekki-inek·inem deg tedyant-a d afrayan."
+      "You already tentatively accepted this invitation.": [
+        ""
       ],
-      "Your attendance at this event is required. You already accepted this invitation.": [
-        "Attekki-inek·inem deg tedyant-a yettusra. Tqebleḍ yakan tinubga-a."
-      ],
-      "Your attendance at this event is optional. You already accepted this invitation.": [
-        "Attekki-inek·inem deg tedyant-a d afrayan. Tqebleḍ yakan tinubga-a."
-      ],
-      "Your attendance at this event is required. You already tentatively accepted this invitation.": [
-        "Attekki-inek·inem deg tedyant-a yettusra. Tqebleḍ yakan tinubga-a i kra n wakud."
-      ],
-      "Your attendance at this event is optional. You already tentatively accepted this invitation.": [
-        "Attekki-inek·inem deg tedyant-a d afrayan. Tqebleḍ yakan tinubga-a i kra n wakud."
-      ],
-      "Your attendance at this event is required. You already declined this invitation.": [
-        "Attekki-inek·inem deg tedyant-a yettusra. Tugiḍ yakan tinubga-a."
-      ],
-      "Your attendance at this event is optional. You already declined this invitation.": [
-        "Attekki-inek·inem deg tedyant-a d afrayan. Tugiḍ yakan tinubga-a."
+      "You already declined this invitation.": [
+        ""
       ],
       "This event has been cancelled.": [
         "Aneḍru-a yettwasefsex."
@@ -6640,6 +6602,9 @@
       ],
       "An occurrence has been added to the event ${ veventIcsTitle }": [
         "Terna-d tmeḍriwt ɣer tedyant ${ veventIcsTitle }"
+      ],
+      "(Attendance optional)": [
+        ""
       ],
       "The sender of this email has not been invited to this event and cannot be added as a participant.": [
         "Amazan n yimayl-a ur yettwanced ara ɣer tedyant-a yerna ulamek ad yettwarnu am umettekki."
@@ -6812,12 +6777,38 @@
         "Tiririt n tnubga tecceḍ"
       ]
     },
+    "Calendar invite buttons label": {
+      "Attending?": [
+        ""
+      ]
+    },
     "Import ICS file from Mail": {
       "Calendar event created": [
         "Aneḍruy n uwitay yettwarna"
       ],
       "Creating calendar event failed": [
         "Timerna n uneḍruy n uwitay tecceḍ"
+      ]
+    },
+    "ICS widget label for event details": {
+      "Organizer:": [
+        ""
+      ],
+      "${ totalAttendees } Participant": [
+        "",
+        ""
+      ],
+      "Repeats": [
+        ""
+      ],
+      "Calendar": [
+        ""
+      ],
+      "Location": [
+        ""
+      ],
+      "Participants": [
+        ""
       ]
     },
     "Attachment signature verification": {

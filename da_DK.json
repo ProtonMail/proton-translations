@@ -5,36 +5,18 @@
   },
   "contexts": {
     "": {},
-    "file size format": {
-      "bytes": [
-        "bytes"
+    "Message": {
+      "Re:": [
+        "Sv:"
       ],
-      "KB": [
-        "KB"
+      "Fw:": [
+        "Vs:"
       ],
-      "MB": [
-        "MB"
-      ],
-      "GB": [
-        "GB"
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "D. ${ date }, ${ name } skrev ${ address }:"
       ]
     },
     "Error": {
-      "This field is required": [
-        "Feltet er påkrævet"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Dette felt kræver minimum ${ minimumLength } tegn."
-      ],
-      "Email is not valid": [
-        "E-mail er ikke gyldig"
-      ],
-      "Not a valid number": [
-        "Ikke et gyldigt nummer"
-      ],
-      "Passwords do not match": [
-        "Adgangskoder matcher ikke"
-      ],
       "Email address disabled": [
         "E-mailadresse deaktiveret"
       ],
@@ -58,6 +40,21 @@
       ],
       "The sending key is not valid": [
         "Afsendelsesnøgle er ikke gyldig"
+      ],
+      "This field is required": [
+        "Feltet er påkrævet"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Dette felt kræver minimum ${ minimumLength } tegn."
+      ],
+      "Email is not valid": [
+        "E-mail er ikke gyldig"
+      ],
+      "Not a valid number": [
+        "Ikke et gyldigt nummer"
+      ],
+      "Passwords do not match": [
+        "Adgangskoder matcher ikke"
       ],
       "Request timed out.": [
         "Forespørgsel fik timeout."
@@ -134,9 +131,6 @@
       "Invalid verification code": [
         "Ugyldig verifikationskode"
       ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Noget gik galt. ${ refresh } venligst siden for at fortsætte. Ser du fortsat denne fejlmeddelelse, bedes du kontakte vores ${ supportTeam }."
-      ],
       "Some groups could not be deleted": [
         "Nogle grupper kunne ikke slettes"
       ],
@@ -178,14 +172,17 @@
       "A group with this name already exists": [
         "En gruppe med dette navn findes allerede"
       ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Noget gik galt. ${ refresh } venligst siden for at fortsætte. Ser du fortsat denne fejlmeddelelse, bedes du kontakte vores ${ supportTeam }."
+      ],
+      "File has no contents to preview": [
+        "Filen har intet indhold at forhåndsvise"
+      ],
       "We were unable to connect to your service provider.": [
         "Vi kunne ikke oprette forbindelse til din tjenesteudbyder."
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "Prøv at verificere igen og sørg for at tilladelserne er angivet korrekt."
-      ],
-      "File has no contents to preview": [
-        "Filen har intet indhold at forhåndsvise"
       ],
       "Process aborted": [
         "Proces afbrudt"
@@ -381,6 +378,20 @@
         "For mange aktive filtre. Opgrader venligst til et betalt abonnement for at aktivere flere filtre"
       ]
     },
+    "file size format": {
+      "bytes": [
+        "bytes"
+      ],
+      "KB": [
+        "KB"
+      ],
+      "MB": [
+        "MB"
+      ],
+      "GB": [
+        "GB"
+      ]
+    },
     "Validation": {
       "Password must contain at least ${ length } character": [
         "Adgangskode skal indeholde mindst ${ length } tegn",
@@ -501,17 +512,6 @@
         "Adresse"
       ]
     },
-    "Message": {
-      "Re:": [
-        "Sv:"
-      ],
-      "Fw:": [
-        "Vs:"
-      ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "D. ${ date }, ${ name } skrev ${ address }:"
-      ]
-    },
     "Info": {
       "Session timed out.": [
         "Din session er udløbet."
@@ -556,9 +556,6 @@
         "(${ memberCount } medlem)",
         "(${ memberCount } medlemmer)"
       ],
-      "Loading": [
-        "Indlæser"
-      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Dette link kan være et homografisk angreb og kan ikke åbnes af Internet Explorer og Edge browsere. Benyt en anden browser til at åbne linket, hvis du er sikker på, at det er legitimt."
       ],
@@ -570,6 +567,9 @@
       ],
       "Learn more": [
         "Få mere at vide"
+      ],
+      "Loading": [
+        "Indlæser"
       ],
       "Insert image": [
         "Indsæt billede"
@@ -691,9 +691,6 @@
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Hvis du har problemer med at oprette din konto, bedes du anmode om en invitation. Så vil vi svare inden for en arbejdsdag."
       ],
-      "support team": [
-        "supportteam"
-      ],
       "No contacts added yet": [
         "Ingen kontakter tilføjet endnu"
       ],
@@ -813,6 +810,27 @@
         "${ addressCount } e-mailadresse",
         "${ addressCount } e-mailadresser"
       ],
+      "support team": [
+        "supportteam"
+      ],
+      "Unsupported file": [
+        "Ikke-understøttet fil"
+      ],
+      "No preview available": [
+        "Ingen forhåndsvisning tilgængelig"
+      ],
+      "Preview": [
+        "Forhåndsvisning"
+      ],
+      "Loading preview": [
+        "Indlæser forhåndsvisning"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "Denne browser understøtter ikke forhåndsvisning af PDF-dokumenter. Download venligst filen."
+      ],
+      "of": [
+        "af"
+      ],
       "Import contacts": [
         "Importér kontakter"
       ],
@@ -842,24 +860,6 @@
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "Opfriskning af siden eller ${ link } vil automatisk løse de fleste problemer."
-      ],
-      "Unsupported file": [
-        "Ikke-understøttet fil"
-      ],
-      "No preview available": [
-        "Ingen forhåndsvisning tilgængelig"
-      ],
-      "Preview": [
-        "Forhåndsvisning"
-      ],
-      "Loading preview": [
-        "Indlæser forhåndsvisning"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "Denne browser understøtter ikke forhåndsvisning af PDF-dokumenter. Download venligst filen."
-      ],
-      "of": [
-        "af"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "Grundlæggende navigation og handlinger forbliver tilgængelige, uanset om tastaturgenveje er aktive eller ej i indstillingerne."
@@ -2929,6 +2929,27 @@
       "OK": [
         "Ok"
       ],
+      "Details": [
+        "Detaljer"
+      ],
+      "Share via link": [
+        "Del via link"
+      ],
+      "Sharing options": [
+        "Delemuligheder"
+      ],
+      "Zoom out": [
+        "Zoom ud"
+      ],
+      "Reset zoom": [
+        "Nulstil zoom"
+      ],
+      "Zoom in": [
+        "Zoom ind"
+      ],
+      "Previous": [
+        "Forrige"
+      ],
       "Continue import": [
         "Fortsæt import"
       ],
@@ -2952,27 +2973,6 @@
       ],
       "Show info": [
         "Vis info"
-      ],
-      "Details": [
-        "Detaljer"
-      ],
-      "Share via link": [
-        "Del via link"
-      ],
-      "Sharing options": [
-        "Delemuligheder"
-      ],
-      "Zoom out": [
-        "Zoom ud"
-      ],
-      "Reset zoom": [
-        "Nulstil zoom"
-      ],
-      "Zoom in": [
-        "Zoom ind"
-      ],
-      "Previous": [
-        "Forrige"
       ],
       "Get started": [
         "Kom godt i gang"
@@ -3314,6 +3314,12 @@
       "Accept": [
         "Acceptér"
       ],
+      "Show": [
+        "Vis"
+      ],
+      "Show less": [
+        ""
+      ],
       "Never show": [
         "Vis aldrig"
       ],
@@ -3340,9 +3346,6 @@
       ],
       "Hide": [
         "Skjul"
-      ],
-      "Show": [
-        "Vis"
       ],
       "Learn more": [
         "Få mere at vide"
@@ -4024,36 +4027,6 @@
       "Add a gift code": [
         "Tilføj en gavekode"
       ],
-      "Inbox": [
-        "Indbakke"
-      ],
-      "Drafts": [
-        "Kladder"
-      ],
-      "Sent": [
-        "Sendt"
-      ],
-      "Trash": [
-        "Papirkurv"
-      ],
-      "Spam": [
-        "Spam"
-      ],
-      "All mail": [
-        "Alle e-mails"
-      ],
-      "Archive": [
-        "Arkiv"
-      ],
-      "Starred": [
-        "Stjernemarkeret"
-      ],
-      "Outbox": [
-        "Udbakke"
-      ],
-      "Scheduled": [
-        "Planlagt"
-      ],
       "You need to activate your calendar keys to add this event": [
         "Du skal aktivere dine kalendernøgler for at tilføje denne begivenhed"
       ],
@@ -4095,6 +4068,36 @@
       ],
       "Open in ${ calendarAppName }": [
         "Åbn i ${ calendarAppName }"
+      ],
+      "Inbox": [
+        "Indbakke"
+      ],
+      "Drafts": [
+        "Kladder"
+      ],
+      "Sent": [
+        "Sendt"
+      ],
+      "Trash": [
+        "Papirkurv"
+      ],
+      "Spam": [
+        "Spam"
+      ],
+      "All mail": [
+        "Alle e-mails"
+      ],
+      "Archive": [
+        "Arkiv"
+      ],
+      "Starred": [
+        "Stjernemarkeret"
+      ],
+      "Outbox": [
+        "Udbakke"
+      ],
+      "Scheduled": [
+        "Planlagt"
       ],
       "Re-enable the address linked to this calendar to manage your invitation.": [
         "Genaktivér adressen knyttet til denne kalender for at håndtere din invitation."
@@ -4497,32 +4500,11 @@
       "Labels:": [
         "Etiketter:"
       ],
-      "Start time": [
-        "Starttidspunkt"
-      ],
-      "End time": [
-        "Sluttidspunkt"
-      ],
-      "Repeats": [
-        "Gentagelser"
-      ],
-      "Calendar": [
-        "Kalender"
+      "Keyword": [
+        "Nøgleord"
       ],
       "Location": [
         "Placering"
-      ],
-      "Organizer": [
-        "Arrangør"
-      ],
-      "Participant": [
-        "Deltager"
-      ],
-      "Participants (${ totalParticipants })": [
-        "Deltagere (${ totalParticipants })"
-      ],
-      "Keyword": [
-        "Nøgleord"
       ],
       "From": [
         "Fra"
@@ -6473,11 +6455,6 @@
         "I morgen"
       ]
     },
-    "Invitation details (all-day event)": {
-      "${ formattedDate } (all day)": [
-        "${ formattedDate } (hele dagen)"
-      ]
-    },
     "Calendar invite info": {
       "This response is out of date. This event has been updated.": [
         "Dette svar er forældet. Begivenheden er blevet opdateret."
@@ -6608,29 +6585,14 @@
       "This invitation is out of date. The event has been updated.": [
         "Denne invitation er forældet. Begivenheden er blevet opdateret."
       ],
-      "Your attendance at this event is required.": [
-        "Din deltagelse ved denne begivenhed er påkrævet."
+      "You already accepted this invitation.": [
+        ""
       ],
-      "Your attendance at this event is optional.": [
-        "Din deltagelse ved denne begivenhed er valgfri."
+      "You already tentatively accepted this invitation.": [
+        ""
       ],
-      "Your attendance at this event is required. You already accepted this invitation.": [
-        "Din deltagelse ved denne begivenhed er påkrævet. Du har allerede accepteret denne invitation."
-      ],
-      "Your attendance at this event is optional. You already accepted this invitation.": [
-        "Din deltagelse ved denne begivenhed er valgfri. Du har allerede accepteret denne invitation."
-      ],
-      "Your attendance at this event is required. You already tentatively accepted this invitation.": [
-        "Din deltagelse ved denne begivenhed er påkrævet. Du har allerede med forbehold accepteret denne invitation."
-      ],
-      "Your attendance at this event is optional. You already tentatively accepted this invitation.": [
-        "Din deltagelse ved denne begivenhed er vagfri. Du har allerede med forbehold accepteret denne invitation."
-      ],
-      "Your attendance at this event is required. You already declined this invitation.": [
-        "Din deltagelse ved denne begivenhed er påkrævet. Du har allerede afslået denne invitation."
-      ],
-      "Your attendance at this event is optional. You already declined this invitation.": [
-        "Din deltagelse ved denne begivenhed er valgfri. Du har allerede afslået denne invitation."
+      "You already declined this invitation.": [
+        ""
       ],
       "This event has been cancelled.": [
         "Denne begivenhed er blevet aflyst."
@@ -6640,6 +6602,9 @@
       ],
       "An occurrence has been added to the event ${ veventIcsTitle }": [
         "En forekomst er blevet tilføjet begivenheden ${ veventIcsTitle }"
+      ],
+      "(Attendance optional)": [
+        ""
       ],
       "The sender of this email has not been invited to this event and cannot be added as a participant.": [
         "Afsenderen af denne e-mail er ikke blevet inviteret til denne begivenhed og kan ikke tilføjes som deltager."
@@ -6812,12 +6777,38 @@
         "Besvarelse af invitation mislykkedes"
       ]
     },
+    "Calendar invite buttons label": {
+      "Attending?": [
+        ""
+      ]
+    },
     "Import ICS file from Mail": {
       "Calendar event created": [
         "Kalenderbegivenhed oprettet"
       ],
       "Creating calendar event failed": [
         "Oprettelse af kalenderbegivenhed mislykkedes"
+      ]
+    },
+    "ICS widget label for event details": {
+      "Organizer:": [
+        ""
+      ],
+      "${ totalAttendees } Participant": [
+        "",
+        ""
+      ],
+      "Repeats": [
+        ""
+      ],
+      "Calendar": [
+        ""
+      ],
+      "Location": [
+        ""
+      ],
+      "Participants": [
+        ""
       ]
     },
     "Attachment signature verification": {

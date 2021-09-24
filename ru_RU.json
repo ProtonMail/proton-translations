@@ -5,36 +5,18 @@
   },
   "contexts": {
     "": {},
-    "file size format": {
-      "bytes": [
-        "байт"
+    "Message": {
+      "Re:": [
+        "Re:"
       ],
-      "KB": [
-        "КБ"
+      "Fw:": [
+        "Fw:"
       ],
-      "MB": [
-        "МБ"
-      ],
-      "GB": [
-        "ГБ"
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "${ date }, ${ name } ${ address } написал(а):"
       ]
     },
     "Error": {
-      "This field is required": [
-        "Это обязательное поле"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Минимальная длина для этого поля: ${ minimumLength }."
-      ],
-      "Email is not valid": [
-        "Эл. почта недействительна"
-      ],
-      "Not a valid number": [
-        "Номер недействителен"
-      ],
-      "Passwords do not match": [
-        "Пароли не совпадают"
-      ],
       "Email address disabled": [
         "Адрес электронной почты неактивен"
       ],
@@ -58,6 +40,21 @@
       ],
       "The sending key is not valid": [
         "Недействительный ключ отправки"
+      ],
+      "This field is required": [
+        "Это обязательное поле"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Минимальная длина для этого поля: ${ minimumLength }."
+      ],
+      "Email is not valid": [
+        "Эл. почта недействительна"
+      ],
+      "Not a valid number": [
+        "Номер недействителен"
+      ],
+      "Passwords do not match": [
+        "Пароли не совпадают"
       ],
       "Request timed out.": [
         "Истекло время ожидания запроса."
@@ -134,9 +131,6 @@
       "Invalid verification code": [
         "Неверный проверочный код"
       ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Что-то пошло не так. Пожалуйста ${ refresh } чтобы продолжить. Если вы все еще видите сообщение об ошибке, пожалуйста свяжитесь нашей ${ supportTeam }."
-      ],
       "Some groups could not be deleted": [
         "Некоторые группы не могут быть удалены"
       ],
@@ -182,14 +176,17 @@
       "A group with this name already exists": [
         "Группа с таким именем уже существует"
       ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Что-то пошло не так. Пожалуйста ${ refresh } чтобы продолжить. Если вы все еще видите сообщение об ошибке, пожалуйста свяжитесь нашей ${ supportTeam }."
+      ],
+      "File has no contents to preview": [
+        "В файле нет содержимого для предпросмотра"
+      ],
       "We were unable to connect to your service provider.": [
         "Не удалось подключиться к вашему поставщику услуг."
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "Пожалуйста, попробуйте повторить аутентификацию и убедитесь, что права доступа правильные."
-      ],
-      "File has no contents to preview": [
-        "В файле нет содержимого для предпросмотра"
       ],
       "Process aborted": [
         "Процесс прерван"
@@ -393,6 +390,20 @@
         "Слишком много активных фильтров. Пожалуйста, перейдите на платный план для активации дополнительных фильтров"
       ]
     },
+    "file size format": {
+      "bytes": [
+        "байт"
+      ],
+      "KB": [
+        "КБ"
+      ],
+      "MB": [
+        "МБ"
+      ],
+      "GB": [
+        "ГБ"
+      ]
+    },
     "Validation": {
       "Password must contain at least ${ length } character": [
         "Пароль должен включать по меньшей мере ${ length } символ",
@@ -515,17 +526,6 @@
         "Адрес"
       ]
     },
-    "Message": {
-      "Re:": [
-        "Re:"
-      ],
-      "Fw:": [
-        "Fw:"
-      ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "${ date }, ${ name } ${ address } написал(а):"
-      ]
-    },
     "Info": {
       "Session timed out.": [
         "Время сессии истекло."
@@ -572,9 +572,6 @@
         "(${ memberCount } участников)",
         "(${ memberCount } участника)"
       ],
-      "Loading": [
-        "Загрузка"
-      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Эта ссылка может быть омографической атакой и не может быть открыта браузерами Internet Explorer и Edge. Если вы уверены, что ссылка безопасна, то, пожалуйста, воспользуйтесь другим браузером для её открытия."
       ],
@@ -586,6 +583,9 @@
       ],
       "Learn more": [
         "Узнать больше"
+      ],
+      "Loading": [
+        "Загрузка"
       ],
       "Insert image": [
         "Вставить изображение"
@@ -706,9 +706,6 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Если у вас возникли проблемы с созданием учетной записи, пожалуйста, запросите приглашение и мы ответим в течение одного рабочего дня."
-      ],
-      "support team": [
-        "служба поддержки"
       ],
       "No contacts added yet": [
         "Контакты ещё не добавлены"
@@ -839,6 +836,27 @@
         "${ addressCount } адресов электронной почты",
         "${ addressCount } адреса электронной почты"
       ],
+      "support team": [
+        "служба поддержки"
+      ],
+      "Unsupported file": [
+        "Неподдерживаемый файл"
+      ],
+      "No preview available": [
+        "Предпросмотр недоступен"
+      ],
+      "Preview": [
+        "Предварительный просмотр"
+      ],
+      "Loading preview": [
+        "Загрузка предпросмотра"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "Браузер не поддерживает предварительный просмотр PDF-документов. Пожалуйста, скачайте файл."
+      ],
+      "of": [
+        "из"
+      ],
       "Import contacts": [
         "Импортировать контакты"
       ],
@@ -868,24 +886,6 @@
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "Обновление страницы или ${ link } автоматически решит большую часть проблем."
-      ],
-      "Unsupported file": [
-        "Неподдерживаемый файл"
-      ],
-      "No preview available": [
-        "Предпросмотр недоступен"
-      ],
-      "Preview": [
-        "Предварительный просмотр"
-      ],
-      "Loading preview": [
-        "Загрузка предпросмотра"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "Браузер не поддерживает предварительный просмотр PDF-документов. Пожалуйста, скачайте файл."
-      ],
-      "of": [
-        "из"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "Основные клавиши для навигации и действий остаются доступными независимо от того, включены ли сочетания клавиш в настройках."
@@ -3103,6 +3103,27 @@
       "OK": [
         "OK"
       ],
+      "Details": [
+        "Подробности"
+      ],
+      "Share via link": [
+        "Доступ по ссылке"
+      ],
+      "Sharing options": [
+        "Параметры совместного доступа"
+      ],
+      "Zoom out": [
+        "Уменьшить масштаб"
+      ],
+      "Reset zoom": [
+        "Сбросить масштаб"
+      ],
+      "Zoom in": [
+        "Увеличить масштаб"
+      ],
+      "Previous": [
+        "Предыдущий"
+      ],
       "Continue import": [
         "Продолжить импорт"
       ],
@@ -3126,27 +3147,6 @@
       ],
       "Show info": [
         "Показать информацию"
-      ],
-      "Details": [
-        "Подробности"
-      ],
-      "Share via link": [
-        "Доступ по ссылке"
-      ],
-      "Sharing options": [
-        "Параметры совместного доступа"
-      ],
-      "Zoom out": [
-        "Уменьшить масштаб"
-      ],
-      "Reset zoom": [
-        "Сбросить масштаб"
-      ],
-      "Zoom in": [
-        "Увеличить масштаб"
-      ],
-      "Previous": [
-        "Предыдущий"
       ],
       "Get started": [
         "Приступить к работе"
@@ -3490,6 +3490,12 @@
       "Accept": [
         "Принять"
       ],
+      "Show": [
+        "Показать"
+      ],
+      "Show less": [
+        ""
+      ],
       "Never show": [
         "Никогда не показывать"
       ],
@@ -3516,9 +3522,6 @@
       ],
       "Hide": [
         "Скрыть"
-      ],
-      "Show": [
-        "Показать"
       ],
       "Learn more": [
         "Подробнее"
@@ -4216,36 +4219,6 @@
       "Add a gift code": [
         "Добавить подарочный код"
       ],
-      "Inbox": [
-        "Входящие"
-      ],
-      "Drafts": [
-        "Черновики"
-      ],
-      "Sent": [
-        "Отправленные"
-      ],
-      "Trash": [
-        "Корзина"
-      ],
-      "Spam": [
-        "Спам"
-      ],
-      "All mail": [
-        "Вся почта"
-      ],
-      "Archive": [
-        "Архив"
-      ],
-      "Starred": [
-        "Со звёздами"
-      ],
-      "Outbox": [
-        "Исходящие"
-      ],
-      "Scheduled": [
-        "Расписание"
-      ],
       "You need to activate your calendar keys to add this event": [
         "Вы должны активировать ключи вашего календаря, чтобы добавить это событие"
       ],
@@ -4287,6 +4260,36 @@
       ],
       "Open in ${ calendarAppName }": [
         "Открыть в ${ calendarAppName }"
+      ],
+      "Inbox": [
+        "Входящие"
+      ],
+      "Drafts": [
+        "Черновики"
+      ],
+      "Sent": [
+        "Отправленные"
+      ],
+      "Trash": [
+        "Корзина"
+      ],
+      "Spam": [
+        "Спам"
+      ],
+      "All mail": [
+        "Вся почта"
+      ],
+      "Archive": [
+        "Архив"
+      ],
+      "Starred": [
+        "Со звёздами"
+      ],
+      "Outbox": [
+        "Исходящие"
+      ],
+      "Scheduled": [
+        "Расписание"
       ],
       "Re-enable the address linked to this calendar to manage your invitation.": [
         "Повторно включите адрес, связанный с этим календарем, для управления вашим приглашением."
@@ -4689,32 +4692,11 @@
       "Labels:": [
         "Метки:"
       ],
-      "Start time": [
-        "Время начала"
-      ],
-      "End time": [
-        "Время окончания"
-      ],
-      "Repeats": [
-        "Повторы"
-      ],
-      "Calendar": [
-        "Календарь"
+      "Keyword": [
+        "Ключевое слово"
       ],
       "Location": [
         "Местоположение"
-      ],
-      "Organizer": [
-        "Организатор"
-      ],
-      "Participant": [
-        "Участник"
-      ],
-      "Participants (${ totalParticipants })": [
-        "Участники (${ totalParticipants })"
-      ],
-      "Keyword": [
-        "Ключевое слово"
       ],
       "From": [
         "От"
@@ -6763,11 +6745,6 @@
         "Завтра"
       ]
     },
-    "Invitation details (all-day event)": {
-      "${ formattedDate } (all day)": [
-        "${ formattedDate } (весь день)"
-      ]
-    },
     "Calendar invite info": {
       "This response is out of date. This event has been updated.": [
         "Этот ответ устарел. Событие было обновлено."
@@ -6898,29 +6875,14 @@
       "This invitation is out of date. The event has been updated.": [
         "Приглашение устарело. Событие было обновлено."
       ],
-      "Your attendance at this event is required.": [
-        "Ваше присутствие на этом мероприятии обязательно."
+      "You already accepted this invitation.": [
+        ""
       ],
-      "Your attendance at this event is optional.": [
-        "Ваше присутствие на этой встрече необязательно."
+      "You already tentatively accepted this invitation.": [
+        ""
       ],
-      "Your attendance at this event is required. You already accepted this invitation.": [
-        "Ваше присутствие на этом мероприятии обязательно. Вы уже приняли это приглашение."
-      ],
-      "Your attendance at this event is optional. You already accepted this invitation.": [
-        "Ваше присутствие на этом мероприятии необязательно. Вы уже приняли это приглашение."
-      ],
-      "Your attendance at this event is required. You already tentatively accepted this invitation.": [
-        "Ваше присутствие на этом мероприятии обязательно. Вы уже предварительно приняли это приглашение."
-      ],
-      "Your attendance at this event is optional. You already tentatively accepted this invitation.": [
-        "Ваше присутствие на этом мероприятии необязательно. Вы уже предварительно приняли это приглашение."
-      ],
-      "Your attendance at this event is required. You already declined this invitation.": [
-        "Ваше присутствие на этом мероприятии обязательно. Вы уже отклонили это приглашение."
-      ],
-      "Your attendance at this event is optional. You already declined this invitation.": [
-        "Ваше присутствие на этом мероприятии необязательно. Вы уже отклонили это приглашение."
+      "You already declined this invitation.": [
+        ""
       ],
       "This event has been cancelled.": [
         "Это событие было отменено."
@@ -6930,6 +6892,9 @@
       ],
       "An occurrence has been added to the event ${ veventIcsTitle }": [
         "К событию «${ veventIcsTitle }» был добавлен повтор"
+      ],
+      "(Attendance optional)": [
+        ""
       ],
       "The sender of this email has not been invited to this event and cannot be added as a participant.": [
         "Отправитель этого письма не был приглашен на это мероприятие и не может быть добавлен в качестве участника."
@@ -7114,12 +7079,40 @@
         "Не удалось ответить на приглашение"
       ]
     },
+    "Calendar invite buttons label": {
+      "Attending?": [
+        ""
+      ]
+    },
     "Import ICS file from Mail": {
       "Calendar event created": [
         "Событие календаря создано"
       ],
       "Creating calendar event failed": [
         "Не удалось создать событие календаря"
+      ]
+    },
+    "ICS widget label for event details": {
+      "Organizer:": [
+        ""
+      ],
+      "${ totalAttendees } Participant": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "Repeats": [
+        ""
+      ],
+      "Calendar": [
+        ""
+      ],
+      "Location": [
+        ""
+      ],
+      "Participants": [
+        ""
       ]
     },
     "Attachment signature verification": {

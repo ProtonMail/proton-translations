@@ -5,36 +5,18 @@
   },
   "contexts": {
     "": {},
-    "file size format": {
-      "bytes": [
-        "Bytes"
+    "Message": {
+      "Re:": [
+        "AW:"
       ],
-      "KB": [
-        "KB"
+      "Fw:": [
+        "WG:"
       ],
-      "MB": [
-        "MB"
-      ],
-      "GB": [
-        "GB"
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "${ name } ${ address } schrieb am ${ date }:"
       ]
     },
     "Error": {
-      "This field is required": [
-        "Pflichtfeld"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "In dieses Feld müssen mindestens ${ minimumLength } Zeichen eingegeben werden."
-      ],
-      "Email is not valid": [
-        "E-Mail-Adresse ungültig"
-      ],
-      "Not a valid number": [
-        "Keine gültige Zahl"
-      ],
-      "Passwords do not match": [
-        "Die Passwörter stimmen nicht überein"
-      ],
       "Email address disabled": [
         "E‐Mail‐Adresse deaktiviert"
       ],
@@ -58,6 +40,21 @@
       ],
       "The sending key is not valid": [
         "Der Sendeschlüssel ist ungültig"
+      ],
+      "This field is required": [
+        "Pflichtfeld"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "In dieses Feld müssen mindestens ${ minimumLength } Zeichen eingegeben werden."
+      ],
+      "Email is not valid": [
+        "E-Mail-Adresse ungültig"
+      ],
+      "Not a valid number": [
+        "Keine gültige Zahl"
+      ],
+      "Passwords do not match": [
+        "Die Passwörter stimmen nicht überein"
       ],
       "Request timed out.": [
         "Zeitüberschreitung bei der Anforderung."
@@ -134,9 +131,6 @@
       "Invalid verification code": [
         "Ungültiger Verifizierungscode"
       ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Ein Problem ist aufgetreten. Bitte ${ refresh }, um fortzufahren. Wenn Ihnen diese Fehlermeldung weiterhin angezeigt wird, wenden Sie sich bitte an unser ${ supportTeam }."
-      ],
       "Some groups could not be deleted": [
         "Einige Gruppen konnten nicht gelöscht werden"
       ],
@@ -178,14 +172,17 @@
       "A group with this name already exists": [
         "Eine Gruppe mit diesem Namen existiert bereits"
       ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Ein Problem ist aufgetreten. Bitte ${ refresh }, um fortzufahren. Wenn Ihnen diese Fehlermeldung weiterhin angezeigt wird, wenden Sie sich bitte an unser ${ supportTeam }."
+      ],
+      "File has no contents to preview": [
+        "Es gibt keine Dateiinhalte, für die eine Vorschau angezeigt werden kann"
+      ],
       "We were unable to connect to your service provider.": [
         "Es konnte keine Verbindung zu Ihrem Dienstanbieter hergestellt werden."
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "Bitte versuchen Sie, sich erneut zu authentifizieren und stellen Sie sicher, dass die Berechtigungen korrekt eingestellt sind."
-      ],
-      "File has no contents to preview": [
-        "Es gibt keine Dateiinhalte, für die eine Vorschau angezeigt werden kann"
       ],
       "Process aborted": [
         "Prozess abgebrochen"
@@ -381,6 +378,20 @@
         "Zu viele aktive Filter. Bitte steigen Sie zu einem kostenpflichtigen Paket um, um weitere Filter aktivieren zu können."
       ]
     },
+    "file size format": {
+      "bytes": [
+        "Bytes"
+      ],
+      "KB": [
+        "KB"
+      ],
+      "MB": [
+        "MB"
+      ],
+      "GB": [
+        "GB"
+      ]
+    },
     "Validation": {
       "Password must contain at least ${ length } character": [
         "Das Passwort muss mindestens ${ length } Zeichen enthalten",
@@ -501,17 +512,6 @@
         "Adresse"
       ]
     },
-    "Message": {
-      "Re:": [
-        "AW:"
-      ],
-      "Fw:": [
-        "WG:"
-      ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "${ name } ${ address } schrieb am ${ date }:"
-      ]
-    },
     "Info": {
       "Session timed out.": [
         "Zeitüberschreitung der Sitzung."
@@ -556,9 +556,6 @@
         "(${ memberCount } Mitglied)",
         "(${ memberCount } Mitglieder)"
       ],
-      "Loading": [
-        "Wird geladen"
-      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Dieser Link könnte ein homographischer Angriff (Vortäuschung einer falschen Identität) sein und kann von Internet Explorer und Edge nicht geöffnet werden. Wenn du sicher bist, dass der Link legitim ist, verwende einen anderen Browser, um ihn zu öffnen."
       ],
@@ -570,6 +567,9 @@
       ],
       "Learn more": [
         "Mehr erfahren"
+      ],
+      "Loading": [
+        "Wird geladen"
       ],
       "Insert image": [
         "Bild einfügen"
@@ -691,9 +691,6 @@
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Wenn Sie Probleme bei der Erstellung Ihres Kontos haben, stellen Sie bitte eine Anfrage, und wir werden Ihnen innerhalb eines Werktages antworten."
       ],
-      "support team": [
-        "Support-Team"
-      ],
       "No contacts added yet": [
         "Noch keine Kontakte hinzugefügt"
       ],
@@ -813,6 +810,27 @@
         "${ addressCount } E-Mail-Adresse",
         "${ addressCount } E-Mail-Adressen"
       ],
+      "support team": [
+        "Support-Team"
+      ],
+      "Unsupported file": [
+        "Nicht unterstützte Datei"
+      ],
+      "No preview available": [
+        "Keine Vorschau verfügbar"
+      ],
+      "Preview": [
+        "Vorschau"
+      ],
+      "Loading preview": [
+        "Vorschau wird geladen"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "Dieser Browser unterstützt keine Vorschau von PDF-Dokumenten. Bitte lade die Datei herunter."
+      ],
+      "of": [
+        "von"
+      ],
       "Import contacts": [
         "Kontakte importieren"
       ],
@@ -842,24 +860,6 @@
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "Durch das Aktualisieren der Seite oder ${ link } werden die meisten Probleme automatisch gelöst."
-      ],
-      "Unsupported file": [
-        "Nicht unterstützte Datei"
-      ],
-      "No preview available": [
-        "Keine Vorschau verfügbar"
-      ],
-      "Preview": [
-        "Vorschau"
-      ],
-      "Loading preview": [
-        "Vorschau wird geladen"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "Dieser Browser unterstützt keine Vorschau von PDF-Dokumenten. Bitte lade die Datei herunter."
-      ],
-      "of": [
-        "von"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "Grundlegende Navigation und Aktionen bleiben auch dann verfügbar, wenn die Tastaturkürzel in den Einstellungen deaktiviert sind."
@@ -2929,6 +2929,27 @@
       "OK": [
         "OK"
       ],
+      "Details": [
+        "Details"
+      ],
+      "Share via link": [
+        "Als Link teilen"
+      ],
+      "Sharing options": [
+        "Freigabeoptionen"
+      ],
+      "Zoom out": [
+        "Verkleinern"
+      ],
+      "Reset zoom": [
+        "Vergrößerung zurücksetzen"
+      ],
+      "Zoom in": [
+        "Vergrößern"
+      ],
+      "Previous": [
+        "Zurück"
+      ],
       "Continue import": [
         "Importvorgang fortsetzen"
       ],
@@ -2952,27 +2973,6 @@
       ],
       "Show info": [
         "Info zeigen"
-      ],
-      "Details": [
-        "Details"
-      ],
-      "Share via link": [
-        "Als Link teilen"
-      ],
-      "Sharing options": [
-        "Freigabeoptionen"
-      ],
-      "Zoom out": [
-        "Verkleinern"
-      ],
-      "Reset zoom": [
-        "Vergrößerung zurücksetzen"
-      ],
-      "Zoom in": [
-        "Vergrößern"
-      ],
-      "Previous": [
-        "Zurück"
       ],
       "Get started": [
         "Erste Schritte"
@@ -3314,6 +3314,12 @@
       "Accept": [
         "Annehmen"
       ],
+      "Show": [
+        "Anzeigen"
+      ],
+      "Show less": [
+        "Weniger anzeigen"
+      ],
       "Never show": [
         "Niemals anzeigen"
       ],
@@ -3340,9 +3346,6 @@
       ],
       "Hide": [
         "Ausblenden"
-      ],
-      "Show": [
-        "Anzeigen"
       ],
       "Learn more": [
         "Mehr erfahren"
@@ -4024,36 +4027,6 @@
       "Add a gift code": [
         "Geschenkgutschein hinzufügen"
       ],
-      "Inbox": [
-        "Posteingang"
-      ],
-      "Drafts": [
-        "Entwürfe"
-      ],
-      "Sent": [
-        "Gesendet"
-      ],
-      "Trash": [
-        "Papierkorb"
-      ],
-      "Spam": [
-        "Spam"
-      ],
-      "All mail": [
-        "Alle Nachrichten"
-      ],
-      "Archive": [
-        "Archivieren"
-      ],
-      "Starred": [
-        "Gekennzeichnet"
-      ],
-      "Outbox": [
-        "Postausgang"
-      ],
-      "Scheduled": [
-        "Geplant"
-      ],
       "You need to activate your calendar keys to add this event": [
         "Sie müssen Ihre Kalenderschlüssel aktivieren, um dieses Ereignis hinzufügen zu können"
       ],
@@ -4095,6 +4068,36 @@
       ],
       "Open in ${ calendarAppName }": [
         "In ${ calendarAppName } öffnen"
+      ],
+      "Inbox": [
+        "Posteingang"
+      ],
+      "Drafts": [
+        "Entwürfe"
+      ],
+      "Sent": [
+        "Gesendet"
+      ],
+      "Trash": [
+        "Papierkorb"
+      ],
+      "Spam": [
+        "Spam"
+      ],
+      "All mail": [
+        "Alle Nachrichten"
+      ],
+      "Archive": [
+        "Archivieren"
+      ],
+      "Starred": [
+        "Gekennzeichnet"
+      ],
+      "Outbox": [
+        "Postausgang"
+      ],
+      "Scheduled": [
+        "Geplant"
       ],
       "Re-enable the address linked to this calendar to manage your invitation.": [
         "Reaktivieren Sie die mit diesem Kalender verknüpfte E-Mail-Adresse, um Ihre Einladung verwalten zu können."
@@ -4497,32 +4500,11 @@
       "Labels:": [
         "Kategorien:"
       ],
-      "Start time": [
-        "Startzeit"
-      ],
-      "End time": [
-        "Endzeit"
-      ],
-      "Repeats": [
-        "Wiederholungen"
-      ],
-      "Calendar": [
-        "Kalender"
+      "Keyword": [
+        "Schlüsselwort"
       ],
       "Location": [
         "Ort"
-      ],
-      "Organizer": [
-        "Organisator"
-      ],
-      "Participant": [
-        "Teilnehmer"
-      ],
-      "Participants (${ totalParticipants })": [
-        "Teilnehmer (${ totalParticipants })"
-      ],
-      "Keyword": [
-        "Schlüsselwort"
       ],
       "From": [
         "Von"
@@ -6473,11 +6455,6 @@
         "Morgen"
       ]
     },
-    "Invitation details (all-day event)": {
-      "${ formattedDate } (all day)": [
-        "${ formattedDate } (ganztägig)"
-      ]
-    },
     "Calendar invite info": {
       "This response is out of date. This event has been updated.": [
         "Diese Antwort ist nicht mehr gültig. Dieses Ereignis wurde aktualisiert."
@@ -6608,29 +6585,14 @@
       "This invitation is out of date. The event has been updated.": [
         "Diese Einladung ist nicht mehr gültig. Das Ereignis wurde aktualisiert."
       ],
-      "Your attendance at this event is required.": [
-        "Ihre Teilnahme an diesem Ereignis ist erforderlich."
+      "You already accepted this invitation.": [
+        "Du hast diese Einladung bereits angenommen."
       ],
-      "Your attendance at this event is optional.": [
-        "Ihre Teilnahme zu diesem Ereignis ist freiwillig."
+      "You already tentatively accepted this invitation.": [
+        "Du hast diese Einladung unter Vorbehalt angenommen."
       ],
-      "Your attendance at this event is required. You already accepted this invitation.": [
-        "Ihre Teilnahme an diesem Ereignis ist erforderlich. Sie haben diese Einladung bereits angenommen."
-      ],
-      "Your attendance at this event is optional. You already accepted this invitation.": [
-        "Ihre Teilnahme an diesem Ereignis ist freiwillig. Sie haben diese Einladung bereits angenommen."
-      ],
-      "Your attendance at this event is required. You already tentatively accepted this invitation.": [
-        "Ihre Teilnahme zu diesem Ereignis ist erforderlich. Sie haben diese Einladung bereits unter Vorbehalt angenommen."
-      ],
-      "Your attendance at this event is optional. You already tentatively accepted this invitation.": [
-        "Ihre Teilnahme zu diesem Ereignis ist freiwillig. Sie haben diese Einladung bereits unter Vorbehalt angenommen."
-      ],
-      "Your attendance at this event is required. You already declined this invitation.": [
-        "Ihre Teilnahme zu diesem Ereignis ist erforderlich. Sie haben diese Einladung bereits abgelehnt."
-      ],
-      "Your attendance at this event is optional. You already declined this invitation.": [
-        "Ihre Teilnahme an diesem Ereignis ist freiwillig. Sie haben diese Einladung bereits angenommen."
+      "You already declined this invitation.": [
+        ""
       ],
       "This event has been cancelled.": [
         "Dieses Ereignis wurde abgesagt."
@@ -6640,6 +6602,9 @@
       ],
       "An occurrence has been added to the event ${ veventIcsTitle }": [
         "Dem Ereignis „${ veventIcsTitle }” wurde ein Termin hinzugefügt"
+      ],
+      "(Attendance optional)": [
+        ""
       ],
       "The sender of this email has not been invited to this event and cannot be added as a participant.": [
         "Der Absender dieser E-Mail wurde nicht zu dieser Veranstaltung eingeladen und kann nicht als Teilnehmer hinzugefügt werden."
@@ -6812,12 +6777,38 @@
         "Beantworten der Einladung fehlgeschlagen"
       ]
     },
+    "Calendar invite buttons label": {
+      "Attending?": [
+        ""
+      ]
+    },
     "Import ICS file from Mail": {
       "Calendar event created": [
         "Kalenderereignis erstellt"
       ],
       "Creating calendar event failed": [
         "Erstellen eines Kalendereintrags fehlgeschlagen"
+      ]
+    },
+    "ICS widget label for event details": {
+      "Organizer:": [
+        ""
+      ],
+      "${ totalAttendees } Participant": [
+        "",
+        ""
+      ],
+      "Repeats": [
+        ""
+      ],
+      "Calendar": [
+        ""
+      ],
+      "Location": [
+        ""
+      ],
+      "Participants": [
+        ""
       ]
     },
     "Attachment signature verification": {

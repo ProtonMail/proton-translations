@@ -5,36 +5,18 @@
   },
   "contexts": {
     "": {},
-    "file size format": {
-      "bytes": [
-        "byte"
+    "Message": {
+      "Re:": [
+        "Ttg:"
       ],
-      "KB": [
-        "KB"
+      "Fw:": [
+        "Trs:"
       ],
-      "MB": [
-        "MB"
-      ],
-      "GB": [
-        "GB"
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "Pada ${ date }, ${ name } ${ address } menulis:"
       ]
     },
     "Error": {
-      "This field is required": [
-        "Kolom ini wajib terisi"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Kolom ini harus diisi dengan minimal ${ minimumLength } karakter."
-      ],
-      "Email is not valid": [
-        "Email tidak valid"
-      ],
-      "Not a valid number": [
-        "Bukan nomor yang valid"
-      ],
-      "Passwords do not match": [
-        "Kata sandi tidak cocok"
-      ],
       "Email address disabled": [
         "Alamat surel nonaktif"
       ],
@@ -58,6 +40,21 @@
       ],
       "The sending key is not valid": [
         "Kunci pengiriman tidak valid"
+      ],
+      "This field is required": [
+        "Kolom ini wajib terisi"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Kolom ini harus diisi dengan minimal ${ minimumLength } karakter."
+      ],
+      "Email is not valid": [
+        "Email tidak valid"
+      ],
+      "Not a valid number": [
+        "Bukan nomor yang valid"
+      ],
+      "Passwords do not match": [
+        "Kata sandi tidak cocok"
       ],
       "Request timed out.": [
         "Terlalu lama memuat."
@@ -134,9 +131,6 @@
       "Invalid verification code": [
         "Kode verifikasi tidak valid"
       ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Terjadi kesalahan, silakan ${ refresh } untuk meneruskan. Jika Anda masih melihat pesan galat ini harap kontak ${ supportTeam } kami."
-      ],
       "Some groups could not be deleted": [
         "Beberapa grup tidak dapat dihapus"
       ],
@@ -176,14 +170,17 @@
       "A group with this name already exists": [
         "Grup dengan nama ini sudah ada"
       ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Terjadi kesalahan, silakan ${ refresh } untuk meneruskan. Jika Anda masih melihat pesan galat ini harap kontak ${ supportTeam } kami."
+      ],
+      "File has no contents to preview": [
+        "Berkas ini kosong"
+      ],
       "We were unable to connect to your service provider.": [
         "Kami tidak dapat tersambung dengan penyedia layanan Anda."
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "Silahkan coba otentikasi ulang dan pastikan izin diatur dengan benar."
-      ],
-      "File has no contents to preview": [
-        "Berkas ini kosong"
       ],
       "Process aborted": [
         "Proses dibatalkan"
@@ -375,6 +372,20 @@
         "Terlalu banyak filter aktif. Mohon tingkatkan ke paket berbayar untuk mengaktifkan lebih banyak filter"
       ]
     },
+    "file size format": {
+      "bytes": [
+        "byte"
+      ],
+      "KB": [
+        "KB"
+      ],
+      "MB": [
+        "MB"
+      ],
+      "GB": [
+        "GB"
+      ]
+    },
     "Validation": {
       "Password must contain at least ${ length } character": [
         "Kata sandi minimal ${ length } karakter"
@@ -494,17 +505,6 @@
         "Alamat"
       ]
     },
-    "Message": {
-      "Re:": [
-        "Ttg:"
-      ],
-      "Fw:": [
-        "Trs:"
-      ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "Pada ${ date }, ${ name } ${ address } menulis:"
-      ]
-    },
     "Info": {
       "Session timed out.": [
         "Sesi habis."
@@ -548,9 +548,6 @@
       "(${ memberCount } member)": [
         "(${ memberCount } anggota)"
       ],
-      "Loading": [
-        "Memuat"
-      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Tautan ini mungkin serangan homograf dan tidak dapat dibuka dengan Internet Explorer dan Edge. Jika Anda yakin tautan tersebut absah, mohon buka dengan peramban lain."
       ],
@@ -562,6 +559,9 @@
       ],
       "Learn more": [
         "Pelajari lebih lanjut"
+      ],
+      "Loading": [
+        "Memuat"
       ],
       "Insert image": [
         "Memasukkan gambar"
@@ -683,9 +683,6 @@
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Jika Anda menemui masalah saat membuat akun, silakan minta undangan dan kami akan meresponnya satu hari kerja."
       ],
-      "support team": [
-        "tim dukungan"
-      ],
       "No contacts added yet": [
         "Belum ada kontak yang ditambahkan"
       ],
@@ -800,6 +797,27 @@
       "${ addressCount } email address": [
         "${ addressCount } alamat email"
       ],
+      "support team": [
+        "tim dukungan"
+      ],
+      "Unsupported file": [
+        "Berkas tidak didukung"
+      ],
+      "No preview available": [
+        "Pratinjau tidak tersedia"
+      ],
+      "Preview": [
+        "Pratinjau"
+      ],
+      "Loading preview": [
+        "Memuat pratinjau"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "Peramban web ini tidak mendukung untuk melakukan pratinjau dokumen PDF. Silahkan unduh berkas tersebut."
+      ],
+      "of": [
+        "dari"
+      ],
       "Import contacts": [
         "Impor kontak"
       ],
@@ -829,24 +847,6 @@
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "Memuat ulang halaman atau ${ link } akan secara otomatis mengatasi sebagian besar masalah."
-      ],
-      "Unsupported file": [
-        "Berkas tidak didukung"
-      ],
-      "No preview available": [
-        "Pratinjau tidak tersedia"
-      ],
-      "Preview": [
-        "Pratinjau"
-      ],
-      "Loading preview": [
-        "Memuat pratinjau"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "Peramban web ini tidak mendukung untuk melakukan pratinjau dokumen PDF. Silahkan unduh berkas tersebut."
-      ],
-      "of": [
-        "dari"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "Navigasi dan tindakan dasar tetap tersedia terlepas pintasan papan ketik aktif atau tidak di pengaturan."
@@ -2842,6 +2842,27 @@
       "OK": [
         "OK"
       ],
+      "Details": [
+        "Rincian"
+      ],
+      "Share via link": [
+        "Bagikan melalui tautan"
+      ],
+      "Sharing options": [
+        "Opsi berbagi"
+      ],
+      "Zoom out": [
+        "Perkecil"
+      ],
+      "Reset zoom": [
+        "Ukuran semula"
+      ],
+      "Zoom in": [
+        "Perbesar"
+      ],
+      "Previous": [
+        "Sebelumnya"
+      ],
       "Continue import": [
         "Lanjutkan impor"
       ],
@@ -2865,27 +2886,6 @@
       ],
       "Show info": [
         "Tampilkan info"
-      ],
-      "Details": [
-        "Rincian"
-      ],
-      "Share via link": [
-        "Bagikan melalui tautan"
-      ],
-      "Sharing options": [
-        "Opsi berbagi"
-      ],
-      "Zoom out": [
-        "Perkecil"
-      ],
-      "Reset zoom": [
-        "Ukuran semula"
-      ],
-      "Zoom in": [
-        "Perbesar"
-      ],
-      "Previous": [
-        "Sebelumnya"
       ],
       "Get started": [
         "Mulai"
@@ -3226,6 +3226,12 @@
       "Accept": [
         "Terima"
       ],
+      "Show": [
+        "Tampilkan"
+      ],
+      "Show less": [
+        "Tampilkan lebih sedikit"
+      ],
       "Never show": [
         "Jangan pernah tampilkan"
       ],
@@ -3252,9 +3258,6 @@
       ],
       "Hide": [
         "Sembunyikan"
-      ],
-      "Show": [
-        "Tampilkan"
       ],
       "Learn more": [
         "Pelajari lebih lanjut"
@@ -3928,36 +3931,6 @@
       "Add a gift code": [
         "Tambah kode hadiah"
       ],
-      "Inbox": [
-        "Kotak masuk"
-      ],
-      "Drafts": [
-        "Draf"
-      ],
-      "Sent": [
-        "Dikirim"
-      ],
-      "Trash": [
-        "Sampah"
-      ],
-      "Spam": [
-        "Spam"
-      ],
-      "All mail": [
-        "Semua surat"
-      ],
-      "Archive": [
-        "Arsip"
-      ],
-      "Starred": [
-        "Dibintangi"
-      ],
-      "Outbox": [
-        "Kotak keluar"
-      ],
-      "Scheduled": [
-        "Dijadwalkan"
-      ],
       "You need to activate your calendar keys to add this event": [
         "Anda perlu mengaktifkan kunci kalender Anda untuk menambahkan acara ini"
       ],
@@ -3999,6 +3972,36 @@
       ],
       "Open in ${ calendarAppName }": [
         "Buka di ${ calendarAppName }"
+      ],
+      "Inbox": [
+        "Kotak masuk"
+      ],
+      "Drafts": [
+        "Draf"
+      ],
+      "Sent": [
+        "Dikirim"
+      ],
+      "Trash": [
+        "Sampah"
+      ],
+      "Spam": [
+        "Spam"
+      ],
+      "All mail": [
+        "Semua surat"
+      ],
+      "Archive": [
+        "Arsip"
+      ],
+      "Starred": [
+        "Dibintangi"
+      ],
+      "Outbox": [
+        "Kotak keluar"
+      ],
+      "Scheduled": [
+        "Dijadwalkan"
       ],
       "Re-enable the address linked to this calendar to manage your invitation.": [
         "Aktifkan ulang alamat yang tertaut ke kalender ini untuk mengelola undangan Anda."
@@ -4401,32 +4404,11 @@
       "Labels:": [
         "Label:"
       ],
-      "Start time": [
-        "Waktu mulai"
-      ],
-      "End time": [
-        "Waktu akhir"
-      ],
-      "Repeats": [
-        "Ulangi"
-      ],
-      "Calendar": [
-        "Kalender"
+      "Keyword": [
+        "Kata kunci"
       ],
       "Location": [
         "Lokasi"
-      ],
-      "Organizer": [
-        "Pengelola"
-      ],
-      "Participant": [
-        "Peserta"
-      ],
-      "Participants (${ totalParticipants })": [
-        "Peserta (${ totalParticipants })"
-      ],
-      "Keyword": [
-        "Kata kunci"
       ],
       "From": [
         "Dari"
@@ -6328,11 +6310,6 @@
         "Besok"
       ]
     },
-    "Invitation details (all-day event)": {
-      "${ formattedDate } (all day)": [
-        "${ formattedDate } (semua hari)"
-      ]
-    },
     "Calendar invite info": {
       "This response is out of date. This event has been updated.": [
         "Respon ini kedaluwarsa. Acara telah diperbarui."
@@ -6463,29 +6440,14 @@
       "This invitation is out of date. The event has been updated.": [
         "Undangan ini kedaluwarsa. Acara telah diperbarui."
       ],
-      "Your attendance at this event is required.": [
-        "Anda wajib hadir di acara ini."
+      "You already accepted this invitation.": [
+        "Anda telah menyetujui undangan ini."
       ],
-      "Your attendance at this event is optional.": [
-        "Kehadiran Anda di acara ini opsional."
+      "You already tentatively accepted this invitation.": [
+        "Anda telah secara tentatif menyetujui undangan ini."
       ],
-      "Your attendance at this event is required. You already accepted this invitation.": [
-        "Anda wajib hadir di acara ini. Anda sudah menerima undangan ini."
-      ],
-      "Your attendance at this event is optional. You already accepted this invitation.": [
-        "Kehadiran Anda di acara ini opsional. Anda sudah menerima undangan ini."
-      ],
-      "Your attendance at this event is required. You already tentatively accepted this invitation.": [
-        "Anda wajib hadir di acara ini. Anda sementara sudah menerima undangan ini."
-      ],
-      "Your attendance at this event is optional. You already tentatively accepted this invitation.": [
-        "Kehadiran Anda di acara ini opsional. Anda sementara sudah menerima undangan ini."
-      ],
-      "Your attendance at this event is required. You already declined this invitation.": [
-        "Anda wajib hadir di acara ini. Anda sudah menolak undangan ini."
-      ],
-      "Your attendance at this event is optional. You already declined this invitation.": [
-        "Kehadiran Anda di acara ini opsional. Anda sudah menolak undangan ini."
+      "You already declined this invitation.": [
+        "Anda telah menolak undangan ini."
       ],
       "This event has been cancelled.": [
         "Kegiatan ini dibatalkan."
@@ -6495,6 +6457,9 @@
       ],
       "An occurrence has been added to the event ${ veventIcsTitle }": [
         "Kegiatan sudah ditambahkan ke acara ${ veventIcsTitle }"
+      ],
+      "(Attendance optional)": [
+        "(Kehadiran tidak diwajibkan)"
       ],
       "The sender of this email has not been invited to this event and cannot be added as a participant.": [
         "Pengirim surel ini belum diundang ke acara ini dan tidak dapat ditambahkan sebagai peserta."
@@ -6661,12 +6626,37 @@
         "Gagal menjawab undangan"
       ]
     },
+    "Calendar invite buttons label": {
+      "Attending?": [
+        "Hadiri?"
+      ]
+    },
     "Import ICS file from Mail": {
       "Calendar event created": [
         "Kalender acara dibuat"
       ],
       "Creating calendar event failed": [
         "Gagal membuat kalender acara"
+      ]
+    },
+    "ICS widget label for event details": {
+      "Organizer:": [
+        "Penyelenggara:"
+      ],
+      "${ totalAttendees } Participant": [
+        "${ totalAttendees } Peserta"
+      ],
+      "Repeats": [
+        "Ulangan"
+      ],
+      "Calendar": [
+        "Kalender"
+      ],
+      "Location": [
+        "Lokasi"
+      ],
+      "Participants": [
+        "Peserta"
       ]
     },
     "Attachment signature verification": {

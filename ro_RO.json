@@ -5,36 +5,18 @@
   },
   "contexts": {
     "": {},
-    "file size format": {
-      "bytes": [
-        "octeți"
+    "Message": {
+      "Re:": [
+        "Re:"
       ],
-      "KB": [
-        "KB"
+      "Fw:": [
+        "Fw:"
       ],
-      "MB": [
-        "MB"
-      ],
-      "GB": [
-        "GB"
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "${ name } ${ address } - ${ date } a scris:"
       ]
     },
     "Error": {
-      "This field is required": [
-        "Acest câmp este obligatoriu"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Acest câmp necesită un minimum de ${ minimumLength } caractere."
-      ],
-      "Email is not valid": [
-        "E-mailul nu este valid"
-      ],
-      "Not a valid number": [
-        "Nu este un număr valid"
-      ],
-      "Passwords do not match": [
-        "Parolele nu coincid"
-      ],
       "Email address disabled": [
         "Adresă de e-mail dezactivată"
       ],
@@ -58,6 +40,21 @@
       ],
       "The sending key is not valid": [
         "Cheia de trimitere nu este validă"
+      ],
+      "This field is required": [
+        "Acest câmp este obligatoriu"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Acest câmp necesită un minimum de ${ minimumLength } caractere."
+      ],
+      "Email is not valid": [
+        "E-mailul nu este valid"
+      ],
+      "Not a valid number": [
+        "Nu este un număr valid"
+      ],
+      "Passwords do not match": [
+        "Parolele nu coincid"
       ],
       "Request timed out.": [
         "Solicitarea a expirat."
@@ -134,9 +131,6 @@
       "Invalid verification code": [
         "Cod de verificare nevalid"
       ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Ceva nu a funcționat bine, ${ refresh } pagina pentru a continua. Dacă mai vedeți acest mesaj de eroare contactați ${ supportTeam }."
-      ],
       "Some groups could not be deleted": [
         "Unele grupuri nu s-au putut șterge."
       ],
@@ -180,14 +174,17 @@
       "A group with this name already exists": [
         "Un grup cu acest nume există deja"
       ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Ceva nu a funcționat bine, ${ refresh } pagina pentru a continua. Dacă mai vedeți acest mesaj de eroare contactați ${ supportTeam }."
+      ],
+      "File has no contents to preview": [
+        "Fișierul nu are conținut de afișat"
+      ],
       "We were unable to connect to your service provider.": [
         "Nu s-a reușit conectarea la furnizorul dvs. de servicii."
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "Încercați să vă reautentificați și asigurați-vă că permisiunile sunt setate corect."
-      ],
-      "File has no contents to preview": [
-        "Fișierul nu are conținut de afișat"
       ],
       "Process aborted": [
         "Proces abandonat."
@@ -387,6 +384,20 @@
         "Prea multe filtre active. Trebuie să treceți la un plan cu plată pentru a putea activa mai multe filtre."
       ]
     },
+    "file size format": {
+      "bytes": [
+        "octeți"
+      ],
+      "KB": [
+        "KB"
+      ],
+      "MB": [
+        "MB"
+      ],
+      "GB": [
+        "GB"
+      ]
+    },
     "Validation": {
       "Password must contain at least ${ length } character": [
         "Parola trebuie să conțină cel puțin un caracter",
@@ -508,17 +519,6 @@
         "Adresa"
       ]
     },
-    "Message": {
-      "Re:": [
-        "Re:"
-      ],
-      "Fw:": [
-        "Fw:"
-      ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "${ name } ${ address } - ${ date } a scris:"
-      ]
-    },
     "Info": {
       "Session timed out.": [
         "Sesiune expirată."
@@ -564,9 +564,6 @@
         "(${ memberCount } membri)",
         "(${ memberCount } de membri)"
       ],
-      "Loading": [
-        "Se încarcă"
-      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Această legătură ar putea fi un atac omoglific (caractere asemănătoare dar cu cod diferit de caracter) și nu poate fi deschisă de către navigatoarele Internet Explorer și Edge. Dacă sunteți sigur că legătura este legitimă, folosiți un alt navigator pentru a o deschide."
       ],
@@ -578,6 +575,9 @@
       ],
       "Learn more": [
         "Detalii"
+      ],
+      "Loading": [
+        "Se încarcă"
       ],
       "Insert image": [
         "Inserare imagine"
@@ -698,9 +698,6 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Dacă aveți probleme cu crearea contului, solicitați o invitație și vom răspunde în termen de o zi lucrătoare."
-      ],
-      "support team": [
-        "echipa de suport"
       ],
       "No contacts added yet": [
         "Încă nu s-au adăugat contacte"
@@ -826,6 +823,27 @@
         "${ addressCount } adrese de e-mail",
         "${ addressCount } de adrese de e-mail"
       ],
+      "support team": [
+        "echipa de suport"
+      ],
+      "Unsupported file": [
+        "Fişier nesuportat"
+      ],
+      "No preview available": [
+        "Nu e disponibilă examinarea"
+      ],
+      "Preview": [
+        "Examinare"
+      ],
+      "Loading preview": [
+        "Se încarcă previzualizarea"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "Acest navigator nu acceptă previzualizarea documentelor PDF. Descărcați fișierul."
+      ],
+      "of": [
+        "din"
+      ],
       "Import contacts": [
         "Importare contacte"
       ],
@@ -855,24 +873,6 @@
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "Reîmprospătând pagina sau ${ link } veți rezolva majoritatea problemelor."
-      ],
-      "Unsupported file": [
-        "Fişier nesuportat"
-      ],
-      "No preview available": [
-        "Nu e disponibilă examinarea"
-      ],
-      "Preview": [
-        "Examinare"
-      ],
-      "Loading preview": [
-        "Se încarcă previzualizarea"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "Acest navigator nu acceptă previzualizarea documentelor PDF. Descărcați fișierul."
-      ],
-      "of": [
-        "din"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "Navigarea de bază și acțiunile rămân disponibile indiferent de combinațiile de taste care sunt active sau nu în setări."
@@ -3016,6 +3016,27 @@
       "OK": [
         "OK"
       ],
+      "Details": [
+        "Detalii"
+      ],
+      "Share via link": [
+        "Partajare prin legătură"
+      ],
+      "Sharing options": [
+        "Opțiuni de partajare"
+      ],
+      "Zoom out": [
+        "Micșorare"
+      ],
+      "Reset zoom": [
+        "Resetare dimensiune"
+      ],
+      "Zoom in": [
+        "Mărire"
+      ],
+      "Previous": [
+        "Anteriorul"
+      ],
       "Continue import": [
         "Continuare importare"
       ],
@@ -3039,27 +3060,6 @@
       ],
       "Show info": [
         "Afișare informații"
-      ],
-      "Details": [
-        "Detalii"
-      ],
-      "Share via link": [
-        "Partajare prin legătură"
-      ],
-      "Sharing options": [
-        "Opțiuni de partajare"
-      ],
-      "Zoom out": [
-        "Micșorare"
-      ],
-      "Reset zoom": [
-        "Resetare dimensiune"
-      ],
-      "Zoom in": [
-        "Mărire"
-      ],
-      "Previous": [
-        "Anteriorul"
       ],
       "Get started": [
         "Să începem"
@@ -3402,6 +3402,12 @@
       "Accept": [
         "Acceptare"
       ],
+      "Show": [
+        "Afișare"
+      ],
+      "Show less": [
+        "Afișare mai puțin"
+      ],
       "Never show": [
         "Nu mai arăta"
       ],
@@ -3428,9 +3434,6 @@
       ],
       "Hide": [
         "Ascundere"
-      ],
-      "Show": [
-        "Afișare"
       ],
       "Learn more": [
         "Detalii"
@@ -4120,36 +4123,6 @@
       "Add a gift code": [
         "Adăugare cod cadou"
       ],
-      "Inbox": [
-        "Primite"
-      ],
-      "Drafts": [
-        "Ciorne"
-      ],
-      "Sent": [
-        "Trimise"
-      ],
-      "Trash": [
-        "Gunoi"
-      ],
-      "Spam": [
-        "Nedorite"
-      ],
-      "All mail": [
-        "Toate mesajele"
-      ],
-      "Archive": [
-        "Arhivă"
-      ],
-      "Starred": [
-        "Cu stea"
-      ],
-      "Outbox": [
-        "De trimis"
-      ],
-      "Scheduled": [
-        "Programate"
-      ],
       "You need to activate your calendar keys to add this event": [
         "Trebuie să activați cheile calendarului pentru a adăuga acest eveniment"
       ],
@@ -4191,6 +4164,36 @@
       ],
       "Open in ${ calendarAppName }": [
         "Deschidere în ${ calendarAppName }"
+      ],
+      "Inbox": [
+        "Primite"
+      ],
+      "Drafts": [
+        "Ciorne"
+      ],
+      "Sent": [
+        "Trimise"
+      ],
+      "Trash": [
+        "Gunoi"
+      ],
+      "Spam": [
+        "Nedorite"
+      ],
+      "All mail": [
+        "Toate mesajele"
+      ],
+      "Archive": [
+        "Arhivă"
+      ],
+      "Starred": [
+        "Cu stea"
+      ],
+      "Outbox": [
+        "De trimis"
+      ],
+      "Scheduled": [
+        "Programate"
       ],
       "Re-enable the address linked to this calendar to manage your invitation.": [
         "Reactivați adresa asociată acestui calendar pentru a vă gestiona invitația."
@@ -4593,32 +4596,11 @@
       "Labels:": [
         "Etichete:"
       ],
-      "Start time": [
-        "Timp pornire"
-      ],
-      "End time": [
-        "Timp oprire"
-      ],
-      "Repeats": [
-        "Repetări"
-      ],
-      "Calendar": [
-        "Calendar"
+      "Keyword": [
+        "Cuvânt cheie"
       ],
       "Location": [
         "Loc"
-      ],
-      "Organizer": [
-        "Organizator"
-      ],
-      "Participant": [
-        "Participant"
-      ],
-      "Participants (${ totalParticipants })": [
-        "Participanți (${ totalParticipants })"
-      ],
-      "Keyword": [
-        "Cuvânt cheie"
       ],
       "From": [
         "De la"
@@ -6618,11 +6600,6 @@
         "Mâine"
       ]
     },
-    "Invitation details (all-day event)": {
-      "${ formattedDate } (all day)": [
-        "${ formattedDate } (toată ziua)"
-      ]
-    },
     "Calendar invite info": {
       "This response is out of date. This event has been updated.": [
         "Aceast răspuns este vechi. Acest eveniment a fost actualizat."
@@ -6753,29 +6730,14 @@
       "This invitation is out of date. The event has been updated.": [
         "Această invitație este veche. Evenimentul a fost modificat."
       ],
-      "Your attendance at this event is required.": [
-        "Participarea la acest eveniment este obligatorie."
+      "You already accepted this invitation.": [
+        "Ați acceptat deja această invitație."
       ],
-      "Your attendance at this event is optional.": [
-        "Participarea la acest eveniment este opțională."
+      "You already tentatively accepted this invitation.": [
+        "Ați acceptat deja această invitație în mod provizoriu."
       ],
-      "Your attendance at this event is required. You already accepted this invitation.": [
-        "Participarea la acest eveniment este obligatorie. Deja ați acceptat această invitație."
-      ],
-      "Your attendance at this event is optional. You already accepted this invitation.": [
-        "Participarea la această întâlnire este opțională. Deja ați acceptat această invitație."
-      ],
-      "Your attendance at this event is required. You already tentatively accepted this invitation.": [
-        "Participarea la acest eveniment este obligatorie. Deja ați acceptat provizoriu această invitație."
-      ],
-      "Your attendance at this event is optional. You already tentatively accepted this invitation.": [
-        "Participarea la acest eveniment este opțională. Deja ați acceptat provizoriu această invitație."
-      ],
-      "Your attendance at this event is required. You already declined this invitation.": [
-        "Participarea la acest eveniment este obligatorie. Deja ați refuzat această invitație."
-      ],
-      "Your attendance at this event is optional. You already declined this invitation.": [
-        "Participarea la acest eveniment este opțională. Deja ați refuzat această invitație."
+      "You already declined this invitation.": [
+        ""
       ],
       "This event has been cancelled.": [
         "Acest eveniment a fost anulat."
@@ -6785,6 +6747,9 @@
       ],
       "An occurrence has been added to the event ${ veventIcsTitle }": [
         "A fost adăugată o manifestare la evenimentul ${ veventIcsTitle }"
+      ],
+      "(Attendance optional)": [
+        ""
       ],
       "The sender of this email has not been invited to this event and cannot be added as a participant.": [
         "Expeditorul acestui e-mail nu a fost invitat la acest eveniment și nu poate fi adăugat ca participant."
@@ -6963,12 +6928,39 @@
         "Răspuns la invitație eșuat"
       ]
     },
+    "Calendar invite buttons label": {
+      "Attending?": [
+        ""
+      ]
+    },
     "Import ICS file from Mail": {
       "Calendar event created": [
         "Eveniment calendar creat"
       ],
       "Creating calendar event failed": [
         "Crearea evenimentului din calendar a eșuat"
+      ]
+    },
+    "ICS widget label for event details": {
+      "Organizer:": [
+        ""
+      ],
+      "${ totalAttendees } Participant": [
+        "",
+        "",
+        ""
+      ],
+      "Repeats": [
+        ""
+      ],
+      "Calendar": [
+        ""
+      ],
+      "Location": [
+        ""
+      ],
+      "Participants": [
+        ""
       ]
     },
     "Attachment signature verification": {

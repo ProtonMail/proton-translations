@@ -5,36 +5,18 @@
   },
   "contexts": {
     "": {},
-    "file size format": {
-      "bytes": [
-        "bájt"
+    "Message": {
+      "Re:": [
+        "Re:"
       ],
-      "KB": [
-        "KB"
+      "Fw:": [
+        "Fwd:"
       ],
-      "MB": [
-        "MB"
-      ],
-      "GB": [
-        "GB"
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "${ date } keltezéssel, ${ name } ${ address } írta:"
       ]
     },
     "Error": {
-      "This field is required": [
-        "A mező kitöltése kötelező"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Legalább ${ minimumLength } karakter szükséges ebben a mezőben."
-      ],
-      "Email is not valid": [
-        "Érvénytelen e-mail cím"
-      ],
-      "Not a valid number": [
-        "Érvénytelen szám"
-      ],
-      "Passwords do not match": [
-        "A jelszavak nem egyeznek"
-      ],
       "Email address disabled": [
         "Az e-mail cím le van tiltva"
       ],
@@ -58,6 +40,21 @@
       ],
       "The sending key is not valid": [
         "A küldő kulcs érvénytelen"
+      ],
+      "This field is required": [
+        "A mező kitöltése kötelező"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Legalább ${ minimumLength } karakter szükséges ebben a mezőben."
+      ],
+      "Email is not valid": [
+        "Érvénytelen e-mail cím"
+      ],
+      "Not a valid number": [
+        "Érvénytelen szám"
+      ],
+      "Passwords do not match": [
+        "A jelszavak nem egyeznek"
       ],
       "Request timed out.": [
         "A kérés túllépte az időkorlátot."
@@ -134,9 +131,6 @@
       "Invalid verification code": [
         "Érvénytelen ellenőrző kód"
       ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Hiba történt. Kérjük, ${ refresh } az oldalt a folytatáshoz. Ha a hiba továbbra is fennáll, kérjük lépjen velünk kapcsolatba: ${ supportTeam }."
-      ],
       "Some groups could not be deleted": [
         ""
       ],
@@ -178,14 +172,17 @@
       "A group with this name already exists": [
         "Már létezik csoport ezzel a névvel"
       ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Hiba történt. Kérjük, ${ refresh } az oldalt a folytatáshoz. Ha a hiba továbbra is fennáll, kérjük lépjen velünk kapcsolatba: ${ supportTeam }."
+      ],
+      "File has no contents to preview": [
+        "Nincs előnézeti tartalom"
+      ],
       "We were unable to connect to your service provider.": [
         "Nem lehet kapcsolódni a szolgáltatójához."
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "Próbálja meg újra az azonosítást vagy ellenőrizze a jogosultságok megadását."
-      ],
-      "File has no contents to preview": [
-        "Nincs előnézeti tartalom"
       ],
       "Process aborted": [
         "A folyamat megszakítva"
@@ -381,6 +378,20 @@
         "Túl sok bekapcsolt szűrő. Váltson nagyobb csomagra további szűrők bekapcsolásához"
       ]
     },
+    "file size format": {
+      "bytes": [
+        "bájt"
+      ],
+      "KB": [
+        "KB"
+      ],
+      "MB": [
+        "MB"
+      ],
+      "GB": [
+        "GB"
+      ]
+    },
     "Validation": {
       "Password must contain at least ${ length } character": [
         "A jelszónak legalább ${ length } karakterből kell állnia",
@@ -501,17 +512,6 @@
         "Cím"
       ]
     },
-    "Message": {
-      "Re:": [
-        "Re:"
-      ],
-      "Fw:": [
-        "Fwd:"
-      ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "${ date } keltezéssel, ${ name } ${ address } írta:"
-      ]
-    },
     "Info": {
       "Session timed out.": [
         "A munkamenet lejárt."
@@ -556,9 +556,6 @@
         "(${ memberCount } tag)",
         "(${ memberCount } tagok)"
       ],
-      "Loading": [
-        "Betöltés"
-      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Ez a link egy hamisított címre mutató (homográf) támadásnak néz ki. Internet Explorerben és Edge-ben nem nyitható meg. Ha biztos benne, hogy ez egy érvényes link, használjon egy másik böngészőt a megnyitáshoz."
       ],
@@ -570,6 +567,9 @@
       ],
       "Learn more": [
         "További információk"
+      ],
+      "Loading": [
+        "Betöltés"
       ],
       "Insert image": [
         "Kép beillesztése"
@@ -691,9 +691,6 @@
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Ha problémába ütközik a fiók létrehozásakor, kérjen egy meghívót és egy munkanapon belül segítséget nyújtunk."
       ],
-      "support team": [
-        "ügyfélszolgálat"
-      ],
       "No contacts added yet": [
         "Még nincsenek névjegyek"
       ],
@@ -813,6 +810,27 @@
         "${ addressCount } e-mail cím",
         "${ addressCount } e-mail cím"
       ],
+      "support team": [
+        "ügyfélszolgálat"
+      ],
+      "Unsupported file": [
+        "Ismeretlen file"
+      ],
+      "No preview available": [
+        "Előnézet nem érhető el"
+      ],
+      "Preview": [
+        "Előnézet"
+      ],
+      "Loading preview": [
+        "Előnézet betöltése"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "Ez a böngésző nem támogatja a PDF fájlok megjelenítését. Töltse le a fájlt."
+      ],
+      "of": [
+        "/"
+      ],
       "Import contacts": [
         "Névjegyek importálása"
       ],
@@ -842,24 +860,6 @@
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "Az oldal frissítése vagy a ${ link } automatikusan megoldja a legtöbb problémát."
-      ],
-      "Unsupported file": [
-        "Ismeretlen file"
-      ],
-      "No preview available": [
-        "Előnézet nem érhető el"
-      ],
-      "Preview": [
-        "Előnézet"
-      ],
-      "Loading preview": [
-        "Előnézet betöltése"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "Ez a böngésző nem támogatja a PDF fájlok megjelenítését. Töltse le a fájlt."
-      ],
-      "of": [
-        "/"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "Az alapvető navigációs lehetőségek akkor is megmaradnak, ha a beállításokban letiltotta a gyorsbillentyűket."
@@ -2929,6 +2929,27 @@
       "OK": [
         "OK"
       ],
+      "Details": [
+        "Részletek"
+      ],
+      "Share via link": [
+        "Megosztás hivatkozással"
+      ],
+      "Sharing options": [
+        "Megosztási beállítások"
+      ],
+      "Zoom out": [
+        "Távolítás"
+      ],
+      "Reset zoom": [
+        "Nagyítás alaphelyzetbe"
+      ],
+      "Zoom in": [
+        "Közelítés"
+      ],
+      "Previous": [
+        "Előző"
+      ],
       "Continue import": [
         "Importálás folytatása"
       ],
@@ -2952,27 +2973,6 @@
       ],
       "Show info": [
         "Információ megjelenítése"
-      ],
-      "Details": [
-        "Részletek"
-      ],
-      "Share via link": [
-        "Megosztás hivatkozással"
-      ],
-      "Sharing options": [
-        "Megosztási beállítások"
-      ],
-      "Zoom out": [
-        "Távolítás"
-      ],
-      "Reset zoom": [
-        "Nagyítás alaphelyzetbe"
-      ],
-      "Zoom in": [
-        "Közelítés"
-      ],
-      "Previous": [
-        "Előző"
       ],
       "Get started": [
         "Kezdés"
@@ -3314,6 +3314,12 @@
       "Accept": [
         "Elfogadás"
       ],
+      "Show": [
+        "Megjelenítés"
+      ],
+      "Show less": [
+        ""
+      ],
       "Never show": [
         "Elrejtés"
       ],
@@ -3340,9 +3346,6 @@
       ],
       "Hide": [
         "Elrejtés"
-      ],
-      "Show": [
-        "Megjelenítés"
       ],
       "Learn more": [
         "További információk"
@@ -4024,36 +4027,6 @@
       "Add a gift code": [
         "Ajándék kód hozzáadása"
       ],
-      "Inbox": [
-        "Beérkezett üzenetek"
-      ],
-      "Drafts": [
-        "Piszkozatok"
-      ],
-      "Sent": [
-        "Elküldött"
-      ],
-      "Trash": [
-        "Lomtár"
-      ],
-      "Spam": [
-        "Levélszemét"
-      ],
-      "All mail": [
-        "Összes levél"
-      ],
-      "Archive": [
-        "Archívum"
-      ],
-      "Starred": [
-        "Csillagozott"
-      ],
-      "Outbox": [
-        "Kimenő"
-      ],
-      "Scheduled": [
-        "Ütemezés"
-      ],
       "You need to activate your calendar keys to add this event": [
         ""
       ],
@@ -4095,6 +4068,36 @@
       ],
       "Open in ${ calendarAppName }": [
         "Megnyitás: ${ calendarAppName }"
+      ],
+      "Inbox": [
+        "Beérkezett üzenetek"
+      ],
+      "Drafts": [
+        "Piszkozatok"
+      ],
+      "Sent": [
+        "Elküldött"
+      ],
+      "Trash": [
+        "Lomtár"
+      ],
+      "Spam": [
+        "Levélszemét"
+      ],
+      "All mail": [
+        "Összes levél"
+      ],
+      "Archive": [
+        "Archívum"
+      ],
+      "Starred": [
+        "Csillagozott"
+      ],
+      "Outbox": [
+        "Kimenő"
+      ],
+      "Scheduled": [
+        "Ütemezés"
       ],
       "Re-enable the address linked to this calendar to manage your invitation.": [
         "A meghívó kezeléséhez, engedélyezze újra a naptárhoz tartozó címét."
@@ -4497,32 +4500,11 @@
       "Labels:": [
         "Címkék:"
       ],
-      "Start time": [
-        "Kezdés"
-      ],
-      "End time": [
-        "Befejezés"
-      ],
-      "Repeats": [
-        "Ismétlődik"
-      ],
-      "Calendar": [
-        "Naptár"
+      "Keyword": [
+        "Kulcsszó"
       ],
       "Location": [
         "Hely"
-      ],
-      "Organizer": [
-        "Szervező"
-      ],
-      "Participant": [
-        "Résztvevő"
-      ],
-      "Participants (${ totalParticipants })": [
-        "Résztvevők (${ totalParticipants })"
-      ],
-      "Keyword": [
-        "Kulcsszó"
       ],
       "From": [
         "Feladó"
@@ -6473,11 +6455,6 @@
         ""
       ]
     },
-    "Invitation details (all-day event)": {
-      "${ formattedDate } (all day)": [
-        "${ formattedDate } (egész nap)"
-      ]
-    },
     "Calendar invite info": {
       "This response is out of date. This event has been updated.": [
         "Ez a válasz elavult. Az eseményt frissítették."
@@ -6608,29 +6585,14 @@
       "This invitation is out of date. The event has been updated.": [
         "A meghívó elavult. Az eseményt frissítették."
       ],
-      "Your attendance at this event is required.": [
-        "A részvétele ezen az eseményen feltétlen szükséges."
+      "You already accepted this invitation.": [
+        ""
       ],
-      "Your attendance at this event is optional.": [
-        "A részvétele ezen az eseményen opcionális."
+      "You already tentatively accepted this invitation.": [
+        ""
       ],
-      "Your attendance at this event is required. You already accepted this invitation.": [
-        "A részvétele ezen az eseményen feltétlen szükséges. Ön már elfogadta ezt a meghívót."
-      ],
-      "Your attendance at this event is optional. You already accepted this invitation.": [
-        "A részvétele ezen az eseményen opcionális. Ön már elfogadta ezt a meghívót."
-      ],
-      "Your attendance at this event is required. You already tentatively accepted this invitation.": [
-        "A részvétele ezen az eseményen feltétlen szükséges. Ön már feltételesen elfogadta ezt a meghívót."
-      ],
-      "Your attendance at this event is optional. You already tentatively accepted this invitation.": [
-        "A részvétele ezen az eseményen opcionális. Ön már feltételesen elfogadta ezt a meghívót."
-      ],
-      "Your attendance at this event is required. You already declined this invitation.": [
-        "A részvétele ezen az eseményen feltétlen szükséges. Ön már elutasította ezt a meghívót."
-      ],
-      "Your attendance at this event is optional. You already declined this invitation.": [
-        "A részvétele ezen az eseményen opcionális. Ön már elutasította ezt a meghívót."
+      "You already declined this invitation.": [
+        ""
       ],
       "This event has been cancelled.": [
         "Ezt az eseményt törölték."
@@ -6640,6 +6602,9 @@
       ],
       "An occurrence has been added to the event ${ veventIcsTitle }": [
         "Egy alkalom került hozzáadásra az eseményéhez: ${ veventIcsTitle }"
+      ],
+      "(Attendance optional)": [
+        ""
       ],
       "The sender of this email has not been invited to this event and cannot be added as a participant.": [
         "Az e-mail feladója nincs meghívva az eseményre, ezért nem adható hozzá résztvevőként."
@@ -6812,12 +6777,38 @@
         "A meghívó megválaszolása nem sikerült"
       ]
     },
+    "Calendar invite buttons label": {
+      "Attending?": [
+        ""
+      ]
+    },
     "Import ICS file from Mail": {
       "Calendar event created": [
         "Esemény létrehozva"
       ],
       "Creating calendar event failed": [
         "Esemény létrehozása nem sikerült"
+      ]
+    },
+    "ICS widget label for event details": {
+      "Organizer:": [
+        ""
+      ],
+      "${ totalAttendees } Participant": [
+        "",
+        ""
+      ],
+      "Repeats": [
+        ""
+      ],
+      "Calendar": [
+        ""
+      ],
+      "Location": [
+        ""
+      ],
+      "Participants": [
+        ""
       ]
     },
     "Attachment signature verification": {

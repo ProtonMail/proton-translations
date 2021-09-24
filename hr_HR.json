@@ -5,36 +5,18 @@
   },
   "contexts": {
     "": {},
-    "file size format": {
-      "bytes": [
-        "bajtova"
+    "Message": {
+      "Re:": [
+        "Re:"
       ],
-      "KB": [
-        "KB"
+      "Fw:": [
+        "Fw:"
       ],
-      "MB": [
-        "MB"
-      ],
-      "GB": [
-        "GB"
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "Dana ${ date }, ${ name } ${ address } je napisao/la:"
       ]
     },
     "Error": {
-      "This field is required": [
-        "Ovo polje je obavezno"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Ovo polje zahtjeva najmanje ${ minimumLength } znakova."
-      ],
-      "Email is not valid": [
-        "Adresa e-pošte nije važeća"
-      ],
-      "Not a valid number": [
-        "Broj telefona nije važeći"
-      ],
-      "Passwords do not match": [
-        "Lozinke se ne poklapaju"
-      ],
       "Email address disabled": [
         "Adresa e-pošte je onemogućena"
       ],
@@ -58,6 +40,21 @@
       ],
       "The sending key is not valid": [
         "Ključ slanja nije važeći"
+      ],
+      "This field is required": [
+        "Ovo polje je obavezno"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Ovo polje zahtjeva najmanje ${ minimumLength } znakova."
+      ],
+      "Email is not valid": [
+        "Adresa e-pošte nije važeća"
+      ],
+      "Not a valid number": [
+        "Broj telefona nije važeći"
+      ],
+      "Passwords do not match": [
+        "Lozinke se ne poklapaju"
       ],
       "Request timed out.": [
         "Zahtjev je istekao."
@@ -134,9 +131,6 @@
       "Invalid verification code": [
         "Nevažeći kôd za provjeru"
       ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Nešto je pošlo po zlu. Molimo ${ refresh } kako biste nastavili. Ako i dalje vidite ovu poruku o pogrešci, kontaktirajte naš ${ supportTeam }."
-      ],
       "Some groups could not be deleted": [
         "Nije moguće brisanje nekih grupa"
       ],
@@ -180,14 +174,17 @@
       "A group with this name already exists": [
         "Grupa s ovim nazivom već postoji"
       ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Nešto je pošlo po zlu. Molimo ${ refresh } kako biste nastavili. Ako i dalje vidite ovu poruku o pogrešci, kontaktirajte naš ${ supportTeam }."
+      ],
+      "File has no contents to preview": [
+        "Datoteka nema sadržaja za pregled"
+      ],
       "We were unable to connect to your service provider.": [
         "Neuspješno povezivanje s vašim davateljem usluga."
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "Pokušajte ponovno potvrditi identitet i provjeriti jesu li dopuštenja ispravno postavljena."
-      ],
-      "File has no contents to preview": [
-        "Datoteka nema sadržaja za pregled"
       ],
       "Process aborted": [
         "Proces je prekinut"
@@ -387,6 +384,20 @@
         "Previše aktivnih filtara. Nadogradite na plaćeni plan da aktivirate više filtara"
       ]
     },
+    "file size format": {
+      "bytes": [
+        "bajtova"
+      ],
+      "KB": [
+        "KB"
+      ],
+      "MB": [
+        "MB"
+      ],
+      "GB": [
+        "GB"
+      ]
+    },
     "Validation": {
       "Password must contain at least ${ length } character": [
         "Lozinka mora sadržavati najmanje ${ length } znak",
@@ -508,17 +519,6 @@
         "Adresa"
       ]
     },
-    "Message": {
-      "Re:": [
-        "Re:"
-      ],
-      "Fw:": [
-        "Fw:"
-      ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "Dana ${ date }, ${ name } ${ address } je napisao/la:"
-      ]
-    },
     "Info": {
       "Session timed out.": [
         "Sesija je istekla."
@@ -564,9 +564,6 @@
         "(${ memberCount } člana)",
         "(${ memberCount } članova)"
       ],
-      "Loading": [
-        "Učitavanje"
-      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Ova poveznica može biti homografski napad i ne može je otvoriti preglednik Internet Explorer i Edge. Ako ste sigurni da je poveznica legitimna, upotrijebite drugi preglednik da biste je otvorili."
       ],
@@ -578,6 +575,9 @@
       ],
       "Learn more": [
         "Saznajte više"
+      ],
+      "Loading": [
+        "Učitavanje"
       ],
       "Insert image": [
         "Umetni sliku"
@@ -698,9 +698,6 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Ako imate poteškoća s otvaranjem računa, zatražite pozivnicu i odgovorit ćemo vam u roku jednog radnog dana."
-      ],
-      "support team": [
-        "tim za podršku"
       ],
       "No contacts added yet": [
         "Nema dodanih kontakata"
@@ -826,6 +823,27 @@
         "${ addressCount } adrese e-pošte",
         "${ addressCount } adresa e-pošte"
       ],
+      "support team": [
+        "tim za podršku"
+      ],
+      "Unsupported file": [
+        "Nepodržana datoteka"
+      ],
+      "No preview available": [
+        "Pregled nije dostupan"
+      ],
+      "Preview": [
+        "Pregled"
+      ],
+      "Loading preview": [
+        "Učitavanje pregleda"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "Ovaj preglednik ne podržava pregled PDF dokumenata. Preuzmite datoteku."
+      ],
+      "of": [
+        "od"
+      ],
       "Import contacts": [
         "Uvezi kontakte"
       ],
@@ -855,24 +873,6 @@
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "Osvježavanje stranice ili ${ link } će automatski riješiti većinu problema."
-      ],
-      "Unsupported file": [
-        "Nepodržana datoteka"
-      ],
-      "No preview available": [
-        "Pregled nije dostupan"
-      ],
-      "Preview": [
-        "Pregled"
-      ],
-      "Loading preview": [
-        "Učitavanje pregleda"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "Ovaj preglednik ne podržava pregled PDF dokumenata. Preuzmite datoteku."
-      ],
-      "of": [
-        "od"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "Osnovna navigacija i radnje ostaju dostupni bez obzira jesu li tipkovni prečaci aktivni ili ne u postavkama."
@@ -3016,6 +3016,27 @@
       "OK": [
         "U redu"
       ],
+      "Details": [
+        "Pojedinosti"
+      ],
+      "Share via link": [
+        "Podijeli putem poveznice"
+      ],
+      "Sharing options": [
+        "Opcije dijeljenja"
+      ],
+      "Zoom out": [
+        "Smanji"
+      ],
+      "Reset zoom": [
+        "Poništi zumiranje"
+      ],
+      "Zoom in": [
+        "Povećaj"
+      ],
+      "Previous": [
+        "Prethodno"
+      ],
       "Continue import": [
         "Nastavi uvoz"
       ],
@@ -3039,27 +3060,6 @@
       ],
       "Show info": [
         "Prikaži informacije"
-      ],
-      "Details": [
-        "Pojedinosti"
-      ],
-      "Share via link": [
-        "Podijeli putem poveznice"
-      ],
-      "Sharing options": [
-        "Opcije dijeljenja"
-      ],
-      "Zoom out": [
-        "Smanji"
-      ],
-      "Reset zoom": [
-        "Poništi zumiranje"
-      ],
-      "Zoom in": [
-        "Povećaj"
-      ],
-      "Previous": [
-        "Prethodno"
       ],
       "Get started": [
         "Započnite"
@@ -3402,6 +3402,12 @@
       "Accept": [
         "Prihvati"
       ],
+      "Show": [
+        "Prikaži"
+      ],
+      "Show less": [
+        ""
+      ],
       "Never show": [
         "Više ne prikazuj"
       ],
@@ -3428,9 +3434,6 @@
       ],
       "Hide": [
         "Sakrij"
-      ],
-      "Show": [
-        "Prikaži"
       ],
       "Learn more": [
         "Saznajte više"
@@ -4120,36 +4123,6 @@
       "Add a gift code": [
         "Dodaj darovni kôd"
       ],
-      "Inbox": [
-        "Pristigla pošta"
-      ],
-      "Drafts": [
-        "Skice"
-      ],
-      "Sent": [
-        "Poslano"
-      ],
-      "Trash": [
-        "Otpad"
-      ],
-      "Spam": [
-        "Neželjena pošta"
-      ],
-      "All mail": [
-        "Sva pošta"
-      ],
-      "Archive": [
-        "Arhiva"
-      ],
-      "Starred": [
-        "Sa zvjezdicom"
-      ],
-      "Outbox": [
-        "Odlazni spremnik"
-      ],
-      "Scheduled": [
-        "Zakazano"
-      ],
       "You need to activate your calendar keys to add this event": [
         ""
       ],
@@ -4191,6 +4164,36 @@
       ],
       "Open in ${ calendarAppName }": [
         "Otvori u ${ calendarAppName }"
+      ],
+      "Inbox": [
+        "Pristigla pošta"
+      ],
+      "Drafts": [
+        "Skice"
+      ],
+      "Sent": [
+        "Poslano"
+      ],
+      "Trash": [
+        "Otpad"
+      ],
+      "Spam": [
+        "Neželjena pošta"
+      ],
+      "All mail": [
+        "Sva pošta"
+      ],
+      "Archive": [
+        "Arhiva"
+      ],
+      "Starred": [
+        "Sa zvjezdicom"
+      ],
+      "Outbox": [
+        "Odlazni spremnik"
+      ],
+      "Scheduled": [
+        "Zakazano"
       ],
       "Re-enable the address linked to this calendar to manage your invitation.": [
         "Ponovno omogućite adresu povezanu s ovim kalendarom za upravljanje vašom pozivnicom."
@@ -4593,32 +4596,11 @@
       "Labels:": [
         "Oznake:"
       ],
-      "Start time": [
-        "Vrijeme početka"
-      ],
-      "End time": [
-        "Vrijeme završetka"
-      ],
-      "Repeats": [
-        "Ponavljanja"
-      ],
-      "Calendar": [
-        "Kalendar"
+      "Keyword": [
+        "Ključna riječ"
       ],
       "Location": [
         "Lokacija"
-      ],
-      "Organizer": [
-        "Organizator"
-      ],
-      "Participant": [
-        "Sudionik"
-      ],
-      "Participants (${ totalParticipants })": [
-        "Sudionici (${ totalParticipants })"
-      ],
-      "Keyword": [
-        "Ključna riječ"
       ],
       "From": [
         "Od"
@@ -6618,11 +6600,6 @@
         "Sutra"
       ]
     },
-    "Invitation details (all-day event)": {
-      "${ formattedDate } (all day)": [
-        "${ formattedDate } (cijeli dan)"
-      ]
-    },
     "Calendar invite info": {
       "This response is out of date. This event has been updated.": [
         "Ovaj odgovor je zastario. Ovaj je događaj ažuriran."
@@ -6753,29 +6730,14 @@
       "This invitation is out of date. The event has been updated.": [
         "Ova pozivnica je zastarjela. Događaj je ažuriran."
       ],
-      "Your attendance at this event is required.": [
-        "Vaša prisutnost na ovom događaju je obavezna."
+      "You already accepted this invitation.": [
+        ""
       ],
-      "Your attendance at this event is optional.": [
-        "Vaša prisutnost na ovom događaju nije obavezna."
+      "You already tentatively accepted this invitation.": [
+        ""
       ],
-      "Your attendance at this event is required. You already accepted this invitation.": [
-        "Vaše prisustvo ovom događaju je obavezno. Već ste prihvatili pozivnicu."
-      ],
-      "Your attendance at this event is optional. You already accepted this invitation.": [
-        "Vaše prisustvo ovom događaju nije obavezno. Već ste prihvatili pozivnicu."
-      ],
-      "Your attendance at this event is required. You already tentatively accepted this invitation.": [
-        "Vaše prisustvo ovom događaju je obavezno. Već ste uvjetno prihvatili pozivnicu."
-      ],
-      "Your attendance at this event is optional. You already tentatively accepted this invitation.": [
-        "Vaše prisustvo ovom događaju nije obavezno. Već ste uvjetno prihvatili pozivnicu."
-      ],
-      "Your attendance at this event is required. You already declined this invitation.": [
-        "Vaše prisustvo ovom događaju je obavezno. Već ste odbili pozivnicu."
-      ],
-      "Your attendance at this event is optional. You already declined this invitation.": [
-        "Vaše prisustvo ovom događaju nije obavezno. Već ste odbili pozivnicu."
+      "You already declined this invitation.": [
+        ""
       ],
       "This event has been cancelled.": [
         "Događaj je otkazan."
@@ -6785,6 +6747,9 @@
       ],
       "An occurrence has been added to the event ${ veventIcsTitle }": [
         "Ponavljanje je dodano događaju ${ veventIcsTitle }"
+      ],
+      "(Attendance optional)": [
+        ""
       ],
       "The sender of this email has not been invited to this event and cannot be added as a participant.": [
         "Pošiljatelj ove e-poruke nije pozvan na ovaj događaj i ne može se dodati kao sudionik."
@@ -6963,12 +6928,39 @@
         "Odgovaranje na pozivnicu nije uspjelo"
       ]
     },
+    "Calendar invite buttons label": {
+      "Attending?": [
+        ""
+      ]
+    },
     "Import ICS file from Mail": {
       "Calendar event created": [
         "Događaj je stvoren"
       ],
       "Creating calendar event failed": [
         "Stvaranje kalendarskog događaja nije uspjelo"
+      ]
+    },
+    "ICS widget label for event details": {
+      "Organizer:": [
+        ""
+      ],
+      "${ totalAttendees } Participant": [
+        "",
+        "",
+        ""
+      ],
+      "Repeats": [
+        ""
+      ],
+      "Calendar": [
+        ""
+      ],
+      "Location": [
+        ""
+      ],
+      "Participants": [
+        ""
       ]
     },
     "Attachment signature verification": {

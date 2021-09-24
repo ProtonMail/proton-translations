@@ -5,36 +5,18 @@
   },
   "contexts": {
     "": {},
-    "file size format": {
-      "bytes": [
-        "字节"
+    "Message": {
+      "Re:": [
+        "回复："
       ],
-      "KB": [
-        "KB"
+      "Fw:": [
+        "转发："
       ],
-      "MB": [
-        "MB"
-      ],
-      "GB": [
-        "GB"
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "${ date }，${ name } ${ address } 来信："
       ]
     },
     "Error": {
-      "This field is required": [
-        "此项必须填写"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "该字段至少需要 ${ minimumLength } 个字符。"
-      ],
-      "Email is not valid": [
-        "无效邮箱"
-      ],
-      "Not a valid number": [
-        "无效号码"
-      ],
-      "Passwords do not match": [
-        "密码不匹配"
-      ],
       "Email address disabled": [
         "邮件地址已禁用"
       ],
@@ -58,6 +40,21 @@
       ],
       "The sending key is not valid": [
         "发送密钥无效"
+      ],
+      "This field is required": [
+        "此项必须填写"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "该字段至少需要 ${ minimumLength } 个字符。"
+      ],
+      "Email is not valid": [
+        "无效邮箱"
+      ],
+      "Not a valid number": [
+        "无效号码"
+      ],
+      "Passwords do not match": [
+        "密码不匹配"
       ],
       "Request timed out.": [
         "请求超时。"
@@ -134,9 +131,6 @@
       "Invalid verification code": [
         "验证码无效"
       ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "发生错误，请${ refresh }后重试。若仍出现此错误，请联系我们的${ supportTeam }。"
-      ],
       "Some groups could not be deleted": [
         "无法删除部分群组"
       ],
@@ -176,14 +170,17 @@
       "A group with this name already exists": [
         "已存在同名群组"
       ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "发生错误，请${ refresh }后重试。若仍出现此错误，请联系我们的${ supportTeam }。"
+      ],
+      "File has no contents to preview": [
+        "文件没有内容可预览"
+      ],
       "We were unable to connect to your service provider.": [
         "我们无法连接到您的服务提供商。"
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "请尝试重新验证并确保权限正确。"
-      ],
-      "File has no contents to preview": [
-        "文件没有内容可预览"
       ],
       "Process aborted": [
         "操作已中止"
@@ -375,6 +372,20 @@
         "规则数量已达上限，须开通付费账户方可启用更多筛选规则"
       ]
     },
+    "file size format": {
+      "bytes": [
+        "字节"
+      ],
+      "KB": [
+        "KB"
+      ],
+      "MB": [
+        "MB"
+      ],
+      "GB": [
+        "GB"
+      ]
+    },
     "Validation": {
       "Password must contain at least ${ length } character": [
         "密码必须至少包含 ${ length } 个字符"
@@ -494,17 +505,6 @@
         "地址"
       ]
     },
-    "Message": {
-      "Re:": [
-        "回复："
-      ],
-      "Fw:": [
-        "转发："
-      ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "${ date }，${ name } ${ address } 来信："
-      ]
-    },
     "Info": {
       "Session timed out.": [
         "会话已超时。"
@@ -548,9 +548,6 @@
       "(${ memberCount } member)": [
         "（${ memberCount } 位成员）"
       ],
-      "Loading": [
-        "加载中"
-      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "此链接可能使用了欺骗性域名，Internet Explorer 和 Edge 浏览器无法打开。若您确认链接可靠，可使用其他浏览器打开。"
       ],
@@ -562,6 +559,9 @@
       ],
       "Learn more": [
         "了解详情"
+      ],
+      "Loading": [
+        "加载中"
       ],
       "Insert image": [
         "插入图片"
@@ -683,9 +683,6 @@
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "若您创建账户存在困难，请提交注册申请，我们将在一个工作日内回复。"
       ],
-      "support team": [
-        "客服团队"
-      ],
       "No contacts added yet": [
         "尚未添加联系人"
       ],
@@ -800,6 +797,27 @@
       "${ addressCount } email address": [
         "${ addressCount } 个邮箱地址"
       ],
+      "support team": [
+        "客服团队"
+      ],
+      "Unsupported file": [
+        "不支持文件"
+      ],
+      "No preview available": [
+        "没有可用的预览"
+      ],
+      "Preview": [
+        "预览"
+      ],
+      "Loading preview": [
+        "正在载入预览"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "您目前使用的浏览器不支持查看 PDF 文件，请下载后打开。"
+      ],
+      "of": [
+        "，共"
+      ],
       "Import contacts": [
         "导入联系人"
       ],
@@ -829,24 +847,6 @@
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "大多数问题都能通过刷新页面或${ link }来解决。"
-      ],
-      "Unsupported file": [
-        "不支持文件"
-      ],
-      "No preview available": [
-        "没有可用的预览"
-      ],
-      "Preview": [
-        "预览"
-      ],
-      "Loading preview": [
-        "正在载入预览"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "您目前使用的浏览器不支持查看 PDF 文件，请下载后打开。"
-      ],
-      "of": [
-        "，共"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "无论您是否开启快捷键，一些基本的导航和操作始终可用。"
@@ -2842,6 +2842,27 @@
       "OK": [
         "确定"
       ],
+      "Details": [
+        "详细信息"
+      ],
+      "Share via link": [
+        "通过链接分享"
+      ],
+      "Sharing options": [
+        "共享选项"
+      ],
+      "Zoom out": [
+        "缩小"
+      ],
+      "Reset zoom": [
+        "重置缩放"
+      ],
+      "Zoom in": [
+        "放大"
+      ],
+      "Previous": [
+        "前一页"
+      ],
       "Continue import": [
         "继续导入"
       ],
@@ -2865,27 +2886,6 @@
       ],
       "Show info": [
         "显示信息"
-      ],
-      "Details": [
-        "详细信息"
-      ],
-      "Share via link": [
-        "通过链接分享"
-      ],
-      "Sharing options": [
-        "共享选项"
-      ],
-      "Zoom out": [
-        "缩小"
-      ],
-      "Reset zoom": [
-        "重置缩放"
-      ],
-      "Zoom in": [
-        "放大"
-      ],
-      "Previous": [
-        "前一页"
       ],
       "Get started": [
         "入门"
@@ -3226,6 +3226,12 @@
       "Accept": [
         "接受"
       ],
+      "Show": [
+        "显示"
+      ],
+      "Show less": [
+        ""
+      ],
       "Never show": [
         "不再显示"
       ],
@@ -3252,9 +3258,6 @@
       ],
       "Hide": [
         "隐藏"
-      ],
-      "Show": [
-        "显示"
       ],
       "Learn more": [
         "了解详情"
@@ -3928,36 +3931,6 @@
       "Add a gift code": [
         "使用礼品码"
       ],
-      "Inbox": [
-        "收件箱"
-      ],
-      "Drafts": [
-        "草稿"
-      ],
-      "Sent": [
-        "已发送"
-      ],
-      "Trash": [
-        "回收站"
-      ],
-      "Spam": [
-        "垃圾邮件"
-      ],
-      "All mail": [
-        "所有邮件"
-      ],
-      "Archive": [
-        "归档"
-      ],
-      "Starred": [
-        "已加星标"
-      ],
-      "Outbox": [
-        "发件箱"
-      ],
-      "Scheduled": [
-        "定时发送"
-      ],
       "You need to activate your calendar keys to add this event": [
         "您需要激活您的日历密钥才能添加此日程"
       ],
@@ -3999,6 +3972,36 @@
       ],
       "Open in ${ calendarAppName }": [
         "在 ${ calendarAppName } 中打开"
+      ],
+      "Inbox": [
+        "收件箱"
+      ],
+      "Drafts": [
+        "草稿"
+      ],
+      "Sent": [
+        "已发送"
+      ],
+      "Trash": [
+        "回收站"
+      ],
+      "Spam": [
+        "垃圾邮件"
+      ],
+      "All mail": [
+        "所有邮件"
+      ],
+      "Archive": [
+        "归档"
+      ],
+      "Starred": [
+        "已加星标"
+      ],
+      "Outbox": [
+        "发件箱"
+      ],
+      "Scheduled": [
+        "定时发送"
       ],
       "Re-enable the address linked to this calendar to manage your invitation.": [
         "重新启用与本日历关联的地址以管理您的邀请。"
@@ -4401,32 +4404,11 @@
       "Labels:": [
         "标记："
       ],
-      "Start time": [
-        "开始时间"
-      ],
-      "End time": [
-        "结束时间"
-      ],
-      "Repeats": [
-        "重复"
-      ],
-      "Calendar": [
-        "日历"
+      "Keyword": [
+        "关键词"
       ],
       "Location": [
         "位置"
-      ],
-      "Organizer": [
-        "组织者"
-      ],
-      "Participant": [
-        "参与者"
-      ],
-      "Participants (${ totalParticipants })": [
-        "参与者 (${ totalParticipants })"
-      ],
-      "Keyword": [
-        "关键词"
       ],
       "From": [
         "发件人"
@@ -6328,11 +6310,6 @@
         "明天"
       ]
     },
-    "Invitation details (all-day event)": {
-      "${ formattedDate } (all day)": [
-        "${ formattedDate } (全天)"
-      ]
-    },
     "Calendar invite info": {
       "This response is out of date. This event has been updated.": [
         "此回复已过期，本活动已更新。"
@@ -6463,29 +6440,14 @@
       "This invitation is out of date. The event has been updated.": [
         "此邀请已过期。活动已更新。"
       ],
-      "Your attendance at this event is required.": [
-        "您必须参加本次活动。"
+      "You already accepted this invitation.": [
+        ""
       ],
-      "Your attendance at this event is optional.": [
-        "您可自由参加本次活动。"
+      "You already tentatively accepted this invitation.": [
+        ""
       ],
-      "Your attendance at this event is required. You already accepted this invitation.": [
-        "您必须参加本次活动，您已接受邀请。"
-      ],
-      "Your attendance at this event is optional. You already accepted this invitation.": [
-        "您可自由参加本次活动，您已接受邀请。"
-      ],
-      "Your attendance at this event is required. You already tentatively accepted this invitation.": [
-        "您必须参加本次活动，您已暂时接受邀请。"
-      ],
-      "Your attendance at this event is optional. You already tentatively accepted this invitation.": [
-        "您可自由参加本次活动，您已暂时接受邀请。"
-      ],
-      "Your attendance at this event is required. You already declined this invitation.": [
-        "您必须参加本次活动，您已拒绝邀请。"
-      ],
-      "Your attendance at this event is optional. You already declined this invitation.": [
-        "您可自由参加本次活动，您已拒绝邀请。"
+      "You already declined this invitation.": [
+        ""
       ],
       "This event has been cancelled.": [
         "此事项已被取消。"
@@ -6495,6 +6457,9 @@
       ],
       "An occurrence has been added to the event ${ veventIcsTitle }": [
         "一次活动已添加到活动 ${ veventIcsTitle }"
+      ],
+      "(Attendance optional)": [
+        ""
       ],
       "The sender of this email has not been invited to this event and cannot be added as a participant.": [
         "此邮件的发件人尚未受邀参加此活动，因此无法添加为参与者。"
@@ -6661,12 +6626,37 @@
         "回复邀请失败"
       ]
     },
+    "Calendar invite buttons label": {
+      "Attending?": [
+        ""
+      ]
+    },
     "Import ICS file from Mail": {
       "Calendar event created": [
         "日历事项已创建"
       ],
       "Creating calendar event failed": [
         "创建日历事项失败"
+      ]
+    },
+    "ICS widget label for event details": {
+      "Organizer:": [
+        ""
+      ],
+      "${ totalAttendees } Participant": [
+        ""
+      ],
+      "Repeats": [
+        ""
+      ],
+      "Calendar": [
+        ""
+      ],
+      "Location": [
+        ""
+      ],
+      "Participants": [
+        ""
       ]
     },
     "Attachment signature verification": {

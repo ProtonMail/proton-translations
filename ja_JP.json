@@ -5,36 +5,18 @@
   },
   "contexts": {
     "": {},
-    "file size format": {
-      "bytes": [
-        "バイト"
+    "Message": {
+      "Re:": [
+        "Re:"
       ],
-      "KB": [
-        "KB"
+      "Fw:": [
+        "Fw:"
       ],
-      "MB": [
-        "MB"
-      ],
-      "GB": [
-        "GB"
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "${ date } に ${ name } ${ address } が作成:"
       ]
     },
     "Error": {
-      "This field is required": [
-        "この項目の入力は必須です"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "このフィールドには最低${ minimumLength } 文字が必要です。"
-      ],
-      "Email is not valid": [
-        "メールアドレスが無効です"
-      ],
-      "Not a valid number": [
-        "無効な番号です"
-      ],
-      "Passwords do not match": [
-        "パスワードが一致しません"
-      ],
       "Email address disabled": [
         "メールアドレスが無効です"
       ],
@@ -58,6 +40,21 @@
       ],
       "The sending key is not valid": [
         "送信鍵が有効ではありません"
+      ],
+      "This field is required": [
+        "この項目の入力は必須です"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "このフィールドには最低${ minimumLength } 文字が必要です。"
+      ],
+      "Email is not valid": [
+        "メールアドレスが無効です"
+      ],
+      "Not a valid number": [
+        "無効な番号です"
+      ],
+      "Passwords do not match": [
+        "パスワードが一致しません"
       ],
       "Request timed out.": [
         "リクエストはタイムアウトしました。"
@@ -134,9 +131,6 @@
       "Invalid verification code": [
         "無効な検証コード"
       ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "エラーが発生しました。続行するには ${ refresh } してください。それでもこのエラーが発生する場合は ${ supportTeam } までお問い合わせください。"
-      ],
       "Some groups could not be deleted": [
         "一部のグループは削除できませんでした"
       ],
@@ -176,14 +170,17 @@
       "A group with this name already exists": [
         "この名前のグループは既に存在します"
       ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "エラーが発生しました。続行するには ${ refresh } してください。それでもこのエラーが発生する場合は ${ supportTeam } までお問い合わせください。"
+      ],
+      "File has no contents to preview": [
+        "ファイルにプレビューするコンテンツがありません"
+      ],
       "We were unable to connect to your service provider.": [
         "サービスプロバイダーに接続できませんでした。"
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "再認証を行い、権限が正しく設定されていることを確認してください。"
-      ],
-      "File has no contents to preview": [
-        "ファイルにプレビューするコンテンツがありません"
       ],
       "Process aborted": [
         "処理が中断されました"
@@ -375,6 +372,20 @@
         ""
       ]
     },
+    "file size format": {
+      "bytes": [
+        "バイト"
+      ],
+      "KB": [
+        "KB"
+      ],
+      "MB": [
+        "MB"
+      ],
+      "GB": [
+        "GB"
+      ]
+    },
     "Validation": {
       "Password must contain at least ${ length } character": [
         "パスワードは ${ length } 文字以上必要です"
@@ -494,17 +505,6 @@
         "住所"
       ]
     },
-    "Message": {
-      "Re:": [
-        "Re:"
-      ],
-      "Fw:": [
-        "Fw:"
-      ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "${ date } に ${ name } ${ address } が作成:"
-      ]
-    },
     "Info": {
       "Session timed out.": [
         "セッションがタイムアウトしました。"
@@ -548,9 +548,6 @@
       "(${ memberCount } member)": [
         "(${ memberCount } メンバー)"
       ],
-      "Loading": [
-        "読み込み中"
-      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "このリンクはホモグラフ攻撃の可能性があり、Internet ExplorerおよびEdgeブラウザーで開くことはできません。リンクが正当であることが確実な場合は、別のブラウザーを使用して開いてください。"
       ],
@@ -562,6 +559,9 @@
       ],
       "Learn more": [
         "より詳しく"
+      ],
+      "Loading": [
+        "読み込み中"
       ],
       "Insert image": [
         "画像の挿入"
@@ -683,9 +683,6 @@
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "アカウントの作成に問題がある場合は、招待をリクエストしてください。1営業日以内に対応します。"
       ],
-      "support team": [
-        "サポートチーム"
-      ],
       "No contacts added yet": [
         "まだ連絡先が追加されていません"
       ],
@@ -800,6 +797,27 @@
       "${ addressCount } email address": [
         "${ addressCount } 件のメールアドレス"
       ],
+      "support team": [
+        "サポートチーム"
+      ],
+      "Unsupported file": [
+        "非対応のファイル"
+      ],
+      "No preview available": [
+        "プレビューは利用できません"
+      ],
+      "Preview": [
+        "プレビュー"
+      ],
+      "Loading preview": [
+        "プレビューを読み込み中"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "このブラウザーは PDF ドキュメントのプレビューをサポートしていません。ファイルをダウンロードしてください。"
+      ],
+      "of": [
+        " / "
+      ],
       "Import contacts": [
         "連絡先のインポート"
       ],
@@ -829,24 +847,6 @@
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "ほとんどの問題は、ページを更新するか、 ${ link } することで解決できます。"
-      ],
-      "Unsupported file": [
-        "非対応のファイル"
-      ],
-      "No preview available": [
-        "プレビューは利用できません"
-      ],
-      "Preview": [
-        "プレビュー"
-      ],
-      "Loading preview": [
-        "プレビューを読み込み中"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "このブラウザーは PDF ドキュメントのプレビューをサポートしていません。ファイルをダウンロードしてください。"
-      ],
-      "of": [
-        " / "
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         ""
@@ -2842,6 +2842,27 @@
       "OK": [
         "OK"
       ],
+      "Details": [
+        "詳細"
+      ],
+      "Share via link": [
+        "リンクで共有"
+      ],
+      "Sharing options": [
+        "共有オプション"
+      ],
+      "Zoom out": [
+        "縮小"
+      ],
+      "Reset zoom": [
+        "倍率をリセット"
+      ],
+      "Zoom in": [
+        "拡大"
+      ],
+      "Previous": [
+        "前へ"
+      ],
       "Continue import": [
         "インポートを続行"
       ],
@@ -2865,27 +2886,6 @@
       ],
       "Show info": [
         "情報を表示"
-      ],
-      "Details": [
-        "詳細"
-      ],
-      "Share via link": [
-        "リンクで共有"
-      ],
-      "Sharing options": [
-        "共有オプション"
-      ],
-      "Zoom out": [
-        "縮小"
-      ],
-      "Reset zoom": [
-        "倍率をリセット"
-      ],
-      "Zoom in": [
-        "拡大"
-      ],
-      "Previous": [
-        "前へ"
       ],
       "Get started": [
         "はじめましょう"
@@ -3226,6 +3226,12 @@
       "Accept": [
         "承認"
       ],
+      "Show": [
+        "表示"
+      ],
+      "Show less": [
+        ""
+      ],
       "Never show": [
         "常に非表示"
       ],
@@ -3252,9 +3258,6 @@
       ],
       "Hide": [
         "非表示"
-      ],
-      "Show": [
-        "表示"
       ],
       "Learn more": [
         "より詳しく"
@@ -3928,36 +3931,6 @@
       "Add a gift code": [
         "ギフトコードを追加"
       ],
-      "Inbox": [
-        "受信箱"
-      ],
-      "Drafts": [
-        "下書き"
-      ],
-      "Sent": [
-        "送信済み"
-      ],
-      "Trash": [
-        "ごみ箱"
-      ],
-      "Spam": [
-        "迷惑メール"
-      ],
-      "All mail": [
-        "全てのメール"
-      ],
-      "Archive": [
-        "アーカイブ"
-      ],
-      "Starred": [
-        "星印付き"
-      ],
-      "Outbox": [
-        "送信箱"
-      ],
-      "Scheduled": [
-        "計画休止の利用"
-      ],
       "You need to activate your calendar keys to add this event": [
         ""
       ],
@@ -3999,6 +3972,36 @@
       ],
       "Open in ${ calendarAppName }": [
         "${ calendarAppName } で開く"
+      ],
+      "Inbox": [
+        "受信箱"
+      ],
+      "Drafts": [
+        "下書き"
+      ],
+      "Sent": [
+        "送信済み"
+      ],
+      "Trash": [
+        "ごみ箱"
+      ],
+      "Spam": [
+        "迷惑メール"
+      ],
+      "All mail": [
+        "全てのメール"
+      ],
+      "Archive": [
+        "アーカイブ"
+      ],
+      "Starred": [
+        "星印付き"
+      ],
+      "Outbox": [
+        "送信箱"
+      ],
+      "Scheduled": [
+        "計画休止の利用"
       ],
       "Re-enable the address linked to this calendar to manage your invitation.": [
         ""
@@ -4401,32 +4404,11 @@
       "Labels:": [
         "ラベル："
       ],
-      "Start time": [
-        "開始日時"
-      ],
-      "End time": [
-        "終了日時"
-      ],
-      "Repeats": [
-        ""
-      ],
-      "Calendar": [
-        "カレンダー"
+      "Keyword": [
+        "キーワード"
       ],
       "Location": [
         "場所"
-      ],
-      "Organizer": [
-        "主催者"
-      ],
-      "Participant": [
-        ""
-      ],
-      "Participants (${ totalParticipants })": [
-        ""
-      ],
-      "Keyword": [
-        "キーワード"
       ],
       "From": [
         "差出人"
@@ -6328,11 +6310,6 @@
         "明日"
       ]
     },
-    "Invitation details (all-day event)": {
-      "${ formattedDate } (all day)": [
-        "${ formattedDate } (終日)"
-      ]
-    },
     "Calendar invite info": {
       "This response is out of date. This event has been updated.": [
         ""
@@ -6463,29 +6440,14 @@
       "This invitation is out of date. The event has been updated.": [
         ""
       ],
-      "Your attendance at this event is required.": [
-        "この予定への参加は必須です。"
+      "You already accepted this invitation.": [
+        ""
       ],
-      "Your attendance at this event is optional.": [
-        "この予定への参加は任意です。"
+      "You already tentatively accepted this invitation.": [
+        ""
       ],
-      "Your attendance at this event is required. You already accepted this invitation.": [
-        "この予定への参加は必須です。あなたは招待を承認しました。"
-      ],
-      "Your attendance at this event is optional. You already accepted this invitation.": [
-        "この予定への参加は任意です。あなたは招待を承認しました。"
-      ],
-      "Your attendance at this event is required. You already tentatively accepted this invitation.": [
-        "この予定への参加は必須です。あなたは招待を仮承認しました。"
-      ],
-      "Your attendance at this event is optional. You already tentatively accepted this invitation.": [
-        "この予定への参加は任意です。あなたは招待を仮承認しました。"
-      ],
-      "Your attendance at this event is required. You already declined this invitation.": [
-        "この予定への参加は必須です。あなたは招待を拒否しました。"
-      ],
-      "Your attendance at this event is optional. You already declined this invitation.": [
-        "この予定への参加は任意です。あなたは招待を拒否しました。"
+      "You already declined this invitation.": [
+        ""
       ],
       "This event has been cancelled.": [
         "この予定はキャンセルされました."
@@ -6494,6 +6456,9 @@
         ""
       ],
       "An occurrence has been added to the event ${ veventIcsTitle }": [
+        ""
+      ],
+      "(Attendance optional)": [
         ""
       ],
       "The sender of this email has not been invited to this event and cannot be added as a participant.": [
@@ -6661,11 +6626,36 @@
         ""
       ]
     },
+    "Calendar invite buttons label": {
+      "Attending?": [
+        ""
+      ]
+    },
     "Import ICS file from Mail": {
       "Calendar event created": [
         "カレンダーの予定が作成されました"
       ],
       "Creating calendar event failed": [
+        ""
+      ]
+    },
+    "ICS widget label for event details": {
+      "Organizer:": [
+        ""
+      ],
+      "${ totalAttendees } Participant": [
+        ""
+      ],
+      "Repeats": [
+        ""
+      ],
+      "Calendar": [
+        ""
+      ],
+      "Location": [
+        ""
+      ],
+      "Participants": [
         ""
       ]
     },

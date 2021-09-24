@@ -5,36 +5,18 @@
   },
   "contexts": {
     "": {},
-    "file size format": {
-      "bytes": [
-        "bytes"
+    "Message": {
+      "Re:": [
+        "Re:"
       ],
-      "KB": [
-        "KB"
+      "Fw:": [
+        "Fw:"
       ],
-      "MB": [
-        "MB"
-      ],
-      "GB": [
-        "GB"
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "El ${ date }, ${ name } ${ address } va escriure:"
       ]
     },
     "Error": {
-      "This field is required": [
-        "Aquest camp és obligatori"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Aquest camp requereix un mínim de ${ minimumLength } caràcters."
-      ],
-      "Email is not valid": [
-        "El correu electrònic no és vàlid"
-      ],
-      "Not a valid number": [
-        "Número no vàlid"
-      ],
-      "Passwords do not match": [
-        "Les contrasenyes no coincideixen"
-      ],
       "Email address disabled": [
         "Correu electrònic deshabilitada"
       ],
@@ -58,6 +40,21 @@
       ],
       "The sending key is not valid": [
         "La clau enviada no es vàlida"
+      ],
+      "This field is required": [
+        "Aquest camp és obligatori"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Aquest camp requereix un mínim de ${ minimumLength } caràcters."
+      ],
+      "Email is not valid": [
+        "El correu electrònic no és vàlid"
+      ],
+      "Not a valid number": [
+        "Número no vàlid"
+      ],
+      "Passwords do not match": [
+        "Les contrasenyes no coincideixen"
       ],
       "Request timed out.": [
         "S'ha esgotat el temps d'espera."
@@ -134,9 +131,6 @@
       "Invalid verification code": [
         "Codi de verificació no vàlid"
       ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "S'ha produït un error, ${ refresh } per continuar. Si continueu veient aquest missatge d'error, poseu-vos en contacte amb el nostre ${ supportTeam }."
-      ],
       "Some groups could not be deleted": [
         "Alguns grups no poden ser esborrats"
       ],
@@ -178,14 +172,17 @@
       "A group with this name already exists": [
         "Ja existeix un grup amb aquest nom"
       ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "S'ha produït un error, ${ refresh } per continuar. Si continueu veient aquest missatge d'error, poseu-vos en contacte amb el nostre ${ supportTeam }."
+      ],
+      "File has no contents to preview": [
+        "L'arxiu no té contingut per previsualitzar"
+      ],
       "We were unable to connect to your service provider.": [
         "No hem pogut connectar-nos al vostre proveïdor de serveis."
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "Si us plau, proveu de tornar-vos a autenticar i assegureu-vos que els permisos estan correctament configurats."
-      ],
-      "File has no contents to preview": [
-        "L'arxiu no té contingut per previsualitzar"
       ],
       "Process aborted": [
         "Procés anul·lat"
@@ -381,6 +378,20 @@
         "Massa filtres actius. Actualitzeu a un pla de pagament per activar més filtres"
       ]
     },
+    "file size format": {
+      "bytes": [
+        "bytes"
+      ],
+      "KB": [
+        "KB"
+      ],
+      "MB": [
+        "MB"
+      ],
+      "GB": [
+        "GB"
+      ]
+    },
     "Validation": {
       "Password must contain at least ${ length } character": [
         "La contrasenya ha de tenir com a mínim ${ length } caràcter",
@@ -501,17 +512,6 @@
         "Adreça"
       ]
     },
-    "Message": {
-      "Re:": [
-        "Re:"
-      ],
-      "Fw:": [
-        "Fw:"
-      ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "El ${ date }, ${ name } ${ address } va escriure:"
-      ]
-    },
     "Info": {
       "Session timed out.": [
         "Temps de sessió esgotat."
@@ -556,9 +556,6 @@
         "(${ memberCount } membre)",
         "(${ memberCount } membres)"
       ],
-      "Loading": [
-        "Carregant"
-      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Aquest enllaç pot ser un atac de homògraf i no es pot obrir amb els navegadors Internet Explorer i Edge. Si esteu segurs que l’enllaç és legítim, utilitzeu un navegador diferent per obrir-lo."
       ],
@@ -570,6 +567,9 @@
       ],
       "Learn more": [
         "Més informació"
+      ],
+      "Loading": [
+        "Carregant"
       ],
       "Insert image": [
         "Afegeix imatge"
@@ -691,9 +691,6 @@
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Si teniu problemes per crear el vostre compte, sol·liciteu una invitació i us respondrem en un dia laborable."
       ],
-      "support team": [
-        "equip de suport"
-      ],
       "No contacts added yet": [
         "Encara no s'han afegit contactes"
       ],
@@ -813,6 +810,27 @@
         "${ addressCount } adreça de correu electrònic",
         "${ addressCount } adreces de correu electrònic"
       ],
+      "support team": [
+        "equip de suport"
+      ],
+      "Unsupported file": [
+        "Fitxer no compatible"
+      ],
+      "No preview available": [
+        "No hi ha previsualització disponible"
+      ],
+      "Preview": [
+        "Vista prèvia"
+      ],
+      "Loading preview": [
+        "S'està carregant la previsualització"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "Aquest navegador no suporta la previsualització de documents PDF. Descarregueu-vos l'arxiu."
+      ],
+      "of": [
+        "de"
+      ],
       "Import contacts": [
         "Importar contactes"
       ],
@@ -842,24 +860,6 @@
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "Actualitzar la pàgina o ${ link } resoldrà automàticament la majoria dels problemes."
-      ],
-      "Unsupported file": [
-        "Fitxer no compatible"
-      ],
-      "No preview available": [
-        "No hi ha previsualització disponible"
-      ],
-      "Preview": [
-        "Vista prèvia"
-      ],
-      "Loading preview": [
-        "S'està carregant la previsualització"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "Aquest navegador no suporta la previsualització de documents PDF. Descarregueu-vos l'arxiu."
-      ],
-      "of": [
-        "de"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "La navegació bàsica i les accions es mantenen disponibles independentment de que a la configuració les dreceres de teclat estiguin actives o no."
@@ -2929,6 +2929,27 @@
       "OK": [
         "Accepta"
       ],
+      "Details": [
+        "Detalls"
+      ],
+      "Share via link": [
+        "Compartir amb enllaç"
+      ],
+      "Sharing options": [
+        "Opcions de compartició"
+      ],
+      "Zoom out": [
+        "Allunyar"
+      ],
+      "Reset zoom": [
+        "Restablir zoom"
+      ],
+      "Zoom in": [
+        "Apropa"
+      ],
+      "Previous": [
+        "Anterior"
+      ],
       "Continue import": [
         "Continuar importació"
       ],
@@ -2952,27 +2973,6 @@
       ],
       "Show info": [
         "Mostra informació"
-      ],
-      "Details": [
-        "Detalls"
-      ],
-      "Share via link": [
-        "Compartir amb enllaç"
-      ],
-      "Sharing options": [
-        "Opcions de compartició"
-      ],
-      "Zoom out": [
-        "Allunyar"
-      ],
-      "Reset zoom": [
-        "Restablir zoom"
-      ],
-      "Zoom in": [
-        "Apropa"
-      ],
-      "Previous": [
-        "Anterior"
       ],
       "Get started": [
         "Començar"
@@ -3314,6 +3314,12 @@
       "Accept": [
         "Acceptar"
       ],
+      "Show": [
+        "Mostrar"
+      ],
+      "Show less": [
+        ""
+      ],
       "Never show": [
         "No mostrar mai"
       ],
@@ -3340,9 +3346,6 @@
       ],
       "Hide": [
         "Amagar"
-      ],
-      "Show": [
-        "Mostrar"
       ],
       "Learn more": [
         "Saber-ne més"
@@ -4024,36 +4027,6 @@
       "Add a gift code": [
         "Afegiu un codi regal"
       ],
-      "Inbox": [
-        "Safata d'entrada"
-      ],
-      "Drafts": [
-        "Esborranys"
-      ],
-      "Sent": [
-        "Enviats"
-      ],
-      "Trash": [
-        "Paperera"
-      ],
-      "Spam": [
-        "Correu brossa"
-      ],
-      "All mail": [
-        "Tot el correu"
-      ],
-      "Archive": [
-        "Arxiu"
-      ],
-      "Starred": [
-        "Destacats"
-      ],
-      "Outbox": [
-        "Safata de sortida"
-      ],
-      "Scheduled": [
-        "Programats"
-      ],
       "You need to activate your calendar keys to add this event": [
         "Heu d'activar les claus del calendari per afegir aquest esdeveniment"
       ],
@@ -4095,6 +4068,36 @@
       ],
       "Open in ${ calendarAppName }": [
         "Obrir a ${ calendarAppName }"
+      ],
+      "Inbox": [
+        "Safata d'entrada"
+      ],
+      "Drafts": [
+        "Esborranys"
+      ],
+      "Sent": [
+        "Enviats"
+      ],
+      "Trash": [
+        "Paperera"
+      ],
+      "Spam": [
+        "Correu brossa"
+      ],
+      "All mail": [
+        "Tot el correu"
+      ],
+      "Archive": [
+        "Arxiu"
+      ],
+      "Starred": [
+        "Destacats"
+      ],
+      "Outbox": [
+        "Safata de sortida"
+      ],
+      "Scheduled": [
+        "Programats"
       ],
       "Re-enable the address linked to this calendar to manage your invitation.": [
         "Reactivar l'adreça enllaçada a aquest calendari per gestionar la vostra invitació."
@@ -4497,32 +4500,11 @@
       "Labels:": [
         "Etiquetes:"
       ],
-      "Start time": [
-        "Hora d'inici"
-      ],
-      "End time": [
-        "Hora de finalització"
-      ],
-      "Repeats": [
-        "Repeteix"
-      ],
-      "Calendar": [
-        "Calendari"
+      "Keyword": [
+        "Paraula clau"
       ],
       "Location": [
         "Ubicació"
-      ],
-      "Organizer": [
-        "Organitzador"
-      ],
-      "Participant": [
-        "Participant"
-      ],
-      "Participants (${ totalParticipants })": [
-        "Participants (${ totalParticipants })"
-      ],
-      "Keyword": [
-        "Paraula clau"
       ],
       "From": [
         "Des de"
@@ -6473,11 +6455,6 @@
         "Demà"
       ]
     },
-    "Invitation details (all-day event)": {
-      "${ formattedDate } (all day)": [
-        "${ formattedDate } (tot el dia)"
-      ]
-    },
     "Calendar invite info": {
       "This response is out of date. This event has been updated.": [
         "Aquesta resposta no està actualitzada. Aquest esdeveniment s'ha actualitzat."
@@ -6608,29 +6585,14 @@
       "This invitation is out of date. The event has been updated.": [
         "Aquesta invitació no està actualitzada. L'esdeveniment s'ha actualitzat."
       ],
-      "Your attendance at this event is required.": [
-        "La vostra assistència a aquest esdeveniment és obligatòria."
+      "You already accepted this invitation.": [
+        ""
       ],
-      "Your attendance at this event is optional.": [
-        "La vostra assistència a aquest esdeveniment és opcional."
+      "You already tentatively accepted this invitation.": [
+        ""
       ],
-      "Your attendance at this event is required. You already accepted this invitation.": [
-        "La vostra assistència a aquest esdeveniment és obligatòria. Ja heu acceptat aquesta invitació."
-      ],
-      "Your attendance at this event is optional. You already accepted this invitation.": [
-        "La vostra assistència a aquest esdeveniment és opcional. Ja heu acceptat aquesta invitació."
-      ],
-      "Your attendance at this event is required. You already tentatively accepted this invitation.": [
-        "La vostra assistència a aquest esdeveniment és obligatòria. Ja heu acceptat provisionalment aquesta invitació."
-      ],
-      "Your attendance at this event is optional. You already tentatively accepted this invitation.": [
-        "La vostra assistència a aquest esdeveniment és opcional. Ja heu acceptat provisionalment aquesta invitació."
-      ],
-      "Your attendance at this event is required. You already declined this invitation.": [
-        "La vostra assistència a aquest esdeveniment és obligatòria. Ja heu rebutjat aquesta invitació."
-      ],
-      "Your attendance at this event is optional. You already declined this invitation.": [
-        "La vostra assistència a aquest esdeveniment és opcional. Ja heu rebutjat aquesta invitació."
+      "You already declined this invitation.": [
+        ""
       ],
       "This event has been cancelled.": [
         "Aquest esdeveniment ha estat cancel·lat."
@@ -6640,6 +6602,9 @@
       ],
       "An occurrence has been added to the event ${ veventIcsTitle }": [
         "S'ha afegit una ocurrència a l'esdeveniment ${ veventIcsTitle }"
+      ],
+      "(Attendance optional)": [
+        ""
       ],
       "The sender of this email has not been invited to this event and cannot be added as a participant.": [
         "El remitent d'aquest correu electrònic no ha estat convidat a aquest esdeveniment i no es pot afegir com a participant."
@@ -6812,12 +6777,38 @@
         "Ha fallat la resposta de la invitació"
       ]
     },
+    "Calendar invite buttons label": {
+      "Attending?": [
+        ""
+      ]
+    },
     "Import ICS file from Mail": {
       "Calendar event created": [
         "S'ha creat un esdeveniment de calendari"
       ],
       "Creating calendar event failed": [
         "Ha fallat la creació de l'esdeveniment del calendari"
+      ]
+    },
+    "ICS widget label for event details": {
+      "Organizer:": [
+        ""
+      ],
+      "${ totalAttendees } Participant": [
+        "",
+        ""
+      ],
+      "Repeats": [
+        ""
+      ],
+      "Calendar": [
+        ""
+      ],
+      "Location": [
+        ""
+      ],
+      "Participants": [
+        ""
       ]
     },
     "Attachment signature verification": {

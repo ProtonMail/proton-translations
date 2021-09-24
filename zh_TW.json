@@ -5,36 +5,18 @@
   },
   "contexts": {
     "": {},
-    "file size format": {
-      "bytes": [
-        "位元組"
+    "Message": {
+      "Re:": [
+        "回覆:"
       ],
-      "KB": [
-        "KB"
+      "Fw:": [
+        "轉寄:"
       ],
-      "MB": [
-        "MB"
-      ],
-      "GB": [
-        "GB"
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "在 ${ date }，${ name } ${ address } 寫道："
       ]
     },
     "Error": {
-      "This field is required": [
-        "此欄位必填"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "此欄位至少須有 ${ minimumLength } 個字元。"
-      ],
-      "Email is not valid": [
-        "電子郵件無效"
-      ],
-      "Not a valid number": [
-        "不是有效的數字"
-      ],
-      "Passwords do not match": [
-        "密碼不符合"
-      ],
       "Email address disabled": [
         "電子郵件地址已停用"
       ],
@@ -58,6 +40,21 @@
       ],
       "The sending key is not valid": [
         "寄送金鑰無效"
+      ],
+      "This field is required": [
+        "此欄位必填"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "此欄位至少須有 ${ minimumLength } 個字元。"
+      ],
+      "Email is not valid": [
+        "電子郵件無效"
+      ],
+      "Not a valid number": [
+        "不是有效的數字"
+      ],
+      "Passwords do not match": [
+        "密碼不符合"
       ],
       "Request timed out.": [
         "請求已逾時。"
@@ -134,9 +131,6 @@
       "Invalid verification code": [
         "驗證碼無效"
       ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "發生錯誤，請${ refresh }以繼續。如果您仍看到此錯誤訊息，請聯絡我們的${ supportTeam }。"
-      ],
       "Some groups could not be deleted": [
         "部分聯絡人群組無法刪除"
       ],
@@ -176,14 +170,17 @@
       "A group with this name already exists": [
         "以此為名的群組已存在"
       ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "發生錯誤，請${ refresh }以繼續。如果您仍看到此錯誤訊息，請聯絡我們的${ supportTeam }。"
+      ],
+      "File has no contents to preview": [
+        "預覽的檔案無內容"
+      ],
       "We were unable to connect to your service provider.": [
         "我們無法連結到您的服務提供者。"
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "請嘗試重新認證並確保權限設定正確。"
-      ],
-      "File has no contents to preview": [
-        "預覽的檔案無內容"
       ],
       "Process aborted": [
         "程序已終止"
@@ -375,6 +372,20 @@
         "使用中篩選器太多。請升級至付費方案以啟用更多篩選器"
       ]
     },
+    "file size format": {
+      "bytes": [
+        "位元組"
+      ],
+      "KB": [
+        "KB"
+      ],
+      "MB": [
+        "MB"
+      ],
+      "GB": [
+        "GB"
+      ]
+    },
     "Validation": {
       "Password must contain at least ${ length } character": [
         "密碼至少必須包含 ${ length } 個字元"
@@ -494,17 +505,6 @@
         "地址"
       ]
     },
-    "Message": {
-      "Re:": [
-        "回覆:"
-      ],
-      "Fw:": [
-        "轉寄:"
-      ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "在 ${ date }，${ name } ${ address } 寫道："
-      ]
-    },
     "Info": {
       "Session timed out.": [
         "工作階段已逾時。"
@@ -548,9 +548,6 @@
       "(${ memberCount } member)": [
         "(${ memberCount } 個成員)"
       ],
-      "Loading": [
-        "正在載入"
-      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "此連結可能是同形異義詞的偽裝攻擊 (homograph attack)，且無法以 Internet Explorer 或 Edge 瀏覽器開啟。如果您確定這是一個正當的連結，請使用其他瀏覽器來開啟。"
       ],
@@ -562,6 +559,9 @@
       ],
       "Learn more": [
         "瞭解更多"
+      ],
+      "Loading": [
+        "正在載入"
       ],
       "Insert image": [
         "插入圖片"
@@ -683,9 +683,6 @@
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "若您在建立帳號時遇上問題，請提出邀請要求，我們會在一個工作天內回覆。"
       ],
-      "support team": [
-        "支援團隊"
-      ],
       "No contacts added yet": [
         "未新增任何聯絡人"
       ],
@@ -800,6 +797,27 @@
       "${ addressCount } email address": [
         "${ addressCount } 個電子郵件地址"
       ],
+      "support team": [
+        "支援團隊"
+      ],
+      "Unsupported file": [
+        "不支援的檔案"
+      ],
+      "No preview available": [
+        "無法預覽"
+      ],
+      "Preview": [
+        "預覽"
+      ],
+      "Loading preview": [
+        "正在載入預覽"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "此瀏覽器不支援預覽 PDF 文件。請下載該檔案。"
+      ],
+      "of": [
+        "，共"
+      ],
       "Import contacts": [
         "匯入聯絡人"
       ],
@@ -829,24 +847,6 @@
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "重新整理此頁面或${ link }將自動解決大部分問題。"
-      ],
-      "Unsupported file": [
-        "不支援的檔案"
-      ],
-      "No preview available": [
-        "無法預覽"
-      ],
-      "Preview": [
-        "預覽"
-      ],
-      "Loading preview": [
-        "正在載入預覽"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "此瀏覽器不支援預覽 PDF 文件。請下載該檔案。"
-      ],
-      "of": [
-        "，共"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "不論在設定中是否啟用鍵盤快捷鍵，基本導覽及動作仍然可用。"
@@ -2842,6 +2842,27 @@
       "OK": [
         "確定"
       ],
+      "Details": [
+        "詳細資訊"
+      ],
+      "Share via link": [
+        "透過連結分享"
+      ],
+      "Sharing options": [
+        "分享可用選項"
+      ],
+      "Zoom out": [
+        "縮小"
+      ],
+      "Reset zoom": [
+        "重設縮放"
+      ],
+      "Zoom in": [
+        "放大"
+      ],
+      "Previous": [
+        "上一個"
+      ],
       "Continue import": [
         "繼續匯入"
       ],
@@ -2865,27 +2886,6 @@
       ],
       "Show info": [
         "顯示資訊"
-      ],
-      "Details": [
-        "詳細資訊"
-      ],
-      "Share via link": [
-        "透過連結分享"
-      ],
-      "Sharing options": [
-        "分享可用選項"
-      ],
-      "Zoom out": [
-        "縮小"
-      ],
-      "Reset zoom": [
-        "重設縮放"
-      ],
-      "Zoom in": [
-        "放大"
-      ],
-      "Previous": [
-        "上一個"
       ],
       "Get started": [
         "入門指南"
@@ -3226,6 +3226,12 @@
       "Accept": [
         "接受"
       ],
+      "Show": [
+        "顯示"
+      ],
+      "Show less": [
+        ""
+      ],
       "Never show": [
         "永不顯示"
       ],
@@ -3252,9 +3258,6 @@
       ],
       "Hide": [
         "隱藏"
-      ],
-      "Show": [
-        "顯示"
       ],
       "Learn more": [
         "瞭解更多"
@@ -3928,36 +3931,6 @@
       "Add a gift code": [
         "新增禮品代碼"
       ],
-      "Inbox": [
-        "收件匣"
-      ],
-      "Drafts": [
-        "草稿"
-      ],
-      "Sent": [
-        "已傳送"
-      ],
-      "Trash": [
-        "垃圾桶"
-      ],
-      "Spam": [
-        "垃圾郵件"
-      ],
-      "All mail": [
-        "所有郵件"
-      ],
-      "Archive": [
-        "封存"
-      ],
-      "Starred": [
-        "已加星號"
-      ],
-      "Outbox": [
-        "寄件匣"
-      ],
-      "Scheduled": [
-        "已排程"
-      ],
       "You need to activate your calendar keys to add this event": [
         "您需要先啟用您的行事曆金鑰，才可以新增此事件"
       ],
@@ -3999,6 +3972,36 @@
       ],
       "Open in ${ calendarAppName }": [
         "開啟在${ calendarAppName }"
+      ],
+      "Inbox": [
+        "收件匣"
+      ],
+      "Drafts": [
+        "草稿"
+      ],
+      "Sent": [
+        "已傳送"
+      ],
+      "Trash": [
+        "垃圾桶"
+      ],
+      "Spam": [
+        "垃圾郵件"
+      ],
+      "All mail": [
+        "所有郵件"
+      ],
+      "Archive": [
+        "封存"
+      ],
+      "Starred": [
+        "已加星號"
+      ],
+      "Outbox": [
+        "寄件匣"
+      ],
+      "Scheduled": [
+        "已排程"
       ],
       "Re-enable the address linked to this calendar to manage your invitation.": [
         "重新啟用連結至此行事曆的電子郵件地址，以便管理您的邀請。"
@@ -4401,32 +4404,11 @@
       "Labels:": [
         "標籤："
       ],
-      "Start time": [
-        "開始時間"
-      ],
-      "End time": [
-        "結束時間"
-      ],
-      "Repeats": [
-        "重複"
-      ],
-      "Calendar": [
-        "行事曆"
+      "Keyword": [
+        "關鍵字"
       ],
       "Location": [
         "位置"
-      ],
-      "Organizer": [
-        "組織者"
-      ],
-      "Participant": [
-        "參與者"
-      ],
-      "Participants (${ totalParticipants })": [
-        "參與者 (${ totalParticipants } 位)"
-      ],
-      "Keyword": [
-        "關鍵字"
       ],
       "From": [
         "寄件人"
@@ -6328,11 +6310,6 @@
         "明天"
       ]
     },
-    "Invitation details (all-day event)": {
-      "${ formattedDate } (all day)": [
-        "${ formattedDate } (全日)"
-      ]
-    },
     "Calendar invite info": {
       "This response is out of date. This event has been updated.": [
         "此回答已過時。此事件已更新。"
@@ -6463,29 +6440,14 @@
       "This invitation is out of date. The event has been updated.": [
         "此邀請已過時。此事件已更新。"
       ],
-      "Your attendance at this event is required.": [
-        "此會議要求您出席。"
+      "You already accepted this invitation.": [
+        ""
       ],
-      "Your attendance at this event is optional.": [
-        "此會議邀請您列席。"
+      "You already tentatively accepted this invitation.": [
+        ""
       ],
-      "Your attendance at this event is required. You already accepted this invitation.": [
-        "此會議要求您出席。您已接受此會議邀請。"
-      ],
-      "Your attendance at this event is optional. You already accepted this invitation.": [
-        "此會議邀請您列席。您已接受此會議邀請。"
-      ],
-      "Your attendance at this event is required. You already tentatively accepted this invitation.": [
-        "此事件要求您出席。您已暫訂接受此邀請。"
-      ],
-      "Your attendance at this event is optional. You already tentatively accepted this invitation.": [
-        "此事件邀請您列席。您已暫訂接受此邀請。"
-      ],
-      "Your attendance at this event is required. You already declined this invitation.": [
-        "此事件要求您出席。您已謝絕此邀請。"
-      ],
-      "Your attendance at this event is optional. You already declined this invitation.": [
-        "此事件邀請您列席。您已謝絕此邀請。"
+      "You already declined this invitation.": [
+        ""
       ],
       "This event has been cancelled.": [
         "此事件已取消。"
@@ -6495,6 +6457,9 @@
       ],
       "An occurrence has been added to the event ${ veventIcsTitle }": [
         "事件 ${ veventIcsTitle } 已新增一次"
+      ],
+      "(Attendance optional)": [
+        ""
       ],
       "The sender of this email has not been invited to this event and cannot be added as a participant.": [
         "此電子郵件的寄件人未獲邀出席此事件，因此無法新增為參與者。"
@@ -6661,12 +6626,37 @@
         "回答邀請失敗"
       ]
     },
+    "Calendar invite buttons label": {
+      "Attending?": [
+        ""
+      ]
+    },
     "Import ICS file from Mail": {
       "Calendar event created": [
         "行事曆事件已建立"
       ],
       "Creating calendar event failed": [
         "建立行事曆事件失敗"
+      ]
+    },
+    "ICS widget label for event details": {
+      "Organizer:": [
+        ""
+      ],
+      "${ totalAttendees } Participant": [
+        ""
+      ],
+      "Repeats": [
+        ""
+      ],
+      "Calendar": [
+        ""
+      ],
+      "Location": [
+        ""
+      ],
+      "Participants": [
+        ""
       ]
     },
     "Attachment signature verification": {

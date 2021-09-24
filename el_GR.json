@@ -5,36 +5,18 @@
   },
   "contexts": {
     "": {},
-    "file size format": {
-      "bytes": [
-        "bytes"
+    "Message": {
+      "Re:": [
+        "Απ:"
       ],
-      "KB": [
-        "KB"
+      "Fw:": [
+        "Προώθ:"
       ],
-      "MB": [
-        "MB"
-      ],
-      "GB": [
-        "GB"
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "Στις ${ date }, ${ name } ${ address } έγραψε:"
       ]
     },
     "Error": {
-      "This field is required": [
-        "Αυτό το πεδίο είναι υποχρεωτικό"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Αυτό το πεδίο απαιτεί τουλάχιστον ${ minimumLength } χαρακτήρες."
-      ],
-      "Email is not valid": [
-        "Η διεύθυνση email δεν είναι έγκυρη"
-      ],
-      "Not a valid number": [
-        "Μη έγκυρος αριθμός"
-      ],
-      "Passwords do not match": [
-        "Οι κωδικοί πρόσβασης δεν ταιριάζουν"
-      ],
       "Email address disabled": [
         "Η διεύθυνση email έχει απενεργοποιηθεί"
       ],
@@ -58,6 +40,21 @@
       ],
       "The sending key is not valid": [
         "Το κλειδί αποστολής δεν είναι έγκυρο"
+      ],
+      "This field is required": [
+        "Αυτό το πεδίο είναι υποχρεωτικό"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Αυτό το πεδίο απαιτεί τουλάχιστον ${ minimumLength } χαρακτήρες."
+      ],
+      "Email is not valid": [
+        "Η διεύθυνση email δεν είναι έγκυρη"
+      ],
+      "Not a valid number": [
+        "Μη έγκυρος αριθμός"
+      ],
+      "Passwords do not match": [
+        "Οι κωδικοί πρόσβασης δεν ταιριάζουν"
       ],
       "Request timed out.": [
         "Λήξη χρονικού ορίου αιτήματος."
@@ -134,9 +131,6 @@
       "Invalid verification code": [
         "Μη έγκυρος κωδικός επαλήθευσης"
       ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Κάτι πήγε στραβά, παρακαλούμε ${ refresh } για να προχωρήσετε. Εάν εξακολουθείτε να βλέπετε αυτό το μήνυμα σφάλματος, παρακαλούμε επικοινωνήστε με την ${ supportTeam }."
-      ],
       "Some groups could not be deleted": [
         ""
       ],
@@ -178,14 +172,17 @@
       "A group with this name already exists": [
         "Υπάρχει ήδη μια ομάδα με αυτό το όνομα"
       ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Κάτι πήγε στραβά, παρακαλούμε ${ refresh } για να προχωρήσετε. Εάν εξακολουθείτε να βλέπετε αυτό το μήνυμα σφάλματος, παρακαλούμε επικοινωνήστε με την ${ supportTeam }."
+      ],
+      "File has no contents to preview": [
+        "Το αρχείο δεν έχει περιεχόμενα για προεπισκόπηση"
+      ],
       "We were unable to connect to your service provider.": [
         "Δεν ήταν δυνατή η σύνδεση με τον πάροχο υπηρεσιών σας."
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "Προσπαθήστε να πραγματοποιήσετε εκ νέου έλεγχο ταυτότητας και βεβαιωθείτε ότι τα δικαιώματα έχουν οριστεί σωστά."
-      ],
-      "File has no contents to preview": [
-        "Το αρχείο δεν έχει περιεχόμενα για προεπισκόπηση"
       ],
       "Process aborted": [
         "Η διαδικασία ακυρώθηκε"
@@ -381,6 +378,20 @@
         "Πάρα πολλά ενεργά φίλτρα. Παρακαλώ αναβαθμίστε σε ένα πληρωμένο πρόγραμμα για να ενεργοποιήσετε περισσότερα φίλτρα"
       ]
     },
+    "file size format": {
+      "bytes": [
+        "bytes"
+      ],
+      "KB": [
+        "KB"
+      ],
+      "MB": [
+        "MB"
+      ],
+      "GB": [
+        "GB"
+      ]
+    },
     "Validation": {
       "Password must contain at least ${ length } character": [
         "",
@@ -501,17 +512,6 @@
         "Διεύθυνση"
       ]
     },
-    "Message": {
-      "Re:": [
-        "Απ:"
-      ],
-      "Fw:": [
-        "Προώθ:"
-      ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "Στις ${ date }, ${ name } ${ address } έγραψε:"
-      ]
-    },
     "Info": {
       "Session timed out.": [
         "Η χρονική περίοδος σύνδεσης έληξε."
@@ -556,9 +556,6 @@
         "(${ memberCount } μέλος)",
         "(${ memberCount } μέλη)"
       ],
-      "Loading": [
-        "Φόρτωση"
-      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Αυτός ο σύνδεσμος μπορεί να είναι επίθεση ομογραφίας και δεν μπορεί να ανοίξει από προγράμματα περιήγησης Internet Explorer και Edge. Εάν είστε βέβαιοι ότι ο σύνδεσμος είναι αυθεντικός, χρησιμοποιήστε ένα διαφορετικό πρόγραμμα περιήγησης για να το ανοίξετε."
       ],
@@ -570,6 +567,9 @@
       ],
       "Learn more": [
         "Μάθετε περισσότερα"
+      ],
+      "Loading": [
+        "Φόρτωση"
       ],
       "Insert image": [
         "Εισαγωγή εικόνας"
@@ -691,9 +691,6 @@
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Αν αντιμετωπίζετε προβλήματα με τη δημιουργία του λογαριασμού σας, ζητήστε μια πρόσκληση και θα απαντήσουμε εντός μίας εργάσιμης ημέρας."
       ],
-      "support team": [
-        "ομάδα υποστήριξης"
-      ],
       "No contacts added yet": [
         "Δεν έχουν προστεθεί επαφές ακόμα"
       ],
@@ -813,6 +810,27 @@
         "${ addressCount } διεύθυνση ηλεκτρονικού ταχυδρομείου",
         "${ addressCount } διευθύνσεις ηλεκτρονικού ταχυδρομείου"
       ],
+      "support team": [
+        "ομάδα υποστήριξης"
+      ],
+      "Unsupported file": [
+        "Μη υποστηριζόμενο αρχείο"
+      ],
+      "No preview available": [
+        "Δεν υπάρχει διαθέσιμη προεπισκόπηση"
+      ],
+      "Preview": [
+        "Προεπισκόπηση"
+      ],
+      "Loading preview": [
+        "Φόρτωση προεπισκόπησης"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        ""
+      ],
+      "of": [
+        "από"
+      ],
       "Import contacts": [
         "Εισαγωγή επαφών"
       ],
@@ -842,24 +860,6 @@
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "Η ανανέωση της σελίδας ή ${ link } θα επιλύσει αυτόματα τα περισσότερα προβλήματα."
-      ],
-      "Unsupported file": [
-        "Μη υποστηριζόμενο αρχείο"
-      ],
-      "No preview available": [
-        "Δεν υπάρχει διαθέσιμη προεπισκόπηση"
-      ],
-      "Preview": [
-        "Προεπισκόπηση"
-      ],
-      "Loading preview": [
-        "Φόρτωση προεπισκόπησης"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        ""
-      ],
-      "of": [
-        "από"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "Η βασική πλοήγηση και οι ενέργειες παραμένουν διαθέσιμες ανεξάρτητα από τις συντομεύσεις πληκτρολογίου που είναι ενεργές ή όχι στις ρυθμίσεις."
@@ -2929,6 +2929,27 @@
       "OK": [
         "ΟΚ"
       ],
+      "Details": [
+        "Λεπτομέρειες"
+      ],
+      "Share via link": [
+        ""
+      ],
+      "Sharing options": [
+        "Επιλογές κοινοποίησης"
+      ],
+      "Zoom out": [
+        "Σμίκρυνση"
+      ],
+      "Reset zoom": [
+        "Επαναφορά μεγέθυνσης"
+      ],
+      "Zoom in": [
+        "Μεγέθυνση"
+      ],
+      "Previous": [
+        "Προηγούμενο"
+      ],
       "Continue import": [
         "Συνεχίστε την εισαγωγή"
       ],
@@ -2952,27 +2973,6 @@
       ],
       "Show info": [
         "Εμφάνιση πληροφοριών"
-      ],
-      "Details": [
-        "Λεπτομέρειες"
-      ],
-      "Share via link": [
-        ""
-      ],
-      "Sharing options": [
-        "Επιλογές κοινοποίησης"
-      ],
-      "Zoom out": [
-        "Σμίκρυνση"
-      ],
-      "Reset zoom": [
-        "Επαναφορά μεγέθυνσης"
-      ],
-      "Zoom in": [
-        "Μεγέθυνση"
-      ],
-      "Previous": [
-        "Προηγούμενο"
       ],
       "Get started": [
         "Ξεκινήστε"
@@ -3314,6 +3314,12 @@
       "Accept": [
         "Αποδοχή"
       ],
+      "Show": [
+        "Εμφάνιση"
+      ],
+      "Show less": [
+        ""
+      ],
       "Never show": [
         "Να μην εμφανίζεται ποτέ"
       ],
@@ -3340,9 +3346,6 @@
       ],
       "Hide": [
         "Απόκρυψη"
-      ],
-      "Show": [
-        "Εμφάνιση"
       ],
       "Learn more": [
         "Μάθετε περισσότερα"
@@ -4024,36 +4027,6 @@
       "Add a gift code": [
         "Προσθήκη κωδικού δώρου"
       ],
-      "Inbox": [
-        "Εισερχόμενα"
-      ],
-      "Drafts": [
-        "Πρόχειρα"
-      ],
-      "Sent": [
-        "Απεσταλμένα"
-      ],
-      "Trash": [
-        "Κάδος Απορριμμάτων"
-      ],
-      "Spam": [
-        "Ανεπιθύμητα"
-      ],
-      "All mail": [
-        "Όλα τα Μηνύματα"
-      ],
-      "Archive": [
-        "Αρχειοθέτηση"
-      ],
-      "Starred": [
-        "Με αστέρι"
-      ],
-      "Outbox": [
-        "Εξερχόμενα"
-      ],
-      "Scheduled": [
-        "Προγραμματισμένο"
-      ],
       "You need to activate your calendar keys to add this event": [
         ""
       ],
@@ -4095,6 +4068,36 @@
       ],
       "Open in ${ calendarAppName }": [
         "Άνοιγμα σε ${ calendarAppName }"
+      ],
+      "Inbox": [
+        "Εισερχόμενα"
+      ],
+      "Drafts": [
+        "Πρόχειρα"
+      ],
+      "Sent": [
+        "Απεσταλμένα"
+      ],
+      "Trash": [
+        "Κάδος Απορριμμάτων"
+      ],
+      "Spam": [
+        "Ανεπιθύμητα"
+      ],
+      "All mail": [
+        "Όλα τα Μηνύματα"
+      ],
+      "Archive": [
+        "Αρχειοθέτηση"
+      ],
+      "Starred": [
+        "Με αστέρι"
+      ],
+      "Outbox": [
+        "Εξερχόμενα"
+      ],
+      "Scheduled": [
+        "Προγραμματισμένο"
       ],
       "Re-enable the address linked to this calendar to manage your invitation.": [
         "Ενεργοποιήστε ξανά τη διεύθυνση που συνδέεται με αυτό το ημερολόγιο για τη διαχείριση της πρόσκλησής σας."
@@ -4497,32 +4500,11 @@
       "Labels:": [
         "Ετικέτες:"
       ],
-      "Start time": [
-        "Ώρα έναρξης"
-      ],
-      "End time": [
-        "Ώρα λήξης"
-      ],
-      "Repeats": [
-        "Επαναλήψεις"
-      ],
-      "Calendar": [
-        "Ημερολόγιο"
+      "Keyword": [
+        "Λέξη-κλειδί"
       ],
       "Location": [
         "Τοποθεσία"
-      ],
-      "Organizer": [
-        "Διοργανωτής"
-      ],
-      "Participant": [
-        "Συμμετέχων"
-      ],
-      "Participants (${ totalParticipants })": [
-        "Συμμετέχοντες (${ totalParticipants })"
-      ],
-      "Keyword": [
-        "Λέξη-κλειδί"
       ],
       "From": [
         "Από"
@@ -6473,11 +6455,6 @@
         ""
       ]
     },
-    "Invitation details (all-day event)": {
-      "${ formattedDate } (all day)": [
-        "${ formattedDate } (όλη την ημέρα)"
-      ]
-    },
     "Calendar invite info": {
       "This response is out of date. This event has been updated.": [
         "Αυτή η απάντηση είναι ξεπερασμένη. Αυτό το γεγονός έχει ενημερωθεί."
@@ -6608,29 +6585,14 @@
       "This invitation is out of date. The event has been updated.": [
         "Αυτή η πρόσκληση είναι ξεπερασμένη. Η εκδήλωση έχει ενημερωθεί."
       ],
-      "Your attendance at this event is required.": [
-        "Απαιτείται η παρουσία σας σε αυτή την εκδήλωση."
+      "You already accepted this invitation.": [
+        ""
       ],
-      "Your attendance at this event is optional.": [
-        "Η συμμετοχή σας σε αυτή την εκδήλωση είναι προαιρετική."
+      "You already tentatively accepted this invitation.": [
+        ""
       ],
-      "Your attendance at this event is required. You already accepted this invitation.": [
-        "Απαιτείται η παρουσία σας σε αυτή την εκδήλωση. Έχετε ήδη αποδεχθεί αυτή την πρόσκληση."
-      ],
-      "Your attendance at this event is optional. You already accepted this invitation.": [
-        "Η συμμετοχή σας σε αυτή την εκδήλωση είναι προαιρετική. Έχετε ήδη αποδεχθεί αυτή την πρόσκληση."
-      ],
-      "Your attendance at this event is required. You already tentatively accepted this invitation.": [
-        "Η παρουσία σας σε αυτή την εκδήλωση απαιτείται. Έχετε ήδη αποδεχτεί διστακτικά αυτή την πρόσκληση."
-      ],
-      "Your attendance at this event is optional. You already tentatively accepted this invitation.": [
-        "Η συμμετοχή σας σε αυτή την εκδήλωση είναι προαιρετική. Έχετε ήδη αποδεχθεί διστακτικά αυτή την πρόσκληση."
-      ],
-      "Your attendance at this event is required. You already declined this invitation.": [
-        "Η συμμετοχή σας σε αυτή την εκδήλωση απαιτείται. Έχετε ήδη απορρίψει αυτή την πρόσκληση."
-      ],
-      "Your attendance at this event is optional. You already declined this invitation.": [
-        "Η συμμετοχή σας σε αυτή την εκδήλωση είναι προαιρετική. Έχετε ήδη απορρίψει αυτή την πρόσκληση."
+      "You already declined this invitation.": [
+        ""
       ],
       "This event has been cancelled.": [
         "Αυτή η εκδήλωση έχει ακυρωθεί."
@@ -6640,6 +6602,9 @@
       ],
       "An occurrence has been added to the event ${ veventIcsTitle }": [
         "Μια εμφάνιση έχει προστεθεί στο γεγονός ${ veventIcsTitle }"
+      ],
+      "(Attendance optional)": [
+        ""
       ],
       "The sender of this email has not been invited to this event and cannot be added as a participant.": [
         "Ο αποστολέας αυτού του email δεν έχει προσκληθεί σε αυτή την εκδήλωση και δεν μπορεί να προστεθεί ως συμμετέχων."
@@ -6812,12 +6777,38 @@
         "Η απάντηση πρόσκλησης απέτυχε"
       ]
     },
+    "Calendar invite buttons label": {
+      "Attending?": [
+        ""
+      ]
+    },
     "Import ICS file from Mail": {
       "Calendar event created": [
         "Δημιουργήθηκε γεγονός ημερολογίου"
       ],
       "Creating calendar event failed": [
         "Αποτυχία δημιουργίας γεγονότους ημερολογίου"
+      ]
+    },
+    "ICS widget label for event details": {
+      "Organizer:": [
+        ""
+      ],
+      "${ totalAttendees } Participant": [
+        "",
+        ""
+      ],
+      "Repeats": [
+        ""
+      ],
+      "Calendar": [
+        ""
+      ],
+      "Location": [
+        ""
+      ],
+      "Participants": [
+        ""
       ]
     },
     "Attachment signature verification": {

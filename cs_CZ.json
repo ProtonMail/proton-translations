@@ -5,36 +5,18 @@
   },
   "contexts": {
     "": {},
-    "file size format": {
-      "bytes": [
-        "bajtů"
+    "Message": {
+      "Re:": [
+        "Re:"
       ],
-      "KB": [
-        "KB"
+      "Fw:": [
+        "Fw:"
       ],
-      "MB": [
-        "MB"
-      ],
-      "GB": [
-        "GB"
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "Na ${ date }, ${ name } ${ address } napsalo:"
       ]
     },
     "Error": {
-      "This field is required": [
-        "Toto pole je povinné"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Toto pole musí obsahovat minimálně ${ minimumLength } znaků."
-      ],
-      "Email is not valid": [
-        "Emailová adresa není platná"
-      ],
-      "Not a valid number": [
-        "Neplatné číslo"
-      ],
-      "Passwords do not match": [
-        "Hesla se neshodují"
-      ],
       "Email address disabled": [
         "E-mailová adresa je deaktivovaná"
       ],
@@ -58,6 +40,21 @@
       ],
       "The sending key is not valid": [
         "Klíč pro odesílání je neplatný"
+      ],
+      "This field is required": [
+        "Toto pole je povinné"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Toto pole musí obsahovat minimálně ${ minimumLength } znaků."
+      ],
+      "Email is not valid": [
+        "Emailová adresa není platná"
+      ],
+      "Not a valid number": [
+        "Neplatné číslo"
+      ],
+      "Passwords do not match": [
+        "Hesla se neshodují"
       ],
       "Request timed out.": [
         "Vypršel časový limit žádosti."
@@ -134,9 +131,6 @@
       "Invalid verification code": [
         "Neplatný ověřovací kód"
       ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Došlo k chybě, prosíme, načtěte stránku ${ refresh }. Pokud stále vidíte tuto chybu, kontaktujte naši ${ supportTeam }."
-      ],
       "Some groups could not be deleted": [
         "Některé skupiny není možné odstranit"
       ],
@@ -182,14 +176,17 @@
       "A group with this name already exists": [
         "Skupina s tímto názvem již existuje"
       ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Došlo k chybě, prosíme, načtěte stránku ${ refresh }. Pokud stále vidíte tuto chybu, kontaktujte naši ${ supportTeam }."
+      ],
+      "File has no contents to preview": [
+        "Soubor nemá žádný obsah k náhledu"
+      ],
       "We were unable to connect to your service provider.": [
         "Nemohli jsme se připojit k vašemu poskytovateli služby."
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "Prosíme, přihlaste se znovu a zkontrolujte, že jsou správně nastavená oprávnění."
-      ],
-      "File has no contents to preview": [
-        "Soubor nemá žádný obsah k náhledu"
       ],
       "Process aborted": [
         "Transakce zrušena"
@@ -393,6 +390,20 @@
         "Příliš mnoho aktivních filtrů. Přejděte na placenou verzi pro aktivaci více filtrů"
       ]
     },
+    "file size format": {
+      "bytes": [
+        "bajtů"
+      ],
+      "KB": [
+        "KB"
+      ],
+      "MB": [
+        "MB"
+      ],
+      "GB": [
+        "GB"
+      ]
+    },
     "Validation": {
       "Password must contain at least ${ length } character": [
         "Heslo musí obsahovat alespoň ${ length } znak",
@@ -515,17 +526,6 @@
         "Adresa"
       ]
     },
-    "Message": {
-      "Re:": [
-        "Re:"
-      ],
-      "Fw:": [
-        "Fw:"
-      ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "Na ${ date }, ${ name } ${ address } napsalo:"
-      ]
-    },
     "Info": {
       "Session timed out.": [
         "Relace vypršela."
@@ -572,9 +572,6 @@
         "(${ memberCount } členů)",
         "(${ memberCount } členů)"
       ],
-      "Loading": [
-        "Načítání"
-      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Tento odkaz může být homografickým útokem a nelze ho otevřít pomocí prohlížeče Internet Explorer nebo Edge. Pokud jste si jisti, že je odkaz v pořádku, otevřete ho v jiném prohlížeči."
       ],
@@ -586,6 +583,9 @@
       ],
       "Learn more": [
         "Zjistěte více"
+      ],
+      "Loading": [
+        "Načítání"
       ],
       "Insert image": [
         "Vložit obrázek"
@@ -706,9 +706,6 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Pokud máte potíže s vytvořením účtu, požádejte prosím o pozvánku a my odpovíme do jednoho pracovního dne."
-      ],
-      "support team": [
-        "tým podpory"
       ],
       "No contacts added yet": [
         "Doposud nebyly přidány žádné kontakty"
@@ -839,6 +836,27 @@
         "${ addressCount } emailových adres",
         "${ addressCount } emailové adresy"
       ],
+      "support team": [
+        "tým podpory"
+      ],
+      "Unsupported file": [
+        "Nepodporovaný soubor"
+      ],
+      "No preview available": [
+        "Náhled není k dispozici"
+      ],
+      "Preview": [
+        "Náhled"
+      ],
+      "Loading preview": [
+        "Načítání náhledu"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "Váš internetový prohlížeč nepodporuje zobrazení PDF dokumentů. Soubor si proto stáhněte."
+      ],
+      "of": [
+        "z"
+      ],
       "Import contacts": [
         "Importovat kontakty"
       ],
@@ -868,24 +886,6 @@
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "Obnovením stránky nebo ${ link } se automaticky vyřeší většina problémů."
-      ],
-      "Unsupported file": [
-        "Nepodporovaný soubor"
-      ],
-      "No preview available": [
-        "Náhled není k dispozici"
-      ],
-      "Preview": [
-        "Náhled"
-      ],
-      "Loading preview": [
-        "Načítání náhledu"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "Váš internetový prohlížeč nepodporuje zobrazení PDF dokumentů. Soubor si proto stáhněte."
-      ],
-      "of": [
-        "z"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "Základní navigace a akce zůstávají k dispozici bez ohledu na aktivní nebo neaktivní klávesové zkratky v nastavení."
@@ -3103,6 +3103,27 @@
       "OK": [
         "OK"
       ],
+      "Details": [
+        "Detaily"
+      ],
+      "Share via link": [
+        "Sdílet odkaz"
+      ],
+      "Sharing options": [
+        "Možnosti sdílení"
+      ],
+      "Zoom out": [
+        "Oddálit"
+      ],
+      "Reset zoom": [
+        "Resetovat přiblížení"
+      ],
+      "Zoom in": [
+        "Přiblížit"
+      ],
+      "Previous": [
+        "Předchozí"
+      ],
       "Continue import": [
         "Pokračovat v importu"
       ],
@@ -3126,27 +3147,6 @@
       ],
       "Show info": [
         "Zobrazit informace"
-      ],
-      "Details": [
-        "Detaily"
-      ],
-      "Share via link": [
-        "Sdílet odkaz"
-      ],
-      "Sharing options": [
-        "Možnosti sdílení"
-      ],
-      "Zoom out": [
-        "Oddálit"
-      ],
-      "Reset zoom": [
-        "Resetovat přiblížení"
-      ],
-      "Zoom in": [
-        "Přiblížit"
-      ],
-      "Previous": [
-        "Předchozí"
       ],
       "Get started": [
         "Začínáme"
@@ -3490,6 +3490,12 @@
       "Accept": [
         "Přijmout"
       ],
+      "Show": [
+        "Zobrazit"
+      ],
+      "Show less": [
+        ""
+      ],
       "Never show": [
         "Nikdy nezobrazovat"
       ],
@@ -3516,9 +3522,6 @@
       ],
       "Hide": [
         "Skrýt"
-      ],
-      "Show": [
-        "Zobrazit"
       ],
       "Learn more": [
         "Více informací"
@@ -4216,36 +4219,6 @@
       "Add a gift code": [
         "Přidat dárkový kód"
       ],
-      "Inbox": [
-        "Doručená pošta"
-      ],
-      "Drafts": [
-        "Koncepty"
-      ],
-      "Sent": [
-        "Odeslané"
-      ],
-      "Trash": [
-        "Koš"
-      ],
-      "Spam": [
-        "Spam"
-      ],
-      "All mail": [
-        "Všechna pošta"
-      ],
-      "Archive": [
-        "Archiv"
-      ],
-      "Starred": [
-        "S hvězdičkou"
-      ],
-      "Outbox": [
-        "K odeslání"
-      ],
-      "Scheduled": [
-        "Naplánováno"
-      ],
       "You need to activate your calendar keys to add this event": [
         "Pro přidání této události musíte aktivovat vaše klíče kalendáře"
       ],
@@ -4287,6 +4260,36 @@
       ],
       "Open in ${ calendarAppName }": [
         "Otevřít v ${ calendarAppName }"
+      ],
+      "Inbox": [
+        "Doručená pošta"
+      ],
+      "Drafts": [
+        "Koncepty"
+      ],
+      "Sent": [
+        "Odeslané"
+      ],
+      "Trash": [
+        "Koš"
+      ],
+      "Spam": [
+        "Spam"
+      ],
+      "All mail": [
+        "Všechna pošta"
+      ],
+      "Archive": [
+        "Archiv"
+      ],
+      "Starred": [
+        "S hvězdičkou"
+      ],
+      "Outbox": [
+        "K odeslání"
+      ],
+      "Scheduled": [
+        "Naplánováno"
       ],
       "Re-enable the address linked to this calendar to manage your invitation.": [
         "Znovu povolte adresu přiřazenou k tomuto kalendáři, aby jste mohli spravovat své pozvání."
@@ -4689,32 +4692,11 @@
       "Labels:": [
         "Štítky:"
       ],
-      "Start time": [
-        "Čas zahájení"
-      ],
-      "End time": [
-        "Čas ukončení"
-      ],
-      "Repeats": [
-        "Odpovědi"
-      ],
-      "Calendar": [
-        "Kalendář"
+      "Keyword": [
+        "Klíčové slovo"
       ],
       "Location": [
         "Umístění"
-      ],
-      "Organizer": [
-        "Organizátor"
-      ],
-      "Participant": [
-        "Účastník"
-      ],
-      "Participants (${ totalParticipants })": [
-        "Účastníci (${ totalParticipants })"
-      ],
-      "Keyword": [
-        "Klíčové slovo"
       ],
       "From": [
         "Od"
@@ -6763,11 +6745,6 @@
         "Zítra"
       ]
     },
-    "Invitation details (all-day event)": {
-      "${ formattedDate } (all day)": [
-        "${ formattedDate } (celý den)"
-      ]
-    },
     "Calendar invite info": {
       "This response is out of date. This event has been updated.": [
         "Tato odpověď je zastaralá. Tato událost byla aktualizována."
@@ -6898,29 +6875,14 @@
       "This invitation is out of date. The event has been updated.": [
         "Tato pozvánka je zastaralá. Událost byla aktualizována."
       ],
-      "Your attendance at this event is required.": [
-        "Vaše účast na této události je vyžadována."
+      "You already accepted this invitation.": [
+        ""
       ],
-      "Your attendance at this event is optional.": [
-        "Vaše účast na této události je nepovinná."
+      "You already tentatively accepted this invitation.": [
+        ""
       ],
-      "Your attendance at this event is required. You already accepted this invitation.": [
-        "Vaše účast na této události je vyžadována. Tuto pozvánku jste již přijali."
-      ],
-      "Your attendance at this event is optional. You already accepted this invitation.": [
-        "Vaše účast na této události je nepovinná. Tuto pozvánku jste již přijali."
-      ],
-      "Your attendance at this event is required. You already tentatively accepted this invitation.": [
-        "Vaše účast na této události je vyžadována. Tuto pozvánku jste již předčasně přijali."
-      ],
-      "Your attendance at this event is optional. You already tentatively accepted this invitation.": [
-        "Vaše účast na této události je volitelná. Tuto pozvánku jste již předčasně přijali."
-      ],
-      "Your attendance at this event is required. You already declined this invitation.": [
-        "Vaše účast na této události je vyžadována. Tuto pozvánku jste již odmítli."
-      ],
-      "Your attendance at this event is optional. You already declined this invitation.": [
-        "Vaše účast na této události je nepovinná. Tuto pozvánku jste již odmítli."
+      "You already declined this invitation.": [
+        ""
       ],
       "This event has been cancelled.": [
         "Tato událost byla zrušena."
@@ -6930,6 +6892,9 @@
       ],
       "An occurrence has been added to the event ${ veventIcsTitle }": [
         "Výskyt byl přidán k události ${ veventIcsTitle }"
+      ],
+      "(Attendance optional)": [
+        ""
       ],
       "The sender of this email has not been invited to this event and cannot be added as a participant.": [
         "Odesílatel tohoto emailu nebyl pozván na tuto událost a nemůže být přidán jako účastník."
@@ -7114,12 +7079,40 @@
         "Selhalo odpovídání na pzvánku"
       ]
     },
+    "Calendar invite buttons label": {
+      "Attending?": [
+        ""
+      ]
+    },
     "Import ICS file from Mail": {
       "Calendar event created": [
         "Událost v kalendáři vytvořena"
       ],
       "Creating calendar event failed": [
         "Selhalo vytvoření události v kalendáři"
+      ]
+    },
+    "ICS widget label for event details": {
+      "Organizer:": [
+        ""
+      ],
+      "${ totalAttendees } Participant": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "Repeats": [
+        ""
+      ],
+      "Calendar": [
+        ""
+      ],
+      "Location": [
+        ""
+      ],
+      "Participants": [
+        ""
       ]
     },
     "Attachment signature verification": {
