@@ -321,7 +321,7 @@
         "删除的重复收件人：${ recipents }"
       ],
       "${ error.message } for <${ email }>. You can add another key or disable encryption for this contact to resolve the issue.": [
-        ""
+        "<${ email }> 的${ error.message }，您可以为该联系人另添一个密钥或为其禁用加密来解决问题。"
       ],
       "Message passwords do not match.": [
         "邮件解密密码不匹配。"
@@ -360,13 +360,13 @@
         "未知错误。"
       ],
       "re-activate the previous key": [
-        ""
+        "重新激活之前的密钥"
       ],
       "Your emails cannot be decrypted due to a recent password reset. If you remember your previous password, you can ${ reActivateKeyLink } in order to access your messages. ${ learnMoreLink }": [
-        ""
+        "由于最近重置了密码，无法解密您的邮件。如果您记得之前的密码，您可以${ reActivateKeyLink }以访问您的邮件。${ learnMoreLink }"
       ],
       "Your emails cannot be decrypted due to a recent password reset. ${ learnMoreLink }": [
-        ""
+        "由于最近重置了密码，无法解密您的邮件。${ learnMoreLink }"
       ],
       "Too many active filters. Please upgrade to a paid plan to activate more filters": [
         "规则数量已达上限，须开通付费账户方可启用更多筛选规则"
@@ -606,7 +606,7 @@
         "测试链接"
       ],
       "Change your default in settings": [
-        ""
+        "在设置中更改默认值"
       ],
       "Text color": [
         "文本颜色"
@@ -1176,7 +1176,7 @@
         "（满足下列任一条件）"
       ],
       "Images have been removed because they are not allowed in auto-reply.": [
-        ""
+        "图片已删除，因为自动回复中不能包含图片。"
       ],
       "All your changes will be lost.": [
         "您的所有改动都将丢失。"
@@ -1521,10 +1521,10 @@
         "预计剩余时间：${ estimatedMinutes } 分钟"
       ],
       "Clearing browser data also deactivates message content search on this device. All messages will need to be downloaded again to search within them.": [
-        ""
+        "清除浏览器数据还会停用此设备的邮件内容搜索，需要重新下载所有邮件后才能进行搜索。"
       ],
       "Clears browser data related to message content search including downloaded messages": [
-        ""
+        "清除与邮件内容搜索相关的浏览器数据，包括已下载的邮件"
       ],
       "${ unreadCount } unread conversation": [
         "${ unreadCount } 条未读会话"
@@ -3230,7 +3230,7 @@
         "显示"
       ],
       "Show less": [
-        ""
+        "显示更少"
       ],
       "Never show": [
         "不再显示"
@@ -3299,7 +3299,7 @@
         "高级搜索"
       ],
       "Clear browser data": [
-        ""
+        "清除浏览器数据"
       ],
       "Mark as read": [
         "标为已读"
@@ -3763,7 +3763,7 @@
         "盲抄本"
       ],
       "Sending error": [
-        ""
+        "发送时出错"
       ],
       "Confirm recipient address?": [
         "确认收件人地址？"
@@ -4530,7 +4530,7 @@
         "提示"
       ],
       "Search Messages": [
-        ""
+        "搜索邮件"
       ],
       "Start date": [
         "开始日期"
@@ -4581,12 +4581,12 @@
     },
     "Font Face Default": {
       "Default": [
-        ""
+        "默认"
       ]
     },
     "Font Size Default": {
       "Default": [
-        ""
+        "默认"
       ]
     },
     "Storage": {
@@ -4922,7 +4922,7 @@
         ""
       ],
       "Unfortunately, we’re not online at the moment. Please complete the form below to describe your issue, and we will look into it and be in touch when we’re back online.": [
-        ""
+        "非常抱歉，我们目前不在线。请填写下面的表格来描述您的问题，我们会进行调查并在上线后联系您。"
       ],
       "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
         "反馈内容不会经过端对端加密，请勿发送敏感信息。"
@@ -5486,12 +5486,12 @@
     },
     "Keyboard Shortcuts Enabled": {
       "On": [
-        ""
+        "开"
       ]
     },
     "Keyboard Shortcuts Disabled": {
       "Off": [
-        ""
+        "关"
       ]
     },
     "Layout mode": {
@@ -6441,13 +6441,13 @@
         "此邀请已过期。活动已更新。"
       ],
       "You already accepted this invitation.": [
-        ""
+        "您已接受了此邀请。"
       ],
       "You already tentatively accepted this invitation.": [
-        ""
+        "您已暂时接受了此邀请。"
       ],
       "You already declined this invitation.": [
-        ""
+        "您已拒绝了此邀请。"
       ],
       "This event has been cancelled.": [
         "此事项已被取消。"
@@ -6459,7 +6459,7 @@
         "一次活动已添加到活动 ${ veventIcsTitle }"
       ],
       "(Attendance optional)": [
-        ""
+        "（出席可选）"
       ],
       "The sender of this email has not been invited to this event and cannot be added as a participant.": [
         "此邮件的发件人尚未受邀参加此活动，因此无法添加为参与者。"
@@ -6553,12 +6553,12 @@
     },
     "Send email with changed preferences": {
       "The contacts for the following addresses have been deleted, so the corresponding encryption preferences have been updated accordingly:": [
-        ""
+        "以下地址的联系人已删除，因此相应的加密首选项已对应更新："
       ]
     },
     "Spotlight": {
       "You can now schedule your messages to be sent later": [
-        ""
+        "您现在可以计划稍后发送邮件"
       ]
     },
     "Message image": {
@@ -6628,7 +6628,7 @@
     },
     "Calendar invite buttons label": {
       "Attending?": [
-        ""
+        "是否出席？"
       ]
     },
     "Import ICS file from Mail": {
@@ -6641,22 +6641,22 @@
     },
     "ICS widget label for event details": {
       "Organizer:": [
-        ""
+        "组织者："
       ],
       "${ totalAttendees } Participant": [
-        ""
+        "${ totalAttendees } 个参与者"
       ],
       "Repeats": [
-        ""
+        "重复"
       ],
       "Calendar": [
-        ""
+        "日历"
       ],
       "Location": [
-        ""
+        "地点"
       ],
       "Participants": [
-        ""
+        "参与者"
       ]
     },
     "Attachment signature verification": {
