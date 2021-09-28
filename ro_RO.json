@@ -5,18 +5,25 @@
   },
   "contexts": {
     "": {},
-    "Message": {
-      "Re:": [
-        "Re:"
-      ],
-      "Fw:": [
-        "Fw:"
-      ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "${ name } ${ address } - ${ date } a scris:"
-      ]
-    },
     "Error": {
+      "This field is required": [
+        "Acest câmp este obligatoriu"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Acest câmp necesită un minimum de ${ minimumLength } caractere."
+      ],
+      "Email is not valid": [
+        "E-mailul nu este valid"
+      ],
+      "Not a valid number": [
+        "Nu este un număr valid"
+      ],
+      "Passwords do not match": [
+        "Parolele nu coincid"
+      ],
+      "Request timed out.": [
+        "Solicitarea a expirat."
+      ],
       "Email address disabled": [
         "Adresă de e-mail dezactivată"
       ],
@@ -40,24 +47,6 @@
       ],
       "The sending key is not valid": [
         "Cheia de trimitere nu este validă"
-      ],
-      "This field is required": [
-        "Acest câmp este obligatoriu"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Acest câmp necesită un minimum de ${ minimumLength } caractere."
-      ],
-      "Email is not valid": [
-        "E-mailul nu este valid"
-      ],
-      "Not a valid number": [
-        "Nu este un număr valid"
-      ],
-      "Passwords do not match": [
-        "Parolele nu coincid"
-      ],
-      "Request timed out.": [
-        "Solicitarea a expirat."
       ],
       "Signature verification failed": [
         "Eșuare verificare semnătură"
@@ -101,17 +90,17 @@
       "Authentication error.": [
         "Eroare autentificare."
       ],
-      "Email address invalid": [
-        "Adresă de e-mail nevalidă"
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "Navigatorul folosit nu permite autorizarea completă a plății. Folosiți un alt navigator sau conectați-vă de pe un calculator."
-      ],
       "The composer failed to load.": [
         "Editorul de mesaje nu a putut fi încărcat."
       ],
       "Please refresh the page.": [
         "Reîmprospătați pagina."
+      ],
+      "Email address invalid": [
+        "Adresă de e-mail nevalidă"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "Navigatorul folosit nu permite autorizarea completă a plății. Folosiți un alt navigator sau conectați-vă de pe un calculator."
       ],
       "Incorrect mailbox password. Please try again": [
         "Parolă căsuță mesaje incorectă. Mai reîncercaţi."
@@ -130,6 +119,9 @@
       ],
       "Invalid verification code": [
         "Cod de verificare nevalid"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Ceva nu a funcționat bine, ${ refresh } pagina pentru a continua. Dacă mai vedeți acest mesaj de eroare contactați ${ supportTeam }."
       ],
       "Some groups could not be deleted": [
         "Unele grupuri nu s-au putut șterge."
@@ -173,9 +165,6 @@
       ],
       "A group with this name already exists": [
         "Un grup cu acest nume există deja"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Ceva nu a funcționat bine, ${ refresh } pagina pentru a continua. Dacă mai vedeți acest mesaj de eroare contactați ${ supportTeam }."
       ],
       "File has no contents to preview": [
         "Fișierul nu are conținut de afișat"
@@ -377,11 +366,18 @@
       "Your emails cannot be decrypted due to a recent password reset. If you remember your previous password, you can ${ reActivateKeyLink } in order to access your messages. ${ learnMoreLink }": [
         "Mesajele dvs. de e-mail nu pot fi decriptate din cauza unei resetări recente a parolei. Dacă vă amintiți parola anterioară, puteți să ${ reActivateKeyLink } pentru a vă accesa mesajele. ${ learnMoreLink }"
       ],
-      "Your emails cannot be decrypted due to a recent password reset. ${ learnMoreLink }": [
-        "Mesajele dvs. de e-mail nu pot fi decriptate din cauza unei resetări recente a parolei. ${ learnMoreLink }"
+      "Your emails cannot be decrypted. This may be due to a password reset. ${ learnMoreLink }": [
+        ""
       ],
       "Too many active filters. Please upgrade to a paid plan to activate more filters": [
         "Prea multe filtre active. Trebuie să treceți la un plan cu plată pentru a putea activa mai multe filtre."
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "Parola trebuie să conțină cel puțin un caracter",
+        "Parola trebuie să conțină cel puțin ${ length } caractere.",
+        "Parola trebuie să conțină cel puțin ${ length } de caractere."
       ]
     },
     "file size format": {
@@ -396,13 +392,6 @@
       ],
       "GB": [
         "GB"
-      ]
-    },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "Parola trebuie să conțină cel puțin un caracter",
-        "Parola trebuie să conțină cel puțin ${ length } caractere.",
-        "Parola trebuie să conțină cel puțin ${ length } de caractere."
       ]
     },
     "Contact field label": {
@@ -556,29 +545,6 @@
       "No results found": [
         "Nu s-au găsit rezultate"
       ],
-      "Week": [
-        "Săptămâna"
-      ],
-      "(${ memberCount } member)": [
-        "(Un membru)",
-        "(${ memberCount } membri)",
-        "(${ memberCount } de membri)"
-      ],
-      "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
-        "Această legătură ar putea fi un atac omoglific (caractere asemănătoare dar cu cod diferit de caracter) și nu poate fi deschisă de către navigatoarele Internet Explorer și Edge. Dacă sunteți sigur că legătura este legitimă, folosiți un alt navigator pentru a o deschide."
-      ],
-      "This link may be a homograph attack. Please verify this is the link you wish to visit, or don't open it.": [
-        "Această legătură ar putea fi un atac omoglific. Verificați adresa pe care doriți să o vizitați sau nu o deschideți."
-      ],
-      "You are about to open another browser tab and visit:": [
-        "Se va deschide o nouă filă în navigator cu adresa:"
-      ],
-      "Learn more": [
-        "Detalii"
-      ],
-      "Loading": [
-        "Se încarcă"
-      ],
       "Insert image": [
         "Inserare imagine"
       ],
@@ -654,6 +620,29 @@
       "Plain text": [
         "Text simplu"
       ],
+      "Week": [
+        "Săptămâna"
+      ],
+      "(${ memberCount } member)": [
+        "(Un membru)",
+        "(${ memberCount } membri)",
+        "(${ memberCount } de membri)"
+      ],
+      "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
+        "Această legătură ar putea fi un atac omoglific (caractere asemănătoare dar cu cod diferit de caracter) și nu poate fi deschisă de către navigatoarele Internet Explorer și Edge. Dacă sunteți sigur că legătura este legitimă, folosiți un alt navigator pentru a o deschide."
+      ],
+      "This link may be a homograph attack. Please verify this is the link you wish to visit, or don't open it.": [
+        "Această legătură ar putea fi un atac omoglific. Verificați adresa pe care doriți să o vizitați sau nu o deschideți."
+      ],
+      "You are about to open another browser tab and visit:": [
+        "Se va deschide o nouă filă în navigator cu adresa:"
+      ],
+      "Learn more": [
+        "Detalii"
+      ],
+      "Loading": [
+        "Se încarcă"
+      ],
       "Drop the file here to upload": [
         "Plasați fișierul aici pentru a fi încărcat"
       ],
@@ -698,6 +687,9 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Dacă aveți probleme cu crearea contului, solicitați o invitație și vom răspunde în termen de o zi lucrătoare."
+      ],
+      "support team": [
+        "echipa de suport"
       ],
       "No contacts added yet": [
         "Încă nu s-au adăugat contacte"
@@ -822,9 +814,6 @@
         "O adresă de e-mail",
         "${ addressCount } adrese de e-mail",
         "${ addressCount } de adrese de e-mail"
-      ],
-      "support team": [
-        "echipa de suport"
       ],
       "Unsupported file": [
         "Fişier nesuportat"
@@ -1792,6 +1781,17 @@
         "Folosind dispozitivul mobil, scanați acest cod QR sau vizitați ${ link }."
       ]
     },
+    "Message": {
+      "Re:": [
+        "Re:"
+      ],
+      "Fw:": [
+        "Fw:"
+      ],
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "${ name } ${ address } - ${ date } a scris:"
+      ]
+    },
     "PGP key warning": {
       "Email address not found among user ids defined in sending key (${ keyUserIds })": [
         "Adresa de e-mail nu a fost găsită printre id-urile de utilizatori definite în cheia de trimitere (${ keyUserIds })"
@@ -2019,11 +2019,11 @@
       ]
     },
     "Calendar status": {
-      "Not synced": [
-        "Nesincronizat"
-      ],
       "Syncing": [
         "Se sincronizează"
+      ],
+      "Not synced": [
+        "Nesincronizat"
       ]
     },
     "Calendar subscription not synced error": {
@@ -2695,38 +2695,8 @@
       "Close": [
         "Închidere"
       ],
-      "More info: ${ safeTitle }": [
-        "Mai multe informații: ${ safeTitle }"
-      ],
-      "Confirm": [
-        "Confirmare"
-      ],
       "Cancel": [
         "Anulare"
-      ],
-      "Submit": [
-        "Trimite"
-      ],
-      "Close modal": [
-        "Închidere"
-      ],
-      "Use “${ label }” setting": [
-        "Folosire setarea „${ label }”"
-      ],
-      "Remove": [
-        "Eliminare"
-      ],
-      "Next month": [
-        "Luna viitoare"
-      ],
-      "Previous month": [
-        "Luna trecută"
-      ],
-      "Load image": [
-        "Încărcare imagine"
-      ],
-      "Confirm opening of link ${ link }": [
-        "Confirmați deschiderea legăturii ${ link }"
       ],
       "Save": [
         "Salvare"
@@ -2790,6 +2760,36 @@
       ],
       "Underline": [
         "Subliniat"
+      ],
+      "More info: ${ safeTitle }": [
+        "Mai multe informații: ${ safeTitle }"
+      ],
+      "Confirm": [
+        "Confirmare"
+      ],
+      "Submit": [
+        "Trimite"
+      ],
+      "Close modal": [
+        "Închidere"
+      ],
+      "Use “${ label }” setting": [
+        "Folosire setarea „${ label }”"
+      ],
+      "Remove": [
+        "Eliminare"
+      ],
+      "Next month": [
+        "Luna viitoare"
+      ],
+      "Previous month": [
+        "Luna trecută"
+      ],
+      "Load image": [
+        "Încărcare imagine"
+      ],
+      "Confirm opening of link ${ link }": [
+        "Confirmați deschiderea legăturii ${ link }"
       ],
       "Go to panel ${ index }": [
         "Salt la panoul ${ index }"
@@ -3575,11 +3575,11 @@
       "Open actions dropdown": [
         "Deschidere meniu acțiuni"
       ],
-      "Link confirmation": [
-        "Legătură de confirmare"
-      ],
       "Expand content": [
         "Extindere conținut"
+      ],
+      "Link confirmation": [
+        "Legătură de confirmare"
       ],
       "Keyboard Shortcuts": [
         "Combinații de taste"
@@ -4095,6 +4095,138 @@
         "Cheia nu poate fi folosită pentru criptare."
       ]
     },
+    "Placeholder": {
+      "Link": [
+        "Legătura"
+      ],
+      "Fill in the URL link and text to test your link": [
+        "Completaţi adresa URL şi textul pentru a testa legătura"
+      ],
+      "Email address": [
+        "Adresă e-mail"
+      ],
+      "Fill in the email address and text to test your link": [
+        "Completaţi adresa de e-mail şi textul pentru a testa legătura"
+      ],
+      "Phone number": [
+        "Număr de telefon"
+      ],
+      "Fill in the phone number and text to test your link": [
+        "Completați numărul de telefon și textul pentru a testa legătura"
+      ],
+      "Text": [
+        "Text"
+      ],
+      "E.g., ": [
+        "Ex.: "
+      ],
+      "Mailbox password": [
+        "Parolă mesaje"
+      ],
+      "Start typing an email address": [
+        "Introduceți o adresă de e-mail"
+      ],
+      "Image URL": [
+        "URL imagine"
+      ],
+      "Search name, email or group": [
+        "Căutare nume, e-mail sau grup"
+      ],
+      "Filter groups": [
+        "Filtrare grupuri"
+      ],
+      "Search for name or email": [
+        "Căutare după nume sau e-mail"
+      ],
+      "Search for group name": [
+        "Căutare nume grup"
+      ],
+      "Name": [
+        "Nume"
+      ],
+      "OS name": [
+        "Sistem de operare"
+      ],
+      "OS version": [
+        "Versiune sistem de operare"
+      ],
+      "Proton username": [
+        "Utilizator Proton"
+      ],
+      "A way to contact you": [
+        "Modalitate de contactare"
+      ],
+      "Please describe the problem and include any error messages": [
+        "Descrieți problema incluzând și mesajele de eroare ce apar"
+      ],
+      "Browser name": [
+        "Nume navigator"
+      ],
+      "Browser version": [
+        "Versiune navigator"
+      ],
+      "e.g. Julia Smith": [
+        "ex: Iulia Sandu"
+      ],
+      "ZIP": [
+        "ZIP"
+      ],
+      "Postal code": [
+        "Cod poștal"
+      ],
+      "Gift code": [
+        "Cod cadou"
+      ],
+      "Type text or keyword": [
+        "Scrieți un text sau cuvânt cheie"
+      ],
+      "Subject": [
+        "Subiect"
+      ],
+      "Write your message": [
+        "Scrieți mesajul"
+      ],
+      "Password": [
+        "Parola"
+      ],
+      "Confirm Password": [
+        "Confirmare parolă"
+      ],
+      "Hint": [
+        "Indiciu"
+      ],
+      "Search Messages": [
+        "Căutare mesaje"
+      ],
+      "Start date": [
+        "Dată început"
+      ],
+      "End date": [
+        "Data sfârșit"
+      ],
+      "Name or email address": [
+        "Numele de utilizator sau adresa de e-mail"
+      ],
+      "Search messages": [
+        "Căutare mesaje"
+      ],
+      "Filter folders": [
+        "Filtrare foldere"
+      ],
+      "Filter labels": [
+        "Filtrare etichete"
+      ]
+    },
+    "Font Face Default": {
+      "Default": [
+        "Implicit"
+      ]
+    },
+    "Font Size Default": {
+      "Default": [
+        "Implicit"
+      ]
+    },
     "Link": {
       "Learn more": [
         "Detalii"
@@ -4122,6 +4254,36 @@
       ],
       "Add a gift code": [
         "Adăugare cod cadou"
+      ],
+      "Inbox": [
+        "Primite"
+      ],
+      "Drafts": [
+        "Ciorne"
+      ],
+      "Sent": [
+        "Trimise"
+      ],
+      "Trash": [
+        "Gunoi"
+      ],
+      "Spam": [
+        "Nedorite"
+      ],
+      "All mail": [
+        "Toate mesajele"
+      ],
+      "Archive": [
+        "Arhivă"
+      ],
+      "Starred": [
+        "Cu stea"
+      ],
+      "Outbox": [
+        "De trimis"
+      ],
+      "Scheduled": [
+        "Programate"
       ],
       "You need to activate your calendar keys to add this event": [
         "Trebuie să activați cheile calendarului pentru a adăuga acest eveniment"
@@ -4164,36 +4326,6 @@
       ],
       "Open in ${ calendarAppName }": [
         "Deschidere în ${ calendarAppName }"
-      ],
-      "Inbox": [
-        "Primite"
-      ],
-      "Drafts": [
-        "Ciorne"
-      ],
-      "Sent": [
-        "Trimise"
-      ],
-      "Trash": [
-        "Gunoi"
-      ],
-      "Spam": [
-        "Nedorite"
-      ],
-      "All mail": [
-        "Toate mesajele"
-      ],
-      "Archive": [
-        "Arhivă"
-      ],
-      "Starred": [
-        "Cu stea"
-      ],
-      "Outbox": [
-        "De trimis"
-      ],
-      "Scheduled": [
-        "Programate"
       ],
       "Re-enable the address linked to this calendar to manage your invitation.": [
         "Reactivați adresa asociată acestui calendar pentru a vă gestiona invitația."
@@ -4621,128 +4753,6 @@
         "Și arhivare"
       ]
     },
-    "Placeholder": {
-      "E.g., ": [
-        "Ex.: "
-      ],
-      "Link": [
-        "Legătura"
-      ],
-      "Fill in the URL link and text to test your link": [
-        "Completaţi adresa URL şi textul pentru a testa legătura"
-      ],
-      "Email address": [
-        "Adresă e-mail"
-      ],
-      "Fill in the email address and text to test your link": [
-        "Completaţi adresa de e-mail şi textul pentru a testa legătura"
-      ],
-      "Phone number": [
-        "Număr de telefon"
-      ],
-      "Fill in the phone number and text to test your link": [
-        "Completați numărul de telefon și textul pentru a testa legătura"
-      ],
-      "Text": [
-        "Text"
-      ],
-      "Mailbox password": [
-        "Parolă mesaje"
-      ],
-      "Start typing an email address": [
-        "Introduceți o adresă de e-mail"
-      ],
-      "Image URL": [
-        "URL imagine"
-      ],
-      "Search name, email or group": [
-        "Căutare nume, e-mail sau grup"
-      ],
-      "Filter groups": [
-        "Filtrare grupuri"
-      ],
-      "Search for name or email": [
-        "Căutare după nume sau e-mail"
-      ],
-      "Search for group name": [
-        "Căutare nume grup"
-      ],
-      "Name": [
-        "Nume"
-      ],
-      "OS name": [
-        "Sistem de operare"
-      ],
-      "OS version": [
-        "Versiune sistem de operare"
-      ],
-      "Proton username": [
-        "Utilizator Proton"
-      ],
-      "A way to contact you": [
-        "Modalitate de contactare"
-      ],
-      "Please describe the problem and include any error messages": [
-        "Descrieți problema incluzând și mesajele de eroare ce apar"
-      ],
-      "Browser name": [
-        "Nume navigator"
-      ],
-      "Browser version": [
-        "Versiune navigator"
-      ],
-      "e.g. Julia Smith": [
-        "ex: Iulia Sandu"
-      ],
-      "ZIP": [
-        "ZIP"
-      ],
-      "Postal code": [
-        "Cod poștal"
-      ],
-      "Gift code": [
-        "Cod cadou"
-      ],
-      "Type text or keyword": [
-        "Scrieți un text sau cuvânt cheie"
-      ],
-      "Subject": [
-        "Subiect"
-      ],
-      "Write your message": [
-        "Scrieți mesajul"
-      ],
-      "Password": [
-        "Parola"
-      ],
-      "Confirm Password": [
-        "Confirmare parolă"
-      ],
-      "Hint": [
-        "Indiciu"
-      ],
-      "Search Messages": [
-        "Căutare mesaje"
-      ],
-      "Start date": [
-        "Dată început"
-      ],
-      "End date": [
-        "Data sfârșit"
-      ],
-      "Name or email address": [
-        "Numele de utilizator sau adresa de e-mail"
-      ],
-      "Search messages": [
-        "Căutare mesaje"
-      ],
-      "Filter folders": [
-        "Filtrare foldere"
-      ],
-      "Filter labels": [
-        "Filtrare etichete"
-      ]
-    },
     "Time unit": {
       "${ hours } hour": [
         "O oră",
@@ -4783,16 +4793,6 @@
         "S-a găsit o sugestie, folosiți tastatura pentru a naviga.",
         "S-au găsit ${ items.length } sugestii, folosiți tastatura pentru a naviga.",
         "S-au găsit ${ items.length } de sugestii, folosiți tastatura pentru a naviga."
-      ]
-    },
-    "Font Face Default": {
-      "Default": [
-        "Implicit"
-      ]
-    },
-    "Font Size Default": {
-      "Default": [
-        "Implicit"
       ]
     },
     "Storage": {

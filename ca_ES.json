@@ -5,18 +5,25 @@
   },
   "contexts": {
     "": {},
-    "Message": {
-      "Re:": [
-        "Re:"
-      ],
-      "Fw:": [
-        "Fw:"
-      ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "El ${ date }, ${ name } ${ address } va escriure:"
-      ]
-    },
     "Error": {
+      "This field is required": [
+        "Aquest camp és obligatori"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Aquest camp requereix un mínim de ${ minimumLength } caràcters."
+      ],
+      "Email is not valid": [
+        "El correu electrònic no és vàlid"
+      ],
+      "Not a valid number": [
+        "Número no vàlid"
+      ],
+      "Passwords do not match": [
+        "Les contrasenyes no coincideixen"
+      ],
+      "Request timed out.": [
+        "S'ha esgotat el temps d'espera."
+      ],
       "Email address disabled": [
         "Correu electrònic deshabilitada"
       ],
@@ -40,24 +47,6 @@
       ],
       "The sending key is not valid": [
         "La clau enviada no es vàlida"
-      ],
-      "This field is required": [
-        "Aquest camp és obligatori"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Aquest camp requereix un mínim de ${ minimumLength } caràcters."
-      ],
-      "Email is not valid": [
-        "El correu electrònic no és vàlid"
-      ],
-      "Not a valid number": [
-        "Número no vàlid"
-      ],
-      "Passwords do not match": [
-        "Les contrasenyes no coincideixen"
-      ],
-      "Request timed out.": [
-        "S'ha esgotat el temps d'espera."
       ],
       "Signature verification failed": [
         "Verificació de la signatura fallida"
@@ -101,17 +90,17 @@
       "Authentication error.": [
         "Error d'autenticació."
       ],
-      "Email address invalid": [
-        "Correu electrònic invàlid"
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "El navegador que utilitzeu no permet l'autorització total del pagament. Utilitzeu un navegador diferent o inicieu la sessió mitjançant un ordinador."
-      ],
       "The composer failed to load.": [
         "El compositor no s'ha pogut carregar."
       ],
       "Please refresh the page.": [
         "Si us plau, refresqueu la pàgina."
+      ],
+      "Email address invalid": [
+        "Correu electrònic invàlid"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "El navegador que utilitzeu no permet l'autorització total del pagament. Utilitzeu un navegador diferent o inicieu la sessió mitjançant un ordinador."
       ],
       "Incorrect mailbox password. Please try again": [
         "Contrasenya de bustia incorrecta, si us plau, torneu-ho a provar de nou"
@@ -130,6 +119,9 @@
       ],
       "Invalid verification code": [
         "Codi de verificació no vàlid"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "S'ha produït un error, ${ refresh } per continuar. Si continueu veient aquest missatge d'error, poseu-vos en contacte amb el nostre ${ supportTeam }."
       ],
       "Some groups could not be deleted": [
         "Alguns grups no poden ser esborrats"
@@ -171,9 +163,6 @@
       ],
       "A group with this name already exists": [
         "Ja existeix un grup amb aquest nom"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "S'ha produït un error, ${ refresh } per continuar. Si continueu veient aquest missatge d'error, poseu-vos en contacte amb el nostre ${ supportTeam }."
       ],
       "File has no contents to preview": [
         "L'arxiu no té contingut per previsualitzar"
@@ -371,11 +360,17 @@
       "Your emails cannot be decrypted due to a recent password reset. If you remember your previous password, you can ${ reActivateKeyLink } in order to access your messages. ${ learnMoreLink }": [
         "Els vostres correus electrònics no es poden desxifrar a causa d'un restabliment de contrasenya recent. Si recordeu la contrasenya anterior, podeu ${ reActivateKeyLink } per accedir als vostres missatges. ${ learnMoreLink }"
       ],
-      "Your emails cannot be decrypted due to a recent password reset. ${ learnMoreLink }": [
-        "Els vostres correus electrònics no es poden desxifrar a causa d'un restabliment de contrasenya recent. ${ learnMoreLink }"
+      "Your emails cannot be decrypted. This may be due to a password reset. ${ learnMoreLink }": [
+        ""
       ],
       "Too many active filters. Please upgrade to a paid plan to activate more filters": [
         "Massa filtres actius. Actualitzeu a un pla de pagament per activar més filtres"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "La contrasenya ha de tenir com a mínim ${ length } caràcter",
+        "La contrasenya ha de tenir com a mínim ${ length } caràcters"
       ]
     },
     "file size format": {
@@ -390,12 +385,6 @@
       ],
       "GB": [
         "GB"
-      ]
-    },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "La contrasenya ha de tenir com a mínim ${ length } caràcter",
-        "La contrasenya ha de tenir com a mínim ${ length } caràcters"
       ]
     },
     "Contact field label": {
@@ -549,28 +538,6 @@
       "No results found": [
         "No s'han trobat resultats"
       ],
-      "Week": [
-        "Setmana"
-      ],
-      "(${ memberCount } member)": [
-        "(${ memberCount } membre)",
-        "(${ memberCount } membres)"
-      ],
-      "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
-        "Aquest enllaç pot ser un atac de homògraf i no es pot obrir amb els navegadors Internet Explorer i Edge. Si esteu segurs que l’enllaç és legítim, utilitzeu un navegador diferent per obrir-lo."
-      ],
-      "This link may be a homograph attack. Please verify this is the link you wish to visit, or don't open it.": [
-        "Aquest enllaç pot ser un atac de homògraf. Si esteu segurs que l’enllaç és el que vols, o no l'obriu."
-      ],
-      "You are about to open another browser tab and visit:": [
-        "Esteu a punt d'obrir una altra pestanya del navegador i visitar:"
-      ],
-      "Learn more": [
-        "Més informació"
-      ],
-      "Loading": [
-        "Carregant"
-      ],
       "Insert image": [
         "Afegeix imatge"
       ],
@@ -646,6 +613,28 @@
       "Plain text": [
         "Text plà"
       ],
+      "Week": [
+        "Setmana"
+      ],
+      "(${ memberCount } member)": [
+        "(${ memberCount } membre)",
+        "(${ memberCount } membres)"
+      ],
+      "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
+        "Aquest enllaç pot ser un atac de homògraf i no es pot obrir amb els navegadors Internet Explorer i Edge. Si esteu segurs que l’enllaç és legítim, utilitzeu un navegador diferent per obrir-lo."
+      ],
+      "This link may be a homograph attack. Please verify this is the link you wish to visit, or don't open it.": [
+        "Aquest enllaç pot ser un atac de homògraf. Si esteu segurs que l’enllaç és el que vols, o no l'obriu."
+      ],
+      "You are about to open another browser tab and visit:": [
+        "Esteu a punt d'obrir una altra pestanya del navegador i visitar:"
+      ],
+      "Learn more": [
+        "Més informació"
+      ],
+      "Loading": [
+        "Carregant"
+      ],
       "Drop the file here to upload": [
         "Arrossegueu el fitxer aquí per carregar-lo"
       ],
@@ -690,6 +679,9 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Si teniu problemes per crear el vostre compte, sol·liciteu una invitació i us respondrem en un dia laborable."
+      ],
+      "support team": [
+        "equip de suport"
       ],
       "No contacts added yet": [
         "Encara no s'han afegit contactes"
@@ -809,9 +801,6 @@
       "${ addressCount } email address": [
         "${ addressCount } adreça de correu electrònic",
         "${ addressCount } adreces de correu electrònic"
-      ],
-      "support team": [
-        "equip de suport"
       ],
       "Unsupported file": [
         "Fitxer no compatible"
@@ -1745,6 +1734,17 @@
         "Utilitzant el vostre dispositiu mòbil, escanegeu aquest codi QR o visiteu ${ link }."
       ]
     },
+    "Message": {
+      "Re:": [
+        "Re:"
+      ],
+      "Fw:": [
+        "Fw:"
+      ],
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "El ${ date }, ${ name } ${ address } va escriure:"
+      ]
+    },
     "PGP key warning": {
       "Email address not found among user ids defined in sending key (${ keyUserIds })": [
         "L'adreça de correu electrònic que no es troba entre els identificadors d'usuari definits a la clau d'enviament (${ keyUserIds })"
@@ -1972,11 +1972,11 @@
       ]
     },
     "Calendar status": {
-      "Not synced": [
-        "No sincronitzat"
-      ],
       "Syncing": [
         "Sincronitzant"
+      ],
+      "Not synced": [
+        "No sincronitzat"
       ]
     },
     "Calendar subscription not synced error": {
@@ -2611,38 +2611,8 @@
       "Close": [
         "Tancar"
       ],
-      "More info: ${ safeTitle }": [
-        "Més informació: ${ safeTitle }"
-      ],
-      "Confirm": [
-        "Confirmar"
-      ],
       "Cancel": [
         "Cancel·lar"
-      ],
-      "Submit": [
-        "Enviar"
-      ],
-      "Close modal": [
-        "Tancar el modal"
-      ],
-      "Use “${ label }” setting": [
-        "Utilitzar la configuració \"${ label }\""
-      ],
-      "Remove": [
-        "Suprimeix"
-      ],
-      "Next month": [
-        "Mes següent"
-      ],
-      "Previous month": [
-        "Mes anterior"
-      ],
-      "Load image": [
-        "Carregar imatge"
-      ],
-      "Confirm opening of link ${ link }": [
-        "Confirmeu obrir l'enllaç ${ link }"
       ],
       "Save": [
         "Desa"
@@ -2706,6 +2676,36 @@
       ],
       "Underline": [
         "Subratllat"
+      ],
+      "More info: ${ safeTitle }": [
+        "Més informació: ${ safeTitle }"
+      ],
+      "Confirm": [
+        "Confirmar"
+      ],
+      "Submit": [
+        "Enviar"
+      ],
+      "Close modal": [
+        "Tancar el modal"
+      ],
+      "Use “${ label }” setting": [
+        "Utilitzar la configuració \"${ label }\""
+      ],
+      "Remove": [
+        "Suprimeix"
+      ],
+      "Next month": [
+        "Mes següent"
+      ],
+      "Previous month": [
+        "Mes anterior"
+      ],
+      "Load image": [
+        "Carregar imatge"
+      ],
+      "Confirm opening of link ${ link }": [
+        "Confirmeu obrir l'enllaç ${ link }"
       ],
       "Go to panel ${ index }": [
         "Anar al panell ${ index }"
@@ -3487,11 +3487,11 @@
       "Open actions dropdown": [
         "Obrir el desplegable d'accions"
       ],
-      "Link confirmation": [
-        "Confirmació d'enllaç"
-      ],
       "Expand content": [
         "Amplia el contingut"
+      ],
+      "Link confirmation": [
+        "Confirmació d'enllaç"
       ],
       "Keyboard Shortcuts": [
         "Dreceres de teclat"
@@ -3999,6 +3999,138 @@
         "La clau no es pot utilitzar per al xifratge"
       ]
     },
+    "Placeholder": {
+      "Link": [
+        "Enllaç"
+      ],
+      "Fill in the URL link and text to test your link": [
+        "Omple l'enllaç URL i el text per provar l'enllaç"
+      ],
+      "Email address": [
+        "Adreça de correu electrònic"
+      ],
+      "Fill in the email address and text to test your link": [
+        "Omple l'adreça de correu electrònic i el text per provar l'enllaç"
+      ],
+      "Phone number": [
+        "Número de telèfon"
+      ],
+      "Fill in the phone number and text to test your link": [
+        "Omple el número de telèfon i el text per provar l'enllaç"
+      ],
+      "Text": [
+        "Text"
+      ],
+      "E.g., ": [
+        "Ex., "
+      ],
+      "Mailbox password": [
+        "Contrasenya de la bústia"
+      ],
+      "Start typing an email address": [
+        "Començi a escriure una adreça de correu electrònic"
+      ],
+      "Image URL": [
+        "URL de la imatge"
+      ],
+      "Search name, email or group": [
+        "Cerca nom, correu electrónic o grup"
+      ],
+      "Filter groups": [
+        "Filtra grups"
+      ],
+      "Search for name or email": [
+        "Cercar per nom o correu electrònic"
+      ],
+      "Search for group name": [
+        "Buscar per nom de grup"
+      ],
+      "Name": [
+        "Nom"
+      ],
+      "OS name": [
+        "Nom de Sistema Operatiu"
+      ],
+      "OS version": [
+        "Versió de Sistema Operatiu"
+      ],
+      "Proton username": [
+        "Nom d'usuari de Proton"
+      ],
+      "A way to contact you": [
+        "Una manera de contactar amb tu"
+      ],
+      "Please describe the problem and include any error messages": [
+        "Si us plau, descriu el problema i inclou-hi qualsevol missatges d'error"
+      ],
+      "Browser name": [
+        "Nom del navegador"
+      ],
+      "Browser version": [
+        "Versió del navegador"
+      ],
+      "e.g. Julia Smith": [
+        "ex. Julia Smith"
+      ],
+      "ZIP": [
+        "Codi postal"
+      ],
+      "Postal code": [
+        "Codi postal"
+      ],
+      "Gift code": [
+        "Codi de regal"
+      ],
+      "Type text or keyword": [
+        "Escrigui text o paraula clau"
+      ],
+      "Subject": [
+        "Assumpte"
+      ],
+      "Write your message": [
+        "Escriviu el vostre missatge"
+      ],
+      "Password": [
+        "Contrasenya"
+      ],
+      "Confirm Password": [
+        "Confirmar contrasenya"
+      ],
+      "Hint": [
+        "Pista"
+      ],
+      "Search Messages": [
+        "Cercar Missatges"
+      ],
+      "Start date": [
+        "Data d'inici"
+      ],
+      "End date": [
+        "Data de finalització"
+      ],
+      "Name or email address": [
+        "Nom o adreça de correu electrònic"
+      ],
+      "Search messages": [
+        "Cercar missatges"
+      ],
+      "Filter folders": [
+        "Filtrar carpetes"
+      ],
+      "Filter labels": [
+        "Filtrar etiquetes"
+      ]
+    },
+    "Font Face Default": {
+      "Default": [
+        "Predeterminada"
+      ]
+    },
+    "Font Size Default": {
+      "Default": [
+        "Predeterminada"
+      ]
+    },
     "Link": {
       "Learn more": [
         "Més informació"
@@ -4026,6 +4158,36 @@
       ],
       "Add a gift code": [
         "Afegiu un codi regal"
+      ],
+      "Inbox": [
+        "Safata d'entrada"
+      ],
+      "Drafts": [
+        "Esborranys"
+      ],
+      "Sent": [
+        "Enviats"
+      ],
+      "Trash": [
+        "Paperera"
+      ],
+      "Spam": [
+        "Correu brossa"
+      ],
+      "All mail": [
+        "Tot el correu"
+      ],
+      "Archive": [
+        "Arxiu"
+      ],
+      "Starred": [
+        "Destacats"
+      ],
+      "Outbox": [
+        "Safata de sortida"
+      ],
+      "Scheduled": [
+        "Programats"
       ],
       "You need to activate your calendar keys to add this event": [
         "Heu d'activar les claus del calendari per afegir aquest esdeveniment"
@@ -4068,36 +4230,6 @@
       ],
       "Open in ${ calendarAppName }": [
         "Obrir a ${ calendarAppName }"
-      ],
-      "Inbox": [
-        "Safata d'entrada"
-      ],
-      "Drafts": [
-        "Esborranys"
-      ],
-      "Sent": [
-        "Enviats"
-      ],
-      "Trash": [
-        "Paperera"
-      ],
-      "Spam": [
-        "Correu brossa"
-      ],
-      "All mail": [
-        "Tot el correu"
-      ],
-      "Archive": [
-        "Arxiu"
-      ],
-      "Starred": [
-        "Destacats"
-      ],
-      "Outbox": [
-        "Safata de sortida"
-      ],
-      "Scheduled": [
-        "Programats"
       ],
       "Re-enable the address linked to this calendar to manage your invitation.": [
         "Reactivar l'adreça enllaçada a aquest calendari per gestionar la vostra invitació."
@@ -4525,128 +4657,6 @@
         "Arxivar també"
       ]
     },
-    "Placeholder": {
-      "E.g., ": [
-        "Ex., "
-      ],
-      "Link": [
-        "Enllaç"
-      ],
-      "Fill in the URL link and text to test your link": [
-        "Omple l'enllaç URL i el text per provar l'enllaç"
-      ],
-      "Email address": [
-        "Adreça de correu electrònic"
-      ],
-      "Fill in the email address and text to test your link": [
-        "Omple l'adreça de correu electrònic i el text per provar l'enllaç"
-      ],
-      "Phone number": [
-        "Número de telèfon"
-      ],
-      "Fill in the phone number and text to test your link": [
-        "Omple el número de telèfon i el text per provar l'enllaç"
-      ],
-      "Text": [
-        "Text"
-      ],
-      "Mailbox password": [
-        "Contrasenya de la bústia"
-      ],
-      "Start typing an email address": [
-        "Començi a escriure una adreça de correu electrònic"
-      ],
-      "Image URL": [
-        "URL de la imatge"
-      ],
-      "Search name, email or group": [
-        "Cerca nom, correu electrónic o grup"
-      ],
-      "Filter groups": [
-        "Filtra grups"
-      ],
-      "Search for name or email": [
-        "Cercar per nom o correu electrònic"
-      ],
-      "Search for group name": [
-        "Buscar per nom de grup"
-      ],
-      "Name": [
-        "Nom"
-      ],
-      "OS name": [
-        "Nom de Sistema Operatiu"
-      ],
-      "OS version": [
-        "Versió de Sistema Operatiu"
-      ],
-      "Proton username": [
-        "Nom d'usuari de Proton"
-      ],
-      "A way to contact you": [
-        "Una manera de contactar amb tu"
-      ],
-      "Please describe the problem and include any error messages": [
-        "Si us plau, descriu el problema i inclou-hi qualsevol missatges d'error"
-      ],
-      "Browser name": [
-        "Nom del navegador"
-      ],
-      "Browser version": [
-        "Versió del navegador"
-      ],
-      "e.g. Julia Smith": [
-        "ex. Julia Smith"
-      ],
-      "ZIP": [
-        "Codi postal"
-      ],
-      "Postal code": [
-        "Codi postal"
-      ],
-      "Gift code": [
-        "Codi de regal"
-      ],
-      "Type text or keyword": [
-        "Escrigui text o paraula clau"
-      ],
-      "Subject": [
-        "Assumpte"
-      ],
-      "Write your message": [
-        "Escriviu el vostre missatge"
-      ],
-      "Password": [
-        "Contrasenya"
-      ],
-      "Confirm Password": [
-        "Confirmar contrasenya"
-      ],
-      "Hint": [
-        "Pista"
-      ],
-      "Search Messages": [
-        "Cercar Missatges"
-      ],
-      "Start date": [
-        "Data d'inici"
-      ],
-      "End date": [
-        "Data de finalització"
-      ],
-      "Name or email address": [
-        "Nom o adreça de correu electrònic"
-      ],
-      "Search messages": [
-        "Cercar missatges"
-      ],
-      "Filter folders": [
-        "Filtrar carpetes"
-      ],
-      "Filter labels": [
-        "Filtrar etiquetes"
-      ]
-    },
     "Time unit": {
       "${ hours } hour": [
         "${ hours } hora",
@@ -4680,16 +4690,6 @@
       "Found ${ items.length } suggestion, use keyboard to navigate.": [
         "S'ha trobat ${ items.length } suggerència, utilitza el teclat per navegar.",
         "S'han trobat ${ items.length } suggeriments, utilitzant el teclat per navegar."
-      ]
-    },
-    "Font Face Default": {
-      "Default": [
-        "Predeterminada"
-      ]
-    },
-    "Font Size Default": {
-      "Default": [
-        "Predeterminada"
       ]
     },
     "Storage": {

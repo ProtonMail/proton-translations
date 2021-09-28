@@ -5,18 +5,25 @@
   },
   "contexts": {
     "": {},
-    "Message": {
-      "Re:": [
-        "Cevap:"
-      ],
-      "Fw:": [
-        "Fw:"
-      ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "${ name } ${ address } ${ date } tarihinde yazdı:"
-      ]
-    },
     "Error": {
+      "This field is required": [
+        "Bu alan gereklidir"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Bu alan en az ${ minimumLength } karakter gerektirir."
+      ],
+      "Email is not valid": [
+        "E-posta geçerli değil"
+      ],
+      "Not a valid number": [
+        "Geçerli bir numara değil"
+      ],
+      "Passwords do not match": [
+        "Parolalar eşleşmiyor"
+      ],
+      "Request timed out.": [
+        "İstek zaman aşımına uğradı."
+      ],
       "Email address disabled": [
         "E-posta adresi devre dışı"
       ],
@@ -40,24 +47,6 @@
       ],
       "The sending key is not valid": [
         "Gönderilen anahtar geçersiz"
-      ],
-      "This field is required": [
-        "Bu alan gereklidir"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Bu alan en az ${ minimumLength } karakter gerektirir."
-      ],
-      "Email is not valid": [
-        "E-posta geçerli değil"
-      ],
-      "Not a valid number": [
-        "Geçerli bir numara değil"
-      ],
-      "Passwords do not match": [
-        "Parolalar eşleşmiyor"
-      ],
-      "Request timed out.": [
-        "İstek zaman aşımına uğradı."
       ],
       "Signature verification failed": [
         "İmza doğrulaması başarısız oldu"
@@ -101,17 +90,17 @@
       "Authentication error.": [
         "Kimlik doğrulama hatası."
       ],
-      "Email address invalid": [
-        "E-posta adresi geçersiz"
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "Kullanmakta olduğunuz tarayıcı, ödemenin tam olarak onaylanmasına izin vermiyor. Lütfen farklı bir tarayıcı kullanın ya da bir bilgisayarla oturum açın."
-      ],
       "The composer failed to load.": [
         "Oluşturucu yüklenemedi."
       ],
       "Please refresh the page.": [
         "Lütfen sayfayı yenileyin."
+      ],
+      "Email address invalid": [
+        "E-posta adresi geçersiz"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "Kullanmakta olduğunuz tarayıcı, ödemenin tam olarak onaylanmasına izin vermiyor. Lütfen farklı bir tarayıcı kullanın ya da bir bilgisayarla oturum açın."
       ],
       "Incorrect mailbox password. Please try again": [
         "Posta kutusu şifresi yanlış. Lütfen tekrar deneyin"
@@ -130,6 +119,9 @@
       ],
       "Invalid verification code": [
         "Geçersiz doğrulama kodu"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Bir şeyler ters gitti, devam etmek için ${ refresh }. Hala bu hata iletisini görüyorsanız lütfen ${ supportTeam } ile iletişime geçin."
       ],
       "Some groups could not be deleted": [
         "Bazı gruplar silinemedi"
@@ -171,9 +163,6 @@
       ],
       "A group with this name already exists": [
         "Bu ada sahip bir grup zaten var"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Bir şeyler ters gitti, devam etmek için ${ refresh }. Hala bu hata iletisini görüyorsanız lütfen ${ supportTeam } ile iletişime geçin."
       ],
       "File has no contents to preview": [
         "Dosyanın önizlenecek içeriği yok"
@@ -371,11 +360,17 @@
       "Your emails cannot be decrypted due to a recent password reset. If you remember your previous password, you can ${ reActivateKeyLink } in order to access your messages. ${ learnMoreLink }": [
         ""
       ],
-      "Your emails cannot be decrypted due to a recent password reset. ${ learnMoreLink }": [
+      "Your emails cannot be decrypted. This may be due to a password reset. ${ learnMoreLink }": [
         ""
       ],
       "Too many active filters. Please upgrade to a paid plan to activate more filters": [
         "Çok fazla aktif filtre mevcut. Daha fazla aktif filtre kullanabilmek için ücretli plana geçin"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "Şifre en az ${ length } karakter içermelidir",
+        "Şifre en az ${ length } karakter içermelidir"
       ]
     },
     "file size format": {
@@ -390,12 +385,6 @@
       ],
       "GB": [
         "GB"
-      ]
-    },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "Şifre en az ${ length } karakter içermelidir",
-        "Şifre en az ${ length } karakter içermelidir"
       ]
     },
     "Contact field label": {
@@ -549,28 +538,6 @@
       "No results found": [
         "Sonuç bulunamadı"
       ],
-      "Week": [
-        "Hafta"
-      ],
-      "(${ memberCount } member)": [
-        "(${ memberCount } üye)",
-        "(${ memberCount } üye)"
-      ],
-      "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
-        "Bu bağlantı bir homograf saldırısı olabilir ve Internet Explorer veya Edge tarayıcısı tarafından açılamaz."
-      ],
-      "This link may be a homograph attack. Please verify this is the link you wish to visit, or don't open it.": [
-        "Bu bağlantı bir homograf saldırısı olabilir. Lütfen ziyaret etmek istediğiniz bağlantının bu olduğunu doğrulayın veya bağlantıyı açmayın."
-      ],
-      "You are about to open another browser tab and visit:": [
-        "Başka bir tarayıcı sekmesi açmak ve ziyaret etmek üzeresiniz:"
-      ],
-      "Learn more": [
-        "Daha fazla bilgi edinin"
-      ],
-      "Loading": [
-        "Yükleniyor"
-      ],
       "Insert image": [
         "Resim ekle"
       ],
@@ -646,6 +613,28 @@
       "Plain text": [
         "Düz metin"
       ],
+      "Week": [
+        "Hafta"
+      ],
+      "(${ memberCount } member)": [
+        "(${ memberCount } üye)",
+        "(${ memberCount } üye)"
+      ],
+      "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
+        "Bu bağlantı bir homograf saldırısı olabilir ve Internet Explorer veya Edge tarayıcısı tarafından açılamaz."
+      ],
+      "This link may be a homograph attack. Please verify this is the link you wish to visit, or don't open it.": [
+        "Bu bağlantı bir homograf saldırısı olabilir. Lütfen ziyaret etmek istediğiniz bağlantının bu olduğunu doğrulayın veya bağlantıyı açmayın."
+      ],
+      "You are about to open another browser tab and visit:": [
+        "Başka bir tarayıcı sekmesi açmak ve ziyaret etmek üzeresiniz:"
+      ],
+      "Learn more": [
+        "Daha fazla bilgi edinin"
+      ],
+      "Loading": [
+        "Yükleniyor"
+      ],
       "Drop the file here to upload": [
         "Yüklemek için bir dosyayı buraya bırakın"
       ],
@@ -690,6 +679,9 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Hesabınızı oluşturmada sorun yaşıyorsanız, lütfen bir davetiye isteyin, bir iş günü içinde yanıt vereceğiz."
+      ],
+      "support team": [
+        "destek ekibi"
       ],
       "No contacts added yet": [
         "Henüz kişi eklenmedi"
@@ -809,9 +801,6 @@
       "${ addressCount } email address": [
         "${ addressCount } e-posta adresi",
         "${ addressCount } e-posta adresi"
-      ],
-      "support team": [
-        "destek ekibi"
       ],
       "Unsupported file": [
         "Desteklenmeyen dosya"
@@ -1745,6 +1734,17 @@
         "Mobil cihazınızı kullanarak, bu karekodunu tarayın veya ${ link } adresini ziyaret edin."
       ]
     },
+    "Message": {
+      "Re:": [
+        "Cevap:"
+      ],
+      "Fw:": [
+        "Fw:"
+      ],
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "${ name } ${ address } ${ date } tarihinde yazdı:"
+      ]
+    },
     "PGP key warning": {
       "Email address not found among user ids defined in sending key (${ keyUserIds })": [
         "E-posta adresi, gönderme anahtarında tanımlanan kullanıcı kimlikleri arasında bulunamadı (${ keyUserIds })"
@@ -1972,10 +1972,10 @@
       ]
     },
     "Calendar status": {
-      "Not synced": [
+      "Syncing": [
         ""
       ],
-      "Syncing": [
+      "Not synced": [
         ""
       ]
     },
@@ -2611,38 +2611,8 @@
       "Close": [
         "Kapat"
       ],
-      "More info: ${ safeTitle }": [
-        "Daha fazla bilgi: ${ safeTitle }"
-      ],
-      "Confirm": [
-        "Onayla"
-      ],
       "Cancel": [
         "İptal"
-      ],
-      "Submit": [
-        "Gönder"
-      ],
-      "Close modal": [
-        "Pencereyi kapat"
-      ],
-      "Use “${ label }” setting": [
-        "“${ label }” ayarını kullan"
-      ],
-      "Remove": [
-        "Sil"
-      ],
-      "Next month": [
-        "Gelecek ay"
-      ],
-      "Previous month": [
-        "Önceki ay"
-      ],
-      "Load image": [
-        "Fotoğraf yükle"
-      ],
-      "Confirm opening of link ${ link }": [
-        "${ link } bağlantısını açmak için onaylayın"
       ],
       "Save": [
         "Kaydet"
@@ -2706,6 +2676,36 @@
       ],
       "Underline": [
         "Alt çizgili"
+      ],
+      "More info: ${ safeTitle }": [
+        "Daha fazla bilgi: ${ safeTitle }"
+      ],
+      "Confirm": [
+        "Onayla"
+      ],
+      "Submit": [
+        "Gönder"
+      ],
+      "Close modal": [
+        "Pencereyi kapat"
+      ],
+      "Use “${ label }” setting": [
+        "“${ label }” ayarını kullan"
+      ],
+      "Remove": [
+        "Sil"
+      ],
+      "Next month": [
+        "Gelecek ay"
+      ],
+      "Previous month": [
+        "Önceki ay"
+      ],
+      "Load image": [
+        "Fotoğraf yükle"
+      ],
+      "Confirm opening of link ${ link }": [
+        "${ link } bağlantısını açmak için onaylayın"
       ],
       "Go to panel ${ index }": [
         "${ index } paneline git"
@@ -3487,11 +3487,11 @@
       "Open actions dropdown": [
         "Açılır menü işlemleri"
       ],
-      "Link confirmation": [
-        "Bağlantı onayı"
-      ],
       "Expand content": [
         "İçeriği genişlet"
+      ],
+      "Link confirmation": [
+        "Bağlantı onayı"
       ],
       "Keyboard Shortcuts": [
         "Klavye Kısayolları"
@@ -3999,6 +3999,138 @@
         "Anahtar şifreleme için kullanılamaz"
       ]
     },
+    "Placeholder": {
+      "Link": [
+        "Bağlantı"
+      ],
+      "Fill in the URL link and text to test your link": [
+        "Bağlantınızı test etmek için URL bağlantısını ve metni doldurun"
+      ],
+      "Email address": [
+        "E-posta adresi"
+      ],
+      "Fill in the email address and text to test your link": [
+        "Bağlantınızı test etmek için e-posta adresini ve metni doldurun"
+      ],
+      "Phone number": [
+        "Telefon numarası"
+      ],
+      "Fill in the phone number and text to test your link": [
+        "Bağlantınızı test etmek için telefon numarasını ve metni doldurun"
+      ],
+      "Text": [
+        "Metin"
+      ],
+      "E.g., ": [
+        "Örneğin., "
+      ],
+      "Mailbox password": [
+        "Posta kutusu parolası"
+      ],
+      "Start typing an email address": [
+        "Bir e-posta adresi yazmaya başlayın"
+      ],
+      "Image URL": [
+        "Görüntü URL"
+      ],
+      "Search name, email or group": [
+        "İsim, e-posta ya da grup arayın"
+      ],
+      "Filter groups": [
+        "Grupları filtrele"
+      ],
+      "Search for name or email": [
+        "İsim veya e-posta ile arayın"
+      ],
+      "Search for group name": [
+        "Grup adı ile arayın"
+      ],
+      "Name": [
+        "Ad"
+      ],
+      "OS name": [
+        "İşletim sistemi adı"
+      ],
+      "OS version": [
+        "İşletim sistemi sürümü"
+      ],
+      "Proton username": [
+        "Proton kullanıcı adı"
+      ],
+      "A way to contact you": [
+        "Sizinle iletişim kurmanın bir yolu"
+      ],
+      "Please describe the problem and include any error messages": [
+        "Lütfen sorunu açıklayın ve varsa hata mesajlarını ekleyin"
+      ],
+      "Browser name": [
+        "Tarayıcı adı"
+      ],
+      "Browser version": [
+        "Tarayıcı sürümü"
+      ],
+      "e.g. Julia Smith": [
+        "örn. Ayşe Yılmaz"
+      ],
+      "ZIP": [
+        "ZIP"
+      ],
+      "Postal code": [
+        "Posta kodu"
+      ],
+      "Gift code": [
+        "Hediye kodu"
+      ],
+      "Type text or keyword": [
+        "Metin veya anahtar kelime yazın"
+      ],
+      "Subject": [
+        "Konu"
+      ],
+      "Write your message": [
+        "İleti yazınız"
+      ],
+      "Password": [
+        "Şifre"
+      ],
+      "Confirm Password": [
+        "Parolayı Doğrula"
+      ],
+      "Hint": [
+        "İpucu"
+      ],
+      "Search Messages": [
+        ""
+      ],
+      "Start date": [
+        "Başlangıç tarihi"
+      ],
+      "End date": [
+        "Bitiş tarihi"
+      ],
+      "Name or email address": [
+        "Ad veya e-posta adresi"
+      ],
+      "Search messages": [
+        "İletileri bul"
+      ],
+      "Filter folders": [
+        "Klasörleri süz"
+      ],
+      "Filter labels": [
+        "Etiketleri süz"
+      ]
+    },
+    "Font Face Default": {
+      "Default": [
+        "Varsayılan"
+      ]
+    },
+    "Font Size Default": {
+      "Default": [
+        "Varsayılan"
+      ]
+    },
     "Link": {
       "Learn more": [
         "Daha çok bilgi edinin"
@@ -4026,6 +4158,36 @@
       ],
       "Add a gift code": [
         "Hediye kodu ekle"
+      ],
+      "Inbox": [
+        "Gelen Kutusu"
+      ],
+      "Drafts": [
+        "Taslaklar"
+      ],
+      "Sent": [
+        "Gönderilen"
+      ],
+      "Trash": [
+        "Çöp Kutusu"
+      ],
+      "Spam": [
+        "İstenmeyen Posta"
+      ],
+      "All mail": [
+        "Tüm postalar"
+      ],
+      "Archive": [
+        "Arşiv"
+      ],
+      "Starred": [
+        "Yıldızlı"
+      ],
+      "Outbox": [
+        "Giden Kutusu"
+      ],
+      "Scheduled": [
+        "Planlama"
       ],
       "You need to activate your calendar keys to add this event": [
         "Bu etkinliği eklemek için takvim anahtarlarınızı etkinleştirmeniz gerekir"
@@ -4068,36 +4230,6 @@
       ],
       "Open in ${ calendarAppName }": [
         "${ calendarAppName } uygulamasında aç"
-      ],
-      "Inbox": [
-        "Gelen Kutusu"
-      ],
-      "Drafts": [
-        "Taslaklar"
-      ],
-      "Sent": [
-        "Gönderilen"
-      ],
-      "Trash": [
-        "Çöp Kutusu"
-      ],
-      "Spam": [
-        "İstenmeyen Posta"
-      ],
-      "All mail": [
-        "Tüm postalar"
-      ],
-      "Archive": [
-        "Arşiv"
-      ],
-      "Starred": [
-        "Yıldızlı"
-      ],
-      "Outbox": [
-        "Giden Kutusu"
-      ],
-      "Scheduled": [
-        "Planlama"
       ],
       "Re-enable the address linked to this calendar to manage your invitation.": [
         "Davetinizi yönetmek için bu takvime bağlı adresi yeniden etkinleştirin."
@@ -4525,128 +4657,6 @@
         "Ayrıca arşivle"
       ]
     },
-    "Placeholder": {
-      "E.g., ": [
-        "Örneğin., "
-      ],
-      "Link": [
-        "Bağlantı"
-      ],
-      "Fill in the URL link and text to test your link": [
-        "Bağlantınızı test etmek için URL bağlantısını ve metni doldurun"
-      ],
-      "Email address": [
-        "E-posta adresi"
-      ],
-      "Fill in the email address and text to test your link": [
-        "Bağlantınızı test etmek için e-posta adresini ve metni doldurun"
-      ],
-      "Phone number": [
-        "Telefon numarası"
-      ],
-      "Fill in the phone number and text to test your link": [
-        "Bağlantınızı test etmek için telefon numarasını ve metni doldurun"
-      ],
-      "Text": [
-        "Metin"
-      ],
-      "Mailbox password": [
-        "Posta kutusu parolası"
-      ],
-      "Start typing an email address": [
-        "Bir e-posta adresi yazmaya başlayın"
-      ],
-      "Image URL": [
-        "Görüntü URL"
-      ],
-      "Search name, email or group": [
-        "İsim, e-posta ya da grup arayın"
-      ],
-      "Filter groups": [
-        "Grupları filtrele"
-      ],
-      "Search for name or email": [
-        "İsim veya e-posta ile arayın"
-      ],
-      "Search for group name": [
-        "Grup adı ile arayın"
-      ],
-      "Name": [
-        "Ad"
-      ],
-      "OS name": [
-        "İşletim sistemi adı"
-      ],
-      "OS version": [
-        "İşletim sistemi sürümü"
-      ],
-      "Proton username": [
-        "Proton kullanıcı adı"
-      ],
-      "A way to contact you": [
-        "Sizinle iletişim kurmanın bir yolu"
-      ],
-      "Please describe the problem and include any error messages": [
-        "Lütfen sorunu açıklayın ve varsa hata mesajlarını ekleyin"
-      ],
-      "Browser name": [
-        "Tarayıcı adı"
-      ],
-      "Browser version": [
-        "Tarayıcı sürümü"
-      ],
-      "e.g. Julia Smith": [
-        "örn. Ayşe Yılmaz"
-      ],
-      "ZIP": [
-        "ZIP"
-      ],
-      "Postal code": [
-        "Posta kodu"
-      ],
-      "Gift code": [
-        "Hediye kodu"
-      ],
-      "Type text or keyword": [
-        "Metin veya anahtar kelime yazın"
-      ],
-      "Subject": [
-        "Konu"
-      ],
-      "Write your message": [
-        "İleti yazınız"
-      ],
-      "Password": [
-        "Şifre"
-      ],
-      "Confirm Password": [
-        "Parolayı Doğrula"
-      ],
-      "Hint": [
-        "İpucu"
-      ],
-      "Search Messages": [
-        ""
-      ],
-      "Start date": [
-        "Başlangıç tarihi"
-      ],
-      "End date": [
-        "Bitiş tarihi"
-      ],
-      "Name or email address": [
-        "Ad veya e-posta adresi"
-      ],
-      "Search messages": [
-        "İletileri bul"
-      ],
-      "Filter folders": [
-        "Klasörleri süz"
-      ],
-      "Filter labels": [
-        "Etiketleri süz"
-      ]
-    },
     "Time unit": {
       "${ hours } hour": [
         "${ hours } saat",
@@ -4680,16 +4690,6 @@
       "Found ${ items.length } suggestion, use keyboard to navigate.": [
         "${ items.length } önerisi bulundu, gezinmek için klavye kullanın.",
         "${ items.length } önerisi bulundu, gezinmek için klavye kullanın."
-      ]
-    },
-    "Font Face Default": {
-      "Default": [
-        "Varsayılan"
-      ]
-    },
-    "Font Size Default": {
-      "Default": [
-        "Varsayılan"
       ]
     },
     "Storage": {

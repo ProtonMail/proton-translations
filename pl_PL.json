@@ -5,18 +5,25 @@
   },
   "contexts": {
     "": {},
-    "Message": {
-      "Re:": [
-        "Re:"
-      ],
-      "Fw:": [
-        "Fw:"
-      ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "${ date }, ${ name } ${ address } napisał(a):"
-      ]
-    },
     "Error": {
+      "This field is required": [
+        "Pole jest wymagane"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Pole musi zawierać co najmniej ${ minimumLength } znaków."
+      ],
+      "Email is not valid": [
+        "Adres e-mail nie jest prawidłowy"
+      ],
+      "Not a valid number": [
+        "Numer telefonu nie jest prawidłowy"
+      ],
+      "Passwords do not match": [
+        "Hasła nie pasują do siebie"
+      ],
+      "Request timed out.": [
+        "Upłynął limit czasu żądania."
+      ],
       "Email address disabled": [
         "Adres e-mail został wyłączony"
       ],
@@ -40,24 +47,6 @@
       ],
       "The sending key is not valid": [
         "Klucz przeznaczony do wysyłania wiadomości nie jest prawidłowy"
-      ],
-      "This field is required": [
-        "Pole jest wymagane"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Pole musi zawierać co najmniej ${ minimumLength } znaków."
-      ],
-      "Email is not valid": [
-        "Adres e-mail nie jest prawidłowy"
-      ],
-      "Not a valid number": [
-        "Numer telefonu nie jest prawidłowy"
-      ],
-      "Passwords do not match": [
-        "Hasła nie pasują do siebie"
-      ],
-      "Request timed out.": [
-        "Upłynął limit czasu żądania."
       ],
       "Signature verification failed": [
         "Weryfikacja podpisu nie powiodła się"
@@ -101,17 +90,17 @@
       "Authentication error.": [
         "Błąd uwierzytelniania."
       ],
-      "Email address invalid": [
-        "Adres e-mail jest nieprawidłowy"
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "Przeglądarka, której używasz, nie pozwala na pełną autoryzację płatności. Skorzystaj z innej przeglądarki lub zaloguj się za pomocą komputera."
-      ],
       "The composer failed to load.": [
         "Nie udało się załadować edytora."
       ],
       "Please refresh the page.": [
         "Odśwież stronę."
+      ],
+      "Email address invalid": [
+        "Adres e-mail jest nieprawidłowy"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "Przeglądarka, której używasz, nie pozwala na pełną autoryzację płatności. Skorzystaj z innej przeglądarki lub zaloguj się za pomocą komputera."
       ],
       "Incorrect mailbox password. Please try again": [
         "Hasło skrzynki pocztowej jest nieprawidłowe. Spróbuj ponownie"
@@ -130,6 +119,9 @@
       ],
       "Invalid verification code": [
         "Kod weryfikacyjny jest nieprawidłowy"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Coś poszło nie tak. ${ refresh }, aby kontynuować. Jeśli wciąż widzisz ten błąd, skontaktuj się z naszą ${ supportTeam }."
       ],
       "Some groups could not be deleted": [
         "Niektóre grupy nie mogły zostać usunięte"
@@ -175,9 +167,6 @@
       ],
       "A group with this name already exists": [
         "Grupa o tej nazwie już istnieje"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Coś poszło nie tak. ${ refresh }, aby kontynuować. Jeśli wciąż widzisz ten błąd, skontaktuj się z naszą ${ supportTeam }."
       ],
       "File has no contents to preview": [
         "Plik nie posiada zawartości do podglądu"
@@ -383,11 +372,19 @@
       "Your emails cannot be decrypted due to a recent password reset. If you remember your previous password, you can ${ reActivateKeyLink } in order to access your messages. ${ learnMoreLink }": [
         "Wiadomości nie mogą zostać odszyfrowane z powodu zresetowania hasła. Jeśli pamiętasz poprzednie hasło, możesz ${ reActivateKeyLink }, aby uzyskać dostęp do wiadomości. ${ learnMoreLink }"
       ],
-      "Your emails cannot be decrypted due to a recent password reset. ${ learnMoreLink }": [
-        "Wiadomości nie mogą zostać odszyfrowane z powodu zresetowania hasła. ${ learnMoreLink }"
+      "Your emails cannot be decrypted. This may be due to a password reset. ${ learnMoreLink }": [
+        ""
       ],
       "Too many active filters. Please upgrade to a paid plan to activate more filters": [
         "Posiadasz zbyt dużo aktywnych filtrów. Ulepsz do płatnego planu, aby aktywować więcej filtrów"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "Hasło musi zawierać co najmniej ${ length } znak",
+        "Hasło musi zawierać co najmniej ${ length } znaki",
+        "Hasło musi zawierać co najmniej ${ length } znaków",
+        "Hasło musi zawierać co najmniej ${ length } znaków"
       ]
     },
     "file size format": {
@@ -402,14 +399,6 @@
       ],
       "GB": [
         "GB"
-      ]
-    },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "Hasło musi zawierać co najmniej ${ length } znak",
-        "Hasło musi zawierać co najmniej ${ length } znaki",
-        "Hasło musi zawierać co najmniej ${ length } znaków",
-        "Hasło musi zawierać co najmniej ${ length } znaków"
       ]
     },
     "Contact field label": {
@@ -563,30 +552,6 @@
       "No results found": [
         "Nie znaleziono żadnych wyników"
       ],
-      "Week": [
-        "Tydzień"
-      ],
-      "(${ memberCount } member)": [
-        "(${ memberCount } członek)",
-        "(${ memberCount } członków)",
-        "(${ memberCount } członków)",
-        "(${ memberCount } członków)"
-      ],
-      "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
-        "Ten link może być atakiem homograficznym i nie może zostać otwarty przez przeglądarkę Internet Explorer lub Edge. Upewnij się, że link, który chcesz odwiedzić jest wiarygodny i otwórz go za pomocą innej przeglądarki."
-      ],
-      "This link may be a homograph attack. Please verify this is the link you wish to visit, or don't open it.": [
-        "Ten link może być atakiem homograficznym. Sprawdź, czy jest to link, który chcesz odwiedzić lub nie otwieraj go."
-      ],
-      "You are about to open another browser tab and visit:": [
-        "Masz zamiar otworzyć nową kartę przeglądarki i przejść do:"
-      ],
-      "Learn more": [
-        "Dowiedz się więcej"
-      ],
-      "Loading": [
-        "Ładowanie"
-      ],
       "Insert image": [
         "Wstaw obraz"
       ],
@@ -662,6 +627,30 @@
       "Plain text": [
         "Zwykły tekst"
       ],
+      "Week": [
+        "Tydzień"
+      ],
+      "(${ memberCount } member)": [
+        "(${ memberCount } członek)",
+        "(${ memberCount } członków)",
+        "(${ memberCount } członków)",
+        "(${ memberCount } członków)"
+      ],
+      "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
+        "Ten link może być atakiem homograficznym i nie może zostać otwarty przez przeglądarkę Internet Explorer lub Edge. Upewnij się, że link, który chcesz odwiedzić jest wiarygodny i otwórz go za pomocą innej przeglądarki."
+      ],
+      "This link may be a homograph attack. Please verify this is the link you wish to visit, or don't open it.": [
+        "Ten link może być atakiem homograficznym. Sprawdź, czy jest to link, który chcesz odwiedzić lub nie otwieraj go."
+      ],
+      "You are about to open another browser tab and visit:": [
+        "Masz zamiar otworzyć nową kartę przeglądarki i przejść do:"
+      ],
+      "Learn more": [
+        "Dowiedz się więcej"
+      ],
+      "Loading": [
+        "Ładowanie"
+      ],
       "Drop the file here to upload": [
         "Upuść plik tutaj, aby przesłać"
       ],
@@ -706,6 +695,9 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Jeśli masz problem z utworzeniem konta, poproś o zaproszenie, a my odpowiemy w ciągu jednego dnia roboczego."
+      ],
+      "support team": [
+        "pomocą techniczną"
       ],
       "No contacts added yet": [
         "Nie dodano jeszcze żadnych kontaktów"
@@ -835,9 +827,6 @@
         "${ addressCount } adresy e-mail",
         "${ addressCount } adresów e-mail",
         "${ addressCount } adresów e-mail"
-      ],
-      "support team": [
-        "pomocą techniczną"
       ],
       "Unsupported file": [
         "Plik jest nieobsługiwany"
@@ -1839,6 +1828,17 @@
         "Zeskanuj kod QR za pomocą urządzenia mobilnego lub odwiedź ${ link }."
       ]
     },
+    "Message": {
+      "Re:": [
+        "Re:"
+      ],
+      "Fw:": [
+        "Fw:"
+      ],
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "${ date }, ${ name } ${ address } napisał(a):"
+      ]
+    },
     "PGP key warning": {
       "Email address not found among user ids defined in sending key (${ keyUserIds })": [
         "Adres e-mail nie został znaleziony wśród identyfikatorów zdefiniowanych w kluczu przeznaczonym do wysyłania wiadomości (${ keyUserIds })"
@@ -2066,11 +2066,11 @@
       ]
     },
     "Calendar status": {
-      "Not synced": [
-        "Niezsynchronizowany"
-      ],
       "Syncing": [
         "Trwa synchronizacja"
+      ],
+      "Not synced": [
+        "Niezsynchronizowany"
       ]
     },
     "Calendar subscription not synced error": {
@@ -2779,38 +2779,8 @@
       "Close": [
         "Zamknij"
       ],
-      "More info: ${ safeTitle }": [
-        "Więcej informacji: ${ safeTitle }"
-      ],
-      "Confirm": [
-        "Potwierdź"
-      ],
       "Cancel": [
         "Anuluj"
-      ],
-      "Submit": [
-        "Wyślij"
-      ],
-      "Close modal": [
-        "Zamknij okno"
-      ],
-      "Use “${ label }” setting": [
-        "Użyj ustawień “${ label }”"
-      ],
-      "Remove": [
-        "Usuń"
-      ],
-      "Next month": [
-        "Następny miesiąc"
-      ],
-      "Previous month": [
-        "Poprzedni miesiąc"
-      ],
-      "Load image": [
-        "Załaduj obraz"
-      ],
-      "Confirm opening of link ${ link }": [
-        "Potwierdź otwieranie linku ${ link }"
       ],
       "Save": [
         "Zapisz"
@@ -2874,6 +2844,36 @@
       ],
       "Underline": [
         "Podkreślenie"
+      ],
+      "More info: ${ safeTitle }": [
+        "Więcej informacji: ${ safeTitle }"
+      ],
+      "Confirm": [
+        "Potwierdź"
+      ],
+      "Submit": [
+        "Wyślij"
+      ],
+      "Close modal": [
+        "Zamknij okno"
+      ],
+      "Use “${ label }” setting": [
+        "Użyj ustawień “${ label }”"
+      ],
+      "Remove": [
+        "Usuń"
+      ],
+      "Next month": [
+        "Następny miesiąc"
+      ],
+      "Previous month": [
+        "Poprzedni miesiąc"
+      ],
+      "Load image": [
+        "Załaduj obraz"
+      ],
+      "Confirm opening of link ${ link }": [
+        "Potwierdź otwieranie linku ${ link }"
       ],
       "Go to panel ${ index }": [
         "Przejdź do panelu ${ index }"
@@ -3663,11 +3663,11 @@
       "Open actions dropdown": [
         "Otwórz listę akcji"
       ],
-      "Link confirmation": [
-        "Potwierdź otwieranie linków"
-      ],
       "Expand content": [
         "Rozwiń zawartość"
+      ],
+      "Link confirmation": [
+        "Potwierdź otwieranie linków"
       ],
       "Keyboard Shortcuts": [
         "Skróty klawiszowe"
@@ -4191,6 +4191,138 @@
         "Klucz nie może zostać użyty do szyfrowania"
       ]
     },
+    "Placeholder": {
+      "Link": [
+        "Link"
+      ],
+      "Fill in the URL link and text to test your link": [
+        "Wpisz adres URL i tekst, aby przetestować link"
+      ],
+      "Email address": [
+        "Adres e-mail"
+      ],
+      "Fill in the email address and text to test your link": [
+        "Wpisz adres e-mail i tekst, aby przetestować link"
+      ],
+      "Phone number": [
+        "Numer telefonu"
+      ],
+      "Fill in the phone number and text to test your link": [
+        "Wpisz numer telefonu i tekst, aby przetestować link"
+      ],
+      "Text": [
+        "Tekst"
+      ],
+      "E.g., ": [
+        "Np. "
+      ],
+      "Mailbox password": [
+        "Hasło skrzynki pocztowej"
+      ],
+      "Start typing an email address": [
+        "Wpisz adres e-mail"
+      ],
+      "Image URL": [
+        "Adres URL zdjęcia"
+      ],
+      "Search name, email or group": [
+        "Szukaj nazwy, adresu e-mail lub grupy"
+      ],
+      "Filter groups": [
+        "Filtruj grupy"
+      ],
+      "Search for name or email": [
+        "Szukaj nazwy lub adresu e-mail"
+      ],
+      "Search for group name": [
+        "Szukaj nazwy grupy"
+      ],
+      "Name": [
+        "Nazwa"
+      ],
+      "OS name": [
+        "Nazwa systemu operacyjnego"
+      ],
+      "OS version": [
+        "Wersja systemu operacyjnego"
+      ],
+      "Proton username": [
+        "Nazwa użytkownika Proton"
+      ],
+      "A way to contact you": [
+        "Preferowana metoda kontaktu"
+      ],
+      "Please describe the problem and include any error messages": [
+        "Opisz problem i dołącz wszelkie informacje o błędach"
+      ],
+      "Browser name": [
+        "Nazwa przeglądarki"
+      ],
+      "Browser version": [
+        "Wersja przeglądarki"
+      ],
+      "e.g. Julia Smith": [
+        "np. Julia Nowak"
+      ],
+      "ZIP": [
+        "Kod pocztowy"
+      ],
+      "Postal code": [
+        "Kod pocztowy"
+      ],
+      "Gift code": [
+        "Kod podarunkowy"
+      ],
+      "Type text or keyword": [
+        "Wpisz tekst lub słowo kluczowe"
+      ],
+      "Subject": [
+        "Temat"
+      ],
+      "Write your message": [
+        "Napisz wiadomość"
+      ],
+      "Password": [
+        "Hasło"
+      ],
+      "Confirm Password": [
+        "Potwierdź hasło"
+      ],
+      "Hint": [
+        "Wskazówka"
+      ],
+      "Search Messages": [
+        "Szukaj wiadomości"
+      ],
+      "Start date": [
+        "Zakres dat od"
+      ],
+      "End date": [
+        "Zakres dat do"
+      ],
+      "Name or email address": [
+        "Nazwa lub adres e-mail"
+      ],
+      "Search messages": [
+        "Szukaj wiadomości"
+      ],
+      "Filter folders": [
+        "Filtruj foldery"
+      ],
+      "Filter labels": [
+        "Filtruj etykiety"
+      ]
+    },
+    "Font Face Default": {
+      "Default": [
+        "Domyślna"
+      ]
+    },
+    "Font Size Default": {
+      "Default": [
+        "Domyślny"
+      ]
+    },
     "Link": {
       "Learn more": [
         "Dowiedz się więcej"
@@ -4218,6 +4350,36 @@
       ],
       "Add a gift code": [
         "Dodaj kod podarunkowy"
+      ],
+      "Inbox": [
+        "Odebrane"
+      ],
+      "Drafts": [
+        "Szkice"
+      ],
+      "Sent": [
+        "Wysłane"
+      ],
+      "Trash": [
+        "Kosz"
+      ],
+      "Spam": [
+        "Spam"
+      ],
+      "All mail": [
+        "Wszystkie wiadomości"
+      ],
+      "Archive": [
+        "Archiwum"
+      ],
+      "Starred": [
+        "Wyróżnione"
+      ],
+      "Outbox": [
+        "Skrzynka nadawcza"
+      ],
+      "Scheduled": [
+        "Zaplanowane"
       ],
       "You need to activate your calendar keys to add this event": [
         "Musisz aktywować klucze kalendarza, aby dodać wydarzenie"
@@ -4260,36 +4422,6 @@
       ],
       "Open in ${ calendarAppName }": [
         "Otwórz w aplikacji ${ calendarAppName }"
-      ],
-      "Inbox": [
-        "Odebrane"
-      ],
-      "Drafts": [
-        "Szkice"
-      ],
-      "Sent": [
-        "Wysłane"
-      ],
-      "Trash": [
-        "Kosz"
-      ],
-      "Spam": [
-        "Spam"
-      ],
-      "All mail": [
-        "Wszystkie wiadomości"
-      ],
-      "Archive": [
-        "Archiwum"
-      ],
-      "Starred": [
-        "Wyróżnione"
-      ],
-      "Outbox": [
-        "Skrzynka nadawcza"
-      ],
-      "Scheduled": [
-        "Zaplanowane"
       ],
       "Re-enable the address linked to this calendar to manage your invitation.": [
         "Aby zarządzać zaproszeniem, włącz ponownie adres powiązany z tym kalendarzem."
@@ -4717,128 +4849,6 @@
         "Również archiwizuj"
       ]
     },
-    "Placeholder": {
-      "E.g., ": [
-        "Np. "
-      ],
-      "Link": [
-        "Link"
-      ],
-      "Fill in the URL link and text to test your link": [
-        "Wpisz adres URL i tekst, aby przetestować link"
-      ],
-      "Email address": [
-        "Adres e-mail"
-      ],
-      "Fill in the email address and text to test your link": [
-        "Wpisz adres e-mail i tekst, aby przetestować link"
-      ],
-      "Phone number": [
-        "Numer telefonu"
-      ],
-      "Fill in the phone number and text to test your link": [
-        "Wpisz numer telefonu i tekst, aby przetestować link"
-      ],
-      "Text": [
-        "Tekst"
-      ],
-      "Mailbox password": [
-        "Hasło skrzynki pocztowej"
-      ],
-      "Start typing an email address": [
-        "Wpisz adres e-mail"
-      ],
-      "Image URL": [
-        "Adres URL zdjęcia"
-      ],
-      "Search name, email or group": [
-        "Szukaj nazwy, adresu e-mail lub grupy"
-      ],
-      "Filter groups": [
-        "Filtruj grupy"
-      ],
-      "Search for name or email": [
-        "Szukaj nazwy lub adresu e-mail"
-      ],
-      "Search for group name": [
-        "Szukaj nazwy grupy"
-      ],
-      "Name": [
-        "Nazwa"
-      ],
-      "OS name": [
-        "Nazwa systemu operacyjnego"
-      ],
-      "OS version": [
-        "Wersja systemu operacyjnego"
-      ],
-      "Proton username": [
-        "Nazwa użytkownika Proton"
-      ],
-      "A way to contact you": [
-        "Preferowana metoda kontaktu"
-      ],
-      "Please describe the problem and include any error messages": [
-        "Opisz problem i dołącz wszelkie informacje o błędach"
-      ],
-      "Browser name": [
-        "Nazwa przeglądarki"
-      ],
-      "Browser version": [
-        "Wersja przeglądarki"
-      ],
-      "e.g. Julia Smith": [
-        "np. Julia Nowak"
-      ],
-      "ZIP": [
-        "Kod pocztowy"
-      ],
-      "Postal code": [
-        "Kod pocztowy"
-      ],
-      "Gift code": [
-        "Kod podarunkowy"
-      ],
-      "Type text or keyword": [
-        "Wpisz tekst lub słowo kluczowe"
-      ],
-      "Subject": [
-        "Temat"
-      ],
-      "Write your message": [
-        "Napisz wiadomość"
-      ],
-      "Password": [
-        "Hasło"
-      ],
-      "Confirm Password": [
-        "Potwierdź hasło"
-      ],
-      "Hint": [
-        "Wskazówka"
-      ],
-      "Search Messages": [
-        "Szukaj wiadomości"
-      ],
-      "Start date": [
-        "Zakres dat od"
-      ],
-      "End date": [
-        "Zakres dat do"
-      ],
-      "Name or email address": [
-        "Nazwa lub adres e-mail"
-      ],
-      "Search messages": [
-        "Szukaj wiadomości"
-      ],
-      "Filter folders": [
-        "Filtruj foldery"
-      ],
-      "Filter labels": [
-        "Filtruj etykiety"
-      ]
-    },
     "Time unit": {
       "${ hours } hour": [
         "${ hours } godzina",
@@ -4886,16 +4896,6 @@
         "Zostały znalezione ${ items.length } sugestie. Użyj klawiszy do nawigacji.",
         "Zostało znalezionych ${ items.length } sugestii. Użyj klawiszy do nawigacji.",
         "Zostało znalezionych ${ items.length } sugestii. Użyj klawiszy do nawigacji."
-      ]
-    },
-    "Font Face Default": {
-      "Default": [
-        "Domyślna"
-      ]
-    },
-    "Font Size Default": {
-      "Default": [
-        "Domyślny"
       ]
     },
     "Storage": {

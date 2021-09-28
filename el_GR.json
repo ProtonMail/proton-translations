@@ -5,18 +5,25 @@
   },
   "contexts": {
     "": {},
-    "Message": {
-      "Re:": [
-        "Απ:"
-      ],
-      "Fw:": [
-        "Προώθ:"
-      ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "Στις ${ date }, ${ name } ${ address } έγραψε:"
-      ]
-    },
     "Error": {
+      "This field is required": [
+        "Αυτό το πεδίο είναι υποχρεωτικό"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Αυτό το πεδίο απαιτεί τουλάχιστον ${ minimumLength } χαρακτήρες."
+      ],
+      "Email is not valid": [
+        "Η διεύθυνση email δεν είναι έγκυρη"
+      ],
+      "Not a valid number": [
+        "Μη έγκυρος αριθμός"
+      ],
+      "Passwords do not match": [
+        "Οι κωδικοί πρόσβασης δεν ταιριάζουν"
+      ],
+      "Request timed out.": [
+        "Λήξη χρονικού ορίου αιτήματος."
+      ],
       "Email address disabled": [
         "Η διεύθυνση email έχει απενεργοποιηθεί"
       ],
@@ -40,24 +47,6 @@
       ],
       "The sending key is not valid": [
         "Το κλειδί αποστολής δεν είναι έγκυρο"
-      ],
-      "This field is required": [
-        "Αυτό το πεδίο είναι υποχρεωτικό"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Αυτό το πεδίο απαιτεί τουλάχιστον ${ minimumLength } χαρακτήρες."
-      ],
-      "Email is not valid": [
-        "Η διεύθυνση email δεν είναι έγκυρη"
-      ],
-      "Not a valid number": [
-        "Μη έγκυρος αριθμός"
-      ],
-      "Passwords do not match": [
-        "Οι κωδικοί πρόσβασης δεν ταιριάζουν"
-      ],
-      "Request timed out.": [
-        "Λήξη χρονικού ορίου αιτήματος."
       ],
       "Signature verification failed": [
         "Η επαλήθευση υπογραφής απέτυχε"
@@ -101,17 +90,17 @@
       "Authentication error.": [
         "Σφάλμα ελέγχου ταυτότητας."
       ],
-      "Email address invalid": [
-        "Η διεύθυνση E-mail δεν είναι έγκυρη"
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "Το πρόγραμμα περιήγησης που χρησιμοποιείτε δεν επιτρέπει την πλήρη εξουσιοδότηση της πληρωμής. Χρησιμοποιήστε ένα διαφορετικό πρόγραμμα περιήγησης ή συνδεθείτε μέσω υπολογιστή."
-      ],
       "The composer failed to load.": [
         "Ο συνθέτης απέτυχε να φορτώσει."
       ],
       "Please refresh the page.": [
         "Παρακαλούμε ανανεώστε τη σελίδα."
+      ],
+      "Email address invalid": [
+        "Η διεύθυνση E-mail δεν είναι έγκυρη"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "Το πρόγραμμα περιήγησης που χρησιμοποιείτε δεν επιτρέπει την πλήρη εξουσιοδότηση της πληρωμής. Χρησιμοποιήστε ένα διαφορετικό πρόγραμμα περιήγησης ή συνδεθείτε μέσω υπολογιστή."
       ],
       "Incorrect mailbox password. Please try again": [
         "Εσφαλμένος κωδικός θυρίδας. Παρακαλούμε ξαναπροσπαθήστε"
@@ -130,6 +119,9 @@
       ],
       "Invalid verification code": [
         "Μη έγκυρος κωδικός επαλήθευσης"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Κάτι πήγε στραβά, παρακαλούμε ${ refresh } για να προχωρήσετε. Εάν εξακολουθείτε να βλέπετε αυτό το μήνυμα σφάλματος, παρακαλούμε επικοινωνήστε με την ${ supportTeam }."
       ],
       "Some groups could not be deleted": [
         ""
@@ -171,9 +163,6 @@
       ],
       "A group with this name already exists": [
         "Υπάρχει ήδη μια ομάδα με αυτό το όνομα"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Κάτι πήγε στραβά, παρακαλούμε ${ refresh } για να προχωρήσετε. Εάν εξακολουθείτε να βλέπετε αυτό το μήνυμα σφάλματος, παρακαλούμε επικοινωνήστε με την ${ supportTeam }."
       ],
       "File has no contents to preview": [
         "Το αρχείο δεν έχει περιεχόμενα για προεπισκόπηση"
@@ -371,11 +360,17 @@
       "Your emails cannot be decrypted due to a recent password reset. If you remember your previous password, you can ${ reActivateKeyLink } in order to access your messages. ${ learnMoreLink }": [
         ""
       ],
-      "Your emails cannot be decrypted due to a recent password reset. ${ learnMoreLink }": [
+      "Your emails cannot be decrypted. This may be due to a password reset. ${ learnMoreLink }": [
         ""
       ],
       "Too many active filters. Please upgrade to a paid plan to activate more filters": [
         "Πάρα πολλά ενεργά φίλτρα. Παρακαλώ αναβαθμίστε σε ένα πληρωμένο πρόγραμμα για να ενεργοποιήσετε περισσότερα φίλτρα"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "",
+        ""
       ]
     },
     "file size format": {
@@ -390,12 +385,6 @@
       ],
       "GB": [
         "GB"
-      ]
-    },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "",
-        ""
       ]
     },
     "Contact field label": {
@@ -549,28 +538,6 @@
       "No results found": [
         "Δεν βρέθηκαν αποτελέσματα"
       ],
-      "Week": [
-        "Εβδομάδα"
-      ],
-      "(${ memberCount } member)": [
-        "(${ memberCount } μέλος)",
-        "(${ memberCount } μέλη)"
-      ],
-      "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
-        "Αυτός ο σύνδεσμος μπορεί να είναι επίθεση ομογραφίας και δεν μπορεί να ανοίξει από προγράμματα περιήγησης Internet Explorer και Edge. Εάν είστε βέβαιοι ότι ο σύνδεσμος είναι αυθεντικός, χρησιμοποιήστε ένα διαφορετικό πρόγραμμα περιήγησης για να το ανοίξετε."
-      ],
-      "This link may be a homograph attack. Please verify this is the link you wish to visit, or don't open it.": [
-        "Αυτός ο σύνδεσμος μπορεί να είναι επίθεση ομογραφίας. Βεβαιωθείτε ότι πρόκειται για το σύνδεσμο που θέλετε να επισκεφθείτε, ή μην το ανοίξετε."
-      ],
-      "You are about to open another browser tab and visit:": [
-        "Πρόκειται να ανοίξετε μια άλλη καρτέλα προγράμματος περιήγησης και να επισκεφτείτε:"
-      ],
-      "Learn more": [
-        "Μάθετε περισσότερα"
-      ],
-      "Loading": [
-        "Φόρτωση"
-      ],
       "Insert image": [
         "Εισαγωγή εικόνας"
       ],
@@ -646,6 +613,28 @@
       "Plain text": [
         "Απλό κείμενο"
       ],
+      "Week": [
+        "Εβδομάδα"
+      ],
+      "(${ memberCount } member)": [
+        "(${ memberCount } μέλος)",
+        "(${ memberCount } μέλη)"
+      ],
+      "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
+        "Αυτός ο σύνδεσμος μπορεί να είναι επίθεση ομογραφίας και δεν μπορεί να ανοίξει από προγράμματα περιήγησης Internet Explorer και Edge. Εάν είστε βέβαιοι ότι ο σύνδεσμος είναι αυθεντικός, χρησιμοποιήστε ένα διαφορετικό πρόγραμμα περιήγησης για να το ανοίξετε."
+      ],
+      "This link may be a homograph attack. Please verify this is the link you wish to visit, or don't open it.": [
+        "Αυτός ο σύνδεσμος μπορεί να είναι επίθεση ομογραφίας. Βεβαιωθείτε ότι πρόκειται για το σύνδεσμο που θέλετε να επισκεφθείτε, ή μην το ανοίξετε."
+      ],
+      "You are about to open another browser tab and visit:": [
+        "Πρόκειται να ανοίξετε μια άλλη καρτέλα προγράμματος περιήγησης και να επισκεφτείτε:"
+      ],
+      "Learn more": [
+        "Μάθετε περισσότερα"
+      ],
+      "Loading": [
+        "Φόρτωση"
+      ],
       "Drop the file here to upload": [
         "Αφήστε το αρχείο εδώ για μεταφόρτωση"
       ],
@@ -690,6 +679,9 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Αν αντιμετωπίζετε προβλήματα με τη δημιουργία του λογαριασμού σας, ζητήστε μια πρόσκληση και θα απαντήσουμε εντός μίας εργάσιμης ημέρας."
+      ],
+      "support team": [
+        "ομάδα υποστήριξης"
       ],
       "No contacts added yet": [
         "Δεν έχουν προστεθεί επαφές ακόμα"
@@ -809,9 +801,6 @@
       "${ addressCount } email address": [
         "${ addressCount } διεύθυνση ηλεκτρονικού ταχυδρομείου",
         "${ addressCount } διευθύνσεις ηλεκτρονικού ταχυδρομείου"
-      ],
-      "support team": [
-        "ομάδα υποστήριξης"
       ],
       "Unsupported file": [
         "Μη υποστηριζόμενο αρχείο"
@@ -1745,6 +1734,17 @@
         ""
       ]
     },
+    "Message": {
+      "Re:": [
+        "Απ:"
+      ],
+      "Fw:": [
+        "Προώθ:"
+      ],
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "Στις ${ date }, ${ name } ${ address } έγραψε:"
+      ]
+    },
     "PGP key warning": {
       "Email address not found among user ids defined in sending key (${ keyUserIds })": [
         "Η διεύθυνση ηλεκτρονικού ταχυδρομείου δεν βρέθηκε μεταξύ των αναγνωριστικών χρήστη που ορίζονται στο κλειδί αποστολής (${ keyUserIds })"
@@ -1972,10 +1972,10 @@
       ]
     },
     "Calendar status": {
-      "Not synced": [
+      "Syncing": [
         ""
       ],
-      "Syncing": [
+      "Not synced": [
         ""
       ]
     },
@@ -2611,38 +2611,8 @@
       "Close": [
         "Κλείσιμο"
       ],
-      "More info: ${ safeTitle }": [
-        "Περισσότερες πληροφορίες: ${ safeTitle }"
-      ],
-      "Confirm": [
-        "Επιβεβαίωση"
-      ],
       "Cancel": [
         "Ακύρωση"
-      ],
-      "Submit": [
-        "Υποβολή"
-      ],
-      "Close modal": [
-        "Κλείσιμο παραθύρου"
-      ],
-      "Use “${ label }” setting": [
-        ""
-      ],
-      "Remove": [
-        "Αφαίρεση"
-      ],
-      "Next month": [
-        "Επόμενος μήνας"
-      ],
-      "Previous month": [
-        "Προηγούμενος μήνας"
-      ],
-      "Load image": [
-        "Φόρτωση εικόνας"
-      ],
-      "Confirm opening of link ${ link }": [
-        ""
       ],
       "Save": [
         "Αποθήκευση"
@@ -2706,6 +2676,36 @@
       ],
       "Underline": [
         "Υπογράμμιση"
+      ],
+      "More info: ${ safeTitle }": [
+        "Περισσότερες πληροφορίες: ${ safeTitle }"
+      ],
+      "Confirm": [
+        "Επιβεβαίωση"
+      ],
+      "Submit": [
+        "Υποβολή"
+      ],
+      "Close modal": [
+        "Κλείσιμο παραθύρου"
+      ],
+      "Use “${ label }” setting": [
+        ""
+      ],
+      "Remove": [
+        "Αφαίρεση"
+      ],
+      "Next month": [
+        "Επόμενος μήνας"
+      ],
+      "Previous month": [
+        "Προηγούμενος μήνας"
+      ],
+      "Load image": [
+        "Φόρτωση εικόνας"
+      ],
+      "Confirm opening of link ${ link }": [
+        ""
       ],
       "Go to panel ${ index }": [
         "Μεταβείτε στο πίνακα ελέγχου ${ index }"
@@ -3487,11 +3487,11 @@
       "Open actions dropdown": [
         "Άνοιγμα αναπτυσσόμενων επιλογών"
       ],
-      "Link confirmation": [
-        "Επιβεβαίωση συνδέσμου"
-      ],
       "Expand content": [
         "Ανάπτυξη περιεχομένου"
+      ],
+      "Link confirmation": [
+        "Επιβεβαίωση συνδέσμου"
       ],
       "Keyboard Shortcuts": [
         "Συντομεύσεις Πληκτρολογίου"
@@ -3999,6 +3999,138 @@
         ""
       ]
     },
+    "Placeholder": {
+      "Link": [
+        "Σύνδεσμος"
+      ],
+      "Fill in the URL link and text to test your link": [
+        "Συμπληρώστε τη σύνδεση URL και το κείμενο για να ελέγξετε τη σύνδεση σας"
+      ],
+      "Email address": [
+        "Διεύθυνση email"
+      ],
+      "Fill in the email address and text to test your link": [
+        "Συμπληρώστε το email και το κείμενο για να ελέγξετε τη σύνδεσή σας"
+      ],
+      "Phone number": [
+        "Αριθμός τηλεφώνου"
+      ],
+      "Fill in the phone number and text to test your link": [
+        "Συμπληρώστε το τηλέφωνο και το κείμενο για να ελέγξετε τη σύνδεσή σας"
+      ],
+      "Text": [
+        "Κείμενο"
+      ],
+      "E.g., ": [
+        "Για παράδειγμα, "
+      ],
+      "Mailbox password": [
+        "Κωδικός Θυρίδας"
+      ],
+      "Start typing an email address": [
+        "Έναρξη πληκτρολόγησης διεύθυνσης ηλεκτρονικού ταχυδρομείου"
+      ],
+      "Image URL": [
+        "URL εικόνας"
+      ],
+      "Search name, email or group": [
+        "Όνομα αναζήτησης, email ή ομάδας"
+      ],
+      "Filter groups": [
+        "Φιλτράρισμα κατά ομάδες"
+      ],
+      "Search for name or email": [
+        "Αναζήτηση βάσει ονόματος ή e-mail"
+      ],
+      "Search for group name": [
+        "Αναζήτηση ονόματος ομάδας"
+      ],
+      "Name": [
+        "Όνομα"
+      ],
+      "OS name": [
+        "Όνομα Λειτουργικού Συστήματος (OS)"
+      ],
+      "OS version": [
+        "Έκδοση Λειτουργικού Συστήματος"
+      ],
+      "Proton username": [
+        "Όνομα χρήστη Proton"
+      ],
+      "A way to contact you": [
+        "Ένας τρόπος να επικοινωνήσουμε μαζί σας"
+      ],
+      "Please describe the problem and include any error messages": [
+        "Περιγράψτε το πρόβλημα και συμπεριλάβετε τυχόν μηνύματα σφάλματος"
+      ],
+      "Browser name": [
+        "Όνομα Περιηγητή (Browser)"
+      ],
+      "Browser version": [
+        "Έκδοση προγράμματος περιήγησης"
+      ],
+      "e.g. Julia Smith": [
+        "π.χ. Julia Smith"
+      ],
+      "ZIP": [
+        "T.K"
+      ],
+      "Postal code": [
+        "Ταχυδρομικός κώδικας"
+      ],
+      "Gift code": [
+        "Κωδικός δώρου"
+      ],
+      "Type text or keyword": [
+        "Πληκτρολόγηση κειμένου ή λέξης-κλειδιού"
+      ],
+      "Subject": [
+        "Θέμα"
+      ],
+      "Write your message": [
+        "Γράψτε το μήνυμα σας"
+      ],
+      "Password": [
+        "Κωδικός πρόσβασης"
+      ],
+      "Confirm Password": [
+        "Επιβεβαίωση Κωδικού Πρόσβασης"
+      ],
+      "Hint": [
+        "Υπόδειξη"
+      ],
+      "Search Messages": [
+        ""
+      ],
+      "Start date": [
+        "Ήμερομηνία Έναρξης"
+      ],
+      "End date": [
+        "Ημερομηνία λήξης"
+      ],
+      "Name or email address": [
+        "Όνομα ή διεύθυνση email"
+      ],
+      "Search messages": [
+        "Αναζήτηση μηνυμάτων"
+      ],
+      "Filter folders": [
+        "Φιλτράρισμα φακέλων"
+      ],
+      "Filter labels": [
+        "Φιλτράρισμα ετικετών"
+      ]
+    },
+    "Font Face Default": {
+      "Default": [
+        ""
+      ]
+    },
+    "Font Size Default": {
+      "Default": [
+        ""
+      ]
+    },
     "Link": {
       "Learn more": [
         "Μάθετε περισσότερα"
@@ -4026,6 +4158,36 @@
       ],
       "Add a gift code": [
         "Προσθήκη κωδικού δώρου"
+      ],
+      "Inbox": [
+        "Εισερχόμενα"
+      ],
+      "Drafts": [
+        "Πρόχειρα"
+      ],
+      "Sent": [
+        "Απεσταλμένα"
+      ],
+      "Trash": [
+        "Κάδος Απορριμμάτων"
+      ],
+      "Spam": [
+        "Ανεπιθύμητα"
+      ],
+      "All mail": [
+        "Όλα τα Μηνύματα"
+      ],
+      "Archive": [
+        "Αρχειοθέτηση"
+      ],
+      "Starred": [
+        "Με αστέρι"
+      ],
+      "Outbox": [
+        "Εξερχόμενα"
+      ],
+      "Scheduled": [
+        "Προγραμματισμένο"
       ],
       "You need to activate your calendar keys to add this event": [
         ""
@@ -4068,36 +4230,6 @@
       ],
       "Open in ${ calendarAppName }": [
         "Άνοιγμα σε ${ calendarAppName }"
-      ],
-      "Inbox": [
-        "Εισερχόμενα"
-      ],
-      "Drafts": [
-        "Πρόχειρα"
-      ],
-      "Sent": [
-        "Απεσταλμένα"
-      ],
-      "Trash": [
-        "Κάδος Απορριμμάτων"
-      ],
-      "Spam": [
-        "Ανεπιθύμητα"
-      ],
-      "All mail": [
-        "Όλα τα Μηνύματα"
-      ],
-      "Archive": [
-        "Αρχειοθέτηση"
-      ],
-      "Starred": [
-        "Με αστέρι"
-      ],
-      "Outbox": [
-        "Εξερχόμενα"
-      ],
-      "Scheduled": [
-        "Προγραμματισμένο"
       ],
       "Re-enable the address linked to this calendar to manage your invitation.": [
         "Ενεργοποιήστε ξανά τη διεύθυνση που συνδέεται με αυτό το ημερολόγιο για τη διαχείριση της πρόσκλησής σας."
@@ -4525,128 +4657,6 @@
         "Επίσης αρχειοθετείστε"
       ]
     },
-    "Placeholder": {
-      "E.g., ": [
-        "Για παράδειγμα, "
-      ],
-      "Link": [
-        "Σύνδεσμος"
-      ],
-      "Fill in the URL link and text to test your link": [
-        "Συμπληρώστε τη σύνδεση URL και το κείμενο για να ελέγξετε τη σύνδεση σας"
-      ],
-      "Email address": [
-        "Διεύθυνση email"
-      ],
-      "Fill in the email address and text to test your link": [
-        "Συμπληρώστε το email και το κείμενο για να ελέγξετε τη σύνδεσή σας"
-      ],
-      "Phone number": [
-        "Αριθμός τηλεφώνου"
-      ],
-      "Fill in the phone number and text to test your link": [
-        "Συμπληρώστε το τηλέφωνο και το κείμενο για να ελέγξετε τη σύνδεσή σας"
-      ],
-      "Text": [
-        "Κείμενο"
-      ],
-      "Mailbox password": [
-        "Κωδικός Θυρίδας"
-      ],
-      "Start typing an email address": [
-        "Έναρξη πληκτρολόγησης διεύθυνσης ηλεκτρονικού ταχυδρομείου"
-      ],
-      "Image URL": [
-        "URL εικόνας"
-      ],
-      "Search name, email or group": [
-        "Όνομα αναζήτησης, email ή ομάδας"
-      ],
-      "Filter groups": [
-        "Φιλτράρισμα κατά ομάδες"
-      ],
-      "Search for name or email": [
-        "Αναζήτηση βάσει ονόματος ή e-mail"
-      ],
-      "Search for group name": [
-        "Αναζήτηση ονόματος ομάδας"
-      ],
-      "Name": [
-        "Όνομα"
-      ],
-      "OS name": [
-        "Όνομα Λειτουργικού Συστήματος (OS)"
-      ],
-      "OS version": [
-        "Έκδοση Λειτουργικού Συστήματος"
-      ],
-      "Proton username": [
-        "Όνομα χρήστη Proton"
-      ],
-      "A way to contact you": [
-        "Ένας τρόπος να επικοινωνήσουμε μαζί σας"
-      ],
-      "Please describe the problem and include any error messages": [
-        "Περιγράψτε το πρόβλημα και συμπεριλάβετε τυχόν μηνύματα σφάλματος"
-      ],
-      "Browser name": [
-        "Όνομα Περιηγητή (Browser)"
-      ],
-      "Browser version": [
-        "Έκδοση προγράμματος περιήγησης"
-      ],
-      "e.g. Julia Smith": [
-        "π.χ. Julia Smith"
-      ],
-      "ZIP": [
-        "T.K"
-      ],
-      "Postal code": [
-        "Ταχυδρομικός κώδικας"
-      ],
-      "Gift code": [
-        "Κωδικός δώρου"
-      ],
-      "Type text or keyword": [
-        "Πληκτρολόγηση κειμένου ή λέξης-κλειδιού"
-      ],
-      "Subject": [
-        "Θέμα"
-      ],
-      "Write your message": [
-        "Γράψτε το μήνυμα σας"
-      ],
-      "Password": [
-        "Κωδικός πρόσβασης"
-      ],
-      "Confirm Password": [
-        "Επιβεβαίωση Κωδικού Πρόσβασης"
-      ],
-      "Hint": [
-        "Υπόδειξη"
-      ],
-      "Search Messages": [
-        ""
-      ],
-      "Start date": [
-        "Ήμερομηνία Έναρξης"
-      ],
-      "End date": [
-        "Ημερομηνία λήξης"
-      ],
-      "Name or email address": [
-        "Όνομα ή διεύθυνση email"
-      ],
-      "Search messages": [
-        "Αναζήτηση μηνυμάτων"
-      ],
-      "Filter folders": [
-        "Φιλτράρισμα φακέλων"
-      ],
-      "Filter labels": [
-        "Φιλτράρισμα ετικετών"
-      ]
-    },
     "Time unit": {
       "${ hours } hour": [
         "${ hours } ώρα",
@@ -4680,16 +4690,6 @@
       "Found ${ items.length } suggestion, use keyboard to navigate.": [
         "Βρέθηκαν ${ items.length } πρόταση, χρησιμοποιήστε το πληκτρολόγιο για πλοήγηση.",
         "Βρέθηκαν ${ items.length } προτάσεις, χρησιμοποιήστε το πληκτρολόγιο για πλοήγηση."
-      ]
-    },
-    "Font Face Default": {
-      "Default": [
-        ""
-      ]
-    },
-    "Font Size Default": {
-      "Default": [
-        ""
       ]
     },
     "Storage": {

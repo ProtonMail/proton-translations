@@ -5,18 +5,25 @@
   },
   "contexts": {
     "": {},
-    "Message": {
-      "Re:": [
-        "Sv:"
-      ],
-      "Fw:": [
-        "Vs:"
-      ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "D. ${ date }, ${ name } skrev ${ address }:"
-      ]
-    },
     "Error": {
+      "This field is required": [
+        "Feltet er påkrævet"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Dette felt kræver minimum ${ minimumLength } tegn."
+      ],
+      "Email is not valid": [
+        "E-mail er ikke gyldig"
+      ],
+      "Not a valid number": [
+        "Ikke et gyldigt nummer"
+      ],
+      "Passwords do not match": [
+        "Adgangskoder matcher ikke"
+      ],
+      "Request timed out.": [
+        "Forespørgsel fik timeout."
+      ],
       "Email address disabled": [
         "E-mailadresse deaktiveret"
       ],
@@ -40,24 +47,6 @@
       ],
       "The sending key is not valid": [
         "Afsendelsesnøgle er ikke gyldig"
-      ],
-      "This field is required": [
-        "Feltet er påkrævet"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Dette felt kræver minimum ${ minimumLength } tegn."
-      ],
-      "Email is not valid": [
-        "E-mail er ikke gyldig"
-      ],
-      "Not a valid number": [
-        "Ikke et gyldigt nummer"
-      ],
-      "Passwords do not match": [
-        "Adgangskoder matcher ikke"
-      ],
-      "Request timed out.": [
-        "Forespørgsel fik timeout."
       ],
       "Signature verification failed": [
         "Bekræftelse af signatur mislykkedes"
@@ -101,17 +90,17 @@
       "Authentication error.": [
         "Godkendelsesfejl."
       ],
-      "Email address invalid": [
-        "Ugyldig e-mailadresse"
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "Din aktuelle browser tillader ikke fuld godkendelse af betalingen. Benyt en anden browser eller log ind via en computer."
-      ],
       "The composer failed to load.": [
         "Skriveværktøjet blev ikke indlæst."
       ],
       "Please refresh the page.": [
         "Genindlæs venligst siden."
+      ],
+      "Email address invalid": [
+        "Ugyldig e-mailadresse"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "Din aktuelle browser tillader ikke fuld godkendelse af betalingen. Benyt en anden browser eller log ind via en computer."
       ],
       "Incorrect mailbox password. Please try again": [
         "Forkert adgangskode til postkasse, forsøg igen"
@@ -130,6 +119,9 @@
       ],
       "Invalid verification code": [
         "Ugyldig verifikationskode"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Noget gik galt. ${ refresh } venligst siden for at fortsætte. Ser du fortsat denne fejlmeddelelse, bedes du kontakte vores ${ supportTeam }."
       ],
       "Some groups could not be deleted": [
         "Nogle grupper kunne ikke slettes"
@@ -171,9 +163,6 @@
       ],
       "A group with this name already exists": [
         "En gruppe med dette navn findes allerede"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Noget gik galt. ${ refresh } venligst siden for at fortsætte. Ser du fortsat denne fejlmeddelelse, bedes du kontakte vores ${ supportTeam }."
       ],
       "File has no contents to preview": [
         "Filen har intet indhold at forhåndsvise"
@@ -371,11 +360,17 @@
       "Your emails cannot be decrypted due to a recent password reset. If you remember your previous password, you can ${ reActivateKeyLink } in order to access your messages. ${ learnMoreLink }": [
         "Dine e-mails kan ikke dekrypteres på grund af en nylig nulstilling af adgangskoden. Hvis du kan huske din forrige adgangskode, kan du ${ reActivateKeyLink } for at få adgang til dine beskeder. ${ learnMoreLink }"
       ],
-      "Your emails cannot be decrypted due to a recent password reset. ${ learnMoreLink }": [
-        "Dine e-mails kan ikke dekrypteres på grund af en nylig nulstilling af adgangskoden. ${ learnMoreLink }"
+      "Your emails cannot be decrypted. This may be due to a password reset. ${ learnMoreLink }": [
+        ""
       ],
       "Too many active filters. Please upgrade to a paid plan to activate more filters": [
         "For mange aktive filtre. Opgrader venligst til et betalt abonnement for at aktivere flere filtre"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "Adgangskode skal indeholde mindst ${ length } tegn",
+        "Adgangskode skal indeholde mindst ${ length } tegn"
       ]
     },
     "file size format": {
@@ -390,12 +385,6 @@
       ],
       "GB": [
         "GB"
-      ]
-    },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "Adgangskode skal indeholde mindst ${ length } tegn",
-        "Adgangskode skal indeholde mindst ${ length } tegn"
       ]
     },
     "Contact field label": {
@@ -549,28 +538,6 @@
       "No results found": [
         "Ingen resultater fundet"
       ],
-      "Week": [
-        "Uge"
-      ],
-      "(${ memberCount } member)": [
-        "(${ memberCount } medlem)",
-        "(${ memberCount } medlemmer)"
-      ],
-      "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
-        "Dette link kan være et homografisk angreb og kan ikke åbnes af Internet Explorer og Edge browsere. Benyt en anden browser til at åbne linket, hvis du er sikker på, at det er legitimt."
-      ],
-      "This link may be a homograph attack. Please verify this is the link you wish to visit, or don't open it.": [
-        "Dette link kan være et homografisk angreb. Bekræft venligst at dette faktisk er det link, du ønsker at besøge, eller undlad at åbne det."
-      ],
-      "You are about to open another browser tab and visit:": [
-        "Du er ved at åbne en anden browserfane og besøge:"
-      ],
-      "Learn more": [
-        "Få mere at vide"
-      ],
-      "Loading": [
-        "Indlæser"
-      ],
       "Insert image": [
         "Indsæt billede"
       ],
@@ -646,6 +613,28 @@
       "Plain text": [
         "Almindelig tekst"
       ],
+      "Week": [
+        "Uge"
+      ],
+      "(${ memberCount } member)": [
+        "(${ memberCount } medlem)",
+        "(${ memberCount } medlemmer)"
+      ],
+      "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
+        "Dette link kan være et homografisk angreb og kan ikke åbnes af Internet Explorer og Edge browsere. Benyt en anden browser til at åbne linket, hvis du er sikker på, at det er legitimt."
+      ],
+      "This link may be a homograph attack. Please verify this is the link you wish to visit, or don't open it.": [
+        "Dette link kan være et homografisk angreb. Bekræft venligst at dette faktisk er det link, du ønsker at besøge, eller undlad at åbne det."
+      ],
+      "You are about to open another browser tab and visit:": [
+        "Du er ved at åbne en anden browserfane og besøge:"
+      ],
+      "Learn more": [
+        "Få mere at vide"
+      ],
+      "Loading": [
+        "Indlæser"
+      ],
       "Drop the file here to upload": [
         "Slip filen her for at uploade"
       ],
@@ -690,6 +679,9 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Hvis du har problemer med at oprette din konto, bedes du anmode om en invitation. Så vil vi svare inden for en arbejdsdag."
+      ],
+      "support team": [
+        "supportteam"
       ],
       "No contacts added yet": [
         "Ingen kontakter tilføjet endnu"
@@ -809,9 +801,6 @@
       "${ addressCount } email address": [
         "${ addressCount } e-mailadresse",
         "${ addressCount } e-mailadresser"
-      ],
-      "support team": [
-        "supportteam"
       ],
       "Unsupported file": [
         "Ikke-understøttet fil"
@@ -1710,39 +1699,50 @@
         "Download vores mobil-app fra din foretrukne app-butik for at kommunikere sikkert på farten."
       ],
       "You selected **${ count } conversation** from this folder": [
-        "",
-        ""
+        "Du valgte **${ count } samtale** fra denne mappe",
+        "Du valgte **${ count } samtaler** fra denne mappe"
       ],
       "You selected **${ count } message** from this folder": [
-        "",
-        ""
+        "Du valgte **${ count } besked** fra denne mappe",
+        "Du valgte **${ count } beskeder** fra denne mappe"
       ],
       "You have **${ count } conversation** stored in this folder": [
-        "",
-        ""
+        "Du har **${ count } samtale** gemt i denne mappe",
+        "Du har **${ count } samtaler** gemt i denne mappe"
       ],
       "You have **${ count } message** stored in this folder": [
-        "",
-        ""
+        "Du har **${ count } besked** gemt i denne mappe",
+        "Du har **${ count } beskeder** gemt i denne mappe"
       ],
       "You selected **${ count } conversation** with this label": [
-        "",
-        ""
+        "Du valgte **${ count } samtale** med denne etikette",
+        "Du valgte **${ count } samtaler** med denne etikette"
       ],
       "You selected **${ count } message** with this label": [
-        "",
-        ""
+        "Du valgte **${ count } besked** med denne etikette",
+        "Du valgte **${ count } beskeder** med denne etikette"
       ],
       "You have **${ count } conversation** tagged with this label": [
-        "",
-        ""
+        "Du har **${ count } samtale** mærket med denne etikette",
+        "Du har **${ count } samtaler** mærket med denne etikette"
       ],
       "You have **${ count } message** tagged with this label": [
-        "",
-        ""
+        "Du har **${ count } besked** mærket med denne etikette",
+        "Du har **${ count } beskeder** mærket med denne etikette"
       ],
       "Using your mobile device, scan this QR-Code or visit ${ link }.": [
         "Skan QR-koden eller besøg ${ link } ved hjælp af din mobilenhed."
+      ]
+    },
+    "Message": {
+      "Re:": [
+        "Sv:"
+      ],
+      "Fw:": [
+        "Vs:"
+      ],
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "D. ${ date }, ${ name } skrev ${ address }:"
       ]
     },
     "PGP key warning": {
@@ -1972,11 +1972,11 @@
       ]
     },
     "Calendar status": {
-      "Not synced": [
-        "Ikke synkroniseret"
-      ],
       "Syncing": [
         "Synkroniserer"
+      ],
+      "Not synced": [
+        "Ikke synkroniseret"
       ]
     },
     "Calendar subscription not synced error": {
@@ -2611,38 +2611,8 @@
       "Close": [
         "Luk"
       ],
-      "More info: ${ safeTitle }": [
-        "Yderligere information: ${ safeTitle }"
-      ],
-      "Confirm": [
-        "Bekræft"
-      ],
       "Cancel": [
         "Annullér"
-      ],
-      "Submit": [
-        "Indsend"
-      ],
-      "Close modal": [
-        "Luk vindue"
-      ],
-      "Use “${ label }” setting": [
-        "Brug “${ label }” indstilling"
-      ],
-      "Remove": [
-        "Fjern"
-      ],
-      "Next month": [
-        "Næste måned"
-      ],
-      "Previous month": [
-        "Forrige måned"
-      ],
-      "Load image": [
-        "Indlæs billede"
-      ],
-      "Confirm opening of link ${ link }": [
-        "Bekræft åbning af link ${ link }"
       ],
       "Save": [
         "Gem"
@@ -2706,6 +2676,36 @@
       ],
       "Underline": [
         "Understreg"
+      ],
+      "More info: ${ safeTitle }": [
+        "Yderligere information: ${ safeTitle }"
+      ],
+      "Confirm": [
+        "Bekræft"
+      ],
+      "Submit": [
+        "Indsend"
+      ],
+      "Close modal": [
+        "Luk vindue"
+      ],
+      "Use “${ label }” setting": [
+        "Brug “${ label }” indstilling"
+      ],
+      "Remove": [
+        "Fjern"
+      ],
+      "Next month": [
+        "Næste måned"
+      ],
+      "Previous month": [
+        "Forrige måned"
+      ],
+      "Load image": [
+        "Indlæs billede"
+      ],
+      "Confirm opening of link ${ link }": [
+        "Bekræft åbning af link ${ link }"
       ],
       "Go to panel ${ index }": [
         "Gå til panel ${ index }"
@@ -3318,7 +3318,7 @@
         "Vis"
       ],
       "Show less": [
-        ""
+        "Vis mindre"
       ],
       "Never show": [
         "Vis aldrig"
@@ -3487,11 +3487,11 @@
       "Open actions dropdown": [
         "Åbn handlingsrullemenu"
       ],
-      "Link confirmation": [
-        "Linkbekræftelse"
-      ],
       "Expand content": [
         "Udvid indhold"
+      ],
+      "Link confirmation": [
+        "Linkbekræftelse"
       ],
       "Keyboard Shortcuts": [
         "Tastaturgenveje"
@@ -3999,6 +3999,138 @@
         "Nøgle kan ikke benyttes til kryptering"
       ]
     },
+    "Placeholder": {
+      "Link": [
+        "Link"
+      ],
+      "Fill in the URL link and text to test your link": [
+        "Udfyld URL-linket og tekst for at teste dit link"
+      ],
+      "Email address": [
+        "E-mail"
+      ],
+      "Fill in the email address and text to test your link": [
+        "Udfyld e-mailadressen og tekst for at teste dit link"
+      ],
+      "Phone number": [
+        "Telefonnummer"
+      ],
+      "Fill in the phone number and text to test your link": [
+        "Udfyld telefonnummer og tekst for at teste dit link"
+      ],
+      "Text": [
+        "Tekst"
+      ],
+      "E.g., ": [
+        "F.eks., "
+      ],
+      "Mailbox password": [
+        "Postkasseadgangskode"
+      ],
+      "Start typing an email address": [
+        "Begynd at indtaste en e-mailadresse"
+      ],
+      "Image URL": [
+        "Billed-URL"
+      ],
+      "Search name, email or group": [
+        "Søg navn, e-mail eller gruppe"
+      ],
+      "Filter groups": [
+        "Filtrér grupper"
+      ],
+      "Search for name or email": [
+        "Søg efter navn eller e-mail"
+      ],
+      "Search for group name": [
+        "Søg efter gruppenavn"
+      ],
+      "Name": [
+        "Navn"
+      ],
+      "OS name": [
+        "Operativsystem"
+      ],
+      "OS version": [
+        "OS-version"
+      ],
+      "Proton username": [
+        "Protonbrugernavn"
+      ],
+      "A way to contact you": [
+        "En måde at kontakte dig på"
+      ],
+      "Please describe the problem and include any error messages": [
+        "Beskriv problemet og medtag evt. fejlmeddelelser"
+      ],
+      "Browser name": [
+        "Browser"
+      ],
+      "Browser version": [
+        "Browser-version"
+      ],
+      "e.g. Julia Smith": [
+        "f.eks. Anne Jensen"
+      ],
+      "ZIP": [
+        "Postnummer"
+      ],
+      "Postal code": [
+        "Postnummer"
+      ],
+      "Gift code": [
+        "Gavekode"
+      ],
+      "Type text or keyword": [
+        "Indtast tekst eller nøgleord"
+      ],
+      "Subject": [
+        "Emne"
+      ],
+      "Write your message": [
+        "Skriv din besked"
+      ],
+      "Password": [
+        "Adgangskode"
+      ],
+      "Confirm Password": [
+        "Bekræft adgangskode"
+      ],
+      "Hint": [
+        "Tip"
+      ],
+      "Search Messages": [
+        "Søg i beskeder"
+      ],
+      "Start date": [
+        "Startdato"
+      ],
+      "End date": [
+        "Slutdato"
+      ],
+      "Name or email address": [
+        "Navn eller e-mailadresse"
+      ],
+      "Search messages": [
+        "Søg efter beskeder"
+      ],
+      "Filter folders": [
+        "Filtrér mapper"
+      ],
+      "Filter labels": [
+        "Filtrér etiketter"
+      ]
+    },
+    "Font Face Default": {
+      "Default": [
+        "Standard"
+      ]
+    },
+    "Font Size Default": {
+      "Default": [
+        "Standard"
+      ]
+    },
     "Link": {
       "Learn more": [
         "Få yderligere information"
@@ -4026,6 +4158,36 @@
       ],
       "Add a gift code": [
         "Tilføj en gavekode"
+      ],
+      "Inbox": [
+        "Indbakke"
+      ],
+      "Drafts": [
+        "Kladder"
+      ],
+      "Sent": [
+        "Sendt"
+      ],
+      "Trash": [
+        "Papirkurv"
+      ],
+      "Spam": [
+        "Spam"
+      ],
+      "All mail": [
+        "Alle e-mails"
+      ],
+      "Archive": [
+        "Arkiv"
+      ],
+      "Starred": [
+        "Stjernemarkeret"
+      ],
+      "Outbox": [
+        "Udbakke"
+      ],
+      "Scheduled": [
+        "Planlagt"
       ],
       "You need to activate your calendar keys to add this event": [
         "Du skal aktivere dine kalendernøgler for at tilføje denne begivenhed"
@@ -4068,36 +4230,6 @@
       ],
       "Open in ${ calendarAppName }": [
         "Åbn i ${ calendarAppName }"
-      ],
-      "Inbox": [
-        "Indbakke"
-      ],
-      "Drafts": [
-        "Kladder"
-      ],
-      "Sent": [
-        "Sendt"
-      ],
-      "Trash": [
-        "Papirkurv"
-      ],
-      "Spam": [
-        "Spam"
-      ],
-      "All mail": [
-        "Alle e-mails"
-      ],
-      "Archive": [
-        "Arkiv"
-      ],
-      "Starred": [
-        "Stjernemarkeret"
-      ],
-      "Outbox": [
-        "Udbakke"
-      ],
-      "Scheduled": [
-        "Planlagt"
       ],
       "Re-enable the address linked to this calendar to manage your invitation.": [
         "Genaktivér adressen knyttet til denne kalender for at håndtere din invitation."
@@ -4525,128 +4657,6 @@
         "Arkivér også"
       ]
     },
-    "Placeholder": {
-      "E.g., ": [
-        "F.eks., "
-      ],
-      "Link": [
-        "Link"
-      ],
-      "Fill in the URL link and text to test your link": [
-        "Udfyld URL-linket og tekst for at teste dit link"
-      ],
-      "Email address": [
-        "E-mail"
-      ],
-      "Fill in the email address and text to test your link": [
-        "Udfyld e-mailadressen og tekst for at teste dit link"
-      ],
-      "Phone number": [
-        "Telefonnummer"
-      ],
-      "Fill in the phone number and text to test your link": [
-        "Udfyld telefonnummer og tekst for at teste dit link"
-      ],
-      "Text": [
-        "Tekst"
-      ],
-      "Mailbox password": [
-        "Postkasseadgangskode"
-      ],
-      "Start typing an email address": [
-        "Begynd at indtaste en e-mailadresse"
-      ],
-      "Image URL": [
-        "Billed-URL"
-      ],
-      "Search name, email or group": [
-        "Søg navn, e-mail eller gruppe"
-      ],
-      "Filter groups": [
-        "Filtrér grupper"
-      ],
-      "Search for name or email": [
-        "Søg efter navn eller e-mail"
-      ],
-      "Search for group name": [
-        "Søg efter gruppenavn"
-      ],
-      "Name": [
-        "Navn"
-      ],
-      "OS name": [
-        "Operativsystem"
-      ],
-      "OS version": [
-        "OS-version"
-      ],
-      "Proton username": [
-        "Protonbrugernavn"
-      ],
-      "A way to contact you": [
-        "En måde at kontakte dig på"
-      ],
-      "Please describe the problem and include any error messages": [
-        "Beskriv problemet og medtag evt. fejlmeddelelser"
-      ],
-      "Browser name": [
-        "Browser"
-      ],
-      "Browser version": [
-        "Browser-version"
-      ],
-      "e.g. Julia Smith": [
-        "f.eks. Anne Jensen"
-      ],
-      "ZIP": [
-        "Postnummer"
-      ],
-      "Postal code": [
-        "Postnummer"
-      ],
-      "Gift code": [
-        "Gavekode"
-      ],
-      "Type text or keyword": [
-        "Indtast tekst eller nøgleord"
-      ],
-      "Subject": [
-        "Emne"
-      ],
-      "Write your message": [
-        "Skriv din besked"
-      ],
-      "Password": [
-        "Adgangskode"
-      ],
-      "Confirm Password": [
-        "Bekræft adgangskode"
-      ],
-      "Hint": [
-        "Tip"
-      ],
-      "Search Messages": [
-        ""
-      ],
-      "Start date": [
-        "Startdato"
-      ],
-      "End date": [
-        "Slutdato"
-      ],
-      "Name or email address": [
-        "Navn eller e-mailadresse"
-      ],
-      "Search messages": [
-        "Søg efter beskeder"
-      ],
-      "Filter folders": [
-        "Filtrér mapper"
-      ],
-      "Filter labels": [
-        "Filtrér etiketter"
-      ]
-    },
     "Time unit": {
       "${ hours } hour": [
         "${ hours } time",
@@ -4680,16 +4690,6 @@
       "Found ${ items.length } suggestion, use keyboard to navigate.": [
         "Fandt ${ items.length } forslag, brug tastaturet til at navigere.",
         "Fandt ${ items.length } forslag, brug tastaturet til at navigere."
-      ]
-    },
-    "Font Face Default": {
-      "Default": [
-        "Standard"
-      ]
-    },
-    "Font Size Default": {
-      "Default": [
-        "Standard"
       ]
     },
     "Storage": {
@@ -6586,13 +6586,13 @@
         "Denne invitation er forældet. Begivenheden er blevet opdateret."
       ],
       "You already accepted this invitation.": [
-        ""
+        "Du har allerede accepteret denne invitation."
       ],
       "You already tentatively accepted this invitation.": [
-        ""
+        "Du har allerede med forbehold accepteret denne invitation."
       ],
       "You already declined this invitation.": [
-        ""
+        "Du har allerede afvist denne invitation."
       ],
       "This event has been cancelled.": [
         "Denne begivenhed er blevet aflyst."
@@ -6604,7 +6604,7 @@
         "En forekomst er blevet tilføjet begivenheden ${ veventIcsTitle }"
       ],
       "(Attendance optional)": [
-        ""
+        "(Deltagelse valgfri)"
       ],
       "The sender of this email has not been invited to this event and cannot be added as a participant.": [
         "Afsenderen af denne e-mail er ikke blevet inviteret til denne begivenhed og kan ikke tilføjes som deltager."
@@ -6779,7 +6779,7 @@
     },
     "Calendar invite buttons label": {
       "Attending?": [
-        ""
+        "Deltager?"
       ]
     },
     "Import ICS file from Mail": {
@@ -6792,23 +6792,23 @@
     },
     "ICS widget label for event details": {
       "Organizer:": [
-        ""
+        "Arrangør:"
       ],
       "${ totalAttendees } Participant": [
-        "",
-        ""
+        "${ totalAttendees } deltager",
+        "${ totalAttendees } deltagere"
       ],
       "Repeats": [
-        ""
+        "Gentagelser"
       ],
       "Calendar": [
-        ""
+        "Kalender"
       ],
       "Location": [
-        ""
+        "Placering"
       ],
       "Participants": [
-        ""
+        "Deltagere"
       ]
     },
     "Attachment signature verification": {
@@ -6829,10 +6829,10 @@
         "Alt"
       ],
       "With": [
-        ""
+        "Med"
       ],
       "Without": [
-        ""
+        "Uden"
       ]
     },
     "Filter option": {

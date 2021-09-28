@@ -5,18 +5,25 @@
   },
   "contexts": {
     "": {},
-    "Message": {
-      "Re:": [
-        "Re:"
-      ],
-      "Fw:": [
-        "Fw:"
-      ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "${ date }, ${ name } ${ address } написал(а):"
-      ]
-    },
     "Error": {
+      "This field is required": [
+        "Это обязательное поле"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Минимальная длина для этого поля: ${ minimumLength }."
+      ],
+      "Email is not valid": [
+        "Эл. почта недействительна"
+      ],
+      "Not a valid number": [
+        "Номер недействителен"
+      ],
+      "Passwords do not match": [
+        "Пароли не совпадают"
+      ],
+      "Request timed out.": [
+        "Истекло время ожидания запроса."
+      ],
       "Email address disabled": [
         "Адрес электронной почты неактивен"
       ],
@@ -40,24 +47,6 @@
       ],
       "The sending key is not valid": [
         "Недействительный ключ отправки"
-      ],
-      "This field is required": [
-        "Это обязательное поле"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Минимальная длина для этого поля: ${ minimumLength }."
-      ],
-      "Email is not valid": [
-        "Эл. почта недействительна"
-      ],
-      "Not a valid number": [
-        "Номер недействителен"
-      ],
-      "Passwords do not match": [
-        "Пароли не совпадают"
-      ],
-      "Request timed out.": [
-        "Истекло время ожидания запроса."
       ],
       "Signature verification failed": [
         "Проверка подписи не удалась"
@@ -101,17 +90,17 @@
       "Authentication error.": [
         "Ошибка аутентификации."
       ],
-      "Email address invalid": [
-        "Неверный адрес электронной почты"
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "Используемый вами браузер не позволяет полностью авторизовать платеж. Пожалуйста, используйте другой браузер или войдите в через компьютер."
-      ],
       "The composer failed to load.": [
         "Не удалось загрузить редактор."
       ],
       "Please refresh the page.": [
         "Пожалуйста, обновите страницу."
+      ],
+      "Email address invalid": [
+        "Неверный адрес электронной почты"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "Используемый вами браузер не позволяет полностью авторизовать платеж. Пожалуйста, используйте другой браузер или войдите в через компьютер."
       ],
       "Incorrect mailbox password. Please try again": [
         "Неверный пароль. Пожалуйста, попробуйте еще раз"
@@ -130,6 +119,9 @@
       ],
       "Invalid verification code": [
         "Неверный проверочный код"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Что-то пошло не так. Пожалуйста ${ refresh } чтобы продолжить. Если вы все еще видите сообщение об ошибке, пожалуйста свяжитесь нашей ${ supportTeam }."
       ],
       "Some groups could not be deleted": [
         "Некоторые группы не могут быть удалены"
@@ -175,9 +167,6 @@
       ],
       "A group with this name already exists": [
         "Группа с таким именем уже существует"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Что-то пошло не так. Пожалуйста ${ refresh } чтобы продолжить. Если вы все еще видите сообщение об ошибке, пожалуйста свяжитесь нашей ${ supportTeam }."
       ],
       "File has no contents to preview": [
         "В файле нет содержимого для предпросмотра"
@@ -383,11 +372,19 @@
       "Your emails cannot be decrypted due to a recent password reset. If you remember your previous password, you can ${ reActivateKeyLink } in order to access your messages. ${ learnMoreLink }": [
         "Ваши электронные письма не могут быть расшифрованы из-за недавнего сброса пароля. Если вы помните свой предыдущий пароль, вы можете ${ reActivateKeyLink } чтобы получить доступ к своим сообщениям. ${ learnMoreLink }"
       ],
-      "Your emails cannot be decrypted due to a recent password reset. ${ learnMoreLink }": [
-        "Ваши письма не могут быть расшифрованы из-за недавнего сброса пароля. ${ learnMoreLink }"
+      "Your emails cannot be decrypted. This may be due to a password reset. ${ learnMoreLink }": [
+        ""
       ],
       "Too many active filters. Please upgrade to a paid plan to activate more filters": [
         "Слишком много активных фильтров. Пожалуйста, перейдите на платный план для активации дополнительных фильтров"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "Пароль должен включать по меньшей мере ${ length } символ",
+        "Пароль должен включать по меньшей мере ${ length } символа",
+        "Пароль должен включать по меньшей мере ${ length } символов",
+        "Пароль должен включать по меньшей мере ${ length } символа"
       ]
     },
     "file size format": {
@@ -402,14 +399,6 @@
       ],
       "GB": [
         "ГБ"
-      ]
-    },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "Пароль должен включать по меньшей мере ${ length } символ",
-        "Пароль должен включать по меньшей мере ${ length } символа",
-        "Пароль должен включать по меньшей мере ${ length } символов",
-        "Пароль должен включать по меньшей мере ${ length } символа"
       ]
     },
     "Contact field label": {
@@ -563,30 +552,6 @@
       "No results found": [
         "Результаты не найдены"
       ],
-      "Week": [
-        "Неделя"
-      ],
-      "(${ memberCount } member)": [
-        "(${ memberCount } участник)",
-        "(${ memberCount } участника)",
-        "(${ memberCount } участников)",
-        "(${ memberCount } участника)"
-      ],
-      "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
-        "Эта ссылка может быть омографической атакой и не может быть открыта браузерами Internet Explorer и Edge. Если вы уверены, что ссылка безопасна, то, пожалуйста, воспользуйтесь другим браузером для её открытия."
-      ],
-      "This link may be a homograph attack. Please verify this is the link you wish to visit, or don't open it.": [
-        "Эта ссылка может быть омографической атакой, при которой символы одного алфавита подменяются похожими символами из другого. Пожалуйста, проверьте, что это именно та ссылка, которую вы хотите посетить, или не переходите по ней."
-      ],
-      "You are about to open another browser tab and visit:": [
-        "Вы собираетесь открыть другую вкладку браузера и посетить:"
-      ],
-      "Learn more": [
-        "Узнать больше"
-      ],
-      "Loading": [
-        "Загрузка"
-      ],
       "Insert image": [
         "Вставить изображение"
       ],
@@ -662,6 +627,30 @@
       "Plain text": [
         "Простой текст"
       ],
+      "Week": [
+        "Неделя"
+      ],
+      "(${ memberCount } member)": [
+        "(${ memberCount } участник)",
+        "(${ memberCount } участника)",
+        "(${ memberCount } участников)",
+        "(${ memberCount } участника)"
+      ],
+      "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
+        "Эта ссылка может быть омографической атакой и не может быть открыта браузерами Internet Explorer и Edge. Если вы уверены, что ссылка безопасна, то, пожалуйста, воспользуйтесь другим браузером для её открытия."
+      ],
+      "This link may be a homograph attack. Please verify this is the link you wish to visit, or don't open it.": [
+        "Эта ссылка может быть омографической атакой, при которой символы одного алфавита подменяются похожими символами из другого. Пожалуйста, проверьте, что это именно та ссылка, которую вы хотите посетить, или не переходите по ней."
+      ],
+      "You are about to open another browser tab and visit:": [
+        "Вы собираетесь открыть другую вкладку браузера и посетить:"
+      ],
+      "Learn more": [
+        "Узнать больше"
+      ],
+      "Loading": [
+        "Загрузка"
+      ],
       "Drop the file here to upload": [
         "Для загрузки файла перетащите его сюда"
       ],
@@ -706,6 +695,9 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Если у вас возникли проблемы с созданием учетной записи, пожалуйста, запросите приглашение и мы ответим в течение одного рабочего дня."
+      ],
+      "support team": [
+        "служба поддержки"
       ],
       "No contacts added yet": [
         "Контакты ещё не добавлены"
@@ -835,9 +827,6 @@
         "${ addressCount } адреса электронной почты",
         "${ addressCount } адресов электронной почты",
         "${ addressCount } адреса электронной почты"
-      ],
-      "support team": [
-        "служба поддержки"
       ],
       "Unsupported file": [
         "Неподдерживаемый файл"
@@ -1839,6 +1828,17 @@
         "Используя мобильное устройство, отсканируйте этот QR-код или перейдите по ссылке ${ link }."
       ]
     },
+    "Message": {
+      "Re:": [
+        "Re:"
+      ],
+      "Fw:": [
+        "Fw:"
+      ],
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "${ date }, ${ name } ${ address } написал(а):"
+      ]
+    },
     "PGP key warning": {
       "Email address not found among user ids defined in sending key (${ keyUserIds })": [
         "Адрес электронной почты не найден среди идентификаторов пользователя, определенных в ключе отправки (${ keyUserIds })"
@@ -2066,11 +2066,11 @@
       ]
     },
     "Calendar status": {
-      "Not synced": [
-        "Не синхронизировано"
-      ],
       "Syncing": [
         "Синхронизация"
+      ],
+      "Not synced": [
+        "Не синхронизировано"
       ]
     },
     "Calendar subscription not synced error": {
@@ -2779,38 +2779,8 @@
       "Close": [
         "Закрыть"
       ],
-      "More info: ${ safeTitle }": [
-        "Больше информации: ${ safeTitle }"
-      ],
-      "Confirm": [
-        "Подтвердить"
-      ],
       "Cancel": [
         "Отменить"
-      ],
-      "Submit": [
-        "Отправить"
-      ],
-      "Close modal": [
-        "Закрыть окно"
-      ],
-      "Use “${ label }” setting": [
-        "Использовать настройку «${ label }»"
-      ],
-      "Remove": [
-        "Удалить"
-      ],
-      "Next month": [
-        "След. месяц"
-      ],
-      "Previous month": [
-        "Предыдущий месяц"
-      ],
-      "Load image": [
-        "Загрузить изображение"
-      ],
-      "Confirm opening of link ${ link }": [
-        "Подтвердить открытие ссылки ${ link }"
       ],
       "Save": [
         "Сохранить"
@@ -2874,6 +2844,36 @@
       ],
       "Underline": [
         "Подчёркнутый"
+      ],
+      "More info: ${ safeTitle }": [
+        "Больше информации: ${ safeTitle }"
+      ],
+      "Confirm": [
+        "Подтвердить"
+      ],
+      "Submit": [
+        "Отправить"
+      ],
+      "Close modal": [
+        "Закрыть окно"
+      ],
+      "Use “${ label }” setting": [
+        "Использовать настройку «${ label }»"
+      ],
+      "Remove": [
+        "Удалить"
+      ],
+      "Next month": [
+        "След. месяц"
+      ],
+      "Previous month": [
+        "Предыдущий месяц"
+      ],
+      "Load image": [
+        "Загрузить изображение"
+      ],
+      "Confirm opening of link ${ link }": [
+        "Подтвердить открытие ссылки ${ link }"
       ],
       "Go to panel ${ index }": [
         "Перейти к панели ${ index }"
@@ -3663,11 +3663,11 @@
       "Open actions dropdown": [
         "Показать список доступных действий"
       ],
-      "Link confirmation": [
-        "Подтверждение ссылки"
-      ],
       "Expand content": [
         "Развернуть содержимое"
+      ],
+      "Link confirmation": [
+        "Подтверждение ссылки"
       ],
       "Keyboard Shortcuts": [
         "Сочетания клавиш"
@@ -4191,6 +4191,138 @@
         "Ключ не может быть использован для шифрования"
       ]
     },
+    "Placeholder": {
+      "Link": [
+        "Ссылка"
+      ],
+      "Fill in the URL link and text to test your link": [
+        "Введите URL-адрес и текст для проверки вашей ссылки"
+      ],
+      "Email address": [
+        "Адрес эл. почты"
+      ],
+      "Fill in the email address and text to test your link": [
+        "Введите адрес электронной почты и текст для проверки вашей ссылки"
+      ],
+      "Phone number": [
+        "Hомер телефона"
+      ],
+      "Fill in the phone number and text to test your link": [
+        "Введите номер телефона и текст для проверки вашей ссылки"
+      ],
+      "Text": [
+        "Текст"
+      ],
+      "E.g., ": [
+        "Например, "
+      ],
+      "Mailbox password": [
+        "Пароль почтового ящика"
+      ],
+      "Start typing an email address": [
+        "Начните вводить адрес эл. почты"
+      ],
+      "Image URL": [
+        "URL изображения"
+      ],
+      "Search name, email or group": [
+        "Искать имя, адрес эл. почты или группу"
+      ],
+      "Filter groups": [
+        "Фильтровать группы"
+      ],
+      "Search for name or email": [
+        "Поиск имени или эл. почты"
+      ],
+      "Search for group name": [
+        "Поиск по названию группы"
+      ],
+      "Name": [
+        "Название"
+      ],
+      "OS name": [
+        "Название ОС"
+      ],
+      "OS version": [
+        "Версия ОС"
+      ],
+      "Proton username": [
+        "Имя пользователя в Proton"
+      ],
+      "A way to contact you": [
+        "Способ связаться с вами"
+      ],
+      "Please describe the problem and include any error messages": [
+        "Пожалуйста, опишите проблему и добавьте все возникавшие сообщения об ошибках"
+      ],
+      "Browser name": [
+        "Название браузера"
+      ],
+      "Browser version": [
+        "Версия браузера"
+      ],
+      "e.g. Julia Smith": [
+        "например, Джулия Смит"
+      ],
+      "ZIP": [
+        "ZIP-код"
+      ],
+      "Postal code": [
+        "Почтовый индекс"
+      ],
+      "Gift code": [
+        "Подарочный код"
+      ],
+      "Type text or keyword": [
+        "Введите текст или ключевое слово"
+      ],
+      "Subject": [
+        "Тема"
+      ],
+      "Write your message": [
+        "Напишите сообщение"
+      ],
+      "Password": [
+        "Пароль"
+      ],
+      "Confirm Password": [
+        "Подтвердите пароль"
+      ],
+      "Hint": [
+        "Подсказка"
+      ],
+      "Search Messages": [
+        "Поиск сообщений"
+      ],
+      "Start date": [
+        "Начиная с"
+      ],
+      "End date": [
+        "Дата окончания"
+      ],
+      "Name or email address": [
+        "Имя или адрес эл. почты"
+      ],
+      "Search messages": [
+        "Поиск сообщений"
+      ],
+      "Filter folders": [
+        "Фильтр папок"
+      ],
+      "Filter labels": [
+        "Фильтр ярлыков"
+      ]
+    },
+    "Font Face Default": {
+      "Default": [
+        "По умолчанию"
+      ]
+    },
+    "Font Size Default": {
+      "Default": [
+        "По умолчанию"
+      ]
+    },
     "Link": {
       "Learn more": [
         "Подробнее"
@@ -4218,6 +4350,36 @@
       ],
       "Add a gift code": [
         "Добавить подарочный код"
+      ],
+      "Inbox": [
+        "Входящие"
+      ],
+      "Drafts": [
+        "Черновики"
+      ],
+      "Sent": [
+        "Отправленные"
+      ],
+      "Trash": [
+        "Корзина"
+      ],
+      "Spam": [
+        "Спам"
+      ],
+      "All mail": [
+        "Вся почта"
+      ],
+      "Archive": [
+        "Архив"
+      ],
+      "Starred": [
+        "Со звёздами"
+      ],
+      "Outbox": [
+        "Исходящие"
+      ],
+      "Scheduled": [
+        "Расписание"
       ],
       "You need to activate your calendar keys to add this event": [
         "Вы должны активировать ключи вашего календаря, чтобы добавить это событие"
@@ -4260,36 +4422,6 @@
       ],
       "Open in ${ calendarAppName }": [
         "Открыть в ${ calendarAppName }"
-      ],
-      "Inbox": [
-        "Входящие"
-      ],
-      "Drafts": [
-        "Черновики"
-      ],
-      "Sent": [
-        "Отправленные"
-      ],
-      "Trash": [
-        "Корзина"
-      ],
-      "Spam": [
-        "Спам"
-      ],
-      "All mail": [
-        "Вся почта"
-      ],
-      "Archive": [
-        "Архив"
-      ],
-      "Starred": [
-        "Со звёздами"
-      ],
-      "Outbox": [
-        "Исходящие"
-      ],
-      "Scheduled": [
-        "Расписание"
       ],
       "Re-enable the address linked to this calendar to manage your invitation.": [
         "Повторно включите адрес, связанный с этим календарем, для управления вашим приглашением."
@@ -4717,128 +4849,6 @@
         "Также перенести в архив"
       ]
     },
-    "Placeholder": {
-      "E.g., ": [
-        "Например, "
-      ],
-      "Link": [
-        "Ссылка"
-      ],
-      "Fill in the URL link and text to test your link": [
-        "Введите URL-адрес и текст для проверки вашей ссылки"
-      ],
-      "Email address": [
-        "Адрес эл. почты"
-      ],
-      "Fill in the email address and text to test your link": [
-        "Введите адрес электронной почты и текст для проверки вашей ссылки"
-      ],
-      "Phone number": [
-        "Hомер телефона"
-      ],
-      "Fill in the phone number and text to test your link": [
-        "Введите номер телефона и текст для проверки вашей ссылки"
-      ],
-      "Text": [
-        "Текст"
-      ],
-      "Mailbox password": [
-        "Пароль почтового ящика"
-      ],
-      "Start typing an email address": [
-        "Начните вводить адрес эл. почты"
-      ],
-      "Image URL": [
-        "URL изображения"
-      ],
-      "Search name, email or group": [
-        "Искать имя, адрес эл. почты или группу"
-      ],
-      "Filter groups": [
-        "Фильтровать группы"
-      ],
-      "Search for name or email": [
-        "Поиск имени или эл. почты"
-      ],
-      "Search for group name": [
-        "Поиск по названию группы"
-      ],
-      "Name": [
-        "Название"
-      ],
-      "OS name": [
-        "Название ОС"
-      ],
-      "OS version": [
-        "Версия ОС"
-      ],
-      "Proton username": [
-        "Имя пользователя в Proton"
-      ],
-      "A way to contact you": [
-        "Способ связаться с вами"
-      ],
-      "Please describe the problem and include any error messages": [
-        "Пожалуйста, опишите проблему и добавьте все возникавшие сообщения об ошибках"
-      ],
-      "Browser name": [
-        "Название браузера"
-      ],
-      "Browser version": [
-        "Версия браузера"
-      ],
-      "e.g. Julia Smith": [
-        "например, Джулия Смит"
-      ],
-      "ZIP": [
-        "ZIP-код"
-      ],
-      "Postal code": [
-        "Почтовый индекс"
-      ],
-      "Gift code": [
-        "Подарочный код"
-      ],
-      "Type text or keyword": [
-        "Введите текст или ключевое слово"
-      ],
-      "Subject": [
-        "Тема"
-      ],
-      "Write your message": [
-        "Напишите сообщение"
-      ],
-      "Password": [
-        "Пароль"
-      ],
-      "Confirm Password": [
-        "Подтвердите пароль"
-      ],
-      "Hint": [
-        "Подсказка"
-      ],
-      "Search Messages": [
-        "Поиск сообщений"
-      ],
-      "Start date": [
-        "Начиная с"
-      ],
-      "End date": [
-        "Дата окончания"
-      ],
-      "Name or email address": [
-        "Имя или адрес эл. почты"
-      ],
-      "Search messages": [
-        "Поиск сообщений"
-      ],
-      "Filter folders": [
-        "Фильтр папок"
-      ],
-      "Filter labels": [
-        "Фильтр ярлыков"
-      ]
-    },
     "Time unit": {
       "${ hours } hour": [
         "${ hours } час",
@@ -4886,16 +4896,6 @@
         "Найдено ${ items.length } предложения, используйте клавиатуру для навигации.",
         "Найдено ${ items.length } предложений, используйте клавиатуру для навигации.",
         "Найдено ${ items.length } предложений, используйте клавиатуру для навигации."
-      ]
-    },
-    "Font Face Default": {
-      "Default": [
-        "По умолчанию"
-      ]
-    },
-    "Font Size Default": {
-      "Default": [
-        "По умолчанию"
       ]
     },
     "Storage": {

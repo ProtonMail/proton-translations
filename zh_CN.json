@@ -5,18 +5,25 @@
   },
   "contexts": {
     "": {},
-    "Message": {
-      "Re:": [
-        "回复："
-      ],
-      "Fw:": [
-        "转发："
-      ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "${ date }，${ name } ${ address } 来信："
-      ]
-    },
     "Error": {
+      "This field is required": [
+        "此项必须填写"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "该字段至少需要 ${ minimumLength } 个字符。"
+      ],
+      "Email is not valid": [
+        "无效邮箱"
+      ],
+      "Not a valid number": [
+        "无效号码"
+      ],
+      "Passwords do not match": [
+        "密码不匹配"
+      ],
+      "Request timed out.": [
+        "请求超时。"
+      ],
       "Email address disabled": [
         "邮件地址已禁用"
       ],
@@ -40,24 +47,6 @@
       ],
       "The sending key is not valid": [
         "发送密钥无效"
-      ],
-      "This field is required": [
-        "此项必须填写"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "该字段至少需要 ${ minimumLength } 个字符。"
-      ],
-      "Email is not valid": [
-        "无效邮箱"
-      ],
-      "Not a valid number": [
-        "无效号码"
-      ],
-      "Passwords do not match": [
-        "密码不匹配"
-      ],
-      "Request timed out.": [
-        "请求超时。"
       ],
       "Signature verification failed": [
         "签名验证失败"
@@ -101,17 +90,17 @@
       "Authentication error.": [
         "验证出错。"
       ],
-      "Email address invalid": [
-        "邮箱格式不正确"
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "您使用的浏览器无法完成支付验证，请使用其他浏览器或电脑支付。"
-      ],
       "The composer failed to load.": [
         "编辑器加载失败。"
       ],
       "Please refresh the page.": [
         "请刷新页面。"
+      ],
+      "Email address invalid": [
+        "邮箱格式不正确"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "您使用的浏览器无法完成支付验证，请使用其他浏览器或电脑支付。"
       ],
       "Incorrect mailbox password. Please try again": [
         "邮箱密码错误，请重试"
@@ -130,6 +119,9 @@
       ],
       "Invalid verification code": [
         "验证码无效"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "发生错误，请${ refresh }后重试。若仍出现此错误，请联系我们的${ supportTeam }。"
       ],
       "Some groups could not be deleted": [
         "无法删除部分群组"
@@ -169,9 +161,6 @@
       ],
       "A group with this name already exists": [
         "已存在同名群组"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "发生错误，请${ refresh }后重试。若仍出现此错误，请联系我们的${ supportTeam }。"
       ],
       "File has no contents to preview": [
         "文件没有内容可预览"
@@ -365,11 +354,16 @@
       "Your emails cannot be decrypted due to a recent password reset. If you remember your previous password, you can ${ reActivateKeyLink } in order to access your messages. ${ learnMoreLink }": [
         "由于最近重置了密码，无法解密您的邮件。如果您记得之前的密码，您可以${ reActivateKeyLink }以访问您的邮件。${ learnMoreLink }"
       ],
-      "Your emails cannot be decrypted due to a recent password reset. ${ learnMoreLink }": [
-        "由于最近重置了密码，无法解密您的邮件。${ learnMoreLink }"
+      "Your emails cannot be decrypted. This may be due to a password reset. ${ learnMoreLink }": [
+        ""
       ],
       "Too many active filters. Please upgrade to a paid plan to activate more filters": [
         "规则数量已达上限，须开通付费账户方可启用更多筛选规则"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "密码必须至少包含 ${ length } 个字符"
       ]
     },
     "file size format": {
@@ -384,11 +378,6 @@
       ],
       "GB": [
         "GB"
-      ]
-    },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "密码必须至少包含 ${ length } 个字符"
       ]
     },
     "Contact field label": {
@@ -542,27 +531,6 @@
       "No results found": [
         "未找到结果"
       ],
-      "Week": [
-        "周"
-      ],
-      "(${ memberCount } member)": [
-        "（${ memberCount } 位成员）"
-      ],
-      "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
-        "此链接可能使用了欺骗性域名，Internet Explorer 和 Edge 浏览器无法打开。若您确认链接可靠，可使用其他浏览器打开。"
-      ],
-      "This link may be a homograph attack. Please verify this is the link you wish to visit, or don't open it.": [
-        "此链接可能使用了欺骗性域名，请确认可靠性后再打开。"
-      ],
-      "You are about to open another browser tab and visit:": [
-        "您即将在新标签页中打开："
-      ],
-      "Learn more": [
-        "了解详情"
-      ],
-      "Loading": [
-        "加载中"
-      ],
       "Insert image": [
         "插入图片"
       ],
@@ -638,6 +606,27 @@
       "Plain text": [
         "纯文本"
       ],
+      "Week": [
+        "周"
+      ],
+      "(${ memberCount } member)": [
+        "（${ memberCount } 位成员）"
+      ],
+      "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
+        "此链接可能使用了欺骗性域名，Internet Explorer 和 Edge 浏览器无法打开。若您确认链接可靠，可使用其他浏览器打开。"
+      ],
+      "This link may be a homograph attack. Please verify this is the link you wish to visit, or don't open it.": [
+        "此链接可能使用了欺骗性域名，请确认可靠性后再打开。"
+      ],
+      "You are about to open another browser tab and visit:": [
+        "您即将在新标签页中打开："
+      ],
+      "Learn more": [
+        "了解详情"
+      ],
+      "Loading": [
+        "加载中"
+      ],
       "Drop the file here to upload": [
         "请将文件拖拽至此处进行上传"
       ],
@@ -682,6 +671,9 @@
       ],
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "若您创建账户存在困难，请提交注册申请，我们将在一个工作日内回复。"
+      ],
+      "support team": [
+        "客服团队"
       ],
       "No contacts added yet": [
         "尚未添加联系人"
@@ -796,9 +788,6 @@
       ],
       "${ addressCount } email address": [
         "${ addressCount } 个邮箱地址"
-      ],
-      "support team": [
-        "客服团队"
       ],
       "Unsupported file": [
         "不支持文件"
@@ -1698,6 +1687,17 @@
         "使用移动设备扫描此二维码或打开 ${ link }。"
       ]
     },
+    "Message": {
+      "Re:": [
+        "回复："
+      ],
+      "Fw:": [
+        "转发："
+      ],
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "${ date }，${ name } ${ address } 来信："
+      ]
+    },
     "PGP key warning": {
       "Email address not found among user ids defined in sending key (${ keyUserIds })": [
         "在发送密钥中定义的用户编号中找不到电子邮件地址 (${ keyUserIds })"
@@ -1925,11 +1925,11 @@
       ]
     },
     "Calendar status": {
-      "Not synced": [
-        "未同步"
-      ],
       "Syncing": [
         "同步中"
+      ],
+      "Not synced": [
+        "未同步"
       ]
     },
     "Calendar subscription not synced error": {
@@ -2527,38 +2527,8 @@
       "Close": [
         "关闭"
       ],
-      "More info: ${ safeTitle }": [
-        "更多信息：${ safeTitle }"
-      ],
-      "Confirm": [
-        "确定"
-      ],
       "Cancel": [
         "取消"
-      ],
-      "Submit": [
-        "提交"
-      ],
-      "Close modal": [
-        "关闭"
-      ],
-      "Use “${ label }” setting": [
-        "使用 \"${ label }\" 设置"
-      ],
-      "Remove": [
-        "移除"
-      ],
-      "Next month": [
-        "下个月"
-      ],
-      "Previous month": [
-        "上个月"
-      ],
-      "Load image": [
-        "加载图片"
-      ],
-      "Confirm opening of link ${ link }": [
-        "确认打开链接 ${ link }"
       ],
       "Save": [
         "保存"
@@ -2622,6 +2592,36 @@
       ],
       "Underline": [
         "下划线"
+      ],
+      "More info: ${ safeTitle }": [
+        "更多信息：${ safeTitle }"
+      ],
+      "Confirm": [
+        "确定"
+      ],
+      "Submit": [
+        "提交"
+      ],
+      "Close modal": [
+        "关闭"
+      ],
+      "Use “${ label }” setting": [
+        "使用 \"${ label }\" 设置"
+      ],
+      "Remove": [
+        "移除"
+      ],
+      "Next month": [
+        "下个月"
+      ],
+      "Previous month": [
+        "上个月"
+      ],
+      "Load image": [
+        "加载图片"
+      ],
+      "Confirm opening of link ${ link }": [
+        "确认打开链接 ${ link }"
       ],
       "Go to panel ${ index }": [
         "转到面板 ${ index }"
@@ -3399,11 +3399,11 @@
       "Open actions dropdown": [
         "展开操作菜单"
       ],
-      "Link confirmation": [
-        "确认打开链接"
-      ],
       "Expand content": [
         "展开內容"
+      ],
+      "Link confirmation": [
+        "确认打开链接"
       ],
       "Keyboard Shortcuts": [
         "键盘快捷键"
@@ -3903,6 +3903,138 @@
         "此密钥不能用于加密"
       ]
     },
+    "Placeholder": {
+      "Link": [
+        "链接"
+      ],
+      "Fill in the URL link and text to test your link": [
+        "填写网址和要显示的文本来测试链接"
+      ],
+      "Email address": [
+        "邮箱地址"
+      ],
+      "Fill in the email address and text to test your link": [
+        "填写邮箱地址和文本来测试链接"
+      ],
+      "Phone number": [
+        "电话号码"
+      ],
+      "Fill in the phone number and text to test your link": [
+        "填写电话号码和文本来测试链接"
+      ],
+      "Text": [
+        "文本"
+      ],
+      "E.g., ": [
+        "例如："
+      ],
+      "Mailbox password": [
+        "邮箱密码"
+      ],
+      "Start typing an email address": [
+        "开始输入电子邮件地址"
+      ],
+      "Image URL": [
+        "图像 URL"
+      ],
+      "Search name, email or group": [
+        "搜索名称、电子邮件或群组"
+      ],
+      "Filter groups": [
+        "查找群组"
+      ],
+      "Search for name or email": [
+        "搜索名称或电子邮件地址"
+      ],
+      "Search for group name": [
+        "搜索群组名称"
+      ],
+      "Name": [
+        "名称"
+      ],
+      "OS name": [
+        "操作系统名称"
+      ],
+      "OS version": [
+        "操作系统版本"
+      ],
+      "Proton username": [
+        "Proton 用户名"
+      ],
+      "A way to contact you": [
+        "您的联系方式"
+      ],
+      "Please describe the problem and include any error messages": [
+        "请说明您的问题，并附上看到的所有错误提示"
+      ],
+      "Browser name": [
+        "浏览器名称"
+      ],
+      "Browser version": [
+        "浏览器版本"
+      ],
+      "e.g. Julia Smith": [
+        "例如：Julia Smith"
+      ],
+      "ZIP": [
+        "邮编"
+      ],
+      "Postal code": [
+        "邮政编码"
+      ],
+      "Gift code": [
+        "礼品码"
+      ],
+      "Type text or keyword": [
+        "输入文本或关键词"
+      ],
+      "Subject": [
+        "主题"
+      ],
+      "Write your message": [
+        "编写你的邮件"
+      ],
+      "Password": [
+        "密码"
+      ],
+      "Confirm Password": [
+        "确认密码"
+      ],
+      "Hint": [
+        "提示"
+      ],
+      "Search Messages": [
+        "搜索邮件"
+      ],
+      "Start date": [
+        "开始日期"
+      ],
+      "End date": [
+        "结束日期"
+      ],
+      "Name or email address": [
+        "用户名或邮箱地址"
+      ],
+      "Search messages": [
+        "搜索邮件"
+      ],
+      "Filter folders": [
+        "过滤文件夹"
+      ],
+      "Filter labels": [
+        "查找标签"
+      ]
+    },
+    "Font Face Default": {
+      "Default": [
+        "默认"
+      ]
+    },
+    "Font Size Default": {
+      "Default": [
+        "默认"
+      ]
+    },
     "Link": {
       "Learn more": [
         "了解详情"
@@ -3930,6 +4062,36 @@
       ],
       "Add a gift code": [
         "使用礼品码"
+      ],
+      "Inbox": [
+        "收件箱"
+      ],
+      "Drafts": [
+        "草稿"
+      ],
+      "Sent": [
+        "已发送"
+      ],
+      "Trash": [
+        "回收站"
+      ],
+      "Spam": [
+        "垃圾邮件"
+      ],
+      "All mail": [
+        "所有邮件"
+      ],
+      "Archive": [
+        "归档"
+      ],
+      "Starred": [
+        "已加星标"
+      ],
+      "Outbox": [
+        "发件箱"
+      ],
+      "Scheduled": [
+        "定时发送"
       ],
       "You need to activate your calendar keys to add this event": [
         "您需要激活您的日历密钥才能添加此日程"
@@ -3972,36 +4134,6 @@
       ],
       "Open in ${ calendarAppName }": [
         "在 ${ calendarAppName } 中打开"
-      ],
-      "Inbox": [
-        "收件箱"
-      ],
-      "Drafts": [
-        "草稿"
-      ],
-      "Sent": [
-        "已发送"
-      ],
-      "Trash": [
-        "回收站"
-      ],
-      "Spam": [
-        "垃圾邮件"
-      ],
-      "All mail": [
-        "所有邮件"
-      ],
-      "Archive": [
-        "归档"
-      ],
-      "Starred": [
-        "已加星标"
-      ],
-      "Outbox": [
-        "发件箱"
-      ],
-      "Scheduled": [
-        "定时发送"
       ],
       "Re-enable the address linked to this calendar to manage your invitation.": [
         "重新启用与本日历关联的地址以管理您的邀请。"
@@ -4429,128 +4561,6 @@
         "同时存档"
       ]
     },
-    "Placeholder": {
-      "E.g., ": [
-        "例如："
-      ],
-      "Link": [
-        "链接"
-      ],
-      "Fill in the URL link and text to test your link": [
-        "填写网址和要显示的文本来测试链接"
-      ],
-      "Email address": [
-        "邮箱地址"
-      ],
-      "Fill in the email address and text to test your link": [
-        "填写邮箱地址和文本来测试链接"
-      ],
-      "Phone number": [
-        "电话号码"
-      ],
-      "Fill in the phone number and text to test your link": [
-        "填写电话号码和文本来测试链接"
-      ],
-      "Text": [
-        "文本"
-      ],
-      "Mailbox password": [
-        "邮箱密码"
-      ],
-      "Start typing an email address": [
-        "开始输入电子邮件地址"
-      ],
-      "Image URL": [
-        "图像 URL"
-      ],
-      "Search name, email or group": [
-        "搜索名称、电子邮件或群组"
-      ],
-      "Filter groups": [
-        "查找群组"
-      ],
-      "Search for name or email": [
-        "搜索名称或电子邮件地址"
-      ],
-      "Search for group name": [
-        "搜索群组名称"
-      ],
-      "Name": [
-        "名称"
-      ],
-      "OS name": [
-        "操作系统名称"
-      ],
-      "OS version": [
-        "操作系统版本"
-      ],
-      "Proton username": [
-        "Proton 用户名"
-      ],
-      "A way to contact you": [
-        "您的联系方式"
-      ],
-      "Please describe the problem and include any error messages": [
-        "请说明您的问题，并附上看到的所有错误提示"
-      ],
-      "Browser name": [
-        "浏览器名称"
-      ],
-      "Browser version": [
-        "浏览器版本"
-      ],
-      "e.g. Julia Smith": [
-        "例如：Julia Smith"
-      ],
-      "ZIP": [
-        "邮编"
-      ],
-      "Postal code": [
-        "邮政编码"
-      ],
-      "Gift code": [
-        "礼品码"
-      ],
-      "Type text or keyword": [
-        "输入文本或关键词"
-      ],
-      "Subject": [
-        "主题"
-      ],
-      "Write your message": [
-        "编写你的邮件"
-      ],
-      "Password": [
-        "密码"
-      ],
-      "Confirm Password": [
-        "确认密码"
-      ],
-      "Hint": [
-        "提示"
-      ],
-      "Search Messages": [
-        "搜索邮件"
-      ],
-      "Start date": [
-        "开始日期"
-      ],
-      "End date": [
-        "结束日期"
-      ],
-      "Name or email address": [
-        "用户名或邮箱地址"
-      ],
-      "Search messages": [
-        "搜索邮件"
-      ],
-      "Filter folders": [
-        "过滤文件夹"
-      ],
-      "Filter labels": [
-        "查找标签"
-      ]
-    },
     "Time unit": {
       "${ hours } hour": [
         "${ hours } 小时"
@@ -4577,16 +4587,6 @@
       ],
       "Found ${ items.length } suggestion, use keyboard to navigate.": [
         "找到 ${ items.length } 建议，使用键盘导航。"
-      ]
-    },
-    "Font Face Default": {
-      "Default": [
-        "默认"
-      ]
-    },
-    "Font Size Default": {
-      "Default": [
-        "默认"
       ]
     },
     "Storage": {
