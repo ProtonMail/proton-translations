@@ -5,25 +5,18 @@
   },
   "contexts": {
     "": {},
+    "Message": {
+      "Re:": [
+        "Re:"
+      ],
+      "Fw:": [
+        "Fw:"
+      ],
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "Dana ${ date }, ${ name } ${ address } je napisao/la:"
+      ]
+    },
     "Error": {
-      "This field is required": [
-        "Ovo polje je obavezno"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Ovo polje zahtjeva najmanje ${ minimumLength } znakova."
-      ],
-      "Email is not valid": [
-        "Adresa e-pošte nije važeća"
-      ],
-      "Not a valid number": [
-        "Broj telefona nije važeći"
-      ],
-      "Passwords do not match": [
-        "Lozinke se ne poklapaju"
-      ],
-      "Request timed out.": [
-        "Zahtjev je istekao."
-      ],
       "Email address disabled": [
         "Adresa e-pošte je onemogućena"
       ],
@@ -48,11 +41,23 @@
       "The sending key is not valid": [
         "Ključ slanja nije važeći"
       ],
-      "Signature verification failed": [
-        "Potvrda potpisa je neuspješna"
+      "This field is required": [
+        "Ovo polje je obavezno"
       ],
-      "Could not find address ${ email }.": [
-        "Ne mogu pronaći adresu ${ email }."
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Ovo polje zahtjeva najmanje ${ minimumLength } znakova."
+      ],
+      "Email is not valid": [
+        "Adresa e-pošte nije važeća"
+      ],
+      "Not a valid number": [
+        "Broj telefona nije važeći"
+      ],
+      "Passwords do not match": [
+        "Lozinke se ne poklapaju"
+      ],
+      "Request timed out.": [
+        "Zahtjev je istekao."
       ],
       "Missing signature": [
         "Nedostaje potpis"
@@ -68,6 +73,12 @@
       ],
       "The key properties for ${ emailAddress } could not be extracted": [
         "Svojstva ključa za ${ emailAddress } nemogu se izdvojiti"
+      ],
+      "Signature verification failed": [
+        "Potvrda potpisa je neuspješna"
+      ],
+      "Could not find address ${ email }.": [
+        "Ne mogu pronaći adresu ${ email }."
       ],
       "Address primary private key not found": [
         "Primarni privatni ključ adrese nije pronađen"
@@ -120,9 +131,6 @@
       "Invalid verification code": [
         "Nevažeći kôd za provjeru"
       ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Nešto je pošlo po zlu. Molimo ${ refresh } kako biste nastavili. Ako i dalje vidite ovu poruku o pogrešci, kontaktirajte naš ${ supportTeam }."
-      ],
       "Some groups could not be deleted": [
         "Nije moguće brisanje nekih grupa"
       ],
@@ -165,6 +173,9 @@
       ],
       "A group with this name already exists": [
         "Grupa s ovim nazivom već postoji"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Nešto je pošlo po zlu. Molimo ${ refresh } kako biste nastavili. Ako i dalje vidite ovu poruku o pogrešci, kontaktirajte naš ${ supportTeam }."
       ],
       "File has no contents to preview": [
         "Datoteka nema sadržaja za pregled"
@@ -373,13 +384,6 @@
         "Previše aktivnih filtara. Nadogradite na plaćeni plan da aktivirate više filtara"
       ]
     },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "Lozinka mora sadržavati najmanje ${ length } znak",
-        "Lozinka mora sadržavati najmanje ${ length } znaka",
-        "Lozinka mora sadržavati najmanje ${ length } znakova"
-      ]
-    },
     "file size format": {
       "bytes": [
         "bajtova"
@@ -392,6 +396,13 @@
       ],
       "GB": [
         "GB"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "Lozinka mora sadržavati najmanje ${ length } znak",
+        "Lozinka mora sadržavati najmanje ${ length } znaka",
+        "Lozinka mora sadržavati najmanje ${ length } znakova"
       ]
     },
     "Contact field label": {
@@ -670,12 +681,6 @@
       "If you don't find the email in your inbox, please check your spam folder.": [
         "Ako ne pronađete e-poštu u pristigloj pošti, provjerite svoju mapu neželjene pošte."
       ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
-        "Pritisnite \"Zatraži novi kôd\" da biste novi potvrdni kôd poslali na ${ strong }. Ako je ova adresa e-pošte netočan, pritisnite \"Uredi\" da biste je ispravili."
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
-        "Pritisnite \"Zatraži novi kôd\" da biste novi potvrdni kôd poslali na ${ strong }. Ako je ovaj telefonski broj netočan, pritisnite \"Uredi\" da biste ga ispravili."
-      ],
       "To fight spam and abuse, please verify you are human.": [
         "U borbi protiv spama i zlouporabe, molimo potvrdite da ste čovjek."
       ],
@@ -688,8 +693,11 @@
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Ako imate poteškoća s otvaranjem računa, zatražite pozivnicu i odgovorit ćemo vam u roku jednog radnog dana."
       ],
-      "support team": [
-        "tim za podršku"
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
+        "Pritisnite \"Zatraži novi kôd\" da biste novi potvrdni kôd poslali na ${ strong }. Ako je ova adresa e-pošte netočan, pritisnite \"Uredi\" da biste je ispravili."
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
+        "Pritisnite \"Zatraži novi kôd\" da biste novi potvrdni kôd poslali na ${ strong }. Ako je ovaj telefonski broj netočan, pritisnite \"Uredi\" da biste ga ispravili."
       ],
       "No contacts added yet": [
         "Nema dodanih kontakata"
@@ -814,6 +822,9 @@
         "${ addressCount } adresa e-pošte",
         "${ addressCount } adrese e-pošte",
         "${ addressCount } adresa e-pošte"
+      ],
+      "support team": [
+        "tim za podršku"
       ],
       "Unsupported file": [
         "Nepodržana datoteka"
@@ -1781,22 +1792,6 @@
         "Pomoću mobilnog uređaja skenirajte ovaj QR kôd ili posjetite ${ link }."
       ]
     },
-    "Message": {
-      "Re:": [
-        "Re:"
-      ],
-      "Fw:": [
-        "Fw:"
-      ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "Dana ${ date }, ${ name } ${ address } je napisao/la:"
-      ]
-    },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "Adresa e-pošte nije pronađena među korisničkim ID-ovima definiranim u ključu za slanje (${ keyUserIds })"
-      ]
-    },
     "Default display name vcard": {
       "Unknown": [
         "Nepoznato"
@@ -1841,6 +1836,11 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "Došlo je do pogreške prilikom čitanja vaše datoteke ${ formattedFilename }. Datoteka nema pravi format."
+      ]
+    },
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "Adresa e-pošte nije pronađena među korisničkim ID-ovima definiranim u ključu za slanje (${ keyUserIds })"
       ]
     },
     "Keyboard shortcut section name": {
@@ -2058,6 +2058,12 @@
       ],
       "Unsupported event": [
         "Događaj nije podržan"
+      ],
+      "Empty ICS file": [
+        ""
+      ],
+      "Unsupported calendar component": [
+        ""
       ],
       "Invalid method": [
         "Nevažeća metoda"
@@ -3602,9 +3608,6 @@
       "Invalid verification code": [
         "Nevažeći kôd za provjeru"
       ],
-      "Request new code": [
-        "Zatraži novi kȏd"
-      ],
       "Human verification": [
         "Ljudska provjera"
       ],
@@ -4090,11 +4093,6 @@
         "Dobrodošli"
       ]
     },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        "Ključ se ne može koristiti za šifriranje"
-      ]
-    },
     "Placeholder": {
       "Link": [
         "Poveznica"
@@ -4227,6 +4225,11 @@
         ""
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        "Ključ se ne može koristiti za šifriranje"
+      ]
+    },
     "Link": {
       "Learn more": [
         "Saznajte više"
@@ -4254,36 +4257,6 @@
       ],
       "Add a gift code": [
         "Dodaj darovni kôd"
-      ],
-      "Inbox": [
-        "Pristigla pošta"
-      ],
-      "Drafts": [
-        "Skice"
-      ],
-      "Sent": [
-        "Poslano"
-      ],
-      "Trash": [
-        "Otpad"
-      ],
-      "Spam": [
-        "Neželjena pošta"
-      ],
-      "All mail": [
-        "Sva pošta"
-      ],
-      "Archive": [
-        "Arhiva"
-      ],
-      "Starred": [
-        "Sa zvjezdicom"
-      ],
-      "Outbox": [
-        "Odlazni spremnik"
-      ],
-      "Scheduled": [
-        "Zakazano"
       ],
       "You need to activate your calendar keys to add this event": [
         ""
@@ -4326,6 +4299,36 @@
       ],
       "Open in ${ calendarAppName }": [
         "Otvori u ${ calendarAppName }"
+      ],
+      "Inbox": [
+        "Pristigla pošta"
+      ],
+      "Drafts": [
+        "Skice"
+      ],
+      "Sent": [
+        "Poslano"
+      ],
+      "Trash": [
+        "Otpad"
+      ],
+      "Spam": [
+        "Neželjena pošta"
+      ],
+      "All mail": [
+        "Sva pošta"
+      ],
+      "Archive": [
+        "Arhiva"
+      ],
+      "Starred": [
+        "Sa zvjezdicom"
+      ],
+      "Outbox": [
+        "Odlazni spremnik"
+      ],
+      "Scheduled": [
+        "Zakazano"
       ],
       "Re-enable the address linked to this calendar to manage your invitation.": [
         "Ponovno omogućite adresu povezanu s ovim kalendarom za upravljanje vašom pozivnicom."
@@ -5517,6 +5520,11 @@
         "${ totalImported }/${ totalToImport } kontakata šifrirano i dodano u vašu listu kontakata"
       ]
     },
+    "Select files": {
+      "Upload": [
+        "Učitaj"
+      ]
+    },
     "Label to change density": {
       "Comfortable": [
         "Udobno"
@@ -5539,11 +5547,6 @@
       ],
       "Maximized": [
         "Maksimizirano"
-      ]
-    },
-    "Select files": {
-      "Upload": [
-        "Učitaj"
       ]
     },
     "Loading info": {

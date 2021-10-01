@@ -5,25 +5,18 @@
   },
   "contexts": {
     "": {},
+    "Message": {
+      "Re:": [
+        "AW:"
+      ],
+      "Fw:": [
+        "WG:"
+      ],
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "${ name } ${ address } schrieb am ${ date }:"
+      ]
+    },
     "Error": {
-      "This field is required": [
-        "Pflichtfeld"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "In dieses Feld müssen mindestens ${ minimumLength } Zeichen eingegeben werden."
-      ],
-      "Email is not valid": [
-        "E-Mail-Adresse ungültig"
-      ],
-      "Not a valid number": [
-        "Keine gültige Zahl"
-      ],
-      "Passwords do not match": [
-        "Die Passwörter stimmen nicht überein"
-      ],
-      "Request timed out.": [
-        "Zeitüberschreitung bei der Anforderung."
-      ],
       "Email address disabled": [
         "E‐Mail‐Adresse deaktiviert"
       ],
@@ -48,11 +41,23 @@
       "The sending key is not valid": [
         "Der Sendeschlüssel ist ungültig"
       ],
-      "Signature verification failed": [
-        "Signaturprüfung fehlgeschlagen"
+      "This field is required": [
+        "Pflichtfeld"
       ],
-      "Could not find address ${ email }.": [
-        "Adresse ${ email } wurde nicht gefunden."
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "In dieses Feld müssen mindestens ${ minimumLength } Zeichen eingegeben werden."
+      ],
+      "Email is not valid": [
+        "E-Mail-Adresse ungültig"
+      ],
+      "Not a valid number": [
+        "Keine gültige Zahl"
+      ],
+      "Passwords do not match": [
+        "Die Passwörter stimmen nicht überein"
+      ],
+      "Request timed out.": [
+        "Zeitüberschreitung bei der Anforderung."
       ],
       "Missing signature": [
         "Fehlende Signatur"
@@ -68,6 +73,12 @@
       ],
       "The key properties for ${ emailAddress } could not be extracted": [
         "Die Schlüsseleigenschaften für ${ emailAddress } konnten nicht extrahiert werden"
+      ],
+      "Signature verification failed": [
+        "Signaturprüfung fehlgeschlagen"
+      ],
+      "Could not find address ${ email }.": [
+        "Adresse ${ email } wurde nicht gefunden."
       ],
       "Address primary private key not found": [
         "Privater Hauptschlüssel für die Adresse nicht gefunden"
@@ -120,9 +131,6 @@
       "Invalid verification code": [
         "Ungültiger Verifizierungscode"
       ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Ein Problem ist aufgetreten. Bitte ${ refresh }, um fortzufahren. Wenn Ihnen diese Fehlermeldung weiterhin angezeigt wird, wenden Sie sich bitte an unser ${ supportTeam }."
-      ],
       "Some groups could not be deleted": [
         "Einige Gruppen konnten nicht gelöscht werden"
       ],
@@ -163,6 +171,9 @@
       ],
       "A group with this name already exists": [
         "Eine Gruppe mit diesem Namen existiert bereits"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Ein Problem ist aufgetreten. Bitte ${ refresh }, um fortzufahren. Wenn Ihnen diese Fehlermeldung weiterhin angezeigt wird, wenden Sie sich bitte an unser ${ supportTeam }."
       ],
       "File has no contents to preview": [
         "Es gibt keine Dateiinhalte, für die eine Vorschau angezeigt werden kann"
@@ -367,12 +378,6 @@
         "Zu viele aktive Filter. Bitte steigen Sie zu einem kostenpflichtigen Paket um, um weitere Filter aktivieren zu können."
       ]
     },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "Das Passwort muss mindestens ${ length } Zeichen enthalten",
-        "Das Passwort muss mindestens ${ length } Zeichen enthalten"
-      ]
-    },
     "file size format": {
       "bytes": [
         "Bytes"
@@ -385,6 +390,12 @@
       ],
       "GB": [
         "GB"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "Das Passwort muss mindestens ${ length } Zeichen enthalten",
+        "Das Passwort muss mindestens ${ length } Zeichen enthalten"
       ]
     },
     "Contact field label": {
@@ -662,12 +673,6 @@
       "If you don't find the email in your inbox, please check your spam folder.": [
         "Sollten Sie die E-Mail nicht in Ihrem Posteingang vorfinden, überprüfen Sie bitte Ihren Spam-Ordner."
       ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
-        "Klicke auf „Neuen Code anfordern”, um einen neuen Verifizierungscode an ${ strong } senden zu lassen. Wenn diese E-Mail-Adresse nicht stimmt, klicke auf „Bearbeiten”, um sie zu korrigieren."
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
-        "Klicke auf „Neuen Code anfordern”, um einen neuen Verifizierungscode an ${ strong } senden zu lassen. Wenn diese Telefonnummer nicht stimmt, klicke auf „Bearbeiten”, um sie zu korrigieren."
-      ],
       "To fight spam and abuse, please verify you are human.": [
         "Bitte beweise, dass du ein Mensch bist, um Spam und Missbrauch zu vermeiden."
       ],
@@ -680,8 +685,11 @@
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Wenn Sie Probleme bei der Erstellung Ihres Kontos haben, stellen Sie bitte eine Anfrage, und wir werden Ihnen innerhalb eines Werktages antworten."
       ],
-      "support team": [
-        "Support-Team"
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
+        "Klicke auf „Neuen Code anfordern”, um einen neuen Verifizierungscode an ${ strong } senden zu lassen. Wenn diese E-Mail-Adresse nicht stimmt, klicke auf „Bearbeiten”, um sie zu korrigieren."
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
+        "Klicke auf „Neuen Code anfordern”, um einen neuen Verifizierungscode an ${ strong } senden zu lassen. Wenn diese Telefonnummer nicht stimmt, klicke auf „Bearbeiten”, um sie zu korrigieren."
       ],
       "No contacts added yet": [
         "Noch keine Kontakte hinzugefügt"
@@ -801,6 +809,9 @@
       "${ addressCount } email address": [
         "${ addressCount } E-Mail-Adresse",
         "${ addressCount } E-Mail-Adressen"
+      ],
+      "support team": [
+        "Support-Team"
       ],
       "Unsupported file": [
         "Nicht unterstützte Datei"
@@ -1734,22 +1745,6 @@
         "Lesen Sie mit Ihrem mobilen Gerät diesen QR-Code ein oder besuchen Sie ${ link }."
       ]
     },
-    "Message": {
-      "Re:": [
-        "AW:"
-      ],
-      "Fw:": [
-        "WG:"
-      ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "${ name } ${ address } schrieb am ${ date }:"
-      ]
-    },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "E-Mail-Adresse nicht unter den im Sendeschlüssel definierten Benutzer-IDs gefunden (${ keyUserIds })"
-      ]
-    },
     "Default display name vcard": {
       "Unknown": [
         "Unbekannt"
@@ -1794,6 +1789,11 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "Beim Lesen der Datei ${ formattedFilename } ist ein Fehler aufgetreten. Die Datei hat nicht das richtige Format."
+      ]
+    },
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "E-Mail-Adresse nicht unter den im Sendeschlüssel definierten Benutzer-IDs gefunden (${ keyUserIds })"
       ]
     },
     "Keyboard shortcut section name": {
@@ -2011,6 +2011,12 @@
       ],
       "Unsupported event": [
         "Nicht unterstütztes Ereignis"
+      ],
+      "Empty ICS file": [
+        "Leere ICS Datei"
+      ],
+      "Unsupported calendar component": [
+        "Nicht unterstütztes Kalender-Modul"
       ],
       "Invalid method": [
         "Ungültige Methode"
@@ -3514,9 +3520,6 @@
       "Invalid verification code": [
         "Ungültiger Verifizierungscode"
       ],
-      "Request new code": [
-        "Neuen Code anfordern"
-      ],
       "Human verification": [
         "Captcha"
       ],
@@ -3994,11 +3997,6 @@
         "Herzlich Willkommen"
       ]
     },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        "Schlüssel kann nicht zur Verschlüsselung verwendet werden"
-      ]
-    },
     "Placeholder": {
       "Link": [
         "Link"
@@ -4131,6 +4129,11 @@
         "Standard"
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        "Schlüssel kann nicht zur Verschlüsselung verwendet werden"
+      ]
+    },
     "Link": {
       "Learn more": [
         "Mehr erfahren"
@@ -4158,36 +4161,6 @@
       ],
       "Add a gift code": [
         "Geschenkgutschein hinzufügen"
-      ],
-      "Inbox": [
-        "Posteingang"
-      ],
-      "Drafts": [
-        "Entwürfe"
-      ],
-      "Sent": [
-        "Gesendet"
-      ],
-      "Trash": [
-        "Papierkorb"
-      ],
-      "Spam": [
-        "Spam"
-      ],
-      "All mail": [
-        "Alle Nachrichten"
-      ],
-      "Archive": [
-        "Archivieren"
-      ],
-      "Starred": [
-        "Gekennzeichnet"
-      ],
-      "Outbox": [
-        "Postausgang"
-      ],
-      "Scheduled": [
-        "Geplant"
       ],
       "You need to activate your calendar keys to add this event": [
         "Sie müssen Ihre Kalenderschlüssel aktivieren, um dieses Ereignis hinzufügen zu können"
@@ -4230,6 +4203,36 @@
       ],
       "Open in ${ calendarAppName }": [
         "In ${ calendarAppName } öffnen"
+      ],
+      "Inbox": [
+        "Posteingang"
+      ],
+      "Drafts": [
+        "Entwürfe"
+      ],
+      "Sent": [
+        "Gesendet"
+      ],
+      "Trash": [
+        "Papierkorb"
+      ],
+      "Spam": [
+        "Spam"
+      ],
+      "All mail": [
+        "Alle Nachrichten"
+      ],
+      "Archive": [
+        "Archivieren"
+      ],
+      "Starred": [
+        "Gekennzeichnet"
+      ],
+      "Outbox": [
+        "Postausgang"
+      ],
+      "Scheduled": [
+        "Geplant"
       ],
       "Re-enable the address linked to this calendar to manage your invitation.": [
         "Reaktivieren Sie die mit diesem Kalender verknüpfte E-Mail-Adresse, um Ihre Einladung verwalten zu können."
@@ -5385,6 +5388,11 @@
         "${ totalImported }/${ totalToImport } Kontakte verschlüsselt und zu Ihrer Kontaktliste hinzugefügt"
       ]
     },
+    "Select files": {
+      "Upload": [
+        "Hochladen"
+      ]
+    },
     "Label to change density": {
       "Comfortable": [
         "Gut lesbar"
@@ -5407,11 +5415,6 @@
       ],
       "Maximized": [
         "Maximiert"
-      ]
-    },
-    "Select files": {
-      "Upload": [
-        "Hochladen"
       ]
     },
     "Loading info": {

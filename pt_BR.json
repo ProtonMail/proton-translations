@@ -5,25 +5,18 @@
   },
   "contexts": {
     "": {},
+    "Message": {
+      "Re:": [
+        "Re:"
+      ],
+      "Fw:": [
+        "Enc:"
+      ],
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "Em ${ date }, ${ name } ${ address } escreveu:"
+      ]
+    },
     "Error": {
-      "This field is required": [
-        "Este campo é obrigatório"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Este campo exige um mínimo de ${ minimumLength } caracteres."
-      ],
-      "Email is not valid": [
-        "O e-mail é inválido"
-      ],
-      "Not a valid number": [
-        "Não é um número válido"
-      ],
-      "Passwords do not match": [
-        "As senhas não correspondem"
-      ],
-      "Request timed out.": [
-        "A solicitação expirou."
-      ],
       "Email address disabled": [
         "Endereço de e-mail desativado"
       ],
@@ -48,11 +41,23 @@
       "The sending key is not valid": [
         "A chave de envio não é válida"
       ],
-      "Signature verification failed": [
-        "Falha na verificação da assinatura"
+      "This field is required": [
+        "Este campo é obrigatório"
       ],
-      "Could not find address ${ email }.": [
-        "Não foi possível encontrar o endereço ${ email }."
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Este campo exige um mínimo de ${ minimumLength } caracteres."
+      ],
+      "Email is not valid": [
+        "O e-mail é inválido"
+      ],
+      "Not a valid number": [
+        "Não é um número válido"
+      ],
+      "Passwords do not match": [
+        "As senhas não correspondem"
+      ],
+      "Request timed out.": [
+        "A solicitação expirou."
       ],
       "Missing signature": [
         "Assinatura ausente"
@@ -68,6 +73,12 @@
       ],
       "The key properties for ${ emailAddress } could not be extracted": [
         "As propriedades da chave do ${ emailAddress } não puderam ser extraídas"
+      ],
+      "Signature verification failed": [
+        "Falha na verificação da assinatura"
+      ],
+      "Could not find address ${ email }.": [
+        "Não foi possível encontrar o endereço ${ email }."
       ],
       "Address primary private key not found": [
         "Chave privada primária do endereço não encontrada"
@@ -120,9 +131,6 @@
       "Invalid verification code": [
         "Código de verificação inválido"
       ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Algo deu errado. Por favor, ${ refresh } a página para continuar. Se você continuar vendo esta mensagem de erro, entre em contato com nossa ${ supportTeam }."
-      ],
       "Some groups could not be deleted": [
         "Alguns grupos não puderam ser excluídos"
       ],
@@ -163,6 +171,9 @@
       ],
       "A group with this name already exists": [
         "Já existe um grupo com esse"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Algo deu errado. Por favor, ${ refresh } a página para continuar. Se você continuar vendo esta mensagem de erro, entre em contato com nossa ${ supportTeam }."
       ],
       "File has no contents to preview": [
         "O arquivo não tem conteúdo para pré-visualização"
@@ -367,12 +378,6 @@
         "Muitos filtros ativos. Por favor, atualize para um plano pago para ativar mais filtros"
       ]
     },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "A senha deve conter ao menos ${ length } caractere",
-        "A senha deve conter ao menos ${ length } caracteres"
-      ]
-    },
     "file size format": {
       "bytes": [
         "bytes"
@@ -385,6 +390,12 @@
       ],
       "GB": [
         "GB"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "A senha deve conter ao menos ${ length } caractere",
+        "A senha deve conter ao menos ${ length } caracteres"
       ]
     },
     "Contact field label": {
@@ -662,12 +673,6 @@
       "If you don't find the email in your inbox, please check your spam folder.": [
         "Se você não encontrar o e-mail na caixa de entrada. Por favor, verifique a pasta de spam."
       ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
-        "Clique em \"Solicitar novo código\" para que um novo código seja enviado para ${ strong }. Se esse e-mail estiver incorreto, clique em \"Editar\" para corrigir isso."
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
-        "Clique em \"Solicitar novo código\" para que um novo código seja enviado para ${ strong }. Se esse número de telefone estiver incorreto, clique em \"Editar\" para corrigir isso."
-      ],
       "To fight spam and abuse, please verify you are human.": [
         "Para combater o spam e/ou abuso, verifique se você é humano."
       ],
@@ -680,8 +685,11 @@
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Se você estiver tendo problemas para criar sua conta, solicite um convite e nós responderemos no prazo de um dia útil."
       ],
-      "support team": [
-        "equipe de suporte"
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
+        "Clique em \"Solicitar novo código\" para que um novo código seja enviado para ${ strong }. Se esse e-mail estiver incorreto, clique em \"Editar\" para corrigir isso."
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
+        "Clique em \"Solicitar novo código\" para que um novo código seja enviado para ${ strong }. Se esse número de telefone estiver incorreto, clique em \"Editar\" para corrigir isso."
       ],
       "No contacts added yet": [
         "Nenhum contato foi adicionado ainda"
@@ -801,6 +809,9 @@
       "${ addressCount } email address": [
         "${ addressCount } endereço de e-mail",
         "${ addressCount } endereços de e-mail"
+      ],
+      "support team": [
+        "equipe de suporte"
       ],
       "Unsupported file": [
         "Arquivo não suportado"
@@ -1734,22 +1745,6 @@
         "Utilizando o seu dispositivo móvel, escaneie este código QR ou visite ${ link }."
       ]
     },
-    "Message": {
-      "Re:": [
-        "Re:"
-      ],
-      "Fw:": [
-        "Enc:"
-      ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "Em ${ date }, ${ name } ${ address } escreveu:"
-      ]
-    },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "Endereço de e-mail não encontrado entre as ids de usuário definidas na chave de envio (${ keyUserIds })"
-      ]
-    },
     "Default display name vcard": {
       "Unknown": [
         "Desconhecido"
@@ -1794,6 +1789,11 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "Ocorreu um erro ao ler o arquivo ${ formattedFilename }. O arquivo não tem o formato correto."
+      ]
+    },
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "Endereço de e-mail não encontrado entre as ids de usuário definidas na chave de envio (${ keyUserIds })"
       ]
     },
     "Keyboard shortcut section name": {
@@ -2011,6 +2011,12 @@
       ],
       "Unsupported event": [
         "Evento não suportado"
+      ],
+      "Empty ICS file": [
+        ""
+      ],
+      "Unsupported calendar component": [
+        ""
       ],
       "Invalid method": [
         "Método inválido"
@@ -3514,9 +3520,6 @@
       "Invalid verification code": [
         "Código de verificação inválido"
       ],
-      "Request new code": [
-        "Solicitar novo código"
-      ],
       "Human verification": [
         "Verificação humana"
       ],
@@ -3994,11 +3997,6 @@
         "Bem-vindo"
       ]
     },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        "A chave não pode ser usada para criptografar"
-      ]
-    },
     "Placeholder": {
       "Link": [
         "Link"
@@ -4131,6 +4129,11 @@
         ""
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        "A chave não pode ser usada para criptografar"
+      ]
+    },
     "Link": {
       "Learn more": [
         "Saiba mais"
@@ -4158,36 +4161,6 @@
       ],
       "Add a gift code": [
         "Adicionar código de vale-presente"
-      ],
-      "Inbox": [
-        "Caixa de entrada"
-      ],
-      "Drafts": [
-        "Rascunhos"
-      ],
-      "Sent": [
-        "Enviados"
-      ],
-      "Trash": [
-        "Lixeira"
-      ],
-      "Spam": [
-        "Spam"
-      ],
-      "All mail": [
-        "Todos os e-mails"
-      ],
-      "Archive": [
-        "Arquivo"
-      ],
-      "Starred": [
-        "Com estrela"
-      ],
-      "Outbox": [
-        "Caixa de saída"
-      ],
-      "Scheduled": [
-        "Agendado"
       ],
       "You need to activate your calendar keys to add this event": [
         "Você precisa ativar suas chaves de calendário para adicionar este evento"
@@ -4230,6 +4203,36 @@
       ],
       "Open in ${ calendarAppName }": [
         "Abrir em ${ calendarAppName }"
+      ],
+      "Inbox": [
+        "Caixa de entrada"
+      ],
+      "Drafts": [
+        "Rascunhos"
+      ],
+      "Sent": [
+        "Enviados"
+      ],
+      "Trash": [
+        "Lixeira"
+      ],
+      "Spam": [
+        "Spam"
+      ],
+      "All mail": [
+        "Todos os e-mails"
+      ],
+      "Archive": [
+        "Arquivo"
+      ],
+      "Starred": [
+        "Com estrela"
+      ],
+      "Outbox": [
+        "Caixa de saída"
+      ],
+      "Scheduled": [
+        "Agendado"
       ],
       "Re-enable the address linked to this calendar to manage your invitation.": [
         "Reative o endereço vinculado a este calendário para gerenciar o seu convite."
@@ -5385,6 +5388,11 @@
         "${ totalImported }/${ totalToImport } contatos criptografados e adicionados à sua lista de contatos"
       ]
     },
+    "Select files": {
+      "Upload": [
+        "Enviar"
+      ]
+    },
     "Label to change density": {
       "Comfortable": [
         "Confortável"
@@ -5407,11 +5415,6 @@
       ],
       "Maximized": [
         "Maximizado"
-      ]
-    },
-    "Select files": {
-      "Upload": [
-        "Enviar"
       ]
     },
     "Loading info": {

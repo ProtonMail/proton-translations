@@ -5,25 +5,18 @@
   },
   "contexts": {
     "": {},
+    "Message": {
+      "Re:": [
+        "Sv:"
+      ],
+      "Fw:": [
+        "Vs:"
+      ],
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "D. ${ date }, ${ name } skrev ${ address }:"
+      ]
+    },
     "Error": {
-      "This field is required": [
-        "Feltet er påkrævet"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Dette felt kræver minimum ${ minimumLength } tegn."
-      ],
-      "Email is not valid": [
-        "E-mail er ikke gyldig"
-      ],
-      "Not a valid number": [
-        "Ikke et gyldigt nummer"
-      ],
-      "Passwords do not match": [
-        "Adgangskoder matcher ikke"
-      ],
-      "Request timed out.": [
-        "Forespørgsel fik timeout."
-      ],
       "Email address disabled": [
         "E-mailadresse deaktiveret"
       ],
@@ -48,11 +41,23 @@
       "The sending key is not valid": [
         "Afsendelsesnøgle er ikke gyldig"
       ],
-      "Signature verification failed": [
-        "Bekræftelse af signatur mislykkedes"
+      "This field is required": [
+        "Feltet er påkrævet"
       ],
-      "Could not find address ${ email }.": [
-        "Kunne ikke finde adresse ${ email }."
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Dette felt kræver minimum ${ minimumLength } tegn."
+      ],
+      "Email is not valid": [
+        "E-mail er ikke gyldig"
+      ],
+      "Not a valid number": [
+        "Ikke et gyldigt nummer"
+      ],
+      "Passwords do not match": [
+        "Adgangskoder matcher ikke"
+      ],
+      "Request timed out.": [
+        "Forespørgsel fik timeout."
       ],
       "Missing signature": [
         "Manglende signatur"
@@ -68,6 +73,12 @@
       ],
       "The key properties for ${ emailAddress } could not be extracted": [
         "Nøgleegenskaberne for ${ emailAddress } kunne ikke udtrækkes"
+      ],
+      "Signature verification failed": [
+        "Bekræftelse af signatur mislykkedes"
+      ],
+      "Could not find address ${ email }.": [
+        "Kunne ikke finde adresse ${ email }."
       ],
       "Address primary private key not found": [
         "Adresses primære private nøgle ikke fundet"
@@ -120,9 +131,6 @@
       "Invalid verification code": [
         "Ugyldig verifikationskode"
       ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Noget gik galt. ${ refresh } venligst siden for at fortsætte. Ser du fortsat denne fejlmeddelelse, bedes du kontakte vores ${ supportTeam }."
-      ],
       "Some groups could not be deleted": [
         "Nogle grupper kunne ikke slettes"
       ],
@@ -163,6 +171,9 @@
       ],
       "A group with this name already exists": [
         "En gruppe med dette navn findes allerede"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Noget gik galt. ${ refresh } venligst siden for at fortsætte. Ser du fortsat denne fejlmeddelelse, bedes du kontakte vores ${ supportTeam }."
       ],
       "File has no contents to preview": [
         "Filen har intet indhold at forhåndsvise"
@@ -367,12 +378,6 @@
         "For mange aktive filtre. Opgrader venligst til et betalt abonnement for at aktivere flere filtre"
       ]
     },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "Adgangskode skal indeholde mindst ${ length } tegn",
-        "Adgangskode skal indeholde mindst ${ length } tegn"
-      ]
-    },
     "file size format": {
       "bytes": [
         "bytes"
@@ -385,6 +390,12 @@
       ],
       "GB": [
         "GB"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "Adgangskode skal indeholde mindst ${ length } tegn",
+        "Adgangskode skal indeholde mindst ${ length } tegn"
       ]
     },
     "Contact field label": {
@@ -662,12 +673,6 @@
       "If you don't find the email in your inbox, please check your spam folder.": [
         "Hvis du ikke kan se mailen i din indbakke, bedes du tjekke din spammappe."
       ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
-        "Klik på \"Anmod om ny kode\" for at få en ny bekræftelseskode sendt til ${ strong }. Hvis denne e-mailadresse er forkert, skal du klikke på \"Redigér\" for at rette den."
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
-        "Klik på \"Anmod om ny kode\" for at få en ny bekræftelseskode sendt til ${ strong }. Hvis dette telefonnummer er forkert, skal du klikke på \"Redigér\" for at rette det."
-      ],
       "To fight spam and abuse, please verify you are human.": [
         "For at bekæmpe spam og misbrug bedes du bekræfte, at du er et menneske."
       ],
@@ -680,8 +685,11 @@
       "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
         "Hvis du har problemer med at oprette din konto, bedes du anmode om en invitation. Så vil vi svare inden for en arbejdsdag."
       ],
-      "support team": [
-        "supportteam"
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
+        "Klik på \"Anmod om ny kode\" for at få en ny bekræftelseskode sendt til ${ strong }. Hvis denne e-mailadresse er forkert, skal du klikke på \"Redigér\" for at rette den."
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
+        "Klik på \"Anmod om ny kode\" for at få en ny bekræftelseskode sendt til ${ strong }. Hvis dette telefonnummer er forkert, skal du klikke på \"Redigér\" for at rette det."
       ],
       "No contacts added yet": [
         "Ingen kontakter tilføjet endnu"
@@ -801,6 +809,9 @@
       "${ addressCount } email address": [
         "${ addressCount } e-mailadresse",
         "${ addressCount } e-mailadresser"
+      ],
+      "support team": [
+        "supportteam"
       ],
       "Unsupported file": [
         "Ikke-understøttet fil"
@@ -1734,22 +1745,6 @@
         "Skan QR-koden eller besøg ${ link } ved hjælp af din mobilenhed."
       ]
     },
-    "Message": {
-      "Re:": [
-        "Sv:"
-      ],
-      "Fw:": [
-        "Vs:"
-      ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "D. ${ date }, ${ name } skrev ${ address }:"
-      ]
-    },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "E-mailadresse ikke fundet blandt bruger-id'er defineret i afsendelsesnøgle (${ keyUserIds })"
-      ]
-    },
     "Default display name vcard": {
       "Unknown": [
         "Ukendt"
@@ -1794,6 +1789,11 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "Der opstod en fejl ved læsning af din fil ${ formattedFilename }. Filen har ikke det rigtige format."
+      ]
+    },
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "E-mailadresse ikke fundet blandt bruger-id'er defineret i afsendelsesnøgle (${ keyUserIds })"
       ]
     },
     "Keyboard shortcut section name": {
@@ -2011,6 +2011,12 @@
       ],
       "Unsupported event": [
         "Ikke-understøttet begivenhed"
+      ],
+      "Empty ICS file": [
+        ""
+      ],
+      "Unsupported calendar component": [
+        ""
       ],
       "Invalid method": [
         "Ugyldig metode"
@@ -3514,9 +3520,6 @@
       "Invalid verification code": [
         "Ugyldig verifikationskode"
       ],
-      "Request new code": [
-        "Anmod om ny kode"
-      ],
       "Human verification": [
         "Menneskelig bekræftelse"
       ],
@@ -3994,11 +3997,6 @@
         "Velkommen"
       ]
     },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        "Nøgle kan ikke benyttes til kryptering"
-      ]
-    },
     "Placeholder": {
       "Link": [
         "Link"
@@ -4131,6 +4129,11 @@
         "Standard"
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        "Nøgle kan ikke benyttes til kryptering"
+      ]
+    },
     "Link": {
       "Learn more": [
         "Få yderligere information"
@@ -4158,36 +4161,6 @@
       ],
       "Add a gift code": [
         "Tilføj en gavekode"
-      ],
-      "Inbox": [
-        "Indbakke"
-      ],
-      "Drafts": [
-        "Kladder"
-      ],
-      "Sent": [
-        "Sendt"
-      ],
-      "Trash": [
-        "Papirkurv"
-      ],
-      "Spam": [
-        "Spam"
-      ],
-      "All mail": [
-        "Alle e-mails"
-      ],
-      "Archive": [
-        "Arkiv"
-      ],
-      "Starred": [
-        "Stjernemarkeret"
-      ],
-      "Outbox": [
-        "Udbakke"
-      ],
-      "Scheduled": [
-        "Planlagt"
       ],
       "You need to activate your calendar keys to add this event": [
         "Du skal aktivere dine kalendernøgler for at tilføje denne begivenhed"
@@ -4230,6 +4203,36 @@
       ],
       "Open in ${ calendarAppName }": [
         "Åbn i ${ calendarAppName }"
+      ],
+      "Inbox": [
+        "Indbakke"
+      ],
+      "Drafts": [
+        "Kladder"
+      ],
+      "Sent": [
+        "Sendt"
+      ],
+      "Trash": [
+        "Papirkurv"
+      ],
+      "Spam": [
+        "Spam"
+      ],
+      "All mail": [
+        "Alle e-mails"
+      ],
+      "Archive": [
+        "Arkiv"
+      ],
+      "Starred": [
+        "Stjernemarkeret"
+      ],
+      "Outbox": [
+        "Udbakke"
+      ],
+      "Scheduled": [
+        "Planlagt"
       ],
       "Re-enable the address linked to this calendar to manage your invitation.": [
         "Genaktivér adressen knyttet til denne kalender for at håndtere din invitation."
@@ -5385,6 +5388,11 @@
         "${ totalImported }/${ totalToImport } kontakter krypteret og føjet til din kontaktliste"
       ]
     },
+    "Select files": {
+      "Upload": [
+        "Overfør"
+      ]
+    },
     "Label to change density": {
       "Comfortable": [
         "Komfortabel"
@@ -5407,11 +5415,6 @@
       ],
       "Maximized": [
         "Maksimeret"
-      ]
-    },
-    "Select files": {
-      "Upload": [
-        "Overfør"
       ]
     },
     "Loading info": {
