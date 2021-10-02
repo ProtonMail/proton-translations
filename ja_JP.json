@@ -21,31 +21,31 @@
         "メールアドレスが無効です"
       ],
       "No keys retrieved for internal user": [
-        "内部ユーザーのために取得された鍵はありません"
+        "内部ユーザーの鍵が取得できません"
       ],
       "No valid keys retrieved for internal user": [
-        "内部ユーザーのために取得された有効な鍵がありません"
+        "内部ユーザーの有効な鍵が取得できません"
       ],
       "Contact signature could not be verified": [
         "連絡先の署名を確認できませんでした"
       ],
       "No key retrieved for internal user is valid for sending": [
-        "内部ユーザーのために取得された鍵は送信には有効ではありません"
+        "送信に使用できる内部ユーザーの鍵がありません"
       ],
       "Trusted keys are not valid for sending": [
-        "信頼された鍵は送信に有効ではありません"
+        "信頼された鍵が送信に使用できません"
       ],
       "No WKD key retrieved for user is valid for sending": [
-        "ユーザーのために取得された WKD 鍵は送信には有効ではありません"
+        "ユーザーのWKD 鍵が送信に使用できません"
       ],
       "The sending key is not valid": [
-        "送信鍵が有効ではありません"
+        "送信用の鍵が有効ではありません"
       ],
       "This field is required": [
         "この項目の入力は必須です"
       ],
       "This field requires a minimum of ${ minimumLength } characters.": [
-        "このフィールドには最低${ minimumLength } 文字が必要です。"
+        "このフィールドには${ minimumLength } 文字以上の入力が必要です。"
       ],
       "Email is not valid": [
         "メールアドレスが無効です"
@@ -63,22 +63,22 @@
         "署名がありません"
       ],
       "Contact signature not verified": [
-        "連絡先の署名が確認されていません"
+        "連絡先の署名が検証されていません"
       ],
       "Signature not verified": [
-        "署名が確認されていません"
+        "署名が検証されていません"
       ],
       "Invalid name": [
         "無効な名前です"
       ],
       "The key properties for ${ emailAddress } could not be extracted": [
-        "${ emailAddress } のキープロパティは抽出できませんでした"
+        "${ emailAddress } の鍵情報が抽出できませんでした"
       ],
       "Signature verification failed": [
         "署名の検証に失敗しました"
       ],
       "Could not find address ${ email }.": [
-        "${ email } というメールアドレスが見つかりませんでした。"
+        "メールアドレス ${ email } が見つかりませんでした。"
       ],
       "Address primary private key not found": [
         "メールアドレスのプライマリー秘密鍵が見つかりません"
@@ -87,7 +87,7 @@
         "カレンダーのプライマリー秘密鍵が復号されていません"
       ],
       "Unknown error": [
-        "不明なエラー"
+        "原因不明なエラーが発生しました"
       ],
       "This message may contain some link's URL that cannot be properly opened by your current browser": [
         "このメッセージは、現在お使いのブラウザでは適切に開くことができないリンクのURLを含んでいる可能性があります"
@@ -126,7 +126,7 @@
         "電話番号の検証ができませんでした。再度お試しください"
       ],
       "Enter 6 digits": [
-        "6 桁の数字を入力"
+        "6 桁の数字を入力してください"
       ],
       "Invalid verification code": [
         "無効な検証コード"
@@ -192,7 +192,7 @@
         "支払い処理が失敗しました"
       ],
       "Payment process consumed": [
-        "支払い処理は消費されました"
+        "支払い処理は手続き済みです"
       ],
       "Payment process not supported": [
         "支払い処理はサポートされていません"
@@ -567,7 +567,7 @@
         "電話番号"
       ],
       "URL link": [
-        "URLリンク"
+        "リンクの URL"
       ],
       "Insert link": [
         "リンクを挿入"
@@ -576,7 +576,7 @@
         "挿入するリンクの種類を選択し、すべてのフィールドに入力してください。"
       ],
       "Link type": [
-        "リンクタイプ"
+        "リンクの種類"
       ],
       "Text to display": [
         "表示用のテキスト"
@@ -1176,7 +1176,7 @@
         "(以下のいずれかの条件が満たされた場合に動作します)"
       ],
       "Images have been removed because they are not allowed in auto-reply.": [
-        "自動リプライでは許可されていないため画像は削除されました。"
+        "自動返信では許可されていないため画像は削除されました。"
       ],
       "All your changes will be lost.": [
         "変更内容は全て失われます。"
@@ -2684,7 +2684,7 @@
         "検証"
       ],
       "Did not receive the code?": [
-        "コードを受け取っていませんか?"
+        "認証コードを受け取っていませんか?"
       ],
       "Edit email address": [
         "メールアドレスを編集"
@@ -3547,7 +3547,7 @@
         ""
       ],
       "Select contact group": [
-        "連絡先グループを選択"
+        "連絡先グループの選択"
       ],
       "Import groups": [
         "グループをインポート"
@@ -3685,7 +3685,7 @@
         "フィルターの編集"
       ],
       "Add filter": [
-        "フィルターを追加"
+        "フィルターの追加"
       ],
       "Are you sure you want to close?": [
         "本当に画面を閉じてよろしいですか？"
@@ -3984,7 +3984,7 @@
         "ギフトコード"
       ],
       "Type text or keyword": [
-        "テキストまたはキーワードを入力"
+        "テキストまたはキーワードを入力してください"
       ],
       "Subject": [
         "件名"
@@ -4222,10 +4222,10 @@
         "電話番号"
       ],
       "Verification code": [
-        "検証用コード"
+        "認証コード"
       ],
       "Enter the 6-digit code": [
-        "6 桁のコードを入力"
+        "6 桁のコードを入力してください"
       ],
       "Add email address": [
         "メールアドレスの追加"
