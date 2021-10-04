@@ -175,14 +175,14 @@
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "S'ha produït un error, ${ refresh } per continuar. Si continueu veient aquest missatge d'error, poseu-vos en contacte amb el nostre ${ supportTeam }."
       ],
-      "File has no contents to preview": [
-        "L'arxiu no té contingut per previsualitzar"
-      ],
       "We were unable to connect to your service provider.": [
         "No hem pogut connectar-nos al vostre proveïdor de serveis."
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "Si us plau, proveu de tornar-vos a autenticar i assegureu-vos que els permisos estan correctament configurats."
+      ],
+      "File has no contents to preview": [
+        "L'arxiu no té contingut per previsualitzar"
       ],
       "Process aborted": [
         "Procés anul·lat"
@@ -631,6 +631,9 @@
         "(${ memberCount } membre)",
         "(${ memberCount } membres)"
       ],
+      "Loading": [
+        "Carregant"
+      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Aquest enllaç pot ser un atac de homògraf i no es pot obrir amb els navegadors Internet Explorer i Edge. Si esteu segurs que l’enllaç és legítim, utilitzeu un navegador diferent per obrir-lo."
       ],
@@ -642,9 +645,6 @@
       ],
       "Learn more": [
         "Més informació"
-      ],
-      "Loading": [
-        "Carregant"
       ],
       "Drop the file here to upload": [
         "Arrossegueu el fitxer aquí per carregar-lo"
@@ -813,24 +813,6 @@
       "support team": [
         "equip de suport"
       ],
-      "Unsupported file": [
-        "Fitxer no compatible"
-      ],
-      "No preview available": [
-        "No hi ha previsualització disponible"
-      ],
-      "Preview": [
-        "Vista prèvia"
-      ],
-      "Loading preview": [
-        "S'està carregant la previsualització"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "Aquest navegador no suporta la previsualització de documents PDF. Descarregueu-vos l'arxiu."
-      ],
-      "of": [
-        "de"
-      ],
       "Import contacts": [
         "Importar contactes"
       ],
@@ -860,6 +842,24 @@
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "Actualitzar la pàgina o ${ link } resoldrà automàticament la majoria dels problemes."
+      ],
+      "Unsupported file": [
+        "Fitxer no compatible"
+      ],
+      "No preview available": [
+        "No hi ha previsualització disponible"
+      ],
+      "Preview": [
+        "Vista prèvia"
+      ],
+      "Loading preview": [
+        "S'està carregant la previsualització"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "Aquest navegador no suporta la previsualització de documents PDF. Descarregueu-vos l'arxiu."
+      ],
+      "of": [
+        "de"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "La navegació bàsica i les accions es mantenen disponibles independentment de que a la configuració les dreceres de teclat estiguin actives o no."
@@ -2935,27 +2935,6 @@
       "OK": [
         "Accepta"
       ],
-      "Details": [
-        "Detalls"
-      ],
-      "Share via link": [
-        "Compartir amb enllaç"
-      ],
-      "Sharing options": [
-        "Opcions de compartició"
-      ],
-      "Zoom out": [
-        "Allunyar"
-      ],
-      "Reset zoom": [
-        "Restablir zoom"
-      ],
-      "Zoom in": [
-        "Apropa"
-      ],
-      "Previous": [
-        "Anterior"
-      ],
       "Continue import": [
         "Continuar importació"
       ],
@@ -2979,6 +2958,27 @@
       ],
       "Show info": [
         "Mostra informació"
+      ],
+      "Details": [
+        "Detalls"
+      ],
+      "Share via link": [
+        "Compartir amb enllaç"
+      ],
+      "Sharing options": [
+        "Opcions de compartició"
+      ],
+      "Zoom out": [
+        "Allunyar"
+      ],
+      "Reset zoom": [
+        "Restablir zoom"
+      ],
+      "Zoom in": [
+        "Apropa"
+      ],
+      "Previous": [
+        "Anterior"
       ],
       "Get started": [
         "Començar"
@@ -4638,8 +4638,8 @@
       "Keyword": [
         "Paraula clau"
       ],
-      "Location": [
-        "Ubicació"
+      "Search in": [
+        ""
       ],
       "From": [
         "Des de"
@@ -5388,11 +5388,6 @@
         "${ totalImported }/${ totalToImport } contactes xifrats i afegits a la vostra llista de contactes"
       ]
     },
-    "Select files": {
-      "Upload": [
-        "Carregar"
-      ]
-    },
     "Label to change density": {
       "Comfortable": [
         "Còmode"
@@ -5415,6 +5410,11 @@
       ],
       "Maximized": [
         "Maximitzat"
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "Carregar"
       ]
     },
     "Loading info": {
@@ -5536,11 +5536,11 @@
       "Other category": [
         "Una altra categoria"
       ],
-      "Custom folders": [
-        "Carpetes personalitzades"
-      ],
       "Default folders": [
         "Carpetes per defecte"
+      ],
+      "Custom folders": [
+        "Carpetes personalitzades"
       ],
       "Labels": [
         "Etiquetes"
@@ -6292,8 +6292,8 @@
       "Scheduled": [
         "Programats"
       ],
-      "All": [
-        "Tots"
+      "All mail": [
+        ""
       ],
       "Starred": [
         "Destacats"

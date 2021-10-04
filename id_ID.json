@@ -173,14 +173,14 @@
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "Terjadi kesalahan, silakan ${ refresh } untuk meneruskan. Jika Anda masih melihat pesan galat ini harap kontak ${ supportTeam } kami."
       ],
-      "File has no contents to preview": [
-        "Berkas ini kosong"
-      ],
       "We were unable to connect to your service provider.": [
         "Kami tidak dapat tersambung dengan penyedia layanan Anda."
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "Silahkan coba otentikasi ulang dan pastikan izin diatur dengan benar."
+      ],
+      "File has no contents to preview": [
+        "Berkas ini kosong"
       ],
       "Process aborted": [
         "Proses dibatalkan"
@@ -623,6 +623,9 @@
       "(${ memberCount } member)": [
         "(${ memberCount } anggota)"
       ],
+      "Loading": [
+        "Memuat"
+      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Tautan ini mungkin serangan homograf dan tidak dapat dibuka dengan Internet Explorer dan Edge. Jika Anda yakin tautan tersebut absah, mohon buka dengan peramban lain."
       ],
@@ -634,9 +637,6 @@
       ],
       "Learn more": [
         "Pelajari lebih lanjut"
-      ],
-      "Loading": [
-        "Memuat"
       ],
       "Drop the file here to upload": [
         "Taruh berkas di sini untuk mengunggah"
@@ -800,24 +800,6 @@
       "support team": [
         "tim dukungan"
       ],
-      "Unsupported file": [
-        "Berkas tidak didukung"
-      ],
-      "No preview available": [
-        "Pratinjau tidak tersedia"
-      ],
-      "Preview": [
-        "Pratinjau"
-      ],
-      "Loading preview": [
-        "Memuat pratinjau"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "Peramban web ini tidak mendukung untuk melakukan pratinjau dokumen PDF. Silahkan unduh berkas tersebut."
-      ],
-      "of": [
-        "dari"
-      ],
       "Import contacts": [
         "Impor kontak"
       ],
@@ -847,6 +829,24 @@
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "Memuat ulang halaman atau ${ link } akan secara otomatis mengatasi sebagian besar masalah."
+      ],
+      "Unsupported file": [
+        "Berkas tidak didukung"
+      ],
+      "No preview available": [
+        "Pratinjau tidak tersedia"
+      ],
+      "Preview": [
+        "Pratinjau"
+      ],
+      "Loading preview": [
+        "Memuat pratinjau"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "Peramban web ini tidak mendukung untuk melakukan pratinjau dokumen PDF. Silahkan unduh berkas tersebut."
+      ],
+      "of": [
+        "dari"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "Navigasi dan tindakan dasar tetap tersedia terlepas pintasan papan ketik aktif atau tidak di pengaturan."
@@ -2848,27 +2848,6 @@
       "OK": [
         "OK"
       ],
-      "Details": [
-        "Rincian"
-      ],
-      "Share via link": [
-        "Bagikan melalui tautan"
-      ],
-      "Sharing options": [
-        "Opsi berbagi"
-      ],
-      "Zoom out": [
-        "Perkecil"
-      ],
-      "Reset zoom": [
-        "Ukuran semula"
-      ],
-      "Zoom in": [
-        "Perbesar"
-      ],
-      "Previous": [
-        "Sebelumnya"
-      ],
       "Continue import": [
         "Lanjutkan impor"
       ],
@@ -2892,6 +2871,27 @@
       ],
       "Show info": [
         "Tampilkan info"
+      ],
+      "Details": [
+        "Rincian"
+      ],
+      "Share via link": [
+        "Bagikan melalui tautan"
+      ],
+      "Sharing options": [
+        "Opsi berbagi"
+      ],
+      "Zoom out": [
+        "Perkecil"
+      ],
+      "Reset zoom": [
+        "Ukuran semula"
+      ],
+      "Zoom in": [
+        "Perbesar"
+      ],
+      "Previous": [
+        "Sebelumnya"
       ],
       "Get started": [
         "Mulai"
@@ -3658,7 +3658,7 @@
         "Jumlah jatuh tempo"
       ],
       "Downgrade account": [
-        ""
+        "Turunkan jenis akun"
       ],
       "Network error": [
         "Kesalahan jaringan"
@@ -4542,8 +4542,8 @@
       "Keyword": [
         "Kata kunci"
       ],
-      "Location": [
-        "Lokasi"
+      "Search in": [
+        ""
       ],
       "From": [
         "Dari"
@@ -5256,11 +5256,6 @@
         "${ totalImported }/${ totalToImport } kontak dienkripsi dan ditambahkan ke daftar kontak"
       ]
     },
-    "Select files": {
-      "Upload": [
-        "Unggah"
-      ]
-    },
     "Label to change density": {
       "Comfortable": [
         "Longgar"
@@ -5283,6 +5278,11 @@
       ],
       "Maximized": [
         "Dimaksimalkan"
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "Unggah"
       ]
     },
     "Loading info": {
@@ -5404,11 +5404,11 @@
       "Other category": [
         "Kategori lain"
       ],
-      "Custom folders": [
-        "Folder kustom"
-      ],
       "Default folders": [
         "Folder bawaan"
+      ],
+      "Custom folders": [
+        "Folder kustom"
       ],
       "Labels": [
         "Label"
@@ -6149,8 +6149,8 @@
       "Scheduled": [
         "Dijadwalkan"
       ],
-      "All": [
-        "Semua"
+      "All mail": [
+        ""
       ],
       "Starred": [
         "Dibintangi"

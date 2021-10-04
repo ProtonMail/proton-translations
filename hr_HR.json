@@ -177,14 +177,14 @@
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "Nešto je pošlo po zlu. Molimo ${ refresh } kako biste nastavili. Ako i dalje vidite ovu poruku o pogrešci, kontaktirajte naš ${ supportTeam }."
       ],
-      "File has no contents to preview": [
-        "Datoteka nema sadržaja za pregled"
-      ],
       "We were unable to connect to your service provider.": [
         "Neuspješno povezivanje s vašim davateljem usluga."
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "Pokušajte ponovno potvrditi identitet i provjeriti jesu li dopuštenja ispravno postavljena."
+      ],
+      "File has no contents to preview": [
+        "Datoteka nema sadržaja za pregled"
       ],
       "Process aborted": [
         "Proces je prekinut"
@@ -639,6 +639,9 @@
         "(${ memberCount } člana)",
         "(${ memberCount } članova)"
       ],
+      "Loading": [
+        "Učitavanje"
+      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Ova poveznica može biti homografski napad i ne može je otvoriti preglednik Internet Explorer i Edge. Ako ste sigurni da je poveznica legitimna, upotrijebite drugi preglednik da biste je otvorili."
       ],
@@ -650,9 +653,6 @@
       ],
       "Learn more": [
         "Saznajte više"
-      ],
-      "Loading": [
-        "Učitavanje"
       ],
       "Drop the file here to upload": [
         "Ispustite datoteku ovdje za prijenos"
@@ -826,24 +826,6 @@
       "support team": [
         "tim za podršku"
       ],
-      "Unsupported file": [
-        "Nepodržana datoteka"
-      ],
-      "No preview available": [
-        "Pregled nije dostupan"
-      ],
-      "Preview": [
-        "Pregled"
-      ],
-      "Loading preview": [
-        "Učitavanje pregleda"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "Ovaj preglednik ne podržava pregled PDF dokumenata. Preuzmite datoteku."
-      ],
-      "of": [
-        "od"
-      ],
       "Import contacts": [
         "Uvezi kontakte"
       ],
@@ -873,6 +855,24 @@
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "Osvježavanje stranice ili ${ link } će automatski riješiti većinu problema."
+      ],
+      "Unsupported file": [
+        "Nepodržana datoteka"
+      ],
+      "No preview available": [
+        "Pregled nije dostupan"
+      ],
+      "Preview": [
+        "Pregled"
+      ],
+      "Loading preview": [
+        "Učitavanje pregleda"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "Ovaj preglednik ne podržava pregled PDF dokumenata. Preuzmite datoteku."
+      ],
+      "of": [
+        "od"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "Osnovna navigacija i radnje ostaju dostupni bez obzira jesu li tipkovni prečaci aktivni ili ne u postavkama."
@@ -3022,27 +3022,6 @@
       "OK": [
         "U redu"
       ],
-      "Details": [
-        "Pojedinosti"
-      ],
-      "Share via link": [
-        "Podijeli putem poveznice"
-      ],
-      "Sharing options": [
-        "Opcije dijeljenja"
-      ],
-      "Zoom out": [
-        "Smanji"
-      ],
-      "Reset zoom": [
-        "Poništi zumiranje"
-      ],
-      "Zoom in": [
-        "Povećaj"
-      ],
-      "Previous": [
-        "Prethodno"
-      ],
       "Continue import": [
         "Nastavi uvoz"
       ],
@@ -3066,6 +3045,27 @@
       ],
       "Show info": [
         "Prikaži informacije"
+      ],
+      "Details": [
+        "Pojedinosti"
+      ],
+      "Share via link": [
+        "Podijeli putem poveznice"
+      ],
+      "Sharing options": [
+        "Opcije dijeljenja"
+      ],
+      "Zoom out": [
+        "Smanji"
+      ],
+      "Reset zoom": [
+        "Poništi zumiranje"
+      ],
+      "Zoom in": [
+        "Povećaj"
+      ],
+      "Previous": [
+        "Prethodno"
       ],
       "Get started": [
         "Započnite"
@@ -4734,8 +4734,8 @@
       "Keyword": [
         "Ključna riječ"
       ],
-      "Location": [
-        "Lokacija"
+      "Search in": [
+        ""
       ],
       "From": [
         "Od"
@@ -5520,11 +5520,6 @@
         "${ totalImported }/${ totalToImport } kontakata šifrirano i dodano u vašu listu kontakata"
       ]
     },
-    "Select files": {
-      "Upload": [
-        "Učitaj"
-      ]
-    },
     "Label to change density": {
       "Comfortable": [
         "Udobno"
@@ -5547,6 +5542,11 @@
       ],
       "Maximized": [
         "Maksimizirano"
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "Učitaj"
       ]
     },
     "Loading info": {
@@ -5668,11 +5668,11 @@
       "Other category": [
         "Ostale kategorije"
       ],
-      "Custom folders": [
-        "Prilagođene mape"
-      ],
       "Default folders": [
         "Zadane mape"
+      ],
+      "Custom folders": [
+        "Prilagođene mape"
       ],
       "Labels": [
         "Oznake"
@@ -6435,8 +6435,8 @@
       "Scheduled": [
         "Zakazano"
       ],
-      "All": [
-        "Sve"
+      "All mail": [
+        ""
       ],
       "Starred": [
         "Sa zvjezdicom"

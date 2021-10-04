@@ -173,14 +173,14 @@
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "エラーが発生しました。続行するには ${ refresh } してください。それでもこのエラーが発生する場合は ${ supportTeam } までお問い合わせください。"
       ],
-      "File has no contents to preview": [
-        "ファイルにプレビューするコンテンツがありません"
-      ],
       "We were unable to connect to your service provider.": [
         "サービスプロバイダーに接続できませんでした。"
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "再認証を行い、権限が正しく設定されていることを確認してください。"
+      ],
+      "File has no contents to preview": [
+        "ファイルにプレビューするコンテンツがありません"
       ],
       "Process aborted": [
         "処理が中断されました"
@@ -623,6 +623,9 @@
       "(${ memberCount } member)": [
         "(${ memberCount } メンバー)"
       ],
+      "Loading": [
+        "読み込み中"
+      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "このリンクはホモグラフ攻撃の可能性があり、Internet ExplorerおよびEdgeブラウザーで開くことはできません。リンクが正当であることが確実な場合は、別のブラウザーを使用して開いてください。"
       ],
@@ -634,9 +637,6 @@
       ],
       "Learn more": [
         "より詳しく"
-      ],
-      "Loading": [
-        "読み込み中"
       ],
       "Drop the file here to upload": [
         "アップロードするファイルをここにドロップしてください"
@@ -800,24 +800,6 @@
       "support team": [
         "サポートチーム"
       ],
-      "Unsupported file": [
-        "非対応のファイル"
-      ],
-      "No preview available": [
-        "プレビューは利用できません"
-      ],
-      "Preview": [
-        "プレビュー"
-      ],
-      "Loading preview": [
-        "プレビューを読み込み中"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "このブラウザーは PDF ドキュメントのプレビューに対応していません。ファイルをダウンロードしてください。"
-      ],
-      "of": [
-        " / "
-      ],
       "Import contacts": [
         "連絡先のインポート"
       ],
@@ -847,6 +829,24 @@
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "ほとんどの問題は、ページを更新するか、 ${ link } することで解決できます。"
+      ],
+      "Unsupported file": [
+        "非対応のファイル"
+      ],
+      "No preview available": [
+        "プレビューは利用できません"
+      ],
+      "Preview": [
+        "プレビュー"
+      ],
+      "Loading preview": [
+        "プレビューを読み込み中"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "このブラウザーは PDF ドキュメントのプレビューに対応していません。ファイルをダウンロードしてください。"
+      ],
+      "of": [
+        " / "
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         ""
@@ -2848,27 +2848,6 @@
       "OK": [
         "OK"
       ],
-      "Details": [
-        "詳細"
-      ],
-      "Share via link": [
-        "リンクを共有"
-      ],
-      "Sharing options": [
-        "共有オプション"
-      ],
-      "Zoom out": [
-        "縮小"
-      ],
-      "Reset zoom": [
-        "倍率をリセット"
-      ],
-      "Zoom in": [
-        "拡大"
-      ],
-      "Previous": [
-        "前へ"
-      ],
       "Continue import": [
         "インポートを続行"
       ],
@@ -2892,6 +2871,27 @@
       ],
       "Show info": [
         "情報を表示"
+      ],
+      "Details": [
+        "詳細"
+      ],
+      "Share via link": [
+        "リンクを共有"
+      ],
+      "Sharing options": [
+        "共有オプション"
+      ],
+      "Zoom out": [
+        "縮小"
+      ],
+      "Reset zoom": [
+        "倍率をリセット"
+      ],
+      "Zoom in": [
+        "拡大"
+      ],
+      "Previous": [
+        "前へ"
       ],
       "Get started": [
         "はじめましょう"
@@ -4542,8 +4542,8 @@
       "Keyword": [
         "キーワード"
       ],
-      "Location": [
-        "場所"
+      "Search in": [
+        ""
       ],
       "From": [
         "差出人"
@@ -5256,11 +5256,6 @@
         ""
       ]
     },
-    "Select files": {
-      "Upload": [
-        "アップロード"
-      ]
-    },
     "Label to change density": {
       "Comfortable": [
         "通常"
@@ -5283,6 +5278,11 @@
       ],
       "Maximized": [
         "最大化"
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "アップロード"
       ]
     },
     "Loading info": {
@@ -5404,11 +5404,11 @@
       "Other category": [
         "その他のカテゴリー"
       ],
-      "Custom folders": [
-        "カスタムフォルダー"
-      ],
       "Default folders": [
         "既定のフォルダー"
+      ],
+      "Custom folders": [
+        "カスタムフォルダー"
       ],
       "Labels": [
         "ラベル"
@@ -6149,8 +6149,8 @@
       "Scheduled": [
         "計画休止の利用"
       ],
-      "All": [
-        "全て"
+      "All mail": [
+        ""
       ],
       "Starred": [
         "星印付き"

@@ -173,14 +173,14 @@
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "發生錯誤，請${ refresh }以繼續。如果您仍看到此錯誤訊息，請聯絡我們的${ supportTeam }。"
       ],
-      "File has no contents to preview": [
-        "預覽的檔案無內容"
-      ],
       "We were unable to connect to your service provider.": [
         "我們無法連結到您的服務提供者。"
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "請嘗試重新認證並確保權限設定正確。"
+      ],
+      "File has no contents to preview": [
+        "預覽的檔案無內容"
       ],
       "Process aborted": [
         "程序已終止"
@@ -623,6 +623,9 @@
       "(${ memberCount } member)": [
         "(${ memberCount } 個成員)"
       ],
+      "Loading": [
+        "正在載入"
+      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "此連結可能是同形異義詞的偽裝攻擊 (homograph attack)，且無法以 Internet Explorer 或 Edge 瀏覽器開啟。如果您確定這是一個正當的連結，請使用其他瀏覽器來開啟。"
       ],
@@ -634,9 +637,6 @@
       ],
       "Learn more": [
         "瞭解更多"
-      ],
-      "Loading": [
-        "正在載入"
       ],
       "Drop the file here to upload": [
         "拖放檔案到此處上載"
@@ -800,24 +800,6 @@
       "support team": [
         "支援團隊"
       ],
-      "Unsupported file": [
-        "不支援的檔案"
-      ],
-      "No preview available": [
-        "無法預覽"
-      ],
-      "Preview": [
-        "預覽"
-      ],
-      "Loading preview": [
-        "正在載入預覽"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "此瀏覽器不支援預覽 PDF 文件。請下載該檔案。"
-      ],
-      "of": [
-        "，共"
-      ],
       "Import contacts": [
         "匯入聯絡人"
       ],
@@ -847,6 +829,24 @@
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "重新整理此頁面或${ link }將自動解決大部分問題。"
+      ],
+      "Unsupported file": [
+        "不支援的檔案"
+      ],
+      "No preview available": [
+        "無法預覽"
+      ],
+      "Preview": [
+        "預覽"
+      ],
+      "Loading preview": [
+        "正在載入預覽"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "此瀏覽器不支援預覽 PDF 文件。請下載該檔案。"
+      ],
+      "of": [
+        "，共"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "不論在設定中是否啟用鍵盤快捷鍵，基本導覽及動作仍然可用。"
@@ -2848,27 +2848,6 @@
       "OK": [
         "確定"
       ],
-      "Details": [
-        "詳細資訊"
-      ],
-      "Share via link": [
-        "透過連結分享"
-      ],
-      "Sharing options": [
-        "分享可用選項"
-      ],
-      "Zoom out": [
-        "縮小"
-      ],
-      "Reset zoom": [
-        "重設縮放"
-      ],
-      "Zoom in": [
-        "放大"
-      ],
-      "Previous": [
-        "上一個"
-      ],
       "Continue import": [
         "繼續匯入"
       ],
@@ -2892,6 +2871,27 @@
       ],
       "Show info": [
         "顯示資訊"
+      ],
+      "Details": [
+        "詳細資訊"
+      ],
+      "Share via link": [
+        "透過連結分享"
+      ],
+      "Sharing options": [
+        "分享可用選項"
+      ],
+      "Zoom out": [
+        "縮小"
+      ],
+      "Reset zoom": [
+        "重設縮放"
+      ],
+      "Zoom in": [
+        "放大"
+      ],
+      "Previous": [
+        "上一個"
       ],
       "Get started": [
         "入門指南"
@@ -4542,8 +4542,8 @@
       "Keyword": [
         "關鍵字"
       ],
-      "Location": [
-        "位置"
+      "Search in": [
+        ""
       ],
       "From": [
         "寄件人"
@@ -5256,11 +5256,6 @@
         "${ totalImported }/${ totalToImport } 個聯絡人已加密並新增到您的聯絡人清單"
       ]
     },
-    "Select files": {
-      "Upload": [
-        "上載"
-      ]
-    },
     "Label to change density": {
       "Comfortable": [
         "舒適"
@@ -5283,6 +5278,11 @@
       ],
       "Maximized": [
         "最大化"
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "上載"
       ]
     },
     "Loading info": {
@@ -5404,11 +5404,11 @@
       "Other category": [
         "其他類別"
       ],
-      "Custom folders": [
-        "自訂資料夾"
-      ],
       "Default folders": [
         "預設資料夾"
+      ],
+      "Custom folders": [
+        "自訂資料夾"
       ],
       "Labels": [
         "標籤"
@@ -6149,8 +6149,8 @@
       "Scheduled": [
         "已排程"
       ],
-      "All": [
-        "全部"
+      "All mail": [
+        ""
       ],
       "Starred": [
         "已加星號"

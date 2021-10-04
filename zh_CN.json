@@ -173,14 +173,14 @@
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "发生错误，请${ refresh }后重试。若仍出现此错误，请联系我们的${ supportTeam }。"
       ],
-      "File has no contents to preview": [
-        "文件没有内容可预览"
-      ],
       "We were unable to connect to your service provider.": [
         "我们无法连接到您的服务提供商。"
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "请尝试重新验证并确保权限正确。"
+      ],
+      "File has no contents to preview": [
+        "文件没有内容可预览"
       ],
       "Process aborted": [
         "操作已中止"
@@ -623,6 +623,9 @@
       "(${ memberCount } member)": [
         "（${ memberCount } 位成员）"
       ],
+      "Loading": [
+        "加载中"
+      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "此链接可能使用了欺骗性域名，Internet Explorer 和 Edge 浏览器无法打开。若您确认链接可靠，可使用其他浏览器打开。"
       ],
@@ -634,9 +637,6 @@
       ],
       "Learn more": [
         "了解详情"
-      ],
-      "Loading": [
-        "加载中"
       ],
       "Drop the file here to upload": [
         "请将文件拖拽至此处进行上传"
@@ -800,24 +800,6 @@
       "support team": [
         "客服团队"
       ],
-      "Unsupported file": [
-        "不支持文件"
-      ],
-      "No preview available": [
-        "没有可用的预览"
-      ],
-      "Preview": [
-        "预览"
-      ],
-      "Loading preview": [
-        "正在载入预览"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "您目前使用的浏览器不支持查看 PDF 文件，请下载后打开。"
-      ],
-      "of": [
-        "，共"
-      ],
       "Import contacts": [
         "导入联系人"
       ],
@@ -847,6 +829,24 @@
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "大多数问题都能通过刷新页面或${ link }来解决。"
+      ],
+      "Unsupported file": [
+        "不支持文件"
+      ],
+      "No preview available": [
+        "没有可用的预览"
+      ],
+      "Preview": [
+        "预览"
+      ],
+      "Loading preview": [
+        "正在载入预览"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "您目前使用的浏览器不支持查看 PDF 文件，请下载后打开。"
+      ],
+      "of": [
+        "，共"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "无论您是否开启快捷键，一些基本的导航和操作始终可用。"
@@ -2848,27 +2848,6 @@
       "OK": [
         "确定"
       ],
-      "Details": [
-        "详细信息"
-      ],
-      "Share via link": [
-        "通过链接分享"
-      ],
-      "Sharing options": [
-        "共享选项"
-      ],
-      "Zoom out": [
-        "缩小"
-      ],
-      "Reset zoom": [
-        "重置缩放"
-      ],
-      "Zoom in": [
-        "放大"
-      ],
-      "Previous": [
-        "前一页"
-      ],
       "Continue import": [
         "继续导入"
       ],
@@ -2892,6 +2871,27 @@
       ],
       "Show info": [
         "显示信息"
+      ],
+      "Details": [
+        "详细信息"
+      ],
+      "Share via link": [
+        "通过链接分享"
+      ],
+      "Sharing options": [
+        "共享选项"
+      ],
+      "Zoom out": [
+        "缩小"
+      ],
+      "Reset zoom": [
+        "重置缩放"
+      ],
+      "Zoom in": [
+        "放大"
+      ],
+      "Previous": [
+        "前一页"
       ],
       "Get started": [
         "入门"
@@ -4542,8 +4542,8 @@
       "Keyword": [
         "关键词"
       ],
-      "Location": [
-        "位置"
+      "Search in": [
+        ""
       ],
       "From": [
         "发件人"
@@ -5256,11 +5256,6 @@
         "${ totalImported }/${ totalToImport } 联系人已加密并添加到您的联系人列表"
       ]
     },
-    "Select files": {
-      "Upload": [
-        "上传"
-      ]
-    },
     "Label to change density": {
       "Comfortable": [
         "舒适"
@@ -5283,6 +5278,11 @@
       ],
       "Maximized": [
         "满屏"
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "上传"
       ]
     },
     "Loading info": {
@@ -5404,11 +5404,11 @@
       "Other category": [
         "其他类别"
       ],
-      "Custom folders": [
-        "自定义文件夹"
-      ],
       "Default folders": [
         "默认文件夹"
+      ],
+      "Custom folders": [
+        "自定义文件夹"
       ],
       "Labels": [
         "标签"
@@ -6149,8 +6149,8 @@
       "Scheduled": [
         "已加入日程"
       ],
-      "All": [
-        "全部"
+      "All mail": [
+        ""
       ],
       "Starred": [
         "星标邮件"

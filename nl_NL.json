@@ -175,14 +175,14 @@
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "Er ging iets mis, gelieve ${ refresh } om door te gaan. Als u dit foutbericht nog steeds ziet, neem dan contact op met onze ${ supportTeam }."
       ],
-      "File has no contents to preview": [
-        "Bestand heeft geen inhoud om een voorbeeld te tonen"
-      ],
       "We were unable to connect to your service provider.": [
         "We kunnen geen verbinding maken met uw serviceprovider."
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "Probeer opnieuw te verifiëren en zorg ervoor dat de machtigingen correct zijn ingesteld."
+      ],
+      "File has no contents to preview": [
+        "Bestand heeft geen inhoud om een voorbeeld te tonen"
       ],
       "Process aborted": [
         "Proces afgebroken"
@@ -631,6 +631,9 @@
         "(${ memberCount } lid)",
         "(${ memberCount } leden)"
       ],
+      "Loading": [
+        "Laden"
+      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Deze link kan een homografie-aanval zijn en kan niet geopend worden in Internet Explorer en Edge. Als u zeker bent dat de link legitiem is, gebruik dan een andere browser om het te bezoeken."
       ],
@@ -642,9 +645,6 @@
       ],
       "Learn more": [
         "Meer informatie"
-      ],
-      "Loading": [
-        "Laden"
       ],
       "Drop the file here to upload": [
         "Sleep het bestand hierheen om te uploaden"
@@ -813,24 +813,6 @@
       "support team": [
         "ondersteuningsteam"
       ],
-      "Unsupported file": [
-        "Niet-ondersteund bestand"
-      ],
-      "No preview available": [
-        "Geen voorbeeld beschikbaar"
-      ],
-      "Preview": [
-        "Voorbeeld"
-      ],
-      "Loading preview": [
-        "Voorbeeld laden"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "Deze browser ondersteunt geen voorbeeld PDF-documenten. Download het bestand."
-      ],
-      "of": [
-        "van"
-      ],
       "Import contacts": [
         "Contactpersonen importeren"
       ],
@@ -860,6 +842,24 @@
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "De pagina vernieuwen of ${ link } zal de meeste problemen vanzelf oplossen."
+      ],
+      "Unsupported file": [
+        "Niet-ondersteund bestand"
+      ],
+      "No preview available": [
+        "Geen voorbeeld beschikbaar"
+      ],
+      "Preview": [
+        "Voorbeeld"
+      ],
+      "Loading preview": [
+        "Voorbeeld laden"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "Deze browser ondersteunt geen voorbeeld PDF-documenten. Download het bestand."
+      ],
+      "of": [
+        "van"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "Basisnavigatie en -acties blijven beschikbaar, ongeacht de sneltoetsen die actief zijn of niet in de instellingen."
@@ -2935,27 +2935,6 @@
       "OK": [
         "OK"
       ],
-      "Details": [
-        "Details"
-      ],
-      "Share via link": [
-        "Deel via link"
-      ],
-      "Sharing options": [
-        "Opties voor delen"
-      ],
-      "Zoom out": [
-        "Zoom uit"
-      ],
-      "Reset zoom": [
-        "Reset zoom"
-      ],
-      "Zoom in": [
-        "Inzoomen"
-      ],
-      "Previous": [
-        "Vorige"
-      ],
       "Continue import": [
         "Doorgaan met importeren"
       ],
@@ -2979,6 +2958,27 @@
       ],
       "Show info": [
         "Informatie tonen"
+      ],
+      "Details": [
+        "Details"
+      ],
+      "Share via link": [
+        "Deel via link"
+      ],
+      "Sharing options": [
+        "Opties voor delen"
+      ],
+      "Zoom out": [
+        "Zoom uit"
+      ],
+      "Reset zoom": [
+        "Reset zoom"
+      ],
+      "Zoom in": [
+        "Inzoomen"
+      ],
+      "Previous": [
+        "Vorige"
       ],
       "Get started": [
         "Aan de slag"
@@ -4638,8 +4638,8 @@
       "Keyword": [
         "Trefwoord"
       ],
-      "Location": [
-        "Locatie"
+      "Search in": [
+        ""
       ],
       "From": [
         "Van"
@@ -5388,11 +5388,6 @@
         "${ totalImported }/${ totalToImport } contacten versleuteld en toegevoegd aan uw contactenlijst"
       ]
     },
-    "Select files": {
-      "Upload": [
-        "Uploaden"
-      ]
-    },
     "Label to change density": {
       "Comfortable": [
         "Comfortabel"
@@ -5415,6 +5410,11 @@
       ],
       "Maximized": [
         "Gemaximaliseerd"
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "Uploaden"
       ]
     },
     "Loading info": {
@@ -5536,11 +5536,11 @@
       "Other category": [
         "Andere categorie"
       ],
-      "Custom folders": [
-        "Aangepaste mappen"
-      ],
       "Default folders": [
         "Standaardmappen"
+      ],
+      "Custom folders": [
+        "Aangepaste mappen"
       ],
       "Labels": [
         "Labels"
@@ -6292,8 +6292,8 @@
       "Scheduled": [
         "Gepland"
       ],
-      "All": [
-        "Alle"
+      "All mail": [
+        ""
       ],
       "Starred": [
         "Met ster"

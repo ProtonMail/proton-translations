@@ -175,14 +175,14 @@
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "Noget gik galt. ${ refresh } venligst siden for at fortsætte. Ser du fortsat denne fejlmeddelelse, bedes du kontakte vores ${ supportTeam }."
       ],
-      "File has no contents to preview": [
-        "Filen har intet indhold at forhåndsvise"
-      ],
       "We were unable to connect to your service provider.": [
         "Vi kunne ikke oprette forbindelse til din tjenesteudbyder."
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "Prøv at verificere igen og sørg for at tilladelserne er angivet korrekt."
+      ],
+      "File has no contents to preview": [
+        "Filen har intet indhold at forhåndsvise"
       ],
       "Process aborted": [
         "Proces afbrudt"
@@ -631,6 +631,9 @@
         "(${ memberCount } medlem)",
         "(${ memberCount } medlemmer)"
       ],
+      "Loading": [
+        "Indlæser"
+      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Dette link kan være et homografisk angreb og kan ikke åbnes af Internet Explorer og Edge browsere. Benyt en anden browser til at åbne linket, hvis du er sikker på, at det er legitimt."
       ],
@@ -642,9 +645,6 @@
       ],
       "Learn more": [
         "Få mere at vide"
-      ],
-      "Loading": [
-        "Indlæser"
       ],
       "Drop the file here to upload": [
         "Slip filen her for at uploade"
@@ -813,24 +813,6 @@
       "support team": [
         "supportteam"
       ],
-      "Unsupported file": [
-        "Ikke-understøttet fil"
-      ],
-      "No preview available": [
-        "Ingen forhåndsvisning tilgængelig"
-      ],
-      "Preview": [
-        "Forhåndsvisning"
-      ],
-      "Loading preview": [
-        "Indlæser forhåndsvisning"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "Denne browser understøtter ikke forhåndsvisning af PDF-dokumenter. Download venligst filen."
-      ],
-      "of": [
-        "af"
-      ],
       "Import contacts": [
         "Importér kontakter"
       ],
@@ -860,6 +842,24 @@
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "Opfriskning af siden eller ${ link } vil automatisk løse de fleste problemer."
+      ],
+      "Unsupported file": [
+        "Ikke-understøttet fil"
+      ],
+      "No preview available": [
+        "Ingen forhåndsvisning tilgængelig"
+      ],
+      "Preview": [
+        "Forhåndsvisning"
+      ],
+      "Loading preview": [
+        "Indlæser forhåndsvisning"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "Denne browser understøtter ikke forhåndsvisning af PDF-dokumenter. Download venligst filen."
+      ],
+      "of": [
+        "af"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "Grundlæggende navigation og handlinger forbliver tilgængelige, uanset om tastaturgenveje er aktive eller ej i indstillingerne."
@@ -2935,27 +2935,6 @@
       "OK": [
         "Ok"
       ],
-      "Details": [
-        "Detaljer"
-      ],
-      "Share via link": [
-        "Del via link"
-      ],
-      "Sharing options": [
-        "Delemuligheder"
-      ],
-      "Zoom out": [
-        "Zoom ud"
-      ],
-      "Reset zoom": [
-        "Nulstil zoom"
-      ],
-      "Zoom in": [
-        "Zoom ind"
-      ],
-      "Previous": [
-        "Forrige"
-      ],
       "Continue import": [
         "Fortsæt import"
       ],
@@ -2979,6 +2958,27 @@
       ],
       "Show info": [
         "Vis info"
+      ],
+      "Details": [
+        "Detaljer"
+      ],
+      "Share via link": [
+        "Del via link"
+      ],
+      "Sharing options": [
+        "Delemuligheder"
+      ],
+      "Zoom out": [
+        "Zoom ud"
+      ],
+      "Reset zoom": [
+        "Nulstil zoom"
+      ],
+      "Zoom in": [
+        "Zoom ind"
+      ],
+      "Previous": [
+        "Forrige"
       ],
       "Get started": [
         "Kom godt i gang"
@@ -4638,8 +4638,8 @@
       "Keyword": [
         "Nøgleord"
       ],
-      "Location": [
-        "Placering"
+      "Search in": [
+        ""
       ],
       "From": [
         "Fra"
@@ -5388,11 +5388,6 @@
         "${ totalImported }/${ totalToImport } kontakter krypteret og føjet til din kontaktliste"
       ]
     },
-    "Select files": {
-      "Upload": [
-        "Overfør"
-      ]
-    },
     "Label to change density": {
       "Comfortable": [
         "Komfortabel"
@@ -5415,6 +5410,11 @@
       ],
       "Maximized": [
         "Maksimeret"
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "Overfør"
       ]
     },
     "Loading info": {
@@ -5536,11 +5536,11 @@
       "Other category": [
         "Anden kategori"
       ],
-      "Custom folders": [
-        "Brugerdefinerede mapper"
-      ],
       "Default folders": [
         "Standard-mapper"
+      ],
+      "Custom folders": [
+        "Brugerdefinerede mapper"
       ],
       "Labels": [
         "Etiketter"
@@ -6292,8 +6292,8 @@
       "Scheduled": [
         "Planlagt"
       ],
-      "All": [
-        "Alle"
+      "All mail": [
+        ""
       ],
       "Starred": [
         "Stjernemarkeret"

@@ -177,14 +177,14 @@
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "Ceva nu a funcționat bine, ${ refresh } pagina pentru a continua. Dacă mai vedeți acest mesaj de eroare contactați ${ supportTeam }."
       ],
-      "File has no contents to preview": [
-        "Fișierul nu are conținut de afișat"
-      ],
       "We were unable to connect to your service provider.": [
         "Nu s-a reușit conectarea la furnizorul dvs. de servicii."
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "Încercați să vă reautentificați și asigurați-vă că permisiunile sunt setate corect."
+      ],
+      "File has no contents to preview": [
+        "Fișierul nu are conținut de afișat"
       ],
       "Process aborted": [
         "Proces abandonat."
@@ -639,6 +639,9 @@
         "(${ memberCount } membri)",
         "(${ memberCount } de membri)"
       ],
+      "Loading": [
+        "Se încarcă"
+      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Această legătură ar putea fi un atac omoglific (caractere asemănătoare dar cu cod diferit de caracter) și nu poate fi deschisă de către navigatoarele Internet Explorer și Edge. Dacă sunteți sigur că legătura este legitimă, folosiți un alt navigator pentru a o deschide."
       ],
@@ -650,9 +653,6 @@
       ],
       "Learn more": [
         "Detalii"
-      ],
-      "Loading": [
-        "Se încarcă"
       ],
       "Drop the file here to upload": [
         "Plasați fișierul aici pentru a fi încărcat"
@@ -826,24 +826,6 @@
       "support team": [
         "echipa de suport"
       ],
-      "Unsupported file": [
-        "Fişier nesuportat"
-      ],
-      "No preview available": [
-        "Nu e disponibilă examinarea"
-      ],
-      "Preview": [
-        "Examinare"
-      ],
-      "Loading preview": [
-        "Se încarcă previzualizarea"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "Acest navigator nu acceptă previzualizarea documentelor PDF. Descărcați fișierul."
-      ],
-      "of": [
-        "din"
-      ],
       "Import contacts": [
         "Importare contacte"
       ],
@@ -873,6 +855,24 @@
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "Reîmprospătând pagina sau ${ link } veți rezolva majoritatea problemelor."
+      ],
+      "Unsupported file": [
+        "Fişier nesuportat"
+      ],
+      "No preview available": [
+        "Nu e disponibilă examinarea"
+      ],
+      "Preview": [
+        "Examinare"
+      ],
+      "Loading preview": [
+        "Se încarcă previzualizarea"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "Acest navigator nu acceptă previzualizarea documentelor PDF. Descărcați fișierul."
+      ],
+      "of": [
+        "din"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "Navigarea de bază și acțiunile rămân disponibile indiferent de combinațiile de taste care sunt active sau nu în setări."
@@ -3022,27 +3022,6 @@
       "OK": [
         "OK"
       ],
-      "Details": [
-        "Detalii"
-      ],
-      "Share via link": [
-        "Partajare prin legătură"
-      ],
-      "Sharing options": [
-        "Opțiuni de partajare"
-      ],
-      "Zoom out": [
-        "Micșorare"
-      ],
-      "Reset zoom": [
-        "Resetare dimensiune"
-      ],
-      "Zoom in": [
-        "Mărire"
-      ],
-      "Previous": [
-        "Anteriorul"
-      ],
       "Continue import": [
         "Continuare importare"
       ],
@@ -3066,6 +3045,27 @@
       ],
       "Show info": [
         "Afișare informații"
+      ],
+      "Details": [
+        "Detalii"
+      ],
+      "Share via link": [
+        "Partajare prin legătură"
+      ],
+      "Sharing options": [
+        "Opțiuni de partajare"
+      ],
+      "Zoom out": [
+        "Micșorare"
+      ],
+      "Reset zoom": [
+        "Resetare dimensiune"
+      ],
+      "Zoom in": [
+        "Mărire"
+      ],
+      "Previous": [
+        "Anteriorul"
       ],
       "Get started": [
         "Să începem"
@@ -3842,7 +3842,7 @@
         "Suma datorată"
       ],
       "Downgrade account": [
-        ""
+        "Declasificarea contului"
       ],
       "Network error": [
         "Eroare de rețea"
@@ -4734,8 +4734,8 @@
       "Keyword": [
         "Cuvânt cheie"
       ],
-      "Location": [
-        "Loc"
+      "Search in": [
+        ""
       ],
       "From": [
         "De la"
@@ -5520,11 +5520,6 @@
         "S-au criptat și adăugat în lista de contacte ${ totalImported }/${ totalToImport } de contacte."
       ]
     },
-    "Select files": {
-      "Upload": [
-        "Încărcare"
-      ]
-    },
     "Label to change density": {
       "Comfortable": [
         "Confortabilă"
@@ -5547,6 +5542,11 @@
       ],
       "Maximized": [
         "Maximizat"
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "Încărcare"
       ]
     },
     "Loading info": {
@@ -5668,11 +5668,11 @@
       "Other category": [
         "Altă categorie"
       ],
-      "Custom folders": [
-        "Foldere personale"
-      ],
       "Default folders": [
         "Foldere implicite"
+      ],
+      "Custom folders": [
+        "Foldere personale"
       ],
       "Labels": [
         "Etichete"
@@ -6435,8 +6435,8 @@
       "Scheduled": [
         "Programate"
       ],
-      "All": [
-        "Toate"
+      "All mail": [
+        ""
       ],
       "Starred": [
         "Cu stea"

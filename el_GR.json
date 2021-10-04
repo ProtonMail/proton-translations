@@ -175,14 +175,14 @@
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "Κάτι πήγε στραβά, παρακαλούμε ${ refresh } για να προχωρήσετε. Εάν εξακολουθείτε να βλέπετε αυτό το μήνυμα σφάλματος, παρακαλούμε επικοινωνήστε με την ${ supportTeam }."
       ],
-      "File has no contents to preview": [
-        "Το αρχείο δεν έχει περιεχόμενα για προεπισκόπηση"
-      ],
       "We were unable to connect to your service provider.": [
         "Δεν ήταν δυνατή η σύνδεση με τον πάροχο υπηρεσιών σας."
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "Προσπαθήστε να πραγματοποιήσετε εκ νέου έλεγχο ταυτότητας και βεβαιωθείτε ότι τα δικαιώματα έχουν οριστεί σωστά."
+      ],
+      "File has no contents to preview": [
+        "Το αρχείο δεν έχει περιεχόμενα για προεπισκόπηση"
       ],
       "Process aborted": [
         "Η διαδικασία ακυρώθηκε"
@@ -631,6 +631,9 @@
         "(${ memberCount } μέλος)",
         "(${ memberCount } μέλη)"
       ],
+      "Loading": [
+        "Φόρτωση"
+      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Αυτός ο σύνδεσμος μπορεί να είναι επίθεση ομογραφίας και δεν μπορεί να ανοίξει από προγράμματα περιήγησης Internet Explorer και Edge. Εάν είστε βέβαιοι ότι ο σύνδεσμος είναι αυθεντικός, χρησιμοποιήστε ένα διαφορετικό πρόγραμμα περιήγησης για να το ανοίξετε."
       ],
@@ -642,9 +645,6 @@
       ],
       "Learn more": [
         "Μάθετε περισσότερα"
-      ],
-      "Loading": [
-        "Φόρτωση"
       ],
       "Drop the file here to upload": [
         "Αφήστε το αρχείο εδώ για μεταφόρτωση"
@@ -813,24 +813,6 @@
       "support team": [
         "ομάδα υποστήριξης"
       ],
-      "Unsupported file": [
-        "Μη υποστηριζόμενο αρχείο"
-      ],
-      "No preview available": [
-        "Δεν υπάρχει διαθέσιμη προεπισκόπηση"
-      ],
-      "Preview": [
-        "Προεπισκόπηση"
-      ],
-      "Loading preview": [
-        "Φόρτωση προεπισκόπησης"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        ""
-      ],
-      "of": [
-        "από"
-      ],
       "Import contacts": [
         "Εισαγωγή επαφών"
       ],
@@ -860,6 +842,24 @@
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "Η ανανέωση της σελίδας ή ${ link } θα επιλύσει αυτόματα τα περισσότερα προβλήματα."
+      ],
+      "Unsupported file": [
+        "Μη υποστηριζόμενο αρχείο"
+      ],
+      "No preview available": [
+        "Δεν υπάρχει διαθέσιμη προεπισκόπηση"
+      ],
+      "Preview": [
+        "Προεπισκόπηση"
+      ],
+      "Loading preview": [
+        "Φόρτωση προεπισκόπησης"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        ""
+      ],
+      "of": [
+        "από"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "Η βασική πλοήγηση και οι ενέργειες παραμένουν διαθέσιμες ανεξάρτητα από τις συντομεύσεις πληκτρολογίου που είναι ενεργές ή όχι στις ρυθμίσεις."
@@ -2935,27 +2935,6 @@
       "OK": [
         "ΟΚ"
       ],
-      "Details": [
-        "Λεπτομέρειες"
-      ],
-      "Share via link": [
-        ""
-      ],
-      "Sharing options": [
-        "Επιλογές κοινοποίησης"
-      ],
-      "Zoom out": [
-        "Σμίκρυνση"
-      ],
-      "Reset zoom": [
-        "Επαναφορά μεγέθυνσης"
-      ],
-      "Zoom in": [
-        "Μεγέθυνση"
-      ],
-      "Previous": [
-        "Προηγούμενο"
-      ],
       "Continue import": [
         "Συνεχίστε την εισαγωγή"
       ],
@@ -2979,6 +2958,27 @@
       ],
       "Show info": [
         "Εμφάνιση πληροφοριών"
+      ],
+      "Details": [
+        "Λεπτομέρειες"
+      ],
+      "Share via link": [
+        ""
+      ],
+      "Sharing options": [
+        "Επιλογές κοινοποίησης"
+      ],
+      "Zoom out": [
+        "Σμίκρυνση"
+      ],
+      "Reset zoom": [
+        "Επαναφορά μεγέθυνσης"
+      ],
+      "Zoom in": [
+        "Μεγέθυνση"
+      ],
+      "Previous": [
+        "Προηγούμενο"
       ],
       "Get started": [
         "Ξεκινήστε"
@@ -3750,7 +3750,7 @@
         "Οφειλόμενο ποσό"
       ],
       "Downgrade account": [
-        ""
+        "Υποβάθμιση λογαριασμού"
       ],
       "Network error": [
         "Σφάλμα δικτύου"
@@ -4638,8 +4638,8 @@
       "Keyword": [
         "Λέξη-κλειδί"
       ],
-      "Location": [
-        "Τοποθεσία"
+      "Search in": [
+        ""
       ],
       "From": [
         "Από"
@@ -5388,11 +5388,6 @@
         "${ totalImported }/${ totalToImport } επαφές κρυπτογραφήθηκαν και προστέθηκαν στη λίστα επαφών σας"
       ]
     },
-    "Select files": {
-      "Upload": [
-        "Μεταφόρτωση"
-      ]
-    },
     "Label to change density": {
       "Comfortable": [
         "Άνετη"
@@ -5415,6 +5410,11 @@
       ],
       "Maximized": [
         "Μεγιστοποιημένο"
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "Μεταφόρτωση"
       ]
     },
     "Loading info": {
@@ -5536,11 +5536,11 @@
       "Other category": [
         "Άλλη κατηγορία"
       ],
-      "Custom folders": [
-        "Προσαρμοσμένοι φάκελοι"
-      ],
       "Default folders": [
         "Προεπιλεγμένοι φάκελοι"
+      ],
+      "Custom folders": [
+        "Προσαρμοσμένοι φάκελοι"
       ],
       "Labels": [
         "Ετικέτες"
@@ -5791,7 +5791,7 @@
         "P2P/BitTorrent"
       ],
       "Streaming service support": [
-        "Υποστήριξη υπηρεσίας streaming"
+        "Υποστήριξη υπηρεσίας μετάδοσης"
       ],
       "Tor over VPN": [
         "Tor μέσω VPN"
@@ -6292,8 +6292,8 @@
       "Scheduled": [
         "Προγραμματισμένο"
       ],
-      "All": [
-        "Όλα"
+      "All mail": [
+        ""
       ],
       "Starred": [
         "Με αστέρι"

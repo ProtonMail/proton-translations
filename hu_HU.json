@@ -175,14 +175,14 @@
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "Hiba történt. Kérjük, ${ refresh } az oldalt a folytatáshoz. Ha a hiba továbbra is fennáll, kérjük lépjen velünk kapcsolatba: ${ supportTeam }."
       ],
-      "File has no contents to preview": [
-        "Nincs előnézeti tartalom"
-      ],
       "We were unable to connect to your service provider.": [
         "Nem lehet kapcsolódni a szolgáltatójához."
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "Próbálja meg újra az azonosítást vagy ellenőrizze a jogosultságok megadását."
+      ],
+      "File has no contents to preview": [
+        "Nincs előnézeti tartalom"
       ],
       "Process aborted": [
         "A folyamat megszakítva"
@@ -631,6 +631,9 @@
         "(${ memberCount } tag)",
         "(${ memberCount } tagok)"
       ],
+      "Loading": [
+        "Betöltés"
+      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Ez a link egy hamisított címre mutató (homográf) támadásnak néz ki. Internet Explorerben és Edge-ben nem nyitható meg. Ha biztos benne, hogy ez egy érvényes link, használjon egy másik böngészőt a megnyitáshoz."
       ],
@@ -642,9 +645,6 @@
       ],
       "Learn more": [
         "További információk"
-      ],
-      "Loading": [
-        "Betöltés"
       ],
       "Drop the file here to upload": [
         "Húzza ide a fájlt a feltöltéshez"
@@ -813,24 +813,6 @@
       "support team": [
         "ügyfélszolgálat"
       ],
-      "Unsupported file": [
-        "Ismeretlen file"
-      ],
-      "No preview available": [
-        "Előnézet nem érhető el"
-      ],
-      "Preview": [
-        "Előnézet"
-      ],
-      "Loading preview": [
-        "Előnézet betöltése"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "Ez a böngésző nem támogatja a PDF fájlok megjelenítését. Töltse le a fájlt."
-      ],
-      "of": [
-        "/"
-      ],
       "Import contacts": [
         "Névjegyek importálása"
       ],
@@ -860,6 +842,24 @@
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "Az oldal frissítése vagy a ${ link } automatikusan megoldja a legtöbb problémát."
+      ],
+      "Unsupported file": [
+        "Ismeretlen file"
+      ],
+      "No preview available": [
+        "Előnézet nem érhető el"
+      ],
+      "Preview": [
+        "Előnézet"
+      ],
+      "Loading preview": [
+        "Előnézet betöltése"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "Ez a böngésző nem támogatja a PDF fájlok megjelenítését. Töltse le a fájlt."
+      ],
+      "of": [
+        "/"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "Az alapvető navigációs lehetőségek akkor is megmaradnak, ha a beállításokban letiltotta a gyorsbillentyűket."
@@ -2935,27 +2935,6 @@
       "OK": [
         "OK"
       ],
-      "Details": [
-        "Részletek"
-      ],
-      "Share via link": [
-        "Megosztás hivatkozással"
-      ],
-      "Sharing options": [
-        "Megosztási beállítások"
-      ],
-      "Zoom out": [
-        "Távolítás"
-      ],
-      "Reset zoom": [
-        "Nagyítás alaphelyzetbe"
-      ],
-      "Zoom in": [
-        "Közelítés"
-      ],
-      "Previous": [
-        "Előző"
-      ],
       "Continue import": [
         "Importálás folytatása"
       ],
@@ -2979,6 +2958,27 @@
       ],
       "Show info": [
         "Információ megjelenítése"
+      ],
+      "Details": [
+        "Részletek"
+      ],
+      "Share via link": [
+        "Megosztás hivatkozással"
+      ],
+      "Sharing options": [
+        "Megosztási beállítások"
+      ],
+      "Zoom out": [
+        "Távolítás"
+      ],
+      "Reset zoom": [
+        "Nagyítás alaphelyzetbe"
+      ],
+      "Zoom in": [
+        "Közelítés"
+      ],
+      "Previous": [
+        "Előző"
       ],
       "Get started": [
         "Kezdés"
@@ -4638,8 +4638,8 @@
       "Keyword": [
         "Kulcsszó"
       ],
-      "Location": [
-        "Hely"
+      "Search in": [
+        ""
       ],
       "From": [
         "Feladó"
@@ -5388,11 +5388,6 @@
         "${ totalImported }/${ totalToImport } névjegy titkosítva és felvéve a névjegyekhez"
       ]
     },
-    "Select files": {
-      "Upload": [
-        "Feltöltés"
-      ]
-    },
     "Label to change density": {
       "Comfortable": [
         "Kényelmes"
@@ -5415,6 +5410,11 @@
       ],
       "Maximized": [
         "Teljes méretű"
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "Feltöltés"
       ]
     },
     "Loading info": {
@@ -5536,11 +5536,11 @@
       "Other category": [
         "Egyéb kategória"
       ],
-      "Custom folders": [
-        "Saját mappák"
-      ],
       "Default folders": [
         "Alapértelmezett mappák"
+      ],
+      "Custom folders": [
+        "Saját mappák"
       ],
       "Labels": [
         "Címkék"
@@ -6292,8 +6292,8 @@
       "Scheduled": [
         "Ütemezés"
       ],
-      "All": [
-        "Mind"
+      "All mail": [
+        ""
       ],
       "Starred": [
         "Csillagozott"

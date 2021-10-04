@@ -175,14 +175,14 @@
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "Bir şeyler ters gitti, devam etmek için ${ refresh }. Hala bu hata iletisini görüyorsanız lütfen ${ supportTeam } ile iletişime geçin."
       ],
-      "File has no contents to preview": [
-        "Dosyanın önizlenecek içeriği yok"
-      ],
       "We were unable to connect to your service provider.": [
         "Hizmet sağlayıcınıza bağlanamadık."
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "Lütfen yeniden kimlik doğrulaması yapmayı deneyin ve izinlerin doğru ayarlandığından emin olun."
+      ],
+      "File has no contents to preview": [
+        "Dosyanın önizlenecek içeriği yok"
       ],
       "Process aborted": [
         "İşlem iptal edildi"
@@ -631,6 +631,9 @@
         "(${ memberCount } üye)",
         "(${ memberCount } üye)"
       ],
+      "Loading": [
+        "Yükleniyor"
+      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Bu bağlantı bir homograf saldırısı olabilir ve Internet Explorer veya Edge tarayıcısı tarafından açılamaz."
       ],
@@ -642,9 +645,6 @@
       ],
       "Learn more": [
         "Daha fazla bilgi edinin"
-      ],
-      "Loading": [
-        "Yükleniyor"
       ],
       "Drop the file here to upload": [
         "Yüklemek için bir dosyayı buraya bırakın"
@@ -813,24 +813,6 @@
       "support team": [
         "destek ekibi"
       ],
-      "Unsupported file": [
-        "Desteklenmeyen dosya"
-      ],
-      "No preview available": [
-        "Önizleme mevcut değil"
-      ],
-      "Preview": [
-        "Önizle"
-      ],
-      "Loading preview": [
-        "Önizleme yükleniyor"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "Bu tarayıcı, PDF belgelerinin önizlemesini desteklemiyor. Lütfen dosyayı indirin."
-      ],
-      "of": [
-        "/"
-      ],
       "Import contacts": [
         "Kişileri içe aktar"
       ],
@@ -860,6 +842,24 @@
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "Sayfayı yenilemek ya da ${ link } çoğu sorunu kendiliğinden çözecektir."
+      ],
+      "Unsupported file": [
+        "Desteklenmeyen dosya"
+      ],
+      "No preview available": [
+        "Önizleme mevcut değil"
+      ],
+      "Preview": [
+        "Önizle"
+      ],
+      "Loading preview": [
+        "Önizleme yükleniyor"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "Bu tarayıcı, PDF belgelerinin önizlemesini desteklemiyor. Lütfen dosyayı indirin."
+      ],
+      "of": [
+        "/"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "Temel gezinme ve eylemler, ayarlardaki klavye kısayollarının etkin olup olmamasından bağımsız olarak kullanılabilir kalır."
@@ -2935,27 +2935,6 @@
       "OK": [
         "Tamam"
       ],
-      "Details": [
-        "Ayrıntılar"
-      ],
-      "Share via link": [
-        "Bağlantı yoluyla paylaş"
-      ],
-      "Sharing options": [
-        "Paylaşım seçenekleri"
-      ],
-      "Zoom out": [
-        "Uzaklaştır"
-      ],
-      "Reset zoom": [
-        "Yakınlaştırmayı sıfırla"
-      ],
-      "Zoom in": [
-        "Yakınlaştır"
-      ],
-      "Previous": [
-        "Önceki"
-      ],
       "Continue import": [
         "İçe aktarmaya devam et"
       ],
@@ -2979,6 +2958,27 @@
       ],
       "Show info": [
         "Bilgiyi göster"
+      ],
+      "Details": [
+        "Ayrıntılar"
+      ],
+      "Share via link": [
+        "Bağlantı yoluyla paylaş"
+      ],
+      "Sharing options": [
+        "Paylaşım seçenekleri"
+      ],
+      "Zoom out": [
+        "Uzaklaştır"
+      ],
+      "Reset zoom": [
+        "Yakınlaştırmayı sıfırla"
+      ],
+      "Zoom in": [
+        "Yakınlaştır"
+      ],
+      "Previous": [
+        "Önceki"
       ],
       "Get started": [
         "Başlayalım"
@@ -4638,8 +4638,8 @@
       "Keyword": [
         "Anahtar kelime"
       ],
-      "Location": [
-        "Konum"
+      "Search in": [
+        ""
       ],
       "From": [
         "Gönderen"
@@ -5388,11 +5388,6 @@
         "${ totalToImport } kişiden ${ totalImported } kişi şifrelendi ve kişi listenize eklendi"
       ]
     },
-    "Select files": {
-      "Upload": [
-        "Yükle"
-      ]
-    },
     "Label to change density": {
       "Comfortable": [
         "Rahat"
@@ -5415,6 +5410,11 @@
       ],
       "Maximized": [
         "Genişletilmiş"
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "Yükle"
       ]
     },
     "Loading info": {
@@ -5536,11 +5536,11 @@
       "Other category": [
         "Diğer kategori"
       ],
-      "Custom folders": [
-        "Özel klasörler"
-      ],
       "Default folders": [
         "Varsayılan klasörler"
+      ],
+      "Custom folders": [
+        "Özel klasörler"
       ],
       "Labels": [
         "Etiketler"
@@ -6292,8 +6292,8 @@
       "Scheduled": [
         "Planlama"
       ],
-      "All": [
-        "Tümü"
+      "All mail": [
+        ""
       ],
       "Starred": [
         "Yıldızlı"

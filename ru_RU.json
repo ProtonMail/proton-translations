@@ -179,14 +179,14 @@
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "Что-то пошло не так. Пожалуйста ${ refresh } чтобы продолжить. Если вы все еще видите сообщение об ошибке, пожалуйста свяжитесь нашей ${ supportTeam }."
       ],
-      "File has no contents to preview": [
-        "В файле нет содержимого для предпросмотра"
-      ],
       "We were unable to connect to your service provider.": [
         "Не удалось подключиться к вашему поставщику услуг."
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "Пожалуйста, попробуйте повторить аутентификацию и убедитесь, что права доступа правильные."
+      ],
+      "File has no contents to preview": [
+        "В файле нет содержимого для предпросмотра"
       ],
       "Process aborted": [
         "Процесс прерван"
@@ -647,6 +647,9 @@
         "(${ memberCount } участников)",
         "(${ memberCount } участника)"
       ],
+      "Loading": [
+        "Загрузка"
+      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Эта ссылка может быть омографической атакой и не может быть открыта браузерами Internet Explorer и Edge. Если вы уверены, что ссылка безопасна, то, пожалуйста, воспользуйтесь другим браузером для её открытия."
       ],
@@ -658,9 +661,6 @@
       ],
       "Learn more": [
         "Узнать больше"
-      ],
-      "Loading": [
-        "Загрузка"
       ],
       "Drop the file here to upload": [
         "Для загрузки файла перетащите его сюда"
@@ -839,24 +839,6 @@
       "support team": [
         "служба поддержки"
       ],
-      "Unsupported file": [
-        "Неподдерживаемый файл"
-      ],
-      "No preview available": [
-        "Предпросмотр недоступен"
-      ],
-      "Preview": [
-        "Предварительный просмотр"
-      ],
-      "Loading preview": [
-        "Загрузка предпросмотра"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "Браузер не поддерживает предварительный просмотр PDF-документов. Пожалуйста, скачайте файл."
-      ],
-      "of": [
-        "из"
-      ],
       "Import contacts": [
         "Импортировать контакты"
       ],
@@ -886,6 +868,24 @@
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "Обновление страницы или ${ link } автоматически решит большую часть проблем."
+      ],
+      "Unsupported file": [
+        "Неподдерживаемый файл"
+      ],
+      "No preview available": [
+        "Предпросмотр недоступен"
+      ],
+      "Preview": [
+        "Предварительный просмотр"
+      ],
+      "Loading preview": [
+        "Загрузка предпросмотра"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "Браузер не поддерживает предварительный просмотр PDF-документов. Пожалуйста, скачайте файл."
+      ],
+      "of": [
+        "из"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "Основные клавиши для навигации и действий остаются доступными независимо от того, включены ли сочетания клавиш в настройках."
@@ -3109,27 +3109,6 @@
       "OK": [
         "OK"
       ],
-      "Details": [
-        "Подробности"
-      ],
-      "Share via link": [
-        "Доступ по ссылке"
-      ],
-      "Sharing options": [
-        "Параметры совместного доступа"
-      ],
-      "Zoom out": [
-        "Уменьшить масштаб"
-      ],
-      "Reset zoom": [
-        "Сбросить масштаб"
-      ],
-      "Zoom in": [
-        "Увеличить масштаб"
-      ],
-      "Previous": [
-        "Предыдущий"
-      ],
       "Continue import": [
         "Продолжить импорт"
       ],
@@ -3153,6 +3132,27 @@
       ],
       "Show info": [
         "Показать информацию"
+      ],
+      "Details": [
+        "Подробности"
+      ],
+      "Share via link": [
+        "Доступ по ссылке"
+      ],
+      "Sharing options": [
+        "Параметры совместного доступа"
+      ],
+      "Zoom out": [
+        "Уменьшить масштаб"
+      ],
+      "Reset zoom": [
+        "Сбросить масштаб"
+      ],
+      "Zoom in": [
+        "Увеличить масштаб"
+      ],
+      "Previous": [
+        "Предыдущий"
       ],
       "Get started": [
         "Приступить к работе"
@@ -4830,8 +4830,8 @@
       "Keyword": [
         "Ключевое слово"
       ],
-      "Location": [
-        "Местоположение"
+      "Search in": [
+        ""
       ],
       "From": [
         "От"
@@ -5652,11 +5652,6 @@
         "${ totalImported }/${ totalToImport } контактов зашифровано и добавлено в ваш список контактов"
       ]
     },
-    "Select files": {
-      "Upload": [
-        "Загрузить"
-      ]
-    },
     "Label to change density": {
       "Comfortable": [
         "Удобный"
@@ -5679,6 +5674,11 @@
       ],
       "Maximized": [
         "Максимизированный"
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "Загрузить"
       ]
     },
     "Loading info": {
@@ -5800,11 +5800,11 @@
       "Other category": [
         "Другая категория"
       ],
-      "Custom folders": [
-        "Настраиваемые папки"
-      ],
       "Default folders": [
         "Папки по умолчанию"
+      ],
+      "Custom folders": [
+        "Настраиваемые папки"
       ],
       "Labels": [
         "Ярлыки"
@@ -6578,8 +6578,8 @@
       "Scheduled": [
         "Расписание"
       ],
-      "All": [
-        "Всё"
+      "All mail": [
+        ""
       ],
       "Starred": [
         "Со звёздами"

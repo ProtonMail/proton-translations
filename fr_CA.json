@@ -175,14 +175,14 @@
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "Une erreur est survenue, veuillez ${ refresh } pour continuer. Si vous voyez toujours ce message d'erreur, veuillez contacter notre ${ supportTeam }."
       ],
-      "File has no contents to preview": [
-        "Le fichier n'a pas de contenu à prévisualiser"
-      ],
       "We were unable to connect to your service provider.": [
         "Nous n'avons pas pu nous connecter à votre fournisseur de service."
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "Veuillez essayer de vous authentifier à nouveau et vous assurer que les autorisations sont définies correctement."
+      ],
+      "File has no contents to preview": [
+        "Le fichier n'a pas de contenu à prévisualiser"
       ],
       "Process aborted": [
         "Processus annulé"
@@ -631,6 +631,9 @@
         "(${ memberCount } membre)",
         "(${ memberCount } membres)"
       ],
+      "Loading": [
+        "Chargement"
+      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Ce lien pourrait être une attaque homographique et ne peut pas être ouvert avec les navigateurs Internet Explorer et Edge. Si vous êtes certain de la légitimité de ce lien, veuillez utiliser un autre navigateur pour l'ouvrir."
       ],
@@ -642,9 +645,6 @@
       ],
       "Learn more": [
         "En savoir plus"
-      ],
-      "Loading": [
-        "Chargement"
       ],
       "Drop the file here to upload": [
         "Déposez un fichier ici pour le téléverser"
@@ -813,24 +813,6 @@
       "support team": [
         "équipe d'assistance"
       ],
-      "Unsupported file": [
-        "Fichier non pris en charge"
-      ],
-      "No preview available": [
-        "Aucun aperçu disponible"
-      ],
-      "Preview": [
-        "Aperçu"
-      ],
-      "Loading preview": [
-        "Chargement de l'aperçu"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "Ce navigateur ne prend pas en charge l'aperçu des documents PDF. Veuillez télécharger le fichier."
-      ],
-      "of": [
-        "de"
-      ],
       "Import contacts": [
         "Importer les contacts"
       ],
@@ -860,6 +842,24 @@
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "Rafraîchir la page ou ${ link } résoudra automatiquement la plupart des problèmes."
+      ],
+      "Unsupported file": [
+        "Fichier non pris en charge"
+      ],
+      "No preview available": [
+        "Aucun aperçu disponible"
+      ],
+      "Preview": [
+        "Aperçu"
+      ],
+      "Loading preview": [
+        "Chargement de l'aperçu"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "Ce navigateur ne prend pas en charge l'aperçu des documents PDF. Veuillez télécharger le fichier."
+      ],
+      "of": [
+        "de"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "La navigation de base et les actions restent disponibles indépendamment des raccourcis clavier activés ou non dans les paramètres."
@@ -2935,27 +2935,6 @@
       "OK": [
         "OK"
       ],
-      "Details": [
-        "Détails"
-      ],
-      "Share via link": [
-        "Partager avec un lien"
-      ],
-      "Sharing options": [
-        "Options de partage"
-      ],
-      "Zoom out": [
-        "Zoom arrière"
-      ],
-      "Reset zoom": [
-        "Réinitialiser le zoom"
-      ],
-      "Zoom in": [
-        "Zoom avant"
-      ],
-      "Previous": [
-        "Précédent"
-      ],
       "Continue import": [
         "Continuer l'importation"
       ],
@@ -2979,6 +2958,27 @@
       ],
       "Show info": [
         "Afficher les infos"
+      ],
+      "Details": [
+        "Détails"
+      ],
+      "Share via link": [
+        "Partager avec un lien"
+      ],
+      "Sharing options": [
+        "Options de partage"
+      ],
+      "Zoom out": [
+        "Zoom arrière"
+      ],
+      "Reset zoom": [
+        "Réinitialiser le zoom"
+      ],
+      "Zoom in": [
+        "Zoom avant"
+      ],
+      "Previous": [
+        "Précédent"
       ],
       "Get started": [
         "Commencer"
@@ -4638,8 +4638,8 @@
       "Keyword": [
         "Mot-clé"
       ],
-      "Location": [
-        "Emplacement"
+      "Search in": [
+        ""
       ],
       "From": [
         "De"
@@ -5388,11 +5388,6 @@
         "${ totalImported }/${ totalToImport } contacts chiffrés et ajoutés à votre liste de contacts"
       ]
     },
-    "Select files": {
-      "Upload": [
-        "Importer"
-      ]
-    },
     "Label to change density": {
       "Comfortable": [
         "Confortable"
@@ -5415,6 +5410,11 @@
       ],
       "Maximized": [
         "Maximisé"
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "Importer"
       ]
     },
     "Loading info": {
@@ -5536,11 +5536,11 @@
       "Other category": [
         "Autre catégorie"
       ],
-      "Custom folders": [
-        "Dossiers personnalisés"
-      ],
       "Default folders": [
         "Dossiers par défaut"
+      ],
+      "Custom folders": [
+        "Dossiers personnalisés"
       ],
       "Labels": [
         "Labels"
@@ -6292,8 +6292,8 @@
       "Scheduled": [
         "Programmés"
       ],
-      "All": [
-        "Tous"
+      "All mail": [
+        ""
       ],
       "Starred": [
         "Favoris"

@@ -179,14 +179,14 @@
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "Došlo k chybě, prosíme, načtěte stránku ${ refresh }. Pokud stále vidíte tuto chybu, kontaktujte naši ${ supportTeam }."
       ],
-      "File has no contents to preview": [
-        "Soubor nemá žádný obsah k náhledu"
-      ],
       "We were unable to connect to your service provider.": [
         "Nemohli jsme se připojit k vašemu poskytovateli služby."
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         "Prosíme, přihlaste se znovu a zkontrolujte, že jsou správně nastavená oprávnění."
+      ],
+      "File has no contents to preview": [
+        "Soubor nemá žádný obsah k náhledu"
       ],
       "Process aborted": [
         "Transakce zrušena"
@@ -647,6 +647,9 @@
         "(${ memberCount } členů)",
         "(${ memberCount } členů)"
       ],
+      "Loading": [
+        "Načítání"
+      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Tento odkaz může být homografickým útokem a nelze ho otevřít pomocí prohlížeče Internet Explorer nebo Edge. Pokud jste si jisti, že je odkaz v pořádku, otevřete ho v jiném prohlížeči."
       ],
@@ -658,9 +661,6 @@
       ],
       "Learn more": [
         "Zjistěte více"
-      ],
-      "Loading": [
-        "Načítání"
       ],
       "Drop the file here to upload": [
         "Přetažením sem, nahrajte soubor"
@@ -839,24 +839,6 @@
       "support team": [
         "tým podpory"
       ],
-      "Unsupported file": [
-        "Nepodporovaný soubor"
-      ],
-      "No preview available": [
-        "Náhled není k dispozici"
-      ],
-      "Preview": [
-        "Náhled"
-      ],
-      "Loading preview": [
-        "Načítání náhledu"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "Váš internetový prohlížeč nepodporuje zobrazení PDF dokumentů. Soubor si proto stáhněte."
-      ],
-      "of": [
-        "z"
-      ],
       "Import contacts": [
         "Importovat kontakty"
       ],
@@ -886,6 +868,24 @@
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "Obnovením stránky nebo ${ link } se automaticky vyřeší většina problémů."
+      ],
+      "Unsupported file": [
+        "Nepodporovaný soubor"
+      ],
+      "No preview available": [
+        "Náhled není k dispozici"
+      ],
+      "Preview": [
+        "Náhled"
+      ],
+      "Loading preview": [
+        "Načítání náhledu"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "Váš internetový prohlížeč nepodporuje zobrazení PDF dokumentů. Soubor si proto stáhněte."
+      ],
+      "of": [
+        "z"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "Základní navigace a akce zůstávají k dispozici bez ohledu na aktivní nebo neaktivní klávesové zkratky v nastavení."
@@ -3109,27 +3109,6 @@
       "OK": [
         "OK"
       ],
-      "Details": [
-        "Detaily"
-      ],
-      "Share via link": [
-        "Sdílet odkaz"
-      ],
-      "Sharing options": [
-        "Možnosti sdílení"
-      ],
-      "Zoom out": [
-        "Oddálit"
-      ],
-      "Reset zoom": [
-        "Resetovat přiblížení"
-      ],
-      "Zoom in": [
-        "Přiblížit"
-      ],
-      "Previous": [
-        "Předchozí"
-      ],
       "Continue import": [
         "Pokračovat v importu"
       ],
@@ -3153,6 +3132,27 @@
       ],
       "Show info": [
         "Zobrazit informace"
+      ],
+      "Details": [
+        "Detaily"
+      ],
+      "Share via link": [
+        "Sdílet odkaz"
+      ],
+      "Sharing options": [
+        "Možnosti sdílení"
+      ],
+      "Zoom out": [
+        "Oddálit"
+      ],
+      "Reset zoom": [
+        "Resetovat přiblížení"
+      ],
+      "Zoom in": [
+        "Přiblížit"
+      ],
+      "Previous": [
+        "Předchozí"
       ],
       "Get started": [
         "Začínáme"
@@ -4830,8 +4830,8 @@
       "Keyword": [
         "Klíčové slovo"
       ],
-      "Location": [
-        "Umístění"
+      "Search in": [
+        ""
       ],
       "From": [
         "Od"
@@ -5652,11 +5652,6 @@
         "${ totalImported }/${ totalToImport } kontakty šifrovány a přidány do Vašeho listu kontaktů"
       ]
     },
-    "Select files": {
-      "Upload": [
-        "Nahrát"
-      ]
-    },
     "Label to change density": {
       "Comfortable": [
         "Pohodlné"
@@ -5679,6 +5674,11 @@
       ],
       "Maximized": [
         "Maximalizované"
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "Nahrát"
       ]
     },
     "Loading info": {
@@ -5800,11 +5800,11 @@
       "Other category": [
         "Ostatní kategorie"
       ],
-      "Custom folders": [
-        "Vlastní složky"
-      ],
       "Default folders": [
         "Výchozí složky"
+      ],
+      "Custom folders": [
+        "Vlastní složky"
       ],
       "Labels": [
         "Štítky"
@@ -6578,8 +6578,8 @@
       "Scheduled": [
         "Naplánováno"
       ],
-      "All": [
-        "Všechny zprávy"
+      "All mail": [
+        ""
       ],
       "Starred": [
         "S hvězdičkou"
