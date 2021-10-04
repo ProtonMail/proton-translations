@@ -59,6 +59,12 @@
       "Request timed out.": [
         "Zahtjev je istekao."
       ],
+      "Signature verification failed": [
+        "Potvrda potpisa je neuspješna"
+      ],
+      "Could not find address ${ email }.": [
+        "Ne mogu pronaći adresu ${ email }."
+      ],
       "Missing signature": [
         "Nedostaje potpis"
       ],
@@ -73,12 +79,6 @@
       ],
       "The key properties for ${ emailAddress } could not be extracted": [
         "Svojstva ključa za ${ emailAddress } nemogu se izdvojiti"
-      ],
-      "Signature verification failed": [
-        "Potvrda potpisa je neuspješna"
-      ],
-      "Could not find address ${ email }.": [
-        "Ne mogu pronaći adresu ${ email }."
       ],
       "Address primary private key not found": [
         "Primarni privatni ključ adrese nije pronađen"
@@ -131,6 +131,9 @@
       "Invalid verification code": [
         "Nevažeći kôd za provjeru"
       ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Nešto je pošlo po zlu. Molimo ${ refresh } kako biste nastavili. Ako i dalje vidite ovu poruku o pogrešci, kontaktirajte naš ${ supportTeam }."
+      ],
       "Some groups could not be deleted": [
         "Nije moguće brisanje nekih grupa"
       ],
@@ -173,9 +176,6 @@
       ],
       "A group with this name already exists": [
         "Grupa s ovim nazivom već postoji"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Nešto je pošlo po zlu. Molimo ${ refresh } kako biste nastavili. Ako i dalje vidite ovu poruku o pogrešci, kontaktirajte naš ${ supportTeam }."
       ],
       "We were unable to connect to your service provider.": [
         "Neuspješno povezivanje s vašim davateljem usluga."
@@ -634,13 +634,13 @@
       "Week": [
         "Tjedan"
       ],
+      "Loading": [
+        "Učitavanje"
+      ],
       "(${ memberCount } member)": [
         "(${ memberCount } član)",
         "(${ memberCount } člana)",
         "(${ memberCount } članova)"
-      ],
-      "Loading": [
-        "Učitavanje"
       ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Ova poveznica može biti homografski napad i ne može je otvoriti preglednik Internet Explorer i Edge. Ako ste sigurni da je poveznica legitimna, upotrijebite drugi preglednik da biste je otvorili."
@@ -698,6 +698,9 @@
       ],
       "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
         "Pritisnite \"Zatraži novi kôd\" da biste novi potvrdni kôd poslali na ${ strong }. Ako je ovaj telefonski broj netočan, pritisnite \"Uredi\" da biste ga ispravili."
+      ],
+      "support team": [
+        "tim za podršku"
       ],
       "No contacts added yet": [
         "Nema dodanih kontakata"
@@ -822,9 +825,6 @@
         "${ addressCount } adresa e-pošte",
         "${ addressCount } adrese e-pošte",
         "${ addressCount } adresa e-pošte"
-      ],
-      "support team": [
-        "tim za podršku"
       ],
       "Import contacts": [
         "Uvezi kontakte"
@@ -1792,6 +1792,11 @@
         "Pomoću mobilnog uređaja skenirajte ovaj QR kôd ili posjetite ${ link }."
       ]
     },
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "Adresa e-pošte nije pronađena među korisničkim ID-ovima definiranim u ključu za slanje (${ keyUserIds })"
+      ]
+    },
     "Default display name vcard": {
       "Unknown": [
         "Nepoznato"
@@ -1836,11 +1841,6 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "Došlo je do pogreške prilikom čitanja vaše datoteke ${ formattedFilename }. Datoteka nema pravi format."
-      ]
-    },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "Adresa e-pošte nije pronađena među korisničkim ID-ovima definiranim u ključu za slanje (${ keyUserIds })"
       ]
     },
     "Keyboard shortcut section name": {
@@ -3243,6 +3243,9 @@
       ],
       "Add to ${ CALENDAR_APP_NAME }": [
         "Dodaj u ${ CALENDAR_APP_NAME }"
+      ],
+      "Use your mouse to resize the view. If you're using your keyboard, you can use left and right arrow keys to resize.": [
+        ""
       ],
       "Send anyway": [
         "Svejedno pošalji"

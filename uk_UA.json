@@ -59,6 +59,12 @@
       "Request timed out.": [
         "Час очікування запиту завершився."
       ],
+      "Signature verification failed": [
+        "Неможливо перевірити підпис"
+      ],
+      "Could not find address ${ email }.": [
+        "Неможливо знайти адресу ${ email }."
+      ],
       "Missing signature": [
         "Відсутній підпис"
       ],
@@ -73,12 +79,6 @@
       ],
       "The key properties for ${ emailAddress } could not be extracted": [
         "Не вдається видобути властивості ключа для ${ emailAddress }"
-      ],
-      "Signature verification failed": [
-        "Неможливо перевірити підпис"
-      ],
-      "Could not find address ${ email }.": [
-        "Неможливо знайти адресу ${ email }."
       ],
       "Address primary private key not found": [
         "Основний приватний ключ адреси не знайдено"
@@ -131,6 +131,9 @@
       "Invalid verification code": [
         "Недійсний код підтвердження"
       ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Щось пішло не так. Будь ласка, ${ refresh } для продовження. Якщо це повідомлення не зникає, зв'яжіться з нашою ${ supportTeam }."
+      ],
       "Some groups could not be deleted": [
         "Не вдається видалити деякі групи"
       ],
@@ -175,9 +178,6 @@
       ],
       "A group with this name already exists": [
         "Група з таким ім'ям вже існує"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Щось пішло не так. Будь ласка, ${ refresh } для продовження. Якщо це повідомлення не зникає, зв'яжіться з нашою ${ supportTeam }."
       ],
       "We were unable to connect to your service provider.": [
         "Не вдається з'єднатися з вашим постачальником послуг."
@@ -641,14 +641,14 @@
       "Week": [
         "Тиждень"
       ],
+      "Loading": [
+        "Завантаження"
+      ],
       "(${ memberCount } member)": [
         "(${ memberCount } учасник)",
         "(${ memberCount } учасники)",
         "(${ memberCount } учасників)",
         "(${ memberCount } учасників)"
-      ],
-      "Loading": [
-        "Завантаження"
       ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Це посилання може бути гомографічною атакою і його не можна відкрити в браузерах Internet Explorer чи Edge. Якщо ви впевнені, що це надійне посилання, відкрийте його в іншому браузері."
@@ -706,6 +706,9 @@
       ],
       "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
         "Натисніть \"Запитати новий код\", щоб отримати новий код перевірки на ${ strong }. Якщо цей номер телефону неправильний, натисніть \"Змінити\" для його виправлення."
+      ],
+      "support team": [
+        "командою підтримки"
       ],
       "No contacts added yet": [
         "Контактів ще не додано"
@@ -835,9 +838,6 @@
         "${ addressCount } адреси е-пошти",
         "${ addressCount } адрес е-пошти",
         "${ addressCount } адрес е-пошти"
-      ],
-      "support team": [
-        "командою підтримки"
       ],
       "Import contacts": [
         "Імпортувати контакти"
@@ -1839,6 +1839,11 @@
         "Скануйте цей QR-код за допомогою свого мобільного пристрою, або відвідайте ${ link }."
       ]
     },
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "Адресу е-пошти не знайдено серед ідентифікаторів користувачів, визначених у ключі надсилання (${ keyUserIds })"
+      ]
+    },
     "Default display name vcard": {
       "Unknown": [
         "Невідомо"
@@ -1883,11 +1888,6 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "Виникла помилка при прочитанні вашого файлу ${ formattedFilename }. Файл має неправильний формат."
-      ]
-    },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "Адресу е-пошти не знайдено серед ідентифікаторів користувачів, визначених у ключі надсилання (${ keyUserIds })"
       ]
     },
     "Keyboard shortcut section name": {
@@ -3331,6 +3331,9 @@
       "Add to ${ CALENDAR_APP_NAME }": [
         "Додати до ${ CALENDAR_APP_NAME }"
       ],
+      "Use your mouse to resize the view. If you're using your keyboard, you can use left and right arrow keys to resize.": [
+        "Змініть розмір мишкою. Якщо ви працюєте з клавіатури, можете змінювати розмір стрілками ліворуч та праворуч."
+      ],
       "Send anyway": [
         "Все одно надіслати"
       ],
@@ -3934,7 +3937,7 @@
         "До сплати"
       ],
       "Downgrade account": [
-        ""
+        "Понизити тарифний план"
       ],
       "Network error": [
         "Помилка мережі"
@@ -4831,7 +4834,7 @@
         "Ключове слово"
       ],
       "Search in": [
-        ""
+        "Шукати в"
       ],
       "From": [
         "Від"
@@ -6579,7 +6582,7 @@
         "Заплановані"
       ],
       "All mail": [
-        ""
+        "Уся пошта"
       ],
       "Starred": [
         "Із зірочкою"

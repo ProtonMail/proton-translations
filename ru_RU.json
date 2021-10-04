@@ -59,6 +59,12 @@
       "Request timed out.": [
         "Истекло время ожидания запроса."
       ],
+      "Signature verification failed": [
+        "Проверка подписи не удалась"
+      ],
+      "Could not find address ${ email }.": [
+        "Не могу найти адрес ${ email }."
+      ],
       "Missing signature": [
         "Подпись отсутствует"
       ],
@@ -73,12 +79,6 @@
       ],
       "The key properties for ${ emailAddress } could not be extracted": [
         "Не удалось извлечь свойства ключа для ${ emailAddress }"
-      ],
-      "Signature verification failed": [
-        "Проверка подписи не удалась"
-      ],
-      "Could not find address ${ email }.": [
-        "Не могу найти адрес ${ email }."
       ],
       "Address primary private key not found": [
         "Основной секретный ключ для адреса не найден"
@@ -131,6 +131,9 @@
       "Invalid verification code": [
         "Неверный проверочный код"
       ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Что-то пошло не так. Пожалуйста ${ refresh } чтобы продолжить. Если вы все еще видите сообщение об ошибке, пожалуйста свяжитесь нашей ${ supportTeam }."
+      ],
       "Some groups could not be deleted": [
         "Некоторые группы не могут быть удалены"
       ],
@@ -175,9 +178,6 @@
       ],
       "A group with this name already exists": [
         "Группа с таким именем уже существует"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Что-то пошло не так. Пожалуйста ${ refresh } чтобы продолжить. Если вы все еще видите сообщение об ошибке, пожалуйста свяжитесь нашей ${ supportTeam }."
       ],
       "We were unable to connect to your service provider.": [
         "Не удалось подключиться к вашему поставщику услуг."
@@ -641,14 +641,14 @@
       "Week": [
         "Неделя"
       ],
+      "Loading": [
+        "Загрузка"
+      ],
       "(${ memberCount } member)": [
         "(${ memberCount } участник)",
         "(${ memberCount } участника)",
         "(${ memberCount } участников)",
         "(${ memberCount } участника)"
-      ],
-      "Loading": [
-        "Загрузка"
       ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Эта ссылка может быть омографической атакой и не может быть открыта браузерами Internet Explorer и Edge. Если вы уверены, что ссылка безопасна, то, пожалуйста, воспользуйтесь другим браузером для её открытия."
@@ -706,6 +706,9 @@
       ],
       "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
         "Нажмите «Запросить новый код», и мы отправим новый проверочный код на ${ strong }. Если этот номер телефона неверный, выберите «Изменить» для обновления."
+      ],
+      "support team": [
+        "служба поддержки"
       ],
       "No contacts added yet": [
         "Контакты ещё не добавлены"
@@ -835,9 +838,6 @@
         "${ addressCount } адреса электронной почты",
         "${ addressCount } адресов электронной почты",
         "${ addressCount } адреса электронной почты"
-      ],
-      "support team": [
-        "служба поддержки"
       ],
       "Import contacts": [
         "Импортировать контакты"
@@ -1839,6 +1839,11 @@
         "Используя мобильное устройство, отсканируйте этот QR-код или перейдите по ссылке ${ link }."
       ]
     },
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "Адрес электронной почты не найден среди идентификаторов пользователя, определенных в ключе отправки (${ keyUserIds })"
+      ]
+    },
     "Default display name vcard": {
       "Unknown": [
         "Неизвестный"
@@ -1883,11 +1888,6 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "Произошла ошибка при чтении файла ${ formattedFilename }. Формат файла не поддерживается."
-      ]
-    },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "Адрес электронной почты не найден среди идентификаторов пользователя, определенных в ключе отправки (${ keyUserIds })"
       ]
     },
     "Keyboard shortcut section name": {
@@ -3330,6 +3330,9 @@
       ],
       "Add to ${ CALENDAR_APP_NAME }": [
         "Добавить в ${ CALENDAR_APP_NAME }"
+      ],
+      "Use your mouse to resize the view. If you're using your keyboard, you can use left and right arrow keys to resize.": [
+        ""
       ],
       "Send anyway": [
         "Все равно отправить"

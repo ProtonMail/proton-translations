@@ -59,6 +59,12 @@
       "Request timed out.": [
         "リクエストはタイムアウトしました。"
       ],
+      "Signature verification failed": [
+        "署名の検証に失敗しました"
+      ],
+      "Could not find address ${ email }.": [
+        "メールアドレス ${ email } が見つかりませんでした。"
+      ],
       "Missing signature": [
         "署名がありません"
       ],
@@ -73,12 +79,6 @@
       ],
       "The key properties for ${ emailAddress } could not be extracted": [
         "${ emailAddress } の鍵情報が抽出できませんでした"
-      ],
-      "Signature verification failed": [
-        "署名の検証に失敗しました"
-      ],
-      "Could not find address ${ email }.": [
-        "メールアドレス ${ email } が見つかりませんでした。"
       ],
       "Address primary private key not found": [
         "メールアドレスのプライマリー秘密鍵が見つかりません"
@@ -131,6 +131,9 @@
       "Invalid verification code": [
         "無効な検証コード"
       ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "エラーが発生しました。続行するには ${ refresh } してください。それでもこのエラーが発生する場合は ${ supportTeam } までお問い合わせください。"
+      ],
       "Some groups could not be deleted": [
         "一部のグループは削除できませんでした"
       ],
@@ -169,9 +172,6 @@
       ],
       "A group with this name already exists": [
         "この名前のグループは既に存在します"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "エラーが発生しました。続行するには ${ refresh } してください。それでもこのエラーが発生する場合は ${ supportTeam } までお問い合わせください。"
       ],
       "We were unable to connect to your service provider.": [
         "サービスプロバイダーに接続できませんでした。"
@@ -620,11 +620,11 @@
       "Week": [
         "週"
       ],
-      "(${ memberCount } member)": [
-        "(${ memberCount } メンバー)"
-      ],
       "Loading": [
         "読み込み中"
+      ],
+      "(${ memberCount } member)": [
+        "(${ memberCount } メンバー)"
       ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "このリンクはホモグラフ攻撃の可能性があり、Internet ExplorerおよびEdgeブラウザーで開くことはできません。リンクが正当であることが確実な場合は、別のブラウザーを使用して開いてください。"
@@ -682,6 +682,9 @@
       ],
       "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
         "「新しいコードをリクエスト」をクリックすると新しい認証コードが ${ strong } に送信されます。電話番号が違う場合、「編集」をクリックして修正します。"
+      ],
+      "support team": [
+        "サポートチーム"
       ],
       "No contacts added yet": [
         "まだ連絡先が追加されていません"
@@ -796,9 +799,6 @@
       ],
       "${ addressCount } email address": [
         "${ addressCount } 件のメールアドレス"
-      ],
-      "support team": [
-        "サポートチーム"
       ],
       "Import contacts": [
         "連絡先のインポート"
@@ -1698,6 +1698,11 @@
         ""
       ]
     },
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        ""
+      ]
+    },
     "Default display name vcard": {
       "Unknown": [
         "不明"
@@ -1742,11 +1747,6 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "ファイル ${ formattedFilename } の読み取り中にエラーが発生しました。ファイルに正しい形式がありません。"
-      ]
-    },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        ""
       ]
     },
     "Keyboard shortcut section name": {
@@ -3069,6 +3069,9 @@
       ],
       "Add to ${ CALENDAR_APP_NAME }": [
         "${ CALENDAR_APP_NAME } に追加"
+      ],
+      "Use your mouse to resize the view. If you're using your keyboard, you can use left and right arrow keys to resize.": [
+        ""
       ],
       "Send anyway": [
         "このまま送信"

@@ -59,6 +59,12 @@
       "Request timed out.": [
         "İstek zaman aşımına uğradı."
       ],
+      "Signature verification failed": [
+        "İmza doğrulaması başarısız oldu"
+      ],
+      "Could not find address ${ email }.": [
+        "${ email } adresi bulunamadı."
+      ],
       "Missing signature": [
         "İmza eksik"
       ],
@@ -73,12 +79,6 @@
       ],
       "The key properties for ${ emailAddress } could not be extracted": [
         "${ emailAddress } için olan anahtar özellikleri oluşturulamadı"
-      ],
-      "Signature verification failed": [
-        "İmza doğrulaması başarısız oldu"
-      ],
-      "Could not find address ${ email }.": [
-        "${ email } adresi bulunamadı."
       ],
       "Address primary private key not found": [
         "Adres birincil özel anahtarı bulunamadı"
@@ -131,6 +131,9 @@
       "Invalid verification code": [
         "Geçersiz doğrulama kodu"
       ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Bir şeyler ters gitti, devam etmek için ${ refresh }. Hala bu hata iletisini görüyorsanız lütfen ${ supportTeam } ile iletişime geçin."
+      ],
       "Some groups could not be deleted": [
         "Bazı gruplar silinemedi"
       ],
@@ -171,9 +174,6 @@
       ],
       "A group with this name already exists": [
         "Bu ada sahip bir grup zaten var"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Bir şeyler ters gitti, devam etmek için ${ refresh }. Hala bu hata iletisini görüyorsanız lütfen ${ supportTeam } ile iletişime geçin."
       ],
       "We were unable to connect to your service provider.": [
         "Hizmet sağlayıcınıza bağlanamadık."
@@ -627,12 +627,12 @@
       "Week": [
         "Hafta"
       ],
+      "Loading": [
+        "Yükleniyor"
+      ],
       "(${ memberCount } member)": [
         "(${ memberCount } üye)",
         "(${ memberCount } üye)"
-      ],
-      "Loading": [
-        "Yükleniyor"
       ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Bu bağlantı bir homograf saldırısı olabilir ve Internet Explorer veya Edge tarayıcısı tarafından açılamaz."
@@ -690,6 +690,9 @@
       ],
       "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
         "${ strong } adresine yeni bir doğrulama kodu göndermek için \"Yeni kod iste\" butonuna tıklayın. Bu telefon numarası yanlışsa, düzeltmek için \"Düzenle\" butonuna tıklayın."
+      ],
+      "support team": [
+        "destek ekibi"
       ],
       "No contacts added yet": [
         "Henüz kişi eklenmedi"
@@ -809,9 +812,6 @@
       "${ addressCount } email address": [
         "${ addressCount } e-posta adresi",
         "${ addressCount } e-posta adresi"
-      ],
-      "support team": [
-        "destek ekibi"
       ],
       "Import contacts": [
         "Kişileri içe aktar"
@@ -1745,6 +1745,11 @@
         "Mobil cihazınızı kullanarak, bu karekodunu tarayın veya ${ link } adresini ziyaret edin."
       ]
     },
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "E-posta adresi, gönderme anahtarında tanımlanan kullanıcı kimlikleri arasında bulunamadı (${ keyUserIds })"
+      ]
+    },
     "Default display name vcard": {
       "Unknown": [
         "Bilinmeyen"
@@ -1789,11 +1794,6 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "${ formattedFilename } dosyanız okunurken bir hata oluştu. Dosya doğru biçime sahip değil."
-      ]
-    },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "E-posta adresi, gönderme anahtarında tanımlanan kullanıcı kimlikleri arasında bulunamadı (${ keyUserIds })"
       ]
     },
     "Keyboard shortcut section name": {
@@ -3156,6 +3156,9 @@
       ],
       "Add to ${ CALENDAR_APP_NAME }": [
         "${ CALENDAR_APP_NAME } grubuna ekle"
+      ],
+      "Use your mouse to resize the view. If you're using your keyboard, you can use left and right arrow keys to resize.": [
+        ""
       ],
       "Send anyway": [
         "Yine de gönder"

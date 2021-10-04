@@ -59,6 +59,12 @@
       "Request timed out.": [
         "Het verzoek timed out."
       ],
+      "Signature verification failed": [
+        "Controle van handtekening mislukt"
+      ],
+      "Could not find address ${ email }.": [
+        "Kon adres ${ email } niet vinden."
+      ],
       "Missing signature": [
         "Handtekening ontbreekt"
       ],
@@ -73,12 +79,6 @@
       ],
       "The key properties for ${ emailAddress } could not be extracted": [
         "De kerneigenschappen van ${ emailAddress } kunnen niet verkregen worden"
-      ],
-      "Signature verification failed": [
-        "Controle van handtekening mislukt"
-      ],
-      "Could not find address ${ email }.": [
-        "Kon adres ${ email } niet vinden."
       ],
       "Address primary private key not found": [
         "Primaire adressleutel is niet gevonden"
@@ -131,6 +131,9 @@
       "Invalid verification code": [
         "De ingevoerde code is ongeldig"
       ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Er ging iets mis, gelieve ${ refresh } om door te gaan. Als u dit foutbericht nog steeds ziet, neem dan contact op met onze ${ supportTeam }."
+      ],
       "Some groups could not be deleted": [
         "Sommige groepen konden niet worden verwijderd"
       ],
@@ -171,9 +174,6 @@
       ],
       "A group with this name already exists": [
         "Er bestaat al een groep met deze naam"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Er ging iets mis, gelieve ${ refresh } om door te gaan. Als u dit foutbericht nog steeds ziet, neem dan contact op met onze ${ supportTeam }."
       ],
       "We were unable to connect to your service provider.": [
         "We kunnen geen verbinding maken met uw serviceprovider."
@@ -627,12 +627,12 @@
       "Week": [
         "Week"
       ],
+      "Loading": [
+        "Laden"
+      ],
       "(${ memberCount } member)": [
         "(${ memberCount } lid)",
         "(${ memberCount } leden)"
-      ],
-      "Loading": [
-        "Laden"
       ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Deze link kan een homografie-aanval zijn en kan niet geopend worden in Internet Explorer en Edge. Als u zeker bent dat de link legitiem is, gebruik dan een andere browser om het te bezoeken."
@@ -690,6 +690,9 @@
       ],
       "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
         "Klik op \"Vraag nieuwe code aan\" om een nieuwe verificatiecode te sturen naar ${ strong }. Als dit telefoonnummer onjuist is, klik op \"Bewerken\" om het te corrigeren."
+      ],
+      "support team": [
+        "ondersteuningsteam"
       ],
       "No contacts added yet": [
         "Nog geen contactpersonen toegevoegd"
@@ -809,9 +812,6 @@
       "${ addressCount } email address": [
         "${ addressCount } e-mailadres",
         "${ addressCount } e-mailadressen"
-      ],
-      "support team": [
-        "ondersteuningsteam"
       ],
       "Import contacts": [
         "Contactpersonen importeren"
@@ -1745,6 +1745,11 @@
         "Met uw mobiele apparaat, scan deze QR-Code of bezoek ${ link }."
       ]
     },
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "E-mailadres is niet gevonden in de user id's van verzendsleutel (${ keyUserIds })"
+      ]
+    },
     "Default display name vcard": {
       "Unknown": [
         "Onbekend"
@@ -1789,11 +1794,6 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "Er is een fout opgetreden tijdens het lezen van uw bestand ${ formattedFilename }. Bestand heeft niet de juiste indeling."
-      ]
-    },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "E-mailadres is niet gevonden in de user id's van verzendsleutel (${ keyUserIds })"
       ]
     },
     "Keyboard shortcut section name": {
@@ -3156,6 +3156,9 @@
       ],
       "Add to ${ CALENDAR_APP_NAME }": [
         "Toevoegen aan ${ CALENDAR_APP_NAME }"
+      ],
+      "Use your mouse to resize the view. If you're using your keyboard, you can use left and right arrow keys to resize.": [
+        ""
       ],
       "Send anyway": [
         "Toch verzenden"

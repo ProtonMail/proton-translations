@@ -59,6 +59,12 @@
       "Request timed out.": [
         "请求超时。"
       ],
+      "Signature verification failed": [
+        "签名验证失败"
+      ],
+      "Could not find address ${ email }.": [
+        "找不到邮箱 ${ email }。"
+      ],
       "Missing signature": [
         "缺少签名"
       ],
@@ -73,12 +79,6 @@
       ],
       "The key properties for ${ emailAddress } could not be extracted": [
         "无法提取${ emailAddress } 的密钥属性"
-      ],
-      "Signature verification failed": [
-        "签名验证失败"
-      ],
-      "Could not find address ${ email }.": [
-        "找不到邮箱 ${ email }。"
       ],
       "Address primary private key not found": [
         "找不到地址主私钥"
@@ -131,6 +131,9 @@
       "Invalid verification code": [
         "验证码无效"
       ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "发生错误，请${ refresh }后重试。若仍出现此错误，请联系我们的${ supportTeam }。"
+      ],
       "Some groups could not be deleted": [
         "无法删除部分群组"
       ],
@@ -169,9 +172,6 @@
       ],
       "A group with this name already exists": [
         "已存在同名群组"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "发生错误，请${ refresh }后重试。若仍出现此错误，请联系我们的${ supportTeam }。"
       ],
       "We were unable to connect to your service provider.": [
         "我们无法连接到您的服务提供商。"
@@ -620,11 +620,11 @@
       "Week": [
         "周"
       ],
-      "(${ memberCount } member)": [
-        "（${ memberCount } 位成员）"
-      ],
       "Loading": [
         "加载中"
+      ],
+      "(${ memberCount } member)": [
+        "（${ memberCount } 位成员）"
       ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "此链接可能使用了欺骗性域名，Internet Explorer 和 Edge 浏览器无法打开。若您确认链接可靠，可使用其他浏览器打开。"
@@ -682,6 +682,9 @@
       ],
       "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
         "点击“请求新验证码”将发送到 ${ strong }。如果此电话号码不正确，请点击“编辑”。"
+      ],
+      "support team": [
+        "客服团队"
       ],
       "No contacts added yet": [
         "尚未添加联系人"
@@ -796,9 +799,6 @@
       ],
       "${ addressCount } email address": [
         "${ addressCount } 个邮箱地址"
-      ],
-      "support team": [
-        "客服团队"
       ],
       "Import contacts": [
         "导入联系人"
@@ -1698,6 +1698,11 @@
         "使用移动设备扫描此二维码或打开 ${ link }。"
       ]
     },
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "在发送密钥中定义的用户编号中找不到电子邮件地址 (${ keyUserIds })"
+      ]
+    },
     "Default display name vcard": {
       "Unknown": [
         "未知"
@@ -1742,11 +1747,6 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "读取文件 ${ formattedFilename } 失败，文件格式不对。"
-      ]
-    },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "在发送密钥中定义的用户编号中找不到电子邮件地址 (${ keyUserIds })"
       ]
     },
     "Keyboard shortcut section name": {
@@ -3069,6 +3069,9 @@
       ],
       "Add to ${ CALENDAR_APP_NAME }": [
         "添加到 ${ CALENDAR_APP_NAME }"
+      ],
+      "Use your mouse to resize the view. If you're using your keyboard, you can use left and right arrow keys to resize.": [
+        ""
       ],
       "Send anyway": [
         "仍然发送"

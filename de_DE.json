@@ -59,6 +59,12 @@
       "Request timed out.": [
         "Zeitüberschreitung bei der Anforderung."
       ],
+      "Signature verification failed": [
+        "Signaturprüfung fehlgeschlagen"
+      ],
+      "Could not find address ${ email }.": [
+        "Adresse ${ email } wurde nicht gefunden."
+      ],
       "Missing signature": [
         "Fehlende Signatur"
       ],
@@ -73,12 +79,6 @@
       ],
       "The key properties for ${ emailAddress } could not be extracted": [
         "Die Schlüsseleigenschaften für ${ emailAddress } konnten nicht extrahiert werden"
-      ],
-      "Signature verification failed": [
-        "Signaturprüfung fehlgeschlagen"
-      ],
-      "Could not find address ${ email }.": [
-        "Adresse ${ email } wurde nicht gefunden."
       ],
       "Address primary private key not found": [
         "Privater Hauptschlüssel für die Adresse nicht gefunden"
@@ -131,6 +131,9 @@
       "Invalid verification code": [
         "Ungültiger Verifizierungscode"
       ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Ein Problem ist aufgetreten. Bitte ${ refresh }, um fortzufahren. Wenn Ihnen diese Fehlermeldung weiterhin angezeigt wird, wenden Sie sich bitte an unser ${ supportTeam }."
+      ],
       "Some groups could not be deleted": [
         "Einige Gruppen konnten nicht gelöscht werden"
       ],
@@ -171,9 +174,6 @@
       ],
       "A group with this name already exists": [
         "Eine Gruppe mit diesem Namen existiert bereits"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Ein Problem ist aufgetreten. Bitte ${ refresh }, um fortzufahren. Wenn Ihnen diese Fehlermeldung weiterhin angezeigt wird, wenden Sie sich bitte an unser ${ supportTeam }."
       ],
       "We were unable to connect to your service provider.": [
         "Es konnte keine Verbindung zu Ihrem Dienstanbieter hergestellt werden."
@@ -627,12 +627,12 @@
       "Week": [
         "Woche"
       ],
+      "Loading": [
+        "Wird geladen"
+      ],
       "(${ memberCount } member)": [
         "(${ memberCount } Mitglied)",
         "(${ memberCount } Mitglieder)"
-      ],
-      "Loading": [
-        "Wird geladen"
       ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Dieser Link könnte ein homographischer Angriff (Vortäuschung einer falschen Identität) sein und kann von Internet Explorer und Edge nicht geöffnet werden. Wenn du sicher bist, dass der Link legitim ist, verwende einen anderen Browser, um ihn zu öffnen."
@@ -690,6 +690,9 @@
       ],
       "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
         "Klicke auf „Neuen Code anfordern”, um einen neuen Verifizierungscode an ${ strong } senden zu lassen. Wenn diese Telefonnummer nicht stimmt, klicke auf „Bearbeiten”, um sie zu korrigieren."
+      ],
+      "support team": [
+        "Support-Team"
       ],
       "No contacts added yet": [
         "Noch keine Kontakte hinzugefügt"
@@ -809,9 +812,6 @@
       "${ addressCount } email address": [
         "${ addressCount } E-Mail-Adresse",
         "${ addressCount } E-Mail-Adressen"
-      ],
-      "support team": [
-        "Support-Team"
       ],
       "Import contacts": [
         "Kontakte importieren"
@@ -1745,6 +1745,11 @@
         "Lesen Sie mit Ihrem mobilen Gerät diesen QR-Code ein oder besuchen Sie ${ link }."
       ]
     },
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "E-Mail-Adresse nicht unter den im Sendeschlüssel definierten Benutzer-IDs gefunden (${ keyUserIds })"
+      ]
+    },
     "Default display name vcard": {
       "Unknown": [
         "Unbekannt"
@@ -1789,11 +1794,6 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "Beim Lesen der Datei ${ formattedFilename } ist ein Fehler aufgetreten. Die Datei hat nicht das richtige Format."
-      ]
-    },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "E-Mail-Adresse nicht unter den im Sendeschlüssel definierten Benutzer-IDs gefunden (${ keyUserIds })"
       ]
     },
     "Keyboard shortcut section name": {
@@ -3157,6 +3157,9 @@
       "Add to ${ CALENDAR_APP_NAME }": [
         "Hinzufügen zu ${ CALENDAR_APP_NAME }"
       ],
+      "Use your mouse to resize the view. If you're using your keyboard, you can use left and right arrow keys to resize.": [
+        "Verwenden Sie Ihre Maus, um die Größe der Ansicht zu ändern. Wenn Sie Ihre Tastatur verwenden, können Sie die Größe mit den Pfeiltasten „Pfeil links” und „Pfeil rechts” ändern."
+      ],
       "Send anyway": [
         "Trotzdem senden"
       ],
@@ -3750,7 +3753,7 @@
         "Fälliger Betrag"
       ],
       "Downgrade account": [
-        ""
+        "Konto herabstufen"
       ],
       "Network error": [
         "Netzwerkfehler"
@@ -4639,7 +4642,7 @@
         "Schlüsselwort"
       ],
       "Search in": [
-        ""
+        "Suchen in"
       ],
       "From": [
         "Von"
@@ -6293,7 +6296,7 @@
         "Geplant"
       ],
       "All mail": [
-        ""
+        "Alle Nachrichten"
       ],
       "Starred": [
         "Gekennzeichnet"

@@ -59,6 +59,12 @@
       "Request timed out.": [
         "請求已逾時。"
       ],
+      "Signature verification failed": [
+        "簽章驗證失敗"
+      ],
+      "Could not find address ${ email }.": [
+        "找不到電子郵件地址 ${ email }。"
+      ],
       "Missing signature": [
         "簽章遺失"
       ],
@@ -73,12 +79,6 @@
       ],
       "The key properties for ${ emailAddress } could not be extracted": [
         "${ emailAddress } 的金鑰屬性無法擷取"
-      ],
-      "Signature verification failed": [
-        "簽章驗證失敗"
-      ],
-      "Could not find address ${ email }.": [
-        "找不到電子郵件地址 ${ email }。"
       ],
       "Address primary private key not found": [
         "找不到電子郵件地址主要私密金鑰"
@@ -131,6 +131,9 @@
       "Invalid verification code": [
         "驗證碼無效"
       ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "發生錯誤，請${ refresh }以繼續。如果您仍看到此錯誤訊息，請聯絡我們的${ supportTeam }。"
+      ],
       "Some groups could not be deleted": [
         "部分聯絡人群組無法刪除"
       ],
@@ -169,9 +172,6 @@
       ],
       "A group with this name already exists": [
         "以此為名的群組已存在"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "發生錯誤，請${ refresh }以繼續。如果您仍看到此錯誤訊息，請聯絡我們的${ supportTeam }。"
       ],
       "We were unable to connect to your service provider.": [
         "我們無法連結到您的服務提供者。"
@@ -620,11 +620,11 @@
       "Week": [
         "週"
       ],
-      "(${ memberCount } member)": [
-        "(${ memberCount } 個成員)"
-      ],
       "Loading": [
         "正在載入"
+      ],
+      "(${ memberCount } member)": [
+        "(${ memberCount } 個成員)"
       ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "此連結可能是同形異義詞的偽裝攻擊 (homograph attack)，且無法以 Internet Explorer 或 Edge 瀏覽器開啟。如果您確定這是一個正當的連結，請使用其他瀏覽器來開啟。"
@@ -682,6 +682,9 @@
       ],
       "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
         "按一下「要求新代碼」向 ${ strong } 發送新的驗證碼。如果此電話號碼不正確，請按一下「編輯」作出修正。"
+      ],
+      "support team": [
+        "支援團隊"
       ],
       "No contacts added yet": [
         "未新增任何聯絡人"
@@ -796,9 +799,6 @@
       ],
       "${ addressCount } email address": [
         "${ addressCount } 個電子郵件地址"
-      ],
-      "support team": [
-        "支援團隊"
       ],
       "Import contacts": [
         "匯入聯絡人"
@@ -1698,6 +1698,11 @@
         "請以您的行動裝置，掃描此二維碼，或瀏覽 ${ link }。"
       ]
     },
+    "PGP key warning": {
+      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
+        "寄送金鑰所定義的使用者識別碼 (${ keyUserIds }) 中找不到電子郵件地址"
+      ]
+    },
     "Default display name vcard": {
       "Unknown": [
         "未知"
@@ -1742,11 +1747,6 @@
       ],
       "An error occurred reading your file ${ formattedFilename }. File doesn't have the right format.": [
         "讀取您的檔案 ${ formattedFilename } 時發生錯誤。檔案格式有誤。"
-      ]
-    },
-    "PGP key warning": {
-      "Email address not found among user ids defined in sending key (${ keyUserIds })": [
-        "寄送金鑰所定義的使用者識別碼 (${ keyUserIds }) 中找不到電子郵件地址"
       ]
     },
     "Keyboard shortcut section name": {
@@ -3069,6 +3069,9 @@
       ],
       "Add to ${ CALENDAR_APP_NAME }": [
         "新增至 ${ CALENDAR_APP_NAME }"
+      ],
+      "Use your mouse to resize the view. If you're using your keyboard, you can use left and right arrow keys to resize.": [
+        ""
       ],
       "Send anyway": [
         "仍要傳送"
