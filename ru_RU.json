@@ -62,12 +62,6 @@
       "Authentication error.": [
         "Ошибка аутентификации."
       ],
-      "Email address invalid": [
-        "Неверный адрес электронной почты"
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "Используемый вами браузер не позволяет полностью авторизовать платеж. Пожалуйста, используйте другой браузер или войдите в через компьютер."
-      ],
       "Incorrect mailbox password. Please try again": [
         "Неверный пароль. Пожалуйста, попробуйте еще раз"
       ],
@@ -194,14 +188,20 @@
       "Invalid code": [
         "Недействительный код"
       ],
-      "File has no contents to preview": [
-        "В файле нет содержимого для предпросмотра"
-      ],
       "We were unable to connect to your service provider.": [
         ""
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         ""
+      ],
+      "File has no contents to preview": [
+        "В файле нет содержимого для предпросмотра"
+      ],
+      "Email address invalid": [
+        "Неверный адрес электронной почты"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "Используемый вами браузер не позволяет полностью авторизовать платеж. Пожалуйста, используйте другой браузер или войдите в через компьютер."
       ],
       "Could not generate file keys": [
         "Невозможно сгенерировать ключи файла"
@@ -382,30 +382,6 @@
       ],
       "Servers are unreachable.": [
         "Серверы недоступны."
-      ],
-      "No results found": [
-        "Результаты не найдены"
-      ],
-      "Week": [
-        "Неделя"
-      ],
-      "Loading": [
-        "Загружаем"
-      ],
-      "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
-        "Эта ссылка может быть омографической атакой, при которой символы одного алфавита подменяются похожими символами из другого, и не может быть открыта браузерами Internet Explorer и Edge. Если вы уверены, что ссылка безопасна, то, пожалуйста, воспользуйтесь другим браузером для её открытия."
-      ],
-      "This link may be a homograph attack. Please verify this is the link you wish to visit, or don't open it.": [
-        "Эта ссылка может быть омографической атакой, при которой символы одного алфавита подменяются похожими символами из другого. Пожалуйста, проверьте, что это именно та ссылка, которую вы хотите посетить, или не переходите по ней."
-      ],
-      "You are about to open another browser tab and visit:": [
-        "Вы собираетесь открыть другую вкладку браузера и посетить:"
-      ],
-      "Learn more": [
-        "Подробнее"
-      ],
-      "Drop the file here to upload": [
-        "Для загрузки файла перетащите его сюда"
       ],
       "Loading ${ appName }": [
         "Загрузка ${ appName }"
@@ -713,12 +689,6 @@
       "* Customizable features": [
         "* Настраиваемые функции"
       ],
-      "Access your streaming services, like ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, no matter where you are.": [
-        "Доступ к вашим услугам стриминга, таким как ${ netflix }, ${ disney }, ${ primeVideo } ${ many } независимо от того, где вы находитесь."
-      ],
-      "Access blocked content, like social media, news, Wikipedia, YouTube, and many others, no matter where you are.": [
-        "Доступ к заблокированному содержимому, например социальным сетям, новостям, Википедии, YouTube и многому другому независимо от того, где вы находитесь."
-      ],
       "For getting started with private and secure emailing.": [
         "Для начала работы с приватной и безопасной электронной почтой."
       ],
@@ -742,6 +712,12 @@
       ],
       "For families and small teams; includes both Mail and VPN.": [
         "Для семей и небольших команд; включает как почту, так и VPN."
+      ],
+      "Access your streaming services, like ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, no matter where you are.": [
+        "Доступ к вашим услугам стриминга, таким как ${ netflix }, ${ disney }, ${ primeVideo } ${ many } независимо от того, где вы находитесь."
+      ],
+      "Access blocked content, like social media, news, Wikipedia, YouTube, and many others, no matter where you are.": [
+        "Доступ к заблокированному содержимому, например социальным сетям, новостям, Википедии, YouTube и многому другому независимо от того, где вы находитесь."
       ],
       "Save 20%": [
         "Сэкономьте 20%"
@@ -866,24 +842,6 @@
       "Expired": [
         "Срок действия истек"
       ],
-      "Unsupported file": [
-        "Неподдерживаемый файл"
-      ],
-      "No preview available": [
-        "Предпросмотр недоступен"
-      ],
-      "Preview": [
-        "Предпросмотр"
-      ],
-      "Loading preview": [
-        "Загрузка предпросмотра"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "Браузер не поддерживает предпросмотр PDF-документов. Пожалуйста, скачайте файл."
-      ],
-      "of": [
-        "из"
-      ],
       "Import contacts": [
         ""
       ],
@@ -910,6 +868,48 @@
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "Основные клавиши для навигации и действий остаются доступными независимо от того, включены ли сочетания клавиш в настройках."
+      ],
+      "Unsupported file": [
+        "Неподдерживаемый файл"
+      ],
+      "No preview available": [
+        "Предпросмотр недоступен"
+      ],
+      "Preview": [
+        "Предпросмотр"
+      ],
+      "Loading preview": [
+        "Загрузка предпросмотра"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "Браузер не поддерживает предпросмотр PDF-документов. Пожалуйста, скачайте файл."
+      ],
+      "of": [
+        "из"
+      ],
+      "No results found": [
+        "Результаты не найдены"
+      ],
+      "Week": [
+        "Неделя"
+      ],
+      "Loading": [
+        "Загружаем"
+      ],
+      "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
+        "Эта ссылка может быть омографической атакой, при которой символы одного алфавита подменяются похожими символами из другого, и не может быть открыта браузерами Internet Explorer и Edge. Если вы уверены, что ссылка безопасна, то, пожалуйста, воспользуйтесь другим браузером для её открытия."
+      ],
+      "This link may be a homograph attack. Please verify this is the link you wish to visit, or don't open it.": [
+        "Эта ссылка может быть омографической атакой, при которой символы одного алфавита подменяются похожими символами из другого. Пожалуйста, проверьте, что это именно та ссылка, которую вы хотите посетить, или не переходите по ней."
+      ],
+      "You are about to open another browser tab and visit:": [
+        "Вы собираетесь открыть другую вкладку браузера и посетить:"
+      ],
+      "Learn more": [
+        "Подробнее"
+      ],
+      "Drop the file here to upload": [
+        "Для загрузки файла перетащите его сюда"
       ],
       "Transfer skipped for file \"${ file.name }\"": [
         "Пропущена передача файла \"${ file.name }\""
@@ -1429,65 +1429,23 @@
       ]
     },
     "Action": {
-      "Close": [
-        "Закрыть"
-      ],
-      "Confirm": [
-        "Подтвердить"
-      ],
-      "Cancel": [
-        "Отменить"
-      ],
-      "Submit": [
-        "Отправить"
-      ],
-      "Close modal": [
-        "Закрыть окно"
-      ],
-      "Use “${ label }” setting": [
-        "Использовать настройку «${ label }»"
-      ],
-      "Close navigation": [
-        "Cкрыть панель навигации"
-      ],
-      "Open navigation": [
-        "Показать панель навигации"
-      ],
-      "More info: ${ safeTitle }": [
-        "Больше информации: ${ safeTitle }"
-      ],
-      "Go to panel ${ index }": [
-        "Перейти к панели ${ index }"
-      ],
-      "Load image": [
-        "Загрузить изображение"
-      ],
-      "Next month": [
-        "Следующий месяц"
-      ],
-      "Previous month": [
-        "Предыдущий месяц"
-      ],
-      "Remove": [
-        "Удалить"
-      ],
-      "Confirm opening of link ${ link }": [
-        "Подтвердить открытие ссылки ${ link }"
-      ],
-      "Continue with Google": [
-        "Продолжить с Google"
-      ],
-      "Delete": [
-        "Удалить"
-      ],
       "Signing out": [
         "Выход"
       ],
       "refresh the page": [
         "обновить страницу"
       ],
+      "Close": [
+        "Закрыть"
+      ],
+      "Submit": [
+        "Отправить"
+      ],
       "Log in": [
         "Войти"
+      ],
+      "Cancel": [
+        "Отменить"
       ],
       "View invoice": [
         "Просмотр счета"
@@ -1621,6 +1579,9 @@
       "Apply": [
         "Применить"
       ],
+      "Delete": [
+        "Удалить"
+      ],
       "Clear data": [
         "Стереть данные"
       ],
@@ -1633,6 +1594,9 @@
       "Re-sign": [
         "Подписать повторно"
       ],
+      "Close modal": [
+        "Закрыть окно"
+      ],
       "Hide advanced PGP settings": [
         "Скрыть расширенные настройки PGP"
       ],
@@ -1642,6 +1606,9 @@
       "Edit": [
         "Изменить"
       ],
+      "Remove": [
+        "Удалить"
+      ],
       "Add to group": [
         "Добавить в группу"
       ],
@@ -1650,6 +1617,9 @@
       ],
       "Contact group": [
         "Группа контактов"
+      ],
+      "Load image": [
+        "Загрузить изображение"
       ],
       "Export": [
         "Экспорт"
@@ -1777,6 +1747,9 @@
       "${ boldSave } by switching to annual billing": [
         "${ boldSave } переключившись на ежегодную оплату"
       ],
+      "Confirm": [
+        "Подтвердить"
+      ],
       "Pay": [
         "Оплатить"
       ],
@@ -1797,6 +1770,18 @@
       ],
       "Increase": [
         "Увеличить"
+      ],
+      "Continue import": [
+        ""
+      ],
+      "Discard": [
+        ""
+      ],
+      "Reconnect": [
+        ""
+      ],
+      "Start import": [
+        ""
       ],
       "Details": [
         "Подробности"
@@ -1819,17 +1804,32 @@
       "Previous": [
         "Назад"
       ],
-      "Continue import": [
-        ""
+      "Use “${ label }” setting": [
+        "Использовать настройку «${ label }»"
       ],
-      "Discard": [
-        ""
+      "Close navigation": [
+        "Cкрыть панель навигации"
       ],
-      "Reconnect": [
-        ""
+      "Open navigation": [
+        "Показать панель навигации"
       ],
-      "Start import": [
-        ""
+      "More info: ${ safeTitle }": [
+        "Больше информации: ${ safeTitle }"
+      ],
+      "Go to panel ${ index }": [
+        "Перейти к панели ${ index }"
+      ],
+      "Next month": [
+        "Следующий месяц"
+      ],
+      "Previous month": [
+        "Предыдущий месяц"
+      ],
+      "Confirm opening of link ${ link }": [
+        "Подтвердить открытие ссылки ${ link }"
+      ],
+      "Continue with Google": [
+        "Продолжить с Google"
       ],
       "Cancel all uploads": [
         "Отменить все загрузки"
@@ -1982,19 +1982,50 @@
         "Отменить"
       ]
     },
+    "Error message": {
+      "Oops, something went wrong": [
+        "Хм. Что-то пошло не так"
+      ],
+      "There was a problem connecting to Proton.": [
+        "Возникла проблема при подключении к Proton."
+      ],
+      "Please ${ refresh } or check your connection.": [
+        "Пожалуйста, ${ refresh } или проверьте подключение."
+      ],
+      "Error: ${ errorMessage }": [
+        "Ошибка: ${ errorMessage }"
+      ],
+      "Internal server error": [
+        "Внутренняя ошибка сервера"
+      ],
+      "Brace yourself till we get the error fixed.": [
+        "Держитесь, пока мы исправляем ошибку."
+      ],
+      "You may also refresh the page or try again later.": [
+        "Также вы можете обновить страницу или повторить попытку позже."
+      ],
+      "Not found": [
+        "Не найдено"
+      ],
+      "Access denied": [
+        "Доступ запрещён"
+      ],
+      "You may also ${ refresh } or try again later.": [
+        "Вы также можете ${ refresh } или повторить попытку позже."
+      ]
+    },
+    "Apps dropdown": {
+      "Proton applications": [
+        "Приложения Proton"
+      ],
+      "Go to ${ title }": [
+        "Перейти к ${ title }"
+      ],
+      "Go to ${ vpnName }": [
+        "Перейти к ${ vpnName }"
+      ]
+    },
     "Title": {
-      "Open actions dropdown": [
-        "Показать список доступных действий"
-      ],
-      "Link confirmation": [
-        "Подтверждение ссылки"
-      ],
-      "Keyboard Shortcuts": [
-        "Сочетания клавиш"
-      ],
-      "What's new": [
-        "Список изменений"
-      ],
       "Sign in again to continue": [
         "Войдите снова, чтобы продолжить"
       ],
@@ -2226,8 +2257,8 @@
       "Amount due": [
         "К оплате"
       ],
-      "Cancel subscription": [
-        "Отменить подписку"
+      "Downgrade account": [
+        ""
       ],
       "Network error": [
         "Ошибка сети"
@@ -2267,6 +2298,18 @@
       ],
       "Beta Access": [
         "Бета-доступ"
+      ],
+      "Open actions dropdown": [
+        "Показать список доступных действий"
+      ],
+      "Link confirmation": [
+        "Подтверждение ссылки"
+      ],
+      "Keyboard Shortcuts": [
+        "Сочетания клавиш"
+      ],
+      "What's new": [
+        "Список изменений"
       ],
       "Duplicate folder found": [
         "Найден дубликат папки"
@@ -2426,18 +2469,6 @@
       ]
     },
     "Label": {
-      "Copy": [
-        "Копировать"
-      ],
-      "Reveal password": [
-        "Показать пароль"
-      ],
-      "Hide password": [
-        "Скрыть пароль"
-      ],
-      "Do not ask again": [
-        "Больше не спрашивать"
-      ],
       "Cancel": [
         "Отменить"
       ],
@@ -2621,6 +2652,18 @@
       "Enable Beta Access": [
         "Включить доступ к бета-версии"
       ],
+      "Copy": [
+        "Копировать"
+      ],
+      "Reveal password": [
+        "Показать пароль"
+      ],
+      "Hide password": [
+        "Скрыть пароль"
+      ],
+      "Do not ask again": [
+        "Больше не спрашивать"
+      ],
       "Merge a folder": [
         "Объединить папку"
       ],
@@ -2715,15 +2758,7 @@
         "Задать срок действия"
       ]
     },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        "Ключ не может быть зашифрован"
-      ]
-    },
     "Placeholder": {
-      "E.g., ": [
-        "То есть, "
-      ],
       "Mailbox password": [
         "Пароль почтового ящика"
       ],
@@ -2778,128 +2813,14 @@
       "Gift code": [
         "Подарочный код"
       ],
+      "E.g., ": [
+        "То есть, "
+      ],
       "New name": [
         "Новое имя"
       ],
       "Enter a new folder name": [
         "Введите имя новой папки"
-      ]
-    },
-    "Time unit": {
-      "${ hours } hour": [
-        "${ hours } час",
-        "${ hours } часа",
-        "${ hours } часов",
-        "${ hours } часов"
-      ],
-      "${ minutes } minute": [
-        "${ minutes } минута",
-        "${ minutes } минуты",
-        "${ minutes } минут",
-        "${ minutes } минут"
-      ]
-    },
-    "Storage": {
-      "Your current storage:": [
-        "Текущее хранилище:"
-      ],
-      "Upgrade storage": [
-        "Увеличить дисковое пространство"
-      ],
-      "Release notes": [
-        "Примечания к выпуску"
-      ]
-    },
-    "Link": {
-      "Learn more": [
-        "Узнать больше"
-      ],
-      "Request an invite": [
-        "Запросить приглашение"
-      ],
-      "Pay invoice": [
-        "Оплатить счёт"
-      ],
-      "Upgrade account": [
-        "Повысить учётную запись"
-      ],
-      "Upgrade": [
-        "Улучшить"
-      ],
-      "Go to subscription plans": [
-        "Перейти на страницу подписки"
-      ],
-      "clearing your browser cache": [
-        "очистка кэша браузера"
-      ],
-      "click here": [
-        "нажмите здесь"
-      ],
-      "Add a gift code": [
-        "Добавить подарочный код"
-      ],
-      "My files": [
-        "Мои файлы"
-      ],
-      "Shared": [
-        "В общем доступе"
-      ],
-      "Trash": [
-        "Корзина"
-      ]
-    },
-    "Hint": {
-      "Use Up and Down keys to access and browse suggestions after input. Press Enter to confirm your choice, or Escape to close the suggestions box.": [
-        "Чтобы получить доступ и просмотреть предложения после ввода, используйте клавиши Вверх и Вниз. Нажмите Enter для подтверждения выбора или Escape для закрытия окна предложений."
-      ],
-      "Found ${ items.length } suggestion, use keyboard to navigate.": [
-        "Найдено ${ items.length } предложение. Используйте клавиатуру для навигации.",
-        "Найдено ${ items.length } предложения. Используйте клавиатуру для навигации.",
-        "Найдено ${ items.length } предложений. Используйте клавиатуру для навигации.",
-        "Найдено ${ items.length } предложения. Используйте клавиатуру для навигации."
-      ]
-    },
-    "Error message": {
-      "Oops, something went wrong": [
-        "Хм. Что-то пошло не так"
-      ],
-      "There was a problem connecting to Proton.": [
-        "Возникла проблема при подключении к Proton."
-      ],
-      "Please ${ refresh } or check your connection.": [
-        "Пожалуйста, ${ refresh } или проверьте подключение."
-      ],
-      "Error: ${ errorMessage }": [
-        "Ошибка: ${ errorMessage }"
-      ],
-      "Internal server error": [
-        "Внутренняя ошибка сервера"
-      ],
-      "Brace yourself till we get the error fixed.": [
-        "Держитесь, пока мы исправляем ошибку."
-      ],
-      "You may also refresh the page or try again later.": [
-        "Также вы можете обновить страницу или повторить попытку позже."
-      ],
-      "Not found": [
-        "Не найдено"
-      ],
-      "Access denied": [
-        "Доступ запрещён"
-      ],
-      "You may also ${ refresh } or try again later.": [
-        "Вы также можете ${ refresh } или повторить попытку позже."
-      ]
-    },
-    "Apps dropdown": {
-      "Proton applications": [
-        "Приложения Proton"
-      ],
-      "Go to ${ title }": [
-        "Перейти к ${ title }"
-      ],
-      "Go to ${ vpnName }": [
-        "Перейти к ${ vpnName }"
       ]
     },
     "Delinquent modal title": {
@@ -2990,6 +2911,44 @@
       ],
       "No verification method available": [
         "Нет доступных способов проверки"
+      ]
+    },
+    "Link": {
+      "Request an invite": [
+        "Запросить приглашение"
+      ],
+      "Pay invoice": [
+        "Оплатить счёт"
+      ],
+      "Upgrade account": [
+        "Повысить учётную запись"
+      ],
+      "Upgrade": [
+        "Улучшить"
+      ],
+      "Go to subscription plans": [
+        "Перейти на страницу подписки"
+      ],
+      "clearing your browser cache": [
+        "очистка кэша браузера"
+      ],
+      "Learn more": [
+        "Узнать больше"
+      ],
+      "click here": [
+        "нажмите здесь"
+      ],
+      "Add a gift code": [
+        "Добавить подарочный код"
+      ],
+      "My files": [
+        "Мои файлы"
+      ],
+      "Shared": [
+        "В общем доступе"
+      ],
+      "Trash": [
+        "Корзина"
       ]
     },
     "Message display when a new app version is available": {
@@ -4362,6 +4321,67 @@
         "Примечание. После нажатия кнопки «Применить» сервис перезагрузится."
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        "Ключ не может быть зашифрован"
+      ]
+    },
+    "Time unit": {
+      "${ hours } hour": [
+        "${ hours } час",
+        "${ hours } часа",
+        "${ hours } часов",
+        "${ hours } часов"
+      ],
+      "${ minutes } minute": [
+        "${ minutes } минута",
+        "${ minutes } минуты",
+        "${ minutes } минут",
+        "${ minutes } минут"
+      ]
+    },
+    "Storage": {
+      "Your current storage:": [
+        "Текущее хранилище:"
+      ],
+      "Upgrade storage": [
+        "Увеличить дисковое пространство"
+      ],
+      "Release notes": [
+        "Примечания к выпуску"
+      ]
+    },
+    "Hint": {
+      "Use Up and Down keys to access and browse suggestions after input. Press Enter to confirm your choice, or Escape to close the suggestions box.": [
+        "Чтобы получить доступ и просмотреть предложения после ввода, используйте клавиши Вверх и Вниз. Нажмите Enter для подтверждения выбора или Escape для закрытия окна предложений."
+      ],
+      "Found ${ items.length } suggestion, use keyboard to navigate.": [
+        "Найдено ${ items.length } предложение. Используйте клавиатуру для навигации.",
+        "Найдено ${ items.length } предложения. Используйте клавиатуру для навигации.",
+        "Найдено ${ items.length } предложений. Используйте клавиатуру для навигации.",
+        "Найдено ${ items.length } предложения. Используйте клавиатуру для навигации."
+      ]
+    },
+    "Validation Error": {
+      "Name must not end with a space": [
+        "Имя не может заканчиваться пробелом"
+      ],
+      "Name must not begin with a space": [
+        "Имя не может начинаться с пробела"
+      ],
+      "Name must be ${ MAX_NAME_LENGTH } characters long at most": [
+        "Имя не может быть более ${ MAX_NAME_LENGTH } символов"
+      ],
+      "\"${ str }\" is not a valid name": [
+        "Недопустимое имя \"${ str }\""
+      ],
+      "Name cannot include invisible characters, / or \\.": [
+        "Имя не может включать невидимые символы, / или \\."
+      ],
+      "Name must not be empty": [
+        "Имя не может быть пустым"
+      ]
+    },
     "Onboarding Proton Drive Action": {
       "Upgrade account": [
         "Улучшить аккаунт"
@@ -4393,26 +4413,6 @@
       ],
       "Protect all your files with end-to-end encryption. Use ${ appName } to store and share your files securely.": [
         "Защитите свои данные, воспользовавшись сквозным шифрованием. ${ appName } позволит вам безопасно хранить файлы и делиться ими."
-      ]
-    },
-    "Validation Error": {
-      "Name must not end with a space": [
-        "Имя не может заканчиваться пробелом"
-      ],
-      "Name must not begin with a space": [
-        "Имя не может начинаться с пробела"
-      ],
-      "Name must be ${ MAX_NAME_LENGTH } characters long at most": [
-        "Имя не может быть более ${ MAX_NAME_LENGTH } символов"
-      ],
-      "\"${ str }\" is not a valid name": [
-        "Недопустимое имя \"${ str }\""
-      ],
-      "Name cannot include invisible characters, / or \\.": [
-        "Имя не может включать невидимые символы, / или \\."
-      ],
-      "Name must not be empty": [
-        "Имя не может быть пустым"
       ]
     },
     "blackfriday Promo title, need to be short": {

@@ -62,12 +62,6 @@
       "Authentication error.": [
         "验证错误。"
       ],
-      "Email address invalid": [
-        "邮箱格式不正确"
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "您使用的浏览器无法完成支付验证，请使用其他浏览器或电脑支付。"
-      ],
       "Incorrect mailbox password. Please try again": [
         "邮箱密码错误，请重试"
       ],
@@ -188,14 +182,20 @@
       "Invalid code": [
         "无效的代码"
       ],
-      "File has no contents to preview": [
-        "文件没有内容可预览"
-      ],
       "We were unable to connect to your service provider.": [
         ""
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         ""
+      ],
+      "File has no contents to preview": [
+        "文件没有内容可预览"
+      ],
+      "Email address invalid": [
+        "邮箱格式不正确"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "您使用的浏览器无法完成支付验证，请使用其他浏览器或电脑支付。"
       ],
       "Could not generate file keys": [
         ""
@@ -373,30 +373,6 @@
       ],
       "Servers are unreachable.": [
         "无法连接服务器。"
-      ],
-      "No results found": [
-        "搜索无结果"
-      ],
-      "Week": [
-        "周"
-      ],
-      "Loading": [
-        "加载中"
-      ],
-      "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
-        "此链接可能使用了欺骗性域名，Internet Explorer 和 Edge 浏览器无法打开。若您确认链接可靠，可使用其他浏览器打开。"
-      ],
-      "This link may be a homograph attack. Please verify this is the link you wish to visit, or don't open it.": [
-        "此链接可能使用了欺骗性域名，请确认可靠性后再打开。"
-      ],
-      "You are about to open another browser tab and visit:": [
-        "您即将在新标签页中打开："
-      ],
-      "Learn more": [
-        "了解详情"
-      ],
-      "Drop the file here to upload": [
-        "请将文件拖拽至此处进行上传"
       ],
       "Loading ${ appName }": [
         "正在加载 ${ appName }"
@@ -686,12 +662,6 @@
       "* Customizable features": [
         "可自定义功能"
       ],
-      "Access your streaming services, like ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, no matter where you are.": [
-        "无论您身于何处，您都可以访问您最喜爱的流媒体服务，如 ${ netflix }、${ disney }、${ primeVideo } 及${ many }。"
-      ],
-      "Access blocked content, like social media, news, Wikipedia, YouTube, and many others, no matter where you are.": [
-        "突破网络封锁，打开自由世界。随时随地访问被屏蔽的内容，例如社交媒体、新闻、维基百科、YouTube等等。"
-      ],
       "For getting started with private and secure emailing.": [
         "适合初次体验安全隐私邮件服务的新手。"
       ],
@@ -715,6 +685,12 @@
       ],
       "For families and small teams; includes both Mail and VPN.": [
         "适合家庭和小团队；包括邮件和 VPN。"
+      ],
+      "Access your streaming services, like ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, no matter where you are.": [
+        "无论您身于何处，您都可以访问您最喜爱的流媒体服务，如 ${ netflix }、${ disney }、${ primeVideo } 及${ many }。"
+      ],
+      "Access blocked content, like social media, news, Wikipedia, YouTube, and many others, no matter where you are.": [
+        "突破网络封锁，打开自由世界。随时随地访问被屏蔽的内容，例如社交媒体、新闻、维基百科、YouTube等等。"
       ],
       "Save 20%": [
         "八折"
@@ -836,24 +812,6 @@
       "Expired": [
         "已失效"
       ],
-      "Unsupported file": [
-        "不支持文件"
-      ],
-      "No preview available": [
-        "没有可用的预览"
-      ],
-      "Preview": [
-        "预览"
-      ],
-      "Loading preview": [
-        "正在载入预览"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "您目前使用的浏览器不支持查看 PDF 文件，请下载后打开。"
-      ],
-      "of": [
-        "/"
-      ],
       "Import contacts": [
         ""
       ],
@@ -880,6 +838,48 @@
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         "无论设置中键盘快捷键是否激活，一些基本的导航和操作始终可用"
+      ],
+      "Unsupported file": [
+        "不支持文件"
+      ],
+      "No preview available": [
+        "没有可用的预览"
+      ],
+      "Preview": [
+        "预览"
+      ],
+      "Loading preview": [
+        "正在载入预览"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "您目前使用的浏览器不支持查看 PDF 文件，请下载后打开。"
+      ],
+      "of": [
+        "/"
+      ],
+      "No results found": [
+        "搜索无结果"
+      ],
+      "Week": [
+        "周"
+      ],
+      "Loading": [
+        "加载中"
+      ],
+      "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
+        "此链接可能使用了欺骗性域名，Internet Explorer 和 Edge 浏览器无法打开。若您确认链接可靠，可使用其他浏览器打开。"
+      ],
+      "This link may be a homograph attack. Please verify this is the link you wish to visit, or don't open it.": [
+        "此链接可能使用了欺骗性域名，请确认可靠性后再打开。"
+      ],
+      "You are about to open another browser tab and visit:": [
+        "您即将在新标签页中打开："
+      ],
+      "Learn more": [
+        "了解详情"
+      ],
+      "Drop the file here to upload": [
+        "请将文件拖拽至此处进行上传"
       ],
       "Transfer skipped for file \"${ file.name }\"": [
         ""
@@ -1369,65 +1369,23 @@
       ]
     },
     "Action": {
-      "Close": [
-        "关闭"
-      ],
-      "Confirm": [
-        "确认"
-      ],
-      "Cancel": [
-        "取消"
-      ],
-      "Submit": [
-        "提交"
-      ],
-      "Close modal": [
-        "关闭"
-      ],
-      "Use “${ label }” setting": [
-        "使用 \"${ label }\" 设置"
-      ],
-      "Close navigation": [
-        "关闭导航栏"
-      ],
-      "Open navigation": [
-        "打开导航栏"
-      ],
-      "More info: ${ safeTitle }": [
-        "更多信息：${ safeTitle }"
-      ],
-      "Go to panel ${ index }": [
-        "前往面板 ${ index }"
-      ],
-      "Load image": [
-        "加载图片"
-      ],
-      "Next month": [
-        "下个月"
-      ],
-      "Previous month": [
-        "上个月"
-      ],
-      "Remove": [
-        "移除"
-      ],
-      "Confirm opening of link ${ link }": [
-        "确认打开链接 ${ link }"
-      ],
-      "Continue with Google": [
-        "使用 Google 帐号登录"
-      ],
-      "Delete": [
-        "删除"
-      ],
       "Signing out": [
         "正在退出账户"
       ],
       "refresh the page": [
         "刷新页面"
       ],
+      "Close": [
+        "关闭"
+      ],
+      "Submit": [
+        "提交"
+      ],
       "Log in": [
         "登录"
+      ],
+      "Cancel": [
+        "取消"
       ],
       "View invoice": [
         "查看账单"
@@ -1561,6 +1519,9 @@
       "Apply": [
         "应用"
       ],
+      "Delete": [
+        "删除"
+      ],
       "Clear data": [
         "清除数据"
       ],
@@ -1573,6 +1534,9 @@
       "Re-sign": [
         "重新签名"
       ],
+      "Close modal": [
+        "关闭"
+      ],
       "Hide advanced PGP settings": [
         "隐藏高级 PGP 设置"
       ],
@@ -1582,6 +1546,9 @@
       "Edit": [
         "编辑"
       ],
+      "Remove": [
+        "移除"
+      ],
       "Add to group": [
         "添加至群组"
       ],
@@ -1590,6 +1557,9 @@
       ],
       "Contact group": [
         "联系人群组"
+      ],
+      "Load image": [
+        "加载图片"
       ],
       "Export": [
         "导出"
@@ -1711,6 +1681,9 @@
       "${ boldSave } by switching to annual billing": [
         "年付可享 ${ boldSave } 优惠"
       ],
+      "Confirm": [
+        "确认"
+      ],
       "Pay": [
         "支付"
       ],
@@ -1731,6 +1704,18 @@
       ],
       "Increase": [
         "增加"
+      ],
+      "Continue import": [
+        ""
+      ],
+      "Discard": [
+        ""
+      ],
+      "Reconnect": [
+        ""
+      ],
+      "Start import": [
+        ""
       ],
       "Details": [
         "详细信息"
@@ -1753,17 +1738,32 @@
       "Previous": [
         "前一页"
       ],
-      "Continue import": [
-        ""
+      "Use “${ label }” setting": [
+        "使用 \"${ label }\" 设置"
       ],
-      "Discard": [
-        ""
+      "Close navigation": [
+        "关闭导航栏"
       ],
-      "Reconnect": [
-        ""
+      "Open navigation": [
+        "打开导航栏"
       ],
-      "Start import": [
-        ""
+      "More info: ${ safeTitle }": [
+        "更多信息：${ safeTitle }"
+      ],
+      "Go to panel ${ index }": [
+        "前往面板 ${ index }"
+      ],
+      "Next month": [
+        "下个月"
+      ],
+      "Previous month": [
+        "上个月"
+      ],
+      "Confirm opening of link ${ link }": [
+        "确认打开链接 ${ link }"
+      ],
+      "Continue with Google": [
+        "使用 Google 帐号登录"
       ],
       "Cancel all uploads": [
         "取消所有上传"
@@ -1916,19 +1916,50 @@
         "撤销"
       ]
     },
+    "Error message": {
+      "Oops, something went wrong": [
+        "哎呀，出错了。"
+      ],
+      "There was a problem connecting to Proton.": [
+        "连接到 Proton 时出现问题。"
+      ],
+      "Please ${ refresh } or check your connection.": [
+        "请${ refresh }或检查网络连接。"
+      ],
+      "Error: ${ errorMessage }": [
+        "错误：${ errorMessage }"
+      ],
+      "Internal server error": [
+        "服务器内部错误"
+      ],
+      "Brace yourself till we get the error fixed.": [
+        "别担心，我们会解决的。"
+      ],
+      "You may also refresh the page or try again later.": [
+        "您也可以刷新页面或稍后重试。"
+      ],
+      "Not found": [
+        "未找到"
+      ],
+      "Access denied": [
+        "访问被拒绝"
+      ],
+      "You may also ${ refresh } or try again later.": [
+        "您也可以${ refresh }页面或稍后再试。"
+      ]
+    },
+    "Apps dropdown": {
+      "Proton applications": [
+        "Proton 产品"
+      ],
+      "Go to ${ title }": [
+        "前往 ${ title }"
+      ],
+      "Go to ${ vpnName }": [
+        "前往 ${ vpnName }"
+      ]
+    },
     "Title": {
-      "Open actions dropdown": [
-        "展开"
-      ],
-      "Link confirmation": [
-        "确认打开链接"
-      ],
-      "Keyboard Shortcuts": [
-        "键盘快捷键"
-      ],
-      "What's new": [
-        "更新内容"
-      ],
       "Sign in again to continue": [
         "再次登录方可继续"
       ],
@@ -2148,8 +2179,8 @@
       "Amount due": [
         "应付金额"
       ],
-      "Cancel subscription": [
-        "停止订购"
+      "Downgrade account": [
+        ""
       ],
       "Network error": [
         "网络错误"
@@ -2189,6 +2220,18 @@
       ],
       "Beta Access": [
         "测试版功能"
+      ],
+      "Open actions dropdown": [
+        "展开"
+      ],
+      "Link confirmation": [
+        "确认打开链接"
+      ],
+      "Keyboard Shortcuts": [
+        "键盘快捷键"
+      ],
+      "What's new": [
+        "更新内容"
       ],
       "Duplicate folder found": [
         "发现重复文件夹"
@@ -2348,18 +2391,6 @@
       ]
     },
     "Label": {
-      "Copy": [
-        "复制"
-      ],
-      "Reveal password": [
-        "显示密码"
-      ],
-      "Hide password": [
-        "隐藏密码"
-      ],
-      "Do not ask again": [
-        "不再询问"
-      ],
       "Cancel": [
         "取消"
       ],
@@ -2543,6 +2574,18 @@
       "Enable Beta Access": [
         "启用测试版功能"
       ],
+      "Copy": [
+        "复制"
+      ],
+      "Reveal password": [
+        "显示密码"
+      ],
+      "Hide password": [
+        "隐藏密码"
+      ],
+      "Do not ask again": [
+        "不再询问"
+      ],
       "Merge a folder": [
         "合并文件夹"
       ],
@@ -2637,15 +2680,7 @@
         "设置有效期"
       ]
     },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        "此密钥不能用于加密"
-      ]
-    },
     "Placeholder": {
-      "E.g., ": [
-        "例如："
-      ],
       "Mailbox password": [
         "邮箱密码"
       ],
@@ -2700,119 +2735,14 @@
       "Gift code": [
         "礼品码"
       ],
+      "E.g., ": [
+        "例如："
+      ],
       "New name": [
         "新名称"
       ],
       "Enter a new folder name": [
         "输入新文件夹名称"
-      ]
-    },
-    "Time unit": {
-      "${ hours } hour": [
-        "${ hours } 小时"
-      ],
-      "${ minutes } minute": [
-        "${ minutes } 分钟"
-      ]
-    },
-    "Storage": {
-      "Your current storage:": [
-        "您当前的存储空间："
-      ],
-      "Upgrade storage": [
-        "购买存储空间"
-      ],
-      "Release notes": [
-        "版本说明"
-      ]
-    },
-    "Link": {
-      "Learn more": [
-        "了解详情"
-      ],
-      "Request an invite": [
-        "请求邀请"
-      ],
-      "Pay invoice": [
-        "支付"
-      ],
-      "Upgrade account": [
-        "升级账户"
-      ],
-      "Upgrade": [
-        "升级"
-      ],
-      "Go to subscription plans": [
-        "转至订阅计划"
-      ],
-      "clearing your browser cache": [
-        "清除浏览器缓存"
-      ],
-      "click here": [
-        "点击此处"
-      ],
-      "Add a gift code": [
-        "使用礼品码"
-      ],
-      "My files": [
-        "我的文件"
-      ],
-      "Shared": [
-        "共享"
-      ],
-      "Trash": [
-        "回收站"
-      ]
-    },
-    "Hint": {
-      "Use Up and Down keys to access and browse suggestions after input. Press Enter to confirm your choice, or Escape to close the suggestions box.": [
-        "使用向上和向下键进入并浏览输入后的建议。按 Enter 键确认您的选择，或按 Escape 键关闭建议框。"
-      ],
-      "Found ${ items.length } suggestion, use keyboard to navigate.": [
-        "找到 ${ items.length } 建议，使用键盘导航。"
-      ]
-    },
-    "Error message": {
-      "Oops, something went wrong": [
-        "哎呀，出错了。"
-      ],
-      "There was a problem connecting to Proton.": [
-        "连接到 Proton 时出现问题。"
-      ],
-      "Please ${ refresh } or check your connection.": [
-        "请${ refresh }或检查网络连接。"
-      ],
-      "Error: ${ errorMessage }": [
-        "错误：${ errorMessage }"
-      ],
-      "Internal server error": [
-        "服务器内部错误"
-      ],
-      "Brace yourself till we get the error fixed.": [
-        "别担心，我们会解决的。"
-      ],
-      "You may also refresh the page or try again later.": [
-        "您也可以刷新页面或稍后重试。"
-      ],
-      "Not found": [
-        "未找到"
-      ],
-      "Access denied": [
-        "访问被拒绝"
-      ],
-      "You may also ${ refresh } or try again later.": [
-        "您也可以${ refresh }页面或稍后再试。"
-      ]
-    },
-    "Apps dropdown": {
-      "Proton applications": [
-        "Proton 产品"
-      ],
-      "Go to ${ title }": [
-        "前往 ${ title }"
-      ],
-      "Go to ${ vpnName }": [
-        "前往 ${ vpnName }"
       ]
     },
     "Delinquent modal title": {
@@ -2897,6 +2827,44 @@
       ],
       "No verification method available": [
         "无可用的验证方法"
+      ]
+    },
+    "Link": {
+      "Request an invite": [
+        "请求邀请"
+      ],
+      "Pay invoice": [
+        "支付"
+      ],
+      "Upgrade account": [
+        "升级账户"
+      ],
+      "Upgrade": [
+        "升级"
+      ],
+      "Go to subscription plans": [
+        "转至订阅计划"
+      ],
+      "clearing your browser cache": [
+        "清除浏览器缓存"
+      ],
+      "Learn more": [
+        "了解详情"
+      ],
+      "click here": [
+        "点击此处"
+      ],
+      "Add a gift code": [
+        "使用礼品码"
+      ],
+      "My files": [
+        "我的文件"
+      ],
+      "Shared": [
+        "共享"
+      ],
+      "Trash": [
+        "回收站"
       ]
     },
     "Message display when a new app version is available": {
@@ -4137,6 +4105,58 @@
         "请注意：点击“应用”按钮后，服务将重新加载。"
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        "此密钥不能用于加密"
+      ]
+    },
+    "Time unit": {
+      "${ hours } hour": [
+        "${ hours } 小时"
+      ],
+      "${ minutes } minute": [
+        "${ minutes } 分钟"
+      ]
+    },
+    "Storage": {
+      "Your current storage:": [
+        "您当前的存储空间："
+      ],
+      "Upgrade storage": [
+        "购买存储空间"
+      ],
+      "Release notes": [
+        "版本说明"
+      ]
+    },
+    "Hint": {
+      "Use Up and Down keys to access and browse suggestions after input. Press Enter to confirm your choice, or Escape to close the suggestions box.": [
+        "使用向上和向下键进入并浏览输入后的建议。按 Enter 键确认您的选择，或按 Escape 键关闭建议框。"
+      ],
+      "Found ${ items.length } suggestion, use keyboard to navigate.": [
+        "找到 ${ items.length } 建议，使用键盘导航。"
+      ]
+    },
+    "Validation Error": {
+      "Name must not end with a space": [
+        "名称不能以空格结尾"
+      ],
+      "Name must not begin with a space": [
+        "名称不能以空格开始"
+      ],
+      "Name must be ${ MAX_NAME_LENGTH } characters long at most": [
+        "名称长度最多为 ${ MAX_NAME_LENGTH } 个字符"
+      ],
+      "\"${ str }\" is not a valid name": [
+        "“${ str }”不是有效名称"
+      ],
+      "Name cannot include invisible characters, / or \\.": [
+        "名称中不能包含不可见字符，/ 或 \\。"
+      ],
+      "Name must not be empty": [
+        "名称不能为空"
+      ]
+    },
     "Onboarding Proton Drive Action": {
       "Upgrade account": [
         "升级账户"
@@ -4168,26 +4188,6 @@
       ],
       "Protect all your files with end-to-end encryption. Use ${ appName } to store and share your files securely.": [
         "使用端到端加密技术保护您的所有文件，使用 ${ appName } 来安全存储和共享文件。"
-      ]
-    },
-    "Validation Error": {
-      "Name must not end with a space": [
-        "名称不能以空格结尾"
-      ],
-      "Name must not begin with a space": [
-        "名称不能以空格开始"
-      ],
-      "Name must be ${ MAX_NAME_LENGTH } characters long at most": [
-        "名称长度最多为 ${ MAX_NAME_LENGTH } 个字符"
-      ],
-      "\"${ str }\" is not a valid name": [
-        "“${ str }”不是有效名称"
-      ],
-      "Name cannot include invisible characters, / or \\.": [
-        "名称中不能包含不可见字符，/ 或 \\。"
-      ],
-      "Name must not be empty": [
-        "名称不能为空"
       ]
     },
     "blackfriday Promo title, need to be short": {

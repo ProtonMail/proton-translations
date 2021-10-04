@@ -62,12 +62,6 @@
       "Authentication error.": [
         "認証エラー"
       ],
-      "Email address invalid": [
-        "無効なメールアドレスです"
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "お使いのブラウザでは、支払いを完全に承認できません。 別のブラウザを使用するか、コンピューターからログインしてください。"
-      ],
       "Incorrect mailbox password. Please try again": [
         "メールボックスのパスワードが正しくありません。再度入力してください。"
       ],
@@ -188,14 +182,20 @@
       "Invalid code": [
         "無効なコードです"
       ],
-      "File has no contents to preview": [
-        "ファイルにプレビューするコンテンツがありません"
-      ],
       "We were unable to connect to your service provider.": [
         ""
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         ""
+      ],
+      "File has no contents to preview": [
+        "ファイルにプレビューするコンテンツがありません"
+      ],
+      "Email address invalid": [
+        "無効なメールアドレスです"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "お使いのブラウザでは、支払いを完全に承認できません。 別のブラウザを使用するか、コンピューターからログインしてください。"
       ],
       "Could not generate file keys": [
         ""
@@ -373,30 +373,6 @@
       ],
       "Servers are unreachable.": [
         "サーバーに接続できません。"
-      ],
-      "No results found": [
-        "該当する項目がありません"
-      ],
-      "Week": [
-        "週表示"
-      ],
-      "Loading": [
-        "読み込み中"
-      ],
-      "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
-        "このリンクはホモグラフ攻撃の可能性があり、Internet ExplorerおよびEdgeブラウザーで開くことはできません。リンクが正当であることが確実な場合は、別のブラウザーを使用して開いてください。"
-      ],
-      "This link may be a homograph attack. Please verify this is the link you wish to visit, or don't open it.": [
-        "このリンクはホモグラフ攻撃の可能性があります。 これがあなたのアクセスしたいリンクであることを確認するか、開かないようにしてください。"
-      ],
-      "You are about to open another browser tab and visit:": [
-        "別のタブで下記リンクを開こうとしています："
-      ],
-      "Learn more": [
-        "より詳しく"
-      ],
-      "Drop the file here to upload": [
-        "アップロードするファイルをここにドロップしてください"
       ],
       "Loading ${ appName }": [
         "${ appName } を読み込み中"
@@ -686,12 +662,6 @@
       "* Customizable features": [
         "* カスタマイズ可能な項目"
       ],
-      "Access your streaming services, like ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, no matter where you are.": [
-        "場所を問わず、${ netflix }, ${ disney }, ${ primeVideo }, ${ many } などのストリーミングサービスにアクセスできます。"
-      ],
-      "Access blocked content, like social media, news, Wikipedia, YouTube, and many others, no matter where you are.": [
-        "場所を問わず、ソーシャルメディア、ニュース、Wikipedia、YouTubeなどのブロックされたコンテンツにアクセスできます。"
-      ],
       "For getting started with private and secure emailing.": [
         "プライベートで安全なメールを始めるために。"
       ],
@@ -715,6 +685,12 @@
       ],
       "For families and small teams; includes both Mail and VPN.": [
         "家族や小規模なチームには、メールとVPNの両方が含まれています。"
+      ],
+      "Access your streaming services, like ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, no matter where you are.": [
+        "場所を問わず、${ netflix }, ${ disney }, ${ primeVideo }, ${ many } などのストリーミングサービスにアクセスできます。"
+      ],
+      "Access blocked content, like social media, news, Wikipedia, YouTube, and many others, no matter where you are.": [
+        "場所を問わず、ソーシャルメディア、ニュース、Wikipedia、YouTubeなどのブロックされたコンテンツにアクセスできます。"
       ],
       "Save 20%": [
         "20% 割引"
@@ -836,24 +812,6 @@
       "Expired": [
         "有効期限切れ"
       ],
-      "Unsupported file": [
-        "非対応のファイル"
-      ],
-      "No preview available": [
-        "プレビューは利用できません"
-      ],
-      "Preview": [
-        "プレビュー"
-      ],
-      "Loading preview": [
-        "プレビューを読み込み中"
-      ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "このブラウザーは PDF ドキュメントのプレビューをサポートしていません。ファイルをダウンロードしてください。"
-      ],
-      "of": [
-        " / "
-      ],
       "Import contacts": [
         ""
       ],
@@ -880,6 +838,48 @@
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         ""
+      ],
+      "Unsupported file": [
+        "非対応のファイル"
+      ],
+      "No preview available": [
+        "プレビューは利用できません"
+      ],
+      "Preview": [
+        "プレビュー"
+      ],
+      "Loading preview": [
+        "プレビューを読み込み中"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "このブラウザーは PDF ドキュメントのプレビューをサポートしていません。ファイルをダウンロードしてください。"
+      ],
+      "of": [
+        " / "
+      ],
+      "No results found": [
+        "該当する項目がありません"
+      ],
+      "Week": [
+        "週表示"
+      ],
+      "Loading": [
+        "読み込み中"
+      ],
+      "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
+        "このリンクはホモグラフ攻撃の可能性があり、Internet ExplorerおよびEdgeブラウザーで開くことはできません。リンクが正当であることが確実な場合は、別のブラウザーを使用して開いてください。"
+      ],
+      "This link may be a homograph attack. Please verify this is the link you wish to visit, or don't open it.": [
+        "このリンクはホモグラフ攻撃の可能性があります。 これがあなたのアクセスしたいリンクであることを確認するか、開かないようにしてください。"
+      ],
+      "You are about to open another browser tab and visit:": [
+        "別のタブで下記リンクを開こうとしています："
+      ],
+      "Learn more": [
+        "より詳しく"
+      ],
+      "Drop the file here to upload": [
+        "アップロードするファイルをここにドロップしてください"
       ],
       "Transfer skipped for file \"${ file.name }\"": [
         ""
@@ -1369,65 +1369,23 @@
       ]
     },
     "Action": {
-      "Close": [
-        "閉じる"
-      ],
-      "Confirm": [
-        "確認"
-      ],
-      "Cancel": [
-        "キャンセル"
-      ],
-      "Submit": [
-        "送信"
-      ],
-      "Close modal": [
-        "画面を閉じる"
-      ],
-      "Use “${ label }” setting": [
-        "「{ label }」設定を使用する"
-      ],
-      "Close navigation": [
-        "ナビゲーションを閉じる"
-      ],
-      "Open navigation": [
-        "ナビゲーションを開く"
-      ],
-      "More info: ${ safeTitle }": [
-        "詳細: ${ safeTitle }"
-      ],
-      "Go to panel ${ index }": [
-        "パネル ${ index } へ移動"
-      ],
-      "Load image": [
-        "画像を読み込む"
-      ],
-      "Next month": [
-        "翌月"
-      ],
-      "Previous month": [
-        "前の月"
-      ],
-      "Remove": [
-        "削除"
-      ],
-      "Confirm opening of link ${ link }": [
-        "リンク ${ link } を確認"
-      ],
-      "Continue with Google": [
-        "Googleで続行"
-      ],
-      "Delete": [
-        "削除"
-      ],
       "Signing out": [
         "サインアウトしています"
       ],
       "refresh the page": [
         "ページを更新"
       ],
+      "Close": [
+        "閉じる"
+      ],
+      "Submit": [
+        "送信"
+      ],
       "Log in": [
         "ログイン"
+      ],
+      "Cancel": [
+        "キャンセル"
       ],
       "View invoice": [
         "請求書を参照"
@@ -1561,6 +1519,9 @@
       "Apply": [
         "適用"
       ],
+      "Delete": [
+        "削除"
+      ],
       "Clear data": [
         "データをクリア"
       ],
@@ -1573,6 +1534,9 @@
       "Re-sign": [
         "再署名"
       ],
+      "Close modal": [
+        "画面を閉じる"
+      ],
       "Hide advanced PGP settings": [
         "拡張 PGP 設定を非表示"
       ],
@@ -1582,6 +1546,9 @@
       "Edit": [
         "編集"
       ],
+      "Remove": [
+        "削除"
+      ],
       "Add to group": [
         "グループに追加"
       ],
@@ -1590,6 +1557,9 @@
       ],
       "Contact group": [
         "連絡先グループ"
+      ],
+      "Load image": [
+        "画像を読み込む"
       ],
       "Export": [
         "エクスポート"
@@ -1711,6 +1681,9 @@
       "${ boldSave } by switching to annual billing": [
         "1 年プランに変更すると、${ boldSave } の割引が適用されます"
       ],
+      "Confirm": [
+        "確認"
+      ],
       "Pay": [
         "支払う"
       ],
@@ -1731,6 +1704,18 @@
       ],
       "Increase": [
         "増加"
+      ],
+      "Continue import": [
+        ""
+      ],
+      "Discard": [
+        ""
+      ],
+      "Reconnect": [
+        ""
+      ],
+      "Start import": [
+        ""
       ],
       "Details": [
         "詳細"
@@ -1753,17 +1738,32 @@
       "Previous": [
         "前へ"
       ],
-      "Continue import": [
-        ""
+      "Use “${ label }” setting": [
+        "「{ label }」設定を使用する"
       ],
-      "Discard": [
-        ""
+      "Close navigation": [
+        "ナビゲーションを閉じる"
       ],
-      "Reconnect": [
-        ""
+      "Open navigation": [
+        "ナビゲーションを開く"
       ],
-      "Start import": [
-        ""
+      "More info: ${ safeTitle }": [
+        "詳細: ${ safeTitle }"
+      ],
+      "Go to panel ${ index }": [
+        "パネル ${ index } へ移動"
+      ],
+      "Next month": [
+        "翌月"
+      ],
+      "Previous month": [
+        "前の月"
+      ],
+      "Confirm opening of link ${ link }": [
+        "リンク ${ link } を確認"
+      ],
+      "Continue with Google": [
+        "Googleで続行"
       ],
       "Cancel all uploads": [
         "すべてのアップロードをキャンセル"
@@ -1916,19 +1916,50 @@
         "取り消し"
       ]
     },
+    "Error message": {
+      "Oops, something went wrong": [
+        "エラーが発生しました。"
+      ],
+      "There was a problem connecting to Proton.": [
+        "Proton への接続に問題がありました。"
+      ],
+      "Please ${ refresh } or check your connection.": [
+        "${ refresh } または接続を確認してください。"
+      ],
+      "Error: ${ errorMessage }": [
+        "エラー： ${ errorMessage }"
+      ],
+      "Internal server error": [
+        "内部サーバーエラーです。"
+      ],
+      "Brace yourself till we get the error fixed.": [
+        "エラーが解消されるまでお待ちください。"
+      ],
+      "You may also refresh the page or try again later.": [
+        "ページを更新するか、後ほどもう一度お試しください。"
+      ],
+      "Not found": [
+        "見つかりませんでした。"
+      ],
+      "Access denied": [
+        "アクセスが拒否されました。"
+      ],
+      "You may also ${ refresh } or try again later.": [
+        "${ refresh } するか再度お試しください。"
+      ]
+    },
+    "Apps dropdown": {
+      "Proton applications": [
+        "Proton アプリケーション"
+      ],
+      "Go to ${ title }": [
+        "${ title } を開く"
+      ],
+      "Go to ${ vpnName }": [
+        "${ vpnName } へ移動"
+      ]
+    },
     "Title": {
-      "Open actions dropdown": [
-        "アクションドロップダウンを開く"
-      ],
-      "Link confirmation": [
-        "リンクの確認"
-      ],
-      "Keyboard Shortcuts": [
-        "キーボードショートカット"
-      ],
-      "What's new": [
-        "更新情報"
-      ],
       "Sign in again to continue": [
         "続行するには再度ログインしてください"
       ],
@@ -2148,8 +2179,8 @@
       "Amount due": [
         "支払い総額"
       ],
-      "Cancel subscription": [
-        "サブスクリプションをキャンセル"
+      "Downgrade account": [
+        ""
       ],
       "Network error": [
         "ネットワークエラー"
@@ -2189,6 +2220,18 @@
       ],
       "Beta Access": [
         "ベータ版アクセス"
+      ],
+      "Open actions dropdown": [
+        "アクションドロップダウンを開く"
+      ],
+      "Link confirmation": [
+        "リンクの確認"
+      ],
+      "Keyboard Shortcuts": [
+        "キーボードショートカット"
+      ],
+      "What's new": [
+        "更新情報"
       ],
       "Duplicate folder found": [
         "重複したフォルダーが見つかりました"
@@ -2348,18 +2391,6 @@
       ]
     },
     "Label": {
-      "Copy": [
-        "コピー"
-      ],
-      "Reveal password": [
-        "パスワードを表示"
-      ],
-      "Hide password": [
-        "パスワードを非表示"
-      ],
-      "Do not ask again": [
-        "今後表示しない"
-      ],
       "Cancel": [
         "キャンセル"
       ],
@@ -2543,6 +2574,18 @@
       "Enable Beta Access": [
         "ベータ版アクセスを有効にする"
       ],
+      "Copy": [
+        "コピー"
+      ],
+      "Reveal password": [
+        "パスワードを表示"
+      ],
+      "Hide password": [
+        "パスワードを非表示"
+      ],
+      "Do not ask again": [
+        "今後表示しない"
+      ],
       "Merge a folder": [
         "フォルダーを統合"
       ],
@@ -2637,15 +2680,7 @@
         "有効期限を設定"
       ]
     },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        "鍵は暗号化に使用できません"
-      ]
-    },
     "Placeholder": {
-      "E.g., ": [
-        "例: "
-      ],
       "Mailbox password": [
         "メールボックスのパスワード"
       ],
@@ -2700,119 +2735,14 @@
       "Gift code": [
         "ギフトコード"
       ],
+      "E.g., ": [
+        "例: "
+      ],
       "New name": [
         "新しい名前"
       ],
       "Enter a new folder name": [
         "フォルダー名を入力してください"
-      ]
-    },
-    "Time unit": {
-      "${ hours } hour": [
-        "${ hours } 時間"
-      ],
-      "${ minutes } minute": [
-        "${ minutes } 分"
-      ]
-    },
-    "Storage": {
-      "Your current storage:": [
-        "現在のストレージ:"
-      ],
-      "Upgrade storage": [
-        "ストレージ容量を増やす"
-      ],
-      "Release notes": [
-        "更新情報"
-      ]
-    },
-    "Link": {
-      "Learn more": [
-        "より詳しく"
-      ],
-      "Request an invite": [
-        "登録を申請"
-      ],
-      "Pay invoice": [
-        "請求の支払い"
-      ],
-      "Upgrade account": [
-        "アカウントをアップグレード"
-      ],
-      "Upgrade": [
-        "アップグレード"
-      ],
-      "Go to subscription plans": [
-        "サブスクリプション プランへ移動"
-      ],
-      "clearing your browser cache": [
-        "ブラウザのキャッシュを消去"
-      ],
-      "click here": [
-        "ここをクリック"
-      ],
-      "Add a gift code": [
-        "ギフトコードを追加"
-      ],
-      "My files": [
-        "マイファイル"
-      ],
-      "Shared": [
-        "共有中"
-      ],
-      "Trash": [
-        "ごみ箱"
-      ]
-    },
-    "Hint": {
-      "Use Up and Down keys to access and browse suggestions after input. Press Enter to confirm your choice, or Escape to close the suggestions box.": [
-        ""
-      ],
-      "Found ${ items.length } suggestion, use keyboard to navigate.": [
-        ""
-      ]
-    },
-    "Error message": {
-      "Oops, something went wrong": [
-        "エラーが発生しました。"
-      ],
-      "There was a problem connecting to Proton.": [
-        "Proton への接続に問題がありました。"
-      ],
-      "Please ${ refresh } or check your connection.": [
-        "${ refresh } または接続を確認してください。"
-      ],
-      "Error: ${ errorMessage }": [
-        "エラー： ${ errorMessage }"
-      ],
-      "Internal server error": [
-        "内部サーバーエラーです。"
-      ],
-      "Brace yourself till we get the error fixed.": [
-        "エラーが解消されるまでお待ちください。"
-      ],
-      "You may also refresh the page or try again later.": [
-        "ページを更新するか、後ほどもう一度お試しください。"
-      ],
-      "Not found": [
-        "見つかりませんでした。"
-      ],
-      "Access denied": [
-        "アクセスが拒否されました。"
-      ],
-      "You may also ${ refresh } or try again later.": [
-        "${ refresh } するか再度お試しください。"
-      ]
-    },
-    "Apps dropdown": {
-      "Proton applications": [
-        "Proton アプリケーション"
-      ],
-      "Go to ${ title }": [
-        "${ title } を開く"
-      ],
-      "Go to ${ vpnName }": [
-        "${ vpnName } へ移動"
       ]
     },
     "Delinquent modal title": {
@@ -2897,6 +2827,44 @@
       ],
       "No verification method available": [
         "検証方法がありません"
+      ]
+    },
+    "Link": {
+      "Request an invite": [
+        "登録を申請"
+      ],
+      "Pay invoice": [
+        "請求の支払い"
+      ],
+      "Upgrade account": [
+        "アカウントをアップグレード"
+      ],
+      "Upgrade": [
+        "アップグレード"
+      ],
+      "Go to subscription plans": [
+        "サブスクリプション プランへ移動"
+      ],
+      "clearing your browser cache": [
+        "ブラウザのキャッシュを消去"
+      ],
+      "Learn more": [
+        "より詳しく"
+      ],
+      "click here": [
+        "ここをクリック"
+      ],
+      "Add a gift code": [
+        "ギフトコードを追加"
+      ],
+      "My files": [
+        "マイファイル"
+      ],
+      "Shared": [
+        "共有中"
+      ],
+      "Trash": [
+        "ごみ箱"
       ]
     },
     "Message display when a new app version is available": {
@@ -4137,6 +4105,58 @@
         "注意: 「適用」をクリックするとサービスが再読み込みされます。"
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        "鍵は暗号化に使用できません"
+      ]
+    },
+    "Time unit": {
+      "${ hours } hour": [
+        "${ hours } 時間"
+      ],
+      "${ minutes } minute": [
+        "${ minutes } 分"
+      ]
+    },
+    "Storage": {
+      "Your current storage:": [
+        "現在のストレージ:"
+      ],
+      "Upgrade storage": [
+        "ストレージ容量を増やす"
+      ],
+      "Release notes": [
+        "更新情報"
+      ]
+    },
+    "Hint": {
+      "Use Up and Down keys to access and browse suggestions after input. Press Enter to confirm your choice, or Escape to close the suggestions box.": [
+        ""
+      ],
+      "Found ${ items.length } suggestion, use keyboard to navigate.": [
+        ""
+      ]
+    },
+    "Validation Error": {
+      "Name must not end with a space": [
+        "名前は最後が空白で終わることができません"
+      ],
+      "Name must not begin with a space": [
+        "名前は最後が空白で始まることができません"
+      ],
+      "Name must be ${ MAX_NAME_LENGTH } characters long at most": [
+        "名前は ${ MAX_NAME_LENGTH } 文字までである必要があります"
+      ],
+      "\"${ str }\" is not a valid name": [
+        "「${ str }」は正しい名前ではありません"
+      ],
+      "Name cannot include invisible characters, / or \\.": [
+        "名前に \"/\" または \"\\\" の文字を使うことができません。 "
+      ],
+      "Name must not be empty": [
+        "名前を空にすることはできません"
+      ]
+    },
     "Onboarding Proton Drive Action": {
       "Upgrade account": [
         "アカウントをアップグレード"
@@ -4168,26 +4188,6 @@
       ],
       "Protect all your files with end-to-end encryption. Use ${ appName } to store and share your files securely.": [
         "エンドツーエンド暗号化ですべてのファイルを保護します。${ appName } を使ってファイルを安全に保管、共有できます。"
-      ]
-    },
-    "Validation Error": {
-      "Name must not end with a space": [
-        "名前は最後が空白で終わることができません"
-      ],
-      "Name must not begin with a space": [
-        "名前は最後が空白で始まることができません"
-      ],
-      "Name must be ${ MAX_NAME_LENGTH } characters long at most": [
-        "名前は ${ MAX_NAME_LENGTH } 文字までである必要があります"
-      ],
-      "\"${ str }\" is not a valid name": [
-        "「${ str }」は正しい名前ではありません"
-      ],
-      "Name cannot include invisible characters, / or \\.": [
-        "名前に \"/\" または \"\\\" の文字を使うことができません。 "
-      ],
-      "Name must not be empty": [
-        "名前を空にすることはできません"
       ]
     },
     "blackfriday Promo title, need to be short": {
