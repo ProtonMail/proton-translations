@@ -5,6 +5,456 @@
   },
   "contexts": {
     "": {},
+    "Error": {
+      "This field is required": [
+        "Это обязательное поле"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Минимальная длина для этого поля: ${ minimumLength }."
+      ],
+      "Email is not valid": [
+        "Эл. почта недействительна"
+      ],
+      "Not a valid number": [
+        "Номер недействителен"
+      ],
+      "Passwords do not match": [
+        "Пароли не совпадают"
+      ],
+      "Address primary private key not found": [
+        "Основной секретный ключ для адреса не найден"
+      ],
+      "Calendar primary private key is not decrypted": [
+        "Основной секретный ключ календаря не расшифрован"
+      ],
+      "Request timed out.": [
+        "Истекло время ожидания запроса."
+      ],
+      "Signature verification failed": [
+        "Сбой проверки подписи"
+      ],
+      "Could not find address ${ email }.": [
+        "Не могу найти адрес ${ email }."
+      ],
+      "Missing signature": [
+        "Подпись отсутствует"
+      ],
+      "Contact signature not verified": [
+        "Подпись контакта не проверена"
+      ],
+      "Signature not verified": [
+        "Подпись не проверена"
+      ],
+      "Invalid name": [
+        "Недопустимое имя"
+      ],
+      "Email address disabled": [
+        "Эл. адрес отключен"
+      ],
+      "No keys retrieved for internal user": [
+        "Ключи внутреннего пользователя не получены"
+      ],
+      "No valid keys retrieved for internal user": [
+        "Действительные ключи внутреннего пользователя не получены"
+      ],
+      "Contact signature could not be verified": [
+        "Подпись контакта не может быть проверена"
+      ],
+      "No key retrieved for internal user is valid for sending": [
+        "Ни один их полученных ключей внутреннего пользователя не годен для отправки"
+      ],
+      "Trusted keys are not valid for sending": [
+        "Доверенные ключи не действительны для отправки"
+      ],
+      "No WKD key retrieved for user is valid for sending": [
+        "Ни один из полученных WKD ключей пользователя не годен для отправки"
+      ],
+      "The sending key is not valid": [
+        "Ключ отправки недействительный"
+      ],
+      "Unknown error": [
+        "Неизвестная ошибка"
+      ],
+      "This message may contain some link's URL that cannot be properly opened by your current browser": [
+        "Это сообщение может содержать ссылки, которые не могут быть правильно открыты вашим текущим браузером"
+      ],
+      "Authentication canceled.": [
+        "Аутентификация отменена."
+      ],
+      "Your import will not be processed.": [
+        "Ваш импорт не будет обработан."
+      ],
+      "Authentication error.": [
+        "Ошибка аутентификации."
+      ],
+      "Email address invalid": [
+        "Неверный адрес электронной почты"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "Ваш браузер не позволяет завершить платеж. Пожалуйста, используйте другой браузер или войдите с компьютера."
+      ],
+      "Incorrect mailbox password. Please try again": [
+        "Неверный пароль почтового ящика. Пожалуйста, попробуйте снова"
+      ],
+      "Incorrect login credentials. Please try again": [
+        "Некорректные идентификационные данные. Пожалуйста, попробуйте ещё раз"
+      ],
+      "Can't validate email, try again later": [
+        "Не удается проверить адрес электронной почты. Повторите попытку позже."
+      ],
+      "Can't validate phone, try again later": [
+        "Не удается проверить номер телефона. Повторите попытку позже."
+      ],
+      "Enter 6 digits": [
+        "Введите 6 цифр"
+      ],
+      "Invalid verification code": [
+        "Неверный проверочный код"
+      ],
+      "Process aborted": [
+        "Процесс прерван"
+      ],
+      "Payment process cancelled": [
+        "Процесс оплаты отменён"
+      ],
+      "Payment process failed": [
+        "Сбой в процессе оплаты"
+      ],
+      "Payment process consumed": [
+        "Процесс оплаты завершен"
+      ],
+      "Payment process not supported": [
+        "Процесс оплаты не поддерживается"
+      ],
+      "Unknown payment token status": [
+        "Неизвестный статус платёжного токена"
+      ],
+      "Tab closed": [
+        "Вкладка закрыта"
+      ],
+      "Name on card required": [
+        "Требуется имя на карте"
+      ],
+      "Invalid expiration date": [
+        "Неверная дата окончания срока действия карты"
+      ],
+      "Invalid card number": [
+        "Неверный номер карты"
+      ],
+      "Invalid ${ name } code": [
+        "Неверный код ${ name }"
+      ],
+      "Invalid postal code": [
+        "Неправильный почтовый индекс"
+      ],
+      "Error connecting to the Bitcoin API.": [
+        "Ошибка при подключении к Bitcoin API."
+      ],
+      "Amount below minimum.": [
+        "Сумма ниже минимально возможной."
+      ],
+      "Amount above the maximum.": [
+        "Сумма выше максимально возможной."
+      ],
+      "The minimum amount that can be donated is ${ price }": [
+        "Минимальная сумма, которую можно пожертвовать, составляет ${ price }"
+      ],
+      "The minimum amount of credit that can be added is ${ _price }": [
+        "Минимальная сумма, которую можно добавить, составляет ${ _price }"
+      ],
+      "The minimum payment we accept is ${ _price2 }": [
+        "Минимальная оплата, которую мы принимаем, составляет ${ _price2 }"
+      ],
+      "Checkout expired, please try again.": [
+        "Срок действия заказа истек, попробуйте еще раз."
+      ],
+      "Invalid code": [
+        "Неверный код"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Что-то пошло не так, пожалуйста, ${ refresh }, чтобы продолжить. Если вы всё же видите это сообщение об ошибке, пожалуйста, свяжитесь с нашей службой поддержки ${ supportTeam }."
+      ],
+      "Image upload failed": [
+        "Сбой загрузки изображения"
+      ],
+      "Contact could not be saved": [
+        "Контакт не может быть сохранён"
+      ],
+      "Some contacts could not be deleted": [
+        "Некоторые контакты не могут быть удалены"
+      ],
+      "Preferences could not be saved": [
+        "Настройки не могут быть сохранены"
+      ],
+      "Some groups could not be deleted": [
+        "Некоторые группы не могут быть удалены"
+      ],
+      "Invalid public key file": [
+        "Неверный файл публичного ключа"
+      ],
+      "You can't send a mail to more than 100 recipients": [
+        "Нельзя отправлять письмо более чем 100 получателям"
+      ],
+      "One of the contacts has no email address: ${ noEmailsContactNamesList }": [
+        "У одного из контактов нет адреса электронной почты: ${ noEmailsContactNamesList }",
+        "У нескольких контактов нет адресов электронной почты: ${ noEmailsContactNamesList } ",
+        "У нескольких контактов нет адресов электронной почты: ${ noEmailsContactNamesList } ",
+        "У нескольких контактов нет адресов электронной почты: ${ noEmailsContactNamesList } "
+      ],
+      "You can't send vCards of more than 10 contacts": [
+        "Нельзя отправить визитные карточки более чем 10 контактов"
+      ],
+      "There was an error when exporting the contacts vCards": [
+        "Произошла ошибка при экспорте визитных карточек контактов"
+      ],
+      "One of the groups has no contacts: ${ noContactGroupList }": [
+        "В одной из групп нет контактов: ${ noContactGroupList }",
+        "В нескольких группах нет контактов: ${ noContactGroupList } ",
+        "В нескольких группах нет контактов: ${ noContactGroupList } ",
+        "В нескольких группах нет контактов: ${ noContactGroupList } "
+      ],
+      "You must set a name": [
+        "Вы должны задать имя"
+      ],
+      "A group with this name already exists": [
+        "Группа с таким именем уже существует"
+      ],
+      "We were unable to connect to your service provider.": [
+        ""
+      ],
+      "Please try to reauthenticate and make sure the permissions are set correctly.": [
+        ""
+      ],
+      "Primary address key is not decrypted": [
+        "Не расшифрован ключ основного адреса"
+      ],
+      "No valid address found": [
+        "Не найдено действительных адресов"
+      ],
+      "Primary address key is not decrypted.": [
+        "Не расшифрован ключ основного адреса."
+      ],
+      "Name required": [
+        "Требуется имя"
+      ],
+      "Self invitation not allowed": [
+        "Себя пригласить нельзя"
+      ],
+      "${ list } doesn't have a valid email address": [
+        "У ${ list } нет действительного адреса электронной почты",
+        "У ${ list } нет действительных адресов электронной почты",
+        "У ${ list } нет действительных адресов электронной почты",
+        "У ${ list } нет действительных адресов электронной почты"
+      ],
+      "${ _list } doesn't have an email address": [
+        "У ${ _list } нет адреса электронной почты",
+        "У ${ _list } нет адресов электронной почты",
+        "У ${ _list } нет адресов электронной почты",
+        "У ${ _list } нет адресов электронной почты"
+      ],
+      "${ list } has invalid emails": [
+        "У ${ list } есть недопустимый email",
+        "У ${ list } есть недопустимые email",
+        "У ${ list } есть недопустимые email",
+        "У ${ list } есть недопустимые email"
+      ],
+      "${ _list2 } has no contacts": [
+        "В ${ _list2 } нет контактов",
+        "В ${ _list2 } нет контактов",
+        "В ${ _list2 } нет контактов",
+        "В ${ _list2 } нет контактов"
+      ],
+      "Failed to get original occurrence in series": [
+        "Не удалось загрузить начальное вхождение в серию событий"
+      ],
+      "It is only possible to move events between ${ minDateString } - ${ maxDateString }": [
+        "Перемещать события можно только в интервале ${ minDateString } - ${ maxDateString }"
+      ],
+      "It is only possible to create events between ${ minDateString } - ${ maxDateString }": [
+        "Создавать события можно только в интервале ${ minDateString } - ${ maxDateString }"
+      ],
+      "Invitation failed to be sent": [
+        "Не удалось отправить приглашение"
+      ],
+      "Answer failed to be sent": [
+        "Не удалось отправить ответ"
+      ],
+      "Cancellation failed to be sent": [
+        "Не удалось отправить сообщение об отмене события"
+      ],
+      "Invalid link to the event": [
+        "Неверная ссылка на событие"
+      ],
+      "Please create an address first.": [
+        "Пожалуйста, сначала создайте адрес."
+      ],
+      "Start time must be before end time": [
+        "Время начала должно быть раньше времени окончания"
+      ],
+      "Interval cannot be empty": [
+        "Интервал не может быть пустым"
+      ],
+      "Ends on date cannot be empty": [
+        "Дата окончания не может быть пустой"
+      ],
+      "Ends on date must be after start time": [
+        "Дата окончания должна быть позже времени начала"
+      ],
+      "Number of occurrences cannot be empty": [
+        "Количество повторов не может быть пустым"
+      ],
+      "A maximum of 10 notifications is allowed": [
+        "Разрешено не более 10 уведомлений"
+      ],
+      "Invalid email address": [
+        "Неверный адрес электронной почты"
+      ],
+      "Decryption error: Decryption of this event's content failed.": [
+        "Ошибка расшифровки: не удалось расшифровать содержимое этого события."
+      ],
+      "Error: ${ errorMessage }": [
+        "Ошибка: ${ errorMessage }"
+      ],
+      "Error": [
+        "Ошибка"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "Пароль должен содержать хотя бы ${ length } символ",
+        "Пароль должен содержать хотя бы ${ length } символа",
+        "Пароль должен содержать хотя бы ${ length } символов",
+        "Пароль должен содержать хотя бы ${ length } символа"
+      ]
+    },
+    "file size format": {
+      "bytes": [
+        "байт"
+      ],
+      "KB": [
+        "КБ"
+      ],
+      "MB": [
+        "МБ"
+      ],
+      "GB": [
+        "ГБ"
+      ]
+    },
+    "Contact field label": {
+      "Name": [
+        "Имя"
+      ],
+      "Email": [
+        "Эл. почта"
+      ],
+      "Phone": [
+        "Телефон"
+      ],
+      "Address": [
+        "Адрес"
+      ],
+      "Photo": [
+        "Фотография"
+      ],
+      "Organization": [
+        "Организация"
+      ],
+      "Birthday": [
+        "День рождения"
+      ],
+      "Anniversary": [
+        "Годовщина"
+      ],
+      "Title": [
+        "Должность"
+      ],
+      "Role": [
+        "Роль"
+      ],
+      "Note": [
+        "Примечание"
+      ],
+      "URL": [
+        "URL"
+      ],
+      "Gender": [
+        "Пол"
+      ],
+      "Language": [
+        "Язык"
+      ],
+      "Timezone": [
+        "Часовой пояс"
+      ],
+      "Geo": [
+        "Геолокация"
+      ],
+      "Logo": [
+        "Лого"
+      ],
+      "Member": [
+        "Участник"
+      ]
+    },
+    "Contact type label": {
+      "Work": [
+        "Рабочий"
+      ],
+      "Personal": [
+        "Личный"
+      ],
+      "Mobile": [
+        "Мобильный"
+      ],
+      "Main": [
+        "Основной"
+      ],
+      "Yomi": [
+        "Ёми"
+      ],
+      "Other": [
+        "Другое"
+      ],
+      "Fax": [
+        "Факс"
+      ],
+      "Pager": [
+        "Пейджер"
+      ]
+    },
+    "Property type": {
+      "Email": [
+        "Адрес эл. почты"
+      ],
+      "Home": [
+        "Домашний"
+      ],
+      "Work": [
+        "Рабочий"
+      ],
+      "Other": [
+        "Другой"
+      ],
+      "Phone": [
+        "Телефон"
+      ],
+      "Mobile": [
+        "Мобильный"
+      ],
+      "Main": [
+        "Основной"
+      ],
+      "Fax": [
+        "Факс"
+      ],
+      "Pager": [
+        "Пейджер"
+      ],
+      "Address": [
+        "Адрес"
+      ]
+    },
     "Calendar status": {
       "Syncing": [
         "Синхронизация"
@@ -847,12 +1297,6 @@
       "* Customizable features": [
         "Настраиваемые функции"
       ],
-      "Access your streaming services, like ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, no matter where you are.": [
-        "Доступ к вашим услугам стриминга, таким как ${ netflix }, ${ disney }, ${ primeVideo } ${ many } независимо от того, где вы находитесь."
-      ],
-      "Access blocked content, like social media, news, Wikipedia, YouTube, and many others, no matter where you are.": [
-        "Доступ к заблокированному контенту, например социальным сетям, новостям, Википедии, YouTube и многому другому независимо от того, где вы находитесь."
-      ],
       "For getting started with private and secure emailing.": [
         "Для начала работы с безопасной и надежной электронной почтой."
       ],
@@ -876,6 +1320,12 @@
       ],
       "For families and small teams; includes both Mail and VPN.": [
         "Для семей и небольших команд. Версия включает как почту, так и VPN."
+      ],
+      "Access your streaming services, like ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, no matter where you are.": [
+        "Доступ к вашим услугам стриминга, таким как ${ netflix }, ${ disney }, ${ primeVideo } ${ many } независимо от того, где вы находитесь."
+      ],
+      "Access blocked content, like social media, news, Wikipedia, YouTube, and many others, no matter where you are.": [
+        "Доступ к заблокированному контенту, например социальным сетям, новостям, Википедии, YouTube и многому другому независимо от того, где вы находитесь."
       ],
       "Save 20%": [
         "Скидка 20%"
@@ -1368,456 +1818,6 @@
       ],
       "Loading event": [
         "Загрузка события"
-      ]
-    },
-    "Error": {
-      "Address primary private key not found": [
-        "Основной секретный ключ для адреса не найден"
-      ],
-      "Calendar primary private key is not decrypted": [
-        "Основной секретный ключ календаря не расшифрован"
-      ],
-      "This field is required": [
-        "Это обязательное поле"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Минимальная длина для этого поля: ${ minimumLength }."
-      ],
-      "Email is not valid": [
-        "Эл. почта недействительна"
-      ],
-      "Not a valid number": [
-        "Номер недействителен"
-      ],
-      "Passwords do not match": [
-        "Пароли не совпадают"
-      ],
-      "Request timed out.": [
-        "Истекло время ожидания запроса."
-      ],
-      "Signature verification failed": [
-        "Сбой проверки подписи"
-      ],
-      "Could not find address ${ email }.": [
-        "Не могу найти адрес ${ email }."
-      ],
-      "Missing signature": [
-        "Подпись отсутствует"
-      ],
-      "Contact signature not verified": [
-        "Подпись контакта не проверена"
-      ],
-      "Signature not verified": [
-        "Подпись не проверена"
-      ],
-      "Invalid name": [
-        "Недопустимое имя"
-      ],
-      "Email address disabled": [
-        "Эл. адрес отключен"
-      ],
-      "No keys retrieved for internal user": [
-        "Ключи внутреннего пользователя не получены"
-      ],
-      "No valid keys retrieved for internal user": [
-        "Действительные ключи внутреннего пользователя не получены"
-      ],
-      "Contact signature could not be verified": [
-        "Подпись контакта не может быть проверена"
-      ],
-      "No key retrieved for internal user is valid for sending": [
-        "Ни один их полученных ключей внутреннего пользователя не годен для отправки"
-      ],
-      "Trusted keys are not valid for sending": [
-        "Доверенные ключи не действительны для отправки"
-      ],
-      "No WKD key retrieved for user is valid for sending": [
-        "Ни один из полученных WKD ключей пользователя не годен для отправки"
-      ],
-      "The sending key is not valid": [
-        "Ключ отправки недействительный"
-      ],
-      "Unknown error": [
-        "Неизвестная ошибка"
-      ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser": [
-        "Это сообщение может содержать ссылки, которые не могут быть правильно открыты вашим текущим браузером"
-      ],
-      "Authentication canceled.": [
-        "Аутентификация отменена."
-      ],
-      "Your import will not be processed.": [
-        "Ваш импорт не будет обработан."
-      ],
-      "Authentication error.": [
-        "Ошибка аутентификации."
-      ],
-      "Email address invalid": [
-        "Неверный адрес электронной почты"
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "Ваш браузер не позволяет завершить платеж. Пожалуйста, используйте другой браузер или войдите с компьютера."
-      ],
-      "Incorrect mailbox password. Please try again": [
-        "Неверный пароль почтового ящика. Пожалуйста, попробуйте снова"
-      ],
-      "Incorrect login credentials. Please try again": [
-        "Некорректные идентификационные данные. Пожалуйста, попробуйте ещё раз"
-      ],
-      "Can't validate email, try again later": [
-        "Не удается проверить адрес электронной почты. Повторите попытку позже."
-      ],
-      "Can't validate phone, try again later": [
-        "Не удается проверить номер телефона. Повторите попытку позже."
-      ],
-      "Enter 6 digits": [
-        "Введите 6 цифр"
-      ],
-      "Invalid verification code": [
-        "Неверный проверочный код"
-      ],
-      "Process aborted": [
-        "Процесс прерван"
-      ],
-      "Payment process cancelled": [
-        "Процесс оплаты отменён"
-      ],
-      "Payment process failed": [
-        "Сбой в процессе оплаты"
-      ],
-      "Payment process consumed": [
-        "Процесс оплаты завершен"
-      ],
-      "Payment process not supported": [
-        "Процесс оплаты не поддерживается"
-      ],
-      "Unknown payment token status": [
-        "Неизвестный статус платёжного токена"
-      ],
-      "Tab closed": [
-        "Вкладка закрыта"
-      ],
-      "Name on card required": [
-        "Требуется имя на карте"
-      ],
-      "Invalid expiration date": [
-        "Неверная дата окончания срока действия карты"
-      ],
-      "Invalid card number": [
-        "Неверный номер карты"
-      ],
-      "Invalid ${ name } code": [
-        "Неверный код ${ name }"
-      ],
-      "Invalid postal code": [
-        "Неправильный почтовый индекс"
-      ],
-      "Error connecting to the Bitcoin API.": [
-        "Ошибка при подключении к Bitcoin API."
-      ],
-      "Amount below minimum.": [
-        "Сумма ниже минимально возможной."
-      ],
-      "Amount above the maximum.": [
-        "Сумма выше максимально возможной."
-      ],
-      "The minimum amount that can be donated is ${ price }": [
-        "Минимальная сумма, которую можно пожертвовать, составляет ${ price }"
-      ],
-      "The minimum amount of credit that can be added is ${ _price }": [
-        "Минимальная сумма, которую можно добавить, составляет ${ _price }"
-      ],
-      "The minimum payment we accept is ${ _price2 }": [
-        "Минимальная оплата, которую мы принимаем, составляет ${ _price2 }"
-      ],
-      "Checkout expired, please try again.": [
-        "Срок действия заказа истек, попробуйте еще раз."
-      ],
-      "Invalid code": [
-        "Неверный код"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Что-то пошло не так, пожалуйста, ${ refresh }, чтобы продолжить. Если вы всё же видите это сообщение об ошибке, пожалуйста, свяжитесь с нашей службой поддержки ${ supportTeam }."
-      ],
-      "Image upload failed": [
-        "Сбой загрузки изображения"
-      ],
-      "Contact could not be saved": [
-        "Контакт не может быть сохранён"
-      ],
-      "Some contacts could not be deleted": [
-        "Некоторые контакты не могут быть удалены"
-      ],
-      "Preferences could not be saved": [
-        "Настройки не могут быть сохранены"
-      ],
-      "Some groups could not be deleted": [
-        "Некоторые группы не могут быть удалены"
-      ],
-      "Invalid public key file": [
-        "Неверный файл публичного ключа"
-      ],
-      "You can't send a mail to more than 100 recipients": [
-        "Нельзя отправлять письмо более чем 100 получателям"
-      ],
-      "One of the contacts has no email address: ${ noEmailsContactNamesList }": [
-        "У одного из контактов нет адреса электронной почты: ${ noEmailsContactNamesList }",
-        "У нескольких контактов нет адресов электронной почты: ${ noEmailsContactNamesList } ",
-        "У нескольких контактов нет адресов электронной почты: ${ noEmailsContactNamesList } ",
-        "У нескольких контактов нет адресов электронной почты: ${ noEmailsContactNamesList } "
-      ],
-      "You can't send vCards of more than 10 contacts": [
-        "Нельзя отправить визитные карточки более чем 10 контактов"
-      ],
-      "There was an error when exporting the contacts vCards": [
-        "Произошла ошибка при экспорте визитных карточек контактов"
-      ],
-      "One of the groups has no contacts: ${ noContactGroupList }": [
-        "В одной из групп нет контактов: ${ noContactGroupList }",
-        "В нескольких группах нет контактов: ${ noContactGroupList } ",
-        "В нескольких группах нет контактов: ${ noContactGroupList } ",
-        "В нескольких группах нет контактов: ${ noContactGroupList } "
-      ],
-      "You must set a name": [
-        "Вы должны задать имя"
-      ],
-      "A group with this name already exists": [
-        "Группа с таким именем уже существует"
-      ],
-      "Primary address key is not decrypted": [
-        "Не расшифрован ключ основного адреса"
-      ],
-      "We were unable to connect to your service provider.": [
-        ""
-      ],
-      "Please try to reauthenticate and make sure the permissions are set correctly.": [
-        ""
-      ],
-      "No valid address found": [
-        "Не найдено действительных адресов"
-      ],
-      "Primary address key is not decrypted.": [
-        "Не расшифрован ключ основного адреса."
-      ],
-      "Name required": [
-        "Требуется имя"
-      ],
-      "Self invitation not allowed": [
-        "Себя пригласить нельзя"
-      ],
-      "${ list } doesn't have a valid email address": [
-        "У ${ list } нет действительного адреса электронной почты",
-        "У ${ list } нет действительных адресов электронной почты",
-        "У ${ list } нет действительных адресов электронной почты",
-        "У ${ list } нет действительных адресов электронной почты"
-      ],
-      "${ _list } doesn't have an email address": [
-        "У ${ _list } нет адреса электронной почты",
-        "У ${ _list } нет адресов электронной почты",
-        "У ${ _list } нет адресов электронной почты",
-        "У ${ _list } нет адресов электронной почты"
-      ],
-      "${ list } has invalid emails": [
-        "У ${ list } есть недопустимый email",
-        "У ${ list } есть недопустимые email",
-        "У ${ list } есть недопустимые email",
-        "У ${ list } есть недопустимые email"
-      ],
-      "${ _list2 } has no contacts": [
-        "В ${ _list2 } нет контактов",
-        "В ${ _list2 } нет контактов",
-        "В ${ _list2 } нет контактов",
-        "В ${ _list2 } нет контактов"
-      ],
-      "Failed to get original occurrence in series": [
-        "Не удалось загрузить начальное вхождение в серию событий"
-      ],
-      "It is only possible to move events between ${ minDateString } - ${ maxDateString }": [
-        "Перемещать события можно только в интервале ${ minDateString } - ${ maxDateString }"
-      ],
-      "It is only possible to create events between ${ minDateString } - ${ maxDateString }": [
-        "Создавать события можно только в интервале ${ minDateString } - ${ maxDateString }"
-      ],
-      "Invitation failed to be sent": [
-        "Не удалось отправить приглашение"
-      ],
-      "Answer failed to be sent": [
-        "Не удалось отправить ответ"
-      ],
-      "Cancellation failed to be sent": [
-        "Не удалось отправить сообщение об отмене события"
-      ],
-      "Invalid link to the event": [
-        "Неверная ссылка на событие"
-      ],
-      "Please create an address first.": [
-        "Пожалуйста, сначала создайте адрес."
-      ],
-      "Start time must be before end time": [
-        "Время начала должно быть раньше времени окончания"
-      ],
-      "Interval cannot be empty": [
-        "Интервал не может быть пустым"
-      ],
-      "Ends on date cannot be empty": [
-        "Дата окончания не может быть пустой"
-      ],
-      "Ends on date must be after start time": [
-        "Дата окончания должна быть позже времени начала"
-      ],
-      "Number of occurrences cannot be empty": [
-        "Количество повторов не может быть пустым"
-      ],
-      "A maximum of 10 notifications is allowed": [
-        "Разрешено не более 10 уведомлений"
-      ],
-      "Invalid email address": [
-        "Неверный адрес электронной почты"
-      ],
-      "Decryption error: Decryption of this event's content failed.": [
-        "Ошибка расшифровки: не удалось расшифровать содержимое этого события."
-      ],
-      "Error: ${ errorMessage }": [
-        "Ошибка: ${ errorMessage }"
-      ],
-      "Error": [
-        "Ошибка"
-      ]
-    },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "Пароль должен содержать хотя бы ${ length } символ",
-        "Пароль должен содержать хотя бы ${ length } символа",
-        "Пароль должен содержать хотя бы ${ length } символов",
-        "Пароль должен содержать хотя бы ${ length } символа"
-      ]
-    },
-    "file size format": {
-      "bytes": [
-        "байт"
-      ],
-      "KB": [
-        "КБ"
-      ],
-      "MB": [
-        "МБ"
-      ],
-      "GB": [
-        "ГБ"
-      ]
-    },
-    "Contact field label": {
-      "Name": [
-        "Имя"
-      ],
-      "Email": [
-        "Эл. почта"
-      ],
-      "Phone": [
-        "Телефон"
-      ],
-      "Address": [
-        "Адрес"
-      ],
-      "Photo": [
-        "Фотография"
-      ],
-      "Organization": [
-        "Организация"
-      ],
-      "Birthday": [
-        "День рождения"
-      ],
-      "Anniversary": [
-        "Годовщина"
-      ],
-      "Title": [
-        "Должность"
-      ],
-      "Role": [
-        "Роль"
-      ],
-      "Note": [
-        "Примечание"
-      ],
-      "URL": [
-        "URL"
-      ],
-      "Gender": [
-        "Пол"
-      ],
-      "Language": [
-        "Язык"
-      ],
-      "Timezone": [
-        "Часовой пояс"
-      ],
-      "Geo": [
-        "Геолокация"
-      ],
-      "Logo": [
-        "Лого"
-      ],
-      "Member": [
-        "Участник"
-      ]
-    },
-    "Contact type label": {
-      "Work": [
-        "Рабочий"
-      ],
-      "Personal": [
-        "Личный"
-      ],
-      "Mobile": [
-        "Мобильный"
-      ],
-      "Main": [
-        "Основной"
-      ],
-      "Yomi": [
-        "Ёми"
-      ],
-      "Other": [
-        "Другое"
-      ],
-      "Fax": [
-        "Факс"
-      ],
-      "Pager": [
-        "Пейджер"
-      ]
-    },
-    "Property type": {
-      "Email": [
-        "Адрес эл. почты"
-      ],
-      "Home": [
-        "Домашний"
-      ],
-      "Work": [
-        "Рабочий"
-      ],
-      "Other": [
-        "Другой"
-      ],
-      "Phone": [
-        "Телефон"
-      ],
-      "Mobile": [
-        "Мобильный"
-      ],
-      "Main": [
-        "Основной"
-      ],
-      "Fax": [
-        "Факс"
-      ],
-      "Pager": [
-        "Пейджер"
-      ],
-      "Address": [
-        "Адрес"
       ]
     },
     "PGP key warning": {
@@ -2657,8 +2657,8 @@
       "Amount due": [
         "К оплате"
       ],
-      "Cancel subscription": [
-        "Отменить подписку"
+      "Downgrade account": [
+        ""
       ],
       "Network error": [
         "Ошибка сети"
@@ -2964,6 +2964,11 @@
         "Изменить событие"
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        "Ключ не может быть использован для шифрования"
+      ]
+    },
     "Storage": {
       "Your current storage:": [
         "Текущее хранилище:"
@@ -2973,11 +2978,6 @@
       ],
       "Release notes": [
         "Список изменений"
-      ]
-    },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        "Ключ не может быть использован для шифрования"
       ]
     },
     "Label": {
@@ -4802,11 +4802,6 @@
         "Примечание: сервис будет перезагружен, когда вы нажмете кнопку Применить."
       ]
     },
-    "Select files": {
-      "Upload": [
-        "Загрузить"
-      ]
-    },
     "Loading info": {
       "Connecting to your contacts provider": [
         ""
@@ -4826,6 +4821,11 @@
     "Confirm modal title": {
       "Quit import?": [
         ""
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "Загрузить"
       ]
     },
     "Message display when a new app version is available": {

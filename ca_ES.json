@@ -5,6 +5,442 @@
   },
   "contexts": {
     "": {},
+    "Error": {
+      "This field is required": [
+        "Aquest camp és obligatori"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Aquest camp requereix un mínim de ${ minimumLength } caràcters."
+      ],
+      "Email is not valid": [
+        "El correu electrònic no és vàlid"
+      ],
+      "Not a valid number": [
+        "Número no vàlid"
+      ],
+      "Passwords do not match": [
+        "Les contrasenyes no coincideixen"
+      ],
+      "Address primary private key not found": [
+        "No s'ha trobat la clau privada primària de l'adreça"
+      ],
+      "Calendar primary private key is not decrypted": [
+        "La clau privada primària del calendari no està desxifrada"
+      ],
+      "Request timed out.": [
+        "S'ha esgotat el temps d'espera."
+      ],
+      "Signature verification failed": [
+        "Ha fallat la verificació de la signatura"
+      ],
+      "Could not find address ${ email }.": [
+        "No s'ha pogut trobar l'adreça de correu electrònic ${ email }."
+      ],
+      "Missing signature": [
+        "Signatura no trobada"
+      ],
+      "Contact signature not verified": [
+        "Signatura del contacte no verificada"
+      ],
+      "Signature not verified": [
+        "Signatura no verificada"
+      ],
+      "Invalid name": [
+        "Nom no vàlid"
+      ],
+      "Email address disabled": [
+        "Correu electrònic deshabilitat"
+      ],
+      "No keys retrieved for internal user": [
+        "No s’ha recuperat cap clau per a l’usuari intern"
+      ],
+      "No valid keys retrieved for internal user": [
+        "No hi ha claus vàlides recuperades per l'usuari intern"
+      ],
+      "Contact signature could not be verified": [
+        "La signatura del contacte no pot ser verificada"
+      ],
+      "No key retrieved for internal user is valid for sending": [
+        "Cap enviament de cap clau per a l’usuari intern és vàlid per enviar-la"
+      ],
+      "Trusted keys are not valid for sending": [
+        "Les claus de confiança no són vàlides per enviar-les"
+      ],
+      "No WKD key retrieved for user is valid for sending": [
+        "No hi ha cap clau WKD per a l'usuari vàlida per a l'enviament"
+      ],
+      "The sending key is not valid": [
+        "La clau enviada no es vàlida"
+      ],
+      "Unknown error": [
+        "Error desconegut"
+      ],
+      "This message may contain some link's URL that cannot be properly opened by your current browser": [
+        "Aquest missatge pot contenir algunes adreces URL que no es poden obrir amb el vostre navegador actual"
+      ],
+      "Authentication canceled.": [
+        "S'ha cancel·lat l'autenticació."
+      ],
+      "Your import will not be processed.": [
+        "La vostra importació no es processarà."
+      ],
+      "Authentication error.": [
+        "Error d'autenticació."
+      ],
+      "Email address invalid": [
+        "L'adreça de correu electrònic no és vàlida"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "El navegador que utilitzeu no permet l'autorització total del pagament. Utilitzeu un navegador diferent o inicieu la sessió mitjançant un ordinador."
+      ],
+      "Incorrect mailbox password. Please try again": [
+        "Contrasenya de bustia incorrecta, si us plau, torneu-ho a provar de nou"
+      ],
+      "Incorrect login credentials. Please try again": [
+        "Credencials de connexió incorrectes. Si us plau, torni-ho a intentar"
+      ],
+      "Can't validate email, try again later": [
+        "No es pot validar el correu electrònic, torneu-ho a provar més tard"
+      ],
+      "Can't validate phone, try again later": [
+        "No es pot validar el telèfon, torneu-ho a provar més tard"
+      ],
+      "Enter 6 digits": [
+        "Introduïu 6 dígits"
+      ],
+      "Invalid verification code": [
+        "Codi de verificació no vàlid"
+      ],
+      "Process aborted": [
+        "Procés anul·lat"
+      ],
+      "Payment process cancelled": [
+        "Procés de pagament cancel·lat"
+      ],
+      "Payment process failed": [
+        "Ha fallat el procés de pagament"
+      ],
+      "Payment process consumed": [
+        "Procés de pagament esgotat"
+      ],
+      "Payment process not supported": [
+        "Procés de pagament no suportat"
+      ],
+      "Unknown payment token status": [
+        "Estat del testimoni de pagament desconegut"
+      ],
+      "Tab closed": [
+        "Pestanya tancada"
+      ],
+      "Name on card required": [
+        "Es requereix el nom a la targeta"
+      ],
+      "Invalid expiration date": [
+        "Data de caducitat no vàlida"
+      ],
+      "Invalid card number": [
+        "Número de targeta no vàlid"
+      ],
+      "Invalid ${ name } code": [
+        "Codi ${ name } no vàlid"
+      ],
+      "Invalid postal code": [
+        "Codi postal no vàlid"
+      ],
+      "Error connecting to the Bitcoin API.": [
+        "Error en connectar-se a l'API de Bitcoin."
+      ],
+      "Amount below minimum.": [
+        "Quantitat per sota del mínim."
+      ],
+      "Amount above the maximum.": [
+        "Quantitat per sobre del màxim."
+      ],
+      "The minimum amount that can be donated is ${ price }": [
+        "L'import mínim que es pot donar és ${ price }"
+      ],
+      "The minimum amount of credit that can be added is ${ _price }": [
+        "La quantitat mínima de crèdit que es pot afegir és ${ _price }"
+      ],
+      "The minimum payment we accept is ${ _price2 }": [
+        "El pagament mínim que acceptem és ${ _price2 }"
+      ],
+      "Checkout expired, please try again.": [
+        "El pagament ha caducat. Torneu-ho a provar."
+      ],
+      "Invalid code": [
+        "Codi no vàlid"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "S'ha produït un error, ${ refresh } per continuar. Si continueu veient aquest missatge d’error, poseu-vos en contacte amb el nostre ${ supportTeam }."
+      ],
+      "Image upload failed": [
+        "La càrrega de la imatge ha fallat"
+      ],
+      "Contact could not be saved": [
+        "El contacte no s'ha pogut desar"
+      ],
+      "Some contacts could not be deleted": [
+        "Alguns contactes no s'han pogut esborrar"
+      ],
+      "Preferences could not be saved": [
+        "No s'han pogut desar les preferències"
+      ],
+      "Some groups could not be deleted": [
+        "Alguns grups no poden ser esborrats"
+      ],
+      "Invalid public key file": [
+        "Arxiu de clau pública invàlid"
+      ],
+      "You can't send a mail to more than 100 recipients": [
+        "No podeu enviar un correu a més de 100 destinataris"
+      ],
+      "One of the contacts has no email address: ${ noEmailsContactNamesList }": [
+        "Un dels contactes no té adreça de correu electrònic: ${ noEmailsContactNamesList }",
+        "Alguns contactes no tenen adreça de correu electrònic: ${ noEmailsContactNamesList } "
+      ],
+      "You can't send vCards of more than 10 contacts": [
+        "No podeu enviar vcards de més de 10 contactes"
+      ],
+      "There was an error when exporting the contacts vCards": [
+        "Hi ha hagut un error exportant les vcards dels contactes"
+      ],
+      "One of the groups has no contacts: ${ noContactGroupList }": [
+        "Un dels grups no té contactes: ${ noContactGroupList }",
+        "Alguns grups no tenen contactes: ${ noContactGroupList } "
+      ],
+      "You must set a name": [
+        "Heu d'establir un nom"
+      ],
+      "A group with this name already exists": [
+        "Ja existeix un grup amb aquest nom"
+      ],
+      "We were unable to connect to your service provider.": [
+        "No hem pogut connectar-nos al vostre proveïdor de serveis."
+      ],
+      "Please try to reauthenticate and make sure the permissions are set correctly.": [
+        "Si us plau, proveu de tornar-vos a autenticar i assegureu-vos que els permisos estan correctament configurats."
+      ],
+      "Primary address key is not decrypted": [
+        "La clau de la adreça primària no està desxifrada"
+      ],
+      "No valid address found": [
+        "No s’ha trobat una adreça vàlida"
+      ],
+      "Primary address key is not decrypted.": [
+        "La clau de la adreça primària no està desxifrada."
+      ],
+      "Name required": [
+        "Nom requerit"
+      ],
+      "Self invitation not allowed": [
+        "Autoinvitació no permesa"
+      ],
+      "${ list } doesn't have a valid email address": [
+        "${ list } no té una adreça de correu electrònic vàlida",
+        "Alguns contactes no tenen una adreça de correu electrònic vàlida: ${ list }"
+      ],
+      "${ _list } doesn't have an email address": [
+        "${ _list } no té una adreça de correu electrònic",
+        "Alguns contactes no tenen adreça de correu electrònic: ${ _list } "
+      ],
+      "${ list } has invalid emails": [
+        "${ list } té correus electrònics incorrectes",
+        "Alguns grups tenen correus electrònics incorrectes: ${ list }"
+      ],
+      "${ _list2 } has no contacts": [
+        "${ _list2 } no té contactes",
+        "Alguns grups no tenen contactes: ${ _list2 } "
+      ],
+      "Failed to get original occurrence in series": [
+        "No s'ha pogut obtenir l'ocurrència original a sèries"
+      ],
+      "It is only possible to move events between ${ minDateString } - ${ maxDateString }": [
+        "Només és possible moure esdeveniments entre ${ minDateString } - ${ maxDateString }"
+      ],
+      "It is only possible to create events between ${ minDateString } - ${ maxDateString }": [
+        "Només és possible crear esdeveniments entre ${ minDateString } - ${ maxDateString }"
+      ],
+      "Invitation failed to be sent": [
+        "No s'ha pogut enviar la invitació"
+      ],
+      "Answer failed to be sent": [
+        "No s'ha pogut enviar la resposta"
+      ],
+      "Cancellation failed to be sent": [
+        "No s'ha pogut enviar la cancel·lació"
+      ],
+      "Invalid link to the event": [
+        "Enllaç invàlid a esdeveniment"
+      ],
+      "Please create an address first.": [
+        "Si us plau, creeu la vostra adreça primer."
+      ],
+      "Start time must be before end time": [
+        "L’hora d’inici ha de ser abans de l’hora de finalització"
+      ],
+      "Interval cannot be empty": [
+        "L'interval no pot estar buit"
+      ],
+      "Ends on date cannot be empty": [
+        "La data final no pot estar buida"
+      ],
+      "Ends on date must be after start time": [
+        "La data de finalització ha de ser posterior a la d'inici"
+      ],
+      "Number of occurrences cannot be empty": [
+        "El nombre d’ocurrències no pot estar buit"
+      ],
+      "A maximum of 10 notifications is allowed": [
+        "Es permeten un màxim de 10 notificacions"
+      ],
+      "Invalid email address": [
+        "Adreça de correu electrònic invàlida"
+      ],
+      "Decryption error: Decryption of this event's content failed.": [
+        "Error de desxifrat: el desxifrat del contingut d'encriptació d'aquest esdeveniment a fallat."
+      ],
+      "Error: ${ errorMessage }": [
+        "Error: ${ errorMessage }"
+      ],
+      "Error": [
+        "Error"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "La contrasenya ha de contenir com a mínim ${ length } caràcter",
+        "La contrasenya ha de tenir com a mínim ${ length } caràcters"
+      ]
+    },
+    "file size format": {
+      "bytes": [
+        "bytes"
+      ],
+      "KB": [
+        "KB"
+      ],
+      "MB": [
+        "MB"
+      ],
+      "GB": [
+        "GB"
+      ]
+    },
+    "Contact field label": {
+      "Name": [
+        "Nom"
+      ],
+      "Email": [
+        "Correu electrònic"
+      ],
+      "Phone": [
+        "Telèfon"
+      ],
+      "Address": [
+        "Adreça"
+      ],
+      "Photo": [
+        "Foto"
+      ],
+      "Organization": [
+        "Organització"
+      ],
+      "Birthday": [
+        "Aniversari"
+      ],
+      "Anniversary": [
+        "Aniversari"
+      ],
+      "Title": [
+        "Títol"
+      ],
+      "Role": [
+        "Rol"
+      ],
+      "Note": [
+        "Nota"
+      ],
+      "URL": [
+        "URL"
+      ],
+      "Gender": [
+        "Gènere"
+      ],
+      "Language": [
+        "Idioma"
+      ],
+      "Timezone": [
+        "Fus horari"
+      ],
+      "Geo": [
+        "Geolocalització"
+      ],
+      "Logo": [
+        "Logo"
+      ],
+      "Member": [
+        "Membre"
+      ]
+    },
+    "Contact type label": {
+      "Work": [
+        "Feina"
+      ],
+      "Personal": [
+        "Personal"
+      ],
+      "Mobile": [
+        "Mòbil"
+      ],
+      "Main": [
+        "Principal"
+      ],
+      "Yomi": [
+        "Yomi"
+      ],
+      "Other": [
+        "Altres"
+      ],
+      "Fax": [
+        "Fax"
+      ],
+      "Pager": [
+        "Cercapersones"
+      ]
+    },
+    "Property type": {
+      "Email": [
+        "Correu electrònic"
+      ],
+      "Home": [
+        "Casa"
+      ],
+      "Work": [
+        "Feina"
+      ],
+      "Other": [
+        "Altres"
+      ],
+      "Phone": [
+        "Telèfon"
+      ],
+      "Mobile": [
+        "Mòbil"
+      ],
+      "Main": [
+        "Principal"
+      ],
+      "Fax": [
+        "Fax"
+      ],
+      "Pager": [
+        "Cercapersones"
+      ],
+      "Address": [
+        "Adreça"
+      ]
+    },
     "Calendar status": {
       "Syncing": [
         "Sincronitzant"
@@ -769,12 +1205,6 @@
       "* Customizable features": [
         "* Característiques personalitzables"
       ],
-      "Access your streaming services, like ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, no matter where you are.": [
-        "Accediu als vostres serveis de reproducció en línia com ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, sense importar on us trobeu."
-      ],
-      "Access blocked content, like social media, news, Wikipedia, YouTube, and many others, no matter where you are.": [
-        "Accediu a contingut bloquejat com xarxes socials, notícies, Wikipedia, YouTube i molts d'altres, sense importar on us trobeu."
-      ],
       "For getting started with private and secure emailing.": [
         "Per començar amb correspondència electrònica privada i segura."
       ],
@@ -798,6 +1228,12 @@
       ],
       "For families and small teams; includes both Mail and VPN.": [
         "Per a famílies i equips petits; inclou correu electrònic i connexions VPN."
+      ],
+      "Access your streaming services, like ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, no matter where you are.": [
+        "Accediu als vostres serveis de reproducció en línia com ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, sense importar on us trobeu."
+      ],
+      "Access blocked content, like social media, news, Wikipedia, YouTube, and many others, no matter where you are.": [
+        "Accediu a contingut bloquejat com xarxes socials, notícies, Wikipedia, YouTube i molts d'altres, sense importar on us trobeu."
       ],
       "Save 20%": [
         "Estalvieu un 20%"
@@ -1278,442 +1714,6 @@
       ],
       "Loading event": [
         "Carregant esdeveniment"
-      ]
-    },
-    "Error": {
-      "Address primary private key not found": [
-        "No s'ha trobat la clau privada primària de l'adreça"
-      ],
-      "Calendar primary private key is not decrypted": [
-        "La clau privada primària del calendari no està desxifrada"
-      ],
-      "This field is required": [
-        "Aquest camp és obligatori"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Aquest camp requereix un mínim de ${ minimumLength } caràcters."
-      ],
-      "Email is not valid": [
-        "El correu electrònic no és vàlid"
-      ],
-      "Not a valid number": [
-        "Número no vàlid"
-      ],
-      "Passwords do not match": [
-        "Les contrasenyes no coincideixen"
-      ],
-      "Request timed out.": [
-        "S'ha esgotat el temps d'espera."
-      ],
-      "Signature verification failed": [
-        "Ha fallat la verificació de la signatura"
-      ],
-      "Could not find address ${ email }.": [
-        "No s'ha pogut trobar l'adreça de correu electrònic ${ email }."
-      ],
-      "Missing signature": [
-        "Signatura no trobada"
-      ],
-      "Contact signature not verified": [
-        "Signatura del contacte no verificada"
-      ],
-      "Signature not verified": [
-        "Signatura no verificada"
-      ],
-      "Invalid name": [
-        "Nom no vàlid"
-      ],
-      "Email address disabled": [
-        "Correu electrònic deshabilitat"
-      ],
-      "No keys retrieved for internal user": [
-        "No s’ha recuperat cap clau per a l’usuari intern"
-      ],
-      "No valid keys retrieved for internal user": [
-        "No hi ha claus vàlides recuperades per l'usuari intern"
-      ],
-      "Contact signature could not be verified": [
-        "La signatura del contacte no pot ser verificada"
-      ],
-      "No key retrieved for internal user is valid for sending": [
-        "Cap enviament de cap clau per a l’usuari intern és vàlid per enviar-la"
-      ],
-      "Trusted keys are not valid for sending": [
-        "Les claus de confiança no són vàlides per enviar-les"
-      ],
-      "No WKD key retrieved for user is valid for sending": [
-        "No hi ha cap clau WKD per a l'usuari vàlida per a l'enviament"
-      ],
-      "The sending key is not valid": [
-        "La clau enviada no es vàlida"
-      ],
-      "Unknown error": [
-        "Error desconegut"
-      ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser": [
-        "Aquest missatge pot contenir algunes adreces URL que no es poden obrir amb el vostre navegador actual"
-      ],
-      "Authentication canceled.": [
-        "S'ha cancel·lat l'autenticació."
-      ],
-      "Your import will not be processed.": [
-        "La vostra importació no es processarà."
-      ],
-      "Authentication error.": [
-        "Error d'autenticació."
-      ],
-      "Email address invalid": [
-        "L'adreça de correu electrònic no és vàlida"
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "El navegador que utilitzeu no permet l'autorització total del pagament. Utilitzeu un navegador diferent o inicieu la sessió mitjançant un ordinador."
-      ],
-      "Incorrect mailbox password. Please try again": [
-        "Contrasenya de bustia incorrecta, si us plau, torneu-ho a provar de nou"
-      ],
-      "Incorrect login credentials. Please try again": [
-        "Credencials de connexió incorrectes. Si us plau, torni-ho a intentar"
-      ],
-      "Can't validate email, try again later": [
-        "No es pot validar el correu electrònic, torneu-ho a provar més tard"
-      ],
-      "Can't validate phone, try again later": [
-        "No es pot validar el telèfon, torneu-ho a provar més tard"
-      ],
-      "Enter 6 digits": [
-        "Introduïu 6 dígits"
-      ],
-      "Invalid verification code": [
-        "Codi de verificació no vàlid"
-      ],
-      "Process aborted": [
-        "Procés anul·lat"
-      ],
-      "Payment process cancelled": [
-        "Procés de pagament cancel·lat"
-      ],
-      "Payment process failed": [
-        "Ha fallat el procés de pagament"
-      ],
-      "Payment process consumed": [
-        "Procés de pagament esgotat"
-      ],
-      "Payment process not supported": [
-        "Procés de pagament no suportat"
-      ],
-      "Unknown payment token status": [
-        "Estat del testimoni de pagament desconegut"
-      ],
-      "Tab closed": [
-        "Pestanya tancada"
-      ],
-      "Name on card required": [
-        "Es requereix el nom a la targeta"
-      ],
-      "Invalid expiration date": [
-        "Data de caducitat no vàlida"
-      ],
-      "Invalid card number": [
-        "Número de targeta no vàlid"
-      ],
-      "Invalid ${ name } code": [
-        "Codi ${ name } no vàlid"
-      ],
-      "Invalid postal code": [
-        "Codi postal no vàlid"
-      ],
-      "Error connecting to the Bitcoin API.": [
-        "Error en connectar-se a l'API de Bitcoin."
-      ],
-      "Amount below minimum.": [
-        "Quantitat per sota del mínim."
-      ],
-      "Amount above the maximum.": [
-        "Quantitat per sobre del màxim."
-      ],
-      "The minimum amount that can be donated is ${ price }": [
-        "L'import mínim que es pot donar és ${ price }"
-      ],
-      "The minimum amount of credit that can be added is ${ _price }": [
-        "La quantitat mínima de crèdit que es pot afegir és ${ _price }"
-      ],
-      "The minimum payment we accept is ${ _price2 }": [
-        "El pagament mínim que acceptem és ${ _price2 }"
-      ],
-      "Checkout expired, please try again.": [
-        "El pagament ha caducat. Torneu-ho a provar."
-      ],
-      "Invalid code": [
-        "Codi no vàlid"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "S'ha produït un error, ${ refresh } per continuar. Si continueu veient aquest missatge d’error, poseu-vos en contacte amb el nostre ${ supportTeam }."
-      ],
-      "Image upload failed": [
-        "La càrrega de la imatge ha fallat"
-      ],
-      "Contact could not be saved": [
-        "El contacte no s'ha pogut desar"
-      ],
-      "Some contacts could not be deleted": [
-        "Alguns contactes no s'han pogut esborrar"
-      ],
-      "Preferences could not be saved": [
-        "No s'han pogut desar les preferències"
-      ],
-      "Some groups could not be deleted": [
-        "Alguns grups no poden ser esborrats"
-      ],
-      "Invalid public key file": [
-        "Arxiu de clau pública invàlid"
-      ],
-      "You can't send a mail to more than 100 recipients": [
-        "No podeu enviar un correu a més de 100 destinataris"
-      ],
-      "One of the contacts has no email address: ${ noEmailsContactNamesList }": [
-        "Un dels contactes no té adreça de correu electrònic: ${ noEmailsContactNamesList }",
-        "Alguns contactes no tenen adreça de correu electrònic: ${ noEmailsContactNamesList } "
-      ],
-      "You can't send vCards of more than 10 contacts": [
-        "No podeu enviar vcards de més de 10 contactes"
-      ],
-      "There was an error when exporting the contacts vCards": [
-        "Hi ha hagut un error exportant les vcards dels contactes"
-      ],
-      "One of the groups has no contacts: ${ noContactGroupList }": [
-        "Un dels grups no té contactes: ${ noContactGroupList }",
-        "Alguns grups no tenen contactes: ${ noContactGroupList } "
-      ],
-      "You must set a name": [
-        "Heu d'establir un nom"
-      ],
-      "A group with this name already exists": [
-        "Ja existeix un grup amb aquest nom"
-      ],
-      "Primary address key is not decrypted": [
-        "La clau de la adreça primària no està desxifrada"
-      ],
-      "We were unable to connect to your service provider.": [
-        "No hem pogut connectar-nos al vostre proveïdor de serveis."
-      ],
-      "Please try to reauthenticate and make sure the permissions are set correctly.": [
-        "Si us plau, proveu de tornar-vos a autenticar i assegureu-vos que els permisos estan correctament configurats."
-      ],
-      "No valid address found": [
-        "No s’ha trobat una adreça vàlida"
-      ],
-      "Primary address key is not decrypted.": [
-        "La clau de la adreça primària no està desxifrada."
-      ],
-      "Name required": [
-        "Nom requerit"
-      ],
-      "Self invitation not allowed": [
-        "Autoinvitació no permesa"
-      ],
-      "${ list } doesn't have a valid email address": [
-        "${ list } no té una adreça de correu electrònic vàlida",
-        "Alguns contactes no tenen una adreça de correu electrònic vàlida: ${ list }"
-      ],
-      "${ _list } doesn't have an email address": [
-        "${ _list } no té una adreça de correu electrònic",
-        "Alguns contactes no tenen adreça de correu electrònic: ${ _list } "
-      ],
-      "${ list } has invalid emails": [
-        "${ list } té correus electrònics incorrectes",
-        "Alguns grups tenen correus electrònics incorrectes: ${ list }"
-      ],
-      "${ _list2 } has no contacts": [
-        "${ _list2 } no té contactes",
-        "Alguns grups no tenen contactes: ${ _list2 } "
-      ],
-      "Failed to get original occurrence in series": [
-        "No s'ha pogut obtenir l'ocurrència original a sèries"
-      ],
-      "It is only possible to move events between ${ minDateString } - ${ maxDateString }": [
-        "Només és possible moure esdeveniments entre ${ minDateString } - ${ maxDateString }"
-      ],
-      "It is only possible to create events between ${ minDateString } - ${ maxDateString }": [
-        "Només és possible crear esdeveniments entre ${ minDateString } - ${ maxDateString }"
-      ],
-      "Invitation failed to be sent": [
-        "No s'ha pogut enviar la invitació"
-      ],
-      "Answer failed to be sent": [
-        "No s'ha pogut enviar la resposta"
-      ],
-      "Cancellation failed to be sent": [
-        "No s'ha pogut enviar la cancel·lació"
-      ],
-      "Invalid link to the event": [
-        "Enllaç invàlid a esdeveniment"
-      ],
-      "Please create an address first.": [
-        "Si us plau, creeu la vostra adreça primer."
-      ],
-      "Start time must be before end time": [
-        "L’hora d’inici ha de ser abans de l’hora de finalització"
-      ],
-      "Interval cannot be empty": [
-        "L'interval no pot estar buit"
-      ],
-      "Ends on date cannot be empty": [
-        "La data final no pot estar buida"
-      ],
-      "Ends on date must be after start time": [
-        "La data de finalització ha de ser posterior a la d'inici"
-      ],
-      "Number of occurrences cannot be empty": [
-        "El nombre d’ocurrències no pot estar buit"
-      ],
-      "A maximum of 10 notifications is allowed": [
-        "Es permeten un màxim de 10 notificacions"
-      ],
-      "Invalid email address": [
-        "Adreça de correu electrònic invàlida"
-      ],
-      "Decryption error: Decryption of this event's content failed.": [
-        "Error de desxifrat: el desxifrat del contingut d'encriptació d'aquest esdeveniment a fallat."
-      ],
-      "Error: ${ errorMessage }": [
-        "Error: ${ errorMessage }"
-      ],
-      "Error": [
-        "Error"
-      ]
-    },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "La contrasenya ha de contenir com a mínim ${ length } caràcter",
-        "La contrasenya ha de tenir com a mínim ${ length } caràcters"
-      ]
-    },
-    "file size format": {
-      "bytes": [
-        "bytes"
-      ],
-      "KB": [
-        "KB"
-      ],
-      "MB": [
-        "MB"
-      ],
-      "GB": [
-        "GB"
-      ]
-    },
-    "Contact field label": {
-      "Name": [
-        "Nom"
-      ],
-      "Email": [
-        "Correu electrònic"
-      ],
-      "Phone": [
-        "Telèfon"
-      ],
-      "Address": [
-        "Adreça"
-      ],
-      "Photo": [
-        "Foto"
-      ],
-      "Organization": [
-        "Organització"
-      ],
-      "Birthday": [
-        "Aniversari"
-      ],
-      "Anniversary": [
-        "Aniversari"
-      ],
-      "Title": [
-        "Títol"
-      ],
-      "Role": [
-        "Rol"
-      ],
-      "Note": [
-        "Nota"
-      ],
-      "URL": [
-        "URL"
-      ],
-      "Gender": [
-        "Gènere"
-      ],
-      "Language": [
-        "Idioma"
-      ],
-      "Timezone": [
-        "Fus horari"
-      ],
-      "Geo": [
-        "Geolocalització"
-      ],
-      "Logo": [
-        "Logo"
-      ],
-      "Member": [
-        "Membre"
-      ]
-    },
-    "Contact type label": {
-      "Work": [
-        "Feina"
-      ],
-      "Personal": [
-        "Personal"
-      ],
-      "Mobile": [
-        "Mòbil"
-      ],
-      "Main": [
-        "Principal"
-      ],
-      "Yomi": [
-        "Yomi"
-      ],
-      "Other": [
-        "Altres"
-      ],
-      "Fax": [
-        "Fax"
-      ],
-      "Pager": [
-        "Cercapersones"
-      ]
-    },
-    "Property type": {
-      "Email": [
-        "Correu electrònic"
-      ],
-      "Home": [
-        "Casa"
-      ],
-      "Work": [
-        "Feina"
-      ],
-      "Other": [
-        "Altres"
-      ],
-      "Phone": [
-        "Telèfon"
-      ],
-      "Mobile": [
-        "Mòbil"
-      ],
-      "Main": [
-        "Principal"
-      ],
-      "Fax": [
-        "Fax"
-      ],
-      "Pager": [
-        "Cercapersones"
-      ],
-      "Address": [
-        "Adreça"
       ]
     },
     "PGP key warning": {
@@ -2549,8 +2549,8 @@
       "Amount due": [
         "Import a deure"
       ],
-      "Cancel subscription": [
-        "Cancel·lar la subscripció"
+      "Downgrade account": [
+        ""
       ],
       "Network error": [
         "Error de xarxa"
@@ -2848,6 +2848,11 @@
         "Edita l'esdeveniment"
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        "La clau no es pot utilitzar per al xifratge"
+      ]
+    },
     "Storage": {
       "Your current storage:": [
         "El vostre emmagatzematge actual:"
@@ -2857,11 +2862,6 @@
       ],
       "Release notes": [
         "Notes de la versió"
-      ]
-    },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        "La clau no es pot utilitzar per al xifratge"
       ]
     },
     "Label": {
@@ -4626,11 +4626,6 @@
         "Atenció: el servei es tornarà a carregar quan cliqueu al botó Aplicar."
       ]
     },
-    "Select files": {
-      "Upload": [
-        "Carregar"
-      ]
-    },
     "Loading info": {
       "Connecting to your contacts provider": [
         "Connectant al vostre proveïdor de contactes"
@@ -4650,6 +4645,11 @@
     "Confirm modal title": {
       "Quit import?": [
         "Sortir de la importació?"
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "Carregar"
       ]
     },
     "Message display when a new app version is available": {

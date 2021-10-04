@@ -5,6 +5,442 @@
   },
   "contexts": {
     "": {},
+    "Error": {
+      "This field is required": [
+        "Αυτό το πεδίο είναι υποχρεωτικό"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Αυτό το πεδίο απαιτεί τουλάχιστον ${ minimumLength } χαρακτήρες."
+      ],
+      "Email is not valid": [
+        "Η διεύθυνση email δεν είναι έγκυρη"
+      ],
+      "Not a valid number": [
+        "Μη έγκυρος αριθμός"
+      ],
+      "Passwords do not match": [
+        "Οι κωδικοί πρόσβασης δεν ταιριάζουν"
+      ],
+      "Address primary private key not found": [
+        "Δεν βρέθηκε πρωτεύον ιδιωτικό κλειδί διεύθυνσης"
+      ],
+      "Calendar primary private key is not decrypted": [
+        "Το πρωτεύον ιδιωτικό κλειδί ημερολογίου δεν είναι αποκρυπτογραφημένο"
+      ],
+      "Request timed out.": [
+        "Λήξη χρονικού ορίου αιτήματος."
+      ],
+      "Signature verification failed": [
+        "Η επαλήθευση υπογραφής απέτυχε"
+      ],
+      "Could not find address ${ email }.": [
+        "Δεν ήταν δυνατή η εύρεση της διεύθυνσης ${ email }."
+      ],
+      "Missing signature": [
+        "Λείπει η υπογραφή"
+      ],
+      "Contact signature not verified": [
+        "Η υπογραφή επαφής δεν πιστοποιήθηκε"
+      ],
+      "Signature not verified": [
+        "Υπογραφή δεν πιστοποιήθηκε"
+      ],
+      "Invalid name": [
+        "Μη έγκυρο όνομα"
+      ],
+      "Email address disabled": [
+        "Η διεύθυνση email έχει απενεργοποιηθεί"
+      ],
+      "No keys retrieved for internal user": [
+        "Κανένα πλήκτρο δεν ανακτήθηκε για τον εσωτερικό χρήστη"
+      ],
+      "No valid keys retrieved for internal user": [
+        "Δεν υπάρχουν έγκυρα κλειδιά που ανακτήθηκαν για τον εσωτερικό χρήστη"
+      ],
+      "Contact signature could not be verified": [
+        "Δεν ήταν δυνατή η επαλήθευση της υπογραφής επαφής"
+      ],
+      "No key retrieved for internal user is valid for sending": [
+        "Κανένα κλειδί που ανακτήθηκε για τον εσωτερικό χρήστη δεν είναι έγκυρο για την αποστολή"
+      ],
+      "Trusted keys are not valid for sending": [
+        "Τα αξιόπιστα κλειδιά δεν είναι έγκυρα για την αποστολή"
+      ],
+      "No WKD key retrieved for user is valid for sending": [
+        "Κανένα κλειδί WKD που ανακτήθηκε για το χρήστη δεν είναι έγκυρο για την αποστολή"
+      ],
+      "The sending key is not valid": [
+        "Το κλειδί αποστολής δεν είναι έγκυρο"
+      ],
+      "Unknown error": [
+        "Άγνωστο σφάλμα"
+      ],
+      "This message may contain some link's URL that cannot be properly opened by your current browser": [
+        "Αυτό το μήνυμα μπορεί να περιέχει κάποιο σύνδεσμο URL που δεν μπορεί να ανοίξει σωστά από το τρέχον πρόγραμμα περιήγησης"
+      ],
+      "Authentication canceled.": [
+        "Ο έλεγχος ταυτότητας ακυρώθηκε."
+      ],
+      "Your import will not be processed.": [
+        "Η εισαγωγή σας δεν θα υποβληθεί σε επεξεργασία."
+      ],
+      "Authentication error.": [
+        "Σφάλμα ελέγχου ταυτότητας."
+      ],
+      "Email address invalid": [
+        "Η διεύθυνση E-mail δεν είναι έγκυρη"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "Το πρόγραμμα περιήγησης που χρησιμοποιείτε δεν επιτρέπει την πλήρη εξουσιοδότηση της πληρωμής. Χρησιμοποιήστε ένα διαφορετικό πρόγραμμα περιήγησης ή συνδεθείτε μέσω υπολογιστή."
+      ],
+      "Incorrect mailbox password. Please try again": [
+        "Εσφαλμένος κωδικός πρόσβασης γραμματοκιβωτίου. Παρακαλούμε ξαναπροσπαθήστε"
+      ],
+      "Incorrect login credentials. Please try again": [
+        "Λανθασμένες πιστοποιήσεις σύνδεσης. Παρακαλώ προσπαθήστε ξανά"
+      ],
+      "Can't validate email, try again later": [
+        "Δεν είναι δυνατή η επικύρωση ηλεκτρονικού ταχυδρομείου, προσπαθήστε ξανά αργότερα"
+      ],
+      "Can't validate phone, try again later": [
+        "Δεν είναι δυνατή η επικύρωση του τηλεφώνου, προσπαθήστε ξανά αργότερα"
+      ],
+      "Enter 6 digits": [
+        "Εισάγετε 6 ψηφία"
+      ],
+      "Invalid verification code": [
+        "Μη έγκυρος κωδικός επαλήθευσης"
+      ],
+      "Process aborted": [
+        "Η διαδικασία ακυρώθηκε"
+      ],
+      "Payment process cancelled": [
+        "Η διαδικασία πληρωμής ακυρώθηκε"
+      ],
+      "Payment process failed": [
+        "Η διαδικασία πληρωμής απέτυχε"
+      ],
+      "Payment process consumed": [
+        "Η διαδικασία πληρωμής έχει εξαντληθεί"
+      ],
+      "Payment process not supported": [
+        "Η διαδικασία πληρωμής δεν υποστηρίζεται"
+      ],
+      "Unknown payment token status": [
+        "Άγνωστη κατάσταση πληρωμής"
+      ],
+      "Tab closed": [
+        "Κλειστή καρτέλα"
+      ],
+      "Name on card required": [
+        "Απαιτείται το όνομα κατόχου της κάρτας"
+      ],
+      "Invalid expiration date": [
+        "Μη έγκυρη ημερομηνία λήξης"
+      ],
+      "Invalid card number": [
+        "Μη έγκυρος αριθμός κάρτας"
+      ],
+      "Invalid ${ name } code": [
+        "Μη έγκυρο ${ name } κωδικός"
+      ],
+      "Invalid postal code": [
+        "Μη έγκυρος ταχυδρομικός κώδικας"
+      ],
+      "Error connecting to the Bitcoin API.": [
+        "Πρόβλημα σύνδεσης με το Bitcoin API."
+      ],
+      "Amount below minimum.": [
+        "Ποσό χαμηλότερο από το κατώτερο επιτρεπόμενο."
+      ],
+      "Amount above the maximum.": [
+        "Ποσό μεγαλύτερο από το μέγιστο επιτρεπόμενο."
+      ],
+      "The minimum amount that can be donated is ${ price }": [
+        "Το ελάχιστο ποσό που μπορεί να δοθεί για δωρεά είναι ${ price }"
+      ],
+      "The minimum amount of credit that can be added is ${ _price }": [
+        "Το ελάχιστο ποσό χρημάτων που μπορεί να προστεθεί είναι ${ _price }"
+      ],
+      "The minimum payment we accept is ${ _price2 }": [
+        "Η ελάχιστη πληρωμή που γίνεται αποδεκτή είναι ${ _price2 }"
+      ],
+      "Checkout expired, please try again.": [
+        "Η σελίδα έχει λήξει, παρακαλώ προσπαθήστε ξανά."
+      ],
+      "Invalid code": [
+        "Μη έγκυρος κωδικός"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Κάτι πήγε στραβά, παρακαλούμε ${ refresh } για να προχωρήσετε. Εάν εξακολουθείτε να βλέπετε αυτό το μήνυμα σφάλματος, παρακαλούμε επικοινωνήστε με την ${ supportTeam }."
+      ],
+      "Image upload failed": [
+        "Η μεταφόρτωση της εικόνας απέτυχε"
+      ],
+      "Contact could not be saved": [
+        "Η αποθήκευση της επαφής απέτυχε"
+      ],
+      "Some contacts could not be deleted": [
+        "Ορισμένες επαφές δεν μπόρεσαν να διαγραφούν"
+      ],
+      "Preferences could not be saved": [
+        "Δεν ήταν δυνατή η αποθήκευση των προτιμήσεων"
+      ],
+      "Some groups could not be deleted": [
+        ""
+      ],
+      "Invalid public key file": [
+        "Μη έγκυρο δημόσιο κλειδί (public key)"
+      ],
+      "You can't send a mail to more than 100 recipients": [
+        "Δεν μπορείτε να στείλετε μήνυμα σε περισσότερους από 100 παραλήπτες"
+      ],
+      "One of the contacts has no email address: ${ noEmailsContactNamesList }": [
+        "Μία από τις επαφές δεν έχει διεύθυνση ηλεκτρονικού ταχυδρομείου: ${ noEmailsContactNamesList }",
+        ""
+      ],
+      "You can't send vCards of more than 10 contacts": [
+        ""
+      ],
+      "There was an error when exporting the contacts vCards": [
+        ""
+      ],
+      "One of the groups has no contacts: ${ noContactGroupList }": [
+        "",
+        ""
+      ],
+      "You must set a name": [
+        "Πρέπει να ορίσετε ένα όνομα"
+      ],
+      "A group with this name already exists": [
+        "Υπάρχει ήδη μια ομάδα με αυτό το όνομα"
+      ],
+      "We were unable to connect to your service provider.": [
+        ""
+      ],
+      "Please try to reauthenticate and make sure the permissions are set correctly.": [
+        ""
+      ],
+      "Primary address key is not decrypted": [
+        "Το κύριο κλειδί διεύθυνσης δεν αποκρυπτογραφείται"
+      ],
+      "No valid address found": [
+        "Δεν βρέθηκε έγκυρη διεύθυνση"
+      ],
+      "Primary address key is not decrypted.": [
+        "Το κύριο κλειδί διεύθυνσης δεν αποκρυπτογραφείται."
+      ],
+      "Name required": [
+        "Απαιτείται όνομα"
+      ],
+      "Self invitation not allowed": [
+        "Δεν επιτρέπεται η αυτοπρόσκληση"
+      ],
+      "${ list } doesn't have a valid email address": [
+        "",
+        ""
+      ],
+      "${ _list } doesn't have an email address": [
+        "",
+        ""
+      ],
+      "${ list } has invalid emails": [
+        "",
+        ""
+      ],
+      "${ _list2 } has no contacts": [
+        "",
+        ""
+      ],
+      "Failed to get original occurrence in series": [
+        "Αποτυχία λήψης αρχικού περιστατικού στη σειρά"
+      ],
+      "It is only possible to move events between ${ minDateString } - ${ maxDateString }": [
+        "Είναι δυνατή μόνο η μετακίνηση γεγονότων, μεταξύ ${ minDateString } - ${ maxDateString }"
+      ],
+      "It is only possible to create events between ${ minDateString } - ${ maxDateString }": [
+        "Είναι δυνατή η δημιουργία γεγονότων μόνο μεταξύ ${ minDateString } - ${ maxDateString }"
+      ],
+      "Invitation failed to be sent": [
+        "Η πρόσκληση απέτυχε να σταλεί"
+      ],
+      "Answer failed to be sent": [
+        "Η απάντηση απέτυχε να σταλεί"
+      ],
+      "Cancellation failed to be sent": [
+        "Ακύρωση απέτυχε να σταλεί"
+      ],
+      "Invalid link to the event": [
+        "Μη έγκυρος σύνδεσμος για το συμβάν"
+      ],
+      "Please create an address first.": [
+        "Παρακαλώ δημιουργήστε πρώτα μια διεύθυνση."
+      ],
+      "Start time must be before end time": [
+        "Η ώρα έναρξης πρέπει να είναι πριν από την ώρα λήξης"
+      ],
+      "Interval cannot be empty": [
+        "Το περιεχόμενο δεν μπορεί να είναι άδειο"
+      ],
+      "Ends on date cannot be empty": [
+        "Η λήξη της ημερομηνίας δεν μπορεί να είναι κενή"
+      ],
+      "Ends on date must be after start time": [
+        "Η λήξη της ημερομηνίας πρέπει να είναι μετά την ώρα έναρξης"
+      ],
+      "Number of occurrences cannot be empty": [
+        "Ο αριθμός περιστατικών δεν μπορεί να είναι κενός"
+      ],
+      "A maximum of 10 notifications is allowed": [
+        "Επιτρέπεται το πολύ 10 ειδοποιήσεις"
+      ],
+      "Invalid email address": [
+        "Μη έγκυρη διεύθυνση email"
+      ],
+      "Decryption error: Decryption of this event's content failed.": [
+        "Σφάλμα αποκρυπτογράφησης: Αποτυχία αποκρυπτογράφησης του περιεχομένου γεγονότος."
+      ],
+      "Error: ${ errorMessage }": [
+        "Σφάλμα: ${ errorMessage }"
+      ],
+      "Error": [
+        "Σφάλμα"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "",
+        ""
+      ]
+    },
+    "file size format": {
+      "bytes": [
+        "bytes"
+      ],
+      "KB": [
+        "KB"
+      ],
+      "MB": [
+        "MB"
+      ],
+      "GB": [
+        "GB"
+      ]
+    },
+    "Contact field label": {
+      "Name": [
+        "Όνομα"
+      ],
+      "Email": [
+        "E-mail"
+      ],
+      "Phone": [
+        "Τηλέφωνο"
+      ],
+      "Address": [
+        "Διεύθυνση"
+      ],
+      "Photo": [
+        "Φωτογραφία"
+      ],
+      "Organization": [
+        "Οργανισμός"
+      ],
+      "Birthday": [
+        "Γενέθλια"
+      ],
+      "Anniversary": [
+        "Επέτειος"
+      ],
+      "Title": [
+        "Τίτλος"
+      ],
+      "Role": [
+        "Ρόλος"
+      ],
+      "Note": [
+        "Σημείωση"
+      ],
+      "URL": [
+        "URL"
+      ],
+      "Gender": [
+        "Φύλο"
+      ],
+      "Language": [
+        "Γλώσσα"
+      ],
+      "Timezone": [
+        "Ζώνη ώρας"
+      ],
+      "Geo": [
+        "Γεωγραφικό"
+      ],
+      "Logo": [
+        "Λογότυπο"
+      ],
+      "Member": [
+        "Μέλος"
+      ]
+    },
+    "Contact type label": {
+      "Work": [
+        "Εργασία"
+      ],
+      "Personal": [
+        "Προσωπικό"
+      ],
+      "Mobile": [
+        "Κινητό"
+      ],
+      "Main": [
+        "Κύριο"
+      ],
+      "Yomi": [
+        "Ανάγνωση"
+      ],
+      "Other": [
+        "Άλλο"
+      ],
+      "Fax": [
+        "Φαξ"
+      ],
+      "Pager": [
+        "Βομβητής"
+      ]
+    },
+    "Property type": {
+      "Email": [
+        "Email"
+      ],
+      "Home": [
+        "Οικία"
+      ],
+      "Work": [
+        "Εργασία"
+      ],
+      "Other": [
+        "Άλλο"
+      ],
+      "Phone": [
+        "Τηλέφωνο"
+      ],
+      "Mobile": [
+        "Κινητό"
+      ],
+      "Main": [
+        "Κύριο"
+      ],
+      "Fax": [
+        "Φαξ"
+      ],
+      "Pager": [
+        "Βομβητής"
+      ],
+      "Address": [
+        "Διεύθυνση"
+      ]
+    },
     "Calendar status": {
       "Syncing": [
         ""
@@ -769,12 +1205,6 @@
       "* Customizable features": [
         "*Προσαρμοσμένες λειτουργίες"
       ],
-      "Access your streaming services, like ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, no matter where you are.": [
-        "Πρόσβαση στις υπηρεσίες streaming, όπως ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, ανεξάρτητα από το πού βρίσκεστε."
-      ],
-      "Access blocked content, like social media, news, Wikipedia, YouTube, and many others, no matter where you are.": [
-        "Πρόσβαση σε μπλοκαρισμένο περιεχόμενο, όπως μέσα κοινωνικής δικτύωσης, ειδήσεις, Wikipedia, YouTube, και πολλά άλλα, ανεξάρτητα από το πού βρίσκεστε."
-      ],
       "For getting started with private and secure emailing.": [
         ""
       ],
@@ -798,6 +1228,12 @@
       ],
       "For families and small teams; includes both Mail and VPN.": [
         ""
+      ],
+      "Access your streaming services, like ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, no matter where you are.": [
+        "Πρόσβαση στις υπηρεσίες streaming, όπως ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, ανεξάρτητα από το πού βρίσκεστε."
+      ],
+      "Access blocked content, like social media, news, Wikipedia, YouTube, and many others, no matter where you are.": [
+        "Πρόσβαση σε μπλοκαρισμένο περιεχόμενο, όπως μέσα κοινωνικής δικτύωσης, ειδήσεις, Wikipedia, YouTube, και πολλά άλλα, ανεξάρτητα από το πού βρίσκεστε."
       ],
       "Save 20%": [
         "Εξοικονομήστε 20%"
@@ -1278,442 +1714,6 @@
       ],
       "Loading event": [
         "Φόρτωση γεγονότος"
-      ]
-    },
-    "Error": {
-      "Address primary private key not found": [
-        "Δεν βρέθηκε πρωτεύον ιδιωτικό κλειδί διεύθυνσης"
-      ],
-      "Calendar primary private key is not decrypted": [
-        "Το πρωτεύον ιδιωτικό κλειδί ημερολογίου δεν είναι αποκρυπτογραφημένο"
-      ],
-      "This field is required": [
-        "Αυτό το πεδίο είναι υποχρεωτικό"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Αυτό το πεδίο απαιτεί τουλάχιστον ${ minimumLength } χαρακτήρες."
-      ],
-      "Email is not valid": [
-        "Η διεύθυνση email δεν είναι έγκυρη"
-      ],
-      "Not a valid number": [
-        "Μη έγκυρος αριθμός"
-      ],
-      "Passwords do not match": [
-        "Οι κωδικοί πρόσβασης δεν ταιριάζουν"
-      ],
-      "Request timed out.": [
-        "Λήξη χρονικού ορίου αιτήματος."
-      ],
-      "Signature verification failed": [
-        "Η επαλήθευση υπογραφής απέτυχε"
-      ],
-      "Could not find address ${ email }.": [
-        "Δεν ήταν δυνατή η εύρεση της διεύθυνσης ${ email }."
-      ],
-      "Missing signature": [
-        "Λείπει η υπογραφή"
-      ],
-      "Contact signature not verified": [
-        "Η υπογραφή επαφής δεν πιστοποιήθηκε"
-      ],
-      "Signature not verified": [
-        "Υπογραφή δεν πιστοποιήθηκε"
-      ],
-      "Invalid name": [
-        "Μη έγκυρο όνομα"
-      ],
-      "Email address disabled": [
-        "Η διεύθυνση email έχει απενεργοποιηθεί"
-      ],
-      "No keys retrieved for internal user": [
-        "Κανένα πλήκτρο δεν ανακτήθηκε για τον εσωτερικό χρήστη"
-      ],
-      "No valid keys retrieved for internal user": [
-        "Δεν υπάρχουν έγκυρα κλειδιά που ανακτήθηκαν για τον εσωτερικό χρήστη"
-      ],
-      "Contact signature could not be verified": [
-        "Δεν ήταν δυνατή η επαλήθευση της υπογραφής επαφής"
-      ],
-      "No key retrieved for internal user is valid for sending": [
-        "Κανένα κλειδί που ανακτήθηκε για τον εσωτερικό χρήστη δεν είναι έγκυρο για την αποστολή"
-      ],
-      "Trusted keys are not valid for sending": [
-        "Τα αξιόπιστα κλειδιά δεν είναι έγκυρα για την αποστολή"
-      ],
-      "No WKD key retrieved for user is valid for sending": [
-        "Κανένα κλειδί WKD που ανακτήθηκε για το χρήστη δεν είναι έγκυρο για την αποστολή"
-      ],
-      "The sending key is not valid": [
-        "Το κλειδί αποστολής δεν είναι έγκυρο"
-      ],
-      "Unknown error": [
-        "Άγνωστο σφάλμα"
-      ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser": [
-        "Αυτό το μήνυμα μπορεί να περιέχει κάποιο σύνδεσμο URL που δεν μπορεί να ανοίξει σωστά από το τρέχον πρόγραμμα περιήγησης"
-      ],
-      "Authentication canceled.": [
-        "Ο έλεγχος ταυτότητας ακυρώθηκε."
-      ],
-      "Your import will not be processed.": [
-        "Η εισαγωγή σας δεν θα υποβληθεί σε επεξεργασία."
-      ],
-      "Authentication error.": [
-        "Σφάλμα ελέγχου ταυτότητας."
-      ],
-      "Email address invalid": [
-        "Η διεύθυνση E-mail δεν είναι έγκυρη"
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "Το πρόγραμμα περιήγησης που χρησιμοποιείτε δεν επιτρέπει την πλήρη εξουσιοδότηση της πληρωμής. Χρησιμοποιήστε ένα διαφορετικό πρόγραμμα περιήγησης ή συνδεθείτε μέσω υπολογιστή."
-      ],
-      "Incorrect mailbox password. Please try again": [
-        "Εσφαλμένος κωδικός πρόσβασης γραμματοκιβωτίου. Παρακαλούμε ξαναπροσπαθήστε"
-      ],
-      "Incorrect login credentials. Please try again": [
-        "Λανθασμένες πιστοποιήσεις σύνδεσης. Παρακαλώ προσπαθήστε ξανά"
-      ],
-      "Can't validate email, try again later": [
-        "Δεν είναι δυνατή η επικύρωση ηλεκτρονικού ταχυδρομείου, προσπαθήστε ξανά αργότερα"
-      ],
-      "Can't validate phone, try again later": [
-        "Δεν είναι δυνατή η επικύρωση του τηλεφώνου, προσπαθήστε ξανά αργότερα"
-      ],
-      "Enter 6 digits": [
-        "Εισάγετε 6 ψηφία"
-      ],
-      "Invalid verification code": [
-        "Μη έγκυρος κωδικός επαλήθευσης"
-      ],
-      "Process aborted": [
-        "Η διαδικασία ακυρώθηκε"
-      ],
-      "Payment process cancelled": [
-        "Η διαδικασία πληρωμής ακυρώθηκε"
-      ],
-      "Payment process failed": [
-        "Η διαδικασία πληρωμής απέτυχε"
-      ],
-      "Payment process consumed": [
-        "Η διαδικασία πληρωμής έχει εξαντληθεί"
-      ],
-      "Payment process not supported": [
-        "Η διαδικασία πληρωμής δεν υποστηρίζεται"
-      ],
-      "Unknown payment token status": [
-        "Άγνωστη κατάσταση πληρωμής"
-      ],
-      "Tab closed": [
-        "Κλειστή καρτέλα"
-      ],
-      "Name on card required": [
-        "Απαιτείται το όνομα κατόχου της κάρτας"
-      ],
-      "Invalid expiration date": [
-        "Μη έγκυρη ημερομηνία λήξης"
-      ],
-      "Invalid card number": [
-        "Μη έγκυρος αριθμός κάρτας"
-      ],
-      "Invalid ${ name } code": [
-        "Μη έγκυρο ${ name } κωδικός"
-      ],
-      "Invalid postal code": [
-        "Μη έγκυρος ταχυδρομικός κώδικας"
-      ],
-      "Error connecting to the Bitcoin API.": [
-        "Πρόβλημα σύνδεσης με το Bitcoin API."
-      ],
-      "Amount below minimum.": [
-        "Ποσό χαμηλότερο από το κατώτερο επιτρεπόμενο."
-      ],
-      "Amount above the maximum.": [
-        "Ποσό μεγαλύτερο από το μέγιστο επιτρεπόμενο."
-      ],
-      "The minimum amount that can be donated is ${ price }": [
-        "Το ελάχιστο ποσό που μπορεί να δοθεί για δωρεά είναι ${ price }"
-      ],
-      "The minimum amount of credit that can be added is ${ _price }": [
-        "Το ελάχιστο ποσό χρημάτων που μπορεί να προστεθεί είναι ${ _price }"
-      ],
-      "The minimum payment we accept is ${ _price2 }": [
-        "Η ελάχιστη πληρωμή που γίνεται αποδεκτή είναι ${ _price2 }"
-      ],
-      "Checkout expired, please try again.": [
-        "Η σελίδα έχει λήξει, παρακαλώ προσπαθήστε ξανά."
-      ],
-      "Invalid code": [
-        "Μη έγκυρος κωδικός"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Κάτι πήγε στραβά, παρακαλούμε ${ refresh } για να προχωρήσετε. Εάν εξακολουθείτε να βλέπετε αυτό το μήνυμα σφάλματος, παρακαλούμε επικοινωνήστε με την ${ supportTeam }."
-      ],
-      "Image upload failed": [
-        "Η μεταφόρτωση της εικόνας απέτυχε"
-      ],
-      "Contact could not be saved": [
-        "Η αποθήκευση της επαφής απέτυχε"
-      ],
-      "Some contacts could not be deleted": [
-        "Ορισμένες επαφές δεν μπόρεσαν να διαγραφούν"
-      ],
-      "Preferences could not be saved": [
-        "Δεν ήταν δυνατή η αποθήκευση των προτιμήσεων"
-      ],
-      "Some groups could not be deleted": [
-        ""
-      ],
-      "Invalid public key file": [
-        "Μη έγκυρο δημόσιο κλειδί (public key)"
-      ],
-      "You can't send a mail to more than 100 recipients": [
-        "Δεν μπορείτε να στείλετε μήνυμα σε περισσότερους από 100 παραλήπτες"
-      ],
-      "One of the contacts has no email address: ${ noEmailsContactNamesList }": [
-        "Μία από τις επαφές δεν έχει διεύθυνση ηλεκτρονικού ταχυδρομείου: ${ noEmailsContactNamesList }",
-        ""
-      ],
-      "You can't send vCards of more than 10 contacts": [
-        ""
-      ],
-      "There was an error when exporting the contacts vCards": [
-        ""
-      ],
-      "One of the groups has no contacts: ${ noContactGroupList }": [
-        "",
-        ""
-      ],
-      "You must set a name": [
-        "Πρέπει να ορίσετε ένα όνομα"
-      ],
-      "A group with this name already exists": [
-        "Υπάρχει ήδη μια ομάδα με αυτό το όνομα"
-      ],
-      "Primary address key is not decrypted": [
-        "Το κύριο κλειδί διεύθυνσης δεν αποκρυπτογραφείται"
-      ],
-      "We were unable to connect to your service provider.": [
-        ""
-      ],
-      "Please try to reauthenticate and make sure the permissions are set correctly.": [
-        ""
-      ],
-      "No valid address found": [
-        "Δεν βρέθηκε έγκυρη διεύθυνση"
-      ],
-      "Primary address key is not decrypted.": [
-        "Το κύριο κλειδί διεύθυνσης δεν αποκρυπτογραφείται."
-      ],
-      "Name required": [
-        "Απαιτείται όνομα"
-      ],
-      "Self invitation not allowed": [
-        "Δεν επιτρέπεται η αυτοπρόσκληση"
-      ],
-      "${ list } doesn't have a valid email address": [
-        "",
-        ""
-      ],
-      "${ _list } doesn't have an email address": [
-        "",
-        ""
-      ],
-      "${ list } has invalid emails": [
-        "",
-        ""
-      ],
-      "${ _list2 } has no contacts": [
-        "",
-        ""
-      ],
-      "Failed to get original occurrence in series": [
-        "Αποτυχία λήψης αρχικού περιστατικού στη σειρά"
-      ],
-      "It is only possible to move events between ${ minDateString } - ${ maxDateString }": [
-        "Είναι δυνατή μόνο η μετακίνηση γεγονότων, μεταξύ ${ minDateString } - ${ maxDateString }"
-      ],
-      "It is only possible to create events between ${ minDateString } - ${ maxDateString }": [
-        "Είναι δυνατή η δημιουργία γεγονότων μόνο μεταξύ ${ minDateString } - ${ maxDateString }"
-      ],
-      "Invitation failed to be sent": [
-        "Η πρόσκληση απέτυχε να σταλεί"
-      ],
-      "Answer failed to be sent": [
-        "Η απάντηση απέτυχε να σταλεί"
-      ],
-      "Cancellation failed to be sent": [
-        "Ακύρωση απέτυχε να σταλεί"
-      ],
-      "Invalid link to the event": [
-        "Μη έγκυρος σύνδεσμος για το συμβάν"
-      ],
-      "Please create an address first.": [
-        "Παρακαλώ δημιουργήστε πρώτα μια διεύθυνση."
-      ],
-      "Start time must be before end time": [
-        "Η ώρα έναρξης πρέπει να είναι πριν από την ώρα λήξης"
-      ],
-      "Interval cannot be empty": [
-        "Το περιεχόμενο δεν μπορεί να είναι άδειο"
-      ],
-      "Ends on date cannot be empty": [
-        "Η λήξη της ημερομηνίας δεν μπορεί να είναι κενή"
-      ],
-      "Ends on date must be after start time": [
-        "Η λήξη της ημερομηνίας πρέπει να είναι μετά την ώρα έναρξης"
-      ],
-      "Number of occurrences cannot be empty": [
-        "Ο αριθμός περιστατικών δεν μπορεί να είναι κενός"
-      ],
-      "A maximum of 10 notifications is allowed": [
-        "Επιτρέπεται το πολύ 10 ειδοποιήσεις"
-      ],
-      "Invalid email address": [
-        "Μη έγκυρη διεύθυνση email"
-      ],
-      "Decryption error: Decryption of this event's content failed.": [
-        "Σφάλμα αποκρυπτογράφησης: Αποτυχία αποκρυπτογράφησης του περιεχομένου γεγονότος."
-      ],
-      "Error: ${ errorMessage }": [
-        "Σφάλμα: ${ errorMessage }"
-      ],
-      "Error": [
-        "Σφάλμα"
-      ]
-    },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "",
-        ""
-      ]
-    },
-    "file size format": {
-      "bytes": [
-        "bytes"
-      ],
-      "KB": [
-        "KB"
-      ],
-      "MB": [
-        "MB"
-      ],
-      "GB": [
-        "GB"
-      ]
-    },
-    "Contact field label": {
-      "Name": [
-        "Όνομα"
-      ],
-      "Email": [
-        "E-mail"
-      ],
-      "Phone": [
-        "Τηλέφωνο"
-      ],
-      "Address": [
-        "Διεύθυνση"
-      ],
-      "Photo": [
-        "Φωτογραφία"
-      ],
-      "Organization": [
-        "Οργανισμός"
-      ],
-      "Birthday": [
-        "Γενέθλια"
-      ],
-      "Anniversary": [
-        "Επέτειος"
-      ],
-      "Title": [
-        "Τίτλος"
-      ],
-      "Role": [
-        "Ρόλος"
-      ],
-      "Note": [
-        "Σημείωση"
-      ],
-      "URL": [
-        "URL"
-      ],
-      "Gender": [
-        "Φύλο"
-      ],
-      "Language": [
-        "Γλώσσα"
-      ],
-      "Timezone": [
-        "Ζώνη ώρας"
-      ],
-      "Geo": [
-        "Γεωγραφικό"
-      ],
-      "Logo": [
-        "Λογότυπο"
-      ],
-      "Member": [
-        "Μέλος"
-      ]
-    },
-    "Contact type label": {
-      "Work": [
-        "Εργασία"
-      ],
-      "Personal": [
-        "Προσωπικό"
-      ],
-      "Mobile": [
-        "Κινητό"
-      ],
-      "Main": [
-        "Κύριο"
-      ],
-      "Yomi": [
-        "Ανάγνωση"
-      ],
-      "Other": [
-        "Άλλο"
-      ],
-      "Fax": [
-        "Φαξ"
-      ],
-      "Pager": [
-        "Βομβητής"
-      ]
-    },
-    "Property type": {
-      "Email": [
-        "Email"
-      ],
-      "Home": [
-        "Οικία"
-      ],
-      "Work": [
-        "Εργασία"
-      ],
-      "Other": [
-        "Άλλο"
-      ],
-      "Phone": [
-        "Τηλέφωνο"
-      ],
-      "Mobile": [
-        "Κινητό"
-      ],
-      "Main": [
-        "Κύριο"
-      ],
-      "Fax": [
-        "Φαξ"
-      ],
-      "Pager": [
-        "Βομβητής"
-      ],
-      "Address": [
-        "Διεύθυνση"
       ]
     },
     "PGP key warning": {
@@ -2549,8 +2549,8 @@
       "Amount due": [
         "Οφειλόμενο ποσό"
       ],
-      "Cancel subscription": [
-        "Ακυρώστε τη συνδρομή"
+      "Downgrade account": [
+        ""
       ],
       "Network error": [
         "Σφάλμα δικτύου"
@@ -2848,6 +2848,11 @@
         "Επεξεργασία γεγονότος"
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        ""
+      ]
+    },
     "Storage": {
       "Your current storage:": [
         ""
@@ -2857,11 +2862,6 @@
       ],
       "Release notes": [
         "Σημειώσεις έκδοσης"
-      ]
-    },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        ""
       ]
     },
     "Label": {
@@ -4626,11 +4626,6 @@
         ""
       ]
     },
-    "Select files": {
-      "Upload": [
-        "Μεταφόρτωση"
-      ]
-    },
     "Loading info": {
       "Connecting to your contacts provider": [
         ""
@@ -4650,6 +4645,11 @@
     "Confirm modal title": {
       "Quit import?": [
         ""
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "Μεταφόρτωση"
       ]
     },
     "Message display when a new app version is available": {

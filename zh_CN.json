@@ -5,6 +5,435 @@
   },
   "contexts": {
     "": {},
+    "Error": {
+      "This field is required": [
+        "此项必须填写"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "此字段至少需要 ${ minimumLength } 个字符。"
+      ],
+      "Email is not valid": [
+        "无效邮箱"
+      ],
+      "Not a valid number": [
+        "无效号码"
+      ],
+      "Passwords do not match": [
+        "密码不匹配"
+      ],
+      "Address primary private key not found": [
+        "找不到地址主私钥"
+      ],
+      "Calendar primary private key is not decrypted": [
+        "日历主密钥未解密。"
+      ],
+      "Request timed out.": [
+        "请求超时。"
+      ],
+      "Signature verification failed": [
+        "签名验证失败"
+      ],
+      "Could not find address ${ email }.": [
+        "找不到邮箱 ${ email }。"
+      ],
+      "Missing signature": [
+        "缺少签名"
+      ],
+      "Contact signature not verified": [
+        "未验证联系人签名"
+      ],
+      "Signature not verified": [
+        "签名未验证"
+      ],
+      "Invalid name": [
+        "无效的名称"
+      ],
+      "Email address disabled": [
+        "Email 地址已禁用"
+      ],
+      "No keys retrieved for internal user": [
+        "没有为内部用户检索到密钥"
+      ],
+      "No valid keys retrieved for internal user": [
+        "没有为内部用户检索到有效密钥"
+      ],
+      "Contact signature could not be verified": [
+        "无法验证联系人签名"
+      ],
+      "No key retrieved for internal user is valid for sending": [
+        "没有为内部用户检索到的密钥用于发送"
+      ],
+      "Trusted keys are not valid for sending": [
+        "已信任的密钥对发送无效"
+      ],
+      "No WKD key retrieved for user is valid for sending": [
+        "没有为内部用户检索到的密钥用于发送"
+      ],
+      "The sending key is not valid": [
+        "发送密钥无效"
+      ],
+      "Unknown error": [
+        "未知错误"
+      ],
+      "This message may contain some link's URL that cannot be properly opened by your current browser": [
+        "此邮件含有浏览器不能打开的链接"
+      ],
+      "Authentication canceled.": [
+        "验证被取消"
+      ],
+      "Your import will not be processed.": [
+        "此次导入将不会进行"
+      ],
+      "Authentication error.": [
+        "验证错误"
+      ],
+      "Email address invalid": [
+        "电子邮箱地址无效"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "您使用的浏览器无法完成支付验证，请使用其他浏览器或电脑支付。"
+      ],
+      "Incorrect mailbox password. Please try again": [
+        "邮箱密码不正确。请重试"
+      ],
+      "Incorrect login credentials. Please try again": [
+        "登录凭据不正确。请重试"
+      ],
+      "Can't validate email, try again later": [
+        "无法验证电子邮件，请稍后再试"
+      ],
+      "Can't validate phone, try again later": [
+        "无法验证手机，请稍候再试"
+      ],
+      "Enter 6 digits": [
+        "请输入 6 位验证码"
+      ],
+      "Invalid verification code": [
+        "无效的验证代码"
+      ],
+      "Process aborted": [
+        "操作已中止"
+      ],
+      "Payment process cancelled": [
+        "支付已取消"
+      ],
+      "Payment process failed": [
+        "支付失败"
+      ],
+      "Payment process consumed": [
+        "已经支付过了"
+      ],
+      "Payment process not supported": [
+        "不支持此支付流程"
+      ],
+      "Unknown payment token status": [
+        "支付状态不明"
+      ],
+      "Tab closed": [
+        "标签页已关闭"
+      ],
+      "Name on card required": [
+        "必须填写持卡人姓名"
+      ],
+      "Invalid expiration date": [
+        "有效期不正确"
+      ],
+      "Invalid card number": [
+        "卡号不正确"
+      ],
+      "Invalid ${ name } code": [
+        "${ name } 码不正确"
+      ],
+      "Invalid postal code": [
+        "邮政编码不正确"
+      ],
+      "Error connecting to the Bitcoin API.": [
+        "连接比特币 API 失败。"
+      ],
+      "Amount below minimum.": [
+        "金额太小。"
+      ],
+      "Amount above the maximum.": [
+        "金额太大。"
+      ],
+      "The minimum amount that can be donated is ${ price }": [
+        "捐款金额不应低于 ${ price }"
+      ],
+      "The minimum amount of credit that can be added is ${ _price }": [
+        "充值金额不能低于 ${ _price }"
+      ],
+      "The minimum payment we accept is ${ _price2 }": [
+        "支付金额不能低于 ${ _price2 }"
+      ],
+      "Checkout expired, please try again.": [
+        "支付超时，请重试。"
+      ],
+      "Invalid code": [
+        "无效的代码"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "出错了，请${ refresh }以继续。若仍出现此错误，请联系我们的${ supportTeam }"
+      ],
+      "Image upload failed": [
+        "图片上传失败"
+      ],
+      "Contact could not be saved": [
+        "无法保存联系人"
+      ],
+      "Some contacts could not be deleted": [
+        "部分联系人无法删除"
+      ],
+      "Preferences could not be saved": [
+        "无法保存偏好设置"
+      ],
+      "Some groups could not be deleted": [
+        "部分群组无法删除"
+      ],
+      "Invalid public key file": [
+        "公钥文件无效"
+      ],
+      "You can't send a mail to more than 100 recipients": [
+        "您不能给100 位以上收件人发送邮件"
+      ],
+      "One of the contacts has no email address: ${ noEmailsContactNamesList }": [
+        "某个/些联系人没有电子邮件地址: ${ noEmailsContactNamesList } "
+      ],
+      "You can't send vCards of more than 10 contacts": [
+        "您不能发送超过 10 个联系人的 vCard"
+      ],
+      "There was an error when exporting the contacts vCards": [
+        "导出联系人 vCards 时出错"
+      ],
+      "One of the groups has no contacts: ${ noContactGroupList }": [
+        "某个/些群组没有联系人: ${ noContactGroupList } "
+      ],
+      "You must set a name": [
+        "请输入名称 (必填)"
+      ],
+      "A group with this name already exists": [
+        "已存在同名群组"
+      ],
+      "We were unable to connect to your service provider.": [
+        ""
+      ],
+      "Please try to reauthenticate and make sure the permissions are set correctly.": [
+        ""
+      ],
+      "Primary address key is not decrypted": [
+        "主密钥尚未解密。"
+      ],
+      "No valid address found": [
+        "未找到有效地址"
+      ],
+      "Primary address key is not decrypted.": [
+        "主密钥尚未解密。"
+      ],
+      "Name required": [
+        "姓名 (必填)"
+      ],
+      "Self invitation not allowed": [
+        "不能自我邀请"
+      ],
+      "${ list } doesn't have a valid email address": [
+        "某个/些联系人没有有效的电子邮件地址: ${ list }"
+      ],
+      "${ _list } doesn't have an email address": [
+        "某个/些联系人没有电子邮件地址: ${ _list }"
+      ],
+      "${ list } has invalid emails": [
+        "某个/些群组存在无效的电子邮件地址: ${ list }"
+      ],
+      "${ _list2 } has no contacts": [
+        "某个/些群组没有联系人: ${ _list2 }"
+      ],
+      "Failed to get original occurrence in series": [
+        "无法获取序列中的原始事件"
+      ],
+      "It is only possible to move events between ${ minDateString } - ${ maxDateString }": [
+        "只能在${ minDateString }到${ maxDateString }之间移动日程"
+      ],
+      "It is only possible to create events between ${ minDateString } - ${ maxDateString }": [
+        "只能在${ minDateString }到${ maxDateString }之间创建日程"
+      ],
+      "Invitation failed to be sent": [
+        "邀请发送失败"
+      ],
+      "Answer failed to be sent": [
+        "答复发送失败"
+      ],
+      "Cancellation failed to be sent": [
+        "活动取消发送失败"
+      ],
+      "Invalid link to the event": [
+        "无效的日程链接"
+      ],
+      "Please create an address first.": [
+        "请先创建地址。"
+      ],
+      "Start time must be before end time": [
+        "起始时间必须早于结束时间"
+      ],
+      "Interval cannot be empty": [
+        "重复周期不能为空"
+      ],
+      "Ends on date cannot be empty": [
+        "结束日期不能为空"
+      ],
+      "Ends on date must be after start time": [
+        "结束日期不能早于起始日期"
+      ],
+      "Number of occurrences cannot be empty": [
+        "重复次数不能为空"
+      ],
+      "A maximum of 10 notifications is allowed": [
+        "最多允许10个通知"
+      ],
+      "Invalid email address": [
+        "无效的邮件地址"
+      ],
+      "Decryption error: Decryption of this event's content failed.": [
+        "解密失败：无法解密此日程的内容。"
+      ],
+      "Error: ${ errorMessage }": [
+        "错误：${ errorMessage }"
+      ],
+      "Error": [
+        "错误"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "密码必须至少包含 ${ length } 个字符"
+      ]
+    },
+    "file size format": {
+      "bytes": [
+        "字节"
+      ],
+      "KB": [
+        "KB"
+      ],
+      "MB": [
+        "MB"
+      ],
+      "GB": [
+        "GB"
+      ]
+    },
+    "Contact field label": {
+      "Name": [
+        "姓名"
+      ],
+      "Email": [
+        "电子邮件"
+      ],
+      "Phone": [
+        "电话"
+      ],
+      "Address": [
+        "地址"
+      ],
+      "Photo": [
+        "照片"
+      ],
+      "Organization": [
+        "单位"
+      ],
+      "Birthday": [
+        "生日"
+      ],
+      "Anniversary": [
+        "周年纪念日"
+      ],
+      "Title": [
+        "职衔"
+      ],
+      "Role": [
+        "角色"
+      ],
+      "Note": [
+        "备注"
+      ],
+      "URL": [
+        "网址"
+      ],
+      "Gender": [
+        "性别"
+      ],
+      "Language": [
+        "语言"
+      ],
+      "Timezone": [
+        "时区"
+      ],
+      "Geo": [
+        "坐标"
+      ],
+      "Logo": [
+        "Logo"
+      ],
+      "Member": [
+        "成员"
+      ]
+    },
+    "Contact type label": {
+      "Work": [
+        "工作"
+      ],
+      "Personal": [
+        "私人"
+      ],
+      "Mobile": [
+        "手机"
+      ],
+      "Main": [
+        "主要"
+      ],
+      "Yomi": [
+        "读音"
+      ],
+      "Other": [
+        "其他"
+      ],
+      "Fax": [
+        "传真"
+      ],
+      "Pager": [
+        "寻呼机"
+      ]
+    },
+    "Property type": {
+      "Email": [
+        "电子邮件"
+      ],
+      "Home": [
+        "家庭"
+      ],
+      "Work": [
+        "工作"
+      ],
+      "Other": [
+        "其他"
+      ],
+      "Phone": [
+        "电话"
+      ],
+      "Mobile": [
+        "手机"
+      ],
+      "Main": [
+        "主要"
+      ],
+      "Fax": [
+        "传真"
+      ],
+      "Pager": [
+        "寻呼机"
+      ],
+      "Address": [
+        "地址"
+      ]
+    },
     "Calendar status": {
       "Syncing": [
         ""
@@ -730,12 +1159,6 @@
       "* Customizable features": [
         "可自定义功能"
       ],
-      "Access your streaming services, like ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, no matter where you are.": [
-        "无论您身于何处，您都可以访问您最喜爱的流媒体服务，如 ${ netflix }、${ disney }、${ primeVideo } 及${ many }。"
-      ],
-      "Access blocked content, like social media, news, Wikipedia, YouTube, and many others, no matter where you are.": [
-        "突破网络封锁，打开自由世界。随时随地访问被屏蔽的内容，例如社交媒体、新闻、维基百科、YouTube等等。"
-      ],
       "For getting started with private and secure emailing.": [
         "适合初次体验安全隐私邮件服务的新手。"
       ],
@@ -759,6 +1182,12 @@
       ],
       "For families and small teams; includes both Mail and VPN.": [
         "适合家庭和小团队；包括邮件和 VPN。"
+      ],
+      "Access your streaming services, like ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, no matter where you are.": [
+        "无论您身于何处，您都可以访问您最喜爱的流媒体服务，如 ${ netflix }、${ disney }、${ primeVideo } 及${ many }。"
+      ],
+      "Access blocked content, like social media, news, Wikipedia, YouTube, and many others, no matter where you are.": [
+        "突破网络封锁，打开自由世界。随时随地访问被屏蔽的内容，例如社交媒体、新闻、维基百科、YouTube等等。"
       ],
       "Save 20%": [
         "节省 20%"
@@ -1233,435 +1662,6 @@
       ],
       "Loading event": [
         "日程加载中"
-      ]
-    },
-    "Error": {
-      "Address primary private key not found": [
-        "找不到地址主私钥"
-      ],
-      "Calendar primary private key is not decrypted": [
-        "日历主密钥未解密。"
-      ],
-      "This field is required": [
-        "此项必须填写"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "此字段至少需要 ${ minimumLength } 个字符。"
-      ],
-      "Email is not valid": [
-        "无效邮箱"
-      ],
-      "Not a valid number": [
-        "无效号码"
-      ],
-      "Passwords do not match": [
-        "密码不匹配"
-      ],
-      "Request timed out.": [
-        "请求超时。"
-      ],
-      "Signature verification failed": [
-        "签名验证失败"
-      ],
-      "Could not find address ${ email }.": [
-        "找不到邮箱 ${ email }。"
-      ],
-      "Missing signature": [
-        "缺少签名"
-      ],
-      "Contact signature not verified": [
-        "未验证联系人签名"
-      ],
-      "Signature not verified": [
-        "签名未验证"
-      ],
-      "Invalid name": [
-        "无效的名称"
-      ],
-      "Email address disabled": [
-        "Email 地址已禁用"
-      ],
-      "No keys retrieved for internal user": [
-        "没有为内部用户检索到密钥"
-      ],
-      "No valid keys retrieved for internal user": [
-        "没有为内部用户检索到有效密钥"
-      ],
-      "Contact signature could not be verified": [
-        "无法验证联系人签名"
-      ],
-      "No key retrieved for internal user is valid for sending": [
-        "没有为内部用户检索到的密钥用于发送"
-      ],
-      "Trusted keys are not valid for sending": [
-        "已信任的密钥对发送无效"
-      ],
-      "No WKD key retrieved for user is valid for sending": [
-        "没有为内部用户检索到的密钥用于发送"
-      ],
-      "The sending key is not valid": [
-        "发送密钥无效"
-      ],
-      "Unknown error": [
-        "未知错误"
-      ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser": [
-        "此邮件含有浏览器不能打开的链接"
-      ],
-      "Authentication canceled.": [
-        "验证被取消"
-      ],
-      "Your import will not be processed.": [
-        "此次导入将不会进行"
-      ],
-      "Authentication error.": [
-        "验证错误"
-      ],
-      "Email address invalid": [
-        "电子邮箱地址无效"
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "您使用的浏览器无法完成支付验证，请使用其他浏览器或电脑支付。"
-      ],
-      "Incorrect mailbox password. Please try again": [
-        "邮箱密码不正确。请重试"
-      ],
-      "Incorrect login credentials. Please try again": [
-        "登录凭据不正确。请重试"
-      ],
-      "Can't validate email, try again later": [
-        "无法验证电子邮件，请稍后再试"
-      ],
-      "Can't validate phone, try again later": [
-        "无法验证手机，请稍候再试"
-      ],
-      "Enter 6 digits": [
-        "请输入 6 位验证码"
-      ],
-      "Invalid verification code": [
-        "无效的验证代码"
-      ],
-      "Process aborted": [
-        "操作已中止"
-      ],
-      "Payment process cancelled": [
-        "支付已取消"
-      ],
-      "Payment process failed": [
-        "支付失败"
-      ],
-      "Payment process consumed": [
-        "已经支付过了"
-      ],
-      "Payment process not supported": [
-        "不支持此支付流程"
-      ],
-      "Unknown payment token status": [
-        "支付状态不明"
-      ],
-      "Tab closed": [
-        "标签页已关闭"
-      ],
-      "Name on card required": [
-        "必须填写持卡人姓名"
-      ],
-      "Invalid expiration date": [
-        "有效期不正确"
-      ],
-      "Invalid card number": [
-        "卡号不正确"
-      ],
-      "Invalid ${ name } code": [
-        "${ name } 码不正确"
-      ],
-      "Invalid postal code": [
-        "邮政编码不正确"
-      ],
-      "Error connecting to the Bitcoin API.": [
-        "连接比特币 API 失败。"
-      ],
-      "Amount below minimum.": [
-        "金额太小。"
-      ],
-      "Amount above the maximum.": [
-        "金额太大。"
-      ],
-      "The minimum amount that can be donated is ${ price }": [
-        "捐款金额不应低于 ${ price }"
-      ],
-      "The minimum amount of credit that can be added is ${ _price }": [
-        "充值金额不能低于 ${ _price }"
-      ],
-      "The minimum payment we accept is ${ _price2 }": [
-        "支付金额不能低于 ${ _price2 }"
-      ],
-      "Checkout expired, please try again.": [
-        "支付超时，请重试。"
-      ],
-      "Invalid code": [
-        "无效的代码"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "出错了，请${ refresh }以继续。若仍出现此错误，请联系我们的${ supportTeam }"
-      ],
-      "Image upload failed": [
-        "图片上传失败"
-      ],
-      "Contact could not be saved": [
-        "无法保存联系人"
-      ],
-      "Some contacts could not be deleted": [
-        "部分联系人无法删除"
-      ],
-      "Preferences could not be saved": [
-        "无法保存偏好设置"
-      ],
-      "Some groups could not be deleted": [
-        "部分群组无法删除"
-      ],
-      "Invalid public key file": [
-        "公钥文件无效"
-      ],
-      "You can't send a mail to more than 100 recipients": [
-        "您不能给100 位以上收件人发送邮件"
-      ],
-      "One of the contacts has no email address: ${ noEmailsContactNamesList }": [
-        "某个/些联系人没有电子邮件地址: ${ noEmailsContactNamesList } "
-      ],
-      "You can't send vCards of more than 10 contacts": [
-        "您不能发送超过 10 个联系人的 vCard"
-      ],
-      "There was an error when exporting the contacts vCards": [
-        "导出联系人 vCards 时出错"
-      ],
-      "One of the groups has no contacts: ${ noContactGroupList }": [
-        "某个/些群组没有联系人: ${ noContactGroupList } "
-      ],
-      "You must set a name": [
-        "请输入名称 (必填)"
-      ],
-      "A group with this name already exists": [
-        "已存在同名群组"
-      ],
-      "Primary address key is not decrypted": [
-        "主密钥尚未解密。"
-      ],
-      "We were unable to connect to your service provider.": [
-        ""
-      ],
-      "Please try to reauthenticate and make sure the permissions are set correctly.": [
-        ""
-      ],
-      "No valid address found": [
-        "未找到有效地址"
-      ],
-      "Primary address key is not decrypted.": [
-        "主密钥尚未解密。"
-      ],
-      "Name required": [
-        "姓名 (必填)"
-      ],
-      "Self invitation not allowed": [
-        "不能自我邀请"
-      ],
-      "${ list } doesn't have a valid email address": [
-        "某个/些联系人没有有效的电子邮件地址: ${ list }"
-      ],
-      "${ _list } doesn't have an email address": [
-        "某个/些联系人没有电子邮件地址: ${ _list }"
-      ],
-      "${ list } has invalid emails": [
-        "某个/些群组存在无效的电子邮件地址: ${ list }"
-      ],
-      "${ _list2 } has no contacts": [
-        "某个/些群组没有联系人: ${ _list2 }"
-      ],
-      "Failed to get original occurrence in series": [
-        "无法获取序列中的原始事件"
-      ],
-      "It is only possible to move events between ${ minDateString } - ${ maxDateString }": [
-        "只能在${ minDateString }到${ maxDateString }之间移动日程"
-      ],
-      "It is only possible to create events between ${ minDateString } - ${ maxDateString }": [
-        "只能在${ minDateString }到${ maxDateString }之间创建日程"
-      ],
-      "Invitation failed to be sent": [
-        "邀请发送失败"
-      ],
-      "Answer failed to be sent": [
-        "答复发送失败"
-      ],
-      "Cancellation failed to be sent": [
-        "活动取消发送失败"
-      ],
-      "Invalid link to the event": [
-        "无效的日程链接"
-      ],
-      "Please create an address first.": [
-        "请先创建地址。"
-      ],
-      "Start time must be before end time": [
-        "起始时间必须早于结束时间"
-      ],
-      "Interval cannot be empty": [
-        "重复周期不能为空"
-      ],
-      "Ends on date cannot be empty": [
-        "结束日期不能为空"
-      ],
-      "Ends on date must be after start time": [
-        "结束日期不能早于起始日期"
-      ],
-      "Number of occurrences cannot be empty": [
-        "重复次数不能为空"
-      ],
-      "A maximum of 10 notifications is allowed": [
-        "最多允许10个通知"
-      ],
-      "Invalid email address": [
-        "无效的邮件地址"
-      ],
-      "Decryption error: Decryption of this event's content failed.": [
-        "解密失败：无法解密此日程的内容。"
-      ],
-      "Error: ${ errorMessage }": [
-        "错误：${ errorMessage }"
-      ],
-      "Error": [
-        "错误"
-      ]
-    },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "密码必须至少包含 ${ length } 个字符"
-      ]
-    },
-    "file size format": {
-      "bytes": [
-        "字节"
-      ],
-      "KB": [
-        "KB"
-      ],
-      "MB": [
-        "MB"
-      ],
-      "GB": [
-        "GB"
-      ]
-    },
-    "Contact field label": {
-      "Name": [
-        "姓名"
-      ],
-      "Email": [
-        "电子邮件"
-      ],
-      "Phone": [
-        "电话"
-      ],
-      "Address": [
-        "地址"
-      ],
-      "Photo": [
-        "照片"
-      ],
-      "Organization": [
-        "单位"
-      ],
-      "Birthday": [
-        "生日"
-      ],
-      "Anniversary": [
-        "周年纪念日"
-      ],
-      "Title": [
-        "职衔"
-      ],
-      "Role": [
-        "角色"
-      ],
-      "Note": [
-        "备注"
-      ],
-      "URL": [
-        "网址"
-      ],
-      "Gender": [
-        "性别"
-      ],
-      "Language": [
-        "语言"
-      ],
-      "Timezone": [
-        "时区"
-      ],
-      "Geo": [
-        "坐标"
-      ],
-      "Logo": [
-        "Logo"
-      ],
-      "Member": [
-        "成员"
-      ]
-    },
-    "Contact type label": {
-      "Work": [
-        "工作"
-      ],
-      "Personal": [
-        "私人"
-      ],
-      "Mobile": [
-        "手机"
-      ],
-      "Main": [
-        "主要"
-      ],
-      "Yomi": [
-        "读音"
-      ],
-      "Other": [
-        "其他"
-      ],
-      "Fax": [
-        "传真"
-      ],
-      "Pager": [
-        "寻呼机"
-      ]
-    },
-    "Property type": {
-      "Email": [
-        "电子邮件"
-      ],
-      "Home": [
-        "家庭"
-      ],
-      "Work": [
-        "工作"
-      ],
-      "Other": [
-        "其他"
-      ],
-      "Phone": [
-        "电话"
-      ],
-      "Mobile": [
-        "手机"
-      ],
-      "Main": [
-        "主要"
-      ],
-      "Fax": [
-        "传真"
-      ],
-      "Pager": [
-        "寻呼机"
-      ],
-      "Address": [
-        "地址"
       ]
     },
     "PGP key warning": {
@@ -2495,8 +2495,8 @@
       "Amount due": [
         "应付金额"
       ],
-      "Cancel subscription": [
-        "停止订购"
+      "Downgrade account": [
+        ""
       ],
       "Network error": [
         "网络错误"
@@ -2790,6 +2790,11 @@
         "编辑日程"
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        "此密钥不能用于加密"
+      ]
+    },
     "Storage": {
       "Your current storage:": [
         "您当前的存储空间："
@@ -2799,11 +2804,6 @@
       ],
       "Release notes": [
         "版本说明"
-      ]
-    },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        "此密钥不能用于加密"
       ]
     },
     "Label": {
@@ -4538,11 +4538,6 @@
         "请注意：点击 \"应用\" 按钮后，服务将重新加载"
       ]
     },
-    "Select files": {
-      "Upload": [
-        "上传"
-      ]
-    },
     "Loading info": {
       "Connecting to your contacts provider": [
         ""
@@ -4562,6 +4557,11 @@
     "Confirm modal title": {
       "Quit import?": [
         ""
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "上传"
       ]
     },
     "Message display when a new app version is available": {

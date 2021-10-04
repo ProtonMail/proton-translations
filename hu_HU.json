@@ -5,6 +5,442 @@
   },
   "contexts": {
     "": {},
+    "Error": {
+      "This field is required": [
+        "A mező kitöltése kötelező"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Legalább ${ minimumLength } karakter szükséges ebben a mezőben."
+      ],
+      "Email is not valid": [
+        "Érvénytelen e-mail cím"
+      ],
+      "Not a valid number": [
+        "Érvénytelen szám"
+      ],
+      "Passwords do not match": [
+        "A jelszavak nem egyeznek meg"
+      ],
+      "Address primary private key not found": [
+        "A cím elsődleges titkosító kulcsa nem található"
+      ],
+      "Calendar primary private key is not decrypted": [
+        "A naptár elsődleges titkosító kulcsa nincs visszafejtve"
+      ],
+      "Request timed out.": [
+        "A kérés túllépte az időkorlátot."
+      ],
+      "Signature verification failed": [
+        "Az aláírás ellenőrzése sikertelen volt"
+      ],
+      "Could not find address ${ email }.": [
+        "A(z) ${ email }. e-mail cím nem található."
+      ],
+      "Missing signature": [
+        "Hiányzó aláírás"
+      ],
+      "Contact signature not verified": [
+        "Névjegy aláírása nincs ellenőrizve"
+      ],
+      "Signature not verified": [
+        "Aláírás nincs ellenőrizve"
+      ],
+      "Invalid name": [
+        "Érvénytelen név"
+      ],
+      "Email address disabled": [
+        "Az e-mail cím le van tiltva"
+      ],
+      "No keys retrieved for internal user": [
+        "Nem található kulcs a belső felhasználóhoz"
+      ],
+      "No valid keys retrieved for internal user": [
+        "Nem található érvényes kulcs a belső felhasználóhoz"
+      ],
+      "Contact signature could not be verified": [
+        "Nem sikerült ellenőrizni a névjegy aláírását"
+      ],
+      "No key retrieved for internal user is valid for sending": [
+        "Nem található a küldéshez érvényes kulcs a belső felhasználóhoz"
+      ],
+      "Trusted keys are not valid for sending": [
+        "A küldéshez nem érvényesek a megbízhatóként megjelölt kulcsok"
+      ],
+      "No WKD key retrieved for user is valid for sending": [
+        "Nem sikerült a küldéshez érvényes WKD kulcs letöltése"
+      ],
+      "The sending key is not valid": [
+        "A küldő kulcs érvénytelen"
+      ],
+      "Unknown error": [
+        "Ismeretlen hiba"
+      ],
+      "This message may contain some link's URL that cannot be properly opened by your current browser": [
+        "Ez az üzenet olyan linkeket tartalmazhat, amelyeket a böngészője nem tud megfelelően megnyitni"
+      ],
+      "Authentication canceled.": [
+        "Hitelesítés megszakítva."
+      ],
+      "Your import will not be processed.": [
+        "Az importálás nem lesz feldolgozva."
+      ],
+      "Authentication error.": [
+        "Hitelesítési hiba."
+      ],
+      "Email address invalid": [
+        "Érvénytelen e-mail cím"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "Az Ön által használt böngésző nem támogatja a kívánt fizetési módot. Kérjük, használjon másik böngészőt, vagy jelentkezzen be egy számítógépről."
+      ],
+      "Incorrect mailbox password. Please try again": [
+        "Hibás e-mail titkosítási jelszó. Kérjük, próbálja újra"
+      ],
+      "Incorrect login credentials. Please try again": [
+        "Helytelen bejelentkezési adatok. Próbálja meg újra"
+      ],
+      "Can't validate email, try again later": [
+        "E-mail ellenőrzése nem sikerült, próbálja meg később"
+      ],
+      "Can't validate phone, try again later": [
+        "Telefonszám ellenőrzése nem sikerült, próbálja meg később"
+      ],
+      "Enter 6 digits": [
+        "6 számjegyet írjon be"
+      ],
+      "Invalid verification code": [
+        "Érvénytelen ellenőrző kód"
+      ],
+      "Process aborted": [
+        "Folyamat megszakítva"
+      ],
+      "Payment process cancelled": [
+        "A fizetés folyamata megszakítva"
+      ],
+      "Payment process failed": [
+        "Fizetés sikertelen"
+      ],
+      "Payment process consumed": [
+        "Fizetési folyamat befejezve"
+      ],
+      "Payment process not supported": [
+        "Fizetési folyamat nem támogatott"
+      ],
+      "Unknown payment token status": [
+        "Ismeretlen fizetési állapot"
+      ],
+      "Tab closed": [
+        "Fül bezárva"
+      ],
+      "Name on card required": [
+        "Kártyára írt név megadása kötelező"
+      ],
+      "Invalid expiration date": [
+        "Érvénytelen lejárati dátum"
+      ],
+      "Invalid card number": [
+        "Érvénytelen kártyaszám"
+      ],
+      "Invalid ${ name } code": [
+        "Érvénytelen ${ name } kód"
+      ],
+      "Invalid postal code": [
+        "Érvénytelen irányítószám"
+      ],
+      "Error connecting to the Bitcoin API.": [
+        "Hiba a Bitcoin API-ra csatlakozás közben."
+      ],
+      "Amount below minimum.": [
+        "Túl alacsony összeg."
+      ],
+      "Amount above the maximum.": [
+        "Túl magas összeg."
+      ],
+      "The minimum amount that can be donated is ${ price }": [
+        "Az adományozható minimális összeg { price }"
+      ],
+      "The minimum amount of credit that can be added is ${ _price }": [
+        "Legalább ${ _price } kredit feltöltése szükséges"
+      ],
+      "The minimum payment we accept is ${ _price2 }": [
+        "Legalacsonyabb elfogadható összeg: ${ _price2 }"
+      ],
+      "Checkout expired, please try again.": [
+        "A fizetés időtúllépéssel megszakadt, kérjük próbálja újra."
+      ],
+      "Invalid code": [
+        "Érvénytelen kód"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Hiba történt. Kérjük, ${ refresh } az oldalt a folytatáshoz. Ha a hiba továbbra is fennáll, kérjük lépjen velünk kapcsolatba: ${ supportTeam }."
+      ],
+      "Image upload failed": [
+        "Képfeltöltés sikertelen"
+      ],
+      "Contact could not be saved": [
+        "A névjegy mentése nem sikerült"
+      ],
+      "Some contacts could not be deleted": [
+        "Néhány névjegy törlése nem sikerült"
+      ],
+      "Preferences could not be saved": [
+        "Beállítások mentése nem sikerült"
+      ],
+      "Some groups could not be deleted": [
+        ""
+      ],
+      "Invalid public key file": [
+        "Érvénytelen nyilvános kulcs fájl"
+      ],
+      "You can't send a mail to more than 100 recipients": [
+        "Nem küldhet üzenetet több mint 100 címzettnek"
+      ],
+      "One of the contacts has no email address: ${ noEmailsContactNamesList }": [
+        "Az egyik névjegyhez nincs e-mail cím: ${ noEmailsContactNamesList }",
+        "Néhány névjegyhez nincs e-mail cím: ${ noEmailsContactNamesList } "
+      ],
+      "You can't send vCards of more than 10 contacts": [
+        "Egyszerre nem küldhet el több mint 10 vCard névjegyet"
+      ],
+      "There was an error when exporting the contacts vCards": [
+        "Hiba történt a névjegyek vCard formátumra exportálásakor"
+      ],
+      "One of the groups has no contacts: ${ noContactGroupList }": [
+        "Az egyik csoportban nincsenek névjegyek: ${ noContactGroupList }",
+        "Néhány csoportban nincsenek névjegyek: ${ noContactGroupList } "
+      ],
+      "You must set a name": [
+        "Meg kell adnia egy nevet"
+      ],
+      "A group with this name already exists": [
+        "Már létezik csoport ezzel a névvel"
+      ],
+      "We were unable to connect to your service provider.": [
+        ""
+      ],
+      "Please try to reauthenticate and make sure the permissions are set correctly.": [
+        ""
+      ],
+      "Primary address key is not decrypted": [
+        "Az elsődleges cím kulcsa nincs visszafejtve"
+      ],
+      "No valid address found": [
+        "Nem található érvényes e-mail cím"
+      ],
+      "Primary address key is not decrypted.": [
+        "Az elsődleges cím kulcsa nincs visszafejtve."
+      ],
+      "Name required": [
+        "Név megadása kötelező"
+      ],
+      "Self invitation not allowed": [
+        "Önmaga meghívása nem lehetséges"
+      ],
+      "${ list } doesn't have a valid email address": [
+        "",
+        ""
+      ],
+      "${ _list } doesn't have an email address": [
+        "",
+        ""
+      ],
+      "${ list } has invalid emails": [
+        "",
+        ""
+      ],
+      "${ _list2 } has no contacts": [
+        "",
+        "Néhány csoportban nincsenek névjegyek: ${ _list2 }"
+      ],
+      "Failed to get original occurrence in series": [
+        "Az eredeti előfordulás nem található a szériában"
+      ],
+      "It is only possible to move events between ${ minDateString } - ${ maxDateString }": [
+        "Az esemény csak a következő két dátum között mozgatható:  ${ minDateString } - ${ maxDateString }"
+      ],
+      "It is only possible to create events between ${ minDateString } - ${ maxDateString }": [
+        "Az esemény csak a következő két dátum között hozható létre: ${ minDateString } - ${ maxDateString }"
+      ],
+      "Invitation failed to be sent": [
+        "A meghívó elküldése nem sikerült"
+      ],
+      "Answer failed to be sent": [
+        "A válasz elküldése nem sikerült"
+      ],
+      "Cancellation failed to be sent": [
+        "A lemondó értesítés elküldése nem sikerült"
+      ],
+      "Invalid link to the event": [
+        "Érvénytelen link az eseményhez"
+      ],
+      "Please create an address first.": [
+        "Először létre kell hozni egy címet."
+      ],
+      "Start time must be before end time": [
+        "A kezdés idejének meg kell előznie a befejezés idejét"
+      ],
+      "Interval cannot be empty": [
+        "Az intervallum nem lehet üres"
+      ],
+      "Ends on date cannot be empty": [
+        "A befejezés dátumát meg kell adni"
+      ],
+      "Ends on date must be after start time": [
+        "A befejezés dátuma nem lehet korábbi időpont, mint a kezdő dátum"
+      ],
+      "Number of occurrences cannot be empty": [
+        "Az ismétlődések számát meg kell adni"
+      ],
+      "A maximum of 10 notifications is allowed": [
+        "Legfeljebb 10 értesítés megengedett"
+      ],
+      "Invalid email address": [
+        "Érvénytelen e-mail cím"
+      ],
+      "Decryption error: Decryption of this event's content failed.": [
+        "Hiba: Az esemény tartalmának visszafejtése sikertelen."
+      ],
+      "Error: ${ errorMessage }": [
+        "Hiba: ${ errorMessage }"
+      ],
+      "Error": [
+        "Hiba"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "A jelszónak legalább ${ length } karakterből kell állnia",
+        "A jelszónak legalább ${ length } karakterből kell állnia"
+      ]
+    },
+    "file size format": {
+      "bytes": [
+        "bájt"
+      ],
+      "KB": [
+        "KB"
+      ],
+      "MB": [
+        "MB"
+      ],
+      "GB": [
+        "GB"
+      ]
+    },
+    "Contact field label": {
+      "Name": [
+        "Név"
+      ],
+      "Email": [
+        "E-mail"
+      ],
+      "Phone": [
+        "Telefon"
+      ],
+      "Address": [
+        "Cím"
+      ],
+      "Photo": [
+        "Fénykép"
+      ],
+      "Organization": [
+        "Szervezet"
+      ],
+      "Birthday": [
+        "Születésnap"
+      ],
+      "Anniversary": [
+        "Évforduló"
+      ],
+      "Title": [
+        "Cím"
+      ],
+      "Role": [
+        "Beosztás"
+      ],
+      "Note": [
+        "Megjegyzés"
+      ],
+      "URL": [
+        "URL"
+      ],
+      "Gender": [
+        "Nem"
+      ],
+      "Language": [
+        "Nyelv"
+      ],
+      "Timezone": [
+        "Időzóna"
+      ],
+      "Geo": [
+        "Földrajzi hely"
+      ],
+      "Logo": [
+        "Logó"
+      ],
+      "Member": [
+        "Tag"
+      ]
+    },
+    "Contact type label": {
+      "Work": [
+        "Munkahely"
+      ],
+      "Personal": [
+        "Személyes"
+      ],
+      "Mobile": [
+        "Mobil"
+      ],
+      "Main": [
+        "Elsődleges"
+      ],
+      "Yomi": [
+        "Yomi"
+      ],
+      "Other": [
+        "Egyéb"
+      ],
+      "Fax": [
+        "Fax"
+      ],
+      "Pager": [
+        "Személyhívó"
+      ]
+    },
+    "Property type": {
+      "Email": [
+        "E-mail"
+      ],
+      "Home": [
+        "Otthoni"
+      ],
+      "Work": [
+        "Munkahely"
+      ],
+      "Other": [
+        "Egyéb"
+      ],
+      "Phone": [
+        "Telefon"
+      ],
+      "Mobile": [
+        "Mobil"
+      ],
+      "Main": [
+        "Elsődleges"
+      ],
+      "Fax": [
+        "Fax"
+      ],
+      "Pager": [
+        "Személyhívó"
+      ],
+      "Address": [
+        "Cím"
+      ]
+    },
     "Calendar status": {
       "Syncing": [
         ""
@@ -769,12 +1205,6 @@
       "* Customizable features": [
         "* Testreszabható szolgáltatások"
       ],
-      "Access your streaming services, like ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, no matter where you are.": [
-        "Nézze a TV előfizetéseit, mint ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, bárhol is van."
-      ],
-      "Access blocked content, like social media, news, Wikipedia, YouTube, and many others, no matter where you are.": [
-        "Hozzáférés blokkolt tartalomhoz, mint például közösségi oldalak, hírek, Wikipedia, YouTube és sok más, bárhol is tartózkodik."
-      ],
       "For getting started with private and secure emailing.": [
         "Az elinduláshoz a biztonságos és privát e-mailezésben."
       ],
@@ -798,6 +1228,12 @@
       ],
       "For families and small teams; includes both Mail and VPN.": [
         "Családoknak és kisebb csoportoknak, a levelezést és VPN-t is tartalmazza."
+      ],
+      "Access your streaming services, like ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, no matter where you are.": [
+        "Nézze a TV előfizetéseit, mint ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, bárhol is van."
+      ],
+      "Access blocked content, like social media, news, Wikipedia, YouTube, and many others, no matter where you are.": [
+        "Hozzáférés blokkolt tartalomhoz, mint például közösségi oldalak, hírek, Wikipedia, YouTube és sok más, bárhol is tartózkodik."
       ],
       "Save 20%": [
         "20% kedvezményt"
@@ -1278,442 +1714,6 @@
       ],
       "Loading event": [
         "Esemény betöltése"
-      ]
-    },
-    "Error": {
-      "Address primary private key not found": [
-        "A cím elsődleges titkosító kulcsa nem található"
-      ],
-      "Calendar primary private key is not decrypted": [
-        "A naptár elsődleges titkosító kulcsa nincs visszafejtve"
-      ],
-      "This field is required": [
-        "A mező kitöltése kötelező"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Legalább ${ minimumLength } karakter szükséges ebben a mezőben."
-      ],
-      "Email is not valid": [
-        "Érvénytelen e-mail cím"
-      ],
-      "Not a valid number": [
-        "Érvénytelen szám"
-      ],
-      "Passwords do not match": [
-        "A jelszavak nem egyeznek meg"
-      ],
-      "Request timed out.": [
-        "A kérés túllépte az időkorlátot."
-      ],
-      "Signature verification failed": [
-        "Az aláírás ellenőrzése sikertelen volt"
-      ],
-      "Could not find address ${ email }.": [
-        "A(z) ${ email }. e-mail cím nem található."
-      ],
-      "Missing signature": [
-        "Hiányzó aláírás"
-      ],
-      "Contact signature not verified": [
-        "Névjegy aláírása nincs ellenőrizve"
-      ],
-      "Signature not verified": [
-        "Aláírás nincs ellenőrizve"
-      ],
-      "Invalid name": [
-        "Érvénytelen név"
-      ],
-      "Email address disabled": [
-        "Az e-mail cím le van tiltva"
-      ],
-      "No keys retrieved for internal user": [
-        "Nem található kulcs a belső felhasználóhoz"
-      ],
-      "No valid keys retrieved for internal user": [
-        "Nem található érvényes kulcs a belső felhasználóhoz"
-      ],
-      "Contact signature could not be verified": [
-        "Nem sikerült ellenőrizni a névjegy aláírását"
-      ],
-      "No key retrieved for internal user is valid for sending": [
-        "Nem található a küldéshez érvényes kulcs a belső felhasználóhoz"
-      ],
-      "Trusted keys are not valid for sending": [
-        "A küldéshez nem érvényesek a megbízhatóként megjelölt kulcsok"
-      ],
-      "No WKD key retrieved for user is valid for sending": [
-        "Nem sikerült a küldéshez érvényes WKD kulcs letöltése"
-      ],
-      "The sending key is not valid": [
-        "A küldő kulcs érvénytelen"
-      ],
-      "Unknown error": [
-        "Ismeretlen hiba"
-      ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser": [
-        "Ez az üzenet olyan linkeket tartalmazhat, amelyeket a böngészője nem tud megfelelően megnyitni"
-      ],
-      "Authentication canceled.": [
-        "Hitelesítés megszakítva."
-      ],
-      "Your import will not be processed.": [
-        "Az importálás nem lesz feldolgozva."
-      ],
-      "Authentication error.": [
-        "Hitelesítési hiba."
-      ],
-      "Email address invalid": [
-        "Érvénytelen e-mail cím"
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "Az Ön által használt böngésző nem támogatja a kívánt fizetési módot. Kérjük, használjon másik böngészőt, vagy jelentkezzen be egy számítógépről."
-      ],
-      "Incorrect mailbox password. Please try again": [
-        "Hibás e-mail titkosítási jelszó. Kérjük, próbálja újra"
-      ],
-      "Incorrect login credentials. Please try again": [
-        "Helytelen bejelentkezési adatok. Próbálja meg újra"
-      ],
-      "Can't validate email, try again later": [
-        "E-mail ellenőrzése nem sikerült, próbálja meg később"
-      ],
-      "Can't validate phone, try again later": [
-        "Telefonszám ellenőrzése nem sikerült, próbálja meg később"
-      ],
-      "Enter 6 digits": [
-        "6 számjegyet írjon be"
-      ],
-      "Invalid verification code": [
-        "Érvénytelen ellenőrző kód"
-      ],
-      "Process aborted": [
-        "Folyamat megszakítva"
-      ],
-      "Payment process cancelled": [
-        "A fizetés folyamata megszakítva"
-      ],
-      "Payment process failed": [
-        "Fizetés sikertelen"
-      ],
-      "Payment process consumed": [
-        "Fizetési folyamat befejezve"
-      ],
-      "Payment process not supported": [
-        "Fizetési folyamat nem támogatott"
-      ],
-      "Unknown payment token status": [
-        "Ismeretlen fizetési állapot"
-      ],
-      "Tab closed": [
-        "Fül bezárva"
-      ],
-      "Name on card required": [
-        "Kártyára írt név megadása kötelező"
-      ],
-      "Invalid expiration date": [
-        "Érvénytelen lejárati dátum"
-      ],
-      "Invalid card number": [
-        "Érvénytelen kártyaszám"
-      ],
-      "Invalid ${ name } code": [
-        "Érvénytelen ${ name } kód"
-      ],
-      "Invalid postal code": [
-        "Érvénytelen irányítószám"
-      ],
-      "Error connecting to the Bitcoin API.": [
-        "Hiba a Bitcoin API-ra csatlakozás közben."
-      ],
-      "Amount below minimum.": [
-        "Túl alacsony összeg."
-      ],
-      "Amount above the maximum.": [
-        "Túl magas összeg."
-      ],
-      "The minimum amount that can be donated is ${ price }": [
-        "Az adományozható minimális összeg { price }"
-      ],
-      "The minimum amount of credit that can be added is ${ _price }": [
-        "Legalább ${ _price } kredit feltöltése szükséges"
-      ],
-      "The minimum payment we accept is ${ _price2 }": [
-        "Legalacsonyabb elfogadható összeg: ${ _price2 }"
-      ],
-      "Checkout expired, please try again.": [
-        "A fizetés időtúllépéssel megszakadt, kérjük próbálja újra."
-      ],
-      "Invalid code": [
-        "Érvénytelen kód"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Hiba történt. Kérjük, ${ refresh } az oldalt a folytatáshoz. Ha a hiba továbbra is fennáll, kérjük lépjen velünk kapcsolatba: ${ supportTeam }."
-      ],
-      "Image upload failed": [
-        "Képfeltöltés sikertelen"
-      ],
-      "Contact could not be saved": [
-        "A névjegy mentése nem sikerült"
-      ],
-      "Some contacts could not be deleted": [
-        "Néhány névjegy törlése nem sikerült"
-      ],
-      "Preferences could not be saved": [
-        "Beállítások mentése nem sikerült"
-      ],
-      "Some groups could not be deleted": [
-        ""
-      ],
-      "Invalid public key file": [
-        "Érvénytelen nyilvános kulcs fájl"
-      ],
-      "You can't send a mail to more than 100 recipients": [
-        "Nem küldhet üzenetet több mint 100 címzettnek"
-      ],
-      "One of the contacts has no email address: ${ noEmailsContactNamesList }": [
-        "Az egyik névjegyhez nincs e-mail cím: ${ noEmailsContactNamesList }",
-        "Néhány névjegyhez nincs e-mail cím: ${ noEmailsContactNamesList } "
-      ],
-      "You can't send vCards of more than 10 contacts": [
-        "Egyszerre nem küldhet el több mint 10 vCard névjegyet"
-      ],
-      "There was an error when exporting the contacts vCards": [
-        "Hiba történt a névjegyek vCard formátumra exportálásakor"
-      ],
-      "One of the groups has no contacts: ${ noContactGroupList }": [
-        "Az egyik csoportban nincsenek névjegyek: ${ noContactGroupList }",
-        "Néhány csoportban nincsenek névjegyek: ${ noContactGroupList } "
-      ],
-      "You must set a name": [
-        "Meg kell adnia egy nevet"
-      ],
-      "A group with this name already exists": [
-        "Már létezik csoport ezzel a névvel"
-      ],
-      "Primary address key is not decrypted": [
-        "Az elsődleges cím kulcsa nincs visszafejtve"
-      ],
-      "We were unable to connect to your service provider.": [
-        ""
-      ],
-      "Please try to reauthenticate and make sure the permissions are set correctly.": [
-        ""
-      ],
-      "No valid address found": [
-        "Nem található érvényes e-mail cím"
-      ],
-      "Primary address key is not decrypted.": [
-        "Az elsődleges cím kulcsa nincs visszafejtve."
-      ],
-      "Name required": [
-        "Név megadása kötelező"
-      ],
-      "Self invitation not allowed": [
-        "Önmaga meghívása nem lehetséges"
-      ],
-      "${ list } doesn't have a valid email address": [
-        "",
-        ""
-      ],
-      "${ _list } doesn't have an email address": [
-        "",
-        ""
-      ],
-      "${ list } has invalid emails": [
-        "",
-        ""
-      ],
-      "${ _list2 } has no contacts": [
-        "",
-        "Néhány csoportban nincsenek névjegyek: ${ _list2 }"
-      ],
-      "Failed to get original occurrence in series": [
-        "Az eredeti előfordulás nem található a szériában"
-      ],
-      "It is only possible to move events between ${ minDateString } - ${ maxDateString }": [
-        "Az esemény csak a következő két dátum között mozgatható:  ${ minDateString } - ${ maxDateString }"
-      ],
-      "It is only possible to create events between ${ minDateString } - ${ maxDateString }": [
-        "Az esemény csak a következő két dátum között hozható létre: ${ minDateString } - ${ maxDateString }"
-      ],
-      "Invitation failed to be sent": [
-        "A meghívó elküldése nem sikerült"
-      ],
-      "Answer failed to be sent": [
-        "A válasz elküldése nem sikerült"
-      ],
-      "Cancellation failed to be sent": [
-        "A lemondó értesítés elküldése nem sikerült"
-      ],
-      "Invalid link to the event": [
-        "Érvénytelen link az eseményhez"
-      ],
-      "Please create an address first.": [
-        "Először létre kell hozni egy címet."
-      ],
-      "Start time must be before end time": [
-        "A kezdés idejének meg kell előznie a befejezés idejét"
-      ],
-      "Interval cannot be empty": [
-        "Az intervallum nem lehet üres"
-      ],
-      "Ends on date cannot be empty": [
-        "A befejezés dátumát meg kell adni"
-      ],
-      "Ends on date must be after start time": [
-        "A befejezés dátuma nem lehet korábbi időpont, mint a kezdő dátum"
-      ],
-      "Number of occurrences cannot be empty": [
-        "Az ismétlődések számát meg kell adni"
-      ],
-      "A maximum of 10 notifications is allowed": [
-        "Legfeljebb 10 értesítés megengedett"
-      ],
-      "Invalid email address": [
-        "Érvénytelen e-mail cím"
-      ],
-      "Decryption error: Decryption of this event's content failed.": [
-        "Hiba: Az esemény tartalmának visszafejtése sikertelen."
-      ],
-      "Error: ${ errorMessage }": [
-        "Hiba: ${ errorMessage }"
-      ],
-      "Error": [
-        "Hiba"
-      ]
-    },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "A jelszónak legalább ${ length } karakterből kell állnia",
-        "A jelszónak legalább ${ length } karakterből kell állnia"
-      ]
-    },
-    "file size format": {
-      "bytes": [
-        "bájt"
-      ],
-      "KB": [
-        "KB"
-      ],
-      "MB": [
-        "MB"
-      ],
-      "GB": [
-        "GB"
-      ]
-    },
-    "Contact field label": {
-      "Name": [
-        "Név"
-      ],
-      "Email": [
-        "E-mail"
-      ],
-      "Phone": [
-        "Telefon"
-      ],
-      "Address": [
-        "Cím"
-      ],
-      "Photo": [
-        "Fénykép"
-      ],
-      "Organization": [
-        "Szervezet"
-      ],
-      "Birthday": [
-        "Születésnap"
-      ],
-      "Anniversary": [
-        "Évforduló"
-      ],
-      "Title": [
-        "Cím"
-      ],
-      "Role": [
-        "Beosztás"
-      ],
-      "Note": [
-        "Megjegyzés"
-      ],
-      "URL": [
-        "URL"
-      ],
-      "Gender": [
-        "Nem"
-      ],
-      "Language": [
-        "Nyelv"
-      ],
-      "Timezone": [
-        "Időzóna"
-      ],
-      "Geo": [
-        "Földrajzi hely"
-      ],
-      "Logo": [
-        "Logó"
-      ],
-      "Member": [
-        "Tag"
-      ]
-    },
-    "Contact type label": {
-      "Work": [
-        "Munkahely"
-      ],
-      "Personal": [
-        "Személyes"
-      ],
-      "Mobile": [
-        "Mobil"
-      ],
-      "Main": [
-        "Elsődleges"
-      ],
-      "Yomi": [
-        "Yomi"
-      ],
-      "Other": [
-        "Egyéb"
-      ],
-      "Fax": [
-        "Fax"
-      ],
-      "Pager": [
-        "Személyhívó"
-      ]
-    },
-    "Property type": {
-      "Email": [
-        "E-mail"
-      ],
-      "Home": [
-        "Otthoni"
-      ],
-      "Work": [
-        "Munkahely"
-      ],
-      "Other": [
-        "Egyéb"
-      ],
-      "Phone": [
-        "Telefon"
-      ],
-      "Mobile": [
-        "Mobil"
-      ],
-      "Main": [
-        "Elsődleges"
-      ],
-      "Fax": [
-        "Fax"
-      ],
-      "Pager": [
-        "Személyhívó"
-      ],
-      "Address": [
-        "Cím"
       ]
     },
     "PGP key warning": {
@@ -2549,8 +2549,8 @@
       "Amount due": [
         "Esedékes összeg"
       ],
-      "Cancel subscription": [
-        "Előfizetés megszüntetése"
+      "Downgrade account": [
+        ""
       ],
       "Network error": [
         "Hálózati hiba"
@@ -2848,6 +2848,11 @@
         "Esemény szerkesztése"
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        ""
+      ]
+    },
     "Storage": {
       "Your current storage:": [
         "Jelenlegi tárhelye:"
@@ -2857,11 +2862,6 @@
       ],
       "Release notes": [
         "Kiadási megjegyzések"
-      ]
-    },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        ""
       ]
     },
     "Label": {
@@ -4626,11 +4626,6 @@
         "Figyelem: Az \"Alkalmazás\" gombra kattintva a szolgáltatás újraindul."
       ]
     },
-    "Select files": {
-      "Upload": [
-        "Feltöltés"
-      ]
-    },
     "Loading info": {
       "Connecting to your contacts provider": [
         ""
@@ -4650,6 +4645,11 @@
     "Confirm modal title": {
       "Quit import?": [
         ""
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "Feltöltés"
       ]
     },
     "Message display when a new app version is available": {

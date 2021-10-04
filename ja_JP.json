@@ -5,6 +5,435 @@
   },
   "contexts": {
     "": {},
+    "Error": {
+      "This field is required": [
+        "この項目の入力は必須です"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "このフィールドには最低${ minimumLength } 文字が必要です。"
+      ],
+      "Email is not valid": [
+        "メールアドレスが正しくありません"
+      ],
+      "Not a valid number": [
+        "正しい番号ではありません"
+      ],
+      "Passwords do not match": [
+        "パスワードが一致しません"
+      ],
+      "Address primary private key not found": [
+        "メールアドレスのプライマリー秘密鍵が見つかりません"
+      ],
+      "Calendar primary private key is not decrypted": [
+        "カレンダーのプライマリー秘密鍵が復号されていません"
+      ],
+      "Request timed out.": [
+        "リクエストがタイムアウトしました。"
+      ],
+      "Signature verification failed": [
+        "署名の検証に失敗しました"
+      ],
+      "Could not find address ${ email }.": [
+        "${ email } というメールアドレスが見つかりませんでした。"
+      ],
+      "Missing signature": [
+        "署名がありません"
+      ],
+      "Contact signature not verified": [
+        "連絡先の署名が確認されていません"
+      ],
+      "Signature not verified": [
+        "署名が確認されていません"
+      ],
+      "Invalid name": [
+        "無効な名前です。"
+      ],
+      "Email address disabled": [
+        "メールアドレスが無効です"
+      ],
+      "No keys retrieved for internal user": [
+        "内部ユーザーのために取得された鍵はありません"
+      ],
+      "No valid keys retrieved for internal user": [
+        "内部ユーザーのために取得された有効な鍵がありません"
+      ],
+      "Contact signature could not be verified": [
+        "連絡先の署名を確認できませんでした"
+      ],
+      "No key retrieved for internal user is valid for sending": [
+        "内部ユーザーのために取得された鍵は送信には有効ではありません"
+      ],
+      "Trusted keys are not valid for sending": [
+        "信頼された鍵は送信に有効ではありません"
+      ],
+      "No WKD key retrieved for user is valid for sending": [
+        "ユーザーのために取得されたWKD鍵は送信には有効ではありません"
+      ],
+      "The sending key is not valid": [
+        "送信鍵が有効ではありません"
+      ],
+      "Unknown error": [
+        "不明なエラー"
+      ],
+      "This message may contain some link's URL that cannot be properly opened by your current browser": [
+        "このメッセージは、現在お使いのブラウザでは適切に開くことができないリンクのURLを含んでいる可能性があります。"
+      ],
+      "Authentication canceled.": [
+        "認証がキャンセルされました。"
+      ],
+      "Your import will not be processed.": [
+        "インポートできませんでした。"
+      ],
+      "Authentication error.": [
+        "認証エラー"
+      ],
+      "Email address invalid": [
+        "無効なメールアドレスです。"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "お使いのブラウザでは、支払いを完全に承認できません。別のブラウザを使用するか、コンピューターからログインしてください。"
+      ],
+      "Incorrect mailbox password. Please try again": [
+        "メールボックスのパスワードが正しくありません。再度入力してください。"
+      ],
+      "Incorrect login credentials. Please try again": [
+        "間違ったログイン情報です。もう一度やり直してください。"
+      ],
+      "Can't validate email, try again later": [
+        "メールアドレスを検証できませんした。再度お試しください"
+      ],
+      "Can't validate phone, try again later": [
+        "電話番号の検証ができませんでした。再度お試しください"
+      ],
+      "Enter 6 digits": [
+        "6 桁の数字を入力"
+      ],
+      "Invalid verification code": [
+        "無効な検証コード"
+      ],
+      "Process aborted": [
+        "処理が中断されました"
+      ],
+      "Payment process cancelled": [
+        "支払い処理はキャンセルされました"
+      ],
+      "Payment process failed": [
+        "支払い処理は失敗しました"
+      ],
+      "Payment process consumed": [
+        "支払い処理は消費されました"
+      ],
+      "Payment process not supported": [
+        "支払い処理はサポートされていません"
+      ],
+      "Unknown payment token status": [
+        "支払いトークンの状態が不明です。"
+      ],
+      "Tab closed": [
+        "タブが閉じられました。"
+      ],
+      "Name on card required": [
+        "カードの名義人を入力してください。"
+      ],
+      "Invalid expiration date": [
+        "無効な有効期限です"
+      ],
+      "Invalid card number": [
+        "無効なカード番号です。"
+      ],
+      "Invalid ${ name } code": [
+        "無効な ${ name } コードです"
+      ],
+      "Invalid postal code": [
+        "無効な郵便番号です"
+      ],
+      "Error connecting to the Bitcoin API.": [
+        "ビットコインAPIへの接続中にエラーが発生しました。"
+      ],
+      "Amount below minimum.": [
+        "最少金額を下回っています。"
+      ],
+      "Amount above the maximum.": [
+        "上限金額を超えています。"
+      ],
+      "The minimum amount that can be donated is ${ price }": [
+        "寄付金額は ${ price } から承っております。"
+      ],
+      "The minimum amount of credit that can be added is ${ _price }": [
+        "追加クレジット金額は ${ _price } 以上から承っております。"
+      ],
+      "The minimum payment we accept is ${ _price2 }": [
+        "${ _price2 } 以上の額より承っております。"
+      ],
+      "Checkout expired, please try again.": [
+        "チェックアウトの有効期限が切れました。もう一度やり直してください。"
+      ],
+      "Invalid code": [
+        "無効なコードです"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "エラーが発生しました。続行するには ${ refresh } してください。それでもこのエラーが発生する場合は ${ supportTeam } までお問い合わせください。"
+      ],
+      "Image upload failed": [
+        "画像のアップロードに失敗しました。"
+      ],
+      "Contact could not be saved": [
+        "連絡先を保存できませんでした"
+      ],
+      "Some contacts could not be deleted": [
+        "一部の連絡先を削除できませんでした。"
+      ],
+      "Preferences could not be saved": [
+        "設定が保存できませんでした。"
+      ],
+      "Some groups could not be deleted": [
+        "一部のグループは削除できませんでした"
+      ],
+      "Invalid public key file": [
+        "無効な公開鍵ファイル"
+      ],
+      "You can't send a mail to more than 100 recipients": [
+        "100 人以上の受信者にメールを送信することはできません"
+      ],
+      "One of the contacts has no email address: ${ noEmailsContactNamesList }": [
+        ""
+      ],
+      "You can't send vCards of more than 10 contacts": [
+        "10以上の連絡先のvcardを送信することはできません"
+      ],
+      "There was an error when exporting the contacts vCards": [
+        "連絡先のvCardのエクスポート中にエラーが発生しました"
+      ],
+      "One of the groups has no contacts: ${ noContactGroupList }": [
+        ""
+      ],
+      "You must set a name": [
+        "名前を設定してください"
+      ],
+      "A group with this name already exists": [
+        "この名前のグループは既に存在します"
+      ],
+      "We were unable to connect to your service provider.": [
+        ""
+      ],
+      "Please try to reauthenticate and make sure the permissions are set correctly.": [
+        ""
+      ],
+      "Primary address key is not decrypted": [
+        "プライマリーアドレス鍵が復号されていません"
+      ],
+      "No valid address found": [
+        "有効なアドレスが見つかりません。"
+      ],
+      "Primary address key is not decrypted.": [
+        "プライマリーアドレス鍵が復号されていません。"
+      ],
+      "Name required": [
+        "名前が必要です"
+      ],
+      "Self invitation not allowed": [
+        "自分自身を招待することはできません"
+      ],
+      "${ list } doesn't have a valid email address": [
+        ""
+      ],
+      "${ _list } doesn't have an email address": [
+        ""
+      ],
+      "${ list } has invalid emails": [
+        ""
+      ],
+      "${ _list2 } has no contacts": [
+        ""
+      ],
+      "Failed to get original occurrence in series": [
+        ""
+      ],
+      "It is only possible to move events between ${ minDateString } - ${ maxDateString }": [
+        ""
+      ],
+      "It is only possible to create events between ${ minDateString } - ${ maxDateString }": [
+        ""
+      ],
+      "Invitation failed to be sent": [
+        ""
+      ],
+      "Answer failed to be sent": [
+        ""
+      ],
+      "Cancellation failed to be sent": [
+        ""
+      ],
+      "Invalid link to the event": [
+        "イベントへの無効なリンク"
+      ],
+      "Please create an address first.": [
+        ""
+      ],
+      "Start time must be before end time": [
+        "開始日時は終了日時の前に設定してください。"
+      ],
+      "Interval cannot be empty": [
+        ""
+      ],
+      "Ends on date cannot be empty": [
+        ""
+      ],
+      "Ends on date must be after start time": [
+        "終了日は開始日の後に設定してください。"
+      ],
+      "Number of occurrences cannot be empty": [
+        ""
+      ],
+      "A maximum of 10 notifications is allowed": [
+        ""
+      ],
+      "Invalid email address": [
+        "無効なメールアドレスです"
+      ],
+      "Decryption error: Decryption of this event's content failed.": [
+        "復号エラー：この予定の内容の復号に失敗しました。"
+      ],
+      "Error: ${ errorMessage }": [
+        "エラー： ${ errorMessage }"
+      ],
+      "Error": [
+        "エラーが発生しました"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "パスワードは ${ length } 文字以上必要です"
+      ]
+    },
+    "file size format": {
+      "bytes": [
+        "バイト"
+      ],
+      "KB": [
+        "KB"
+      ],
+      "MB": [
+        "MB"
+      ],
+      "GB": [
+        "GB"
+      ]
+    },
+    "Contact field label": {
+      "Name": [
+        "名前"
+      ],
+      "Email": [
+        "メールアドレス"
+      ],
+      "Phone": [
+        "電話番号"
+      ],
+      "Address": [
+        "メールアドレス"
+      ],
+      "Photo": [
+        "写真"
+      ],
+      "Organization": [
+        "組織"
+      ],
+      "Birthday": [
+        "誕生日"
+      ],
+      "Anniversary": [
+        "記念日"
+      ],
+      "Title": [
+        "件名"
+      ],
+      "Role": [
+        "役割"
+      ],
+      "Note": [
+        "メモ"
+      ],
+      "URL": [
+        "URL"
+      ],
+      "Gender": [
+        "性別"
+      ],
+      "Language": [
+        "言語"
+      ],
+      "Timezone": [
+        "タイムゾーン"
+      ],
+      "Geo": [
+        "ゲオ"
+      ],
+      "Logo": [
+        "ロゴ"
+      ],
+      "Member": [
+        "メンバー"
+      ]
+    },
+    "Contact type label": {
+      "Work": [
+        "勤務先"
+      ],
+      "Personal": [
+        "個人"
+      ],
+      "Mobile": [
+        "モバイル"
+      ],
+      "Main": [
+        "メイン"
+      ],
+      "Yomi": [
+        "ふりがな"
+      ],
+      "Other": [
+        "その他"
+      ],
+      "Fax": [
+        "Fax"
+      ],
+      "Pager": [
+        "ポケベル"
+      ]
+    },
+    "Property type": {
+      "Email": [
+        "メールアドレス"
+      ],
+      "Home": [
+        "自宅"
+      ],
+      "Work": [
+        "勤務先"
+      ],
+      "Other": [
+        "その他"
+      ],
+      "Phone": [
+        "電話番号"
+      ],
+      "Mobile": [
+        "モバイル"
+      ],
+      "Main": [
+        "メイン"
+      ],
+      "Fax": [
+        "Fax"
+      ],
+      "Pager": [
+        "ポケベル"
+      ],
+      "Address": [
+        "メールアドレス"
+      ]
+    },
     "Calendar status": {
       "Syncing": [
         ""
@@ -730,12 +1159,6 @@
       "* Customizable features": [
         "* カスタマイズ可能な項目"
       ],
-      "Access your streaming services, like ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, no matter where you are.": [
-        "場所を問わず、${ netflix }, ${ disney }, ${ primeVideo }, ${ many } などのストリーミングサービスにアクセスできます。"
-      ],
-      "Access blocked content, like social media, news, Wikipedia, YouTube, and many others, no matter where you are.": [
-        "場所を問わず、ソーシャルメディア、ニュース、Wikipedia、YouTubeなどのブロックされたコンテンツにアクセスできます。"
-      ],
       "For getting started with private and secure emailing.": [
         "プライベートで安全なEメールを始めるために。"
       ],
@@ -759,6 +1182,12 @@
       ],
       "For families and small teams; includes both Mail and VPN.": [
         "家族や小規模なチームには、メールとVPNの両方が含まれています。"
+      ],
+      "Access your streaming services, like ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, no matter where you are.": [
+        "場所を問わず、${ netflix }, ${ disney }, ${ primeVideo }, ${ many } などのストリーミングサービスにアクセスできます。"
+      ],
+      "Access blocked content, like social media, news, Wikipedia, YouTube, and many others, no matter where you are.": [
+        "場所を問わず、ソーシャルメディア、ニュース、Wikipedia、YouTubeなどのブロックされたコンテンツにアクセスできます。"
       ],
       "Save 20%": [
         "20% 割引"
@@ -1233,435 +1662,6 @@
       ],
       "Loading event": [
         "予定を読み込み中"
-      ]
-    },
-    "Error": {
-      "Address primary private key not found": [
-        "メールアドレスのプライマリー秘密鍵が見つかりません"
-      ],
-      "Calendar primary private key is not decrypted": [
-        "カレンダーのプライマリー秘密鍵が復号されていません"
-      ],
-      "This field is required": [
-        "この項目の入力は必須です"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "このフィールドには最低${ minimumLength } 文字が必要です。"
-      ],
-      "Email is not valid": [
-        "メールアドレスが正しくありません"
-      ],
-      "Not a valid number": [
-        "正しい番号ではありません"
-      ],
-      "Passwords do not match": [
-        "パスワードが一致しません"
-      ],
-      "Request timed out.": [
-        "リクエストがタイムアウトしました。"
-      ],
-      "Signature verification failed": [
-        "署名の検証に失敗しました"
-      ],
-      "Could not find address ${ email }.": [
-        "${ email } というメールアドレスが見つかりませんでした。"
-      ],
-      "Missing signature": [
-        "署名がありません"
-      ],
-      "Contact signature not verified": [
-        "連絡先の署名が確認されていません"
-      ],
-      "Signature not verified": [
-        "署名が確認されていません"
-      ],
-      "Invalid name": [
-        "無効な名前です。"
-      ],
-      "Email address disabled": [
-        "メールアドレスが無効です"
-      ],
-      "No keys retrieved for internal user": [
-        "内部ユーザーのために取得された鍵はありません"
-      ],
-      "No valid keys retrieved for internal user": [
-        "内部ユーザーのために取得された有効な鍵がありません"
-      ],
-      "Contact signature could not be verified": [
-        "連絡先の署名を確認できませんでした"
-      ],
-      "No key retrieved for internal user is valid for sending": [
-        "内部ユーザーのために取得された鍵は送信には有効ではありません"
-      ],
-      "Trusted keys are not valid for sending": [
-        "信頼された鍵は送信に有効ではありません"
-      ],
-      "No WKD key retrieved for user is valid for sending": [
-        "ユーザーのために取得されたWKD鍵は送信には有効ではありません"
-      ],
-      "The sending key is not valid": [
-        "送信鍵が有効ではありません"
-      ],
-      "Unknown error": [
-        "不明なエラー"
-      ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser": [
-        "このメッセージは、現在お使いのブラウザでは適切に開くことができないリンクのURLを含んでいる可能性があります。"
-      ],
-      "Authentication canceled.": [
-        "認証がキャンセルされました。"
-      ],
-      "Your import will not be processed.": [
-        "インポートできませんでした。"
-      ],
-      "Authentication error.": [
-        "認証エラー"
-      ],
-      "Email address invalid": [
-        "無効なメールアドレスです。"
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "お使いのブラウザでは、支払いを完全に承認できません。別のブラウザを使用するか、コンピューターからログインしてください。"
-      ],
-      "Incorrect mailbox password. Please try again": [
-        "メールボックスのパスワードが正しくありません。再度入力してください。"
-      ],
-      "Incorrect login credentials. Please try again": [
-        "間違ったログイン情報です。もう一度やり直してください。"
-      ],
-      "Can't validate email, try again later": [
-        "メールアドレスを検証できませんした。再度お試しください"
-      ],
-      "Can't validate phone, try again later": [
-        "電話番号の検証ができませんでした。再度お試しください"
-      ],
-      "Enter 6 digits": [
-        "6 桁の数字を入力"
-      ],
-      "Invalid verification code": [
-        "無効な検証コード"
-      ],
-      "Process aborted": [
-        "処理が中断されました"
-      ],
-      "Payment process cancelled": [
-        "支払い処理はキャンセルされました"
-      ],
-      "Payment process failed": [
-        "支払い処理は失敗しました"
-      ],
-      "Payment process consumed": [
-        "支払い処理は消費されました"
-      ],
-      "Payment process not supported": [
-        "支払い処理はサポートされていません"
-      ],
-      "Unknown payment token status": [
-        "支払いトークンの状態が不明です。"
-      ],
-      "Tab closed": [
-        "タブが閉じられました。"
-      ],
-      "Name on card required": [
-        "カードの名義人を入力してください。"
-      ],
-      "Invalid expiration date": [
-        "無効な有効期限です"
-      ],
-      "Invalid card number": [
-        "無効なカード番号です。"
-      ],
-      "Invalid ${ name } code": [
-        "無効な ${ name } コードです"
-      ],
-      "Invalid postal code": [
-        "無効な郵便番号です"
-      ],
-      "Error connecting to the Bitcoin API.": [
-        "ビットコインAPIへの接続中にエラーが発生しました。"
-      ],
-      "Amount below minimum.": [
-        "最少金額を下回っています。"
-      ],
-      "Amount above the maximum.": [
-        "上限金額を超えています。"
-      ],
-      "The minimum amount that can be donated is ${ price }": [
-        "寄付金額は ${ price } から承っております。"
-      ],
-      "The minimum amount of credit that can be added is ${ _price }": [
-        "追加クレジット金額は ${ _price } 以上から承っております。"
-      ],
-      "The minimum payment we accept is ${ _price2 }": [
-        "${ _price2 } 以上の額より承っております。"
-      ],
-      "Checkout expired, please try again.": [
-        "チェックアウトの有効期限が切れました。もう一度やり直してください。"
-      ],
-      "Invalid code": [
-        "無効なコードです"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "エラーが発生しました。続行するには ${ refresh } してください。それでもこのエラーが発生する場合は ${ supportTeam } までお問い合わせください。"
-      ],
-      "Image upload failed": [
-        "画像のアップロードに失敗しました。"
-      ],
-      "Contact could not be saved": [
-        "連絡先を保存できませんでした"
-      ],
-      "Some contacts could not be deleted": [
-        "一部の連絡先を削除できませんでした。"
-      ],
-      "Preferences could not be saved": [
-        "設定が保存できませんでした。"
-      ],
-      "Some groups could not be deleted": [
-        "一部のグループは削除できませんでした"
-      ],
-      "Invalid public key file": [
-        "無効な公開鍵ファイル"
-      ],
-      "You can't send a mail to more than 100 recipients": [
-        "100 人以上の受信者にメールを送信することはできません"
-      ],
-      "One of the contacts has no email address: ${ noEmailsContactNamesList }": [
-        ""
-      ],
-      "You can't send vCards of more than 10 contacts": [
-        "10以上の連絡先のvcardを送信することはできません"
-      ],
-      "There was an error when exporting the contacts vCards": [
-        "連絡先のvCardのエクスポート中にエラーが発生しました"
-      ],
-      "One of the groups has no contacts: ${ noContactGroupList }": [
-        ""
-      ],
-      "You must set a name": [
-        "名前を設定してください"
-      ],
-      "A group with this name already exists": [
-        "この名前のグループは既に存在します"
-      ],
-      "Primary address key is not decrypted": [
-        "プライマリーアドレス鍵が復号されていません"
-      ],
-      "We were unable to connect to your service provider.": [
-        ""
-      ],
-      "Please try to reauthenticate and make sure the permissions are set correctly.": [
-        ""
-      ],
-      "No valid address found": [
-        "有効なアドレスが見つかりません。"
-      ],
-      "Primary address key is not decrypted.": [
-        "プライマリーアドレス鍵が復号されていません。"
-      ],
-      "Name required": [
-        "名前が必要です"
-      ],
-      "Self invitation not allowed": [
-        "自分自身を招待することはできません"
-      ],
-      "${ list } doesn't have a valid email address": [
-        ""
-      ],
-      "${ _list } doesn't have an email address": [
-        ""
-      ],
-      "${ list } has invalid emails": [
-        ""
-      ],
-      "${ _list2 } has no contacts": [
-        ""
-      ],
-      "Failed to get original occurrence in series": [
-        ""
-      ],
-      "It is only possible to move events between ${ minDateString } - ${ maxDateString }": [
-        ""
-      ],
-      "It is only possible to create events between ${ minDateString } - ${ maxDateString }": [
-        ""
-      ],
-      "Invitation failed to be sent": [
-        ""
-      ],
-      "Answer failed to be sent": [
-        ""
-      ],
-      "Cancellation failed to be sent": [
-        ""
-      ],
-      "Invalid link to the event": [
-        "イベントへの無効なリンク"
-      ],
-      "Please create an address first.": [
-        ""
-      ],
-      "Start time must be before end time": [
-        "開始日時は終了日時の前に設定してください。"
-      ],
-      "Interval cannot be empty": [
-        ""
-      ],
-      "Ends on date cannot be empty": [
-        ""
-      ],
-      "Ends on date must be after start time": [
-        "終了日は開始日の後に設定してください。"
-      ],
-      "Number of occurrences cannot be empty": [
-        ""
-      ],
-      "A maximum of 10 notifications is allowed": [
-        ""
-      ],
-      "Invalid email address": [
-        "無効なメールアドレスです"
-      ],
-      "Decryption error: Decryption of this event's content failed.": [
-        "復号エラー：この予定の内容の復号に失敗しました。"
-      ],
-      "Error: ${ errorMessage }": [
-        "エラー： ${ errorMessage }"
-      ],
-      "Error": [
-        "エラーが発生しました"
-      ]
-    },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "パスワードは ${ length } 文字以上必要です"
-      ]
-    },
-    "file size format": {
-      "bytes": [
-        "バイト"
-      ],
-      "KB": [
-        "KB"
-      ],
-      "MB": [
-        "MB"
-      ],
-      "GB": [
-        "GB"
-      ]
-    },
-    "Contact field label": {
-      "Name": [
-        "名前"
-      ],
-      "Email": [
-        "メールアドレス"
-      ],
-      "Phone": [
-        "電話番号"
-      ],
-      "Address": [
-        "メールアドレス"
-      ],
-      "Photo": [
-        "写真"
-      ],
-      "Organization": [
-        "組織"
-      ],
-      "Birthday": [
-        "誕生日"
-      ],
-      "Anniversary": [
-        "記念日"
-      ],
-      "Title": [
-        "件名"
-      ],
-      "Role": [
-        "役割"
-      ],
-      "Note": [
-        "メモ"
-      ],
-      "URL": [
-        "URL"
-      ],
-      "Gender": [
-        "性別"
-      ],
-      "Language": [
-        "言語"
-      ],
-      "Timezone": [
-        "タイムゾーン"
-      ],
-      "Geo": [
-        "ゲオ"
-      ],
-      "Logo": [
-        "ロゴ"
-      ],
-      "Member": [
-        "メンバー"
-      ]
-    },
-    "Contact type label": {
-      "Work": [
-        "勤務先"
-      ],
-      "Personal": [
-        "個人"
-      ],
-      "Mobile": [
-        "モバイル"
-      ],
-      "Main": [
-        "メイン"
-      ],
-      "Yomi": [
-        "ふりがな"
-      ],
-      "Other": [
-        "その他"
-      ],
-      "Fax": [
-        "Fax"
-      ],
-      "Pager": [
-        "ポケベル"
-      ]
-    },
-    "Property type": {
-      "Email": [
-        "メールアドレス"
-      ],
-      "Home": [
-        "自宅"
-      ],
-      "Work": [
-        "勤務先"
-      ],
-      "Other": [
-        "その他"
-      ],
-      "Phone": [
-        "電話番号"
-      ],
-      "Mobile": [
-        "モバイル"
-      ],
-      "Main": [
-        "メイン"
-      ],
-      "Fax": [
-        "Fax"
-      ],
-      "Pager": [
-        "ポケベル"
-      ],
-      "Address": [
-        "メールアドレス"
       ]
     },
     "PGP key warning": {
@@ -2495,8 +2495,8 @@
       "Amount due": [
         "支払い総額"
       ],
-      "Cancel subscription": [
-        "サブスクリプションをキャンセル"
+      "Downgrade account": [
+        ""
       ],
       "Network error": [
         "ネットワークエラー"
@@ -2790,6 +2790,11 @@
         "イベントを編集"
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        ""
+      ]
+    },
     "Storage": {
       "Your current storage:": [
         "現在のストレージ:"
@@ -2799,11 +2804,6 @@
       ],
       "Release notes": [
         "更新情報"
-      ]
-    },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        ""
       ]
     },
     "Label": {
@@ -4538,11 +4538,6 @@
         "注意: 「適用」をクリックするとサービスが再読み込みされます。"
       ]
     },
-    "Select files": {
-      "Upload": [
-        "アップロード"
-      ]
-    },
     "Loading info": {
       "Connecting to your contacts provider": [
         ""
@@ -4562,6 +4557,11 @@
     "Confirm modal title": {
       "Quit import?": [
         ""
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "アップロード"
       ]
     },
     "Message display when a new app version is available": {

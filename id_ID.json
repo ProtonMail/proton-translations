@@ -5,6 +5,435 @@
   },
   "contexts": {
     "": {},
+    "Error": {
+      "This field is required": [
+        "Bagian ini wajib isi"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Bidang ini membutuhkan minimal ${ minimumLength } karakter."
+      ],
+      "Email is not valid": [
+        "Surel tidak valid"
+      ],
+      "Not a valid number": [
+        "Bukan nomor yang valid"
+      ],
+      "Passwords do not match": [
+        "Kata sandi tidak cocok"
+      ],
+      "Address primary private key not found": [
+        "Kunci pribadi utama alamat tidak ditemukan"
+      ],
+      "Calendar primary private key is not decrypted": [
+        "Kunci pribadi utama kalender tidak didekripsi"
+      ],
+      "Request timed out.": [
+        "Waktu permintaan habis."
+      ],
+      "Signature verification failed": [
+        "Verifikasi tanda tangan gagal"
+      ],
+      "Could not find address ${ email }.": [
+        "Tidak dapat menemukan alamat ${ email }."
+      ],
+      "Missing signature": [
+        "Tanda tangan hilang"
+      ],
+      "Contact signature not verified": [
+        "Tanda tangan kontak tidak terverifikasi"
+      ],
+      "Signature not verified": [
+        "Tanda tangan tidak terverifikasi"
+      ],
+      "Invalid name": [
+        "Nama tidak valid"
+      ],
+      "Email address disabled": [
+        "Alamat surel nonaktif"
+      ],
+      "No keys retrieved for internal user": [
+        "Tidak ada kunci untuk pengguna internal yang diambil"
+      ],
+      "No valid keys retrieved for internal user": [
+        "Tidak ada kunci valid untuk pengguna internal yang diambil"
+      ],
+      "Contact signature could not be verified": [
+        "Tanda tangan kontak tidak dapat diverifikasi"
+      ],
+      "No key retrieved for internal user is valid for sending": [
+        "Tidak ada kunci yang diambil untuk pengguna internal yang valid untuk pengiriman"
+      ],
+      "Trusted keys are not valid for sending": [
+        "Kunci terpercaya tidak valid untuk mengirim"
+      ],
+      "No WKD key retrieved for user is valid for sending": [
+        "Tidak ada kunci WKD yang diambil untuk pengguna internal yang valid untuk pengiriman"
+      ],
+      "The sending key is not valid": [
+        "Kunci untuk mengirim tidak valid"
+      ],
+      "Unknown error": [
+        "Galat tak diketahui"
+      ],
+      "This message may contain some link's URL that cannot be properly opened by your current browser": [
+        "Pesan ini mungkin berisi tautan URL yang tidak dapat dibuka dengan benar oleh peramban Anda saat ini"
+      ],
+      "Authentication canceled.": [
+        "Autentikasi dibatalkan."
+      ],
+      "Your import will not be processed.": [
+        "Impor Anda tidak akan diproses."
+      ],
+      "Authentication error.": [
+        "Kesalahan autentikasi."
+      ],
+      "Email address invalid": [
+        "Alamat surel tidak valid"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "Peramban yang Anda gunakan tidak mengizinkan pembayaran secara penuh diotorisasi. Sila gunakan peramban lain atau masuk via komputer."
+      ],
+      "Incorrect mailbox password. Please try again": [
+        "Sandi kotak surat salah. Silakan coba lagi"
+      ],
+      "Incorrect login credentials. Please try again": [
+        "Kredensial masuk salah. Silakan coba lagi"
+      ],
+      "Can't validate email, try again later": [
+        "Tidak dapat memvalidasi surel, coba lagi nanti"
+      ],
+      "Can't validate phone, try again later": [
+        "Tidak dapat memvalidasi telepon, coba lagi nanti"
+      ],
+      "Enter 6 digits": [
+        "Masukkan 6 digit"
+      ],
+      "Invalid verification code": [
+        "Kode verifikasi tidak valid"
+      ],
+      "Process aborted": [
+        "Proses dibatalkan"
+      ],
+      "Payment process cancelled": [
+        "Proses pembayaran dibatalkan"
+      ],
+      "Payment process failed": [
+        "Proses pembayaran gagal"
+      ],
+      "Payment process consumed": [
+        "Proses pembayaran selesai"
+      ],
+      "Payment process not supported": [
+        "Proses pembayaran tidak didukung"
+      ],
+      "Unknown payment token status": [
+        "Status token pembayaran tidak dikenal"
+      ],
+      "Tab closed": [
+        "Tab ditutup"
+      ],
+      "Name on card required": [
+        "Wajib isi nama di kartu"
+      ],
+      "Invalid expiration date": [
+        "Tanggal kedaluwarsa tidak valid"
+      ],
+      "Invalid card number": [
+        "Nomor kartu tidak valid"
+      ],
+      "Invalid ${ name } code": [
+        "Kode ${ name } tidak valid"
+      ],
+      "Invalid postal code": [
+        "Kode pos tidak valid"
+      ],
+      "Error connecting to the Bitcoin API.": [
+        "Gagal sambung ke API Bitcoin."
+      ],
+      "Amount below minimum.": [
+        "Jumlah di bawah minimum."
+      ],
+      "Amount above the maximum.": [
+        "Jumlah di atas maksimum."
+      ],
+      "The minimum amount that can be donated is ${ price }": [
+        "Sumbangan minimal ${ price }"
+      ],
+      "The minimum amount of credit that can be added is ${ _price }": [
+        "Tambahan kredit minimal ${ _price }"
+      ],
+      "The minimum payment we accept is ${ _price2 }": [
+        "Pembayaran minimal ${ _price2 }"
+      ],
+      "Checkout expired, please try again.": [
+        "Pembayaran kedaluwarsa, silakan coba lagi."
+      ],
+      "Invalid code": [
+        "Kode tidak valid"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Terjadi kesalahan, mohon ${ refresh } ntuk melanjutkan. Jika Anda masih melihat pesan kesalahan ini, silakan hubungi ${ supportTeam } kami."
+      ],
+      "Image upload failed": [
+        "Gagal unggah gambar"
+      ],
+      "Contact could not be saved": [
+        "Kontak tidak dapat disimpan"
+      ],
+      "Some contacts could not be deleted": [
+        "Beberapa kontak tidak dapat dihapus"
+      ],
+      "Preferences could not be saved": [
+        "Preferensi tidak bisa disimpan"
+      ],
+      "Some groups could not be deleted": [
+        "Beberapa grup tidak dapat dihapus"
+      ],
+      "Invalid public key file": [
+        "Berkas kunci publik tidak valid"
+      ],
+      "You can't send a mail to more than 100 recipients": [
+        "Anda tidak dapat mengirim surat ke lebih dari 100 penerima"
+      ],
+      "One of the contacts has no email address: ${ noEmailsContactNamesList }": [
+        "Kontak tidak memiliki alamat surel: ${ noEmailsContactNamesList } "
+      ],
+      "You can't send vCards of more than 10 contacts": [
+        "Anda tidak dapat mengirim vCard lebih dari 10 kontak"
+      ],
+      "There was an error when exporting the contacts vCards": [
+        "Ada kesalahan saat mengekspor kontak vCard"
+      ],
+      "One of the groups has no contacts: ${ noContactGroupList }": [
+        "Salah satu grup tidak memiliki kontak: ${ noContactGroupList }\n\nBeberapa grup tidak memiliki kontak: ${ noContactGroupList } "
+      ],
+      "You must set a name": [
+        "Anda harus membuat nama"
+      ],
+      "A group with this name already exists": [
+        "Grup dengan nama ini sudah ada"
+      ],
+      "We were unable to connect to your service provider.": [
+        ""
+      ],
+      "Please try to reauthenticate and make sure the permissions are set correctly.": [
+        ""
+      ],
+      "Primary address key is not decrypted": [
+        "Kunci alamat utama tidak didekripsi"
+      ],
+      "No valid address found": [
+        "Tidak ditemukan alamat valid"
+      ],
+      "Primary address key is not decrypted.": [
+        "Kunci alamat utama tidak didekripsi."
+      ],
+      "Name required": [
+        "Nama diperlukan"
+      ],
+      "Self invitation not allowed": [
+        "Dilarang mengundang diri sendiri"
+      ],
+      "${ list } doesn't have a valid email address": [
+        "${ list } tidak memiliki sebuah alamat email yang valid"
+      ],
+      "${ _list } doesn't have an email address": [
+        ""
+      ],
+      "${ list } has invalid emails": [
+        "${ list } mempunyai alamat email yang tidak valid"
+      ],
+      "${ _list2 } has no contacts": [
+        "Salah satu grup tidak memiliki kontak: ${ _list2 }\n\nBeberapa grup tidak memiliki kontak: ${ noContactGroupList }"
+      ],
+      "Failed to get original occurrence in series": [
+        "Gagal mendapatkan rangkaian kejadian asli"
+      ],
+      "It is only possible to move events between ${ minDateString } - ${ maxDateString }": [
+        "Hanya dapat memindahkan acara antara ${ minDateString } - ${ maxDateString }"
+      ],
+      "It is only possible to create events between ${ minDateString } - ${ maxDateString }": [
+        "Hanya dapat membuat acara antara ${ minDateString } - ${ maxDateString }"
+      ],
+      "Invitation failed to be sent": [
+        "Undangan gagal dikirim"
+      ],
+      "Answer failed to be sent": [
+        "Jawaban gagal dikirim"
+      ],
+      "Cancellation failed to be sent": [
+        "Pembatalan gagal dikirim"
+      ],
+      "Invalid link to the event": [
+        "Tautan ke acara tidak vallid"
+      ],
+      "Please create an address first.": [
+        "Buat alamat dulu."
+      ],
+      "Start time must be before end time": [
+        "Waktu mulai harus sebelum waktu selesai"
+      ],
+      "Interval cannot be empty": [
+        "Interval tidak boleh kosong"
+      ],
+      "Ends on date cannot be empty": [
+        "Tanggal akhir tidak boleh kosong"
+      ],
+      "Ends on date must be after start time": [
+        "Tanggal akhir harus setelah tanggal mulai"
+      ],
+      "Number of occurrences cannot be empty": [
+        "Nomor peristiwa tidak boleh kosong"
+      ],
+      "A maximum of 10 notifications is allowed": [
+        "Maksimun 10 notifikasi diizinkan"
+      ],
+      "Invalid email address": [
+        "Alamat surel tidak valid"
+      ],
+      "Decryption error: Decryption of this event's content failed.": [
+        "Kesalahan dekripsi: Dekripsi isi acara gagal."
+      ],
+      "Error: ${ errorMessage }": [
+        "Kesalahan: ${ errorMessage }"
+      ],
+      "Error": [
+        "Galat"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "Kata sandi minimal ${ length } karakter"
+      ]
+    },
+    "file size format": {
+      "bytes": [
+        "byte"
+      ],
+      "KB": [
+        "KB"
+      ],
+      "MB": [
+        "MB"
+      ],
+      "GB": [
+        "GB"
+      ]
+    },
+    "Contact field label": {
+      "Name": [
+        "Nama"
+      ],
+      "Email": [
+        "Surel"
+      ],
+      "Phone": [
+        "Telepon"
+      ],
+      "Address": [
+        "Alamat"
+      ],
+      "Photo": [
+        "Foto"
+      ],
+      "Organization": [
+        "Organisasi"
+      ],
+      "Birthday": [
+        "Ulang tahun"
+      ],
+      "Anniversary": [
+        "Ulang tahun"
+      ],
+      "Title": [
+        "Gelar"
+      ],
+      "Role": [
+        "Peran"
+      ],
+      "Note": [
+        "Catatan"
+      ],
+      "URL": [
+        "URL"
+      ],
+      "Gender": [
+        "Jenis kelamin"
+      ],
+      "Language": [
+        "Bahasa"
+      ],
+      "Timezone": [
+        "Zona waktu"
+      ],
+      "Geo": [
+        "Geo"
+      ],
+      "Logo": [
+        "Logo"
+      ],
+      "Member": [
+        "Anggota"
+      ]
+    },
+    "Contact type label": {
+      "Work": [
+        "Kerja"
+      ],
+      "Personal": [
+        "Pribadi"
+      ],
+      "Mobile": [
+        "Seluler"
+      ],
+      "Main": [
+        "Utama"
+      ],
+      "Yomi": [
+        "Yomi"
+      ],
+      "Other": [
+        "Lainnya"
+      ],
+      "Fax": [
+        "Faks"
+      ],
+      "Pager": [
+        "Penyeranta"
+      ]
+    },
+    "Property type": {
+      "Email": [
+        "Surel"
+      ],
+      "Home": [
+        "Rumah"
+      ],
+      "Work": [
+        "Kerja"
+      ],
+      "Other": [
+        "Lainnya"
+      ],
+      "Phone": [
+        "Telepon"
+      ],
+      "Mobile": [
+        "Seluler"
+      ],
+      "Main": [
+        "Utama"
+      ],
+      "Fax": [
+        "Faks"
+      ],
+      "Pager": [
+        "Penyeranta"
+      ],
+      "Address": [
+        "Alamat"
+      ]
+    },
     "Calendar status": {
       "Syncing": [
         ""
@@ -730,12 +1159,6 @@
       "* Customizable features": [
         "* Fitur yang dapat disesuaikan"
       ],
-      "Access your streaming services, like ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, no matter where you are.": [
-        "Akses layanan tontonan Anda, seperti ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, di mana pun Anda berada."
-      ],
-      "Access blocked content, like social media, news, Wikipedia, YouTube, and many others, no matter where you are.": [
-        "Akses konten terblokir, seperti sosial media, berita, Wikipedia, YouTube, dan masih banyak lagi, di mana pun Anda berada."
-      ],
       "For getting started with private and secure emailing.": [
         "Untuk memulai pengiriman surel dengan privat dan aman."
       ],
@@ -759,6 +1182,12 @@
       ],
       "For families and small teams; includes both Mail and VPN.": [
         "Untuk keluarga dan tim kecil; termasuk Mail dan VPN."
+      ],
+      "Access your streaming services, like ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, no matter where you are.": [
+        "Akses layanan tontonan Anda, seperti ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, di mana pun Anda berada."
+      ],
+      "Access blocked content, like social media, news, Wikipedia, YouTube, and many others, no matter where you are.": [
+        "Akses konten terblokir, seperti sosial media, berita, Wikipedia, YouTube, dan masih banyak lagi, di mana pun Anda berada."
       ],
       "Save 20%": [
         "Hemat 20%"
@@ -1233,435 +1662,6 @@
       ],
       "Loading event": [
         "Memuat acara"
-      ]
-    },
-    "Error": {
-      "Address primary private key not found": [
-        "Kunci pribadi utama alamat tidak ditemukan"
-      ],
-      "Calendar primary private key is not decrypted": [
-        "Kunci pribadi utama kalender tidak didekripsi"
-      ],
-      "This field is required": [
-        "Bagian ini wajib isi"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Bidang ini membutuhkan minimal ${ minimumLength } karakter."
-      ],
-      "Email is not valid": [
-        "Surel tidak valid"
-      ],
-      "Not a valid number": [
-        "Bukan nomor yang valid"
-      ],
-      "Passwords do not match": [
-        "Kata sandi tidak cocok"
-      ],
-      "Request timed out.": [
-        "Waktu permintaan habis."
-      ],
-      "Signature verification failed": [
-        "Verifikasi tanda tangan gagal"
-      ],
-      "Could not find address ${ email }.": [
-        "Tidak dapat menemukan alamat ${ email }."
-      ],
-      "Missing signature": [
-        "Tanda tangan hilang"
-      ],
-      "Contact signature not verified": [
-        "Tanda tangan kontak tidak terverifikasi"
-      ],
-      "Signature not verified": [
-        "Tanda tangan tidak terverifikasi"
-      ],
-      "Invalid name": [
-        "Nama tidak valid"
-      ],
-      "Email address disabled": [
-        "Alamat surel nonaktif"
-      ],
-      "No keys retrieved for internal user": [
-        "Tidak ada kunci untuk pengguna internal yang diambil"
-      ],
-      "No valid keys retrieved for internal user": [
-        "Tidak ada kunci valid untuk pengguna internal yang diambil"
-      ],
-      "Contact signature could not be verified": [
-        "Tanda tangan kontak tidak dapat diverifikasi"
-      ],
-      "No key retrieved for internal user is valid for sending": [
-        "Tidak ada kunci yang diambil untuk pengguna internal yang valid untuk pengiriman"
-      ],
-      "Trusted keys are not valid for sending": [
-        "Kunci terpercaya tidak valid untuk mengirim"
-      ],
-      "No WKD key retrieved for user is valid for sending": [
-        "Tidak ada kunci WKD yang diambil untuk pengguna internal yang valid untuk pengiriman"
-      ],
-      "The sending key is not valid": [
-        "Kunci untuk mengirim tidak valid"
-      ],
-      "Unknown error": [
-        "Galat tak diketahui"
-      ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser": [
-        "Pesan ini mungkin berisi tautan URL yang tidak dapat dibuka dengan benar oleh peramban Anda saat ini"
-      ],
-      "Authentication canceled.": [
-        "Autentikasi dibatalkan."
-      ],
-      "Your import will not be processed.": [
-        "Impor Anda tidak akan diproses."
-      ],
-      "Authentication error.": [
-        "Kesalahan autentikasi."
-      ],
-      "Email address invalid": [
-        "Alamat surel tidak valid"
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "Peramban yang Anda gunakan tidak mengizinkan pembayaran secara penuh diotorisasi. Sila gunakan peramban lain atau masuk via komputer."
-      ],
-      "Incorrect mailbox password. Please try again": [
-        "Sandi kotak surat salah. Silakan coba lagi"
-      ],
-      "Incorrect login credentials. Please try again": [
-        "Kredensial masuk salah. Silakan coba lagi"
-      ],
-      "Can't validate email, try again later": [
-        "Tidak dapat memvalidasi surel, coba lagi nanti"
-      ],
-      "Can't validate phone, try again later": [
-        "Tidak dapat memvalidasi telepon, coba lagi nanti"
-      ],
-      "Enter 6 digits": [
-        "Masukkan 6 digit"
-      ],
-      "Invalid verification code": [
-        "Kode verifikasi tidak valid"
-      ],
-      "Process aborted": [
-        "Proses dibatalkan"
-      ],
-      "Payment process cancelled": [
-        "Proses pembayaran dibatalkan"
-      ],
-      "Payment process failed": [
-        "Proses pembayaran gagal"
-      ],
-      "Payment process consumed": [
-        "Proses pembayaran selesai"
-      ],
-      "Payment process not supported": [
-        "Proses pembayaran tidak didukung"
-      ],
-      "Unknown payment token status": [
-        "Status token pembayaran tidak dikenal"
-      ],
-      "Tab closed": [
-        "Tab ditutup"
-      ],
-      "Name on card required": [
-        "Wajib isi nama di kartu"
-      ],
-      "Invalid expiration date": [
-        "Tanggal kedaluwarsa tidak valid"
-      ],
-      "Invalid card number": [
-        "Nomor kartu tidak valid"
-      ],
-      "Invalid ${ name } code": [
-        "Kode ${ name } tidak valid"
-      ],
-      "Invalid postal code": [
-        "Kode pos tidak valid"
-      ],
-      "Error connecting to the Bitcoin API.": [
-        "Gagal sambung ke API Bitcoin."
-      ],
-      "Amount below minimum.": [
-        "Jumlah di bawah minimum."
-      ],
-      "Amount above the maximum.": [
-        "Jumlah di atas maksimum."
-      ],
-      "The minimum amount that can be donated is ${ price }": [
-        "Sumbangan minimal ${ price }"
-      ],
-      "The minimum amount of credit that can be added is ${ _price }": [
-        "Tambahan kredit minimal ${ _price }"
-      ],
-      "The minimum payment we accept is ${ _price2 }": [
-        "Pembayaran minimal ${ _price2 }"
-      ],
-      "Checkout expired, please try again.": [
-        "Pembayaran kedaluwarsa, silakan coba lagi."
-      ],
-      "Invalid code": [
-        "Kode tidak valid"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Terjadi kesalahan, mohon ${ refresh } ntuk melanjutkan. Jika Anda masih melihat pesan kesalahan ini, silakan hubungi ${ supportTeam } kami."
-      ],
-      "Image upload failed": [
-        "Gagal unggah gambar"
-      ],
-      "Contact could not be saved": [
-        "Kontak tidak dapat disimpan"
-      ],
-      "Some contacts could not be deleted": [
-        "Beberapa kontak tidak dapat dihapus"
-      ],
-      "Preferences could not be saved": [
-        "Preferensi tidak bisa disimpan"
-      ],
-      "Some groups could not be deleted": [
-        "Beberapa grup tidak dapat dihapus"
-      ],
-      "Invalid public key file": [
-        "Berkas kunci publik tidak valid"
-      ],
-      "You can't send a mail to more than 100 recipients": [
-        "Anda tidak dapat mengirim surat ke lebih dari 100 penerima"
-      ],
-      "One of the contacts has no email address: ${ noEmailsContactNamesList }": [
-        "Kontak tidak memiliki alamat surel: ${ noEmailsContactNamesList } "
-      ],
-      "You can't send vCards of more than 10 contacts": [
-        "Anda tidak dapat mengirim vCard lebih dari 10 kontak"
-      ],
-      "There was an error when exporting the contacts vCards": [
-        "Ada kesalahan saat mengekspor kontak vCard"
-      ],
-      "One of the groups has no contacts: ${ noContactGroupList }": [
-        "Salah satu grup tidak memiliki kontak: ${ noContactGroupList }\n\nBeberapa grup tidak memiliki kontak: ${ noContactGroupList } "
-      ],
-      "You must set a name": [
-        "Anda harus membuat nama"
-      ],
-      "A group with this name already exists": [
-        "Grup dengan nama ini sudah ada"
-      ],
-      "Primary address key is not decrypted": [
-        "Kunci alamat utama tidak didekripsi"
-      ],
-      "We were unable to connect to your service provider.": [
-        ""
-      ],
-      "Please try to reauthenticate and make sure the permissions are set correctly.": [
-        ""
-      ],
-      "No valid address found": [
-        "Tidak ditemukan alamat valid"
-      ],
-      "Primary address key is not decrypted.": [
-        "Kunci alamat utama tidak didekripsi."
-      ],
-      "Name required": [
-        "Nama diperlukan"
-      ],
-      "Self invitation not allowed": [
-        "Dilarang mengundang diri sendiri"
-      ],
-      "${ list } doesn't have a valid email address": [
-        "${ list } tidak memiliki sebuah alamat email yang valid"
-      ],
-      "${ _list } doesn't have an email address": [
-        ""
-      ],
-      "${ list } has invalid emails": [
-        "${ list } mempunyai alamat email yang tidak valid"
-      ],
-      "${ _list2 } has no contacts": [
-        "Salah satu grup tidak memiliki kontak: ${ _list2 }\n\nBeberapa grup tidak memiliki kontak: ${ noContactGroupList }"
-      ],
-      "Failed to get original occurrence in series": [
-        "Gagal mendapatkan rangkaian kejadian asli"
-      ],
-      "It is only possible to move events between ${ minDateString } - ${ maxDateString }": [
-        "Hanya dapat memindahkan acara antara ${ minDateString } - ${ maxDateString }"
-      ],
-      "It is only possible to create events between ${ minDateString } - ${ maxDateString }": [
-        "Hanya dapat membuat acara antara ${ minDateString } - ${ maxDateString }"
-      ],
-      "Invitation failed to be sent": [
-        "Undangan gagal dikirim"
-      ],
-      "Answer failed to be sent": [
-        "Jawaban gagal dikirim"
-      ],
-      "Cancellation failed to be sent": [
-        "Pembatalan gagal dikirim"
-      ],
-      "Invalid link to the event": [
-        "Tautan ke acara tidak vallid"
-      ],
-      "Please create an address first.": [
-        "Buat alamat dulu."
-      ],
-      "Start time must be before end time": [
-        "Waktu mulai harus sebelum waktu selesai"
-      ],
-      "Interval cannot be empty": [
-        "Interval tidak boleh kosong"
-      ],
-      "Ends on date cannot be empty": [
-        "Tanggal akhir tidak boleh kosong"
-      ],
-      "Ends on date must be after start time": [
-        "Tanggal akhir harus setelah tanggal mulai"
-      ],
-      "Number of occurrences cannot be empty": [
-        "Nomor peristiwa tidak boleh kosong"
-      ],
-      "A maximum of 10 notifications is allowed": [
-        "Maksimun 10 notifikasi diizinkan"
-      ],
-      "Invalid email address": [
-        "Alamat surel tidak valid"
-      ],
-      "Decryption error: Decryption of this event's content failed.": [
-        "Kesalahan dekripsi: Dekripsi isi acara gagal."
-      ],
-      "Error: ${ errorMessage }": [
-        "Kesalahan: ${ errorMessage }"
-      ],
-      "Error": [
-        "Galat"
-      ]
-    },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "Kata sandi minimal ${ length } karakter"
-      ]
-    },
-    "file size format": {
-      "bytes": [
-        "byte"
-      ],
-      "KB": [
-        "KB"
-      ],
-      "MB": [
-        "MB"
-      ],
-      "GB": [
-        "GB"
-      ]
-    },
-    "Contact field label": {
-      "Name": [
-        "Nama"
-      ],
-      "Email": [
-        "Surel"
-      ],
-      "Phone": [
-        "Telepon"
-      ],
-      "Address": [
-        "Alamat"
-      ],
-      "Photo": [
-        "Foto"
-      ],
-      "Organization": [
-        "Organisasi"
-      ],
-      "Birthday": [
-        "Ulang tahun"
-      ],
-      "Anniversary": [
-        "Ulang tahun"
-      ],
-      "Title": [
-        "Gelar"
-      ],
-      "Role": [
-        "Peran"
-      ],
-      "Note": [
-        "Catatan"
-      ],
-      "URL": [
-        "URL"
-      ],
-      "Gender": [
-        "Jenis kelamin"
-      ],
-      "Language": [
-        "Bahasa"
-      ],
-      "Timezone": [
-        "Zona waktu"
-      ],
-      "Geo": [
-        "Geo"
-      ],
-      "Logo": [
-        "Logo"
-      ],
-      "Member": [
-        "Anggota"
-      ]
-    },
-    "Contact type label": {
-      "Work": [
-        "Kerja"
-      ],
-      "Personal": [
-        "Pribadi"
-      ],
-      "Mobile": [
-        "Seluler"
-      ],
-      "Main": [
-        "Utama"
-      ],
-      "Yomi": [
-        "Yomi"
-      ],
-      "Other": [
-        "Lainnya"
-      ],
-      "Fax": [
-        "Faks"
-      ],
-      "Pager": [
-        "Penyeranta"
-      ]
-    },
-    "Property type": {
-      "Email": [
-        "Surel"
-      ],
-      "Home": [
-        "Rumah"
-      ],
-      "Work": [
-        "Kerja"
-      ],
-      "Other": [
-        "Lainnya"
-      ],
-      "Phone": [
-        "Telepon"
-      ],
-      "Mobile": [
-        "Seluler"
-      ],
-      "Main": [
-        "Utama"
-      ],
-      "Fax": [
-        "Faks"
-      ],
-      "Pager": [
-        "Penyeranta"
-      ],
-      "Address": [
-        "Alamat"
       ]
     },
     "PGP key warning": {
@@ -2495,8 +2495,8 @@
       "Amount due": [
         "Jumlah jatuh tempo"
       ],
-      "Cancel subscription": [
-        "Batalkan berlangganan"
+      "Downgrade account": [
+        ""
       ],
       "Network error": [
         "Kesalahan jaringan"
@@ -2790,6 +2790,11 @@
         "Edit acara"
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        "Kunci tidak dapat digunakan untuk enkripsi"
+      ]
+    },
     "Storage": {
       "Your current storage:": [
         "Penyimpanan Anda saat ini:"
@@ -2799,11 +2804,6 @@
       ],
       "Release notes": [
         "Catatan rilis"
-      ]
-    },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        "Kunci tidak dapat digunakan untuk enkripsi"
       ]
     },
     "Label": {
@@ -4538,11 +4538,6 @@
         "Catatan: layanan akan dimuat setelah Anda menekan tombol Terapkan."
       ]
     },
-    "Select files": {
-      "Upload": [
-        "Unggah"
-      ]
-    },
     "Loading info": {
       "Connecting to your contacts provider": [
         ""
@@ -4562,6 +4557,11 @@
     "Confirm modal title": {
       "Quit import?": [
         ""
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "Unggah"
       ]
     },
     "Message display when a new app version is available": {

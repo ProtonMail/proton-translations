@@ -5,6 +5,442 @@
   },
   "contexts": {
     "": {},
+    "Error": {
+      "This field is required": [
+        "Urti-agi ilaq"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Urti-a isra ma drus { minimumLength } n yizamulen."
+      ],
+      "Email is not valid": [
+        "Imayl mačči d ameɣtu"
+      ],
+      "Not a valid number": [
+        "Mačči d uṭṭun ameɣtu"
+      ],
+      "Passwords do not match": [
+        "Awalen uffiren ur menṭaḍen ara"
+      ],
+      "Address primary private key not found": [
+        "Tasarut tusligt tagejdant n tansa ulac-itt"
+      ],
+      "Calendar primary private key is not decrypted": [
+        "Tasarut tagejdant n uwitay ur tettwawgelhen ara"
+      ],
+      "Request timed out.": [
+        "Akud n usuter yemmut."
+      ],
+      "Signature verification failed": [
+        "Asenqed n uzmul yecceḍ"
+      ],
+      "Could not find address ${ email }.": [
+        "Ur nezmir ara ad d-naff tansa ${ email }."
+      ],
+      "Missing signature": [
+        "Yexxuṣ uzmul"
+      ],
+      "Contact signature not verified": [
+        "Azmul n unermis ur yettwasenqed ara"
+      ],
+      "Signature not verified": [
+        "Azmul ur yettwasenqed ara"
+      ],
+      "Invalid name": [
+        "Yir isem"
+      ],
+      "Email address disabled": [
+        "Tansa imayl tensa"
+      ],
+      "No keys retrieved for internal user": [
+        "Ur d-nufi ula d tasarut i useqdac adigan"
+      ],
+      "No valid keys retrieved for internal user": [
+        "Ur d-nufi tisura yeɣtan i useqdac adigan"
+      ],
+      "Contact signature could not be verified": [
+        "Azmul n unermis ur yezmir ara de yettwasenqed"
+      ],
+      "No key retrieved for internal user is valid for sending": [
+        "Ulac tasarut yettwaffen i useqdac adigan i yeɣtan i tuzna"
+      ],
+      "Trusted keys are not valid for sending": [
+        "Tisura yettwasentmen ur ɣtint ara i tuzna"
+      ],
+      "No WKD key retrieved for user is valid for sending": [
+        "Ulac tasarut WKD yettwaffen i useqdac adigan i yeɣtan i tuzna"
+      ],
+      "The sending key is not valid": [
+        "Tasarut n tuzna mačči d tameɣtut"
+      ],
+      "Unknown error": [
+        "Tuccḍa tarussint"
+      ],
+      "This message may contain some link's URL that cannot be properly opened by your current browser": [
+        "Izen-a igber kra n tansiwin URL ahat ur neldi ara akken iwata deg iminig-innek amiran"
+      ],
+      "Authentication canceled.": [
+        "Yefsex usesteb."
+      ],
+      "Your import will not be processed.": [
+        "Taktert-inek•m ur tettwasekkar ara."
+      ],
+      "Authentication error.": [
+        "Tuccḍa deg usesteb."
+      ],
+      "Email address invalid": [
+        "Tansa imayl mači d tameɣtut"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "Iminig i tesseqdaceḍ ur k-yettaǧǧa ara ad tfakkeḍ axelleṣ. Ma ulac aɣilif, seqdec iminig nniḍen neɣ qqen s uselkim."
+      ],
+      "Incorrect mailbox password. Please try again": [
+        "Awal uffir n tirawt d arameɣtu. Ttxil ɛreḍ tikkelt-nniḍen"
+      ],
+      "Incorrect login credentials. Please try again": [
+        "Talɣut n usesteb mačči d tameɣtut. Ɛreḍ tikelt-nniḍen"
+      ],
+      "Can't validate email, try again later": [
+        "Ulamek aseɣbel n imayl, eɛreḍ areḍqal"
+      ],
+      "Can't validate phone, try again later": [
+        "Ulamek aseɣbel n tiliɣri, eɛreḍ areḍqal"
+      ],
+      "Enter 6 digits": [
+        "Sekcem 6 n izwilen"
+      ],
+      "Invalid verification code": [
+        "Tangalt n usentem mačči d tameɣtut"
+      ],
+      "Process aborted": [
+        "Yettwanef ukala"
+      ],
+      "Payment process cancelled": [
+        "Akala n uxelleṣ yettwasefsex"
+      ],
+      "Payment process failed": [
+        "Akala n uxelleṣ ur yeddi ara"
+      ],
+      "Payment process consumed": [
+        "Akala n uxelleṣ yekfa"
+      ],
+      "Payment process not supported": [
+        "Akala n uxelleṣ ur yettwasefrak ara"
+      ],
+      "Unknown payment token status": [
+        "Addad n ujiṭun n uxelleṣ d arussin"
+      ],
+      "Tab closed": [
+        "Iccer yettwamdel"
+      ],
+      "Name on card required": [
+        "Isem n tkarḍa ilaq"
+      ],
+      "Invalid expiration date": [
+        "Yir azemz n taggara"
+      ],
+      "Invalid card number": [
+        "Yir uṭṭun n tkarḍa"
+      ],
+      "Invalid ${ name } code": [
+        "Tangalt n ${ name } ur d tameɣtut"
+      ],
+      "Invalid postal code": [
+        "Yir tangalt n lpusṭa"
+      ],
+      "Error connecting to the Bitcoin API.": [
+        "Tuccḍa di tuqqna ar API Bitcoin."
+      ],
+      "Amount below minimum.": [
+        "Azal ddaw n wadday."
+      ],
+      "Amount above the maximum.": [
+        "Tallayt nnig tafellayt yettwasirgen."
+      ],
+      "The minimum amount that can be donated is ${ price }": [
+        "Azal amezyan maḍi i izemren ad yettunefk d ${ price }"
+      ],
+      "The minimum amount of credit that can be added is ${ _price }": [
+        "Azal amezyan maḍi n usmad i izemren ad yettwarnu d ${ _price }"
+      ],
+      "The minimum payment we accept is ${ _price2 }": [
+        "Lexlaṣ amezyan maḍi i nezmer ad neqbel d ${ _price2 }"
+      ],
+      "Checkout expired, please try again.": [
+        "Asenqed iɛedda wakud-is, ttxil-k·m ɛreḍ tikkelt-nniḍen."
+      ],
+      "Invalid code": [
+        "Yir tangalt"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Yella wayen ur neddi ara akken iwata, ma ulac aɣilif ${ refresh } asebter akken ad tkemmleḍ. Ma tezgiḍ tettwaliḍ izen-a n tuccḍa ma ulac aɣilif nermes ${ supportTeam } nneɣ."
+      ],
+      "Image upload failed": [
+        "Asali n tugna yecceḍ"
+      ],
+      "Contact could not be saved": [
+        "Ur nezmir ara ad nsekles anermis"
+      ],
+      "Some contacts could not be deleted": [
+        "Kra n yinermisen ur zmiren ara ad ttwakksen"
+      ],
+      "Preferences could not be saved": [
+        "Ismenyifen gguman ad ttuskelsen"
+      ],
+      "Some groups could not be deleted": [
+        "Kra n yigrawen ur zmiren ara ad ttwakksen"
+      ],
+      "Invalid public key file": [
+        "Afaylu n tsarut tazayezt ur d ameɣtu"
+      ],
+      "You can't send a mail to more than 100 recipients": [
+        "Ur tezmireḍ ara ad tazneḍ tabrat i wugar n 100 n yinermasen"
+      ],
+      "One of the contacts has no email address: ${ noEmailsContactNamesList }": [
+        "Yiwen/yiwet gar yinermisen ur t·yesɛi ara tansa imayl: ${ noEmailsContactNamesList }",
+        "Kra gar yinermisen ur sɛin·t ara tansa imayl: ${ noEmailsContactNamesList } "
+      ],
+      "You can't send vCards of more than 10 contacts": [
+        "Ur tezmireḍ ara ad tazneḍ tikarḍiwin vCards i wugar n 100 n yinermisen"
+      ],
+      "There was an error when exporting the contacts vCards": [
+        "Tella-d tuccḍa mi ttwaketrent tkarḍiwin vCards n yinermisen"
+      ],
+      "One of the groups has no contacts: ${ noContactGroupList }": [
+        "Yiwen seg yigrawen ulac ɣur-s inermisen: ${ noContactGroupList }",
+        "Kra n yigrawen ulac ɣur-s inermisen: ${ noContactGroupList } "
+      ],
+      "You must set a name": [
+        "Yessefk ad tesbaduḍ isem"
+      ],
+      "A group with this name already exists": [
+        "Yella yakan ugraw s yisem-agui"
+      ],
+      "We were unable to connect to your service provider.": [
+        ""
+      ],
+      "Please try to reauthenticate and make sure the permissions are set correctly.": [
+        ""
+      ],
+      "Primary address key is not decrypted": [
+        "Tasarut n tansa tagejdant ur tettwawgelhen ara"
+      ],
+      "No valid address found": [
+        "Ur d-nufi ara tansa yeɣtan"
+      ],
+      "Primary address key is not decrypted.": [
+        "Tasarut n tansa tagejdant ur tettwawgelhen ara."
+      ],
+      "Name required": [
+        "Isem yettwasra"
+      ],
+      "Self invitation not allowed": [
+        "Ur tezmireḍ ara ad tazneḍ tinubga i yiman-ik·im"
+      ],
+      "${ list } doesn't have a valid email address": [
+        "${ list } ur isɛi ara tansa imayl tameɣtut",
+        "Kra n yinermisen ur sɛin ara tansiwin imayl timeɣta: ${ list }"
+      ],
+      "${ _list } doesn't have an email address": [
+        "${ _list } ur isɛi ara tansa imayl",
+        "Kra gar yinermisen ur sɛin·t ara tansa imayl: ${ _list }"
+      ],
+      "${ list } has invalid emails": [
+        "${ list } yesɛa tansa imayl tameɣtut",
+        "Kra n yhigrawen sɛan imaylen irmeɣta: ${ list }"
+      ],
+      "${ _list2 } has no contacts": [
+        "${ _list2 } ur yesɛi ara inermisen",
+        "Kra n yigrawen ur sɛin ara inermisen: ${ _list2 }"
+      ],
+      "Failed to get original occurrence in series": [
+        "Yecceḍ wawway n tummant taneẓlit deg umazrar"
+      ],
+      "It is only possible to move events between ${ minDateString } - ${ maxDateString }": [
+        "Asenkez n yiznan yezmer kan ad yili gar ${ minDateString } de ${ maxDateString }"
+      ],
+      "It is only possible to create events between ${ minDateString } - ${ maxDateString }": [
+        "Asnulfu n yiznan yezmer kan ad yili gar ${ minDateString } de ${ maxDateString }"
+      ],
+      "Invitation failed to be sent": [
+        "Ur teddi ara tuzna n tinubga"
+      ],
+      "Answer failed to be sent": [
+        "Ur teddi ara tririt"
+      ],
+      "Cancellation failed to be sent": [
+        "Ur teddi ara tuzna n usefsex"
+      ],
+      "Invalid link to the event": [
+        "Aseɣwen ɣer tedyant d arameɣtu"
+      ],
+      "Please create an address first.": [
+        "Ma ulac aɣilif di tazwara snulfu-d tansa."
+      ],
+      "Start time must be before end time": [
+        "Asrag n beddu yessfk ad yili send asrag n tagara"
+      ],
+      "Interval cannot be empty": [
+        "Azilal ur ilaq ara ad yili d ilem"
+      ],
+      "Ends on date cannot be empty": [
+        "Azemz n tagara ur yezmir ara ad yili d ilem"
+      ],
+      "Ends on date must be after start time": [
+        "Azemz n tagara yessefk ad yili seld azemz n beddu"
+      ],
+      "Number of occurrences cannot be empty": [
+        "Amḍan n tikkal ur yezmir ara ad yili d ilem"
+      ],
+      "A maximum of 10 notifications is allowed": [
+        "Amḍan afellay n 10 n ulɣuten i yettwasirgen"
+      ],
+      "Invalid email address": [
+        "Yir tansa imayl"
+      ],
+      "Decryption error: Decryption of this event's content failed.": [
+        "Tuccḍa di tukksa n uwgelhen: tukksa n uwgelhen n tedyanin-agi tecceḍ."
+      ],
+      "Error: ${ errorMessage }": [
+        "Tuccḍa: ${ errorMessage }"
+      ],
+      "Error": [
+        "Anezri"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "Awal uffir ilaq ad isɛu ma drus ${ length } n usekkil",
+        "Awal uffir ilaq ad isɛu ma drus ${ length } n yisekkilen"
+      ]
+    },
+    "file size format": {
+      "bytes": [
+        "iṭamḍanen"
+      ],
+      "KB": [
+        "KAṬ"
+      ],
+      "MB": [
+        "KAṬ"
+      ],
+      "GB": [
+        "GAṬ"
+      ]
+    },
+    "Contact field label": {
+      "Name": [
+        "Isem"
+      ],
+      "Email": [
+        "Imayl"
+      ],
+      "Phone": [
+        "Tiliɣri"
+      ],
+      "Address": [
+        "Tansa"
+      ],
+      "Photo": [
+        "Tawlaft"
+      ],
+      "Organization": [
+        "Tuddsa"
+      ],
+      "Birthday": [
+        "Azemz n tlalit"
+      ],
+      "Anniversary": [
+        "Amulli"
+      ],
+      "Title": [
+        "Azwel"
+      ],
+      "Role": [
+        "Tamlilt"
+      ],
+      "Note": [
+        "Tamawt"
+      ],
+      "URL": [
+        "URL"
+      ],
+      "Gender": [
+        "Tawsit"
+      ],
+      "Language": [
+        "Tutlayt"
+      ],
+      "Timezone": [
+        "Tamennaḍt tasragant"
+      ],
+      "Geo": [
+        "Geo"
+      ],
+      "Logo": [
+        "Alugu"
+      ],
+      "Member": [
+        "Aεeggal"
+      ]
+    },
+    "Contact type label": {
+      "Work": [
+        "Amahil"
+      ],
+      "Personal": [
+        "Udmawan"
+      ],
+      "Mobile": [
+        "Aziraz"
+      ],
+      "Main": [
+        "Agejdan"
+      ],
+      "Yomi": [
+        "Yomi"
+      ],
+      "Other": [
+        "Wayeḍ"
+      ],
+      "Fax": [
+        "Fax"
+      ],
+      "Pager": [
+        "Amsebter"
+      ]
+    },
+    "Property type": {
+      "Email": [
+        "Imayl"
+      ],
+      "Home": [
+        "Asebter agejdan"
+      ],
+      "Work": [
+        "Amahil"
+      ],
+      "Other": [
+        "Wayeḍ"
+      ],
+      "Phone": [
+        "Tiliɣri"
+      ],
+      "Mobile": [
+        "Aziraz"
+      ],
+      "Main": [
+        "Agejdan"
+      ],
+      "Fax": [
+        "Fax"
+      ],
+      "Pager": [
+        "Amsebter"
+      ],
+      "Address": [
+        "Tansa"
+      ]
+    },
     "Calendar status": {
       "Syncing": [
         "Amtawi"
@@ -769,12 +1205,6 @@
       "* Customizable features": [
         "* Timahilin yettwasaganen"
       ],
-      "Access your streaming services, like ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, no matter where you are.": [
-        "Kcem ɣer yimeẓla n usuddem-inek·inem, am ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, anida yebɣu tiliḍ."
-      ],
-      "Access blocked content, like social media, news, Wikipedia, YouTube, and many others, no matter where you are.": [
-        "Kcem ɣer ugbur yettusweḥlen, am yimidyaten imettiyen, isallen, Wikipedia, Youtube akked waṭas-nniḍen, anida yebɣu tiliḍ."
-      ],
       "For getting started with private and secure emailing.": [
         "Akken ad tebduḍ s tirawt d tamaẓlayt yerna taɣelsant."
       ],
@@ -798,6 +1228,12 @@
       ],
       "For families and small teams; includes both Mail and VPN.": [
         "I twaculin akked terbaɛ timeẓyanin; yedda Imayl akked VPN."
+      ],
+      "Access your streaming services, like ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, no matter where you are.": [
+        "Kcem ɣer yimeẓla n usuddem-inek·inem, am ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, anida yebɣu tiliḍ."
+      ],
+      "Access blocked content, like social media, news, Wikipedia, YouTube, and many others, no matter where you are.": [
+        "Kcem ɣer ugbur yettusweḥlen, am yimidyaten imettiyen, isallen, Wikipedia, Youtube akked waṭas-nniḍen, anida yebɣu tiliḍ."
       ],
       "Save 20%": [
         "Ḥrez 20%"
@@ -1278,442 +1714,6 @@
       ],
       "Loading event": [
         "Asali n tedyant"
-      ]
-    },
-    "Error": {
-      "Address primary private key not found": [
-        "Tasarut tusligt tagejdant n tansa ulac-itt"
-      ],
-      "Calendar primary private key is not decrypted": [
-        "Tasarut tagejdant n uwitay ur tettwawgelhen ara"
-      ],
-      "This field is required": [
-        "Urti-agi ilaq"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Urti-a isra ma drus { minimumLength } n yizamulen."
-      ],
-      "Email is not valid": [
-        "Imayl mačči d ameɣtu"
-      ],
-      "Not a valid number": [
-        "Mačči d uṭṭun ameɣtu"
-      ],
-      "Passwords do not match": [
-        "Awalen uffiren ur menṭaḍen ara"
-      ],
-      "Request timed out.": [
-        "Akud n usuter yemmut."
-      ],
-      "Signature verification failed": [
-        "Asenqed n uzmul yecceḍ"
-      ],
-      "Could not find address ${ email }.": [
-        "Ur nezmir ara ad d-naff tansa ${ email }."
-      ],
-      "Missing signature": [
-        "Yexxuṣ uzmul"
-      ],
-      "Contact signature not verified": [
-        "Azmul n unermis ur yettwasenqed ara"
-      ],
-      "Signature not verified": [
-        "Azmul ur yettwasenqed ara"
-      ],
-      "Invalid name": [
-        "Yir isem"
-      ],
-      "Email address disabled": [
-        "Tansa imayl tensa"
-      ],
-      "No keys retrieved for internal user": [
-        "Ur d-nufi ula d tasarut i useqdac adigan"
-      ],
-      "No valid keys retrieved for internal user": [
-        "Ur d-nufi tisura yeɣtan i useqdac adigan"
-      ],
-      "Contact signature could not be verified": [
-        "Azmul n unermis ur yezmir ara de yettwasenqed"
-      ],
-      "No key retrieved for internal user is valid for sending": [
-        "Ulac tasarut yettwaffen i useqdac adigan i yeɣtan i tuzna"
-      ],
-      "Trusted keys are not valid for sending": [
-        "Tisura yettwasentmen ur ɣtint ara i tuzna"
-      ],
-      "No WKD key retrieved for user is valid for sending": [
-        "Ulac tasarut WKD yettwaffen i useqdac adigan i yeɣtan i tuzna"
-      ],
-      "The sending key is not valid": [
-        "Tasarut n tuzna mačči d tameɣtut"
-      ],
-      "Unknown error": [
-        "Tuccḍa tarussint"
-      ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser": [
-        "Izen-a igber kra n tansiwin URL ahat ur neldi ara akken iwata deg iminig-innek amiran"
-      ],
-      "Authentication canceled.": [
-        "Yefsex usesteb."
-      ],
-      "Your import will not be processed.": [
-        "Taktert-inek•m ur tettwasekkar ara."
-      ],
-      "Authentication error.": [
-        "Tuccḍa deg usesteb."
-      ],
-      "Email address invalid": [
-        "Tansa imayl mači d tameɣtut"
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "Iminig i tesseqdaceḍ ur k-yettaǧǧa ara ad tfakkeḍ axelleṣ. Ma ulac aɣilif, seqdec iminig nniḍen neɣ qqen s uselkim."
-      ],
-      "Incorrect mailbox password. Please try again": [
-        "Awal uffir n tirawt d arameɣtu. Ttxil ɛreḍ tikkelt-nniḍen"
-      ],
-      "Incorrect login credentials. Please try again": [
-        "Talɣut n usesteb mačči d tameɣtut. Ɛreḍ tikelt-nniḍen"
-      ],
-      "Can't validate email, try again later": [
-        "Ulamek aseɣbel n imayl, eɛreḍ areḍqal"
-      ],
-      "Can't validate phone, try again later": [
-        "Ulamek aseɣbel n tiliɣri, eɛreḍ areḍqal"
-      ],
-      "Enter 6 digits": [
-        "Sekcem 6 n izwilen"
-      ],
-      "Invalid verification code": [
-        "Tangalt n usentem mačči d tameɣtut"
-      ],
-      "Process aborted": [
-        "Yettwanef ukala"
-      ],
-      "Payment process cancelled": [
-        "Akala n uxelleṣ yettwasefsex"
-      ],
-      "Payment process failed": [
-        "Akala n uxelleṣ ur yeddi ara"
-      ],
-      "Payment process consumed": [
-        "Akala n uxelleṣ yekfa"
-      ],
-      "Payment process not supported": [
-        "Akala n uxelleṣ ur yettwasefrak ara"
-      ],
-      "Unknown payment token status": [
-        "Addad n ujiṭun n uxelleṣ d arussin"
-      ],
-      "Tab closed": [
-        "Iccer yettwamdel"
-      ],
-      "Name on card required": [
-        "Isem n tkarḍa ilaq"
-      ],
-      "Invalid expiration date": [
-        "Yir azemz n taggara"
-      ],
-      "Invalid card number": [
-        "Yir uṭṭun n tkarḍa"
-      ],
-      "Invalid ${ name } code": [
-        "Tangalt n ${ name } ur d tameɣtut"
-      ],
-      "Invalid postal code": [
-        "Yir tangalt n lpusṭa"
-      ],
-      "Error connecting to the Bitcoin API.": [
-        "Tuccḍa di tuqqna ar API Bitcoin."
-      ],
-      "Amount below minimum.": [
-        "Azal ddaw n wadday."
-      ],
-      "Amount above the maximum.": [
-        "Tallayt nnig tafellayt yettwasirgen."
-      ],
-      "The minimum amount that can be donated is ${ price }": [
-        "Azal amezyan maḍi i izemren ad yettunefk d ${ price }"
-      ],
-      "The minimum amount of credit that can be added is ${ _price }": [
-        "Azal amezyan maḍi n usmad i izemren ad yettwarnu d ${ _price }"
-      ],
-      "The minimum payment we accept is ${ _price2 }": [
-        "Lexlaṣ amezyan maḍi i nezmer ad neqbel d ${ _price2 }"
-      ],
-      "Checkout expired, please try again.": [
-        "Asenqed iɛedda wakud-is, ttxil-k·m ɛreḍ tikkelt-nniḍen."
-      ],
-      "Invalid code": [
-        "Yir tangalt"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Yella wayen ur neddi ara akken iwata, ma ulac aɣilif ${ refresh } asebter akken ad tkemmleḍ. Ma tezgiḍ tettwaliḍ izen-a n tuccḍa ma ulac aɣilif nermes ${ supportTeam } nneɣ."
-      ],
-      "Image upload failed": [
-        "Asali n tugna yecceḍ"
-      ],
-      "Contact could not be saved": [
-        "Ur nezmir ara ad nsekles anermis"
-      ],
-      "Some contacts could not be deleted": [
-        "Kra n yinermisen ur zmiren ara ad ttwakksen"
-      ],
-      "Preferences could not be saved": [
-        "Ismenyifen gguman ad ttuskelsen"
-      ],
-      "Some groups could not be deleted": [
-        "Kra n yigrawen ur zmiren ara ad ttwakksen"
-      ],
-      "Invalid public key file": [
-        "Afaylu n tsarut tazayezt ur d ameɣtu"
-      ],
-      "You can't send a mail to more than 100 recipients": [
-        "Ur tezmireḍ ara ad tazneḍ tabrat i wugar n 100 n yinermasen"
-      ],
-      "One of the contacts has no email address: ${ noEmailsContactNamesList }": [
-        "Yiwen/yiwet gar yinermisen ur t·yesɛi ara tansa imayl: ${ noEmailsContactNamesList }",
-        "Kra gar yinermisen ur sɛin·t ara tansa imayl: ${ noEmailsContactNamesList } "
-      ],
-      "You can't send vCards of more than 10 contacts": [
-        "Ur tezmireḍ ara ad tazneḍ tikarḍiwin vCards i wugar n 100 n yinermisen"
-      ],
-      "There was an error when exporting the contacts vCards": [
-        "Tella-d tuccḍa mi ttwaketrent tkarḍiwin vCards n yinermisen"
-      ],
-      "One of the groups has no contacts: ${ noContactGroupList }": [
-        "Yiwen seg yigrawen ulac ɣur-s inermisen: ${ noContactGroupList }",
-        "Kra n yigrawen ulac ɣur-s inermisen: ${ noContactGroupList } "
-      ],
-      "You must set a name": [
-        "Yessefk ad tesbaduḍ isem"
-      ],
-      "A group with this name already exists": [
-        "Yella yakan ugraw s yisem-agui"
-      ],
-      "Primary address key is not decrypted": [
-        "Tasarut n tansa tagejdant ur tettwawgelhen ara"
-      ],
-      "We were unable to connect to your service provider.": [
-        ""
-      ],
-      "Please try to reauthenticate and make sure the permissions are set correctly.": [
-        ""
-      ],
-      "No valid address found": [
-        "Ur d-nufi ara tansa yeɣtan"
-      ],
-      "Primary address key is not decrypted.": [
-        "Tasarut n tansa tagejdant ur tettwawgelhen ara."
-      ],
-      "Name required": [
-        "Isem yettwasra"
-      ],
-      "Self invitation not allowed": [
-        "Ur tezmireḍ ara ad tazneḍ tinubga i yiman-ik·im"
-      ],
-      "${ list } doesn't have a valid email address": [
-        "${ list } ur isɛi ara tansa imayl tameɣtut",
-        "Kra n yinermisen ur sɛin ara tansiwin imayl timeɣta: ${ list }"
-      ],
-      "${ _list } doesn't have an email address": [
-        "${ _list } ur isɛi ara tansa imayl",
-        "Kra gar yinermisen ur sɛin·t ara tansa imayl: ${ _list }"
-      ],
-      "${ list } has invalid emails": [
-        "${ list } yesɛa tansa imayl tameɣtut",
-        "Kra n yhigrawen sɛan imaylen irmeɣta: ${ list }"
-      ],
-      "${ _list2 } has no contacts": [
-        "${ _list2 } ur yesɛi ara inermisen",
-        "Kra n yigrawen ur sɛin ara inermisen: ${ _list2 }"
-      ],
-      "Failed to get original occurrence in series": [
-        "Yecceḍ wawway n tummant taneẓlit deg umazrar"
-      ],
-      "It is only possible to move events between ${ minDateString } - ${ maxDateString }": [
-        "Asenkez n yiznan yezmer kan ad yili gar ${ minDateString } de ${ maxDateString }"
-      ],
-      "It is only possible to create events between ${ minDateString } - ${ maxDateString }": [
-        "Asnulfu n yiznan yezmer kan ad yili gar ${ minDateString } de ${ maxDateString }"
-      ],
-      "Invitation failed to be sent": [
-        "Ur teddi ara tuzna n tinubga"
-      ],
-      "Answer failed to be sent": [
-        "Ur teddi ara tririt"
-      ],
-      "Cancellation failed to be sent": [
-        "Ur teddi ara tuzna n usefsex"
-      ],
-      "Invalid link to the event": [
-        "Aseɣwen ɣer tedyant d arameɣtu"
-      ],
-      "Please create an address first.": [
-        "Ma ulac aɣilif di tazwara snulfu-d tansa."
-      ],
-      "Start time must be before end time": [
-        "Asrag n beddu yessfk ad yili send asrag n tagara"
-      ],
-      "Interval cannot be empty": [
-        "Azilal ur ilaq ara ad yili d ilem"
-      ],
-      "Ends on date cannot be empty": [
-        "Azemz n tagara ur yezmir ara ad yili d ilem"
-      ],
-      "Ends on date must be after start time": [
-        "Azemz n tagara yessefk ad yili seld azemz n beddu"
-      ],
-      "Number of occurrences cannot be empty": [
-        "Amḍan n tikkal ur yezmir ara ad yili d ilem"
-      ],
-      "A maximum of 10 notifications is allowed": [
-        "Amḍan afellay n 10 n ulɣuten i yettwasirgen"
-      ],
-      "Invalid email address": [
-        "Yir tansa imayl"
-      ],
-      "Decryption error: Decryption of this event's content failed.": [
-        "Tuccḍa di tukksa n uwgelhen: tukksa n uwgelhen n tedyanin-agi tecceḍ."
-      ],
-      "Error: ${ errorMessage }": [
-        "Tuccḍa: ${ errorMessage }"
-      ],
-      "Error": [
-        "Anezri"
-      ]
-    },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "Awal uffir ilaq ad isɛu ma drus ${ length } n usekkil",
-        "Awal uffir ilaq ad isɛu ma drus ${ length } n yisekkilen"
-      ]
-    },
-    "file size format": {
-      "bytes": [
-        "iṭamḍanen"
-      ],
-      "KB": [
-        "KAṬ"
-      ],
-      "MB": [
-        "KAṬ"
-      ],
-      "GB": [
-        "GAṬ"
-      ]
-    },
-    "Contact field label": {
-      "Name": [
-        "Isem"
-      ],
-      "Email": [
-        "Imayl"
-      ],
-      "Phone": [
-        "Tiliɣri"
-      ],
-      "Address": [
-        "Tansa"
-      ],
-      "Photo": [
-        "Tawlaft"
-      ],
-      "Organization": [
-        "Tuddsa"
-      ],
-      "Birthday": [
-        "Azemz n tlalit"
-      ],
-      "Anniversary": [
-        "Amulli"
-      ],
-      "Title": [
-        "Azwel"
-      ],
-      "Role": [
-        "Tamlilt"
-      ],
-      "Note": [
-        "Tamawt"
-      ],
-      "URL": [
-        "URL"
-      ],
-      "Gender": [
-        "Tawsit"
-      ],
-      "Language": [
-        "Tutlayt"
-      ],
-      "Timezone": [
-        "Tamennaḍt tasragant"
-      ],
-      "Geo": [
-        "Geo"
-      ],
-      "Logo": [
-        "Alugu"
-      ],
-      "Member": [
-        "Aεeggal"
-      ]
-    },
-    "Contact type label": {
-      "Work": [
-        "Amahil"
-      ],
-      "Personal": [
-        "Udmawan"
-      ],
-      "Mobile": [
-        "Aziraz"
-      ],
-      "Main": [
-        "Agejdan"
-      ],
-      "Yomi": [
-        "Yomi"
-      ],
-      "Other": [
-        "Wayeḍ"
-      ],
-      "Fax": [
-        "Fax"
-      ],
-      "Pager": [
-        "Amsebter"
-      ]
-    },
-    "Property type": {
-      "Email": [
-        "Imayl"
-      ],
-      "Home": [
-        "Asebter agejdan"
-      ],
-      "Work": [
-        "Amahil"
-      ],
-      "Other": [
-        "Wayeḍ"
-      ],
-      "Phone": [
-        "Tiliɣri"
-      ],
-      "Mobile": [
-        "Aziraz"
-      ],
-      "Main": [
-        "Agejdan"
-      ],
-      "Fax": [
-        "Fax"
-      ],
-      "Pager": [
-        "Amsebter"
-      ],
-      "Address": [
-        "Tansa"
       ]
     },
     "PGP key warning": {
@@ -2549,8 +2549,8 @@
       "Amount due": [
         "Tallayt ara txelseḍ"
       ],
-      "Cancel subscription": [
-        "Sefsex ajerred"
+      "Downgrade account": [
+        ""
       ],
       "Network error": [
         "Tuccḍa deg uzeṭṭa"
@@ -2848,6 +2848,11 @@
         "Ẓreg aneḍru"
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        "Tasarut ulamek ara tettwaseqdec i uwgelhen"
+      ]
+    },
     "Storage": {
       "Your current storage:": [
         "Aklas-inek·inem amiran:"
@@ -2857,11 +2862,6 @@
       ],
       "Release notes": [
         "Tizmilin n leqqem"
-      ]
-    },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        "Tasarut ulamek ara tettwaseqdec i uwgelhen"
       ]
     },
     "Label": {
@@ -4626,11 +4626,6 @@
         "Tamawt: ameẓlu ad yales asali mi ara tessiteḍ ɣef tqeffalt Snes."
       ]
     },
-    "Select files": {
-      "Upload": [
-        "Sali"
-      ]
-    },
     "Loading info": {
       "Connecting to your contacts provider": [
         ""
@@ -4650,6 +4645,11 @@
     "Confirm modal title": {
       "Quit import?": [
         ""
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "Sali"
       ]
     },
     "Message display when a new app version is available": {

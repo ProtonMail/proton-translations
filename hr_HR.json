@@ -5,6 +5,449 @@
   },
   "contexts": {
     "": {},
+    "Error": {
+      "This field is required": [
+        "Ovo polje je obavezno"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Ovo polje zahtjeva najmanje ${ minimumLength } znakova."
+      ],
+      "Email is not valid": [
+        "Adresa e-pošte nije važeća"
+      ],
+      "Not a valid number": [
+        "Broj telefona nije važeći"
+      ],
+      "Passwords do not match": [
+        "Lozinke se ne poklapaju"
+      ],
+      "Address primary private key not found": [
+        "Primarni privatni ključ adrese nije pronađen"
+      ],
+      "Calendar primary private key is not decrypted": [
+        "Primarni, privatni ključ kalendara nije dešifriran"
+      ],
+      "Request timed out.": [
+        "Zahtjev je istekao."
+      ],
+      "Signature verification failed": [
+        "Potvrda potpisa je neuspješna"
+      ],
+      "Could not find address ${ email }.": [
+        "Ne mogu pronaći adresu ${ email }."
+      ],
+      "Missing signature": [
+        "Nedostaje potpis"
+      ],
+      "Contact signature not verified": [
+        "Potpis kontakta nije potvrđen"
+      ],
+      "Signature not verified": [
+        "Potpis nije ovjeren"
+      ],
+      "Invalid name": [
+        "Nevažeći naziv"
+      ],
+      "Email address disabled": [
+        "Adresa e-pošte je onemogućena"
+      ],
+      "No keys retrieved for internal user": [
+        "Nije pronađen nijedan ključ za unutarnjeg korisnika"
+      ],
+      "No valid keys retrieved for internal user": [
+        "Nije pronađen nijedan valjani ključ za unutarnjeg korisnika"
+      ],
+      "Contact signature could not be verified": [
+        "Nije moguće provjeriti potpis kontakta"
+      ],
+      "No key retrieved for internal user is valid for sending": [
+        "Nijedan ključ dohvaćen za unutarnjeg korisnika nije valjan za slanje"
+      ],
+      "Trusted keys are not valid for sending": [
+        "Pouzdani ključevi nisu valjani za slanje"
+      ],
+      "No WKD key retrieved for user is valid for sending": [
+        "Nijedan WKD ključ dohvaćen za korisnika nije valjan za slanje"
+      ],
+      "The sending key is not valid": [
+        "Ključ slanja nije važeći"
+      ],
+      "Unknown error": [
+        "Nepoznata pogreška"
+      ],
+      "This message may contain some link's URL that cannot be properly opened by your current browser": [
+        "Ova poruka može sadržavati URL poveznice koje trenutačni preglednik ne može ispravno otvoriti"
+      ],
+      "Authentication canceled.": [
+        "Otkazana autentikacija."
+      ],
+      "Your import will not be processed.": [
+        "Vaš uvoz nije moguće obraditi."
+      ],
+      "Authentication error.": [
+        "Pogreška autentikacije."
+      ],
+      "Email address invalid": [
+        "Adresa e-pošte nije valjana"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "Preglednik koji koristite ne dopušta potpuno odobrenje plaćanja. Molimo koristite drugi preglednik ili se prijavite putem računala."
+      ],
+      "Incorrect mailbox password. Please try again": [
+        "Pogrešna lozinka poštanskog pretinca. Pokušajte ponovno"
+      ],
+      "Incorrect login credentials. Please try again": [
+        "Nevažeći podaci za prijavu. Molimo pokušajte ponovno"
+      ],
+      "Can't validate email, try again later": [
+        "Nije moguće potvrditi e-poštu, pokušajte ponovo kasnije"
+      ],
+      "Can't validate phone, try again later": [
+        "Nije moguće potvrditi broj telefona, pokušajte ponovo kasnije"
+      ],
+      "Enter 6 digits": [
+        "Unesite 6 znamenki"
+      ],
+      "Invalid verification code": [
+        "Nevažeći kôd za provjeru"
+      ],
+      "Process aborted": [
+        "Proces je prekinut"
+      ],
+      "Payment process cancelled": [
+        "Proces plaćanja je otkazan"
+      ],
+      "Payment process failed": [
+        "Proces plaćanja nije uspio"
+      ],
+      "Payment process consumed": [
+        "Proces plaćanja je konzumiran"
+      ],
+      "Payment process not supported": [
+        "Proces plaćanja nije podržan"
+      ],
+      "Unknown payment token status": [
+        "Nepoznati status tokena za plaćanje"
+      ],
+      "Tab closed": [
+        "Kartica zatvorena"
+      ],
+      "Name on card required": [
+        "Ime s kartice je nužno"
+      ],
+      "Invalid expiration date": [
+        "Nevažeći datum isteka"
+      ],
+      "Invalid card number": [
+        "Netočan broj kartice"
+      ],
+      "Invalid ${ name } code": [
+        "Nevažeći ${ name } kôd"
+      ],
+      "Invalid postal code": [
+        "Netočan poštanski broj"
+      ],
+      "Error connecting to the Bitcoin API.": [
+        "Greška prilikom spajanja na Bitcoin API."
+      ],
+      "Amount below minimum.": [
+        "Iznos ispod minimuma."
+      ],
+      "Amount above the maximum.": [
+        "Iznos veći od maksimuma."
+      ],
+      "The minimum amount that can be donated is ${ price }": [
+        "Minimalni iznos koji se može donirati je ${ price }"
+      ],
+      "The minimum amount of credit that can be added is ${ _price }": [
+        "Minimalni iznos kredita koji se može dodati je ${ _price }"
+      ],
+      "The minimum payment we accept is ${ _price2 }": [
+        "Minimalni iznos koji prihvaćamo je ${ _price2 }"
+      ],
+      "Checkout expired, please try again.": [
+        "Naplata je istekla, pokušajte ponovo."
+      ],
+      "Invalid code": [
+        "Nevažeći kȏd"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Nešto je pošlo po zlu. Molimo ${ refresh } kako biste nastavili. Ako i dalje vidite ovu poruku o pogrešci, kontaktirajte naš ${ supportTeam }."
+      ],
+      "Image upload failed": [
+        "Neuspješno učitavanje slike"
+      ],
+      "Contact could not be saved": [
+        "Nije moguće spremanje kontakata"
+      ],
+      "Some contacts could not be deleted": [
+        "Nije bilo moguće brisanje nekih kontakata"
+      ],
+      "Preferences could not be saved": [
+        "Postavke nije moguće spremiti"
+      ],
+      "Some groups could not be deleted": [
+        "Nije moguće brisanje nekih grupa"
+      ],
+      "Invalid public key file": [
+        "Nevažeća datoteka javnog ključa"
+      ],
+      "You can't send a mail to more than 100 recipients": [
+        "Ne možete poslati e-poštu za više od 100 primatelja"
+      ],
+      "One of the contacts has no email address: ${ noEmailsContactNamesList }": [
+        "Jedan od kontakata nema adresu e-pošte: ${ noEmailsContactNamesList }",
+        "Nekoliko kontakata nema adrese e-pošte: ${ noEmailsContactNamesList } ",
+        "Nekoliko kontakata nema adrese e-pošte: ${ noEmailsContactNamesList } "
+      ],
+      "You can't send vCards of more than 10 contacts": [
+        "Ne možete slati vCards za više od 10 kontakata"
+      ],
+      "There was an error when exporting the contacts vCards": [
+        "Došlo je do pogreške prilikom izvoza vCards-a kontakata"
+      ],
+      "One of the groups has no contacts: ${ noContactGroupList }": [
+        "Jedna od grupa nema kontakata: ${ noContactGroupList }",
+        "Neke od grupa nemaju kontakata: ${ noContactGroupList } ",
+        "Neke od grupa nemaju kontakata: ${ noContactGroupList } "
+      ],
+      "You must set a name": [
+        "Morate postaviti naziv"
+      ],
+      "A group with this name already exists": [
+        "Grupa s ovim nazivom već postoji"
+      ],
+      "We were unable to connect to your service provider.": [
+        ""
+      ],
+      "Please try to reauthenticate and make sure the permissions are set correctly.": [
+        ""
+      ],
+      "Primary address key is not decrypted": [
+        "Primarni ključ adrese e-pošte nije dešifriran"
+      ],
+      "No valid address found": [
+        "Nije pronađena važeća adresa"
+      ],
+      "Primary address key is not decrypted.": [
+        "Primarni ključ adrese e-pošte nije dešifriran."
+      ],
+      "Name required": [
+        "Naziv je obavezan"
+      ],
+      "Self invitation not allowed": [
+        "Nije dopušteno pozivanje samog sebe"
+      ],
+      "${ list } doesn't have a valid email address": [
+        "${ list } nema važeću adresu e-pošte",
+        "Neki od kontakata nemaju važeću adresu e-pošte: ${ list }",
+        "Neki od kontakata nemaju važeću adresu e-pošte: ${ list }"
+      ],
+      "${ _list } doesn't have an email address": [
+        "${ _list } nema adresu e-pošte",
+        "Neki od kontakata nemaju adrese e-pošte: ${ _list }",
+        "Neki od kontakata nemaju adrese e-pošte: ${ _list }"
+      ],
+      "${ list } has invalid emails": [
+        "${ list } ima nevažeće adrese e-pošte",
+        "Neke od grupa imaju nevažeće adrese e-pošte: ${ list }",
+        "Neke od grupa imaju nevažeće adrese e-pošte: ${ list }"
+      ],
+      "${ _list2 } has no contacts": [
+        "${ _list2 } nema kontakata",
+        "Neke od grupa nemaju kontakata: ${ _list2 }",
+        "Neke od grupa nemaju kontakata: ${ _list2 }"
+      ],
+      "Failed to get original occurrence in series": [
+        "Neuspješno dohvaćanje originalnog pojavljivanja u seriji"
+      ],
+      "It is only possible to move events between ${ minDateString } - ${ maxDateString }": [
+        "Moguće je premještanje događaja samo između ${ minDateString } - ${ maxDateString }"
+      ],
+      "It is only possible to create events between ${ minDateString } - ${ maxDateString }": [
+        "Moguće je stvaranje događaja samo između ${ minDateString } - ${ maxDateString }"
+      ],
+      "Invitation failed to be sent": [
+        "Neuspješno slanje pozivnice"
+      ],
+      "Answer failed to be sent": [
+        "Slanje odgovora nije uspjelo"
+      ],
+      "Cancellation failed to be sent": [
+        "Neuspješno slanje otkazivanja"
+      ],
+      "Invalid link to the event": [
+        "Nevažeća pozivnica na događaj"
+      ],
+      "Please create an address first.": [
+        "Prvo stvorite adresu."
+      ],
+      "Start time must be before end time": [
+        "Početno vrijeme mora biti prije vremena završetka"
+      ],
+      "Interval cannot be empty": [
+        "Interval ne može biti prazan"
+      ],
+      "Ends on date cannot be empty": [
+        "Datum završetka ne može biti prazan"
+      ],
+      "Ends on date must be after start time": [
+        "Datum završetka mora biti nakon datuma početka"
+      ],
+      "Number of occurrences cannot be empty": [
+        "Broj ponavljanja ne može biti prazan"
+      ],
+      "A maximum of 10 notifications is allowed": [
+        "Dopušteno je najviše 10 obavijesti"
+      ],
+      "Invalid email address": [
+        "Nevažeća adresa e-pošte"
+      ],
+      "Decryption error: Decryption of this event's content failed.": [
+        "Pogreška pri dešifriranju: Dešifriranje sadržaja ovog događaja nije uspjelo."
+      ],
+      "Error: ${ errorMessage }": [
+        "Pogreška: ${ errorMessage }"
+      ],
+      "Error": [
+        "Pogreška"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "Lozinka mora sadržavati najmanje ${ length } znak",
+        "Lozinka mora sadržavati najmanje ${ length } znaka",
+        "Lozinka mora sadržavati najmanje ${ length } znakova"
+      ]
+    },
+    "file size format": {
+      "bytes": [
+        "bajtova"
+      ],
+      "KB": [
+        "KB"
+      ],
+      "MB": [
+        "MB"
+      ],
+      "GB": [
+        "GB"
+      ]
+    },
+    "Contact field label": {
+      "Name": [
+        "Naziv"
+      ],
+      "Email": [
+        "E-pošta"
+      ],
+      "Phone": [
+        "Telefon"
+      ],
+      "Address": [
+        "Adresa"
+      ],
+      "Photo": [
+        "Fotografija"
+      ],
+      "Organization": [
+        "Organizacija"
+      ],
+      "Birthday": [
+        "Rođendan"
+      ],
+      "Anniversary": [
+        "Godišnjica"
+      ],
+      "Title": [
+        "Naslov"
+      ],
+      "Role": [
+        "Uloga"
+      ],
+      "Note": [
+        "Bilješka"
+      ],
+      "URL": [
+        "URL"
+      ],
+      "Gender": [
+        "Spol"
+      ],
+      "Language": [
+        "Jezik"
+      ],
+      "Timezone": [
+        "Vremenska zona"
+      ],
+      "Geo": [
+        "Geolokacija"
+      ],
+      "Logo": [
+        "Logo"
+      ],
+      "Member": [
+        "Član"
+      ]
+    },
+    "Contact type label": {
+      "Work": [
+        "Posao"
+      ],
+      "Personal": [
+        "Privatno"
+      ],
+      "Mobile": [
+        "Mobitel"
+      ],
+      "Main": [
+        "Glavno"
+      ],
+      "Yomi": [
+        "Yomi"
+      ],
+      "Other": [
+        "Ostalo"
+      ],
+      "Fax": [
+        "Faks"
+      ],
+      "Pager": [
+        "Dojavljivač"
+      ]
+    },
+    "Property type": {
+      "Email": [
+        "E-pošta"
+      ],
+      "Home": [
+        "Kuća"
+      ],
+      "Work": [
+        "Posao"
+      ],
+      "Other": [
+        "Ostalo"
+      ],
+      "Phone": [
+        "Telefon"
+      ],
+      "Mobile": [
+        "Mobitel"
+      ],
+      "Main": [
+        "Glavno"
+      ],
+      "Fax": [
+        "Faks"
+      ],
+      "Pager": [
+        "Dojavljivač"
+      ],
+      "Address": [
+        "Adresa"
+      ]
+    },
     "Calendar status": {
       "Syncing": [
         ""
@@ -808,12 +1251,6 @@
       "* Customizable features": [
         "* Prilagodljive značajke"
       ],
-      "Access your streaming services, like ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, no matter where you are.": [
-        "Pristupite vašim streaming uslugama, poput ${ netflix }, ${ disney }, ${ primeVideo } ${ many }, bez obzira gdje se nalazite."
-      ],
-      "Access blocked content, like social media, news, Wikipedia, YouTube, and many others, no matter where you are.": [
-        "Pristup ograničenom sadržaju, poput društvenih mreža, Wikipedije, Youtubea i mnogo drugih, bez obzira gdje se nalazite."
-      ],
       "For getting started with private and secure emailing.": [
         "Za početak korištenja privatne i sigurne e-pošte."
       ],
@@ -837,6 +1274,12 @@
       ],
       "For families and small teams; includes both Mail and VPN.": [
         "Za obitelji i manje timove; uključuje E-poštu i VPN."
+      ],
+      "Access your streaming services, like ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, no matter where you are.": [
+        "Pristupite vašim streaming uslugama, poput ${ netflix }, ${ disney }, ${ primeVideo } ${ many }, bez obzira gdje se nalazite."
+      ],
+      "Access blocked content, like social media, news, Wikipedia, YouTube, and many others, no matter where you are.": [
+        "Pristup ograničenom sadržaju, poput društvenih mreža, Wikipedije, Youtubea i mnogo drugih, bez obzira gdje se nalazite."
       ],
       "Save 20%": [
         "Uštedite 20%"
@@ -1323,449 +1766,6 @@
       ],
       "Loading event": [
         "Učitavanje događaja"
-      ]
-    },
-    "Error": {
-      "Address primary private key not found": [
-        "Primarni privatni ključ adrese nije pronađen"
-      ],
-      "Calendar primary private key is not decrypted": [
-        "Primarni, privatni ključ kalendara nije dešifriran"
-      ],
-      "This field is required": [
-        "Ovo polje je obavezno"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Ovo polje zahtjeva najmanje ${ minimumLength } znakova."
-      ],
-      "Email is not valid": [
-        "Adresa e-pošte nije važeća"
-      ],
-      "Not a valid number": [
-        "Broj telefona nije važeći"
-      ],
-      "Passwords do not match": [
-        "Lozinke se ne poklapaju"
-      ],
-      "Request timed out.": [
-        "Zahtjev je istekao."
-      ],
-      "Signature verification failed": [
-        "Potvrda potpisa je neuspješna"
-      ],
-      "Could not find address ${ email }.": [
-        "Ne mogu pronaći adresu ${ email }."
-      ],
-      "Missing signature": [
-        "Nedostaje potpis"
-      ],
-      "Contact signature not verified": [
-        "Potpis kontakta nije potvrđen"
-      ],
-      "Signature not verified": [
-        "Potpis nije ovjeren"
-      ],
-      "Invalid name": [
-        "Nevažeći naziv"
-      ],
-      "Email address disabled": [
-        "Adresa e-pošte je onemogućena"
-      ],
-      "No keys retrieved for internal user": [
-        "Nije pronađen nijedan ključ za unutarnjeg korisnika"
-      ],
-      "No valid keys retrieved for internal user": [
-        "Nije pronađen nijedan valjani ključ za unutarnjeg korisnika"
-      ],
-      "Contact signature could not be verified": [
-        "Nije moguće provjeriti potpis kontakta"
-      ],
-      "No key retrieved for internal user is valid for sending": [
-        "Nijedan ključ dohvaćen za unutarnjeg korisnika nije valjan za slanje"
-      ],
-      "Trusted keys are not valid for sending": [
-        "Pouzdani ključevi nisu valjani za slanje"
-      ],
-      "No WKD key retrieved for user is valid for sending": [
-        "Nijedan WKD ključ dohvaćen za korisnika nije valjan za slanje"
-      ],
-      "The sending key is not valid": [
-        "Ključ slanja nije važeći"
-      ],
-      "Unknown error": [
-        "Nepoznata pogreška"
-      ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser": [
-        "Ova poruka može sadržavati URL poveznice koje trenutačni preglednik ne može ispravno otvoriti"
-      ],
-      "Authentication canceled.": [
-        "Otkazana autentikacija."
-      ],
-      "Your import will not be processed.": [
-        "Vaš uvoz nije moguće obraditi."
-      ],
-      "Authentication error.": [
-        "Pogreška autentikacije."
-      ],
-      "Email address invalid": [
-        "Adresa e-pošte nije valjana"
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "Preglednik koji koristite ne dopušta potpuno odobrenje plaćanja. Molimo koristite drugi preglednik ili se prijavite putem računala."
-      ],
-      "Incorrect mailbox password. Please try again": [
-        "Pogrešna lozinka poštanskog pretinca. Pokušajte ponovno"
-      ],
-      "Incorrect login credentials. Please try again": [
-        "Nevažeći podaci za prijavu. Molimo pokušajte ponovno"
-      ],
-      "Can't validate email, try again later": [
-        "Nije moguće potvrditi e-poštu, pokušajte ponovo kasnije"
-      ],
-      "Can't validate phone, try again later": [
-        "Nije moguće potvrditi broj telefona, pokušajte ponovo kasnije"
-      ],
-      "Enter 6 digits": [
-        "Unesite 6 znamenki"
-      ],
-      "Invalid verification code": [
-        "Nevažeći kôd za provjeru"
-      ],
-      "Process aborted": [
-        "Proces je prekinut"
-      ],
-      "Payment process cancelled": [
-        "Proces plaćanja je otkazan"
-      ],
-      "Payment process failed": [
-        "Proces plaćanja nije uspio"
-      ],
-      "Payment process consumed": [
-        "Proces plaćanja je konzumiran"
-      ],
-      "Payment process not supported": [
-        "Proces plaćanja nije podržan"
-      ],
-      "Unknown payment token status": [
-        "Nepoznati status tokena za plaćanje"
-      ],
-      "Tab closed": [
-        "Kartica zatvorena"
-      ],
-      "Name on card required": [
-        "Ime s kartice je nužno"
-      ],
-      "Invalid expiration date": [
-        "Nevažeći datum isteka"
-      ],
-      "Invalid card number": [
-        "Netočan broj kartice"
-      ],
-      "Invalid ${ name } code": [
-        "Nevažeći ${ name } kôd"
-      ],
-      "Invalid postal code": [
-        "Netočan poštanski broj"
-      ],
-      "Error connecting to the Bitcoin API.": [
-        "Greška prilikom spajanja na Bitcoin API."
-      ],
-      "Amount below minimum.": [
-        "Iznos ispod minimuma."
-      ],
-      "Amount above the maximum.": [
-        "Iznos veći od maksimuma."
-      ],
-      "The minimum amount that can be donated is ${ price }": [
-        "Minimalni iznos koji se može donirati je ${ price }"
-      ],
-      "The minimum amount of credit that can be added is ${ _price }": [
-        "Minimalni iznos kredita koji se može dodati je ${ _price }"
-      ],
-      "The minimum payment we accept is ${ _price2 }": [
-        "Minimalni iznos koji prihvaćamo je ${ _price2 }"
-      ],
-      "Checkout expired, please try again.": [
-        "Naplata je istekla, pokušajte ponovo."
-      ],
-      "Invalid code": [
-        "Nevažeći kȏd"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Nešto je pošlo po zlu. Molimo ${ refresh } kako biste nastavili. Ako i dalje vidite ovu poruku o pogrešci, kontaktirajte naš ${ supportTeam }."
-      ],
-      "Image upload failed": [
-        "Neuspješno učitavanje slike"
-      ],
-      "Contact could not be saved": [
-        "Nije moguće spremanje kontakata"
-      ],
-      "Some contacts could not be deleted": [
-        "Nije bilo moguće brisanje nekih kontakata"
-      ],
-      "Preferences could not be saved": [
-        "Postavke nije moguće spremiti"
-      ],
-      "Some groups could not be deleted": [
-        "Nije moguće brisanje nekih grupa"
-      ],
-      "Invalid public key file": [
-        "Nevažeća datoteka javnog ključa"
-      ],
-      "You can't send a mail to more than 100 recipients": [
-        "Ne možete poslati e-poštu za više od 100 primatelja"
-      ],
-      "One of the contacts has no email address: ${ noEmailsContactNamesList }": [
-        "Jedan od kontakata nema adresu e-pošte: ${ noEmailsContactNamesList }",
-        "Nekoliko kontakata nema adrese e-pošte: ${ noEmailsContactNamesList } ",
-        "Nekoliko kontakata nema adrese e-pošte: ${ noEmailsContactNamesList } "
-      ],
-      "You can't send vCards of more than 10 contacts": [
-        "Ne možete slati vCards za više od 10 kontakata"
-      ],
-      "There was an error when exporting the contacts vCards": [
-        "Došlo je do pogreške prilikom izvoza vCards-a kontakata"
-      ],
-      "One of the groups has no contacts: ${ noContactGroupList }": [
-        "Jedna od grupa nema kontakata: ${ noContactGroupList }",
-        "Neke od grupa nemaju kontakata: ${ noContactGroupList } ",
-        "Neke od grupa nemaju kontakata: ${ noContactGroupList } "
-      ],
-      "You must set a name": [
-        "Morate postaviti naziv"
-      ],
-      "A group with this name already exists": [
-        "Grupa s ovim nazivom već postoji"
-      ],
-      "Primary address key is not decrypted": [
-        "Primarni ključ adrese e-pošte nije dešifriran"
-      ],
-      "We were unable to connect to your service provider.": [
-        ""
-      ],
-      "Please try to reauthenticate and make sure the permissions are set correctly.": [
-        ""
-      ],
-      "No valid address found": [
-        "Nije pronađena važeća adresa"
-      ],
-      "Primary address key is not decrypted.": [
-        "Primarni ključ adrese e-pošte nije dešifriran."
-      ],
-      "Name required": [
-        "Naziv je obavezan"
-      ],
-      "Self invitation not allowed": [
-        "Nije dopušteno pozivanje samog sebe"
-      ],
-      "${ list } doesn't have a valid email address": [
-        "${ list } nema važeću adresu e-pošte",
-        "Neki od kontakata nemaju važeću adresu e-pošte: ${ list }",
-        "Neki od kontakata nemaju važeću adresu e-pošte: ${ list }"
-      ],
-      "${ _list } doesn't have an email address": [
-        "${ _list } nema adresu e-pošte",
-        "Neki od kontakata nemaju adrese e-pošte: ${ _list }",
-        "Neki od kontakata nemaju adrese e-pošte: ${ _list }"
-      ],
-      "${ list } has invalid emails": [
-        "${ list } ima nevažeće adrese e-pošte",
-        "Neke od grupa imaju nevažeće adrese e-pošte: ${ list }",
-        "Neke od grupa imaju nevažeće adrese e-pošte: ${ list }"
-      ],
-      "${ _list2 } has no contacts": [
-        "${ _list2 } nema kontakata",
-        "Neke od grupa nemaju kontakata: ${ _list2 }",
-        "Neke od grupa nemaju kontakata: ${ _list2 }"
-      ],
-      "Failed to get original occurrence in series": [
-        "Neuspješno dohvaćanje originalnog pojavljivanja u seriji"
-      ],
-      "It is only possible to move events between ${ minDateString } - ${ maxDateString }": [
-        "Moguće je premještanje događaja samo između ${ minDateString } - ${ maxDateString }"
-      ],
-      "It is only possible to create events between ${ minDateString } - ${ maxDateString }": [
-        "Moguće je stvaranje događaja samo između ${ minDateString } - ${ maxDateString }"
-      ],
-      "Invitation failed to be sent": [
-        "Neuspješno slanje pozivnice"
-      ],
-      "Answer failed to be sent": [
-        "Slanje odgovora nije uspjelo"
-      ],
-      "Cancellation failed to be sent": [
-        "Neuspješno slanje otkazivanja"
-      ],
-      "Invalid link to the event": [
-        "Nevažeća pozivnica na događaj"
-      ],
-      "Please create an address first.": [
-        "Prvo stvorite adresu."
-      ],
-      "Start time must be before end time": [
-        "Početno vrijeme mora biti prije vremena završetka"
-      ],
-      "Interval cannot be empty": [
-        "Interval ne može biti prazan"
-      ],
-      "Ends on date cannot be empty": [
-        "Datum završetka ne može biti prazan"
-      ],
-      "Ends on date must be after start time": [
-        "Datum završetka mora biti nakon datuma početka"
-      ],
-      "Number of occurrences cannot be empty": [
-        "Broj ponavljanja ne može biti prazan"
-      ],
-      "A maximum of 10 notifications is allowed": [
-        "Dopušteno je najviše 10 obavijesti"
-      ],
-      "Invalid email address": [
-        "Nevažeća adresa e-pošte"
-      ],
-      "Decryption error: Decryption of this event's content failed.": [
-        "Pogreška pri dešifriranju: Dešifriranje sadržaja ovog događaja nije uspjelo."
-      ],
-      "Error: ${ errorMessage }": [
-        "Pogreška: ${ errorMessage }"
-      ],
-      "Error": [
-        "Pogreška"
-      ]
-    },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "Lozinka mora sadržavati najmanje ${ length } znak",
-        "Lozinka mora sadržavati najmanje ${ length } znaka",
-        "Lozinka mora sadržavati najmanje ${ length } znakova"
-      ]
-    },
-    "file size format": {
-      "bytes": [
-        "bajtova"
-      ],
-      "KB": [
-        "KB"
-      ],
-      "MB": [
-        "MB"
-      ],
-      "GB": [
-        "GB"
-      ]
-    },
-    "Contact field label": {
-      "Name": [
-        "Naziv"
-      ],
-      "Email": [
-        "E-pošta"
-      ],
-      "Phone": [
-        "Telefon"
-      ],
-      "Address": [
-        "Adresa"
-      ],
-      "Photo": [
-        "Fotografija"
-      ],
-      "Organization": [
-        "Organizacija"
-      ],
-      "Birthday": [
-        "Rođendan"
-      ],
-      "Anniversary": [
-        "Godišnjica"
-      ],
-      "Title": [
-        "Naslov"
-      ],
-      "Role": [
-        "Uloga"
-      ],
-      "Note": [
-        "Bilješka"
-      ],
-      "URL": [
-        "URL"
-      ],
-      "Gender": [
-        "Spol"
-      ],
-      "Language": [
-        "Jezik"
-      ],
-      "Timezone": [
-        "Vremenska zona"
-      ],
-      "Geo": [
-        "Geolokacija"
-      ],
-      "Logo": [
-        "Logo"
-      ],
-      "Member": [
-        "Član"
-      ]
-    },
-    "Contact type label": {
-      "Work": [
-        "Posao"
-      ],
-      "Personal": [
-        "Privatno"
-      ],
-      "Mobile": [
-        "Mobitel"
-      ],
-      "Main": [
-        "Glavno"
-      ],
-      "Yomi": [
-        "Yomi"
-      ],
-      "Other": [
-        "Ostalo"
-      ],
-      "Fax": [
-        "Faks"
-      ],
-      "Pager": [
-        "Dojavljivač"
-      ]
-    },
-    "Property type": {
-      "Email": [
-        "E-pošta"
-      ],
-      "Home": [
-        "Kuća"
-      ],
-      "Work": [
-        "Posao"
-      ],
-      "Other": [
-        "Ostalo"
-      ],
-      "Phone": [
-        "Telefon"
-      ],
-      "Mobile": [
-        "Mobitel"
-      ],
-      "Main": [
-        "Glavno"
-      ],
-      "Fax": [
-        "Faks"
-      ],
-      "Pager": [
-        "Dojavljivač"
-      ],
-      "Address": [
-        "Adresa"
       ]
     },
     "PGP key warning": {
@@ -2603,8 +2603,8 @@
       "Amount due": [
         "Dospjeli iznos"
       ],
-      "Cancel subscription": [
-        "Otkaži pretplatu"
+      "Downgrade account": [
+        ""
       ],
       "Network error": [
         "Pogreška mreže"
@@ -2906,6 +2906,11 @@
         "Uredi događaj"
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        "Ključ se ne može koristiti za šifriranje"
+      ]
+    },
     "Storage": {
       "Your current storage:": [
         "Vaš trenutni prostor za pohranu:"
@@ -2915,11 +2920,6 @@
       ],
       "Release notes": [
         "Bilješke o izdanoj verziji"
-      ]
-    },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        "Ključ se ne može koristiti za šifriranje"
       ]
     },
     "Label": {
@@ -4714,11 +4714,6 @@
         "Napomena: usluga će se ponovo učitati nakon što kliknete dugme Primijeni."
       ]
     },
-    "Select files": {
-      "Upload": [
-        "Učitaj"
-      ]
-    },
     "Loading info": {
       "Connecting to your contacts provider": [
         ""
@@ -4738,6 +4733,11 @@
     "Confirm modal title": {
       "Quit import?": [
         ""
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "Učitaj"
       ]
     },
     "Message display when a new app version is available": {

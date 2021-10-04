@@ -5,6 +5,442 @@
   },
   "contexts": {
     "": {},
+    "Error": {
+      "This field is required": [
+        "Dette felt skal udfyldes"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Dette felt kræver minimum ${ minimumLength } tegn."
+      ],
+      "Email is not valid": [
+        "E-mail er ikke gyldig"
+      ],
+      "Not a valid number": [
+        "Ikke et gyldigt nummer"
+      ],
+      "Passwords do not match": [
+        "Adgangskoder matcher ikke"
+      ],
+      "Address primary private key not found": [
+        "Adresses primære private nøgle ikke fundet"
+      ],
+      "Calendar primary private key is not decrypted": [
+        "Kalenders primære private nøgle er ikke dekrypteret"
+      ],
+      "Request timed out.": [
+        "Forespørgsel fik timeout."
+      ],
+      "Signature verification failed": [
+        "Bekræftelse af signatur mislykkedes"
+      ],
+      "Could not find address ${ email }.": [
+        "Kunne ikke finde adresse ${ email }."
+      ],
+      "Missing signature": [
+        "Manglende signatur"
+      ],
+      "Contact signature not verified": [
+        "Kontaktsignatur ikke bekræftet"
+      ],
+      "Signature not verified": [
+        "Signatur ikke bekræftet"
+      ],
+      "Invalid name": [
+        "Ugyldigt navn"
+      ],
+      "Email address disabled": [
+        "E-mailadresse deaktiveret"
+      ],
+      "No keys retrieved for internal user": [
+        "Ingen nøgler hentet for intern bruger"
+      ],
+      "No valid keys retrieved for internal user": [
+        "Ingen gyldige nøgler hentet for intern bruger"
+      ],
+      "Contact signature could not be verified": [
+        "Kontaktsignatur kunne ikke bekræftes"
+      ],
+      "No key retrieved for internal user is valid for sending": [
+        "Ingen nøgle hentet for intern bruger er gyldig til afsendelse"
+      ],
+      "Trusted keys are not valid for sending": [
+        "Betroede nøgler er ikke gyldige til afsendelse"
+      ],
+      "No WKD key retrieved for user is valid for sending": [
+        "Ingen WKD-nøgle hentet for bruger er gyldig til afsendelse"
+      ],
+      "The sending key is not valid": [
+        "Afsendelsesnøglen er ikke gyldig"
+      ],
+      "Unknown error": [
+        "Ukendt fejl"
+      ],
+      "This message may contain some link's URL that cannot be properly opened by your current browser": [
+        "Denne besked kan indeholde links, som ikke kan åbnes korrekt af din aktuelle browser"
+      ],
+      "Authentication canceled.": [
+        "Godkendelse annulleret."
+      ],
+      "Your import will not be processed.": [
+        "Din import vil ikke blive behandlet."
+      ],
+      "Authentication error.": [
+        "Godkendelsesfejl."
+      ],
+      "Email address invalid": [
+        "E-mailadresse ugyldig"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "Din aktuelle browser tillader ikke fuld godkendelse af betalingen. Benyt en anden browser eller log ind via en computer."
+      ],
+      "Incorrect mailbox password. Please try again": [
+        "Forkert adgangskode til postkasse. Prøv venligst igen"
+      ],
+      "Incorrect login credentials. Please try again": [
+        "Forkerte login-oplysninger. Prøv venligst igen"
+      ],
+      "Can't validate email, try again later": [
+        "Kan ikke bekræfte e-mail, prøv igen senere"
+      ],
+      "Can't validate phone, try again later": [
+        "Kan ikke bekræfte telefon, prøv igen senere"
+      ],
+      "Enter 6 digits": [
+        "Indtast 6 cifre"
+      ],
+      "Invalid verification code": [
+        "Ugyldig bekræftelseskode"
+      ],
+      "Process aborted": [
+        "Proces afbrudt"
+      ],
+      "Payment process cancelled": [
+        "Betalingproces annulleret"
+      ],
+      "Payment process failed": [
+        "Betalingproces mislykkedes"
+      ],
+      "Payment process consumed": [
+        "Betalingssession udløbet"
+      ],
+      "Payment process not supported": [
+        "Betalingsproces understøttes ikke"
+      ],
+      "Unknown payment token status": [
+        "Ukendt betalings-token status"
+      ],
+      "Tab closed": [
+        "Fane lukket"
+      ],
+      "Name on card required": [
+        "Navn på kort er obligatorisk"
+      ],
+      "Invalid expiration date": [
+        "Ugyldig udløbsdato"
+      ],
+      "Invalid card number": [
+        "Ugyldigt kortnummer"
+      ],
+      "Invalid ${ name } code": [
+        "Ugyldig ${ name }-kode"
+      ],
+      "Invalid postal code": [
+        "Ugyldigt postnummer"
+      ],
+      "Error connecting to the Bitcoin API.": [
+        "Fejl under oprettelse af forbindelse til Bitcoin-API."
+      ],
+      "Amount below minimum.": [
+        "Beløb under minimum."
+      ],
+      "Amount above the maximum.": [
+        "Beløb overstiger maksimum."
+      ],
+      "The minimum amount that can be donated is ${ price }": [
+        "Det mindste beløb, der kan doneres, er ${ price }"
+      ],
+      "The minimum amount of credit that can be added is ${ _price }": [
+        "Det mindste kreditstørrelse, der kan tilføjes, er ${ _price }"
+      ],
+      "The minimum payment we accept is ${ _price2 }": [
+        "Den mindste betaling vi accepterer er ${ _price2 }"
+      ],
+      "Checkout expired, please try again.": [
+        "Checkout udløbet, prøv venligst igen."
+      ],
+      "Invalid code": [
+        "Ugyldig kode"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Noget gik galt. ${ refresh } siden for at fortsætte. Ser du fortsat denne fejlmeddelelse, bedes du kontakte vores ${ supportTeam }."
+      ],
+      "Image upload failed": [
+        "Billed-upload mislykkedes"
+      ],
+      "Contact could not be saved": [
+        "Kontakt kunne ikke gemmes"
+      ],
+      "Some contacts could not be deleted": [
+        "Nogle kontakter kunne ikke slettes"
+      ],
+      "Preferences could not be saved": [
+        "Præferencer kunne ikke gemmes"
+      ],
+      "Some groups could not be deleted": [
+        "Nogle grupper kunne ikke slettes"
+      ],
+      "Invalid public key file": [
+        "Ugyldig offentlig nøglefil"
+      ],
+      "You can't send a mail to more than 100 recipients": [
+        "Du kan ikke sende en mail til mere end 100 modtagere"
+      ],
+      "One of the contacts has no email address: ${ noEmailsContactNamesList }": [
+        "En af kontakterne har ingen e-mailadresse: ${ noEmailsContactNamesList }",
+        "Nogle kontakter har ingen e-mailadresse: ${ noEmailsContactNamesList } "
+      ],
+      "You can't send vCards of more than 10 contacts": [
+        "Du kan ikke sende vCards med mere end 10 kontakter"
+      ],
+      "There was an error when exporting the contacts vCards": [
+        "Der opstod en fejl under eksport af kontakternes vCards"
+      ],
+      "One of the groups has no contacts: ${ noContactGroupList }": [
+        "En af grupperne har ingen kontakter: ${ noContactGroupList }",
+        "Nogle grupper har ingen kontakter: ${ noContactGroupList } "
+      ],
+      "You must set a name": [
+        "Du skal angive et navn"
+      ],
+      "A group with this name already exists": [
+        "En gruppe med dette navn findes allerede"
+      ],
+      "We were unable to connect to your service provider.": [
+        ""
+      ],
+      "Please try to reauthenticate and make sure the permissions are set correctly.": [
+        ""
+      ],
+      "Primary address key is not decrypted": [
+        "Primære adressenøgle er ikke dekrypteret"
+      ],
+      "No valid address found": [
+        "Ingen gyldig adresse fundet"
+      ],
+      "Primary address key is not decrypted.": [
+        "Primære adressenøgle er ikke dekrypteret."
+      ],
+      "Name required": [
+        "Navn påkrævet"
+      ],
+      "Self invitation not allowed": [
+        "Selvinvitation er ikke tilladt"
+      ],
+      "${ list } doesn't have a valid email address": [
+        "${ list } har ikke en gyldig e-mailadresse",
+        "Nogle kontakter har ikke en gyldig e-mailadresse: ${ list }"
+      ],
+      "${ _list } doesn't have an email address": [
+        "${ _list } har ikke en e-mailadresse",
+        "Nogle kontakter har ikke e-mailadresse: ${ _list }"
+      ],
+      "${ list } has invalid emails": [
+        "${ list } har ugyldige e-mails",
+        "Nogle grupper har ugyldige e-mails: ${ list }"
+      ],
+      "${ _list2 } has no contacts": [
+        "${ _list2 } har ingen kontakter",
+        "Nogle grupper har ingen kontakter: ${ _list2 }"
+      ],
+      "Failed to get original occurrence in series": [
+        "Kunne ikke hente original forekomst i serie"
+      ],
+      "It is only possible to move events between ${ minDateString } - ${ maxDateString }": [
+        "Det er kun muligt at flytte begivenheder mellem ${ minDateString } - ${ maxDateString }"
+      ],
+      "It is only possible to create events between ${ minDateString } - ${ maxDateString }": [
+        "Det er kun muligt at oprette begivenheder mellem ${ minDateString } - ${ maxDateString }"
+      ],
+      "Invitation failed to be sent": [
+        "Invitation kunne ikke sendes"
+      ],
+      "Answer failed to be sent": [
+        "Svaret kunne ikke sendes"
+      ],
+      "Cancellation failed to be sent": [
+        "Aflysning kunne ikke sendes"
+      ],
+      "Invalid link to the event": [
+        "Ugyldigt link til begivenheden"
+      ],
+      "Please create an address first.": [
+        "Opret en adresse først."
+      ],
+      "Start time must be before end time": [
+        "Starttidspunkt skal være før sluttidspunkt"
+      ],
+      "Interval cannot be empty": [
+        "Interval må ikke være tomt"
+      ],
+      "Ends on date cannot be empty": [
+        "Sluttdato kan ikke være tom"
+      ],
+      "Ends on date must be after start time": [
+        "Slutter på dato skal være efter starttidspunktet"
+      ],
+      "Number of occurrences cannot be empty": [
+        "Antallet af forekomster kan ikke være tom"
+      ],
+      "A maximum of 10 notifications is allowed": [
+        "Højst 10 notifikationer er tilladt"
+      ],
+      "Invalid email address": [
+        "Ugyldig e-mailadresse"
+      ],
+      "Decryption error: Decryption of this event's content failed.": [
+        "Dekrypteringsfejl: Dekryptering af denne begivenheds indhold mislykkedes."
+      ],
+      "Error: ${ errorMessage }": [
+        "Fejl: ${ errorMessage }"
+      ],
+      "Error": [
+        "Fejl"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "Adgangskode skal indeholde mindst ${ length } tegn",
+        "Adgangskode skal indeholde mindst ${ length } tegn"
+      ]
+    },
+    "file size format": {
+      "bytes": [
+        "bytes"
+      ],
+      "KB": [
+        "KB"
+      ],
+      "MB": [
+        "MB"
+      ],
+      "GB": [
+        "GB"
+      ]
+    },
+    "Contact field label": {
+      "Name": [
+        "Navn"
+      ],
+      "Email": [
+        "E-mail"
+      ],
+      "Phone": [
+        "Telefon"
+      ],
+      "Address": [
+        "Adresse"
+      ],
+      "Photo": [
+        "Foto"
+      ],
+      "Organization": [
+        "Organisation"
+      ],
+      "Birthday": [
+        "Fødselsdag"
+      ],
+      "Anniversary": [
+        "Årsdag"
+      ],
+      "Title": [
+        "Titel"
+      ],
+      "Role": [
+        "Rolle"
+      ],
+      "Note": [
+        "Notat"
+      ],
+      "URL": [
+        "URL"
+      ],
+      "Gender": [
+        "Køn"
+      ],
+      "Language": [
+        "Sprog"
+      ],
+      "Timezone": [
+        "Tidszone"
+      ],
+      "Geo": [
+        "Geo"
+      ],
+      "Logo": [
+        "Logo"
+      ],
+      "Member": [
+        "Medlem"
+      ]
+    },
+    "Contact type label": {
+      "Work": [
+        "Arbejde"
+      ],
+      "Personal": [
+        "Personlig"
+      ],
+      "Mobile": [
+        "Mobil"
+      ],
+      "Main": [
+        "Primær"
+      ],
+      "Yomi": [
+        "Yomi"
+      ],
+      "Other": [
+        "Andet"
+      ],
+      "Fax": [
+        "Fax"
+      ],
+      "Pager": [
+        "Personsøger"
+      ]
+    },
+    "Property type": {
+      "Email": [
+        "E-mail"
+      ],
+      "Home": [
+        "Hjem"
+      ],
+      "Work": [
+        "Arbejde"
+      ],
+      "Other": [
+        "Andet"
+      ],
+      "Phone": [
+        "Telefon"
+      ],
+      "Mobile": [
+        "Mobil"
+      ],
+      "Main": [
+        "Primær"
+      ],
+      "Fax": [
+        "Fax"
+      ],
+      "Pager": [
+        "Personsøger"
+      ],
+      "Address": [
+        "Adresse"
+      ]
+    },
     "Calendar status": {
       "Syncing": [
         "Synkroniserer"
@@ -769,12 +1205,6 @@
       "* Customizable features": [
         "* Funktioner som kan tilpasses"
       ],
-      "Access your streaming services, like ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, no matter where you are.": [
-        "Få adgang til dine streamingtjenester som f.eks. ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, uanset hvor du er."
-      ],
-      "Access blocked content, like social media, news, Wikipedia, YouTube, and many others, no matter where you are.": [
-        "Få adgang til blokeret indhold såsom sociale medier, nyheder, Wikipedia, YouTube og mange andre, uanset hvor du er."
-      ],
       "For getting started with private and secure emailing.": [
         "Til at komme i gang med privat og sikker e-mail."
       ],
@@ -798,6 +1228,12 @@
       ],
       "For families and small teams; includes both Mail and VPN.": [
         "For familier og små teams; inkluderer både Mail og VPN."
+      ],
+      "Access your streaming services, like ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, no matter where you are.": [
+        "Få adgang til dine streamingtjenester som f.eks. ${ netflix }, ${ disney }, ${ primeVideo }, ${ many }, uanset hvor du er."
+      ],
+      "Access blocked content, like social media, news, Wikipedia, YouTube, and many others, no matter where you are.": [
+        "Få adgang til blokeret indhold såsom sociale medier, nyheder, Wikipedia, YouTube og mange andre, uanset hvor du er."
       ],
       "Save 20%": [
         "Spar 20%"
@@ -1278,442 +1714,6 @@
       ],
       "Loading event": [
         "Indlæser begivenhed"
-      ]
-    },
-    "Error": {
-      "Address primary private key not found": [
-        "Adresses primære private nøgle ikke fundet"
-      ],
-      "Calendar primary private key is not decrypted": [
-        "Kalenders primære private nøgle er ikke dekrypteret"
-      ],
-      "This field is required": [
-        "Dette felt skal udfyldes"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Dette felt kræver minimum ${ minimumLength } tegn."
-      ],
-      "Email is not valid": [
-        "E-mail er ikke gyldig"
-      ],
-      "Not a valid number": [
-        "Ikke et gyldigt nummer"
-      ],
-      "Passwords do not match": [
-        "Adgangskoder matcher ikke"
-      ],
-      "Request timed out.": [
-        "Forespørgsel fik timeout."
-      ],
-      "Signature verification failed": [
-        "Bekræftelse af signatur mislykkedes"
-      ],
-      "Could not find address ${ email }.": [
-        "Kunne ikke finde adresse ${ email }."
-      ],
-      "Missing signature": [
-        "Manglende signatur"
-      ],
-      "Contact signature not verified": [
-        "Kontaktsignatur ikke bekræftet"
-      ],
-      "Signature not verified": [
-        "Signatur ikke bekræftet"
-      ],
-      "Invalid name": [
-        "Ugyldigt navn"
-      ],
-      "Email address disabled": [
-        "E-mailadresse deaktiveret"
-      ],
-      "No keys retrieved for internal user": [
-        "Ingen nøgler hentet for intern bruger"
-      ],
-      "No valid keys retrieved for internal user": [
-        "Ingen gyldige nøgler hentet for intern bruger"
-      ],
-      "Contact signature could not be verified": [
-        "Kontaktsignatur kunne ikke bekræftes"
-      ],
-      "No key retrieved for internal user is valid for sending": [
-        "Ingen nøgle hentet for intern bruger er gyldig til afsendelse"
-      ],
-      "Trusted keys are not valid for sending": [
-        "Betroede nøgler er ikke gyldige til afsendelse"
-      ],
-      "No WKD key retrieved for user is valid for sending": [
-        "Ingen WKD-nøgle hentet for bruger er gyldig til afsendelse"
-      ],
-      "The sending key is not valid": [
-        "Afsendelsesnøglen er ikke gyldig"
-      ],
-      "Unknown error": [
-        "Ukendt fejl"
-      ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser": [
-        "Denne besked kan indeholde links, som ikke kan åbnes korrekt af din aktuelle browser"
-      ],
-      "Authentication canceled.": [
-        "Godkendelse annulleret."
-      ],
-      "Your import will not be processed.": [
-        "Din import vil ikke blive behandlet."
-      ],
-      "Authentication error.": [
-        "Godkendelsesfejl."
-      ],
-      "Email address invalid": [
-        "E-mailadresse ugyldig"
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "Din aktuelle browser tillader ikke fuld godkendelse af betalingen. Benyt en anden browser eller log ind via en computer."
-      ],
-      "Incorrect mailbox password. Please try again": [
-        "Forkert adgangskode til postkasse. Prøv venligst igen"
-      ],
-      "Incorrect login credentials. Please try again": [
-        "Forkerte login-oplysninger. Prøv venligst igen"
-      ],
-      "Can't validate email, try again later": [
-        "Kan ikke bekræfte e-mail, prøv igen senere"
-      ],
-      "Can't validate phone, try again later": [
-        "Kan ikke bekræfte telefon, prøv igen senere"
-      ],
-      "Enter 6 digits": [
-        "Indtast 6 cifre"
-      ],
-      "Invalid verification code": [
-        "Ugyldig bekræftelseskode"
-      ],
-      "Process aborted": [
-        "Proces afbrudt"
-      ],
-      "Payment process cancelled": [
-        "Betalingproces annulleret"
-      ],
-      "Payment process failed": [
-        "Betalingproces mislykkedes"
-      ],
-      "Payment process consumed": [
-        "Betalingssession udløbet"
-      ],
-      "Payment process not supported": [
-        "Betalingsproces understøttes ikke"
-      ],
-      "Unknown payment token status": [
-        "Ukendt betalings-token status"
-      ],
-      "Tab closed": [
-        "Fane lukket"
-      ],
-      "Name on card required": [
-        "Navn på kort er obligatorisk"
-      ],
-      "Invalid expiration date": [
-        "Ugyldig udløbsdato"
-      ],
-      "Invalid card number": [
-        "Ugyldigt kortnummer"
-      ],
-      "Invalid ${ name } code": [
-        "Ugyldig ${ name }-kode"
-      ],
-      "Invalid postal code": [
-        "Ugyldigt postnummer"
-      ],
-      "Error connecting to the Bitcoin API.": [
-        "Fejl under oprettelse af forbindelse til Bitcoin-API."
-      ],
-      "Amount below minimum.": [
-        "Beløb under minimum."
-      ],
-      "Amount above the maximum.": [
-        "Beløb overstiger maksimum."
-      ],
-      "The minimum amount that can be donated is ${ price }": [
-        "Det mindste beløb, der kan doneres, er ${ price }"
-      ],
-      "The minimum amount of credit that can be added is ${ _price }": [
-        "Det mindste kreditstørrelse, der kan tilføjes, er ${ _price }"
-      ],
-      "The minimum payment we accept is ${ _price2 }": [
-        "Den mindste betaling vi accepterer er ${ _price2 }"
-      ],
-      "Checkout expired, please try again.": [
-        "Checkout udløbet, prøv venligst igen."
-      ],
-      "Invalid code": [
-        "Ugyldig kode"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Noget gik galt. ${ refresh } siden for at fortsætte. Ser du fortsat denne fejlmeddelelse, bedes du kontakte vores ${ supportTeam }."
-      ],
-      "Image upload failed": [
-        "Billed-upload mislykkedes"
-      ],
-      "Contact could not be saved": [
-        "Kontakt kunne ikke gemmes"
-      ],
-      "Some contacts could not be deleted": [
-        "Nogle kontakter kunne ikke slettes"
-      ],
-      "Preferences could not be saved": [
-        "Præferencer kunne ikke gemmes"
-      ],
-      "Some groups could not be deleted": [
-        "Nogle grupper kunne ikke slettes"
-      ],
-      "Invalid public key file": [
-        "Ugyldig offentlig nøglefil"
-      ],
-      "You can't send a mail to more than 100 recipients": [
-        "Du kan ikke sende en mail til mere end 100 modtagere"
-      ],
-      "One of the contacts has no email address: ${ noEmailsContactNamesList }": [
-        "En af kontakterne har ingen e-mailadresse: ${ noEmailsContactNamesList }",
-        "Nogle kontakter har ingen e-mailadresse: ${ noEmailsContactNamesList } "
-      ],
-      "You can't send vCards of more than 10 contacts": [
-        "Du kan ikke sende vCards med mere end 10 kontakter"
-      ],
-      "There was an error when exporting the contacts vCards": [
-        "Der opstod en fejl under eksport af kontakternes vCards"
-      ],
-      "One of the groups has no contacts: ${ noContactGroupList }": [
-        "En af grupperne har ingen kontakter: ${ noContactGroupList }",
-        "Nogle grupper har ingen kontakter: ${ noContactGroupList } "
-      ],
-      "You must set a name": [
-        "Du skal angive et navn"
-      ],
-      "A group with this name already exists": [
-        "En gruppe med dette navn findes allerede"
-      ],
-      "Primary address key is not decrypted": [
-        "Primære adressenøgle er ikke dekrypteret"
-      ],
-      "We were unable to connect to your service provider.": [
-        ""
-      ],
-      "Please try to reauthenticate and make sure the permissions are set correctly.": [
-        ""
-      ],
-      "No valid address found": [
-        "Ingen gyldig adresse fundet"
-      ],
-      "Primary address key is not decrypted.": [
-        "Primære adressenøgle er ikke dekrypteret."
-      ],
-      "Name required": [
-        "Navn påkrævet"
-      ],
-      "Self invitation not allowed": [
-        "Selvinvitation er ikke tilladt"
-      ],
-      "${ list } doesn't have a valid email address": [
-        "${ list } har ikke en gyldig e-mailadresse",
-        "Nogle kontakter har ikke en gyldig e-mailadresse: ${ list }"
-      ],
-      "${ _list } doesn't have an email address": [
-        "${ _list } har ikke en e-mailadresse",
-        "Nogle kontakter har ikke e-mailadresse: ${ _list }"
-      ],
-      "${ list } has invalid emails": [
-        "${ list } har ugyldige e-mails",
-        "Nogle grupper har ugyldige e-mails: ${ list }"
-      ],
-      "${ _list2 } has no contacts": [
-        "${ _list2 } har ingen kontakter",
-        "Nogle grupper har ingen kontakter: ${ _list2 }"
-      ],
-      "Failed to get original occurrence in series": [
-        "Kunne ikke hente original forekomst i serie"
-      ],
-      "It is only possible to move events between ${ minDateString } - ${ maxDateString }": [
-        "Det er kun muligt at flytte begivenheder mellem ${ minDateString } - ${ maxDateString }"
-      ],
-      "It is only possible to create events between ${ minDateString } - ${ maxDateString }": [
-        "Det er kun muligt at oprette begivenheder mellem ${ minDateString } - ${ maxDateString }"
-      ],
-      "Invitation failed to be sent": [
-        "Invitation kunne ikke sendes"
-      ],
-      "Answer failed to be sent": [
-        "Svaret kunne ikke sendes"
-      ],
-      "Cancellation failed to be sent": [
-        "Aflysning kunne ikke sendes"
-      ],
-      "Invalid link to the event": [
-        "Ugyldigt link til begivenheden"
-      ],
-      "Please create an address first.": [
-        "Opret en adresse først."
-      ],
-      "Start time must be before end time": [
-        "Starttidspunkt skal være før sluttidspunkt"
-      ],
-      "Interval cannot be empty": [
-        "Interval må ikke være tomt"
-      ],
-      "Ends on date cannot be empty": [
-        "Sluttdato kan ikke være tom"
-      ],
-      "Ends on date must be after start time": [
-        "Slutter på dato skal være efter starttidspunktet"
-      ],
-      "Number of occurrences cannot be empty": [
-        "Antallet af forekomster kan ikke være tom"
-      ],
-      "A maximum of 10 notifications is allowed": [
-        "Højst 10 notifikationer er tilladt"
-      ],
-      "Invalid email address": [
-        "Ugyldig e-mailadresse"
-      ],
-      "Decryption error: Decryption of this event's content failed.": [
-        "Dekrypteringsfejl: Dekryptering af denne begivenheds indhold mislykkedes."
-      ],
-      "Error: ${ errorMessage }": [
-        "Fejl: ${ errorMessage }"
-      ],
-      "Error": [
-        "Fejl"
-      ]
-    },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "Adgangskode skal indeholde mindst ${ length } tegn",
-        "Adgangskode skal indeholde mindst ${ length } tegn"
-      ]
-    },
-    "file size format": {
-      "bytes": [
-        "bytes"
-      ],
-      "KB": [
-        "KB"
-      ],
-      "MB": [
-        "MB"
-      ],
-      "GB": [
-        "GB"
-      ]
-    },
-    "Contact field label": {
-      "Name": [
-        "Navn"
-      ],
-      "Email": [
-        "E-mail"
-      ],
-      "Phone": [
-        "Telefon"
-      ],
-      "Address": [
-        "Adresse"
-      ],
-      "Photo": [
-        "Foto"
-      ],
-      "Organization": [
-        "Organisation"
-      ],
-      "Birthday": [
-        "Fødselsdag"
-      ],
-      "Anniversary": [
-        "Årsdag"
-      ],
-      "Title": [
-        "Titel"
-      ],
-      "Role": [
-        "Rolle"
-      ],
-      "Note": [
-        "Notat"
-      ],
-      "URL": [
-        "URL"
-      ],
-      "Gender": [
-        "Køn"
-      ],
-      "Language": [
-        "Sprog"
-      ],
-      "Timezone": [
-        "Tidszone"
-      ],
-      "Geo": [
-        "Geo"
-      ],
-      "Logo": [
-        "Logo"
-      ],
-      "Member": [
-        "Medlem"
-      ]
-    },
-    "Contact type label": {
-      "Work": [
-        "Arbejde"
-      ],
-      "Personal": [
-        "Personlig"
-      ],
-      "Mobile": [
-        "Mobil"
-      ],
-      "Main": [
-        "Primær"
-      ],
-      "Yomi": [
-        "Yomi"
-      ],
-      "Other": [
-        "Andet"
-      ],
-      "Fax": [
-        "Fax"
-      ],
-      "Pager": [
-        "Personsøger"
-      ]
-    },
-    "Property type": {
-      "Email": [
-        "E-mail"
-      ],
-      "Home": [
-        "Hjem"
-      ],
-      "Work": [
-        "Arbejde"
-      ],
-      "Other": [
-        "Andet"
-      ],
-      "Phone": [
-        "Telefon"
-      ],
-      "Mobile": [
-        "Mobil"
-      ],
-      "Main": [
-        "Primær"
-      ],
-      "Fax": [
-        "Fax"
-      ],
-      "Pager": [
-        "Personsøger"
-      ],
-      "Address": [
-        "Adresse"
       ]
     },
     "PGP key warning": {
@@ -2549,8 +2549,8 @@
       "Amount due": [
         "Forfaldent beløb"
       ],
-      "Cancel subscription": [
-        "Afmeld abonnement"
+      "Downgrade account": [
+        ""
       ],
       "Network error": [
         "Netværksfejl"
@@ -2848,6 +2848,11 @@
         "Redigér begivenhed"
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        "Nøgle kan ikke benyttes til kryptering"
+      ]
+    },
     "Storage": {
       "Your current storage:": [
         "Din aktuelle lagerplads:"
@@ -2857,11 +2862,6 @@
       ],
       "Release notes": [
         "Udgivelsesnoter"
-      ]
-    },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        "Nøgle kan ikke benyttes til kryptering"
       ]
     },
     "Label": {
@@ -4626,11 +4626,6 @@
         "Bemærk: Tjenesten vil genindlæse, når du klikker på Anvend-knappen."
       ]
     },
-    "Select files": {
-      "Upload": [
-        "Upload"
-      ]
-    },
     "Loading info": {
       "Connecting to your contacts provider": [
         ""
@@ -4650,6 +4645,11 @@
     "Confirm modal title": {
       "Quit import?": [
         ""
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "Upload"
       ]
     },
     "Message display when a new app version is available": {
