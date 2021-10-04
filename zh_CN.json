@@ -2375,10 +2375,10 @@
         "上传的文件不是有效的私钥。请验证并重试。"
       ],
       "${ numberOfNonPrivateKeys } uploaded file is not a valid private key. Please verify and try again.": [
-        ""
+        "上传的 ${ numberOfNonPrivateKeys } 个文件不是有效的私钥，请验证并重试。"
       ],
       "To access your old messages, you will need to reactivate your old encryption keys using one of the following recovery methods.": [
-        ""
+        "要访问旧邮件，您需要使用以下恢复方式之一重新激活您的旧加密密钥。"
       ],
       "Give your public key to your friends, or publish it online, so that everyone can send you end-to-end encrypted email!": [
         "把公钥发给亲朋好友，或者挂到网上，这样大家就都能给你发端到端加密的邮件了！"
@@ -2429,7 +2429,7 @@
         "在指定的时段开启自动回复。"
       ],
       "Images have been removed because they are not allowed in auto-reply.": [
-        ""
+        "图片已删除，因为自动回复中不能包含图片。"
       ],
       "Use automatic replies to inform contacts you are out of the office or otherwise unable to respond.": [
         "使用自动回复通知对方您不在办公室或暂时无法回复。"
@@ -2489,7 +2489,7 @@
         "尚未订阅"
       ],
       "By downgrading you will lose the following benefits. Are you sure you want to proceed?": [
-        ""
+        "降级后您将失去以下好处，确定要继续吗？"
       ],
       "You already have a free account": [
         "您的账户已经是免费版了"
@@ -3269,13 +3269,13 @@
         "如果您忘记密码或无法登录账户，我们将把密码重置链接发至此邮箱。"
       ],
       "This email address will only be used for recovery purposes.": [
-        ""
+        "此邮箱地址将只会用于恢复目的。"
       ],
       "We will send a code to this phone number if you forget your password or get locked out of your account.": [
         "若您忘记了密码或账户被锁定，我们会向此电话号码发送代码。"
       ],
       "This phone number will only be used for recovery purposes.": [
-        ""
+        "此电话号码将只会用于恢复目的。"
       ],
       "Creating your Proton account": [
         "正在为您创建 Proton 账户"
@@ -3338,7 +3338,7 @@
         "完成！我们向 ${ destination } 发送了验证码"
       ],
       "Enter your Proton account email address or username.": [
-        ""
+        "请输入您的 Proton 账户邮箱地址或用户名。"
       ],
       "This can take a few seconds or a few minutes depending on your device": [
         "这可能需要几秒钟或几分钟, 具体取决于您的设备。"
@@ -3478,7 +3478,7 @@
         "您的日历链接"
       ],
       "Reactivate keys": [
-        ""
+        "重新激活密钥"
       ],
       "Decrypt key": [
         "解密密钥"
@@ -3517,7 +3517,7 @@
         "处理中"
       ],
       "Downgrade account": [
-        ""
+        "降级账户"
       ],
       "Network error": [
         "网络错误"
@@ -3979,7 +3979,7 @@
         "已订阅日历"
       ],
       "Share outside Proton": [
-        ""
+        "第三方共享"
       ],
       "Time zone": [
         "时区"
@@ -4083,12 +4083,12 @@
     },
     "Font Face Default": {
       "Default": [
-        ""
+        "默认"
       ]
     },
     "Font Size Default": {
       "Default": [
-        ""
+        "默认"
       ]
     },
     "Storage": {
@@ -4209,7 +4209,7 @@
         "正在删除原始邮件"
       ],
       "Verification code copied to clipboard!": [
-        ""
+        "验证码已复制到剪贴板！"
       ],
       "SPF value copied to clipboard!": [
         "SPF 内容已复制"
@@ -4391,10 +4391,10 @@
         "从右到左"
       ],
       "${ stateOfTheArt } X25519 (Fastest, most modern)": [
-        ""
+        "${ stateOfTheArt } X25519 （最快、最前沿）"
       ],
       "${ highestSecurity } RSA 4096-bit (Slower, but increased compatibility with legacy software)": [
-        ""
+        "${ highestSecurity } RSA 4096-bit （较慢，但兼容性好）"
       ],
       "Fixed duration": [
         "固定时间"
@@ -5031,7 +5031,7 @@
         ""
       ],
       "Unfortunately, we’re not online at the moment. Please complete the form below to describe your issue, and we will look into it and be in touch when we’re back online.": [
-        ""
+        "非常抱歉，我们目前不在线。请填写下面的表格来描述您的问题，我们会进行调查并在上线后联系您。"
       ],
       "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
         "反馈内容不会经过端对端加密，请勿发送敏感信息。"
@@ -5863,7 +5863,7 @@
     },
     "Access level": {
       "Full": [
-        ""
+        "完全"
       ],
       "Limited": [
         "受限"
@@ -5877,10 +5877,10 @@
     },
     "Select files": {
       "Upload additional private keys": [
-        ""
+        "上传其他私钥"
       ],
       "Browse": [
-        ""
+        "浏览"
       ],
       "Upload": [
         "上传"
@@ -5888,10 +5888,10 @@
     },
     "info": {
       "Key ${ fingerprint } has already been uploaded": [
-        ""
+        "密钥 ${ fingerprint } 已上传"
       ],
       "Additional duplicate keys detected. Please upload individually for more information.": [
-        ""
+        "检测到多余的重复密钥，请单独上传以获取更多信息。"
       ],
       "(beta)": [
         "（测试版）"
@@ -6184,38 +6184,38 @@
     },
     "Downgrade account reason": {
       "I use a different Proton account": [
-        ""
+        "我要改用其他 Proton 账户"
       ],
       "Subscription is too expensive": [
-        ""
+        "订阅费太高了"
       ],
       "Missing feature(s) ": [
-        ""
+        "功能缺失 "
       ],
       "Bugs or quality issue": [
-        ""
+        "Bug 或质量问题"
       ],
       "Streaming service unsupported": [
-        ""
+        "不支持串流服务"
       ],
       "Switching to a different provider": [
-        ""
+        "改用其他提供商"
       ],
       "Temporary need, may come back in the future": [
-        ""
+        "临时需求，以后可能还会回来"
       ],
       "My reason isn't listed, please comment": [
-        ""
+        "未列原因，请留言"
       ]
     },
     "Plan time remaining": {
       "You still have ${ daysRemaining } day left on your ${ BRAND_NAME } ${ currentPlanName } account.": [
-        ""
+        "您的 ${ BRAND_NAME } ${ currentPlanName } 账户还剩 ${ daysRemaining } 天。"
       ]
     },
     "Downgrade modal exit survey title": {
       "Help us improve!": [
-        ""
+        "帮助我们改进产品！"
       ]
     },
     "State": {
