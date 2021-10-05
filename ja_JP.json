@@ -78,11 +78,23 @@
       "Underline": [
         "下線"
       ],
+      "Close navigation": [
+        "ナビゲーションを閉じる"
+      ],
+      "Open navigation": [
+        "ナビゲーションを開く"
+      ],
+      "More info: ${ safeTitle }": [
+        "詳細: ${ safeTitle }"
+      ],
       "Confirm opening of link ${ link }": [
         "リンク ${ link } を確認"
       ],
       "Confirm": [
         "確認"
+      ],
+      "Go to panel ${ index }": [
+        "パネル ${ index } へ移動"
       ],
       "Close": [
         "閉じる"
@@ -96,18 +108,6 @@
       "Show more": [
         "さらに表示"
       ],
-      "Close navigation": [
-        "ナビゲーションを閉じる"
-      ],
-      "Open navigation": [
-        "ナビゲーションを開く"
-      ],
-      "More info: ${ safeTitle }": [
-        "詳細: ${ safeTitle }"
-      ],
-      "Go to panel ${ index }": [
-        "パネル ${ index } へ移動"
-      ],
       "Next month": [
         "翌月"
       ],
@@ -120,11 +120,11 @@
       "Close modal": [
         "画面を閉じる"
       ],
-      "Select timezone": [
-        "タイムゾーンの選択"
-      ],
       "Remove": [
         "削除"
+      ],
+      "Select timezone": [
+        "タイムゾーンの選択"
       ],
       "Activate ${ Name }@pm.me": [
         "${ Name }@pm.me を有効化"
@@ -152,27 +152,6 @@
       ],
       "Next": [
         "次へ"
-      ],
-      "Download": [
-        "ダウンロード"
-      ],
-      "Hide": [
-        "非表示"
-      ],
-      "Show": [
-        "表示"
-      ],
-      "Reset credentials": [
-        "認証情報をリセット"
-      ],
-      "Copy": [
-        "コピー"
-      ],
-      "Download all configurations": [
-        "すべての設定ファイルをダウンロード"
-      ],
-      "Get ProtonVPN Plus": [
-        "ProtonVPN Plus を入手"
       ],
       "Continue import": [
         "インポートを続行"
@@ -246,9 +225,6 @@
       "Download the Import-Export app": [
         "Import-Export アプリをダウンロード"
       ],
-      "Use ${ label } theme": [
-        "${ label } テーマを使用"
-      ],
       "Add user": [
         "ユーザーを追加"
       ],
@@ -270,92 +246,29 @@
       "Refresh status": [
         "ステータスを更新"
       ],
-      "Update": [
-        "更新"
+      "Download": [
+        "ダウンロード"
       ],
-      "Create": [
-        "作成"
+      "Hide": [
+        "非表示"
       ],
-      "Remove this notification": [
-        "この通知を削除"
+      "Show": [
+        "表示"
       ],
-      "Add notification": [
-        "通知を追加"
+      "Reset credentials": [
+        "認証情報をリセット"
       ],
-      "Try again": [
-        "再試行"
+      "Copy": [
+        "コピー"
       ],
-      "Save ICS file": [
-        "ICS ファイルを保存"
+      "Download all configurations": [
+        "すべての設定ファイルをダウンロード"
       ],
-      "Edit": [
-        "編集"
+      "Get ProtonVPN Plus": [
+        "ProtonVPN Plus を入手"
       ],
-      "Set as default": [
-        "既定に設定"
-      ],
-      "Export ICS": [
-        "ICS をエクスポート"
-      ],
-      "Create calendar": [
-        "カレンダーを作成"
-      ],
-      "Remove calendar": [
-        "カレンダーを削除"
-      ],
-      "Subscribe to calendar": [
-        "カレンダーに登録"
-      ],
-      "Import events": [
-        "予定をインポート"
-      ],
-      "Select calendar view": [
-        "カレンダービューを選択"
-      ],
-      "Copy link": [
-        "リンクをコピー"
-      ],
-      "Create link": [
-        "リンクを作成"
-      ],
-      "Delete link": [
-        "リンクを削除"
-      ],
-      "Reactivate keys": [
-        "鍵の再有効化"
-      ],
-      "Create key": [
-        "鍵を作成"
-      ],
-      "Import key": [
-        "鍵をインポート"
-      ],
-      "Decrypt": [
-        "復号"
-      ],
-      "Export": [
-        "エクスポート"
-      ],
-      "Export key": [
-        "鍵をエクスポート"
-      ],
-      "No": [
-        "いいえ"
-      ],
-      "Warning": [
-        "警告"
-      ],
-      "Select files": [
-        "ファイルを選択"
-      ],
-      "Export private key": [
-        "秘密鍵をエクスポート"
-      ],
-      "Signing out": [
-        "サインアウトしています"
-      ],
-      "refresh the page": [
-        "ページを更新"
+      "Use ${ label } theme": [
+        "${ label } テーマを使用"
       ],
       "Copy email to clipboard": [
         "メールをクリップボードにコピー"
@@ -404,6 +317,12 @@
       ],
       "Show info": [
         "情報を表示"
+      ],
+      "Signing out": [
+        "サインアウトしています"
+      ],
+      "refresh the page": [
+        "ページを更新"
       ],
       "Remove bonuses": [
         "ボーナスを削除"
@@ -471,6 +390,9 @@
       "Loading verification": [
         "認証を読み込み中"
       ],
+      "Try again": [
+        "再試行"
+      ],
       "Verify": [
         "検証"
       ],
@@ -492,29 +414,53 @@
       "Remove gift code": [
         "ギフトコードを削除"
       ],
-      "View invoice": [
-        "請求書を参照"
+      "Update": [
+        "更新"
       ],
-      "Get verification code": [
-        "認証コードを取得"
+      "Create": [
+        "作成"
       ],
-      "Try another method": [
-        "別の方法を試してください"
+      "Remove this notification": [
+        "この通知を削除"
       ],
-      "Request new code": [
-        "新しいコードの発行"
+      "Add notification": [
+        "通知を追加"
       ],
-      "Did not receive the code?": [
-        "コードを受け取っていませんか?"
+      "Save ICS file": [
+        "ICS ファイルを保存"
       ],
-      "Edit email address": [
-        "メールアドレスを編集"
+      "Edit": [
+        "編集"
       ],
-      "Edit phone number": [
-        "電話番号を編集"
+      "Set as default": [
+        "既定に設定"
       ],
-      "Yes": [
-        "はい"
+      "Export ICS": [
+        "ICS をエクスポート"
+      ],
+      "Create calendar": [
+        "カレンダーを作成"
+      ],
+      "Remove calendar": [
+        "カレンダーを削除"
+      ],
+      "Subscribe to calendar": [
+        "カレンダーに登録"
+      ],
+      "Import events": [
+        "予定をインポート"
+      ],
+      "Select calendar view": [
+        "カレンダービューを選択"
+      ],
+      "Copy link": [
+        "リンクをコピー"
+      ],
+      "Create link": [
+        "リンクを作成"
+      ],
+      "Delete link": [
+        "リンクを削除"
       ],
       "enable desktop notifications": [
         "デスクトップ通知を有効化する"
@@ -528,11 +474,44 @@
       "Close this banner": [
         "このバナーを閉じる"
       ],
+      "Reactivate keys": [
+        "鍵の再有効化"
+      ],
+      "Create key": [
+        "鍵を作成"
+      ],
+      "Import key": [
+        "鍵をインポート"
+      ],
+      "Decrypt": [
+        "復号"
+      ],
+      "Export": [
+        "エクスポート"
+      ],
+      "Export key": [
+        "鍵をエクスポート"
+      ],
+      "No": [
+        "いいえ"
+      ],
+      "Warning": [
+        "警告"
+      ],
+      "Select files": [
+        "ファイルを選択"
+      ],
+      "Export private key": [
+        "秘密鍵をエクスポート"
+      ],
       "Change password": [
         "パスワードを変更"
       ],
       "Ok": [
         "OK"
+      ],
+      "Yes": [
+        "はい"
       ],
       "Change mailbox password": [
         "メールボックスのパスワードを変更"
@@ -558,62 +537,29 @@
       "Disable recovery phrase": [
         "リカバリーフレーズを無効化"
       ],
-      "Preview": [
-        "プレビュー"
+      "View invoice": [
+        "請求書を参照"
       ],
-      "Create label": [
-        "ラベルを作成"
+      "Get verification code": [
+        "認証コードを取得"
       ],
-      "Create folder": [
-        "フォルダーを作成"
+      "Try another method": [
+        "別の方法を試してください"
       ],
-      "Remove this label": [
-        "このラベルを削除"
+      "Request new code": [
+        "新しいコードの発行"
       ],
-      "Add condition": [
-        "条件を追加"
+      "Did not receive the code?": [
+        "コードを受け取っていませんか?"
       ],
-      "label emails as": [
-        "電子メールにラベル付け"
+      "Edit email address": [
+        "メールアドレスを編集"
       ],
-      "move emails to": [
-        "電子メールを移動"
-      ],
-      "mark emails as": [
-        "電子メールをマーク"
-      ],
-      "send auto-reply email": [
-        "自動返信メールを送信"
-      ],
-      "Edit sieve": [
-        "仕分けの編集"
-      ],
-      "Add filter": [
-        "フィルターを追加"
-      ],
-      "Add sieve filter": [
-        "Sieve でフィルターを追加"
-      ],
-      "Add": [
-        "追加"
-      ],
-      "Move to Block List": [
-        "ブロックリストに移動"
-      ],
-      "Move to Allow List": [
-        "許可リストに移動"
+      "Edit phone number": [
+        "電話番号を編集"
       ],
       "Revoke all other sessions": [
         "他の全てのセッションを取り消す"
-      ],
-      "Add folder": [
-        "フォルダーを追加"
-      ],
-      "Sort": [
-        "並べ替え"
-      ],
-      "Add label": [
-        "ラベルを追加"
       ],
       "Wipe": [
         "抹消"
@@ -663,11 +609,59 @@
       "Previous": [
         "前へ"
       ],
-      "Save address": [
-        ""
+      "Preview": [
+        "プレビュー"
       ],
-      "activate": [
-        "アクティベート"
+      "Create label": [
+        "ラベルを作成"
+      ],
+      "Create folder": [
+        "フォルダーを作成"
+      ],
+      "Remove this label": [
+        "このラベルを削除"
+      ],
+      "Add condition": [
+        "条件を追加"
+      ],
+      "label emails as": [
+        "電子メールにラベル付け"
+      ],
+      "move emails to": [
+        "電子メールを移動"
+      ],
+      "mark emails as": [
+        "電子メールをマーク"
+      ],
+      "send auto-reply email": [
+        "自動返信メールを送信"
+      ],
+      "Edit sieve": [
+        "仕分けの編集"
+      ],
+      "Add filter": [
+        "フィルターを追加"
+      ],
+      "Add sieve filter": [
+        "Sieve でフィルターを追加"
+      ],
+      "Add": [
+        "追加"
+      ],
+      "Move to Block List": [
+        "ブロックリストに移動"
+      ],
+      "Move to Allow List": [
+        "許可リストに移動"
+      ],
+      "Add folder": [
+        "フォルダーを追加"
+      ],
+      "Sort": [
+        "並べ替え"
+      ],
+      "Add label": [
+        "ラベルを追加"
       ],
       "Enable multi-user support": [
         "複数ユーザー対応を有効にする"
@@ -686,6 +680,12 @@
       ],
       "Activate organization key": [
         ""
+      ],
+      "Save address": [
+        ""
+      ],
+      "activate": [
+        "アクティベート"
       ],
       "Upgrade now": [
         "今すぐアップグレード"
@@ -808,15 +808,6 @@
       "yourdomain.com": [
         "yourdomain.com"
       ],
-      "Add a calendar name": [
-        "カレンダー名を入力..."
-      ],
-      "Add a calendar description": [
-        "カレンダーの詳細を入力..."
-      ],
-      "Password": [
-        "パスワード"
-      ],
       "e.g. Julia Smith": [
         "例: Julia Smith"
       ],
@@ -862,6 +853,15 @@
       "Postal code": [
         "郵便番号"
       ],
+      "Add a calendar name": [
+        "カレンダー名を入力..."
+      ],
+      "Add a calendar description": [
+        "カレンダーの詳細を入力..."
+      ],
+      "Password": [
+        "パスワード"
+      ],
       "Two-factor authentication code": [
         "2 要素認証コード"
       ],
@@ -871,14 +871,14 @@
       "Type text or keyword": [
         "テキストまたはキーワードを入力"
       ],
+      "Choose a name": [
+        "名前を選択"
+      ],
       "Choose display name": [
         "表示名の選択"
       ],
       "Choose address": [
         "アドレスを選択"
-      ],
-      "Choose a name": [
-        "名前を選択"
       ],
       "Username": [
         "ユーザー名"
@@ -966,36 +966,6 @@
       "Wrong verification code. Please make sure you copied the verification code correctly and try again. It can take up to 24 hours for changes to take effect.": [
         "間違った検証コードです。 検証コードが正しくコピーされているか確認し、もう一度試してください。 変更が有効になるまでに最大24時間を要する場合があります。"
       ],
-      "Name required": [
-        "名前が必要です"
-      ],
-      "No valid address found": [
-        "有効なアドレスが見つかりません。"
-      ],
-      "Primary address key is not decrypted.": [
-        "プライマリーアドレス鍵が復号されていません。"
-      ],
-      "Primary address key is not decrypted": [
-        "プライマリーアドレス鍵が復号されていません"
-      ],
-      "Incorrect password": [
-        "パスワードが正しくありません"
-      ],
-      "Zero keys reactivated": [
-        ""
-      ],
-      "Uploaded file is not a valid private key. Please verify and try again.": [
-        ""
-      ],
-      "Uploaded files are not valid private keys. Please verify and try again.": [
-        ""
-      ],
-      "Invalid private key file": [
-        "秘密鍵ファイルが無効です"
-      ],
-      "Automatic replies is a paid feature. Please upgrade to a paid account to use this feature.": [
-        "自動返信は有料機能です。この機能を使用するには有料アカウントにアップグレードしてください。"
-      ],
       "Checkout expired, please try again.": [
         "チェックアウトの有効期限が切れました。もう一度やり直してください。"
       ],
@@ -1056,17 +1026,35 @@
       "Invalid postal code": [
         "無効な郵便番号"
       ],
-      "Can't validate email, try again later": [
-        "メールアドレスを検証できませんした。再度お試しください"
+      "Automatic replies is a paid feature. Please upgrade to a paid account to use this feature.": [
+        "自動返信は有料機能です。この機能を使用するには有料アカウントにアップグレードしてください。"
       ],
-      "Can't validate phone, try again later": [
-        "電話番号の検証ができませんでした。再度お試しください"
+      "Name required": [
+        "名前が必要です"
       ],
-      "Enter 6 digits": [
-        "6桁の数字を入力"
+      "No valid address found": [
+        "有効なアドレスが見つかりません。"
       ],
-      "Invalid verification code": [
-        "無効な認証コードです"
+      "Primary address key is not decrypted.": [
+        "プライマリーアドレス鍵が復号されていません。"
+      ],
+      "Primary address key is not decrypted": [
+        "プライマリーアドレス鍵が復号されていません"
+      ],
+      "Incorrect password": [
+        "パスワードが正しくありません"
+      ],
+      "Zero keys reactivated": [
+        ""
+      ],
+      "Uploaded file is not a valid private key. Please verify and try again.": [
+        ""
+      ],
+      "Uploaded files are not valid private keys. Please verify and try again.": [
+        ""
+      ],
+      "Invalid private key file": [
+        "秘密鍵ファイルが無効です"
       ],
       "Please generate keys before you try to change your password.": [
         "パスワードを変更する前に鍵を生成してください。"
@@ -1079,6 +1067,30 @@
       ],
       "Wrong recovery phrase. Try again or use another recovery method.": [
         ""
+      ],
+      "Can't validate email, try again later": [
+        "メールアドレスを検証できませんした。再度お試しください"
+      ],
+      "Can't validate phone, try again later": [
+        "電話番号の検証ができませんでした。再度お試しください"
+      ],
+      "Enter 6 digits": [
+        "6桁の数字を入力"
+      ],
+      "Invalid verification code": [
+        "無効な認証コードです"
+      ],
+      "Payments are currently not available, please try again later": [
+        "お支払いが現在ご利用になれません。しばらくしてから再度お試し下さい。"
+      ],
+      "You have no invoices.": [
+        "請求書はありません。"
+      ],
+      "Your account or organization currently has an overdue invoice. Please pay all unpaid invoices.": [
+        "あなたのアカウントあるいは組織には支払い期限の過ぎた請求があります。全ての未払いの請求をお支払いください。"
+      ],
+      "File has no contents to preview": [
+        "ファイルにプレビューするコンテンツがありません"
       ],
       "Empty condition": [
         "条件が空です"
@@ -1107,20 +1119,26 @@
       "Invalid domain": [
         "無効なドメインです"
       ],
-      "Payments are currently not available, please try again later": [
-        "お支払いが現在ご利用になれません。しばらくしてから再度お試し下さい。"
-      ],
-      "You have no invoices.": [
-        "請求書はありません。"
-      ],
-      "Your account or organization currently has an overdue invoice. Please pay all unpaid invoices.": [
-        "あなたのアカウントあるいは組織には支払い期限の過ぎた請求があります。全ての未払いの請求をお支払いください。"
-      ],
-      "File has no contents to preview": [
-        "ファイルにプレビューするコンテンツがありません"
-      ],
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "エラーが発生しました。続行するには ${ refresh } してください。それでもこのエラーが発生する場合は ${ supportTeam } までお問い合わせください。"
+      ],
+      "Passwords do not match": [
+        "パスワードが一致しません"
+      ],
+      "Please upgrade to a Professional plan with more than 1 user, or a Visionary account, to get multi-user support.": [
+        "マルチユーザー対応が必要な場合、Visionaryプランまたは、1ユーザー以上を追加してProfessionalプランにアップグレードしてください。"
+      ],
+      "You must privatize all users before generating new organization keys": [
+        ""
+      ],
+      "Organization key is not decrypted.": [
+        "組織の鍵が復号されていません。"
+      ],
+      "You have lost access to your organization keys. Without restoration you will not be able to create new users, add addresses to existing users, or access non-private user accounts.": [
+        "組織用の鍵にアクセスできなくなりました。 修復しない限り、新規ユーザーの作成、既存ユーザーへのアドレスの追加並びに、ユーザーアカウントへのアクセスはできません。"
+      ],
+      "You must activate your organization keys. Without activation you will not be able to create new users, add addresses to existing users, or access non-private user accounts.": [
+        "組織用の鍵を有効にする必要があります。 有効にしない限り、新規ユーザーの作成、既存ユーザーへのアドレスの追加並びに、ユーザーアカウントへのアクセスはできません。"
       ],
       "Incorrect mailbox password. Please try again": [
         "メールボックスのパスワードが正しくありません。再度入力してください"
@@ -1136,24 +1154,6 @@
       ],
       "Error": [
         "エラー"
-      ],
-      "Organization key is not decrypted.": [
-        "組織の鍵が復号されていません。"
-      ],
-      "Passwords do not match": [
-        "パスワードが一致しません"
-      ],
-      "Please upgrade to a Professional plan with more than 1 user, or a Visionary account, to get multi-user support.": [
-        "マルチユーザー対応が必要な場合、Visionaryプランまたは、1ユーザー以上を追加してProfessionalプランにアップグレードしてください。"
-      ],
-      "You must privatize all users before generating new organization keys": [
-        ""
-      ],
-      "You have lost access to your organization keys. Without restoration you will not be able to create new users, add addresses to existing users, or access non-private user accounts.": [
-        "組織用の鍵にアクセスできなくなりました。 修復しない限り、新規ユーザーの作成、既存ユーザーへのアドレスの追加並びに、ユーザーアカウントへのアクセスはできません。"
-      ],
-      "You must activate your organization keys. Without activation you will not be able to create new users, add addresses to existing users, or access non-private user accounts.": [
-        "組織用の鍵を有効にする必要があります。 有効にしない限り、新規ユーザーの作成、既存ユーザーへのアドレスの追加並びに、ユーザーアカウントへのアクセスはできません。"
       ],
       "Permission denied, administrator privileges have been restricted.": [
         "アクセスが拒否されました。管理権限は制限されています。"
@@ -1209,15 +1209,6 @@
       "Signature not verified": [
         "署名が確認されていません"
       ],
-      "Signature verification failed": [
-        "署名の検証に失敗しました"
-      ],
-      "Could not find address ${ email }.": [
-        "${ email } というメールアドレスが見つかりませんでした。"
-      ],
-      "Domain not available, try again later": [
-        "ドメインが利用できません。後でもう一度お試しください。"
-      ],
       "This field requires a minimum of ${ minimumLength } characters.": [
         "このフィールドには最低${ minimumLength } 文字が必要です。"
       ],
@@ -1227,14 +1218,23 @@
       "Not a valid number": [
         "無効な番号です"
       ],
+      "Request timed out.": [
+        "リクエストがタイムアウトしました。"
+      ],
+      "Signature verification failed": [
+        "署名の検証に失敗しました"
+      ],
+      "Could not find address ${ email }.": [
+        "${ email } というメールアドレスが見つかりませんでした。"
+      ],
+      "Domain not available, try again later": [
+        "ドメインが利用できません。後でもう一度お試しください。"
+      ],
       "Address primary private key not found": [
         "メールアドレスのプライマリー秘密鍵が見つかりません"
       ],
       "Calendar primary private key is not decrypted": [
         "カレンダーのプライマリー秘密鍵が復号されていません"
-      ],
-      "Request timed out.": [
-        "リクエストがタイムアウトしました。"
       ],
       "The session has expired. Please sign in again.": [
         "セッションがタイムアウトしました。再度サインインしてください。"
@@ -1277,11 +1277,29 @@
       "Automatically save contacts": [
         "宛先を連絡先に自動追加"
       ],
-      "OpenVPN / IKEv2 username": [
-        "OpenVPN / IKEv2 ユーザー名"
+      "Inbox": [
+        "受信箱"
       ],
-      "OpenVPN / IKEv2 password": [
-        "OpenVPN / IKEv2 パスワード"
+      "Composer": [
+        "メール作成"
+      ],
+      "Density": [
+        "密度"
+      ],
+      "Use sticky labels": [
+        "付箋を使用"
+      ],
+      "Conversation grouping": [
+        "会話のグループ化"
+      ],
+      "Composer mode": [
+        "新規作成時の書式"
+      ],
+      "Composer text direction": [
+        "新規作成時のテキスト方向"
+      ],
+      "Composer default font/size": [
+        "作成画面の標準フォント/サイズ"
       ],
       "From: ${ fromEmailAddress }": [
         "差出人: ${ fromEmailAddress }"
@@ -1337,30 +1355,6 @@
       "Manage folders": [
         "フォルダー管理"
       ],
-      "Inbox": [
-        "受信箱"
-      ],
-      "Composer": [
-        "メール作成"
-      ],
-      "Density": [
-        "密度"
-      ],
-      "Use sticky labels": [
-        "付箋を使用"
-      ],
-      "Conversation grouping": [
-        "会話のグループ化"
-      ],
-      "Composer mode": [
-        "新規作成時の書式"
-      ],
-      "Composer text direction": [
-        "新規作成時のテキスト方向"
-      ],
-      "Composer default font/size": [
-        "作成画面の標準フォント/サイズ"
-      ],
       "Domain name": [
         "ドメイン名"
       ],
@@ -1376,119 +1370,11 @@
       "Here is a basic DMARC record that does nothing except email you reports.": [
         "ここにはあなたへレポート送信するためだけの、基本的な DMARC レコードが記載されます。"
       ],
-      "Name": [
-        "名前"
+      "OpenVPN / IKEv2 username": [
+        "OpenVPN / IKEv2 ユーザー名"
       ],
-      "Choose a color": [
-        "色の選択"
-      ],
-      "Default email": [
-        "既定のメールアドレス"
-      ],
-      "Display": [
-        "表示"
-      ],
-      "Description": [
-        "詳細"
-      ],
-      "Default event duration": [
-        "既定の予定の長さ"
-      ],
-      "URL": [
-        "URL"
-      ],
-      "Default notifications": [
-        "既定の通知"
-      ],
-      "Default full day notifications": [
-        "終日の予定の既定の通知"
-      ],
-      "Show secondary time zone": [
-        "2つ目のタイムゾーンを表示する"
-      ],
-      "Auto-detect primary time zone": [
-        "プライマリタイムゾーンを自動検出"
-      ],
-      "Default view": [
-        "既定の表示形式"
-      ],
-      "Show week numbers": [
-        "週番号を表示"
-      ],
-      "Import to:": [
-        "インポート先:"
-      ],
-      "Your calendar URL": [
-        "あなたのカレンダー URL"
-      ],
-      "Your calendar URL label": [
-        "あなたのカレンダー URL ラベル"
-      ],
-      "Delete": [
-        ""
-      ],
-      "Backup key": [
-        ""
-      ],
-      "Uploaded private keys": [
-        ""
-      ],
-      "Upload your backup key": [
-        ""
-      ],
-      "Phrase": [
-        ""
-      ],
-      "Backup keys": [
-        ""
-      ],
-      "Enter the password for key with fingerprint: ${ fingerprintCode }": [
-        ""
-      ],
-      "Enter password": [
-        "パスワードを入力"
-      ],
-      "Please select files to upload": [
-        ""
-      ],
-      "Timezone": [
-        "タイムゾーン"
-      ],
-      "Days of the week": [
-        "曜日"
-      ],
-      "Duration": [
-        "期間"
-      ],
-      "Start day of month": [
-        ""
-      ],
-      "Start time": [
-        "開始日時"
-      ],
-      "End day of month": [
-        ""
-      ],
-      "End time": [
-        "終了日時"
-      ],
-      "Start weekday": [
-        ""
-      ],
-      "End weekday": [
-        ""
-      ],
-      "Start date": [
-        "開始日"
-      ],
-      "End date": [
-        "終了日"
-      ],
-      "Message": [
-        "メッセージ"
-      ],
-      "Auto reply": [
-        "自動返信"
+      "OpenVPN / IKEv2 password": [
+        "OpenVPN / IKEv2 パスワード"
       ],
       "Display name": [
         "表示名"
@@ -1616,26 +1502,119 @@
       "Select a method": [
         "支払い方法の選択"
       ],
-      "Phone number": [
-        "電話番号"
+      "Timezone": [
+        "タイムゾーン"
       ],
-      "Verification code": [
-        "検証コード"
+      "Days of the week": [
+        "曜日"
       ],
-      "Enter the 6-digit code": [
-        "6桁のコードを入力"
+      "Duration": [
+        "期間"
       ],
-      "Prompt to trust keys": [
-        "鍵を信頼するか確認する"
+      "Start day of month": [
+        ""
       ],
-      "Sign external messages": [
-        "外部宛のメッセージへの署名"
+      "Start time": [
+        "開始日時"
       ],
-      "Attach public key": [
-        "公開鍵の添付"
+      "End day of month": [
+        ""
       ],
-      "Default PGP settings": [
-        "デフォルトの PGP 設定"
+      "End time": [
+        "終了日時"
+      ],
+      "Start weekday": [
+        ""
+      ],
+      "End weekday": [
+        ""
+      ],
+      "Start date": [
+        "開始日"
+      ],
+      "End date": [
+        "終了日"
+      ],
+      "Message": [
+        "メッセージ"
+      ],
+      "Auto reply": [
+        "自動返信"
+      ],
+      "Name": [
+        "名前"
+      ],
+      "Choose a color": [
+        "色の選択"
+      ],
+      "Default email": [
+        "既定のメールアドレス"
+      ],
+      "Display": [
+        "表示"
+      ],
+      "Description": [
+        "詳細"
+      ],
+      "Default event duration": [
+        "既定の予定の長さ"
+      ],
+      "URL": [
+        "URL"
+      ],
+      "Default notifications": [
+        "既定の通知"
+      ],
+      "Default full day notifications": [
+        "終日の予定の既定の通知"
+      ],
+      "Show secondary time zone": [
+        "2つ目のタイムゾーンを表示する"
+      ],
+      "Auto-detect primary time zone": [
+        "プライマリタイムゾーンを自動検出"
+      ],
+      "Default view": [
+        "既定の表示形式"
+      ],
+      "Show week numbers": [
+        "週番号を表示"
+      ],
+      "Import to:": [
+        "インポート先:"
+      ],
+      "Your calendar URL": [
+        "あなたのカレンダー URL"
+      ],
+      "Your calendar URL label": [
+        "あなたのカレンダー URL ラベル"
+      ],
+      "Delete": [
+        ""
+      ],
+      "Backup key": [
+        ""
+      ],
+      "Uploaded private keys": [
+        ""
+      ],
+      "Upload your backup key": [
+        ""
+      ],
+      "Phrase": [
+        ""
+      ],
+      "Backup keys": [
+        ""
+      ],
+      "Enter the password for key with fingerprint: ${ fingerprintCode }": [
+        ""
+      ],
+      "Enter password": [
+        "パスワードを入力"
+      ],
+      "Please select files to upload": [
+        ""
       ],
       "Your password (admin)": [
         "あなたのパスワード (管理者)"
@@ -1723,6 +1702,48 @@
       ],
       "Recovery phrase contains 12 words": [
         ""
+      ],
+      "Prompt to trust keys": [
+        "鍵を信頼するか確認する"
+      ],
+      "Sign external messages": [
+        "外部宛のメッセージへの署名"
+      ],
+      "Attach public key": [
+        "公開鍵の添付"
+      ],
+      "Default PGP settings": [
+        "デフォルトの PGP 設定"
+      ],
+      "Phone number": [
+        "電話番号"
+      ],
+      "Verification code": [
+        "検証コード"
+      ],
+      "Enter the 6-digit code": [
+        "6桁のコードを入力"
+      ],
+      "Cash": [
+        "現金"
+      ],
+      "Card holder": [
+        "カード名義人"
+      ],
+      "Expires": [
+        "有効期限"
+      ],
+      "Payer": [
+        "支払人"
+      ],
+      "Credits used": [
+        "使用クレジット"
+      ],
+      "Amount due": [
+        "支払い総額"
+      ],
+      "Customize invoices": [
+        "請求書のカスタマイズ"
       ],
       "Filter Name": [
         "フィルター名"
@@ -1841,63 +1862,6 @@
       "Inherit color from parent folder": [
         "親フォルダーの色を継承"
       ],
-      "Cash": [
-        "現金"
-      ],
-      "Card holder": [
-        "カード名義人"
-      ],
-      "Expires": [
-        "有効期限"
-      ],
-      "Payer": [
-        "支払人"
-      ],
-      "Credits used": [
-        "使用クレジット"
-      ],
-      "Amount due": [
-        "支払い総額"
-      ],
-      "Customize invoices": [
-        "請求書のカスタマイズ"
-      ],
-      "Auto-load remote content": [
-        "外部コンテンツを自動で読み込む"
-      ],
-      "Auto-load embedded images": [
-        "埋め込み画像を自動で読み込む"
-      ],
-      "Keep messages in Sent/Drafts": [
-        ""
-      ],
-      "Link confirmation": [
-        "リンクの確認"
-      ],
-      "Undo send": [
-        "送信を取り消し"
-      ],
-      "Cancel": [
-        "キャンセル"
-      ],
-      "Submit": [
-        "送信"
-      ],
-      "Keyboard shortcuts": [
-        "キーボードショートカット"
-      ],
-      "Signature": [
-        "署名"
-      ],
-      "ProtonMail footer": [
-        "ProtonMail のフッター"
-      ],
-      "User": [
-        "ユーザー"
-      ],
-      "Address": [
-        "アドレス"
-      ],
       "Organization name": [
         "組織の名前"
       ],
@@ -1915,6 +1879,48 @@
       ],
       "Confirm organization password": [
         "組織パスワードの確認"
+      ],
+      "Confirm before loading remote content": [
+        ""
+      ],
+      "Auto-load embedded images": [
+        "埋め込み画像を自動で読み込む"
+      ],
+      "Keep messages in Sent/Drafts": [
+        ""
+      ],
+      "Link confirmation": [
+        "リンクの確認"
+      ],
+      "Undo send": [
+        "送信を取り消し"
+      ],
+      "Protect against email tracking": [
+        ""
+      ],
+      "Protection mode": [
+        ""
+      ],
+      "Keyboard shortcuts": [
+        "キーボードショートカット"
+      ],
+      "Cancel": [
+        "キャンセル"
+      ],
+      "Submit": [
+        "送信"
+      ],
+      "Signature": [
+        "署名"
+      ],
+      "ProtonMail footer": [
+        "ProtonMail のフッター"
+      ],
+      "User": [
+        "ユーザー"
+      ],
+      "Address": [
+        "アドレス"
       ],
       "VPN connections": [
         "VPN 接続"
@@ -1956,10 +1962,750 @@
         "コード"
       ]
     },
-    "Info": {
-      "No results found": [
-        "該当する項目がありません"
+    "Title": {
+      "Expand content": [
+        "コンテンツを展開"
       ],
+      "Link confirmation": [
+        "リンクの確認"
+      ],
+      "Open actions dropdown": [
+        "アクションドロップダウンを開く"
+      ],
+      "Previous": [
+        "前へ"
+      ],
+      "Open pagination": [
+        "ページネーションを開く"
+      ],
+      "Next": [
+        "次へ"
+      ],
+      "Keyboard Shortcuts": [
+        "キーボードショートカット"
+      ],
+      "What's new": [
+        "更新情報"
+      ],
+      "Enable keyboard shortcuts": [
+        "キーボードショートカットを有効にする"
+      ],
+      "Exporting contacts": [
+        "連絡先のエクスポート中"
+      ],
+      "Select action to take on contact group": [
+        ""
+      ],
+      "Add contact group name": [
+        ""
+      ],
+      "Select contact group": [
+        "連絡先グループを選択"
+      ],
+      "Warning": [
+        "警告"
+      ],
+      "Import groups": [
+        "グループのインポート"
+      ],
+      "Import contacts": [
+        "連絡先のインポート"
+      ],
+      "Start import process": [
+        "インポートを開始"
+      ],
+      "Import in progress": [
+        "インポートは進行しています"
+      ],
+      "Customize import": [
+        "インポートのカスタマイズ"
+      ],
+      "Prepare for import": [
+        "インポートの準備"
+      ],
+      "Prepare Yahoo Mail for import": [
+        "Yahoo Mail からインポートする準備"
+      ],
+      "Prepare Gmail for import ${ gmailInstructionsStep }/${ totalSteps }": [
+        "Gmail からインポートする準備 ${ gmailInstructionsStep }/${ totalSteps }"
+      ],
+      "Reconnect your account": [
+        "アカウントに再接続"
+      ],
+      "Start a new import": [
+        "新しいインポートを開始"
+      ],
+      "Edit domain": [
+        "ドメインの編集"
+      ],
+      "Add domain": [
+        "ドメインを追加"
+      ],
+      "Catch-All address": [
+        "Catch-All アドレス"
+      ],
+      "Delete ${ domain.DomainName }": [
+        "${ domain.DomainName } を削除"
+      ],
+      "1. Select platform": [
+        "1. プラットフォームを選択"
+      ],
+      "2. Select protocol": [
+        "2. プロトコルを選択"
+      ],
+      "3. Select config file and download": [
+        "3. 設定ファイルを選択してダウンロード"
+      ],
+      "Get ProtonVPN Plus to access all servers": [
+        "すべてのサーバーに接続するために ProtonVPN Plus を入手"
+      ],
+      "Open help menu": [
+        "ヘルプメニューを開く"
+      ],
+      "Back": [
+        "戻る"
+      ],
+      "Report a problem": [
+        "問題を報告"
+      ],
+      "Confirm loss of Proton bonuses": [
+        "Proton ボーナスの損失を確認"
+      ],
+      "Processing": [
+        "処理中"
+      ],
+      "Downgrade account": [
+        ""
+      ],
+      "Network error": [
+        "ネットワークエラー"
+      ],
+      "Select a plan": [
+        "プランを選択"
+      ],
+      "Customize your plan": [
+        "プランをカスタマイズ"
+      ],
+      "Checkout": [
+        "注文"
+      ],
+      "Current plan": [
+        "現在のプラン"
+      ],
+      "Apply gift code": [
+        "ギフトコードを使用"
+      ],
+      "Subtotal": [
+        "小計"
+      ],
+      "Coupon discount": [
+        "クーポン割引"
+      ],
+      "Total (monthly)": [
+        "合計 (月額換算)"
+      ],
+      "Credits": [
+        "クレジット"
+      ],
+      "Gift code": [
+        "ギフトコード"
+      ],
+      "Amount due": [
+        "支払い総額"
+      ],
+      "Edit credit/debit card": [
+        "クレジット・デビットカードの編集"
+      ],
+      "Add credit/debit card": [
+        "クレジット・デビットカードの追加"
+      ],
+      "Add PayPal payment method": [
+        "PayPal 支払いの追加"
+      ],
+      "Add credits": [
+        "クレジットの追加"
+      ],
+      "Confirm downgrade": [
+        "ダウングレードの確認"
+      ],
+      "ZIP / postal code": [
+        "郵便番号"
+      ],
+      "Currency": [
+        "通貨"
+      ],
+      "Billing cycle": [
+        "支払い間隔"
+      ],
+      "Payment details": [
+        "支払い方法の詳細"
+      ],
+      "Unsupported browser": [
+        "未対応のブラウザー"
+      ],
+      "Card verification": [
+        "カードの検証"
+      ],
+      "Payment verification": [
+        "支払いの検証"
+      ],
+      "Processing...": [
+        "処理中..."
+      ],
+      "Card verification in progress": [
+        "カード検証中"
+      ],
+      "Payment verification in progress": [
+        "支払いを検証中"
+      ],
+      "PayPal verification failed": [
+        "PayPal 認証に失敗しました。"
+      ],
+      "3-D Secure verification failed": [
+        "3Dセキュアの検証に失敗しました"
+      ],
+      "Error": [
+        "エラー"
+      ],
+      "${ appName } customization": [
+        "${ appName } のカスタマイズ"
+      ],
+      "Plan summary": [
+        "プランの概要"
+      ],
+      "Update calendar": [
+        "カレンダーの更新"
+      ],
+      "Create calendar": [
+        "カレンダーの作成"
+      ],
+      "Select the way to send this notification": [
+        ""
+      ],
+      "Select when you want this notification to be sent": [
+        ""
+      ],
+      "Select the time to send this notification": [
+        ""
+      ],
+      "Add another notification to remind you of this event": [
+        ""
+      ],
+      "Export calendar": [
+        "カレンダーをエクスポート"
+      ],
+      "Delete calendar": [
+        "カレンダーの削除"
+      ],
+      "Remove calendar": [
+        ""
+      ],
+      "Import events": [
+        "予定のインポート"
+      ],
+      "Your calendar link": [
+        "あなたのカレンダーリンク"
+      ],
+      "Reactivate keys": [
+        ""
+      ],
+      "Decrypt key": [
+        "キーを復号"
+      ],
+      "Export public key": [
+        "公開鍵のエクスポート"
+      ],
+      "Export private key": [
+        "秘密鍵のエクスポート"
+      ],
+      "Delete key": [
+        "鍵の削除"
+      ],
+      "Create key": [
+        "鍵の作成"
+      ],
+      "Success": [
+        "完了"
+      ],
+      "Import key": [
+        "鍵のインポート"
+      ],
+      "Change password for ${ Name } (${ Email })": [
+        "${ Name } (${ Email }) のパスワードを変更"
+      ],
+      "Change password": [
+        "パスワードを変更"
+      ],
+      "Change login password": [
+        "ログインパスワードを変更"
+      ],
+      "Switch to two-password mode": [
+        "2パスワードモードに切り替える"
+      ],
+      "Switch to one-password mode": [
+        "標準のパスワードモードに切り替える"
+      ],
+      "Change mailbox password": [
+        "メールボックスのパスワードの変更"
+      ],
+      "Set up two-factor authentication": [
+        "2要素認証の設定"
+      ],
+      "Disable two-factor authentication": [
+        "2段階認証を無効化"
+      ],
+      "Password": [
+        "パスワード"
+      ],
+      "Login password": [
+        "ログインパスワード"
+      ],
+      "Delete account": [
+        "アカウントの削除"
+      ],
+      "Confirm address": [
+        "アドレスの確認"
+      ],
+      "Confirm phone number": [
+        "電話番号の確認"
+      ],
+      "Automatically sign outgoing messages?": [
+        ""
+      ],
+      "Invalid verification code": [
+        "無効な検証コードです"
+      ],
+      "Human verification": [
+        "人間であることの検証"
+      ],
+      "Request new code": [
+        "新しいコードの発行"
+      ],
+      "App": [
+        "アプリ"
+      ],
+      "Date": [
+        "日付"
+      ],
+      "Action": [
+        "アクション"
+      ],
+      "Delete logs": [
+        "ログの削除"
+      ],
+      "Clear": [
+        "消去"
+      ],
+      "Pay invoice": [
+        "請求の支払い"
+      ],
+      "Add invoice details": [
+        "請求書の詳細を追加"
+      ],
+      "Amount": [
+        "金額"
+      ],
+      "Type": [
+        "種類"
+      ],
+      "Status": [
+        "状態"
+      ],
+      "Edit filter": [
+        "フィルターの編集"
+      ],
+      "Add filter": [
+        "フィルターを追加"
+      ],
+      "Are you sure you want to close?": [
+        "本当に画面を閉じてよろしいですか？"
+      ],
+      "Edit Sieve filter": [
+        "Sieve フィルターの編集"
+      ],
+      "Add Sieve filter": [
+        "Sieve フィルターの追加"
+      ],
+      "Delete ${ filter.Name }": [
+        "${ filter.Name } を削除"
+      ],
+      "Allow List": [
+        "許可リスト"
+      ],
+      "Block List": [
+        "ブロックリスト"
+      ],
+      "Add to Block List": [
+        "ブロックリストに追加"
+      ],
+      "Add to Allow List": [
+        "許可リストに追加"
+      ],
+      "Edit Block List": [
+        "ブロックリストの編集"
+      ],
+      "Edit Allow List": [
+        "許可リストの編集"
+      ],
+      "Delete ${ Name } folder": [
+        ""
+      ],
+      "Delete ${ Name } label": [
+        ""
+      ],
+      "Sort folders alphabetically": [
+        ""
+      ],
+      "Sort labels alphabetically": [
+        "ラベルをアルファベット順に並べ替え"
+      ],
+      "Change organization name": [
+        "組織名を変更"
+      ],
+      "Set organization name": [
+        "組織名を設定"
+      ],
+      "Set organization keys": [
+        "組織用の鍵を設定"
+      ],
+      "Set organization password": [
+        ""
+      ],
+      "Allocate storage": [
+        "ストレージを割り当てる"
+      ],
+      "Allocate VPN connections": [
+        "VPN 接続を割り当てる"
+      ],
+      "Reset organization keys": [
+        "組織の鍵をリセット"
+      ],
+      "Change organization keys": [
+        "組織用の鍵を変更"
+      ],
+      "Activate organization key": [
+        "組織の鍵をアクティベート"
+      ],
+      "Restore administrator privileges": [
+        "管理者権限を修復"
+      ],
+      "Change organization password": [
+        "組織パスワードを変更"
+      ],
+      "${ appName } Keyboard Shortcuts": [
+        "${ appName } のキーボードショートカット"
+      ],
+      "Account suspended": [
+        "アカウントが停止されました"
+      ],
+      "Sign in again to continue": [
+        "再度サインインして続行"
+      ],
+      "Add address": [
+        "アドレスを追加"
+      ],
+      "Delete ${ address.Email }": [
+        "${ address.Email } を削除"
+      ],
+      "Generate missing keys": [
+        "紛失した鍵の生成"
+      ],
+      "Bridge for ${ platform }": [
+        "${ platform } 用 Bridge"
+      ],
+      "Change role": [
+        ""
+      ],
+      "Edit user": [
+        "ユーザーを編集"
+      ],
+      "Delete user": [
+        "ユーザーを削除"
+      ],
+      "Add user": [
+        "ユーザーを追加"
+      ],
+      "General": [
+        "一般"
+      ],
+      "Theme": [
+        "テーマ"
+      ],
+      "Contacts": [
+        "連絡先"
+      ],
+      "Import & export": [
+        "インポートとエクスポート"
+      ],
+      "Import": [
+        "インポート"
+      ],
+      "Export": [
+        "エクスポート"
+      ],
+      "Appearance": [
+        "外観"
+      ],
+      "Layout": [
+        "レイアウト"
+      ],
+      "Other": [
+        "その他"
+      ],
+      "Domain names": [
+        "ドメイン名"
+      ],
+      "Catch-all address": [
+        "キャッチオールアドレス"
+      ],
+      "Auto reply": [
+        "自動返信"
+      ],
+      "Encryption & keys": [
+        ""
+      ],
+      "Address verification": [
+        "アドレスの検証"
+      ],
+      "External PGP settings": [
+        "外部 PGP 設定"
+      ],
+      "Email encryption keys": [
+        "電子メールの暗号鍵"
+      ],
+      "Contact encryption keys": [
+        "連絡先の暗号鍵"
+      ],
+      "Filters": [
+        "フィルター"
+      ],
+      "Custom filters": [
+        "仕分けフィルター"
+      ],
+      "Spam filters": [
+        "迷惑メールフィルター"
+      ],
+      "Folders & labels": [
+        "フォルダーとラベル"
+      ],
+      "Folders": [
+        "フォルダー"
+      ],
+      "Labels": [
+        "ラベル"
+      ],
+      "Short domain (@pm.me)": [
+        "短縮ドメイン (@pm.me)"
+      ],
+      "Messages": [
+        "メッセージ"
+      ],
+      "Advanced": [
+        "拡張"
+      ],
+      "Spy Tracker Protection": [
+        ""
+      ],
+      "Identity & addresses": [
+        ""
+      ],
+      "Display name & signature": [
+        "表示名と署名"
+      ],
+      "My addresses": [
+        "あなたのメールアドレス"
+      ],
+      "IMAP/SMTP": [
+        "IMAP/SMTP"
+      ],
+      "ProtonMail Bridge": [
+        "ProtonMail Bridge"
+      ],
+      "Import Assistant": [
+        "Import Assistant"
+      ],
+      "Current & past imports": [
+        "現在および過去のインポート"
+      ],
+      "Import-Export app": [
+        "Import-Export アプリ"
+      ],
+      "Email privacy": [
+        ""
+      ],
+      "VPN apps": [
+        "VPN アプリ"
+      ],
+      "ProtonVPN": [
+        "ProtonVPN"
+      ],
+      "OpenVPN / IKEv2": [
+        ""
+      ],
+      "Credentials": [
+        "認証情報"
+      ],
+      "OpenVPN configuration files": [
+        "OpenVPN 設定ファイル"
+      ],
+      "Password & recovery": [
+        "パスワードと回復"
+      ],
+      "Passwords": [
+        "パスワード"
+      ],
+      "Recovery & notification": [
+        "回復と通知"
+      ],
+      "Security": [
+        "セキュリティ"
+      ],
+      "Session management": [
+        "セッション管理"
+      ],
+      "Security logs": [
+        "セキュリティログ"
+      ],
+      "Payment": [
+        "支払い"
+      ],
+      "Billing details": [
+        "請求の詳細"
+      ],
+      "Payment methods": [
+        "支払い方法"
+      ],
+      "Invoices": [
+        "請求書"
+      ],
+      "Dashboard": [
+        "ダッシュボード"
+      ],
+      "Select plan": [
+        "プランを選択"
+      ],
+      "Your current plan": [
+        "現在のプラン"
+      ],
+      "Your plan": [
+        "現在のプラン"
+      ],
+      "Language & time": [
+        "言語と時間"
+      ],
+      "Email subscriptions": [
+        "メーリングリストの購読"
+      ],
+      "Organization": [
+        "組織"
+      ],
+      "Multi-user support": [
+        "複数ユーザー対応"
+      ],
+      "Users and addresses": [
+        ""
+      ],
+      "Addresses": [
+        "メールアドレス"
+      ],
+      "Organization & keys": [
+        "組織と鍵"
+      ],
+      "Password & keys": [
+        ""
+      ],
+      "My calendars": [
+        "マイカレンダー"
+      ],
+      "Subscribed calendars": [
+        "登録済みカレンダー"
+      ],
+      "Share outside Proton": [
+        "Proton 外に共有"
+      ],
+      "Time zone": [
+        "タイムゾーン"
+      ],
+      "Sorry, you can't access this page": [
+        "申し訳ありませんが、このページにアクセスできません"
+      ],
+      "Upgrade": [
+        "アップグレード"
+      ],
+      "Proton Logo": [
+        "Proton ロゴ"
+      ],
+      "Settings": [
+        "設定"
+      ],
+      "Choose an account": [
+        "アカウントの選択"
+      ],
+      "Email": [
+        "メールアドレス"
+      ],
+      "Phone": [
+        "電話番号"
+      ],
+      "Find email or username": [
+        "メールアドレスまたはユーザー名を探す"
+      ],
+      "This address might compromise your privacy.": [
+        "このアドレスはブライバシーを損なう可能性があります。"
+      ],
+      "Create your Proton Account": [
+        "Proton アカウントを作成"
+      ],
+      "Add a recovery method": [
+        "回復手段の追加"
+      ],
+      "(highly recommended)": [
+        "(強く推奨)"
+      ],
+      "Account verification": [
+        "アカウント認証"
+      ],
+      "Plan selection": [
+        "プランの選択"
+      ],
+      "Are you human?": [
+        "あなたは人間ですか？"
+      ],
+      "Creating account": [
+        "アカウントの作成中"
+      ],
+      "Sign in": [
+        "サインイン"
+      ],
+      "Two-factor authentication": [
+        "2要素認証"
+      ],
+      "Unlock your mailbox": [
+        "メールボックスのロック解除"
+      ],
+      "Set new password": [
+        "新しいパスワードを設定"
+      ],
+      "Create a ${ mailAppName } address": [
+        "${ mailAppName } アドレスを作成"
+      ],
+      "Address is available": [
+        "アドレスは利用可能です"
+      ],
+      "Reset password?": [
+        "パスワードをリセット?"
+      ],
+      "Warning!": [
+        "警告!"
+      ],
+      "Reset password": [
+        "パスワードをリセット"
+      ],
+      "No recovery method": [
+        "リカバリ方法がありません"
+      ]
+    },
+    "Info": {
       "Insert image": [
         "画像を挿入"
       ],
@@ -2035,6 +2781,9 @@
       "Plain text": [
         "プレーンテキスト"
       ],
+      "No results found": [
+        "該当する項目がありません"
+      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "このリンクはホモグラフ攻撃の可能性があり、Internet ExplorerおよびEdgeブラウザーで開くことはできません。リンクが正当であることが確実な場合は、別のブラウザーを使用して開いてください。"
       ],
@@ -2067,75 +2816,6 @@
       ],
       "The application needs to locally decrypt your contacts before they can be exported. At the end of the process, a VCF file will be generated and you will be able to download it.": [
         "アプリケーションは、エクスポートする前に連絡先をローカルで復号化する必要があります。 プロセスの終了時に、VCFファイルが生成され、ダウンロードすることができます。"
-      ],
-      "To secure your internet connection, download and install the ProtonVPN application for your device and connect to a ProtonVPN server.": [
-        "インターネット接続を保護するには、ProtonVPN アプリケーションをダウンロード・インストールし、ProtonVPN サーバーに接続します。"
-      ],
-      "You can use the following credentials to connect to a ProtonVPN server using a third-party, open source VPN app, like Tunnelblick for macOS or OpenVPN for GNU/Linux.": [
-        "以下の認証情報を使用することで、macOS 向け Tunnelblick や GNU/Linux 向け OpenVPN のようなサードパーティ製、オープンソースの VPN アプリで ProtonVPN サーバーに接続できます。"
-      ],
-      "Learn how to log in to ProtonVPN with third-party VPN applications.": [
-        "サードパーティアプリケーションで ProtonVPN にログインする方法を学ぶ"
-      ],
-      "We advise you to use official ProtonVPN applications when possible.": [
-        "公式 ProtonVPN アプリケーションの使用をおすすめします。"
-      ],
-      "You cannot use the OpenVPN / IKEv2 credentials to log in to ProtonVPN applications or the ProtonVPN dashboard. ${ learnMore }": [
-        "OpenVPN / IKEv2 認証情報で、ProtonVPN アプリケーションや ProtonVPN ダッシュボードにログインすることはできません。 ${ learnMore }"
-      ],
-      "Use the following credentials when connecting to ProtonVPN servers without application. Examples use cases include: Tunnelblick on macOS, OpenVPN on GNU/Linux.": [
-        "公式アプリケーション以外で ProtonVPN サーバーに接続する場合、次の認証情報を使用してください。例: macOS 向け Tunnelblick、GNU/Linux 向け OpenVPN"
-      ],
-      "Do not use the OpenVPN / IKEv2 credentials in ProtonVPN applications or on the ProtonVPN dashboard. ${ learnMore }": [
-        "OpenVPN / IKEv2 認証情報は、ProtonVPN アプリケーションや ProtonVPN ダッシュボードでは使用できません。 ${ learnMore }"
-      ],
-      "Server load": [
-        "サーバー利用率"
-      ],
-      "Server is currently down": [
-        "このサーバーは現在オフラインです"
-      ],
-      "P2P": [
-        "P2P"
-      ],
-      "Tor": [
-        "Tor"
-      ],
-      "Plus or Visionary subscription required": [
-        "PLUS または VISIONARY プランが必要です"
-      ],
-      "Basic, Plus or Visionary subscription required": [
-        "BASIC 、PLUS または VISIONARY プランが必要です"
-      ],
-      "${ number } server": [
-        "${ number } サーバー"
-      ],
-      "${ number } city": [
-        "${ number } 都市"
-      ],
-      "These configuration files let you choose which ProtonVPN server you connect to when using a third-party VPN app or setting up a VPN connection on a router.": [
-        "これらの設定ファイルは、サードパーティ製のVPNアプリを使用する際や、ルーターでVPN接続を設定する際に、どのProtonVPNサーバーに接続するかを選択するためのものです。"
-      ],
-      "Install a Secure Core configuration file to benefit from an additional protection against VPN endpoint compromise.": [
-        "Secure Core 構成ファイルを使用すると、VPN エンドポイントの侵害に対する追加の保護を得られます。"
-      ],
-      "ProtonVPN Plus or Visionary required for Secure Core feature.": [
-        "Secure Core 機能を利用するには、 ProtonVPN Plus または Visionary プランに登録する必要があります。"
-      ],
-      "Install a Country configuration file to connect to a random server in the country of your choice.": [
-        "選択した国のランダムなサーバーに接続するため国の構築ファイルをインストールします。"
-      ],
-      "ProtonVPN Basic, Plus or Visionary required for Country level connection.": [
-        "国レベルでの接続には、ProtonVPN Basic、Plus または Visionary が必要です。"
-      ],
-      "Install a Server configuration file to connect to a specific server in the country of your choice.": [
-        "選択した国の特定のサーバーに接続するためサーバーの構築ファイルをインストールします。"
-      ],
-      "Install a Free server configuration file to connect to a specific server in one of the three free locations.": [
-        "無料サーバーの設定ファイルを使用して、無料で利用可能な3か国の無料サーバーに接続できます。"
-      ],
-      "Plan upgrade required": [
-        "プランのアップグレードが必要です"
       ],
       "Import calendars": [
         "カレンダーのインポート"
@@ -2248,9 +2928,6 @@
       "Available on macOS, Windows, and Linux.": [
         "macOS、Windows、Linux に対応しています。"
       ],
-      "Choose the look and feel of the application.": [
-        "アプリケーションの外観を変更できます。"
-      ],
       "SPF is used to specify who is allowed to send email for the domain so we strongly recommend including ProtonMail in your SPF record. Please add the following TXT record into your DNS. This can typically be done in the control panel of your domain name registrar.": [
         "SPF は送信元のドメインを明示するために使用されます。そのため、SPF レコードに ProtonMail を含めることを強く推奨します。次の TXT レコードを DNS に追加してください。これは通常、ドメイン名登録のコントロールパネルから設定できます。"
       ],
@@ -2296,158 +2973,89 @@
       "If you have a custom domain with ProtonMail, you can set a catch-all email address that will receive messages sent to your domain but to an invalid email address (e.g., typos).": [
         ""
       ],
-      "Are you sure you want to delete this calendar?": [
-        "このカレンダーを削除してよろしいですか？"
+      "To secure your internet connection, download and install the ProtonVPN application for your device and connect to a ProtonVPN server.": [
+        "インターネット接続を保護するには、ProtonVPN アプリケーションをダウンロード・インストールし、ProtonVPN サーバーに接続します。"
       ],
-      "${ calendarName } will be set as default calendar.": [
-        "${ calendarName } は既定のカレンダーとして設定されます。"
+      "You can use the following credentials to connect to a ProtonVPN server using a third-party, open source VPN app, like Tunnelblick for macOS or OpenVPN for GNU/Linux.": [
+        "以下の認証情報を使用することで、macOS 向け Tunnelblick や GNU/Linux 向け OpenVPN のようなサードパーティ製、オープンソースの VPN アプリで ProtonVPN サーバーに接続できます。"
       ],
-      "The calendar will be removed from your account.": [
-        ""
+      "Learn how to log in to ProtonVPN with third-party VPN applications.": [
+        "サードパーティアプリケーションで ProtonVPN にログインする方法を学ぶ"
       ],
-      "You need to have an active personal calendar to import your events.": [
-        ""
+      "We advise you to use official ProtonVPN applications when possible.": [
+        "公式 ProtonVPN アプリケーションの使用をおすすめします。"
       ],
-      "If the system time zone does not match the current time zone preference, you will be asked to update it (at most once per day).": [
-        "システムのタイムゾーンが現在のタイムゾーンの設定と一致しない場合、更新するよう求められます (最大で1日に1回)。"
+      "You cannot use the OpenVPN / IKEv2 credentials to log in to ProtonVPN applications or the ProtonVPN dashboard. ${ learnMore }": [
+        "OpenVPN / IKEv2 認証情報で、ProtonVPN アプリケーションや ProtonVPN ダッシュボードにログインすることはできません。 ${ learnMore }"
       ],
-      "Week and month views only apply to desktop.": [
-        "週と月のビューはデスクトップにのみ適用されます。"
+      "Use the following credentials when connecting to ProtonVPN servers without application. Examples use cases include: Tunnelblick on macOS, OpenVPN on GNU/Linux.": [
+        "公式アプリケーション以外で ProtonVPN サーバーに接続する場合、次の認証情報を使用してください。例: macOS 向け Tunnelblick、GNU/Linux 向け OpenVPN"
       ],
-      "Only you can see the labels.": [
-        "ラベルが見えるのはあなただけです。"
+      "Do not use the OpenVPN / IKEv2 credentials in ProtonVPN applications or on the ProtonVPN dashboard. ${ learnMore }": [
+        "OpenVPN / IKEv2 認証情報は、ProtonVPN アプリケーションや ProtonVPN ダッシュボードでは使用できません。 ${ learnMore }"
       ],
-      "Limited view: others see if you're busy. Full view: shows all event details, including name, location, or participants.": [
-        "限定ビュー：多忙な場合は他のユーザーが確認できます。フルビュー：名前、場所、参加者を含むすべてのイベント詳細が表示されます。"
+      "Server load": [
+        "サーバー利用率"
       ],
-      "You can create up to ${ MAX_LINKS_PER_CALENDAR } links per calendar. To create a new link to this calendar, delete one from the list below.": [
-        "カレンダーごとに最大 ${ MAX_LINKS_PER_CALENDAR } リンクを作成できます。このカレンダーへの新しいリンクを作成するには、以下のリストからリンクをひとつ削除してください。"
+      "Server is currently down": [
+        "このサーバーは現在オフラインです"
       ],
-      "By sharing the full event details of this calendar, you accept to grant Proton access to this calendar's encrypted information.": [
-        "このカレンダーの完全なイベント詳細を共有することで、このカレンダーの暗号化された情報へのProtonのアクセスを許可することになります。"
+      "P2P": [
+        "P2P"
       ],
-      "Anyone with this link can see all the event details of this calendar such as title, location or participants.": [
-        "このリンクを持っている誰でも、タイトル、場所、参加者など、このカレンダーのすべてのイベント詳細を見ることができます。"
+      "Tor": [
+        "Tor"
       ],
-      "Anyone with this link can see whether you’re free or busy on your calendar. They can’t see event details, such as title, location, or participants.": [
-        "このリンクを持っている人は誰でもカレンダー上であなたの予定の有無を確認できます。タイトル、場所、参加者などのイベント詳細は表示されません。"
+      "Plus or Visionary subscription required": [
+        "PLUS または VISIONARY プランが必要です"
       ],
-      "Delete link?": [
-        "リンクを削除"
+      "Basic, Plus or Visionary subscription required": [
+        "BASIC 、PLUS または VISIONARY プランが必要です"
       ],
-      "Anyone with this link won't be able to sync or get future updates for your calendar. If you want to give them access again, you will have to create a new link.": [
-        "このリンクを持っている人は、あなたのカレンダーの同期や今後の更新を取得することはできません。 再度アクセスを許可したい場合は、新しいリンクを作成する必要があります。"
+      "${ number } server": [
+        "${ number } サーバー"
       ],
-      "Edit label": [
-        "ラベルを編集"
+      "${ number } city": [
+        "${ number } 都市"
       ],
-      "Add label": [
-        "ラベルを追加"
+      "These configuration files let you choose which ProtonVPN server you connect to when using a third-party VPN app or setting up a VPN connection on a router.": [
+        "これらの設定ファイルは、サードパーティ製のVPNアプリを使用する際や、ルーターでVPN接続を設定する際に、どのProtonVPNサーバーに接続するかを選択するためのものです。"
       ],
-      "Link copied to clipboard": [
-        "リンクをクリップボードにコピーしました。"
+      "Install a Secure Core configuration file to benefit from an additional protection against VPN endpoint compromise.": [
+        "Secure Core 構成ファイルを使用すると、VPN エンドポイントの侵害に対する追加の保護を得られます。"
       ],
-      "Link created": [
-        "リンクが作成されました"
+      "ProtonVPN Plus or Visionary required for Secure Core feature.": [
+        "Secure Core 機能を利用するには、 ProtonVPN Plus または Visionary プランに登録する必要があります。"
       ],
-      "Link deleted": [
-        "リンクが削除されました"
+      "Install a Country configuration file to connect to a random server in the country of your choice.": [
+        "選択した国のランダムなサーバーに接続するため国の構築ファイルをインストールします。"
       ],
-      "Create a link to your calendar and share it with anyone outside Proton. Only you can add or remove events.": [
-        "あなたのカレンダーへのリンクを作成し、非 Proton ユーザーに共有します。予定の追加・削除が行えるのはあなただけです。"
+      "ProtonVPN Basic, Plus or Visionary required for Country level connection.": [
+        "国レベルでの接続には、ProtonVPN Basic、Plus または Visionary が必要です。"
       ],
-      "You need to have a personal calendar to create a link.": [
-        ""
+      "Install a Server configuration file to connect to a specific server in the country of your choice.": [
+        "選択した国の特定のサーバーに接続するためサーバーの構築ファイルをインストールします。"
       ],
-      "All keys successfully reactivated": [
-        ""
+      "Install a Free server configuration file to connect to a specific server in one of the three free locations.": [
+        "無料サーバーの設定ファイルを使用して、無料で利用可能な3か国の無料サーバーに接続できます。"
       ],
-      "Some keys successfully reactivated": [
-        ""
+      "Plan upgrade required": [
+        "プランのアップグレードが必要です"
       ],
-      "Unable to decrypt. Recovery phrase is not associated with any outdated keys.": [
-        ""
-      ],
-      "Unable to decrypt. Recovery phrase is not associated with any keys.": [
-        ""
-      ],
-      "Uploaded file is not a valid private key. Please verify and try again.": [
-        ""
-      ],
-      "${ numberOfNonPrivateKeys } uploaded file is not a valid private key. Please verify and try again.": [
-        ""
-      ],
-      "To access your old messages, you will need to reactivate your old encryption keys using one of the following recovery methods.": [
-        ""
-      ],
-      "Give your public key to your friends, or publish it online, so that everyone can send you end-to-end encrypted email!": [
-        "あなたの公開鍵を友達に渡すか、誰もがあなたにエンドツーエンドの暗号化メールを送れるようにオンラインで公開しましょう！"
-      ],
-      "IMPORTANT: Downloading your private keys and sending them over or storing them on insecure media can jeopardise the security of your account!": [
-        "重要：ダウンロードした秘密鍵の送信や、安全でないメディアに保存して盗まれる等すると、アカウントのセキュリティが危険にさらされる可能性があります。"
-      ],
-      "Please enter a password to encrypt your private key with before exporting.": [
-        "エクスポートする前に、秘密鍵を暗号化するためのパスワードを入力してください。"
-      ],
-      "This feature is intended for advanced users only. After deleting this key, you will NOT be able to decrypt any message that has been encrypted with it. It may lead to data loss.": [
-        ""
-      ],
-      "Key with fingerprint ${ fp } has been deleted.": [
-        "フィンガープリント${ fp } の鍵が削除されました。"
-      ],
-      "You can generate a new encryption key if you think your previous key has been compromised.": [
-        "現在の鍵が侵害されたと思われる場合は、新しい暗号鍵を生成できます。"
-      ],
-      "A key with the same encryption algorithm is already active for this address. Generating another key will cause slower account loading and deletion of this key can cause issues. If you are generating a new key because your old key is compromised, please mark that key as compromised. Are you sure you want to continue?": [
-        "同じ暗号化アルゴリズムを持つ鍵が、このアドレスに対してすでにアクティブです。\n別の鍵を生成すると、アカウントの読み込みが遅くなり、この鍵を削除すると問題が発生する可能性があります。\n古い鍵が侵害されために新しい鍵を生成している場合は、侵害された鍵をマークしてください。\n続行しますか？"
-      ],
-      "Key with fingerprint ${ fp } successfully created.": [
-        "フィンガープリント${ fp } の鍵が正常に作成されました。"
-      ],
-      "No addresses exist": [
-        "アドレスが存在しません"
-      ],
-      "Download your PGP keys for use with other PGP-compatible services.": [
-        ""
-      ],
-      "No contact encryption keys exist": [
-        ""
-      ],
-      "Auto-reply is active each month between the selected start and end time.": [
-        "自動返信は、毎月設定された日の開始時刻と終了時刻の間有効です。"
-      ],
-      "Auto-reply is always active on the days of the week you select, between the selected hours.": [
-        "自動返信は、選択された曜日の開始日時と終了日時の間有効です。"
-      ],
-      "Auto-reply is active each week between the selected start and end time.": [
-        "自動返信は、選択された曜日の開始時刻と終了時刻の間有効です。"
-      ],
-      "Auto-reply is active until you turn it off.": [
-        "自動返信は、オフにするまで有効です。"
-      ],
-      "Auto-reply is active from the start time to the end time.": [
-        "自動返信は、設定された開始日時と終了日時の間有効です。"
-      ],
-      "Images have been removed because they are not allowed in auto-reply.": [
-        ""
-      ],
-      "Use automatic replies to inform contacts you are out of the office or otherwise unable to respond.": [
-        ""
-      ],
-      "Upgrade to a ${ PLAN_NAMES[PLANS.VISIONARY] } or ${ PLAN_NAMES[PLANS.PROFESSIONAL] } plan to enable automatic replies for when you are out of the office.": [
-        "${ PLAN_NAMES[PLANS.VISIONARY] } または ${ PLAN_NAMES[PLANS.PROFESSIONAL] } プランにアップグレードすることで不在の場合に自動リプライを有効にすることができます。"
-      ],
-      "More Info": [
-        ""
-      ],
-      "Loading ${ appName }": [
-        "${ appName } を読み込み中"
+      "Choose the look and feel of the application.": [
+        "アプリケーションの外観を変更できます。"
       ],
       "Screenshot(s) attached": [
         "スクリーンショットが添付されました"
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "ほとんどの問題は、ページを更新するか、 ${ link } することで解決できます。"
+      ],
+      "More Info": [
+        ""
+      ],
+      "Loading ${ appName }": [
+        "${ appName } を読み込み中"
       ],
       "Since you're a loyal user, your account has additional features enabled.": [
         "あなたは忠実なユーザーですので、あなたのアカウントには追加機能が有効になっています。"
@@ -2728,47 +3336,92 @@
       "30 days money-back guarantee.": [
         "30日間返金保証"
       ],
-      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
-        "あなたの Proton アカウントは現在保留中です。アカウントの使用を続けたい場合は滞納した請求を支払ってください。"
+      "Auto-reply is active each month between the selected start and end time.": [
+        "自動返信は、毎月設定された日の開始時刻と終了時刻の間有効です。"
       ],
-      "Would you like to receive a new verification code or use an alternative verification method?": [
-        "新しい確認コードを受け取るか、他の検証方法を使用しますか?"
+      "Auto-reply is always active on the days of the week you select, between the selected hours.": [
+        "自動返信は、選択された曜日の開始日時と終了日時の間有効です。"
       ],
-      "Enter the verification code that was sent to ${ destinationText }.": [
-        "${ destinationText } に送信された認証コードを入力してください。"
+      "Auto-reply is active each week between the selected start and end time.": [
+        "自動返信は、選択された曜日の開始時刻と終了時刻の間有効です。"
       ],
-      "If you don't find the email in your inbox, please check your spam folder.": [
-        "受信トレイに関連するメッセージを見つけなかった場合、迷惑メールフォルダを確認してください。"
+      "Auto-reply is active until you turn it off.": [
+        "自動返信は、オフにするまで有効です。"
       ],
-      "To fight spam and abuse, please verify you are human.": [
-        "迷惑メールや悪用を防止するために、あなたがコンピューターではないことを確認します。"
+      "Auto-reply is active from the start time to the end time.": [
+        "自動返信は、設定された開始日時と終了日時の間有効です。"
       ],
-      "Your email will only be used for this one-time verification.": [
-        "メールアドレスは、この一度限りの認証にのみ使用されます。"
+      "Images have been removed because they are not allowed in auto-reply.": [
+        ""
       ],
-      "Your phone number will only be used for this one-time verification.": [
-        "電話番号は、この一度限りの認証にのみ使用されます。"
+      "Use automatic replies to inform contacts you are out of the office or otherwise unable to respond.": [
+        ""
       ],
-      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
-        "アカウントの作成に問題がある場合は、招待をリクエストしてください。1営業日以内に対応します。"
+      "Upgrade to a ${ PLAN_NAMES[PLANS.VISIONARY] } or ${ PLAN_NAMES[PLANS.PROFESSIONAL] } plan to enable automatic replies for when you are out of the office.": [
+        "${ PLAN_NAMES[PLANS.VISIONARY] } または ${ PLAN_NAMES[PLANS.PROFESSIONAL] } プランにアップグレードすることで不在の場合に自動リプライを有効にすることができます。"
       ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
-        "「新しいコードをリクエスト」をクリックすると新しい認証コードが ${ strong } に送信されます。メールアドレスが違う場合、「編集」をクリックして修正します。"
+      "Are you sure you want to delete this calendar?": [
+        "このカレンダーを削除してよろしいですか？"
       ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
-        "「新しいコードをリクエスト」をクリックすると新しい認証コードが ${ strong } に送信されます。電話番号が違う場合、「編集」をクリックして修正します。"
+      "${ calendarName } will be set as default calendar.": [
+        "${ calendarName } は既定のカレンダーとして設定されます。"
       ],
-      "Address verification is an advanced security feature. Only turn this on if you know what it does.": [
-        "アドレスの検証は高度なセキュリティ機能です。これが何であるかを理解している場合にのみ、有効にしてください。"
+      "The calendar will be removed from your account.": [
+        ""
       ],
-      "Encryption setting updated": [
-        "暗号化の設定が更新されました。"
+      "You need to have an active personal calendar to import your events.": [
+        ""
       ],
-      "PGP clients are more likely to automatically detect your PGP keys if outgoing messages are signed.": [
-        "送信メッセージに署名がある場合、ほとんどの PGP クライアントは PGP 鍵を自動検出します。"
+      "If the system time zone does not match the current time zone preference, you will be asked to update it (at most once per day).": [
+        "システムのタイムゾーンが現在のタイムゾーンの設定と一致しない場合、更新するよう求められます (最大で1日に1回)。"
       ],
-      "Only change these settings if you are using PGP with non-ProtonMail recipients.": [
-        "PGP を利用している ProtonMail 以外の宛先がある場合にのみ、これらの設定を変更してください。"
+      "Week and month views only apply to desktop.": [
+        "週と月のビューはデスクトップにのみ適用されます。"
+      ],
+      "Only you can see the labels.": [
+        "ラベルが見えるのはあなただけです。"
+      ],
+      "Limited view: others see if you're busy. Full view: shows all event details, including name, location, or participants.": [
+        "限定ビュー：多忙な場合は他のユーザーが確認できます。フルビュー：名前、場所、参加者を含むすべてのイベント詳細が表示されます。"
+      ],
+      "You can create up to ${ MAX_LINKS_PER_CALENDAR } links per calendar. To create a new link to this calendar, delete one from the list below.": [
+        "カレンダーごとに最大 ${ MAX_LINKS_PER_CALENDAR } リンクを作成できます。このカレンダーへの新しいリンクを作成するには、以下のリストからリンクをひとつ削除してください。"
+      ],
+      "By sharing the full event details of this calendar, you accept to grant Proton access to this calendar's encrypted information.": [
+        "このカレンダーの完全なイベント詳細を共有することで、このカレンダーの暗号化された情報へのProtonのアクセスを許可することになります。"
+      ],
+      "Anyone with this link can see all the event details of this calendar such as title, location or participants.": [
+        "このリンクを持っている誰でも、タイトル、場所、参加者など、このカレンダーのすべてのイベント詳細を見ることができます。"
+      ],
+      "Anyone with this link can see whether you’re free or busy on your calendar. They can’t see event details, such as title, location, or participants.": [
+        "このリンクを持っている人は誰でもカレンダー上であなたの予定の有無を確認できます。タイトル、場所、参加者などのイベント詳細は表示されません。"
+      ],
+      "Delete link?": [
+        "リンクを削除"
+      ],
+      "Anyone with this link won't be able to sync or get future updates for your calendar. If you want to give them access again, you will have to create a new link.": [
+        "このリンクを持っている人は、あなたのカレンダーの同期や今後の更新を取得することはできません。 再度アクセスを許可したい場合は、新しいリンクを作成する必要があります。"
+      ],
+      "Edit label": [
+        "ラベルを編集"
+      ],
+      "Add label": [
+        "ラベルを追加"
+      ],
+      "Link copied to clipboard": [
+        "リンクをクリップボードにコピーしました。"
+      ],
+      "Link created": [
+        "リンクが作成されました"
+      ],
+      "Link deleted": [
+        "リンクが削除されました"
+      ],
+      "Create a link to your calendar and share it with anyone outside Proton. Only you can add or remove events.": [
+        "あなたのカレンダーへのリンクを作成し、非 Proton ユーザーに共有します。予定の追加・削除が行えるのはあなただけです。"
+      ],
+      "You need to have a personal calendar to create a link.": [
+        ""
       ],
       "Your account has at least one overdue invoice. Your access has been restricted. ${ payInvoiceLink }": [
         "アカウントに少なくとも1つの期限切れの請求書があるため、アクセスが制限されています。${ payInvoiceLink }"
@@ -2808,6 +3461,60 @@
       ],
       "Internet connection lost. Please check your device's connectivity.": [
         "インターネット接続が失われました。デバイスの接続を確認してください。"
+      ],
+      "All keys successfully reactivated": [
+        ""
+      ],
+      "Some keys successfully reactivated": [
+        ""
+      ],
+      "Unable to decrypt. Recovery phrase is not associated with any outdated keys.": [
+        ""
+      ],
+      "Unable to decrypt. Recovery phrase is not associated with any keys.": [
+        ""
+      ],
+      "Uploaded file is not a valid private key. Please verify and try again.": [
+        ""
+      ],
+      "${ numberOfNonPrivateKeys } uploaded file is not a valid private key. Please verify and try again.": [
+        ""
+      ],
+      "To access your old messages, you will need to reactivate your old encryption keys using one of the following recovery methods.": [
+        ""
+      ],
+      "Give your public key to your friends, or publish it online, so that everyone can send you end-to-end encrypted email!": [
+        "あなたの公開鍵を友達に渡すか、誰もがあなたにエンドツーエンドの暗号化メールを送れるようにオンラインで公開しましょう！"
+      ],
+      "IMPORTANT: Downloading your private keys and sending them over or storing them on insecure media can jeopardise the security of your account!": [
+        "重要：ダウンロードした秘密鍵の送信や、安全でないメディアに保存して盗まれる等すると、アカウントのセキュリティが危険にさらされる可能性があります。"
+      ],
+      "Please enter a password to encrypt your private key with before exporting.": [
+        "エクスポートする前に、秘密鍵を暗号化するためのパスワードを入力してください。"
+      ],
+      "This feature is intended for advanced users only. After deleting this key, you will NOT be able to decrypt any message that has been encrypted with it. It may lead to data loss.": [
+        ""
+      ],
+      "Key with fingerprint ${ fp } has been deleted.": [
+        "フィンガープリント${ fp } の鍵が削除されました。"
+      ],
+      "You can generate a new encryption key if you think your previous key has been compromised.": [
+        "現在の鍵が侵害されたと思われる場合は、新しい暗号鍵を生成できます。"
+      ],
+      "A key with the same encryption algorithm is already active for this address. Generating another key will cause slower account loading and deletion of this key can cause issues. If you are generating a new key because your old key is compromised, please mark that key as compromised. Are you sure you want to continue?": [
+        "同じ暗号化アルゴリズムを持つ鍵が、このアドレスに対してすでにアクティブです。\n別の鍵を生成すると、アカウントの読み込みが遅くなり、この鍵を削除すると問題が発生する可能性があります。\n古い鍵が侵害されために新しい鍵を生成している場合は、侵害された鍵をマークしてください。\n続行しますか？"
+      ],
+      "Key with fingerprint ${ fp } successfully created.": [
+        "フィンガープリント${ fp } の鍵が正常に作成されました。"
+      ],
+      "No addresses exist": [
+        "アドレスが存在しません"
+      ],
+      "Download your PGP keys for use with other PGP-compatible services.": [
+        ""
+      ],
+      "No contact encryption keys exist": [
+        ""
       ],
       "By leaving now, changes may not be saved": [
         "変更が保存されていません"
@@ -2944,74 +3651,53 @@
       "Recovery phrase has been disabled": [
         "リカバリーフレーズは無効化されました"
       ],
-      "Filters work on all emails, including incoming as well as sent emails. Each filter must contain at least a name and a valid Sieve script.": [
-        ""
+      "Address verification is an advanced security feature. Only turn this on if you know what it does.": [
+        "アドレスの検証は高度なセキュリティ機能です。これが何であるかを理解している場合にのみ、有効にしてください。"
       ],
-      "Filters work on all emails, including incoming as well as sent emails. Each filter must contain at least a name, a condition and an action.": [
-        ""
+      "Encryption setting updated": [
+        "暗号化の設定が更新されました。"
       ],
-      "No label selected": [
-        ""
+      "PGP clients are more likely to automatically detect your PGP keys if outgoing messages are signed.": [
+        "送信メッセージに署名がある場合、ほとんどの PGP クライアントは PGP 鍵を自動検出します。"
       ],
-      "No folder selected": [
-        "フォルダーが選択されていません"
+      "Only change these settings if you are using PGP with non-ProtonMail recipients.": [
+        "PGP を利用している ProtonMail 以外の宛先がある場合にのみ、これらの設定を変更してください。"
       ],
-      "No action selected": [
-        ""
+      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
+        "あなたの Proton アカウントは現在保留中です。アカウントの使用を続けたい場合は滞納した請求を支払ってください。"
       ],
-      "(Filter if ALL of the following conditions are met)": [
-        "(以下の全ての条件が満たされた場合に動作します)"
+      "Would you like to receive a new verification code or use an alternative verification method?": [
+        "新しい確認コードを受け取るか、他の検証方法を使用しますか?"
       ],
-      "(Filter if ANY of the following conditions are met)": [
-        "(以下のいずれかの条件が満たされた場合に動作します)"
+      "Enter the verification code that was sent to ${ destinationText }.": [
+        "${ destinationText } に送信された認証コードを入力してください。"
       ],
-      "All your changes will be lost.": [
-        "変更内容は全て失われます。"
+      "If you don't find the email in your inbox, please check your spam folder.": [
+        "受信トレイに関連するメッセージを見つけなかった場合、迷惑メールフォルダを確認してください。"
       ],
-      "Are you sure you want to discard your changes?": [
-        "変更を破棄してよろしいですか?"
+      "To fight spam and abuse, please verify you are human.": [
+        "迷惑メールや悪用を防止するために、あなたがコンピューターではないことを確認します。"
       ],
-      "Custom filters work on all new emails, including incoming emails as well as sent emails. Filters can be edited and created directly via Sieve programming language.": [
-        ""
+      "Your email will only be used for this one-time verification.": [
+        "メールアドレスは、この一度限りの認証にのみ使用されます。"
       ],
-      "Please note that if you delete this filter, we will stop processing all the automated actions it triggers.": [
-        ""
+      "Your phone number will only be used for this one-time verification.": [
+        "電話番号は、この一度限りの認証にのみ使用されます。"
       ],
-      "Are you sure you want to delete this filter?": [
-        "このフィルターを削除してよろしいですか？"
+      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
+        "アカウントの作成に問題がある場合は、招待をリクエストしてください。1営業日以内に対応します。"
       ],
-      "Your Allow List is empty.": [
-        "許可リストは空です。"
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
+        "「新しいコードをリクエスト」をクリックすると新しい認証コードが ${ strong } に送信されます。メールアドレスが違う場合、「編集」をクリックして修正します。"
       ],
-      "Your Block List is empty.": [
-        "ブロックリストは空です。"
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
+        "「新しいコードをリクエスト」をクリックすると新しい認証コードが ${ strong } に送信されます。電話番号が違う場合、「編集」をクリックして修正します。"
       ],
       "Do you want to revoke all other sessions than the current one?": [
         "現在のセッション以外のすべてのセッションを取り消しますか?"
       ],
       "Unless you sign out of your account or change your password, your session will remain active. Sessions expire after 60 days of inactivity.": [
         ""
-      ],
-      "Inherited from parent folder": [
-        "親フォルダーから継承"
-      ],
-      "You can turn on notifications to get alerts when new email messages arrive in this folder.": [
-        "この機能を有効にすると、このフォルダーに新しいメッセージが届いた際に通知されます。"
-      ],
-      "Name your new folder and select the parent folder you want to put it in. If you do not select a parent folder, this new folder will be created as a top level folder.": [
-        "新しいフォルダーの名前と、親フォルダーを選択してください。最上位のフォルダーを作成したい場合は、親フォルダーを選択しないでください。"
-      ],
-      "Emails tagged with this label will not be deleted and can still be found in the respective folder.": [
-        ""
-      ],
-      "Are you sure you want to delete this label?": [
-        "このラベルを削除してよろしいですか?"
-      ],
-      "Emails stored in this folder will not be deleted and can still be found in the All Mail folder.": [
-        ""
-      ],
-      "Are you sure you want to delete this folder?": [
-        "このフォルダーを削除してよろしいですか?"
       ],
       "You can enable authentication logging to see when your account is accessed, and from which IP. We will record the IP address that accesses the account and the time, as well as failed attempts.": [
         "アカウントにアクセスした IPや時刻を確認するために認証ログを有効にできます。アカウントへのログインの試みの失敗と共に、アクセス元IP アドレスと時刻が記録されます。"
@@ -3055,53 +3741,71 @@
       "of": [
         "/"
       ],
+      "Filters work on all emails, including incoming as well as sent emails. Each filter must contain at least a name and a valid Sieve script.": [
+        ""
+      ],
+      "Filters work on all emails, including incoming as well as sent emails. Each filter must contain at least a name, a condition and an action.": [
+        ""
+      ],
+      "No label selected": [
+        ""
+      ],
+      "No folder selected": [
+        "フォルダーが選択されていません"
+      ],
+      "No action selected": [
+        ""
+      ],
+      "(Filter if ALL of the following conditions are met)": [
+        "(以下の全ての条件が満たされた場合に動作します)"
+      ],
+      "(Filter if ANY of the following conditions are met)": [
+        "(以下のいずれかの条件が満たされた場合に動作します)"
+      ],
+      "All your changes will be lost.": [
+        "変更内容は全て失われます。"
+      ],
+      "Are you sure you want to discard your changes?": [
+        "変更を破棄してよろしいですか?"
+      ],
+      "Custom filters work on all new emails, including incoming emails as well as sent emails. Filters can be edited and created directly via Sieve programming language.": [
+        ""
+      ],
+      "Please note that if you delete this filter, we will stop processing all the automated actions it triggers.": [
+        ""
+      ],
+      "Are you sure you want to delete this filter?": [
+        "このフィルターを削除してよろしいですか？"
+      ],
+      "Your Allow List is empty.": [
+        "許可リストは空です。"
+      ],
+      "Your Block List is empty.": [
+        "ブロックリストは空です。"
+      ],
+      "Inherited from parent folder": [
+        "親フォルダーから継承"
+      ],
+      "You can turn on notifications to get alerts when new email messages arrive in this folder.": [
+        "この機能を有効にすると、このフォルダーに新しいメッセージが届いた際に通知されます。"
+      ],
+      "Name your new folder and select the parent folder you want to put it in. If you do not select a parent folder, this new folder will be created as a top level folder.": [
+        "新しいフォルダーの名前と、親フォルダーを選択してください。最上位のフォルダーを作成したい場合は、親フォルダーを選択しないでください。"
+      ],
+      "Emails tagged with this label will not be deleted and can still be found in the respective folder.": [
+        ""
+      ],
+      "Are you sure you want to delete this label?": [
+        "このラベルを削除してよろしいですか?"
+      ],
+      "Emails stored in this folder will not be deleted and can still be found in the All Mail folder.": [
+        ""
+      ],
+      "Are you sure you want to delete this folder?": [
+        "このフォルダーを削除してよろしいですか?"
+      ],
       "support team": [
         "サポートチーム"
-      ],
-      "When disabled, this prevents all files from loading on your device without your knowledge.\t": [
-        ""
-      ],
-      "When disabled, this prevents image files from loading on your device without your knowledge.": [
-        ""
-      ],
-      "here": [
-        "こちら"
-      ],
-      "This account has been suspended due to a potential policy violation.": [
-        "このアカウントは、ポリシー違反の可能性があるため停止されています。"
-      ],
-      "If you believe this is in error, please contact us ${ contactLink }.": [
-        "エラーだと思われる場合は{ contactLink } までご連絡ください"
-      ],
-      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
-        ""
-      ],
-      "Let your contacts know you care about their privacy.": [
-        "あなたが宛先の方のプライバシーに配慮していることを伝えましょう。"
-      ],
-      "Please note that if you delete this address, you will no longer be able to send or receive emails using this address.": [
-        ""
-      ],
-      "Are you sure you want to delete this address?": [
-        "本当にこのアドレスを削除してよいですか。"
-      ],
-      "The email address you place at the top of the list is your default email address. Drag and drop to reorder your addresses.": [
-        "リストの一番上にあるものが、デフォルトのメールアドレスとして使用されます。メールアドレスを並び替えるには、ドラッグ＆ドロップしてください。"
-      ],
-      "Queued": [
-        "処理待ち"
-      ],
-      "Done": [
-        "完了"
-      ],
-      "Before you can start sending and receiving emails from your new addresses you need to create encryption keys for them.": [
-        "あなたの新しいアドレスからメールの送受信を開始する前に、それらの暗号化キーを作成する必要があります。"
-      ],
-      "You can use ProtonMail with any desktop email client that supports IMAP/SMTP, including Outlook, Apple Mail, and Thunderbird.": [
-        "Outlook、メール (Apple)、Thunderbird などの IMAP/SMTP をサポートするデスクトップ向けメールクライアントでも ProtonMail を使うことができます。"
-      ],
-      "Upgrade to a paid plan to unlock IMAP/SMTP support through ProtonMail Bridge.": [
-        "有料プランにアップグレードすることで ProtonMail Bridge を使った IMAP/SMTP サポートを利用することができます。"
       ],
       "This will create an encryption key for your organization. 4096-bit keys only work on high performance computers, for most users, we recommend using 2048-bit keys.": [
         "組織用の暗号鍵を作成します。4096ビット鍵は高性能コンピューターでのみ動作します。ほとんどのユーザーには2048ビット鍵の使用をお勧めします。"
@@ -3169,6 +3873,54 @@
       "Your organization's emails are protected with end-to-end encryption using the organization key. This fingerprint can be used to verify that all administrators in your account have the same key.": [
         ""
       ],
+      "Prevents remote email content from loading automatically.": [
+        ""
+      ],
+      "When disabled, this prevents image files from loading on your device without your knowledge.": [
+        ""
+      ],
+      "Prevents senders from knowing whether and when you have opened a message.": [
+        ""
+      ],
+      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
+        ""
+      ],
+      "here": [
+        "こちら"
+      ],
+      "This account has been suspended due to a potential policy violation.": [
+        "このアカウントは、ポリシー違反の可能性があるため停止されています。"
+      ],
+      "If you believe this is in error, please contact us ${ contactLink }.": [
+        "エラーだと思われる場合は{ contactLink } までご連絡ください"
+      ],
+      "Let your contacts know you care about their privacy.": [
+        "あなたが宛先の方のプライバシーに配慮していることを伝えましょう。"
+      ],
+      "Please note that if you delete this address, you will no longer be able to send or receive emails using this address.": [
+        ""
+      ],
+      "Are you sure you want to delete this address?": [
+        "本当にこのアドレスを削除してよいですか。"
+      ],
+      "The email address you place at the top of the list is your default email address. Drag and drop to reorder your addresses.": [
+        "リストの一番上にあるものが、デフォルトのメールアドレスとして使用されます。メールアドレスを並び替えるには、ドラッグ＆ドロップしてください。"
+      ],
+      "Queued": [
+        "処理待ち"
+      ],
+      "Done": [
+        "完了"
+      ],
+      "Before you can start sending and receiving emails from your new addresses you need to create encryption keys for them.": [
+        "あなたの新しいアドレスからメールの送受信を開始する前に、それらの暗号化キーを作成する必要があります。"
+      ],
+      "You can use ProtonMail with any desktop email client that supports IMAP/SMTP, including Outlook, Apple Mail, and Thunderbird.": [
+        "Outlook、メール (Apple)、Thunderbird などの IMAP/SMTP をサポートするデスクトップ向けメールクライアントでも ProtonMail を使うことができます。"
+      ],
+      "Upgrade to a paid plan to unlock IMAP/SMTP support through ProtonMail Bridge.": [
+        "有料プランにアップグレードすることで ProtonMail Bridge を使った IMAP/SMTP サポートを利用することができます。"
+      ],
       "This user is currently responsible for payments for your organization. By demoting this member, you will become responsible for payments for your organization.": [
         "このユーザーは組織の経理責任を負っています。このユーザーを降格させた場合、あなたが経理責任を負います。"
       ],
@@ -3186,6 +3938,15 @@
       ],
       "more": [
         "詳細"
+      ],
+      "Session timed out.": [
+        "セッションがタイムアウトしました。"
+      ],
+      "Internet connection lost.": [
+        "インターネット接続切断"
+      ],
+      "Servers are unreachable.": [
+        "サーバーに接続できません。"
       ],
       "Custom daily": [
         "毎日 (カスタム)"
@@ -3210,15 +3971,6 @@
       ],
       "Yearly": [
         "毎年"
-      ],
-      "Session timed out.": [
-        "セッションがタイムアウトしました。"
-      ],
-      "Internet connection lost.": [
-        "インターネット接続切断"
-      ],
-      "Servers are unreachable.": [
-        "サーバーに接続できません。"
       ],
       "Users can't make changes to organization settings. If you need admin privileges, reach out to your system administrator.": [
         ""
@@ -3344,743 +4096,6 @@
         "この処理には機器により、数秒から数分を要します。"
       ]
     },
-    "Title": {
-      "Expand content": [
-        "コンテンツを展開"
-      ],
-      "Link confirmation": [
-        "リンクの確認"
-      ],
-      "Open actions dropdown": [
-        "アクションドロップダウンを開く"
-      ],
-      "Previous": [
-        "前へ"
-      ],
-      "Open pagination": [
-        "ページネーションを開く"
-      ],
-      "Next": [
-        "次へ"
-      ],
-      "Keyboard Shortcuts": [
-        "キーボードショートカット"
-      ],
-      "What's new": [
-        "更新情報"
-      ],
-      "Enable keyboard shortcuts": [
-        "キーボードショートカットを有効にする"
-      ],
-      "Exporting contacts": [
-        "連絡先のエクスポート中"
-      ],
-      "Select action to take on contact group": [
-        ""
-      ],
-      "Add contact group name": [
-        ""
-      ],
-      "Select contact group": [
-        "連絡先グループを選択"
-      ],
-      "Warning": [
-        "警告"
-      ],
-      "Import groups": [
-        "グループのインポート"
-      ],
-      "Import contacts": [
-        "連絡先のインポート"
-      ],
-      "1. Select platform": [
-        "1. プラットフォームを選択"
-      ],
-      "2. Select protocol": [
-        "2. プロトコルを選択"
-      ],
-      "3. Select config file and download": [
-        "3. 設定ファイルを選択してダウンロード"
-      ],
-      "Get ProtonVPN Plus to access all servers": [
-        "すべてのサーバーに接続するために ProtonVPN Plus を入手"
-      ],
-      "Start import process": [
-        "インポートを開始"
-      ],
-      "Import in progress": [
-        "インポートは進行しています"
-      ],
-      "Customize import": [
-        "インポートのカスタマイズ"
-      ],
-      "Prepare for import": [
-        "インポートの準備"
-      ],
-      "Prepare Yahoo Mail for import": [
-        "Yahoo Mail からインポートする準備"
-      ],
-      "Prepare Gmail for import ${ gmailInstructionsStep }/${ totalSteps }": [
-        "Gmail からインポートする準備 ${ gmailInstructionsStep }/${ totalSteps }"
-      ],
-      "Reconnect your account": [
-        "アカウントに再接続"
-      ],
-      "Start a new import": [
-        "新しいインポートを開始"
-      ],
-      "Edit domain": [
-        "ドメインの編集"
-      ],
-      "Add domain": [
-        "ドメインを追加"
-      ],
-      "Catch-All address": [
-        "Catch-All アドレス"
-      ],
-      "Delete ${ domain.DomainName }": [
-        "${ domain.DomainName } を削除"
-      ],
-      "Error": [
-        "エラー"
-      ],
-      "Update calendar": [
-        "カレンダーの更新"
-      ],
-      "Create calendar": [
-        "カレンダーの作成"
-      ],
-      "Select the way to send this notification": [
-        ""
-      ],
-      "Select when you want this notification to be sent": [
-        ""
-      ],
-      "Select the time to send this notification": [
-        ""
-      ],
-      "Add another notification to remind you of this event": [
-        ""
-      ],
-      "Export calendar": [
-        "カレンダーをエクスポート"
-      ],
-      "Delete calendar": [
-        "カレンダーの削除"
-      ],
-      "Remove calendar": [
-        ""
-      ],
-      "Import events": [
-        "予定のインポート"
-      ],
-      "Your calendar link": [
-        "あなたのカレンダーリンク"
-      ],
-      "Reactivate keys": [
-        ""
-      ],
-      "Decrypt key": [
-        "キーを復号"
-      ],
-      "Export public key": [
-        "公開鍵のエクスポート"
-      ],
-      "Export private key": [
-        "秘密鍵のエクスポート"
-      ],
-      "Delete key": [
-        "鍵の削除"
-      ],
-      "Create key": [
-        "鍵の作成"
-      ],
-      "Success": [
-        "完了"
-      ],
-      "Import key": [
-        "鍵のインポート"
-      ],
-      "Open help menu": [
-        "ヘルプメニューを開く"
-      ],
-      "Back": [
-        "戻る"
-      ],
-      "Report a problem": [
-        "問題を報告"
-      ],
-      "Confirm loss of Proton bonuses": [
-        "Proton ボーナスの損失を確認"
-      ],
-      "Processing": [
-        "処理中"
-      ],
-      "Downgrade account": [
-        ""
-      ],
-      "Network error": [
-        "ネットワークエラー"
-      ],
-      "Select a plan": [
-        "プランを選択"
-      ],
-      "Customize your plan": [
-        "プランをカスタマイズ"
-      ],
-      "Checkout": [
-        "注文"
-      ],
-      "Current plan": [
-        "現在のプラン"
-      ],
-      "Apply gift code": [
-        "ギフトコードを使用"
-      ],
-      "Subtotal": [
-        "小計"
-      ],
-      "Coupon discount": [
-        "クーポン割引"
-      ],
-      "Total (monthly)": [
-        "合計 (月額換算)"
-      ],
-      "Credits": [
-        "クレジット"
-      ],
-      "Gift code": [
-        "ギフトコード"
-      ],
-      "Amount due": [
-        "支払い総額"
-      ],
-      "Edit credit/debit card": [
-        "クレジット・デビットカードの編集"
-      ],
-      "Add credit/debit card": [
-        "クレジット・デビットカードの追加"
-      ],
-      "Add PayPal payment method": [
-        "PayPal 支払いの追加"
-      ],
-      "Add credits": [
-        "クレジットの追加"
-      ],
-      "Confirm downgrade": [
-        "ダウングレードの確認"
-      ],
-      "ZIP / postal code": [
-        "郵便番号"
-      ],
-      "Currency": [
-        "通貨"
-      ],
-      "Billing cycle": [
-        "支払い間隔"
-      ],
-      "Payment details": [
-        "支払い方法の詳細"
-      ],
-      "Unsupported browser": [
-        "未対応のブラウザー"
-      ],
-      "Card verification": [
-        "カードの検証"
-      ],
-      "Payment verification": [
-        "支払いの検証"
-      ],
-      "Processing...": [
-        "処理中..."
-      ],
-      "Card verification in progress": [
-        "カード検証中"
-      ],
-      "Payment verification in progress": [
-        "支払いを検証中"
-      ],
-      "PayPal verification failed": [
-        "PayPal 認証に失敗しました。"
-      ],
-      "3-D Secure verification failed": [
-        "3Dセキュアの検証に失敗しました"
-      ],
-      "${ appName } customization": [
-        "${ appName } のカスタマイズ"
-      ],
-      "Plan summary": [
-        "プランの概要"
-      ],
-      "Invalid verification code": [
-        "無効な検証コードです"
-      ],
-      "Human verification": [
-        "人間であることの検証"
-      ],
-      "Request new code": [
-        "新しいコードの発行"
-      ],
-      "Automatically sign outgoing messages?": [
-        ""
-      ],
-      "Change password for ${ Name } (${ Email })": [
-        "${ Name } (${ Email }) のパスワードを変更"
-      ],
-      "Change password": [
-        "パスワードを変更"
-      ],
-      "Change login password": [
-        "ログインパスワードを変更"
-      ],
-      "Switch to two-password mode": [
-        "2パスワードモードに切り替える"
-      ],
-      "Switch to one-password mode": [
-        "標準のパスワードモードに切り替える"
-      ],
-      "Change mailbox password": [
-        "メールボックスのパスワードの変更"
-      ],
-      "Set up two-factor authentication": [
-        "2要素認証の設定"
-      ],
-      "Disable two-factor authentication": [
-        "2段階認証を無効化"
-      ],
-      "Password": [
-        "パスワード"
-      ],
-      "Login password": [
-        "ログインパスワード"
-      ],
-      "Delete account": [
-        "アカウントの削除"
-      ],
-      "Confirm address": [
-        "アドレスの確認"
-      ],
-      "Confirm phone number": [
-        "電話番号の確認"
-      ],
-      "Edit filter": [
-        "フィルターの編集"
-      ],
-      "Add filter": [
-        "フィルターを追加"
-      ],
-      "Are you sure you want to close?": [
-        "本当に画面を閉じてよろしいですか？"
-      ],
-      "Edit Sieve filter": [
-        "Sieve フィルターの編集"
-      ],
-      "Add Sieve filter": [
-        "Sieve フィルターの追加"
-      ],
-      "Delete ${ filter.Name }": [
-        "${ filter.Name } を削除"
-      ],
-      "Allow List": [
-        "許可リスト"
-      ],
-      "Block List": [
-        "ブロックリスト"
-      ],
-      "Add to Block List": [
-        "ブロックリストに追加"
-      ],
-      "Add to Allow List": [
-        "許可リストに追加"
-      ],
-      "Edit Block List": [
-        "ブロックリストの編集"
-      ],
-      "Edit Allow List": [
-        "許可リストの編集"
-      ],
-      "App": [
-        "アプリ"
-      ],
-      "Date": [
-        "日付"
-      ],
-      "Action": [
-        "アクション"
-      ],
-      "Delete ${ Name } folder": [
-        ""
-      ],
-      "Delete ${ Name } label": [
-        ""
-      ],
-      "Sort folders alphabetically": [
-        ""
-      ],
-      "Sort labels alphabetically": [
-        "ラベルをアルファベット順に並べ替え"
-      ],
-      "Delete logs": [
-        "ログの削除"
-      ],
-      "Clear": [
-        "消去"
-      ],
-      "Pay invoice": [
-        "請求の支払い"
-      ],
-      "Add invoice details": [
-        "請求書の詳細を追加"
-      ],
-      "Amount": [
-        "金額"
-      ],
-      "Type": [
-        "種類"
-      ],
-      "Status": [
-        "状態"
-      ],
-      "Account suspended": [
-        "アカウントが停止されました"
-      ],
-      "Sign in again to continue": [
-        "再度サインインして続行"
-      ],
-      "${ appName } Keyboard Shortcuts": [
-        "${ appName } のキーボードショートカット"
-      ],
-      "Add address": [
-        "アドレスを追加"
-      ],
-      "Delete ${ address.Email }": [
-        "${ address.Email } を削除"
-      ],
-      "Generate missing keys": [
-        "紛失した鍵の生成"
-      ],
-      "Bridge for ${ platform }": [
-        "${ platform } 用 Bridge"
-      ],
-      "Change organization name": [
-        "組織名を変更"
-      ],
-      "Set organization name": [
-        "組織名を設定"
-      ],
-      "Set organization keys": [
-        "組織用の鍵を設定"
-      ],
-      "Set organization password": [
-        ""
-      ],
-      "Allocate storage": [
-        "ストレージを割り当てる"
-      ],
-      "Allocate VPN connections": [
-        "VPN 接続を割り当てる"
-      ],
-      "Reset organization keys": [
-        "組織の鍵をリセット"
-      ],
-      "Change organization keys": [
-        "組織用の鍵を変更"
-      ],
-      "Activate organization key": [
-        "組織の鍵をアクティベート"
-      ],
-      "Restore administrator privileges": [
-        "管理者権限を修復"
-      ],
-      "Change organization password": [
-        "組織パスワードを変更"
-      ],
-      "Change role": [
-        ""
-      ],
-      "Edit user": [
-        "ユーザーを編集"
-      ],
-      "Delete user": [
-        "ユーザーを削除"
-      ],
-      "Add user": [
-        "ユーザーを追加"
-      ],
-      "General": [
-        "一般"
-      ],
-      "Theme": [
-        "テーマ"
-      ],
-      "Contacts": [
-        "連絡先"
-      ],
-      "Import & export": [
-        "インポートとエクスポート"
-      ],
-      "Import": [
-        "インポート"
-      ],
-      "Export": [
-        "エクスポート"
-      ],
-      "VPN apps": [
-        "VPN アプリ"
-      ],
-      "ProtonVPN": [
-        "ProtonVPN"
-      ],
-      "OpenVPN / IKEv2": [
-        ""
-      ],
-      "Credentials": [
-        "認証情報"
-      ],
-      "OpenVPN configuration files": [
-        "OpenVPN 設定ファイル"
-      ],
-      "Appearance": [
-        "外観"
-      ],
-      "Layout": [
-        "レイアウト"
-      ],
-      "Other": [
-        "その他"
-      ],
-      "Domain names": [
-        "ドメイン名"
-      ],
-      "Catch-all address": [
-        "キャッチオールアドレス"
-      ],
-      "Auto reply": [
-        "自動返信"
-      ],
-      "Encryption & keys": [
-        ""
-      ],
-      "Address verification": [
-        "アドレスの検証"
-      ],
-      "External PGP settings": [
-        "外部 PGP 設定"
-      ],
-      "Email encryption keys": [
-        "電子メールの暗号鍵"
-      ],
-      "Contact encryption keys": [
-        "連絡先の暗号鍵"
-      ],
-      "Filters": [
-        "フィルター"
-      ],
-      "Custom filters": [
-        "仕分けフィルター"
-      ],
-      "Spam filters": [
-        "迷惑メールフィルター"
-      ],
-      "Folders & labels": [
-        "フォルダーとラベル"
-      ],
-      "Folders": [
-        "フォルダー"
-      ],
-      "Labels": [
-        "ラベル"
-      ],
-      "Short domain (@pm.me)": [
-        "短縮ドメイン (@pm.me)"
-      ],
-      "Messages": [
-        "メッセージ"
-      ],
-      "Advanced": [
-        "拡張"
-      ],
-      "Identity & addresses": [
-        ""
-      ],
-      "Display name & signature": [
-        "表示名と署名"
-      ],
-      "My addresses": [
-        "あなたのメールアドレス"
-      ],
-      "IMAP/SMTP": [
-        "IMAP/SMTP"
-      ],
-      "ProtonMail Bridge": [
-        "ProtonMail Bridge"
-      ],
-      "Import Assistant": [
-        "Import Assistant"
-      ],
-      "Current & past imports": [
-        "現在および過去のインポート"
-      ],
-      "Import-Export app": [
-        "Import-Export アプリ"
-      ],
-      "Password & recovery": [
-        "パスワードと回復"
-      ],
-      "Passwords": [
-        "パスワード"
-      ],
-      "Recovery & notification": [
-        "回復と通知"
-      ],
-      "Security": [
-        "セキュリティ"
-      ],
-      "Session management": [
-        "セッション管理"
-      ],
-      "Security logs": [
-        "セキュリティログ"
-      ],
-      "Payment": [
-        "支払い"
-      ],
-      "Billing details": [
-        "請求の詳細"
-      ],
-      "Payment methods": [
-        "支払い方法"
-      ],
-      "Invoices": [
-        "請求書"
-      ],
-      "Dashboard": [
-        "ダッシュボード"
-      ],
-      "Select plan": [
-        "プランを選択"
-      ],
-      "Your current plan": [
-        "現在のプラン"
-      ],
-      "Your plan": [
-        "現在のプラン"
-      ],
-      "Language & time": [
-        "言語と時間"
-      ],
-      "Email subscriptions": [
-        "メーリングリストの購読"
-      ],
-      "My calendars": [
-        "マイカレンダー"
-      ],
-      "Subscribed calendars": [
-        "登録済みカレンダー"
-      ],
-      "Share outside Proton": [
-        "Proton 外に共有"
-      ],
-      "Time zone": [
-        "タイムゾーン"
-      ],
-      "Organization": [
-        "組織"
-      ],
-      "Multi-user support": [
-        "複数ユーザー対応"
-      ],
-      "Users and addresses": [
-        ""
-      ],
-      "Addresses": [
-        "メールアドレス"
-      ],
-      "Organization & keys": [
-        "組織と鍵"
-      ],
-      "Password & keys": [
-        ""
-      ],
-      "Sorry, you can't access this page": [
-        "申し訳ありませんが、このページにアクセスできません"
-      ],
-      "Upgrade": [
-        "アップグレード"
-      ],
-      "Proton Logo": [
-        "Proton ロゴ"
-      ],
-      "Settings": [
-        "設定"
-      ],
-      "Choose an account": [
-        "アカウントの選択"
-      ],
-      "Email": [
-        "メールアドレス"
-      ],
-      "Phone": [
-        "電話番号"
-      ],
-      "Find email or username": [
-        "メールアドレスまたはユーザー名を探す"
-      ],
-      "This address might compromise your privacy.": [
-        "このアドレスはブライバシーを損なう可能性があります。"
-      ],
-      "Create your Proton Account": [
-        "Proton アカウントを作成"
-      ],
-      "Add a recovery method": [
-        "回復手段の追加"
-      ],
-      "(highly recommended)": [
-        "(強く推奨)"
-      ],
-      "Account verification": [
-        "アカウント認証"
-      ],
-      "Plan selection": [
-        "プランの選択"
-      ],
-      "Are you human?": [
-        "あなたは人間ですか？"
-      ],
-      "Creating account": [
-        "アカウントの作成中"
-      ],
-      "Sign in": [
-        "サインイン"
-      ],
-      "Two-factor authentication": [
-        "2要素認証"
-      ],
-      "Unlock your mailbox": [
-        "メールボックスのロック解除"
-      ],
-      "Set new password": [
-        "新しいパスワードを設定"
-      ],
-      "Create a ${ mailAppName } address": [
-        "${ mailAppName } アドレスを作成"
-      ],
-      "Address is available": [
-        "アドレスは利用可能です"
-      ],
-      "Reset password?": [
-        "パスワードをリセット?"
-      ],
-      "Warning!": [
-        "警告!"
-      ],
-      "Reset password": [
-        "パスワードをリセット"
-      ],
-      "No recovery method": [
-        "リカバリ方法がありません"
-      ]
-    },
     "Font Face Default": {
       "Default": [
         ""
@@ -4127,14 +4142,14 @@
       "Add a gift code": [
         "ギフトコードを追加"
       ],
-      "Request an invite": [
-        "登録を申請"
-      ],
       "Pay invoice": [
         "請求の支払い"
       ],
       "Upgrade account": [
         "アカウントをアップグレード"
+      ],
+      "Request an invite": [
+        "登録を申請"
       ],
       "Calendars": [
         "カレンダー"
@@ -4184,17 +4199,14 @@
       "Preference saved": [
         "設定が保存されました"
       ],
+      "Locale updated": [
+        "言語設定が更新されました"
+      ],
       "Premium address created": [
         "プレミアムアドレスが作成されました"
       ],
       "Keyboard shortcuts preferences updated": [
         "キーボードショートカットの設定が更新されました"
-      ],
-      "Locale updated": [
-        "言語設定が更新されました"
-      ],
-      "${ server.Domain } copied in your clipboard": [
-        "${ server.Domain }がクリップボードにコピーされました"
       ],
       "Import resumed": [
         "インポートが再開されました"
@@ -4226,26 +4238,8 @@
       "Catch-all address updated": [
         "Catch-All アドレスが更新されました"
       ],
-      "Calendar added. It might take a few minutes to sync.": [
-        ""
-      ],
-      "Calendar created": [
-        "カレンダーが作成されました。"
-      ],
-      "Calendar updated": [
-        "カレンダーが更新されました。"
-      ],
-      "Default calendar updated": [
-        "既定のカレンダーが更新されました。"
-      ],
-      "Calendar removed": [
-        "カレンダーが削除されました。"
-      ],
-      "Auto-reply disabled": [
-        ""
-      ],
-      "Auto-reply updated": [
-        "自動返信が更新されました。"
+      "${ server.Domain } copied in your clipboard": [
+        "${ server.Domain }がクリップボードにコピーされました"
       ],
       "Email address copied to clipboard": [
         "メールアドレスがクリップボードにコピーされました"
@@ -4268,11 +4262,26 @@
       "Gift code applied": [
         "ギフトコードが適用されました。"
       ],
-      "Code sent to ${ methodTo }": [
-        "${ methodTo } にコードを送信しました"
+      "Auto-reply disabled": [
+        ""
       ],
-      "Verification successful": [
-        "検証に成功しました"
+      "Auto-reply updated": [
+        "自動返信が更新されました。"
+      ],
+      "Calendar added. It might take a few minutes to sync.": [
+        ""
+      ],
+      "Calendar created": [
+        "カレンダーが作成されました。"
+      ],
+      "Calendar updated": [
+        "カレンダーが更新されました。"
+      ],
+      "Default calendar updated": [
+        "既定のカレンダーが更新されました。"
+      ],
+      "Calendar removed": [
+        "カレンダーが削除されました。"
       ],
       "Password updated": [
         "パスワードを更新しました。"
@@ -4285,6 +4294,12 @@
       ],
       "Phone number updated": [
         "電話番号が更新されました"
+      ],
+      "Code sent to ${ methodTo }": [
+        "${ methodTo } にコードを送信しました"
+      ],
+      "Verification successful": [
+        "検証に成功しました"
       ],
       "Session revoked": [
         "セッションが取り消されました"
@@ -4301,17 +4316,17 @@
       "Invoice customized": [
         "請求書のカスタマイズが保存されました"
       ],
-      "Address updated": [
-        "アドレスが更新されました"
-      ],
-      "Address added": [
-        "アドレスが追加されました"
-      ],
       "Organization activated": [
         "組織が有効になりました"
       ],
       "Keys updated": [
         "キーが更新されました"
+      ],
+      "Address updated": [
+        "アドレスが更新されました"
+      ],
+      "Address added": [
+        "アドレスが追加されました"
       ],
       "User updated": [
         "ユーザが更新されました。"
@@ -4341,6 +4356,18 @@
       ],
       "Ignore group": [
         ""
+      ],
+      "Normal": [
+        "標準"
+      ],
+      "Plain text": [
+        "プレーンテキスト"
+      ],
+      "Left to Right": [
+        "左から右"
+      ],
+      "Right to Left": [
+        "右から左"
       ],
       "Android": [
         "Android"
@@ -4377,24 +4404,6 @@
       ],
       "Free server configs": [
         "無料サーバーの設定ファイル"
-      ],
-      "Normal": [
-        "標準"
-      ],
-      "Plain text": [
-        "プレーンテキスト"
-      ],
-      "Left to Right": [
-        "左から右"
-      ],
-      "Right to Left": [
-        "右から左"
-      ],
-      "${ stateOfTheArt } X25519 (Fastest, most modern)": [
-        "${ stateOfTheArt } X25519 (最速かつ現代的)"
-      ],
-      "${ highestSecurity } RSA 4096-bit (Slower, but increased compatibility with legacy software)": [
-        "${ highestSecurity } RSA 4096 ビット (低速、古いソフトウェアとの互換性を維持)"
       ],
       "Fixed duration": [
         "固定期間"
@@ -4578,6 +4587,18 @@
       "You do not have any contacts to export": [
         "エクスポートする連絡先がありません"
       ],
+      "Set the default layout for your Inbox.": [
+        ""
+      ],
+      "Set the default Composer popup size as small or full screen.": [
+        "デフォルトの作成画面ポップアップサイズを小さくするか最大にするか設定します。"
+      ],
+      "When you add a label to a message in a conversation, it will automatically be applied to all future messages you send or receive in that conversation.": [
+        ""
+      ],
+      "Group emails in the same conversation together in your Inbox or display them separately.": [
+        ""
+      ],
       "Customize import to reduce the number of labels": [
         "ラベルの数を減らすためにインポートをカスタマイズします"
       ],
@@ -4608,18 +4629,6 @@
       "Your external account may have reached its 24-hour bandwidth limit. Proton will try to resume the import as soon as possible.": [
         ""
       ],
-      "Set the default layout for your Inbox.": [
-        ""
-      ],
-      "Set the default Composer popup size as small or full screen.": [
-        "デフォルトの作成画面ポップアップサイズを小さくするか最大にするか設定します。"
-      ],
-      "When you add a label to a message in a conversation, it will automatically be applied to all future messages you send or receive in that conversation.": [
-        ""
-      ],
-      "Group emails in the same conversation together in your Inbox or display them separately.": [
-        ""
-      ],
       "We stopped DKIM signing due to problems with your DNS configuration. Please follow the instructions below to resume signing.": [
         "DNS 設定に問題があるため、DKIM の署名を停止しました。署名を再開するには、以下の手順に従ってください。"
       ],
@@ -4628,27 +4637,6 @@
       ],
       "We detected a problem with your DNS configuration. Please make sure your records match the instructions below. If the problem persists, we will have to switch DKIM signing off.": [
         ""
-      ],
-      "This feature is unavailable for the moment": [
-        ""
-      ],
-      "ProtonMail users will use this key by default for sending": [
-        "ProtonMailのユーザーは、既定でこの鍵を使用して送信します"
-      ],
-      "You have locally decrypted this key": [
-        "復号された鍵をローカルに所持します。"
-      ],
-      "This key is encrypted with an old password": [
-        "この鍵は旧いパスワードで暗号化されています。"
-      ],
-      "Signatures produced by this key are treated as invalid and this key cannot be used for encryption": [
-        "この鍵でされた署名を無効なものとして扱い、暗号化にも使用できなくします"
-      ],
-      "This key cannot be used for encryption": [
-        "この鍵は暗号化に使用できません"
-      ],
-      "This address has been disabled": [
-        "このアドレスは無効になっています"
       ],
       "Use multiple addresses / aliases linked to your account, e.g. username2@protonmail.com": [
         "username2@protonmail.com のようなアカウントにリンクされたアドレス / エイリアスを利用してください。"
@@ -4698,14 +4686,35 @@
       "If you purchased a gift code or received one from our support team, you can enter it here.": [
         "ギフトコードを購入もしくはサポートチームから受け取った場合、こちらに入力してください。"
       ],
+      "This feature is unavailable for the moment": [
+        ""
+      ],
+      "ProtonMail users will use this key by default for sending": [
+        "ProtonMailのユーザーは、既定でこの鍵を使用して送信します"
+      ],
+      "You have locally decrypted this key": [
+        "復号された鍵をローカルに所持します。"
+      ],
+      "This key is encrypted with an old password": [
+        "この鍵は旧いパスワードで暗号化されています。"
+      ],
+      "Signatures produced by this key are treated as invalid and this key cannot be used for encryption": [
+        "この鍵でされた署名を無効なものとして扱い、暗号化にも使用できなくします"
+      ],
+      "This key cannot be used for encryption": [
+        "この鍵は暗号化に使用できません"
+      ],
+      "This address has been disabled": [
+        "このアドレスは無効になっています"
+      ],
+      "Enabling advanced logs records the IP address for each event in the security log.": [
+        "詳細ログを有効にすると、セキュリティログの各イベントの IP アドレスが記録されます。"
+      ],
       "This feature is only available for paid users": [
         ""
       ],
       "Enable/disable desktop and mobile notifications": [
         "デスクトップおよびモバイル端末での通知の有効/無効"
-      ],
-      "Enabling advanced logs records the IP address for each event in the security log.": [
-        "詳細ログを有効にすると、セキュリティログの各イベントの IP アドレスが記録されます。"
       ],
       "Messages in the Sent or Drafts folder will continue to appear in that folder, even if you move them to another folder.": [
         ""
@@ -4890,71 +4899,28 @@
         ""
       ]
     },
-    "VPNClient": {
-      "Android": [
-        "Android"
+    "Label to change composer mode": {
+      "Normal": [
+        "標準"
       ],
-      "iOS": [
-        "iOS"
-      ],
-      "Windows": [
-        "Windows"
-      ],
-      "macOS": [
-        "macOS"
-      ],
-      "GNU/Linux": [
-        "GNU/Linux"
-      ],
-      "Chromebook": [
-        "Chromebook"
-      ],
-      "Android TV": [
-        "Android TV"
+      "Maximized": [
+        "最大化"
       ]
     },
-    "Notification": {
-      "OpenVPN / IKEv2 credentials regenerated": [
-        "OpenVPN / IKEv2 認証情報を更新しました"
+    "Label to change view layout": {
+      "Column": [
+        "列"
       ],
-      "${ _Filter.Name } created": [
-        "${ _Filter.Name } が作成されました。"
-      ],
-      "A disabled address cannot be primary": [
-        ""
+      "Row": [
+        "行"
       ]
     },
-    "CountryInfo": {
-      "(via ${ entryCountryName })": [
-        "(${ entryCountryName } 経由)"
-      ]
-    },
-    "Feature": {
-      "Access to all countries": [
-        "すべての国にアクセス"
+    "Label to change density": {
+      "Comfortable": [
+        "通常"
       ],
-      "Secure Core servers": [
-        "Secure Core サーバー"
-      ],
-      "Fastest VPN servers": [
-        "最速の VPN サーバー"
-      ],
-      "Torrenting support (P2P)": [
-        "Torrent 対応 (P2P)"
-      ],
-      "Connection for up to ${ plusVpnConnections } device": [
-        "最大 ${ plusVpnConnections } 台のデバイスに接続"
-      ],
-      "Secure streaming support": [
-        "安全なストリーミングに対応"
-      ],
-      "VPN ${ connectionsPluralized }": [
-        ""
-      ]
-    },
-    "VPN info": {
-      "Netflix, Amazon Prime Video, BBC iPlayer, ESPN+, Disney+, HBO Now, and more.": [
-        "Netflix、Amazon Prime Video、BBC iPlayer、ESPN+、Disney+、HBO Now など"
+      "Compact": [
+        "コンパクト"
       ]
     },
     "Loading info": {
@@ -5333,30 +5299,6 @@
         ""
       ]
     },
-    "Label to change composer mode": {
-      "Normal": [
-        "標準"
-      ],
-      "Maximized": [
-        "最大化"
-      ]
-    },
-    "Label to change view layout": {
-      "Column": [
-        "列"
-      ],
-      "Row": [
-        "行"
-      ]
-    },
-    "Label to change density": {
-      "Comfortable": [
-        "通常"
-      ],
-      "Compact": [
-        "コンパクト"
-      ]
-    },
     "Label for adding a new custom domain": {
       "Add a domain that you own to your ProtonMail account.": [
         "あなたが所有しているドメインをProtonMailアカウントに追加してください。"
@@ -5493,111 +5435,77 @@
         "2 要素認証を無効にしてよろしいですか?"
       ]
     },
-    "Duration": {
-      "30 minutes": [
-        "30分"
+    "VPNClient": {
+      "Android": [
+        "Android"
       ],
-      "60 minutes": [
-        "60分"
+      "iOS": [
+        "iOS"
       ],
-      "90 minutes": [
-        "90分"
+      "Windows": [
+        "Windows"
       ],
-      "120 minutes": [
-        "120分"
+      "macOS": [
+        "macOS"
+      ],
+      "GNU/Linux": [
+        "GNU/Linux"
+      ],
+      "Chromebook": [
+        "Chromebook"
+      ],
+      "Android TV": [
+        "Android TV"
       ]
     },
-    "Notification when": {
-      "day before": [
-        "日前"
+    "Notification": {
+      "OpenVPN / IKEv2 credentials regenerated": [
+        "OpenVPN / IKEv2 認証情報を更新しました"
       ],
-      "on the same day": [
-        ""
+      "${ _Filter.Name } created": [
+        "${ _Filter.Name } が作成されました。"
       ],
-      "at time of event": [
-        ""
-      ],
-      "week before": [
-        "週間前"
-      ],
-      "minute before": [
-        "分前"
-      ],
-      "hour before": [
-        "時間前"
-      ]
-    },
-    "Notification type": {
-      "notification": [
-        "通知"
-      ],
-      "email": [
-        "メールアドレス"
-      ]
-    },
-    "Title (number of minutes/hours/days/weeks)": {
-      "Choose a number": [
+      "A disabled address cannot be primary": [
         ""
       ]
     },
-    "Notification time input": {
-      "at": [
-        " at"
+    "CountryInfo": {
+      "(via ${ entryCountryName })": [
+        "(${ entryCountryName } 経由)"
       ]
     },
-    "Export calendar": {
-      "Loading events": [
-        "予定を読み込み中"
+    "Feature": {
+      "Access to all countries": [
+        "すべての国にアクセス"
       ],
-      "Decrypting events from your calendar: ${ totalProcessed }/${ totalToProcess }": [
-        ""
+      "Secure Core servers": [
+        "Secure Core サーバー"
       ],
-      "Please don't close the tab before the exporting process is finished.": [
-        ""
+      "Fastest VPN servers": [
+        "最速の VPN サーバー"
       ],
-      "Error decrypting event": [
-        ""
+      "Torrenting support (P2P)": [
+        "Torrent 対応 (P2P)"
       ],
-      "Password reset - multiple events cannot be decrypted": [
-        ""
+      "Connection for up to ${ plusVpnConnections } device": [
+        "最大 ${ plusVpnConnections } 台のデバイスに接続"
       ],
-      "Password reset - event cannot be decrypted": [
-        ""
+      "Secure streaming support": [
+        "安全なストリーミングに対応"
       ],
-      "${ totalProcessed }/${ totalToProcess } event exported": [
-        ""
-      ],
-      "Calendar successfully exported. You can now save the ICS file.": [
-        ""
-      ],
-      "Due to a password reset, some of your events could not be decrypted and exported.": [
-        ""
-      ],
-      "You can save an ICS file of the events that were successfully exported.": [
-        ""
-      ],
-      "Learn how to restore encrypted events with old password": [
-        ""
-      ],
-      "Some of your events could not be exported.": [
-        ""
-      ],
-      "The internet connection was interrupted, causing the export process to fail. Please try again.": [
-        ""
-      ],
-      "Due to a password reset, none of your events could be decrypted and exported.": [
-        ""
-      ],
-      "None of the events could be exported.": [
+      "VPN ${ connectionsPluralized }": [
         ""
       ]
     },
-    "Summary of errors during export calendar": {
-      "Details about events that couldn't be exported": [
-        ""
+    "VPN info": {
+      "Netflix, Amazon Prime Video, BBC iPlayer, ESPN+, Disney+, HBO Now, and more.": [
+        "Netflix、Amazon Prime Video、BBC iPlayer、ESPN+、Disney+、HBO Now など"
       ]
     },
     "Header": {
+      "Get help": [
+        "ヘルプを参照する"
+      ],
       "Name": [
         "名前"
       ],
@@ -5616,8 +5524,11 @@
       "What others see": [
         "他のユーザーが見るもの"
       ],
-      "Get help": [
-        "ヘルプを参照する"
+      "Event": [
+        "イベント"
+      ],
+      "Time": [
+        "日時"
       ],
       "Folders": [
         "フォルダー"
@@ -5625,391 +5536,11 @@
       "Notifications": [
         "通知"
       ],
-      "Event": [
-        "イベント"
-      ],
-      "Time": [
-        "日時"
-      ],
       "Organization key fingerprint": [
         "組織用の鍵のフィンガープリント"
       ],
       "Key type": [
         "鍵の種類"
-      ]
-    },
-    "Calendar status": {
-      "Default": [
-        "既定"
-      ],
-      "Active": [
-        "有効"
-      ],
-      "Disabled": [
-        "無効"
-      ],
-      "Syncing": [
-        "同期中"
-      ],
-      "Not synced": [
-        "同期されていません"
-      ]
-    },
-    "Upgrade notice": {
-      "Upgrade to a paid plan to create up to ${ MAX_CALENDARS_PER_USER } calendar, allowing you to make calendars for work, to share with friends, and just for yourself.": [
-        "${ MAX_CALENDARS_PER_USER } カレンダーまで作成するには、有料プランにアップグレードしてください。 カレンダーを作って友達と共有することができます"
-      ],
-      "Upgrade to a paid plan to share your personal calendar via link with anyone.": [
-        ""
-      ]
-    },
-    "Calendar limit warning": {
-      "You have reached the maximum of ${ calendarsLimit } calendar.": [
-        ""
-      ],
-      "You have reached the maximum of ${ MAX_SUBSCRIBED_CALENDARS_PER_USER } subscribed calendar.": [
-        ""
-      ]
-    },
-    "Subscribed calendar section description": {
-      "Add public, external, or shared calendars using a URL.": [
-        ""
-      ]
-    },
-    "Knowledge base link label": {
-      "Here's how": [
-        "やり方はこちら"
-      ]
-    },
-    "Calendar import section description": {
-      "Import events or the contents of a calendar via ICS files.": [
-        ""
-      ]
-    },
-    "Primary timezone": {
-      "Primary time zone": [
-        "基本のタイムゾーン"
-      ],
-      "Secondary time zone": [
-        "2つ目のタイムゾーン"
-      ]
-    },
-    "Calendar view": {
-      "Day": [
-        "日表示"
-      ],
-      "Week": [
-        "週表示"
-      ],
-      "Month": [
-        "月表示"
-      ]
-    },
-    "Subscribed calendar extension warning": {
-      "This link might be wrong": [
-        ""
-      ],
-      "By using this link, Google will make the calendar you are subscribing to public": [
-        ""
-      ]
-    },
-    "Modal title and action": {
-      "Add calendar": [
-        "カレンダーを追加"
-      ]
-    },
-    "Subscribe to calendar modal description": {
-      "Learn how to get a private calendar link.": [
-        ""
-      ]
-    },
-    "Subscribe to calendar modal": {
-      "You can subscribe to someone else's calendar by pasting its URL below. This will give you access to a read-only version of this calendar.\n${ kbLink }": [
-        ""
-      ],
-      "Calendar URL": [
-        ""
-      ]
-    },
-    "Error message": {
-      "Invalid URL": [
-        "無効なURLです"
-      ],
-      "Oops, something went wrong": [
-        "エラーが発生しました。"
-      ],
-      "Too many child sessions, please clear your cookies and sign back in.": [
-        ""
-      ],
-      "There was a problem connecting to Proton.": [
-        "Proton への接続に問題がありました。"
-      ],
-      "Please ${ refresh } or check your connection.": [
-        "${ refresh } または接続を確認してください。"
-      ],
-      "Error: ${ errorMessage }": [
-        "エラー：${ errorMessage }"
-      ],
-      "Brace yourself till we get the error fixed.": [
-        "エラーが解消されるまでお待ちください。"
-      ],
-      "You may also ${ refresh } or try again later.": [
-        "${ refresh } するか再度お試しください。"
-      ],
-      "There was a problem unsubscribing you.": [
-        ""
-      ],
-      "Please ${ signIn } to update your email subscription preferences.": [
-        ""
-      ]
-    },
-    "Error importing event": {
-      "Event": [
-        "予定"
-      ],
-      "Calendar": [
-        "カレンダー"
-      ],
-      "Timezone": [
-        "タイムゾーン"
-      ],
-      "Element": [
-        ""
-      ],
-      "Bad format. Component cannot be read.": [
-        "不正なフォーマットです。コンポーネントを読み込めません。"
-      ],
-      "Unknown": [
-        "不明"
-      ],
-      "Component with wrong format": [
-        ""
-      ],
-      "Non-Gregorian": [
-        "グレゴリオ暦ではありません"
-      ],
-      "To-do entry": [
-        "To-do のエントリー"
-      ],
-      "Journal entry": [
-        "Journal のエントリー"
-      ],
-      "Free-busy time information": [
-        ""
-      ],
-      "Custom timezone": [
-        "独自のタイムゾーン"
-      ],
-      "Invalid event": [
-        ""
-      ],
-      "Unsupported event": [
-        ""
-      ],
-      "Malformed all-day event": [
-        ""
-      ],
-      "Missing start time": [
-        "開始日時が存在しません"
-      ],
-      "Malformed start time": [
-        "異常な開始日時です"
-      ],
-      "Floating times not supported": [
-        ""
-      ],
-      "Start time out of bounds": [
-        "開始日時が指定可能な範囲を超えています"
-      ],
-      "Malformed end time": [
-        "異常な終了日時です"
-      ],
-      "End time out of bounds": [
-        "終了日時が指定可能な範囲を超えています"
-      ],
-      "Event duration not supported": [
-        ""
-      ],
-      "Calendar timezone not supported": [
-        "カレンダーのタイムゾーンはサポートされていません"
-      ],
-      "Timezone not supported": [
-        "タイムゾーンはサポートされていません"
-      ],
-      "Malformed recurring event": [
-        ""
-      ],
-      "Recurring rule not supported": [
-        "繰り返しルールはサポートされていません"
-      ],
-      "Edited event not supported": [
-        ""
-      ],
-      "Notification out of bounds": [
-        "通知が指定可能な範囲を超えています"
-      ],
-      "Event validation failed": [
-        ""
-      ],
-      "Encryption failed": [
-        "暗号化に失敗しました"
-      ],
-      "Original recurring event could not be found": [
-        "元の定期的な予定が見つかりませんでした"
-      ],
-      "no UID, title or start time": [
-        "UID、タイトルまたは開始日時が存在しません"
-      ]
-    },
-    "Access level": {
-      "Full": [
-        "フル"
-      ],
-      "Limited": [
-        "限定的"
-      ],
-      "Limited view": [
-        "限定ビュー"
-      ],
-      "Full view": [
-        "フルビュー"
-      ]
-    },
-    "Select files": {
-      "Upload additional private keys": [
-        ""
-      ],
-      "Browse": [
-        ""
-      ],
-      "Upload": [
-        "アップロード"
-      ]
-    },
-    "info": {
-      "Key ${ fingerprint } has already been uploaded": [
-        ""
-      ],
-      "Additional duplicate keys detected. Please upload individually for more information.": [
-        ""
-      ],
-      "(beta)": [
-        "(ベータ)"
-      ]
-    },
-    "Keys actions": {
-      "Export": [
-        "エクスポート"
-      ],
-      "Export private key": [
-        "秘密鍵のエクスポート"
-      ],
-      "Make primary": [
-        "プライマリーにする"
-      ],
-      "Mark obsolete": [
-        "廃止された印をつける"
-      ],
-      "Disables encryption with this key": [
-        "この鍵での暗号化を無効にします"
-      ],
-      "Mark not obsolete": [
-        ""
-      ],
-      "Enable encryption with this key": [
-        ""
-      ],
-      "Mark compromised": [
-        "侵害された印をつける"
-      ],
-      "Disables signature verification and encryption with this key": [
-        "この鍵での暗号化および、署名の検証を無効にします"
-      ],
-      "Mark not compromised": [
-        ""
-      ],
-      "Enable signature verification and encryption with this key": [
-        ""
-      ],
-      "Delete": [
-        "削除"
-      ]
-    },
-    "Key state badge": {
-      "Primary": [
-        "プライマリー"
-      ],
-      "Active": [
-        "有効"
-      ],
-      "Inactive": [
-        "無効"
-      ],
-      "Compromised": [
-        "侵害された"
-      ],
-      "Obsolete": [
-        "廃止された"
-      ],
-      "Disabled": [
-        "無効"
-      ]
-    },
-    "Title header for keys table": {
-      "Fingerprint": [
-        "フィンガープリント"
-      ],
-      "Key type": [
-        "鍵の種類"
-      ],
-      "Status": [
-        "状態"
-      ],
-      "Actions": [
-        "操作"
-      ]
-    },
-    "Confirm": {
-      "Are you sure you want to permanently delete this key?": [
-        "この鍵を完全に削除してよろしいですか？"
-      ],
-      "Do you want to export your key?": [
-        ""
-      ],
-      "Are you sure you want to delete this key without backing it up?": [
-        ""
-      ]
-    },
-    "alert": {
-      "The key for your address is now being deleted.": [
-        ""
-      ],
-      "The encryption keys for your address are being generated. This may take several minutes and temporarily freeze your browser.": [
-        ""
-      ]
-    },
-    "encryption": {
-      "State of the art": [
-        "最新の暗号形式"
-      ],
-      "Compatibility": [
-        "動作要件"
-      ]
-    },
-    "Autoresponse": {
-      "I'm out of the office with limited access to my email.": [
-        "これは自動返信メッセージです。現在休暇中のため、大変申し訳ございませんが、お送りいただいた電子メールをすぐには確認できない可能性があることをご了承ください。"
-      ]
-    },
-    "Apps dropdown": {
-      "Proton applications": [
-        "Proton アプリケーション"
-      ],
-      "Go to ${ title }": [
-        "${ title } へ移動"
-      ],
-      "Go to ${ vpnName }": [
-        "${ vpnName } へ移動"
       ]
     },
     "Onboarding Proton": {
@@ -6147,6 +5678,49 @@
         "スクリーンショットの添付"
       ]
     },
+    "Apps dropdown": {
+      "Proton applications": [
+        "Proton アプリケーション"
+      ],
+      "Go to ${ title }": [
+        "${ title } へ移動"
+      ],
+      "Go to ${ vpnName }": [
+        "${ vpnName } へ移動"
+      ]
+    },
+    "Error message": {
+      "Oops, something went wrong": [
+        "エラーが発生しました。"
+      ],
+      "Too many child sessions, please clear your cookies and sign back in.": [
+        ""
+      ],
+      "There was a problem connecting to Proton.": [
+        "Proton への接続に問題がありました。"
+      ],
+      "Please ${ refresh } or check your connection.": [
+        "${ refresh } または接続を確認してください。"
+      ],
+      "Error: ${ errorMessage }": [
+        "エラー：${ errorMessage }"
+      ],
+      "Invalid URL": [
+        "無効なURLです"
+      ],
+      "Brace yourself till we get the error fixed.": [
+        "エラーが解消されるまでお待ちください。"
+      ],
+      "You may also ${ refresh } or try again later.": [
+        "${ refresh } するか再度お試しください。"
+      ],
+      "There was a problem unsubscribing you.": [
+        ""
+      ],
+      "Please ${ signIn } to update your email subscription preferences.": [
+        ""
+      ]
+    },
     "Suffix": {
       "/ month": [
         "/月"
@@ -6226,6 +5800,17 @@
     "Suffix for price": {
       "/ month": [
         "/月"
+      ]
+    },
+    "info": {
+      "(beta)": [
+        "(ベータ)"
+      ],
+      "Key ${ fingerprint } has already been uploaded": [
+        ""
+      ],
+      "Additional duplicate keys detected. Please upload individually for more information.": [
+        ""
       ]
     },
     "Mail feature": {
@@ -6690,51 +6275,441 @@
         "無料"
       ]
     },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "未払いの請求書"
+    "Autoresponse": {
+      "I'm out of the office with limited access to my email.": [
+        "これは自動返信メッセージです。現在休暇中のため、大変申し訳ございませんが、お送りいただいた電子メールをすぐには確認できない可能性があることをご了承ください。"
       ]
     },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
+    "Duration": {
+      "30 minutes": [
+        "30分"
       ],
-      "Email": [
+      "60 minutes": [
+        "60分"
+      ],
+      "90 minutes": [
+        "90分"
+      ],
+      "120 minutes": [
+        "120分"
+      ]
+    },
+    "Notification when": {
+      "day before": [
+        "日前"
+      ],
+      "on the same day": [
+        ""
+      ],
+      "at time of event": [
+        ""
+      ],
+      "week before": [
+        "週間前"
+      ],
+      "minute before": [
+        "分前"
+      ],
+      "hour before": [
+        "時間前"
+      ]
+    },
+    "Notification type": {
+      "notification": [
+        "通知"
+      ],
+      "email": [
         "メールアドレス"
-      ],
-      "SMS": [
-        "SMS"
-      ],
-      "Manual": [
-        "マニュアル"
-      ],
-      "No verification method available": [
-        "検証方法がありません"
       ]
     },
-    "Tooltip prompt to trust keys": {
-      "When receiving an email from another ProtonMail user who does not have trusted keys in your contacts, a banner will ask if you want to enable trusted keys.": [
+    "Title (number of minutes/hours/days/weeks)": {
+      "Choose a number": [
         ""
       ]
     },
-    "Tooltip sign external messages": {
-      "Automatically sign all your outgoing messages so users can verify the authenticity of your messages. This is done in combination with the default PGP settings which can be configured below.": [
+    "Notification time input": {
+      "at": [
+        " at"
+      ]
+    },
+    "Export calendar": {
+      "Loading events": [
+        "予定を読み込み中"
+      ],
+      "Decrypting events from your calendar: ${ totalProcessed }/${ totalToProcess }": [
+        ""
+      ],
+      "Please don't close the tab before the exporting process is finished.": [
+        ""
+      ],
+      "Error decrypting event": [
+        ""
+      ],
+      "Password reset - multiple events cannot be decrypted": [
+        ""
+      ],
+      "Password reset - event cannot be decrypted": [
+        ""
+      ],
+      "${ totalProcessed }/${ totalToProcess } event exported": [
+        ""
+      ],
+      "Calendar successfully exported. You can now save the ICS file.": [
+        ""
+      ],
+      "Due to a password reset, some of your events could not be decrypted and exported.": [
+        ""
+      ],
+      "You can save an ICS file of the events that were successfully exported.": [
+        ""
+      ],
+      "Learn how to restore encrypted events with old password": [
+        ""
+      ],
+      "Some of your events could not be exported.": [
+        ""
+      ],
+      "The internet connection was interrupted, causing the export process to fail. Please try again.": [
+        ""
+      ],
+      "Due to a password reset, none of your events could be decrypted and exported.": [
+        ""
+      ],
+      "None of the events could be exported.": [
         ""
       ]
     },
-    "Tooltip automatically attach public key": {
-      "This automatically adds your public key to each message you send. Recipients can use this to verify the authenticity of your messages and send encrypted messages to you.": [
-        "この設定を有効にすると、あなたが送信する各メッセージに公開鍵が自動的に追加されます。受信者はこれを使用して、メッセージの信頼性を検証し、あなたに暗号化されたメッセージを送信できます。"
+    "Summary of errors during export calendar": {
+      "Details about events that couldn't be exported": [
+        ""
       ]
     },
-    "Tooltip default pgp scheme": {
-      "Select the default PGP settings used to sign or encrypt messages with non-ProtonMail PGP users. Note that Inline PGP forces plain text messages. Learn more": [
+    "Calendar status": {
+      "Default": [
+        "既定"
+      ],
+      "Active": [
+        "有効"
+      ],
+      "Disabled": [
+        "無効"
+      ],
+      "Syncing": [
+        "同期中"
+      ],
+      "Not synced": [
+        "同期されていません"
+      ]
+    },
+    "Upgrade notice": {
+      "Upgrade to a paid plan to create up to ${ MAX_CALENDARS_PER_USER } calendar, allowing you to make calendars for work, to share with friends, and just for yourself.": [
+        "${ MAX_CALENDARS_PER_USER } カレンダーまで作成するには、有料プランにアップグレードしてください。 カレンダーを作って友達と共有することができます"
+      ],
+      "Upgrade to a paid plan to share your personal calendar via link with anyone.": [
         ""
+      ]
+    },
+    "Calendar limit warning": {
+      "You have reached the maximum of ${ calendarsLimit } calendar.": [
+        ""
+      ],
+      "You have reached the maximum of ${ MAX_SUBSCRIBED_CALENDARS_PER_USER } subscribed calendar.": [
+        ""
+      ]
+    },
+    "Subscribed calendar section description": {
+      "Add public, external, or shared calendars using a URL.": [
+        ""
+      ]
+    },
+    "Knowledge base link label": {
+      "Here's how": [
+        "やり方はこちら"
+      ]
+    },
+    "Calendar import section description": {
+      "Import events or the contents of a calendar via ICS files.": [
+        ""
+      ]
+    },
+    "Primary timezone": {
+      "Primary time zone": [
+        "基本のタイムゾーン"
+      ],
+      "Secondary time zone": [
+        "2つ目のタイムゾーン"
+      ]
+    },
+    "Calendar view": {
+      "Day": [
+        "日表示"
+      ],
+      "Week": [
+        "週表示"
+      ],
+      "Month": [
+        "月表示"
+      ]
+    },
+    "Subscribed calendar extension warning": {
+      "This link might be wrong": [
+        ""
+      ],
+      "By using this link, Google will make the calendar you are subscribing to public": [
+        ""
+      ]
+    },
+    "Modal title and action": {
+      "Add calendar": [
+        "カレンダーを追加"
+      ]
+    },
+    "Subscribe to calendar modal description": {
+      "Learn how to get a private calendar link.": [
+        ""
+      ]
+    },
+    "Subscribe to calendar modal": {
+      "You can subscribe to someone else's calendar by pasting its URL below. This will give you access to a read-only version of this calendar.\n${ kbLink }": [
+        ""
+      ],
+      "Calendar URL": [
+        ""
+      ]
+    },
+    "Error importing event": {
+      "Event": [
+        "予定"
+      ],
+      "Calendar": [
+        "カレンダー"
+      ],
+      "Timezone": [
+        "タイムゾーン"
+      ],
+      "Element": [
+        ""
+      ],
+      "Bad format. Component cannot be read.": [
+        "不正なフォーマットです。コンポーネントを読み込めません。"
+      ],
+      "Unknown": [
+        "不明"
+      ],
+      "Component with wrong format": [
+        ""
+      ],
+      "Non-Gregorian": [
+        "グレゴリオ暦ではありません"
+      ],
+      "To-do entry": [
+        "To-do のエントリー"
+      ],
+      "Journal entry": [
+        "Journal のエントリー"
+      ],
+      "Free-busy time information": [
+        ""
+      ],
+      "Custom timezone": [
+        "独自のタイムゾーン"
+      ],
+      "Invalid event": [
+        ""
+      ],
+      "Unsupported event": [
+        ""
+      ],
+      "Malformed all-day event": [
+        ""
+      ],
+      "Missing start time": [
+        "開始日時が存在しません"
+      ],
+      "Malformed start time": [
+        "異常な開始日時です"
+      ],
+      "Floating times not supported": [
+        ""
+      ],
+      "Start time out of bounds": [
+        "開始日時が指定可能な範囲を超えています"
+      ],
+      "Malformed end time": [
+        "異常な終了日時です"
+      ],
+      "End time out of bounds": [
+        "終了日時が指定可能な範囲を超えています"
+      ],
+      "Event duration not supported": [
+        ""
+      ],
+      "Calendar timezone not supported": [
+        "カレンダーのタイムゾーンはサポートされていません"
+      ],
+      "Timezone not supported": [
+        "タイムゾーンはサポートされていません"
+      ],
+      "Malformed recurring event": [
+        ""
+      ],
+      "Recurring rule not supported": [
+        "繰り返しルールはサポートされていません"
+      ],
+      "Edited event not supported": [
+        ""
+      ],
+      "Notification out of bounds": [
+        "通知が指定可能な範囲を超えています"
+      ],
+      "Event validation failed": [
+        ""
+      ],
+      "Encryption failed": [
+        "暗号化に失敗しました"
+      ],
+      "Original recurring event could not be found": [
+        "元の定期的な予定が見つかりませんでした"
+      ],
+      "no UID, title or start time": [
+        "UID、タイトルまたは開始日時が存在しません"
+      ]
+    },
+    "Access level": {
+      "Full": [
+        "フル"
+      ],
+      "Limited": [
+        "限定的"
+      ],
+      "Limited view": [
+        "限定ビュー"
+      ],
+      "Full view": [
+        "フルビュー"
       ]
     },
     "Message display when a new app version is available": {
       "A new version of ${ appName } is available. ${ reloadButton }.": [
         "${ appName } の新しいバージョンが利用可能です。 ${ reloadButton }"
+      ]
+    },
+    "Select files": {
+      "Upload additional private keys": [
+        ""
+      ],
+      "Browse": [
+        ""
+      ],
+      "Upload": [
+        "アップロード"
+      ]
+    },
+    "Keys actions": {
+      "Export": [
+        "エクスポート"
+      ],
+      "Export private key": [
+        "秘密鍵のエクスポート"
+      ],
+      "Make primary": [
+        "プライマリーにする"
+      ],
+      "Mark obsolete": [
+        "廃止された印をつける"
+      ],
+      "Disables encryption with this key": [
+        "この鍵での暗号化を無効にします"
+      ],
+      "Mark not obsolete": [
+        ""
+      ],
+      "Enable encryption with this key": [
+        ""
+      ],
+      "Mark compromised": [
+        "侵害された印をつける"
+      ],
+      "Disables signature verification and encryption with this key": [
+        "この鍵での暗号化および、署名の検証を無効にします"
+      ],
+      "Mark not compromised": [
+        ""
+      ],
+      "Enable signature verification and encryption with this key": [
+        ""
+      ],
+      "Delete": [
+        "削除"
+      ]
+    },
+    "Key state badge": {
+      "Primary": [
+        "プライマリー"
+      ],
+      "Active": [
+        "有効"
+      ],
+      "Inactive": [
+        "無効"
+      ],
+      "Compromised": [
+        "侵害された"
+      ],
+      "Obsolete": [
+        "廃止された"
+      ],
+      "Disabled": [
+        "無効"
+      ]
+    },
+    "Title header for keys table": {
+      "Fingerprint": [
+        "フィンガープリント"
+      ],
+      "Key type": [
+        "鍵の種類"
+      ],
+      "Status": [
+        "状態"
+      ],
+      "Actions": [
+        "操作"
+      ]
+    },
+    "Confirm": {
+      "Are you sure you want to permanently delete this key?": [
+        "この鍵を完全に削除してよろしいですか？"
+      ],
+      "Do you want to export your key?": [
+        ""
+      ],
+      "Are you sure you want to delete this key without backing it up?": [
+        ""
+      ]
+    },
+    "alert": {
+      "The key for your address is now being deleted.": [
+        ""
+      ],
+      "The encryption keys for your address are being generated. This may take several minutes and temporarily freeze your browser.": [
+        ""
+      ]
+    },
+    "Remark about a key type option": {
+      "State of the art": [
+        ""
+      ],
+      "Compatibility": [
+        ""
+      ]
+    },
+    "Key type option": {
+      "${ stateOfTheArt } ECC Curve25519 (Fastest, most modern)": [
+        ""
+      ],
+      "${ compatibility } RSA 4096-bit (Slower, but increased compatibility with legacy software)": [
+        ""
       ]
     },
     "Label for news": {
@@ -6783,6 +6758,272 @@
       ],
       "Recovery phrase": [
         "リカバリーフレーズ"
+      ]
+    },
+    "Tooltip prompt to trust keys": {
+      "When receiving an email from another ProtonMail user who does not have trusted keys in your contacts, a banner will ask if you want to enable trusted keys.": [
+        ""
+      ]
+    },
+    "Tooltip sign external messages": {
+      "Automatically sign all your outgoing messages so users can verify the authenticity of your messages. This is done in combination with the default PGP settings which can be configured below.": [
+        ""
+      ]
+    },
+    "Tooltip automatically attach public key": {
+      "This automatically adds your public key to each message you send. Recipients can use this to verify the authenticity of your messages and send encrypted messages to you.": [
+        "この設定を有効にすると、あなたが送信する各メッセージに公開鍵が自動的に追加されます。受信者はこれを使用して、メッセージの信頼性を検証し、あなたに暗号化されたメッセージを送信できます。"
+      ]
+    },
+    "Tooltip default pgp scheme": {
+      "Select the default PGP settings used to sign or encrypt messages with non-ProtonMail PGP users. Note that Inline PGP forces plain text messages. Learn more": [
+        ""
+      ]
+    },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "未払いの請求書"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "メールアドレス"
+      ],
+      "SMS": [
+        "SMS"
+      ],
+      "Manual": [
+        "マニュアル"
+      ],
+      "No verification method available": [
+        "検証方法がありません"
+      ]
+    },
+    "Badge for user sessions table": {
+      "Current session": [
+        "現在のセッション"
+      ]
+    },
+    "Action for user session": {
+      "Revoke": [
+        "取り消す"
+      ]
+    },
+    "Badge": {
+      "ProtonMail for web": [
+        "ウェブ版 ProtonMail"
+      ],
+      "ProtonVPN for Windows": [
+        "Windows 版 ProtonVPN"
+      ],
+      "ProtonVPN for web": [
+        "ウェブ版 ProtonVPN"
+      ],
+      "Admin": [
+        "管理者"
+      ],
+      "ProtonMail Import-Export": [
+        "ProtonMail Import-Export"
+      ],
+      "ProtonMail Bridge": [
+        "ProtonMail Bridge"
+      ],
+      "ProtonMail for Android": [
+        "Android 版 ProtonMail"
+      ],
+      "Proton Account for web": [
+        "ウェブ版 Proton Account"
+      ],
+      "ProtonMail settings for web": [
+        "ウェブ版 ProtonMail settings"
+      ],
+      "ProtonContacts for web": [
+        "ウェブ版 ProtonContacts"
+      ],
+      "ProtonVPN settings for web": [
+        "ウェブ版 ProtonVPN settings"
+      ],
+      "${ calendarAppName } for web": [
+        "ウェブ版 ${ calendarAppName }"
+      ],
+      "${ driveAppName } for web": [
+        "ウェブ版 ${ driveAppName }"
+      ],
+      "ProtonMail for iOS": [
+        "iOS 版 ProtonMail"
+      ],
+      "${ driveAppName } for iOS": [
+        "iOS 版 ${ driveAppName }"
+      ],
+      "ProtonVPN for iOS": [
+        "iOS 版 ProtonVPN"
+      ],
+      "${ calendarAppName } for iOS": [
+        "iOS 版 ${ calendarAppName }"
+      ],
+      "ProtonVPN for Android": [
+        "Android 版 ProtonVPN"
+      ],
+      "ProtonVPN for Android TV": [
+        "Android TV 版 ProtonVPN"
+      ],
+      "${ calendarAppName } for Android": [
+        "Android 版 ${ calendarAppName }"
+      ],
+      "${ driveAppName } for Android": [
+        "Android 版 ${ driveAppName }"
+      ],
+      "ProtonMail Import-Export for Windows": [
+        "Windows 版 ProtonMail Import-Export"
+      ],
+      "ProtonMail Bridge for Windows": [
+        "Windows 版 ProtonMail Bridge"
+      ],
+      "ProtonVPN for macOS": [
+        "macOS 版 ProtonVPN"
+      ],
+      "ProtonMail Import-Export for macOS": [
+        "macOS 版 ProtonMail Import-Export"
+      ],
+      "ProtonMail Bridge for macOS": [
+        "macOS 版 ProtonMail Bridge"
+      ],
+      "${ driveAppName } for macOS": [
+        "macOS 版 ${ driveAppName }"
+      ],
+      "ProtonMail Import-Export for GNU/Linux": [
+        "GNU/Linux 版 ProtonMail Import-Export"
+      ],
+      "ProtonMail Bridge for GNU/Linux": [
+        "GNU/Linux 版 ProtonMail Bridge"
+      ],
+      "ProtonVPN for GNU/Linux": [
+        "GNU/Linux 版 ProtonVPN"
+      ]
+    },
+    "Log preference": {
+      "Enable authentication logs": [
+        "認証ログを有効にする"
+      ],
+      "Enable advanced logs": [
+        "詳細ログを有効にする"
+      ]
+    },
+    "Confirmation title": {
+      "Delete payment method": [
+        "支払い方法の削除"
+      ]
+    },
+    "Info when deleting payment method": {
+      "To avoid any service interruption due to unpaid invoices, please make sure that you have at least 1 valid payment method saved at any point in time.": [
+        "未払いによるサービスの中断を避けるため、少なくとも1つの有効な支払い方法を設定しておく必要があります。"
+      ]
+    },
+    "Confirmation message to delete payment method": {
+      "Are you sure you want to delete this payment method?": [
+        "この支払い方法を削除してよいですか。"
+      ]
+    },
+    "Label on payment method": {
+      "Expired": [
+        "有効期限切れ"
+      ],
+      "Default": [
+        "デフォルト"
+      ]
+    },
+    "Title for payment methods table": {
+      "Method": [
+        "支払い方法"
+      ],
+      "Status": [
+        "状態"
+      ],
+      "Actions": [
+        "動作"
+      ]
+    },
+    "Info for payment methods": {
+      "You can add a payment method to have your subscription renewed automatically. Other payment methods are also available.": [
+        "自動的にサブスクリプションを更新するための支払い方法を追加することができます。その他のお支払方法も同様に利用可能です。"
+      ]
+    },
+    "Payment method option": {
+      "New credit/debit card": [
+        "新しいクレジットカード/デビットカード"
+      ],
+      "PayPal": [
+        "PayPal"
+      ],
+      "Bitcoin": [
+        "ビットコイン"
+      ]
+    },
+    "Invoice type display as badge": {
+      "Other": [
+        "その他"
+      ],
+      "Subscription": [
+        "サブスクリプション"
+      ],
+      "Cancellation": [
+        "キャンセル"
+      ],
+      "Credit": [
+        "クレジット"
+      ],
+      "Donation": [
+        "寄付"
+      ],
+      "Chargeback": [
+        "チャージバック"
+      ],
+      "Renewal": [
+        "更新"
+      ],
+      "Refund": [
+        "返金"
+      ],
+      "Modification": [
+        "変更"
+      ],
+      "Addition": [
+        "加算"
+      ]
+    },
+    "Invoice state display as badge": {
+      "Unpaid": [
+        "未払い"
+      ],
+      "Paid": [
+        "支払い済み"
+      ],
+      "Void": [
+        "無効"
+      ],
+      "Billed": [
+        "請求済み"
+      ],
+      "Writeoff": [
+        "取り消し"
+      ]
+    },
+    "Info message for custom invoice modal": {
+      "Add your name (or company name) and address to your invoices.": [
+        "請求書の宛名用に、あなたの名前 （または会社名）と住所を追加してください。"
+      ]
+    },
+    "Placeholder for custom invoice text": {
+      "Add your name (or company name) and address to your invoices": [
+        "請求書の宛名用に、あなたの名前 （または会社名）と住所を追加できます。"
+      ]
+    },
+    "Title for PDF file": {
+      "ProtonMail invoice": [
+        "ProtonMail 請求書"
       ]
     },
     "Step in filter modal": {
@@ -6991,108 +7232,6 @@
         "${ Email } が削除されました"
       ]
     },
-    "Badge for user sessions table": {
-      "Current session": [
-        "現在のセッション"
-      ]
-    },
-    "Action for user session": {
-      "Revoke": [
-        "取り消す"
-      ]
-    },
-    "Badge": {
-      "ProtonMail for web": [
-        "ウェブ版 ProtonMail"
-      ],
-      "ProtonVPN for Windows": [
-        "Windows 版 ProtonVPN"
-      ],
-      "ProtonVPN for web": [
-        "ウェブ版 ProtonVPN"
-      ],
-      "Admin": [
-        "管理者"
-      ],
-      "ProtonMail Import-Export": [
-        "ProtonMail Import-Export"
-      ],
-      "ProtonMail Bridge": [
-        "ProtonMail Bridge"
-      ],
-      "ProtonMail for Android": [
-        "Android 版 ProtonMail"
-      ],
-      "Proton Account for web": [
-        "ウェブ版 Proton Account"
-      ],
-      "ProtonMail settings for web": [
-        "ウェブ版 ProtonMail settings"
-      ],
-      "ProtonContacts for web": [
-        "ウェブ版 ProtonContacts"
-      ],
-      "ProtonVPN settings for web": [
-        "ウェブ版 ProtonVPN settings"
-      ],
-      "${ calendarAppName } for web": [
-        "ウェブ版 ${ calendarAppName }"
-      ],
-      "${ driveAppName } for web": [
-        "ウェブ版 ${ driveAppName }"
-      ],
-      "ProtonMail for iOS": [
-        "iOS 版 ProtonMail"
-      ],
-      "${ driveAppName } for iOS": [
-        "iOS 版 ${ driveAppName }"
-      ],
-      "ProtonVPN for iOS": [
-        "iOS 版 ProtonVPN"
-      ],
-      "${ calendarAppName } for iOS": [
-        "iOS 版 ${ calendarAppName }"
-      ],
-      "ProtonVPN for Android": [
-        "Android 版 ProtonVPN"
-      ],
-      "ProtonVPN for Android TV": [
-        "Android TV 版 ProtonVPN"
-      ],
-      "${ calendarAppName } for Android": [
-        "Android 版 ${ calendarAppName }"
-      ],
-      "${ driveAppName } for Android": [
-        "Android 版 ${ driveAppName }"
-      ],
-      "ProtonMail Import-Export for Windows": [
-        "Windows 版 ProtonMail Import-Export"
-      ],
-      "ProtonMail Bridge for Windows": [
-        "Windows 版 ProtonMail Bridge"
-      ],
-      "ProtonVPN for macOS": [
-        "macOS 版 ProtonVPN"
-      ],
-      "ProtonMail Import-Export for macOS": [
-        "macOS 版 ProtonMail Import-Export"
-      ],
-      "ProtonMail Bridge for macOS": [
-        "macOS 版 ProtonMail Bridge"
-      ],
-      "${ driveAppName } for macOS": [
-        "macOS 版 ${ driveAppName }"
-      ],
-      "ProtonMail Import-Export for GNU/Linux": [
-        "GNU/Linux 版 ProtonMail Import-Export"
-      ],
-      "ProtonMail Bridge for GNU/Linux": [
-        "GNU/Linux 版 ProtonMail Bridge"
-      ],
-      "ProtonVPN for GNU/Linux": [
-        "GNU/Linux 版 ProtonVPN"
-      ]
-    },
     "New Label form": {
       "Color": [
         "色"
@@ -7157,126 +7296,21 @@
         "ラベルを並び替えました"
       ]
     },
-    "Log preference": {
-      "Enable authentication logs": [
-        "認証ログを有効にする"
+    "Restore administrator panel": {
+      "Due to a password change, your organization administrator privileges have been restricted. The following actions are no longer permitted:": [
+        "パスワードの変更のために、組織の管理権限が制限されています。次の操作は許可されなくなりました。"
       ],
-      "Enable advanced logs": [
-        "詳細ログを有効にする"
-      ]
-    },
-    "Confirmation title": {
-      "Delete payment method": [
-        "支払い方法の削除"
-      ]
-    },
-    "Info when deleting payment method": {
-      "To avoid any service interruption due to unpaid invoices, please make sure that you have at least 1 valid payment method saved at any point in time.": [
-        "未払いによるサービスの中断を避けるため、少なくとも1つの有効な支払い方法を設定しておく必要があります。"
-      ]
-    },
-    "Confirmation message to delete payment method": {
-      "Are you sure you want to delete this payment method?": [
-        "この支払い方法を削除してよいですか。"
-      ]
-    },
-    "Label on payment method": {
-      "Expired": [
-        "有効期限切れ"
+      "Creating new users": [
+        ""
       ],
-      "Default": [
-        "デフォルト"
-      ]
-    },
-    "Title for payment methods table": {
-      "Method": [
-        "支払い方法"
+      "Reading emails of non-private users": [
+        ""
       ],
-      "Status": [
-        "状態"
+      "Changing organization password": [
+        ""
       ],
-      "Actions": [
-        "動作"
-      ]
-    },
-    "Info for payment methods": {
-      "You can add a payment method to have your subscription renewed automatically. Other payment methods are also available.": [
-        "自動的にサブスクリプションを更新するための支払い方法を追加することができます。その他のお支払方法も同様に利用可能です。"
-      ]
-    },
-    "Payment method option": {
-      "New credit/debit card": [
-        "新しいクレジットカード/デビットカード"
-      ],
-      "PayPal": [
-        "PayPal"
-      ],
-      "Bitcoin": [
-        "ビットコイン"
-      ]
-    },
-    "Invoice type display as badge": {
-      "Other": [
-        "その他"
-      ],
-      "Subscription": [
-        "サブスクリプション"
-      ],
-      "Cancellation": [
-        "キャンセル"
-      ],
-      "Credit": [
-        "クレジット"
-      ],
-      "Donation": [
-        "寄付"
-      ],
-      "Chargeback": [
-        "チャージバック"
-      ],
-      "Renewal": [
-        "更新"
-      ],
-      "Refund": [
-        "返金"
-      ],
-      "Modification": [
-        "変更"
-      ],
-      "Addition": [
-        "加算"
-      ]
-    },
-    "Invoice state display as badge": {
-      "Unpaid": [
-        "未払い"
-      ],
-      "Paid": [
-        "支払い済み"
-      ],
-      "Void": [
-        "無効"
-      ],
-      "Billed": [
-        "請求済み"
-      ],
-      "Writeoff": [
-        "取り消し"
-      ]
-    },
-    "Info message for custom invoice modal": {
-      "Add your name (or company name) and address to your invoices.": [
-        "請求書の宛名用に、あなたの名前 （または会社名）と住所を追加してください。"
-      ]
-    },
-    "Placeholder for custom invoice text": {
-      "Add your name (or company name) and address to your invoices": [
-        "請求書の宛名用に、あなたの名前 （または会社名）と住所を追加できます。"
-      ]
-    },
-    "Title for PDF file": {
-      "ProtonMail invoice": [
-        "ProtonMail 請求書"
+      "Changing organization keys": [
+        ""
       ]
     },
     "Option delay send seconds": {
@@ -7291,6 +7325,14 @@
       ],
       "20 seconds": [
         "20 秒"
+      ]
+    },
+    "Option protection mode": {
+      "Prevent tracking (recommended)": [
+        ""
+      ],
+      "Prevent tracking and store content locally": [
+        ""
       ]
     },
     "Address status": {
@@ -7344,23 +7386,6 @@
       ],
       "PKGBUILD (for other distributions)": [
         "PKGBUILD (その他のディストリビューション用)"
-      ]
-    },
-    "Restore administrator panel": {
-      "Due to a password change, your organization administrator privileges have been restricted. The following actions are no longer permitted:": [
-        "パスワードの変更のために、組織の管理権限が制限されています。次の操作は許可されなくなりました。"
-      ],
-      "Creating new users": [
-        ""
-      ],
-      "Reading emails of non-private users": [
-        ""
-      ],
-      "Changing organization password": [
-        ""
-      ],
-      "Changing organization keys": [
-        ""
       ]
     },
     "Member action": {
@@ -8341,8 +8366,8 @@
       "Import & export": [
         "インポートとエクスポート"
       ],
-      "VPN apps": [
-        "VPN アプリ"
+      "Email privacy": [
+        ""
       ],
       "Identity & addresses": [
         ""
@@ -8368,8 +8393,8 @@
       "IMAP/SMTP": [
         "IMAP/SMTP"
       ],
-      "Calendars": [
-        "カレンダー"
+      "VPN apps": [
+        "VPN アプリ"
       ],
       "Users & addresses": [
         "ユーザーと組織"
@@ -8383,6 +8408,9 @@
       "Multi-user support": [
         "複数ユーザー対応"
       ],
+      "Calendars": [
+        "カレンダー"
+      ],
       "Account": [
         "アカウント"
       ],
@@ -8390,13 +8418,13 @@
         "組織"
       ]
     },
-    "Upgrade": {
-      "Upgrade to ${ protonVpnName } ${ PLAN_NAMES[PLANS.VPNPLUS] } to connect up to ${ plusVpnConnections } device to the VPN at once": [
+    "Settings description": {
+      "You can apply multiple labels to a single message, but messages can usually only be in a single folder. Drag and drop to rearrange the order of your folders and labels.": [
         ""
       ]
     },
-    "Settings description": {
-      "You can apply multiple labels to a single message, but messages can usually only be in a single folder. Drag and drop to rearrange the order of your folders and labels.": [
+    "Upgrade": {
+      "Upgrade to ${ protonVpnName } ${ PLAN_NAMES[PLANS.VPNPLUS] } to connect up to ${ plusVpnConnections } device to the VPN at once": [
         ""
       ]
     },

@@ -78,11 +78,23 @@
       "Underline": [
         "Подчёркнутый"
       ],
+      "Close navigation": [
+        "Cкрыть панель навигации"
+      ],
+      "Open navigation": [
+        "Показать панель навигации"
+      ],
+      "More info: ${ safeTitle }": [
+        "Больше информации: ${ safeTitle }"
+      ],
       "Confirm opening of link ${ link }": [
         "Подтвердить открытие ссылки ${ link }"
       ],
       "Confirm": [
         "Подтвердить"
+      ],
+      "Go to panel ${ index }": [
+        "Перейти к панели ${ index }"
       ],
       "Close": [
         "Закрыть"
@@ -96,18 +108,6 @@
       "Show more": [
         "Больше"
       ],
-      "Close navigation": [
-        "Cкрыть панель навигации"
-      ],
-      "Open navigation": [
-        "Показать панель навигации"
-      ],
-      "More info: ${ safeTitle }": [
-        "Больше информации: ${ safeTitle }"
-      ],
-      "Go to panel ${ index }": [
-        "Перейти к панели ${ index }"
-      ],
       "Next month": [
         "След. месяц"
       ],
@@ -120,11 +120,11 @@
       "Close modal": [
         "Закрыть диалоговое окно"
       ],
-      "Select timezone": [
-        "Выберите часовой пояс"
-      ],
       "Remove": [
         "Удалить"
+      ],
+      "Select timezone": [
+        "Выберите часовой пояс"
       ],
       "Activate ${ Name }@pm.me": [
         "Активировать ${ Name }@pm.me"
@@ -152,27 +152,6 @@
       ],
       "Next": [
         "Далее"
-      ],
-      "Download": [
-        "Скачать"
-      ],
-      "Hide": [
-        "Скрыть"
-      ],
-      "Show": [
-        "Показать"
-      ],
-      "Reset credentials": [
-        "Сбросить учётные данные"
-      ],
-      "Copy": [
-        "Копировать"
-      ],
-      "Download all configurations": [
-        "Скачать все конфигурации"
-      ],
-      "Get ProtonVPN Plus": [
-        "Перейти на ProtonVPN Plus"
       ],
       "Continue import": [
         "Продолжить импорт"
@@ -246,9 +225,6 @@
       "Download the Import-Export app": [
         "Скачать приложение для импорта и экспорта"
       ],
-      "Use ${ label } theme": [
-        "Использовать ${ label } тему"
-      ],
       "Add user": [
         "Добавить пользователя"
       ],
@@ -270,92 +246,29 @@
       "Refresh status": [
         "Обновить статус"
       ],
-      "Update": [
-        "Обновить"
+      "Download": [
+        "Скачать"
       ],
-      "Create": [
-        "Создать"
+      "Hide": [
+        "Скрыть"
       ],
-      "Remove this notification": [
-        "Удалить это уведомление"
+      "Show": [
+        "Показать"
       ],
-      "Add notification": [
-        "Добавить уведомление"
+      "Reset credentials": [
+        "Сбросить учётные данные"
       ],
-      "Try again": [
-        "Попробовать снова"
+      "Copy": [
+        "Копировать"
       ],
-      "Save ICS file": [
-        "Сохранить ICS файл"
+      "Download all configurations": [
+        "Скачать все конфигурации"
       ],
-      "Edit": [
-        "Изменить"
+      "Get ProtonVPN Plus": [
+        "Перейти на ProtonVPN Plus"
       ],
-      "Set as default": [
-        "Установить по умолчанию"
-      ],
-      "Export ICS": [
-        "Экспорт в ICS"
-      ],
-      "Create calendar": [
-        "Создать календарь"
-      ],
-      "Remove calendar": [
-        "Удалить календарь"
-      ],
-      "Subscribe to calendar": [
-        "Подписаться на календарь"
-      ],
-      "Import events": [
-        "Импортировать события"
-      ],
-      "Select calendar view": [
-        "Выберите вид календаря"
-      ],
-      "Copy link": [
-        "Копировать ссылку"
-      ],
-      "Create link": [
-        "Создать ссылку"
-      ],
-      "Delete link": [
-        "Удалить ссылку"
-      ],
-      "Reactivate keys": [
-        "Повторно активировать ключи"
-      ],
-      "Create key": [
-        "Создать ключ"
-      ],
-      "Import key": [
-        "Импорт ключа"
-      ],
-      "Decrypt": [
-        "Расшифровать"
-      ],
-      "Export": [
-        "Экспортировать"
-      ],
-      "Export key": [
-        "Экспортировать ключ"
-      ],
-      "No": [
-        "Нет"
-      ],
-      "Warning": [
-        "Предупреждение"
-      ],
-      "Select files": [
-        "Выбрать файлы"
-      ],
-      "Export private key": [
-        "Экспорт секретного ключа"
-      ],
-      "Signing out": [
-        "Производится выход"
-      ],
-      "refresh the page": [
-        "обновить страницу"
+      "Use ${ label } theme": [
+        "Использовать ${ label } тему"
       ],
       "Copy email to clipboard": [
         "Скопировать адрес эл. почты в буфер обмена"
@@ -404,6 +317,12 @@
       ],
       "Show info": [
         "Показать информацию"
+      ],
+      "Signing out": [
+        "Производится выход"
+      ],
+      "refresh the page": [
+        "обновить страницу"
       ],
       "Remove bonuses": [
         "Удалить бонусы"
@@ -471,6 +390,9 @@
       "Loading verification": [
         "Загружается проверка"
       ],
+      "Try again": [
+        "Попробовать снова"
+      ],
       "Verify": [
         "Подтвердить"
       ],
@@ -492,29 +414,53 @@
       "Remove gift code": [
         "Удалить подарочный код"
       ],
-      "View invoice": [
-        "Просмотр счёта"
+      "Update": [
+        "Обновить"
       ],
-      "Get verification code": [
-        "Получить проверочный код"
+      "Create": [
+        "Создать"
       ],
-      "Try another method": [
-        "Попробуйте другой способ"
+      "Remove this notification": [
+        "Удалить это уведомление"
       ],
-      "Request new code": [
-        "Запросить новый код"
+      "Add notification": [
+        "Добавить уведомление"
       ],
-      "Did not receive the code?": [
-        "Не получили код?"
+      "Save ICS file": [
+        "Сохранить ICS файл"
       ],
-      "Edit email address": [
-        "Изменить адрес эл. почты"
+      "Edit": [
+        "Изменить"
       ],
-      "Edit phone number": [
-        "Изменить номер телефона"
+      "Set as default": [
+        "Установить по умолчанию"
       ],
-      "Yes": [
-        "Да"
+      "Export ICS": [
+        "Экспорт в ICS"
+      ],
+      "Create calendar": [
+        "Создать календарь"
+      ],
+      "Remove calendar": [
+        "Удалить календарь"
+      ],
+      "Subscribe to calendar": [
+        "Подписаться на календарь"
+      ],
+      "Import events": [
+        "Импортировать события"
+      ],
+      "Select calendar view": [
+        "Выберите вид календаря"
+      ],
+      "Copy link": [
+        "Копировать ссылку"
+      ],
+      "Create link": [
+        "Создать ссылку"
+      ],
+      "Delete link": [
+        "Удалить ссылку"
       ],
       "enable desktop notifications": [
         "включить уведомления на рабочем столе"
@@ -528,11 +474,44 @@
       "Close this banner": [
         "Закрыть этот баннер"
       ],
+      "Reactivate keys": [
+        "Повторно активировать ключи"
+      ],
+      "Create key": [
+        "Создать ключ"
+      ],
+      "Import key": [
+        "Импорт ключа"
+      ],
+      "Decrypt": [
+        "Расшифровать"
+      ],
+      "Export": [
+        "Экспортировать"
+      ],
+      "Export key": [
+        "Экспортировать ключ"
+      ],
+      "No": [
+        "Нет"
+      ],
+      "Warning": [
+        "Предупреждение"
+      ],
+      "Select files": [
+        "Выбрать файлы"
+      ],
+      "Export private key": [
+        "Экспорт секретного ключа"
+      ],
       "Change password": [
         "Изменить пароль"
       ],
       "Ok": [
         "Ok"
+      ],
+      "Yes": [
+        "Да"
       ],
       "Change mailbox password": [
         "Изменить пароль почтового ящика"
@@ -558,62 +537,29 @@
       "Disable recovery phrase": [
         "Отключить фразу для восстановления доступа к учетной записи"
       ],
-      "Preview": [
-        "Предпросмотр"
+      "View invoice": [
+        "Просмотр счёта"
       ],
-      "Create label": [
-        "Создать ярлык"
+      "Get verification code": [
+        "Получить проверочный код"
       ],
-      "Create folder": [
-        "Создать папку"
+      "Try another method": [
+        "Попробуйте другой способ"
       ],
-      "Remove this label": [
-        "Удалить этот ярлык"
+      "Request new code": [
+        "Запросить новый код"
       ],
-      "Add condition": [
-        "Добавить условие"
+      "Did not receive the code?": [
+        "Не получили код?"
       ],
-      "label emails as": [
-        "отметить письма ярлыком"
+      "Edit email address": [
+        "Изменить адрес эл. почты"
       ],
-      "move emails to": [
-        "переместить письма в"
-      ],
-      "mark emails as": [
-        "отметить письма как"
-      ],
-      "send auto-reply email": [
-        "отправить автоответ"
-      ],
-      "Edit sieve": [
-        "Изменить Sieve-фильтр"
-      ],
-      "Add filter": [
-        "Добавить фильтр"
-      ],
-      "Add sieve filter": [
-        "Добавить sieve-фильтр"
-      ],
-      "Add": [
-        "Добавить"
-      ],
-      "Move to Block List": [
-        "Переместить в список блокируемых"
-      ],
-      "Move to Allow List": [
-        "Переместить в список разрешённых"
+      "Edit phone number": [
+        "Изменить номер телефона"
       ],
       "Revoke all other sessions": [
         "Прервать все другие сессии"
-      ],
-      "Add folder": [
-        "Добавить папку"
-      ],
-      "Sort": [
-        "Сортировать"
-      ],
-      "Add label": [
-        "Добавить ярлык"
       ],
       "Wipe": [
         "Стереть"
@@ -663,11 +609,59 @@
       "Previous": [
         "Предыдущий"
       ],
-      "Save address": [
-        "Сохранить адрес"
+      "Preview": [
+        "Предпросмотр"
       ],
-      "activate": [
-        "включить"
+      "Create label": [
+        "Создать ярлык"
+      ],
+      "Create folder": [
+        "Создать папку"
+      ],
+      "Remove this label": [
+        "Удалить этот ярлык"
+      ],
+      "Add condition": [
+        "Добавить условие"
+      ],
+      "label emails as": [
+        "отметить письма ярлыком"
+      ],
+      "move emails to": [
+        "переместить письма в"
+      ],
+      "mark emails as": [
+        "отметить письма как"
+      ],
+      "send auto-reply email": [
+        "отправить автоответ"
+      ],
+      "Edit sieve": [
+        "Изменить Sieve-фильтр"
+      ],
+      "Add filter": [
+        "Добавить фильтр"
+      ],
+      "Add sieve filter": [
+        "Добавить sieve-фильтр"
+      ],
+      "Add": [
+        "Добавить"
+      ],
+      "Move to Block List": [
+        "Переместить в список блокируемых"
+      ],
+      "Move to Allow List": [
+        "Переместить в список разрешённых"
+      ],
+      "Add folder": [
+        "Добавить папку"
+      ],
+      "Sort": [
+        "Сортировать"
+      ],
+      "Add label": [
+        "Добавить ярлык"
       ],
       "Enable multi-user support": [
         "Включить многопользовательский режим"
@@ -686,6 +680,12 @@
       ],
       "Activate organization key": [
         "Активировать ключ организации"
+      ],
+      "Save address": [
+        "Сохранить адрес"
+      ],
+      "activate": [
+        "включить"
       ],
       "Upgrade now": [
         "Улучшить сейчас"
@@ -814,15 +814,6 @@
       "yourdomain.com": [
         "yourdomain.com"
       ],
-      "Add a calendar name": [
-        "Добавить название календаря"
-      ],
-      "Add a calendar description": [
-        "Добавить описание календаря"
-      ],
-      "Password": [
-        "Пароль"
-      ],
       "e.g. Julia Smith": [
         "например, Джулия Смит"
       ],
@@ -868,6 +859,15 @@
       "Postal code": [
         "Почтовый индекс"
       ],
+      "Add a calendar name": [
+        "Добавить название календаря"
+      ],
+      "Add a calendar description": [
+        "Добавить описание календаря"
+      ],
+      "Password": [
+        "Пароль"
+      ],
       "Two-factor authentication code": [
         "Код двухфакторной аутентификации"
       ],
@@ -877,14 +877,14 @@
       "Type text or keyword": [
         "Введите текст или ключевое слово"
       ],
+      "Choose a name": [
+        "Задайте название"
+      ],
       "Choose display name": [
         "Задайте отображаемое имя"
       ],
       "Choose address": [
         "Выберите адрес"
-      ],
-      "Choose a name": [
-        "Задайте название"
       ],
       "Username": [
         "Имя пользователя"
@@ -972,36 +972,6 @@
       "Wrong verification code. Please make sure you copied the verification code correctly and try again. It can take up to 24 hours for changes to take effect.": [
         "Неверный проверочный код. Пожалуйста, убедитесь, что правильно скопировали код и попробуйте снова. Вступление изменений в силу может занять до 24 часов."
       ],
-      "Name required": [
-        "Требуется имя"
-      ],
-      "No valid address found": [
-        "Не найдено действительных адресов"
-      ],
-      "Primary address key is not decrypted.": [
-        "Не расшифрован ключ основного адреса."
-      ],
-      "Primary address key is not decrypted": [
-        "Не расшифрован ключ основного адреса"
-      ],
-      "Incorrect password": [
-        "Неверный пароль"
-      ],
-      "Zero keys reactivated": [
-        "Ноль ключей активировано повторно"
-      ],
-      "Uploaded file is not a valid private key. Please verify and try again.": [
-        "Загруженный файл не является действительным закрытым ключом. Пожалуйста, проверьте и повторите попытку."
-      ],
-      "Uploaded files are not valid private keys. Please verify and try again.": [
-        "Загруженные файлы не являются действительными закрытыми ключами. Пожалуйста, проверьте и повторите попытку."
-      ],
-      "Invalid private key file": [
-        "Неправильный файл секретного ключа"
-      ],
-      "Automatic replies is a paid feature. Please upgrade to a paid account to use this feature.": [
-        "Автоматические ответы — это платная функция. Пожалуйста, обновитесь до платной учетной записи, чтобы использовать эту функцию."
-      ],
       "Checkout expired, please try again.": [
         "Срок действия заказа истек, попробуйте еще раз."
       ],
@@ -1062,17 +1032,35 @@
       "Invalid postal code": [
         "Неправильный почтовый индекс"
       ],
-      "Can't validate email, try again later": [
-        "Не удается проверить адрес электронной почты, повторите попытку позже"
+      "Automatic replies is a paid feature. Please upgrade to a paid account to use this feature.": [
+        "Автоматические ответы — это платная функция. Пожалуйста, обновитесь до платной учетной записи, чтобы использовать эту функцию."
       ],
-      "Can't validate phone, try again later": [
-        "Не удается проверить телефон, повторите попытку позже"
+      "Name required": [
+        "Требуется имя"
       ],
-      "Enter 6 digits": [
-        "Введите 6 цифр"
+      "No valid address found": [
+        "Не найдено действительных адресов"
       ],
-      "Invalid verification code": [
-        "Неверный проверочный код"
+      "Primary address key is not decrypted.": [
+        "Не расшифрован ключ основного адреса."
+      ],
+      "Primary address key is not decrypted": [
+        "Не расшифрован ключ основного адреса"
+      ],
+      "Incorrect password": [
+        "Неверный пароль"
+      ],
+      "Zero keys reactivated": [
+        "Ноль ключей активировано повторно"
+      ],
+      "Uploaded file is not a valid private key. Please verify and try again.": [
+        "Загруженный файл не является действительным закрытым ключом. Пожалуйста, проверьте и повторите попытку."
+      ],
+      "Uploaded files are not valid private keys. Please verify and try again.": [
+        "Загруженные файлы не являются действительными закрытыми ключами. Пожалуйста, проверьте и повторите попытку."
+      ],
+      "Invalid private key file": [
+        "Неправильный файл секретного ключа"
       ],
       "Please generate keys before you try to change your password.": [
         "Пожалуйста, создайте ключи до изменения пароля."
@@ -1085,6 +1073,30 @@
       ],
       "Wrong recovery phrase. Try again or use another recovery method.": [
         "Неправильная фраза для восстановления пароля. Попробуйте снова или используйте другой метод восстановления."
+      ],
+      "Can't validate email, try again later": [
+        "Не удается проверить адрес электронной почты, повторите попытку позже"
+      ],
+      "Can't validate phone, try again later": [
+        "Не удается проверить телефон, повторите попытку позже"
+      ],
+      "Enter 6 digits": [
+        "Введите 6 цифр"
+      ],
+      "Invalid verification code": [
+        "Неверный проверочный код"
+      ],
+      "Payments are currently not available, please try again later": [
+        "Платежи в настоящее время недоступны, пожалуйста, повторите попытку позже"
+      ],
+      "You have no invoices.": [
+        "У вас нет счетов."
+      ],
+      "Your account or organization currently has an overdue invoice. Please pay all unpaid invoices.": [
+        "Ваша учётная запись или организация имеет просроченный счёт. Пожалуйста, оплатите все неоплаченные счета."
+      ],
+      "File has no contents to preview": [
+        "В файле нет содержимого для предпросмотра"
       ],
       "Empty condition": [
         "Пустое условие"
@@ -1113,20 +1125,26 @@
       "Invalid domain": [
         "Недействительный домен"
       ],
-      "Payments are currently not available, please try again later": [
-        "Платежи в настоящее время недоступны, пожалуйста, повторите попытку позже"
-      ],
-      "You have no invoices.": [
-        "У вас нет счетов."
-      ],
-      "Your account or organization currently has an overdue invoice. Please pay all unpaid invoices.": [
-        "Ваша учётная запись или организация имеет просроченный счёт. Пожалуйста, оплатите все неоплаченные счета."
-      ],
-      "File has no contents to preview": [
-        "В файле нет содержимого для предпросмотра"
-      ],
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "Что-то пошло не так, пожалуйста, ${ refresh }, чтобы продолжить. Если вы всё же видите это сообщение об ошибке, пожалуйста, свяжитесь с нашей службой поддержки ${ supportTeam }."
+      ],
+      "Passwords do not match": [
+        "Пароль и его подтверждение не совпадают"
+      ],
+      "Please upgrade to a Professional plan with more than 1 user, or a Visionary account, to get multi-user support.": [
+        "Пожалуйста, перейдите на тариф Professional с более чем 1 пользователем, или на Visionary, чтобы получить поддержку многопользовательского режима."
+      ],
+      "You must privatize all users before generating new organization keys": [
+        "Вы должны приватизировать все учетные подчиненные записи перед генерированием новых ключей организации"
+      ],
+      "Organization key is not decrypted.": [
+        "Ключ организации не расшифрован."
+      ],
+      "You have lost access to your organization keys. Without restoration you will not be able to create new users, add addresses to existing users, or access non-private user accounts.": [
+        "Вы потеряли доступ к ключам организации. Без восстановления вы не сможете создавать новых пользователей, добавлять адреса к существующим пользователям или получать доступ к неконфиденциальным учётным записям."
+      ],
+      "You must activate your organization keys. Without activation you will not be able to create new users, add addresses to existing users, or access non-private user accounts.": [
+        "Вы должны активировать ключи организации. Без активации вы не сможете добавлять новых пользователей, адреса для уже существующих пользователей или получать доступ к неконфиденциальным пользовательским учётным записям."
       ],
       "Incorrect mailbox password. Please try again": [
         "Неверный пароль. Пожалуйста, попробуйте еще раз"
@@ -1142,24 +1160,6 @@
       ],
       "Error": [
         "Ошибка"
-      ],
-      "Organization key is not decrypted.": [
-        "Ключ организации не расшифрован."
-      ],
-      "Passwords do not match": [
-        "Пароль и его подтверждение не совпадают"
-      ],
-      "Please upgrade to a Professional plan with more than 1 user, or a Visionary account, to get multi-user support.": [
-        "Пожалуйста, перейдите на тариф Professional с более чем 1 пользователем, или на Visionary, чтобы получить поддержку многопользовательского режима."
-      ],
-      "You must privatize all users before generating new organization keys": [
-        "Вы должны приватизировать все учетные подчиненные записи перед генерированием новых ключей организации"
-      ],
-      "You have lost access to your organization keys. Without restoration you will not be able to create new users, add addresses to existing users, or access non-private user accounts.": [
-        "Вы потеряли доступ к ключам организации. Без восстановления вы не сможете создавать новых пользователей, добавлять адреса к существующим пользователям или получать доступ к неконфиденциальным учётным записям."
-      ],
-      "You must activate your organization keys. Without activation you will not be able to create new users, add addresses to existing users, or access non-private user accounts.": [
-        "Вы должны активировать ключи организации. Без активации вы не сможете добавлять новых пользователей, адреса для уже существующих пользователей или получать доступ к неконфиденциальным пользовательским учётным записям."
       ],
       "Permission denied, administrator privileges have been restricted.": [
         "Отказано в доступе, права администратора ограничены."
@@ -1215,15 +1215,6 @@
       "Signature not verified": [
         "Подпись не проверена"
       ],
-      "Signature verification failed": [
-        "Проверка подписи не удалась"
-      ],
-      "Could not find address ${ email }.": [
-        "Не могу найти адрес ${ email }."
-      ],
-      "Domain not available, try again later": [
-        "Домен недоступен, попробуйте позже"
-      ],
       "This field requires a minimum of ${ minimumLength } characters.": [
         "Минимальная длина для этого поля: ${ minimumLength }."
       ],
@@ -1233,14 +1224,23 @@
       "Not a valid number": [
         "Неверный номер"
       ],
+      "Request timed out.": [
+        "Истекло время ожидания запроса."
+      ],
+      "Signature verification failed": [
+        "Проверка подписи не удалась"
+      ],
+      "Could not find address ${ email }.": [
+        "Не могу найти адрес ${ email }."
+      ],
+      "Domain not available, try again later": [
+        "Домен недоступен, попробуйте позже"
+      ],
       "Address primary private key not found": [
         "Основной секретный ключ для адреса не найден"
       ],
       "Calendar primary private key is not decrypted": [
         "Основной секретный ключ календаря не расшифрован"
-      ],
-      "Request timed out.": [
-        "Истекло время ожидания запроса."
       ],
       "The session has expired. Please sign in again.": [
         "Время сеанса истекло. Пожалуйста, войдите снова."
@@ -1283,11 +1283,29 @@
       "Automatically save contacts": [
         "Автоматически сохранять контакты"
       ],
-      "OpenVPN / IKEv2 username": [
-        "Имя пользователя OpenVPN / IKEv2"
+      "Inbox": [
+        "Входящие"
       ],
-      "OpenVPN / IKEv2 password": [
-        "Пароль OpenVPN / IKEv2"
+      "Composer": [
+        "Редактор писем"
+      ],
+      "Density": [
+        "Плотность"
+      ],
+      "Use sticky labels": [
+        "Применять \"липкие\" ярлыки"
+      ],
+      "Conversation grouping": [
+        "Группировка сообщений в цепочки"
+      ],
+      "Composer mode": [
+        "Режим редактора"
+      ],
+      "Composer text direction": [
+        "Направление текста в редакторе"
+      ],
+      "Composer default font/size": [
+        "Шрифт/размер шрифта редактора по умолчанию"
       ],
       "From: ${ fromEmailAddress }": [
         "От: ${ fromEmailAddress }"
@@ -1343,30 +1361,6 @@
       "Manage folders": [
         "Управление папками"
       ],
-      "Inbox": [
-        "Входящие"
-      ],
-      "Composer": [
-        "Редактор писем"
-      ],
-      "Density": [
-        "Плотность"
-      ],
-      "Use sticky labels": [
-        "Применять \"липкие\" ярлыки"
-      ],
-      "Conversation grouping": [
-        "Группировка сообщений в цепочки"
-      ],
-      "Composer mode": [
-        "Режим редактора"
-      ],
-      "Composer text direction": [
-        "Направление текста в редакторе"
-      ],
-      "Composer default font/size": [
-        "Шрифт/размер шрифта редактора по умолчанию"
-      ],
       "Domain name": [
         "Доменное имя"
       ],
@@ -1382,119 +1376,11 @@
       "Here is a basic DMARC record that does nothing except email you reports.": [
         "Это – базовая DMARC-запись, которая не делает ничего, кроме отправки вам отчётов."
       ],
-      "Name": [
-        "Имя"
+      "OpenVPN / IKEv2 username": [
+        "Имя пользователя OpenVPN / IKEv2"
       ],
-      "Choose a color": [
-        "Выберите цвет"
-      ],
-      "Default email": [
-        "Эл. почта по умолчанию"
-      ],
-      "Display": [
-        "Показывать"
-      ],
-      "Description": [
-        "Описание"
-      ],
-      "Default event duration": [
-        "Длительность события по умолчанию"
-      ],
-      "URL": [
-        "Адрес"
-      ],
-      "Default notifications": [
-        "Стандартные уведомления"
-      ],
-      "Default full day notifications": [
-        "Стандартные уведомления для событий на весь день"
-      ],
-      "Show secondary time zone": [
-        "Отображать дополнительный часовой пояс"
-      ],
-      "Auto-detect primary time zone": [
-        "Автоопределение основного часового пояса"
-      ],
-      "Default view": [
-        "Вид по умолчанию"
-      ],
-      "Show week numbers": [
-        "Отображать номера недель"
-      ],
-      "Import to:": [
-        "Импортировать в:"
-      ],
-      "Your calendar URL": [
-        "URL-адрес вашего календаря"
-      ],
-      "Your calendar URL label": [
-        "Текст ссылки на календарь"
-      ],
-      "Delete": [
-        "Удалить"
-      ],
-      "Backup key": [
-        "Резервный ключ"
-      ],
-      "Uploaded private keys": [
-        "Загрузить закрытые ключи"
-      ],
-      "Upload your backup key": [
-        "Загрузка вашего резервного ключа"
-      ],
-      "Phrase": [
-        "Фраза"
-      ],
-      "Backup keys": [
-        "Резервный ключ"
-      ],
-      "Enter the password for key with fingerprint: ${ fingerprintCode }": [
-        "Введите пароль для ключа с отпечатком: ${ fingerprintCode }"
-      ],
-      "Enter password": [
-        "Введите пароль"
-      ],
-      "Please select files to upload": [
-        "Пожалуйста, выберите файлы для загрузки"
-      ],
-      "Timezone": [
-        "Часовой пояс"
-      ],
-      "Days of the week": [
-        "Дни недели"
-      ],
-      "Duration": [
-        "Длительность"
-      ],
-      "Start day of month": [
-        "День месяца начала"
-      ],
-      "Start time": [
-        "Время начала"
-      ],
-      "End day of month": [
-        "День месяца окончания"
-      ],
-      "End time": [
-        "Время окончания"
-      ],
-      "Start weekday": [
-        "День недели начала"
-      ],
-      "End weekday": [
-        "День недели окончания"
-      ],
-      "Start date": [
-        "Дата начала"
-      ],
-      "End date": [
-        "Дата окончания"
-      ],
-      "Message": [
-        "Сообщение"
-      ],
-      "Auto reply": [
-        "Автоматический ответ"
+      "OpenVPN / IKEv2 password": [
+        "Пароль OpenVPN / IKEv2"
       ],
       "Display name": [
         "Отображаемое имя"
@@ -1634,26 +1520,119 @@
       "Select a method": [
         "Выберите способ"
       ],
-      "Phone number": [
-        "Номер телефона"
+      "Timezone": [
+        "Часовой пояс"
       ],
-      "Verification code": [
-        "Код подтверждения"
+      "Days of the week": [
+        "Дни недели"
       ],
-      "Enter the 6-digit code": [
-        "Введите код из 6 цифр"
+      "Duration": [
+        "Длительность"
       ],
-      "Prompt to trust keys": [
-        "Спрашивать о доверии ключам"
+      "Start day of month": [
+        "День месяца начала"
       ],
-      "Sign external messages": [
-        "Подписывать сообщения, отправляемые вовне"
+      "Start time": [
+        "Время начала"
       ],
-      "Attach public key": [
-        "Присоединить публичный ключ"
+      "End day of month": [
+        "День месяца окончания"
       ],
-      "Default PGP settings": [
-        "Настройки PGP по умолчанию"
+      "End time": [
+        "Время окончания"
+      ],
+      "Start weekday": [
+        "День недели начала"
+      ],
+      "End weekday": [
+        "День недели окончания"
+      ],
+      "Start date": [
+        "Дата начала"
+      ],
+      "End date": [
+        "Дата окончания"
+      ],
+      "Message": [
+        "Сообщение"
+      ],
+      "Auto reply": [
+        "Автоматический ответ"
+      ],
+      "Name": [
+        "Имя"
+      ],
+      "Choose a color": [
+        "Выберите цвет"
+      ],
+      "Default email": [
+        "Эл. почта по умолчанию"
+      ],
+      "Display": [
+        "Показывать"
+      ],
+      "Description": [
+        "Описание"
+      ],
+      "Default event duration": [
+        "Длительность события по умолчанию"
+      ],
+      "URL": [
+        "Адрес"
+      ],
+      "Default notifications": [
+        "Стандартные уведомления"
+      ],
+      "Default full day notifications": [
+        "Стандартные уведомления для событий на весь день"
+      ],
+      "Show secondary time zone": [
+        "Отображать дополнительный часовой пояс"
+      ],
+      "Auto-detect primary time zone": [
+        "Автоопределение основного часового пояса"
+      ],
+      "Default view": [
+        "Вид по умолчанию"
+      ],
+      "Show week numbers": [
+        "Отображать номера недель"
+      ],
+      "Import to:": [
+        "Импортировать в:"
+      ],
+      "Your calendar URL": [
+        "URL-адрес вашего календаря"
+      ],
+      "Your calendar URL label": [
+        "Текст ссылки на календарь"
+      ],
+      "Delete": [
+        "Удалить"
+      ],
+      "Backup key": [
+        "Резервный ключ"
+      ],
+      "Uploaded private keys": [
+        "Загрузить закрытые ключи"
+      ],
+      "Upload your backup key": [
+        "Загрузка вашего резервного ключа"
+      ],
+      "Phrase": [
+        "Фраза"
+      ],
+      "Backup keys": [
+        "Резервный ключ"
+      ],
+      "Enter the password for key with fingerprint: ${ fingerprintCode }": [
+        "Введите пароль для ключа с отпечатком: ${ fingerprintCode }"
+      ],
+      "Enter password": [
+        "Введите пароль"
+      ],
+      "Please select files to upload": [
+        "Пожалуйста, выберите файлы для загрузки"
       ],
       "Your password (admin)": [
         "Ваш пароль (admin)"
@@ -1741,6 +1720,48 @@
       ],
       "Recovery phrase contains 12 words": [
         "Фраза для восстановления состоит из 12 слов"
+      ],
+      "Prompt to trust keys": [
+        "Спрашивать о доверии ключам"
+      ],
+      "Sign external messages": [
+        "Подписывать сообщения, отправляемые вовне"
+      ],
+      "Attach public key": [
+        "Присоединить публичный ключ"
+      ],
+      "Default PGP settings": [
+        "Настройки PGP по умолчанию"
+      ],
+      "Phone number": [
+        "Номер телефона"
+      ],
+      "Verification code": [
+        "Код подтверждения"
+      ],
+      "Enter the 6-digit code": [
+        "Введите код из 6 цифр"
+      ],
+      "Cash": [
+        "Наличные"
+      ],
+      "Card holder": [
+        "Владелец карты"
+      ],
+      "Expires": [
+        "Срок действия"
+      ],
+      "Payer": [
+        "Плательщик"
+      ],
+      "Credits used": [
+        "Кредитов использовано"
+      ],
+      "Amount due": [
+        "К оплате"
+      ],
+      "Customize invoices": [
+        "Настройка счетов"
       ],
       "Filter Name": [
         "Название фильтра"
@@ -1859,63 +1880,6 @@
       "Inherit color from parent folder": [
         "Наследовать цвет от родительской папки"
       ],
-      "Cash": [
-        "Наличные"
-      ],
-      "Card holder": [
-        "Владелец карты"
-      ],
-      "Expires": [
-        "Срок действия"
-      ],
-      "Payer": [
-        "Плательщик"
-      ],
-      "Credits used": [
-        "Кредитов использовано"
-      ],
-      "Amount due": [
-        "К оплате"
-      ],
-      "Customize invoices": [
-        "Настройка счетов"
-      ],
-      "Auto-load remote content": [
-        "Авто-показ внешнего содержимого"
-      ],
-      "Auto-load embedded images": [
-        "Авто-показ встроенных изображений"
-      ],
-      "Keep messages in Sent/Drafts": [
-        "Сохранять сообщения в Отправленных/Черновиках"
-      ],
-      "Link confirmation": [
-        "Подтверждение перехода по ссылкам"
-      ],
-      "Undo send": [
-        "Отмена отправки"
-      ],
-      "Cancel": [
-        "Отменить"
-      ],
-      "Submit": [
-        "Отправить"
-      ],
-      "Keyboard shortcuts": [
-        "Сочетания клавиш"
-      ],
-      "Signature": [
-        "Подпись"
-      ],
-      "ProtonMail footer": [
-        "Колонтитул ProtonMail"
-      ],
-      "User": [
-        "Пользователь"
-      ],
-      "Address": [
-        "Адрес"
-      ],
       "Organization name": [
         "Название организации"
       ],
@@ -1933,6 +1897,48 @@
       ],
       "Confirm organization password": [
         "Подтвердите пароль организации"
+      ],
+      "Confirm before loading remote content": [
+        ""
+      ],
+      "Auto-load embedded images": [
+        "Авто-показ встроенных изображений"
+      ],
+      "Keep messages in Sent/Drafts": [
+        "Сохранять сообщения в Отправленных/Черновиках"
+      ],
+      "Link confirmation": [
+        "Подтверждение перехода по ссылкам"
+      ],
+      "Undo send": [
+        "Отмена отправки"
+      ],
+      "Protect against email tracking": [
+        ""
+      ],
+      "Protection mode": [
+        ""
+      ],
+      "Keyboard shortcuts": [
+        "Сочетания клавиш"
+      ],
+      "Cancel": [
+        "Отменить"
+      ],
+      "Submit": [
+        "Отправить"
+      ],
+      "Signature": [
+        "Подпись"
+      ],
+      "ProtonMail footer": [
+        "Колонтитул ProtonMail"
+      ],
+      "User": [
+        "Пользователь"
+      ],
+      "Address": [
+        "Адрес"
       ],
       "VPN connections": [
         "VPN-соединения"
@@ -1974,10 +1980,750 @@
         "Код"
       ]
     },
-    "Info": {
-      "No results found": [
-        "Результаты не найдены"
+    "Title": {
+      "Expand content": [
+        "Развернуть содержимое"
       ],
+      "Link confirmation": [
+        "Подтверждение ссылки"
+      ],
+      "Open actions dropdown": [
+        "Показать список доступных действий"
+      ],
+      "Previous": [
+        "Назад"
+      ],
+      "Open pagination": [
+        "Отобразить нумерацию страниц"
+      ],
+      "Next": [
+        "Далее"
+      ],
+      "Keyboard Shortcuts": [
+        "Сочетания клавиш"
+      ],
+      "What's new": [
+        "Что нового"
+      ],
+      "Enable keyboard shortcuts": [
+        "Включить сочетания клавиш"
+      ],
+      "Exporting contacts": [
+        "Экспортирование контактов"
+      ],
+      "Select action to take on contact group": [
+        "Выберите действие для группы контактов"
+      ],
+      "Add contact group name": [
+        "Добавить имя группы контактов"
+      ],
+      "Select contact group": [
+        "Выбор группы контактов"
+      ],
+      "Warning": [
+        "Предупреждение"
+      ],
+      "Import groups": [
+        "Импортировать группы"
+      ],
+      "Import contacts": [
+        "Импортировать контакты"
+      ],
+      "Start import process": [
+        "Начать процесс импорта"
+      ],
+      "Import in progress": [
+        "Выполняется импорт"
+      ],
+      "Customize import": [
+        "Настройка импорта"
+      ],
+      "Prepare for import": [
+        "Подготовка к импорту"
+      ],
+      "Prepare Yahoo Mail for import": [
+        "Подготовка Yahoo Mail к импорту"
+      ],
+      "Prepare Gmail for import ${ gmailInstructionsStep }/${ totalSteps }": [
+        "Подготовка Gmail к импорту ${ gmailInstructionsStep }/${ totalSteps }"
+      ],
+      "Reconnect your account": [
+        "Повторно подключить свою учётную запись"
+      ],
+      "Start a new import": [
+        "Начать новый импорт"
+      ],
+      "Edit domain": [
+        "Изменить домен"
+      ],
+      "Add domain": [
+        "Добавление домена"
+      ],
+      "Catch-All address": [
+        "Ящик для получени всей почты домена"
+      ],
+      "Delete ${ domain.DomainName }": [
+        "Удалить ${ domain.DomainName }"
+      ],
+      "1. Select platform": [
+        "1. Выберите платформу"
+      ],
+      "2. Select protocol": [
+        "2. Выберите протокол"
+      ],
+      "3. Select config file and download": [
+        "3. Выберите файл конфигурации и скачайте"
+      ],
+      "Get ProtonVPN Plus to access all servers": [
+        "Перейдите на ProtonVPN Plus для доступа ко всем серверам"
+      ],
+      "Open help menu": [
+        "Открыть меню справки"
+      ],
+      "Back": [
+        "Назад"
+      ],
+      "Report a problem": [
+        "Сообщить о проблеме"
+      ],
+      "Confirm loss of Proton bonuses": [
+        "Подтвердите потерю бонусов Proton"
+      ],
+      "Processing": [
+        "Обработка"
+      ],
+      "Downgrade account": [
+        ""
+      ],
+      "Network error": [
+        "Ошибка сети"
+      ],
+      "Select a plan": [
+        "Выбор тарифного плана"
+      ],
+      "Customize your plan": [
+        "Настроить свой план"
+      ],
+      "Checkout": [
+        "Расчет"
+      ],
+      "Current plan": [
+        "Текущий тариф"
+      ],
+      "Apply gift code": [
+        "Применить подарочный код"
+      ],
+      "Subtotal": [
+        "Подытог"
+      ],
+      "Coupon discount": [
+        "Скидка по купону"
+      ],
+      "Total (monthly)": [
+        "Всего (ежемесячно)"
+      ],
+      "Credits": [
+        "Кредиты"
+      ],
+      "Gift code": [
+        "Подарочный код"
+      ],
+      "Amount due": [
+        "К оплате"
+      ],
+      "Edit credit/debit card": [
+        "Изменение данных банковской карты"
+      ],
+      "Add credit/debit card": [
+        "Добавление банковской карты"
+      ],
+      "Add PayPal payment method": [
+        "Добавить способ оплаты PayPal"
+      ],
+      "Add credits": [
+        "Пополнить счёт"
+      ],
+      "Confirm downgrade": [
+        "Подтвердите понижение тарифа"
+      ],
+      "ZIP / postal code": [
+        "Почтовый индекс"
+      ],
+      "Currency": [
+        "Валюта"
+      ],
+      "Billing cycle": [
+        "Период оплаты"
+      ],
+      "Payment details": [
+        "Реквизиты платежа"
+      ],
+      "Unsupported browser": [
+        "Неподдерживаемый браузер"
+      ],
+      "Card verification": [
+        "Проверка карты"
+      ],
+      "Payment verification": [
+        "Проверка платежа"
+      ],
+      "Processing...": [
+        "Обработка…"
+      ],
+      "Card verification in progress": [
+        "Идёт проверка карты"
+      ],
+      "Payment verification in progress": [
+        "Производится проверка платежа"
+      ],
+      "PayPal verification failed": [
+        "Сбой проверки PayPal"
+      ],
+      "3-D Secure verification failed": [
+        "Сбой проверки 3-D Secure"
+      ],
+      "Error": [
+        "Ошибка"
+      ],
+      "${ appName } customization": [
+        "${ appName } настройка"
+      ],
+      "Plan summary": [
+        "Сводка по тарифу"
+      ],
+      "Update calendar": [
+        "Обновить календарь"
+      ],
+      "Create calendar": [
+        "Создать календарь"
+      ],
+      "Select the way to send this notification": [
+        "Выберите способ отправки этого уведомления"
+      ],
+      "Select when you want this notification to be sent": [
+        "Выберите, когда вы хотите получать это уведомление"
+      ],
+      "Select the time to send this notification": [
+        "Выберите время отправки этого уведомления"
+      ],
+      "Add another notification to remind you of this event": [
+        "Добавить другое уведомление, чтобы напомнить вам об этом событии"
+      ],
+      "Export calendar": [
+        "Экспорт календаря"
+      ],
+      "Delete calendar": [
+        "Удалить календарь"
+      ],
+      "Remove calendar": [
+        "Удалить календарь"
+      ],
+      "Import events": [
+        "Импорт событий"
+      ],
+      "Your calendar link": [
+        "Ссылка на календарь"
+      ],
+      "Reactivate keys": [
+        "Реактивировать ключи"
+      ],
+      "Decrypt key": [
+        "Расшифровать ключ"
+      ],
+      "Export public key": [
+        "Экспорт публичного ключа"
+      ],
+      "Export private key": [
+        "Экспорт закрытого ключа"
+      ],
+      "Delete key": [
+        "Удалить ключ"
+      ],
+      "Create key": [
+        "Создание ключа"
+      ],
+      "Success": [
+        "Успешно"
+      ],
+      "Import key": [
+        "Импорт ключа"
+      ],
+      "Change password for ${ Name } (${ Email })": [
+        "Изменить пароль для ${ Name } (${ Email })"
+      ],
+      "Change password": [
+        "Изменить пароль"
+      ],
+      "Change login password": [
+        "Изменить пароль учётной записи"
+      ],
+      "Switch to two-password mode": [
+        "Переключение в режим с двумя паролями"
+      ],
+      "Switch to one-password mode": [
+        "Переключить в режим с одним паролем"
+      ],
+      "Change mailbox password": [
+        "Изменить пароль почтового ящика"
+      ],
+      "Set up two-factor authentication": [
+        "Настройка двухфакторной аутентификации"
+      ],
+      "Disable two-factor authentication": [
+        "Отключение двухфакторной аутентификации"
+      ],
+      "Password": [
+        "Пароль"
+      ],
+      "Login password": [
+        "Пароль для входа"
+      ],
+      "Delete account": [
+        "Удалить учётную запись"
+      ],
+      "Confirm address": [
+        "Подтвердите адрес"
+      ],
+      "Confirm phone number": [
+        "Подтвердите номер телефона"
+      ],
+      "Automatically sign outgoing messages?": [
+        "Подписывать ли исходящие сообщения автоматически?"
+      ],
+      "Invalid verification code": [
+        "Неверный проверочный код"
+      ],
+      "Human verification": [
+        "Проверка \"Я — не робот\""
+      ],
+      "Request new code": [
+        "Запросить новый код"
+      ],
+      "App": [
+        "Приложение"
+      ],
+      "Date": [
+        "Дата"
+      ],
+      "Action": [
+        "Действие"
+      ],
+      "Delete logs": [
+        "Удалить записи журнала"
+      ],
+      "Clear": [
+        "Очистить"
+      ],
+      "Pay invoice": [
+        "Оплатить счёт"
+      ],
+      "Add invoice details": [
+        "Добавить сведения к счёту"
+      ],
+      "Amount": [
+        "Сумма"
+      ],
+      "Type": [
+        "Тип"
+      ],
+      "Status": [
+        "Состояние"
+      ],
+      "Edit filter": [
+        "Изменение фильтра"
+      ],
+      "Add filter": [
+        "Добавить фильтр"
+      ],
+      "Are you sure you want to close?": [
+        "Вы уверены, что хотите закрыть?"
+      ],
+      "Edit Sieve filter": [
+        "Изменение Sieve-фильтра"
+      ],
+      "Add Sieve filter": [
+        "Добавить фильтр Sieve"
+      ],
+      "Delete ${ filter.Name }": [
+        "Удалить ${ filter.Name }"
+      ],
+      "Allow List": [
+        "Список разрешённых"
+      ],
+      "Block List": [
+        "Список блокируемых"
+      ],
+      "Add to Block List": [
+        "Добавить в список блокируемых"
+      ],
+      "Add to Allow List": [
+        "Добавить в список разрешённых"
+      ],
+      "Edit Block List": [
+        "Изменить список блокируемых"
+      ],
+      "Edit Allow List": [
+        "Изменить список разрешённых"
+      ],
+      "Delete ${ Name } folder": [
+        "Удалить папку ${ Name }"
+      ],
+      "Delete ${ Name } label": [
+        "Удалить метку ${ Name }"
+      ],
+      "Sort folders alphabetically": [
+        "Сортировать папки по алфавиту"
+      ],
+      "Sort labels alphabetically": [
+        "Сортировать ярлыки по алфавиту"
+      ],
+      "Change organization name": [
+        "Изменение названия организации"
+      ],
+      "Set organization name": [
+        "Задать название организации"
+      ],
+      "Set organization keys": [
+        "Настройка ключей организации"
+      ],
+      "Set organization password": [
+        "Задать пароль организации"
+      ],
+      "Allocate storage": [
+        "Выделение объёма в хранилище"
+      ],
+      "Allocate VPN connections": [
+        "Выделить VPN-соединения"
+      ],
+      "Reset organization keys": [
+        "Сброс ключей организации"
+      ],
+      "Change organization keys": [
+        "Изменение ключей организации"
+      ],
+      "Activate organization key": [
+        "Активация ключа организации"
+      ],
+      "Restore administrator privileges": [
+        "Восстановить права администратора"
+      ],
+      "Change organization password": [
+        "Изменение пароля организации"
+      ],
+      "${ appName } Keyboard Shortcuts": [
+        "Сочетания клавиш ${ appName }"
+      ],
+      "Account suspended": [
+        "Учетная запись приостановлена"
+      ],
+      "Sign in again to continue": [
+        "Войдите снова, чтобы продолжить"
+      ],
+      "Add address": [
+        "Добавить адрес"
+      ],
+      "Delete ${ address.Email }": [
+        "Удалить ${ address.Email }"
+      ],
+      "Generate missing keys": [
+        "Создать недостающие ключи"
+      ],
+      "Bridge for ${ platform }": [
+        "Bridge для ${ platform }"
+      ],
+      "Change role": [
+        "Изменить роль"
+      ],
+      "Edit user": [
+        "Изменение пользователя"
+      ],
+      "Delete user": [
+        "Удалить пользователя"
+      ],
+      "Add user": [
+        "Добавить пользователя"
+      ],
+      "General": [
+        "Основные"
+      ],
+      "Theme": [
+        "Тема"
+      ],
+      "Contacts": [
+        "Контакты"
+      ],
+      "Import & export": [
+        "Импорт и экспорт"
+      ],
+      "Import": [
+        "Импортировать"
+      ],
+      "Export": [
+        "Экспорт"
+      ],
+      "Appearance": [
+        "Внешний вид"
+      ],
+      "Layout": [
+        "Макет"
+      ],
+      "Other": [
+        "Другое"
+      ],
+      "Domain names": [
+        "Доменные имена"
+      ],
+      "Catch-all address": [
+        "Адрес ящика-ловушки (получает всю почту домена)"
+      ],
+      "Auto reply": [
+        "Автоматический ответ"
+      ],
+      "Encryption & keys": [
+        "Шифрование и ключи"
+      ],
+      "Address verification": [
+        "Проверка адреса"
+      ],
+      "External PGP settings": [
+        "Настройки внешнего PGP"
+      ],
+      "Email encryption keys": [
+        "Ключи шифрования эл. почты"
+      ],
+      "Contact encryption keys": [
+        "Ключи шифрования контакта"
+      ],
+      "Filters": [
+        "Фильтры"
+      ],
+      "Custom filters": [
+        "Пользовательские фильтры"
+      ],
+      "Spam filters": [
+        "Фильтры спама"
+      ],
+      "Folders & labels": [
+        "Папки и ярлыки"
+      ],
+      "Folders": [
+        "Папки"
+      ],
+      "Labels": [
+        "Ярлыки"
+      ],
+      "Short domain (@pm.me)": [
+        "Короткий домен (@pm.me)"
+      ],
+      "Messages": [
+        "Сообщения"
+      ],
+      "Advanced": [
+        "Расширенные"
+      ],
+      "Spy Tracker Protection": [
+        ""
+      ],
+      "Identity & addresses": [
+        "Личность и адреса"
+      ],
+      "Display name & signature": [
+        "Отображаемое имя и подпись"
+      ],
+      "My addresses": [
+        "Мои адреса"
+      ],
+      "IMAP/SMTP": [
+        "IMAP/SMTP"
+      ],
+      "ProtonMail Bridge": [
+        "ProtonMail Bridge"
+      ],
+      "Import Assistant": [
+        "Помощник по импорту"
+      ],
+      "Current & past imports": [
+        "Текущие и прошлые импорты"
+      ],
+      "Import-Export app": [
+        "Приложение Import-Export"
+      ],
+      "Email privacy": [
+        ""
+      ],
+      "VPN apps": [
+        "Приложения VPN"
+      ],
+      "ProtonVPN": [
+        "ProtonVPN"
+      ],
+      "OpenVPN / IKEv2": [
+        "OpenVPN / IKEv2"
+      ],
+      "Credentials": [
+        "Учетные данные"
+      ],
+      "OpenVPN configuration files": [
+        "Конфигурационные файлы OpenVPN"
+      ],
+      "Password & recovery": [
+        "Пароль и восстановление"
+      ],
+      "Passwords": [
+        "Пароли"
+      ],
+      "Recovery & notification": [
+        "Восстановление и уведомление"
+      ],
+      "Security": [
+        "Безопасность"
+      ],
+      "Session management": [
+        "Управление сессиями"
+      ],
+      "Security logs": [
+        "Журнал безопасности"
+      ],
+      "Payment": [
+        "Платёж"
+      ],
+      "Billing details": [
+        "Платёжная информация"
+      ],
+      "Payment methods": [
+        "Способы оплаты"
+      ],
+      "Invoices": [
+        "Счета"
+      ],
+      "Dashboard": [
+        "Личный кабинет"
+      ],
+      "Select plan": [
+        "Выберите тарифный план"
+      ],
+      "Your current plan": [
+        "Текущий тарифный план"
+      ],
+      "Your plan": [
+        "Ваш тариф"
+      ],
+      "Language & time": [
+        "Язык и время"
+      ],
+      "Email subscriptions": [
+        "Подписки на рассылки"
+      ],
+      "Organization": [
+        "Организация"
+      ],
+      "Multi-user support": [
+        "Многопользовательский режим"
+      ],
+      "Users and addresses": [
+        "Пользователи и адреса"
+      ],
+      "Addresses": [
+        "Адреса"
+      ],
+      "Organization & keys": [
+        "Организация и ключи"
+      ],
+      "Password & keys": [
+        "Пароль и ключи"
+      ],
+      "My calendars": [
+        "Мои календари"
+      ],
+      "Subscribed calendars": [
+        "Подписки на календари"
+      ],
+      "Share outside Proton": [
+        "Поделиться вне Proton"
+      ],
+      "Time zone": [
+        "Часовой пояс"
+      ],
+      "Sorry, you can't access this page": [
+        "Извините, у Вас нет доступа к этой странице"
+      ],
+      "Upgrade": [
+        "Улучшить"
+      ],
+      "Proton Logo": [
+        "Логотип Proton"
+      ],
+      "Settings": [
+        "Настройки"
+      ],
+      "Choose an account": [
+        "Выберите учётную запись"
+      ],
+      "Email": [
+        "Эл. почта"
+      ],
+      "Phone": [
+        "Телефон"
+      ],
+      "Find email or username": [
+        "Найти адрес эл. почты или имя пользователя"
+      ],
+      "This address might compromise your privacy.": [
+        "Этот адрес может поставить под угрозу вашу конфиденциальность."
+      ],
+      "Create your Proton Account": [
+        "Создание учётной записи Proton"
+      ],
+      "Add a recovery method": [
+        "Добавить метод восстановления"
+      ],
+      "(highly recommended)": [
+        "(настоятельно рекомендуется)"
+      ],
+      "Account verification": [
+        "Подтверждение аккаунта"
+      ],
+      "Plan selection": [
+        "Выбор тарифа"
+      ],
+      "Are you human?": [
+        "Вы человек?"
+      ],
+      "Creating account": [
+        "Создание учётной записи"
+      ],
+      "Sign in": [
+        "Войти"
+      ],
+      "Two-factor authentication": [
+        "Двухфакторная аутентификация"
+      ],
+      "Unlock your mailbox": [
+        "Разблокируйте ваш почтовый ящик"
+      ],
+      "Set new password": [
+        "Задать новый пароль"
+      ],
+      "Create a ${ mailAppName } address": [
+        "Создать адрес ${ mailAppName }"
+      ],
+      "Address is available": [
+        "Адрес доступен"
+      ],
+      "Reset password?": [
+        "Сбросить пароль?"
+      ],
+      "Warning!": [
+        "Предупреждение!"
+      ],
+      "Reset password": [
+        "Сбросить пароль"
+      ],
+      "No recovery method": [
+        "Отсутствует метод восстановления"
+      ]
+    },
+    "Info": {
       "Insert image": [
         "Вставить изображение"
       ],
@@ -2053,6 +2799,9 @@
       "Plain text": [
         "Простой текст"
       ],
+      "No results found": [
+        "Результаты не найдены"
+      ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Эта ссылка может быть омографической атакой, при которой символы одного алфавита подменяются похожими символами из другого, и не может быть открыта браузерами Internet Explorer и Edge. Если вы уверены, что ссылка безопасна, то, пожалуйста, воспользуйтесь другим браузером для её открытия."
       ],
@@ -2085,81 +2834,6 @@
       ],
       "The application needs to locally decrypt your contacts before they can be exported. At the end of the process, a VCF file will be generated and you will be able to download it.": [
         "Прежде чем экспортировать контакты, приложению необходимо расшифровать ваши контакты. В конце процесса будет сгенерирован файл VCF, и вы сможете его скачать."
-      ],
-      "To secure your internet connection, download and install the ProtonVPN application for your device and connect to a ProtonVPN server.": [
-        "Чтобы защитить ваше интернет-соединение, скачайте и установите приложение ProtonVPN для вашего устройства и подключитесь к серверу ProtonVPN."
-      ],
-      "You can use the following credentials to connect to a ProtonVPN server using a third-party, open source VPN app, like Tunnelblick for macOS or OpenVPN for GNU/Linux.": [
-        "Вы можете использовать следующие учетные данные для подключения к серверу ProtonVPN с помощью стороннего VPN-приложения с открытым исходным кодом, например, Tunnelblick для macOS или OpenVPN для GNU/Linux."
-      ],
-      "Learn how to log in to ProtonVPN with third-party VPN applications.": [
-        "Узнайте, как пользоваться ProtonVPN с помощью сторонних VPN-приложений."
-      ],
-      "We advise you to use official ProtonVPN applications when possible.": [
-        "Мы советуем вам по возможности использовать официальные приложения ProtonVPN."
-      ],
-      "You cannot use the OpenVPN / IKEv2 credentials to log in to ProtonVPN applications or the ProtonVPN dashboard. ${ learnMore }": [
-        "Вы не можете использовать учетные данные OpenVPN / IKEv2 в приложениях ProtonVPN или для входа в панель управления ProtonVPN. ${ learnMore }"
-      ],
-      "Use the following credentials when connecting to ProtonVPN servers without application. Examples use cases include: Tunnelblick on macOS, OpenVPN on GNU/Linux.": [
-        "Используйте следующие учётные данные для подключения к ProtonVPN через сторонние приложения, например, Tunnelblick на MacOS или OpenVPN на GNU/Linux."
-      ],
-      "Do not use the OpenVPN / IKEv2 credentials in ProtonVPN applications or on the ProtonVPN dashboard. ${ learnMore }": [
-        "Не используйте учетные данные OpenVPN / IKEv2 в приложениях ProtonVPN или на панели управления ProtonVPN. ${ learnMore }"
-      ],
-      "Server load": [
-        "Нагрузка сервера"
-      ],
-      "Server is currently down": [
-        "Сервер сейчас не работает"
-      ],
-      "P2P": [
-        "P2P"
-      ],
-      "Tor": [
-        "Tor"
-      ],
-      "Plus or Visionary subscription required": [
-        "Требуется подписка Plus или Visionary"
-      ],
-      "Basic, Plus or Visionary subscription required": [
-        "Требуется подписка Basic, Plus или Visionary"
-      ],
-      "${ number } server": [
-        "${ number } сервер",
-        "${ number } сервера",
-        "${ number } серверов",
-        "${ number } серверов"
-      ],
-      "${ number } city": [
-        "${ number } город",
-        "${ number } города",
-        "${ number } городов",
-        "${ number } городов"
-      ],
-      "These configuration files let you choose which ProtonVPN server you connect to when using a third-party VPN app or setting up a VPN connection on a router.": [
-        "Эти конфигурационные файлы позволяют выбрать сервер ProtonVPN для подключения при использовании стороннего приложения VPN или настройке VPN соединения на маршрутизаторе."
-      ],
-      "Install a Secure Core configuration file to benefit from an additional protection against VPN endpoint compromise.": [
-        "Установите конфигурационный файл Secure Core, чтобы воспользоваться дополнительной защитой от компрометации конечных точек VPN."
-      ],
-      "ProtonVPN Plus or Visionary required for Secure Core feature.": [
-        "ProtonVPN Plus или Visionary нужны для использования функции Secure Core."
-      ],
-      "Install a Country configuration file to connect to a random server in the country of your choice.": [
-        "Установите конфигурационный файл страны для подключения к случайно выбранному серверу в выбранной стране."
-      ],
-      "ProtonVPN Basic, Plus or Visionary required for Country level connection.": [
-        "Требуется ProtonVPN Basic, Plus или Visionary для подключения на уровне страны."
-      ],
-      "Install a Server configuration file to connect to a specific server in the country of your choice.": [
-        "Установите конфигурационный файл сервера для подключения к определенному серверу в выбранной стране."
-      ],
-      "Install a Free server configuration file to connect to a specific server in one of the three free locations.": [
-        "Для подключения к одному из трех бесплатных серверов требуется установить конфигурационный файл."
-      ],
-      "Plan upgrade required": [
-        "Требуется улучшение плана"
       ],
       "Import calendars": [
         "Импортировать календари"
@@ -2296,9 +2970,6 @@
       "Available on macOS, Windows, and Linux.": [
         "Доступно на macOS, Windows и Linux."
       ],
-      "Choose the look and feel of the application.": [
-        "Выберите внешний вид приложения."
-      ],
       "SPF is used to specify who is allowed to send email for the domain so we strongly recommend including ProtonMail in your SPF record. Please add the following TXT record into your DNS. This can typically be done in the control panel of your domain name registrar.": [
         "SPF используется для обозначения тех, кому разрешено посылать почту от имени домена. Мы настоятельно рекомендуем добавить ProtonMail в вашу SPF-запись. Пожалуйста, добавьте следующую TXT-запись в ваш DNS. Такая возможность, как правило, предусмотрена в панели управления регистратора домена."
       ],
@@ -2350,161 +3021,95 @@
       "If you have a custom domain with ProtonMail, you can set a catch-all email address that will receive messages sent to your domain but to an invalid email address (e.g., typos).": [
         "Если у вас есть собственный домен с ProtonMail, вы можете настроить общий адрес электронной почты (catch-all), который будет получать сообщения, отправленные на некорректные адреса почты вашего домена (например, набранные с ошибками)."
       ],
-      "Are you sure you want to delete this calendar?": [
-        "Вы уверены, что хотите удалить этот календарь?"
+      "To secure your internet connection, download and install the ProtonVPN application for your device and connect to a ProtonVPN server.": [
+        "Чтобы защитить ваше интернет-соединение, скачайте и установите приложение ProtonVPN для вашего устройства и подключитесь к серверу ProtonVPN."
       ],
-      "${ calendarName } will be set as default calendar.": [
-        "${ calendarName } будет установлен как календарь по умолчанию."
+      "You can use the following credentials to connect to a ProtonVPN server using a third-party, open source VPN app, like Tunnelblick for macOS or OpenVPN for GNU/Linux.": [
+        "Вы можете использовать следующие учетные данные для подключения к серверу ProtonVPN с помощью стороннего VPN-приложения с открытым исходным кодом, например, Tunnelblick для macOS или OpenVPN для GNU/Linux."
       ],
-      "The calendar will be removed from your account.": [
-        "Календарь будет удален из вашей учетной записи."
+      "Learn how to log in to ProtonVPN with third-party VPN applications.": [
+        "Узнайте, как пользоваться ProtonVPN с помощью сторонних VPN-приложений."
       ],
-      "You need to have an active personal calendar to import your events.": [
-        "Вам нужен активный календарь, чтобы начать импорт событий."
+      "We advise you to use official ProtonVPN applications when possible.": [
+        "Мы советуем вам по возможности использовать официальные приложения ProtonVPN."
       ],
-      "If the system time zone does not match the current time zone preference, you will be asked to update it (at most once per day).": [
-        "Если часовой пояс вашего компьютера не совпадает с текущими настройками часового пояса, мы будем предлагать вам обновить его (не чаще, чем раз в день)."
+      "You cannot use the OpenVPN / IKEv2 credentials to log in to ProtonVPN applications or the ProtonVPN dashboard. ${ learnMore }": [
+        "Вы не можете использовать учетные данные OpenVPN / IKEv2 в приложениях ProtonVPN или для входа в панель управления ProtonVPN. ${ learnMore }"
       ],
-      "Week and month views only apply to desktop.": [
-        "Отображение недели и месяца применяются только к рабочему столу."
+      "Use the following credentials when connecting to ProtonVPN servers without application. Examples use cases include: Tunnelblick on macOS, OpenVPN on GNU/Linux.": [
+        "Используйте следующие учётные данные для подключения к ProtonVPN через сторонние приложения, например, Tunnelblick на MacOS или OpenVPN на GNU/Linux."
       ],
-      "Only you can see the labels.": [
-        "Только вы можете видеть метки."
+      "Do not use the OpenVPN / IKEv2 credentials in ProtonVPN applications or on the ProtonVPN dashboard. ${ learnMore }": [
+        "Не используйте учетные данные OpenVPN / IKEv2 в приложениях ProtonVPN или на панели управления ProtonVPN. ${ learnMore }"
       ],
-      "Limited view: others see if you're busy. Full view: shows all event details, including name, location, or participants.": [
-        "Ограниченный вид: другие видят, если вы заняты. Полный просмотр: показывает все детали события, включая имя, местоположение или участников."
+      "Server load": [
+        "Нагрузка сервера"
       ],
-      "You can create up to ${ MAX_LINKS_PER_CALENDAR } links per calendar. To create a new link to this calendar, delete one from the list below.": [
-        "Вы можете создать до ${ MAX_LINKS_PER_CALENDAR } ссылок на календарь. Чтобы создать новую ссылку на этот календарь, удалите одну ссылку из списка ниже."
+      "Server is currently down": [
+        "Сервер сейчас не работает"
       ],
-      "By sharing the full event details of this calendar, you accept to grant Proton access to this calendar's encrypted information.": [
-        "Поделившись полной информацией о событии этого календаря, вы соглашаетесь предоставить Proton доступ к зашифрованной информации этого календаря."
+      "P2P": [
+        "P2P"
       ],
-      "Anyone with this link can see all the event details of this calendar such as title, location or participants.": [
-        "Любой, у кого есть эта ссылка, может увидеть все детали события этого календаря, такие как название, местоположение или участников."
+      "Tor": [
+        "Tor"
       ],
-      "Anyone with this link can see whether you’re free or busy on your calendar. They can’t see event details, such as title, location, or participants.": [
-        "Любой, у кого есть эта ссылка, может увидеть в вашем календаре, свободны вы или заняты. Они не могут видеть детали событий, такие как название, местоположение или участников."
+      "Plus or Visionary subscription required": [
+        "Требуется подписка Plus или Visionary"
       ],
-      "Delete link?": [
-        "Удалить ссылку?"
+      "Basic, Plus or Visionary subscription required": [
+        "Требуется подписка Basic, Plus или Visionary"
       ],
-      "Anyone with this link won't be able to sync or get future updates for your calendar. If you want to give them access again, you will have to create a new link.": [
-        "Никто с этой ссылкой не сможет синхронизировать или получать будущие обновления для вашего календаря. Если вы хотите дать им доступ еще раз, вам придется создать новую ссылку."
+      "${ number } server": [
+        "${ number } сервер",
+        "${ number } сервера",
+        "${ number } серверов",
+        "${ number } серверов"
       ],
-      "Edit label": [
-        "Изменить ярлык"
+      "${ number } city": [
+        "${ number } город",
+        "${ number } города",
+        "${ number } городов",
+        "${ number } городов"
       ],
-      "Add label": [
-        "Добавить ярлык"
+      "These configuration files let you choose which ProtonVPN server you connect to when using a third-party VPN app or setting up a VPN connection on a router.": [
+        "Эти конфигурационные файлы позволяют выбрать сервер ProtonVPN для подключения при использовании стороннего приложения VPN или настройке VPN соединения на маршрутизаторе."
       ],
-      "Link copied to clipboard": [
-        "Ссылка скопирована в буфер обмена"
+      "Install a Secure Core configuration file to benefit from an additional protection against VPN endpoint compromise.": [
+        "Установите конфигурационный файл Secure Core, чтобы воспользоваться дополнительной защитой от компрометации конечных точек VPN."
       ],
-      "Link created": [
-        "Ярлык создан"
+      "ProtonVPN Plus or Visionary required for Secure Core feature.": [
+        "ProtonVPN Plus или Visionary нужны для использования функции Secure Core."
       ],
-      "Link deleted": [
-        "Ссылка удалена"
+      "Install a Country configuration file to connect to a random server in the country of your choice.": [
+        "Установите конфигурационный файл страны для подключения к случайно выбранному серверу в выбранной стране."
       ],
-      "Create a link to your calendar and share it with anyone outside Proton. Only you can add or remove events.": [
-        "Создайте ссылку на свой календарь и поделитесь ею с кем-то, кто не пользуется услугами Proton. Только вы можете добавлять или удалять события."
+      "ProtonVPN Basic, Plus or Visionary required for Country level connection.": [
+        "Требуется ProtonVPN Basic, Plus или Visionary для подключения на уровне страны."
       ],
-      "You need to have a personal calendar to create a link.": [
-        "У вас должен быть календарь, чтобы создать ссылку."
+      "Install a Server configuration file to connect to a specific server in the country of your choice.": [
+        "Установите конфигурационный файл сервера для подключения к определенному серверу в выбранной стране."
       ],
-      "All keys successfully reactivated": [
-        "Все ключи успешно реактивированы"
+      "Install a Free server configuration file to connect to a specific server in one of the three free locations.": [
+        "Для подключения к одному из трех бесплатных серверов требуется установить конфигурационный файл."
       ],
-      "Some keys successfully reactivated": [
-        "Некоторые ключи успешно реактивированы"
+      "Plan upgrade required": [
+        "Требуется улучшение плана"
       ],
-      "Unable to decrypt. Recovery phrase is not associated with any outdated keys.": [
-        "Невозможно расшифровать. Фраза восстановления не связана ни с одним устаревшим ключем."
-      ],
-      "Unable to decrypt. Recovery phrase is not associated with any keys.": [
-        "Невозможно расшифровать. Фраза восстановления не связана ни с одним ключем."
-      ],
-      "Uploaded file is not a valid private key. Please verify and try again.": [
-        "Загруженный файл не является действительным закрытым ключом. Пожалуйста, проверьте и повторите попытку."
-      ],
-      "${ numberOfNonPrivateKeys } uploaded file is not a valid private key. Please verify and try again.": [
-        "${ numberOfNonPrivateKeys } загруженный файл не является действительным закрытым ключом. Пожалуйста, проверьте и повторите попытку.",
-        "${ numberOfNonPrivateKeys } загруженные файлы не являются действительными закрытыми ключами. Пожалуйста, проверьте и повторите попытку.",
-        "${ numberOfNonPrivateKeys } загруженные файлы не являются действительными закрытыми ключами. Пожалуйста, проверьте и повторите попытку.",
-        "${ numberOfNonPrivateKeys } загруженные файлы не являются действительными закрытыми ключами. Пожалуйста, проверьте и повторите попытку."
-      ],
-      "To access your old messages, you will need to reactivate your old encryption keys using one of the following recovery methods.": [
-        "Чтобы получить доступ к старым сообщениям, вам нужно заново активировать старые ключи шифрования, используя один из следующих методов восстановления."
-      ],
-      "Give your public key to your friends, or publish it online, so that everyone can send you end-to-end encrypted email!": [
-        "Поделитесь своим публичным ключом с друзьями или опубликуйте его в Интернете, чтобы каждый мог отправлять вам письма со сквозным шифрованием!"
-      ],
-      "IMPORTANT: Downloading your private keys and sending them over or storing them on insecure media can jeopardise the security of your account!": [
-        "ВАЖНО: Скачивание ваших закрытых ключей и их рассылка или хранение их на незащищённых носителях может подвергнуть опасности защиту вашей учётной записи!"
-      ],
-      "Please enter a password to encrypt your private key with before exporting.": [
-        "Пожалуйста, введите пароль, которым будет зашифрован ваш закрытый ключ перед экспортом."
-      ],
-      "This feature is intended for advanced users only. After deleting this key, you will NOT be able to decrypt any message that has been encrypted with it. It may lead to data loss.": [
-        "Эта функция предназначена только для опытных пользователей! После удаления этого ключа вы не сможете расшифровать зашифрованные им сообщения. Это может привести к потере данных."
-      ],
-      "Key with fingerprint ${ fp } has been deleted.": [
-        "Ключ с отпечатком ${ fp } удалён."
-      ],
-      "You can generate a new encryption key if you think your previous key has been compromised.": [
-        "Вы можете создать новый ключ шифрования, если считаете, что ваш предыдущий ключ был скомпрометирован."
-      ],
-      "A key with the same encryption algorithm is already active for this address. Generating another key will cause slower account loading and deletion of this key can cause issues. If you are generating a new key because your old key is compromised, please mark that key as compromised. Are you sure you want to continue?": [
-        "Для этого адреса уже активен ключ с таким же алгоритмом шифрования. Создание ещё одного ключа вызовет замедление загрузки учётной записи и удаление этого ключа может вызвать проблемы. Если вы создаёте новый ключ по причине компрометации старого, пожалуйста, отметьте тот ключ как скомпрометированный. Вы уверены, что хотите продолжить?"
-      ],
-      "Key with fingerprint ${ fp } successfully created.": [
-        "Ключ с отпечатком ${ fp } успешно создан."
-      ],
-      "No addresses exist": [
-        "Нет адресов"
-      ],
-      "Download your PGP keys for use with other PGP-compatible services.": [
-        "Загрузите ключи PGP для использования в других PGP-совместимых сервисах."
-      ],
-      "No contact encryption keys exist": [
-        "У контакта нет ключей шифрования"
-      ],
-      "Auto-reply is active each month between the selected start and end time.": [
-        "Автоответчик активен каждый месяц между выбранной начальной и конечной датами."
-      ],
-      "Auto-reply is always active on the days of the week you select, between the selected hours.": [
-        "Автоответчик всегда активен в выбранные вами дни недели и в выбранный вами промежуток времени."
-      ],
-      "Auto-reply is active each week between the selected start and end time.": [
-        "Автоответчик активен каждую неделю между выбранной начальной и конечной датами."
-      ],
-      "Auto-reply is active until you turn it off.": [
-        "Автоответчик активен до тех пор, пока вы не отключите его."
-      ],
-      "Auto-reply is active from the start time to the end time.": [
-        "Автоответчик активен с начальной даты по конечную дату."
-      ],
-      "Images have been removed because they are not allowed in auto-reply.": [
-        "Изображения были удалены, поскольку они не допускаются в автоответчике."
-      ],
-      "Use automatic replies to inform contacts you are out of the office or otherwise unable to respond.": [
-        "Используйте автоматические ответы для оповещения контактов, что вы находитесь вне офиса или не можете ответить."
-      ],
-      "Upgrade to a ${ PLAN_NAMES[PLANS.VISIONARY] } or ${ PLAN_NAMES[PLANS.PROFESSIONAL] } plan to enable automatic replies for when you are out of the office.": [
-        "Переходите на план ${ PLAN_NAMES[PLANS.VISIONARY] } или ${ PLAN_NAMES[PLANS.PROFESSIONAL] } чтобы включить автоматические ответы в то время, когда ват нет в офисе."
-      ],
-      "More Info": [
-        "Подробнее"
-      ],
-      "Loading ${ appName }": [
-        "Загрузка ${ appName }"
+      "Choose the look and feel of the application.": [
+        "Выберите внешний вид приложения."
       ],
       "Screenshot(s) attached": [
         "Снимки экрана прикреплены"
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "Обновление страницы или ${ link } автоматически решит большинство проблем."
+      ],
+      "More Info": [
+        "Подробнее"
+      ],
+      "Loading ${ appName }": [
+        "Загрузка ${ appName }"
       ],
       "Since you're a loyal user, your account has additional features enabled.": [
         "Так как вы наш постоянный пользователь, для вашего аккаунта появился дополнительный функционал."
@@ -2791,47 +3396,92 @@
       "30 days money-back guarantee.": [
         "Гарантия возврата денег в течение 30 дней."
       ],
-      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
-        "Сейчас Ваш аккаунт Proton приостановлен. Чтобы продолжить использование вашего аккаунта, пожалуйста, оплатите просроченные счета."
+      "Auto-reply is active each month between the selected start and end time.": [
+        "Автоответчик активен каждый месяц между выбранной начальной и конечной датами."
       ],
-      "Would you like to receive a new verification code or use an alternative verification method?": [
-        "Вы хотите получить новый проверочный код или использовать альтернативный метод проверки?"
+      "Auto-reply is always active on the days of the week you select, between the selected hours.": [
+        "Автоответчик всегда активен в выбранные вами дни недели и в выбранный вами промежуток времени."
       ],
-      "Enter the verification code that was sent to ${ destinationText }.": [
-        "Введите код подтверждения, отправленный на ${ destinationText }."
+      "Auto-reply is active each week between the selected start and end time.": [
+        "Автоответчик активен каждую неделю между выбранной начальной и конечной датами."
       ],
-      "If you don't find the email in your inbox, please check your spam folder.": [
-        "Если сообщения нет в папке \"Входящие\" - проверьте, не попало ли оно в папку «спам»."
+      "Auto-reply is active until you turn it off.": [
+        "Автоответчик активен до тех пор, пока вы не отключите его."
       ],
-      "To fight spam and abuse, please verify you are human.": [
-        "Для предотвращения распространения спама и иных злоупотреблений нашим сервисом, нам нужно убедиться, что вы человек."
+      "Auto-reply is active from the start time to the end time.": [
+        "Автоответчик активен с начальной даты по конечную дату."
       ],
-      "Your email will only be used for this one-time verification.": [
-        "Ваш адрес электронной почты будет использован для этой разовой проверки."
+      "Images have been removed because they are not allowed in auto-reply.": [
+        "Изображения были удалены, поскольку они не допускаются в автоответчике."
       ],
-      "Your phone number will only be used for this one-time verification.": [
-        "Ваш номер телефона будет использоваться только для этой разовой проверки."
+      "Use automatic replies to inform contacts you are out of the office or otherwise unable to respond.": [
+        "Используйте автоматические ответы для оповещения контактов, что вы находитесь вне офиса или не можете ответить."
       ],
-      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
-        "Если у вас возникли проблемы с созданием учетной записи, пожалуйста, запросите приглашение и мы ответим в течение одного рабочего дня."
+      "Upgrade to a ${ PLAN_NAMES[PLANS.VISIONARY] } or ${ PLAN_NAMES[PLANS.PROFESSIONAL] } plan to enable automatic replies for when you are out of the office.": [
+        "Переходите на план ${ PLAN_NAMES[PLANS.VISIONARY] } или ${ PLAN_NAMES[PLANS.PROFESSIONAL] } чтобы включить автоматические ответы в то время, когда ват нет в офисе."
       ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
-        "Нажмите \"Запросить новый код\", и мы отправим новый проверочный код на ${ strong }. Если этот адрес электронной почты неверный, то выберите \"Изменить\" для обновления."
+      "Are you sure you want to delete this calendar?": [
+        "Вы уверены, что хотите удалить этот календарь?"
       ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
-        "Нажмите \"Запросить новый код\", и мы отправим новый проверочный код на ${ strong }. Если этот номер телефона не верный, то выберите \"Изменить\" для обновления."
+      "${ calendarName } will be set as default calendar.": [
+        "${ calendarName } будет установлен как календарь по умолчанию."
       ],
-      "Address verification is an advanced security feature. Only turn this on if you know what it does.": [
-        "Проверка адреса – это расширенная функция безопасности. Включайте её только тогда, когда знаете, что она делает."
+      "The calendar will be removed from your account.": [
+        "Календарь будет удален из вашей учетной записи."
       ],
-      "Encryption setting updated": [
-        "Настройка шифрования обновлена"
+      "You need to have an active personal calendar to import your events.": [
+        "Вам нужен активный календарь, чтобы начать импорт событий."
       ],
-      "PGP clients are more likely to automatically detect your PGP keys if outgoing messages are signed.": [
-        "Клиенты с поддержкой PGP, скорее всего, смогут автоматически определять ваши PGP-ключи, если исходящие сообщения будут подписаны."
+      "If the system time zone does not match the current time zone preference, you will be asked to update it (at most once per day).": [
+        "Если часовой пояс вашего компьютера не совпадает с текущими настройками часового пояса, мы будем предлагать вам обновить его (не чаще, чем раз в день)."
       ],
-      "Only change these settings if you are using PGP with non-ProtonMail recipients.": [
-        "Изменяйте эти настройки только в том случае, если применяете PGP для переписки с получателями вне ProtonMail."
+      "Week and month views only apply to desktop.": [
+        "Отображение недели и месяца применяются только к рабочему столу."
+      ],
+      "Only you can see the labels.": [
+        "Только вы можете видеть метки."
+      ],
+      "Limited view: others see if you're busy. Full view: shows all event details, including name, location, or participants.": [
+        "Ограниченный вид: другие видят, если вы заняты. Полный просмотр: показывает все детали события, включая имя, местоположение или участников."
+      ],
+      "You can create up to ${ MAX_LINKS_PER_CALENDAR } links per calendar. To create a new link to this calendar, delete one from the list below.": [
+        "Вы можете создать до ${ MAX_LINKS_PER_CALENDAR } ссылок на календарь. Чтобы создать новую ссылку на этот календарь, удалите одну ссылку из списка ниже."
+      ],
+      "By sharing the full event details of this calendar, you accept to grant Proton access to this calendar's encrypted information.": [
+        "Поделившись полной информацией о событии этого календаря, вы соглашаетесь предоставить Proton доступ к зашифрованной информации этого календаря."
+      ],
+      "Anyone with this link can see all the event details of this calendar such as title, location or participants.": [
+        "Любой, у кого есть эта ссылка, может увидеть все детали события этого календаря, такие как название, местоположение или участников."
+      ],
+      "Anyone with this link can see whether you’re free or busy on your calendar. They can’t see event details, such as title, location, or participants.": [
+        "Любой, у кого есть эта ссылка, может увидеть в вашем календаре, свободны вы или заняты. Они не могут видеть детали событий, такие как название, местоположение или участников."
+      ],
+      "Delete link?": [
+        "Удалить ссылку?"
+      ],
+      "Anyone with this link won't be able to sync or get future updates for your calendar. If you want to give them access again, you will have to create a new link.": [
+        "Никто с этой ссылкой не сможет синхронизировать или получать будущие обновления для вашего календаря. Если вы хотите дать им доступ еще раз, вам придется создать новую ссылку."
+      ],
+      "Edit label": [
+        "Изменить ярлык"
+      ],
+      "Add label": [
+        "Добавить ярлык"
+      ],
+      "Link copied to clipboard": [
+        "Ссылка скопирована в буфер обмена"
+      ],
+      "Link created": [
+        "Ярлык создан"
+      ],
+      "Link deleted": [
+        "Ссылка удалена"
+      ],
+      "Create a link to your calendar and share it with anyone outside Proton. Only you can add or remove events.": [
+        "Создайте ссылку на свой календарь и поделитесь ею с кем-то, кто не пользуется услугами Proton. Только вы можете добавлять или удалять события."
+      ],
+      "You need to have a personal calendar to create a link.": [
+        "У вас должен быть календарь, чтобы создать ссылку."
       ],
       "Your account has at least one overdue invoice. Your access has been restricted. ${ payInvoiceLink }": [
         "Для вашей учетной записи есть по крайней мере один просроченный счет. Ваш доступ был ограничен. ${ payInvoiceLink }"
@@ -2871,6 +3521,63 @@
       ],
       "Internet connection lost. Please check your device's connectivity.": [
         "Интернет-соединение потеряно. Пожалуйста, проверьте подключение вашего устройства."
+      ],
+      "All keys successfully reactivated": [
+        "Все ключи успешно реактивированы"
+      ],
+      "Some keys successfully reactivated": [
+        "Некоторые ключи успешно реактивированы"
+      ],
+      "Unable to decrypt. Recovery phrase is not associated with any outdated keys.": [
+        "Невозможно расшифровать. Фраза восстановления не связана ни с одним устаревшим ключем."
+      ],
+      "Unable to decrypt. Recovery phrase is not associated with any keys.": [
+        "Невозможно расшифровать. Фраза восстановления не связана ни с одним ключем."
+      ],
+      "Uploaded file is not a valid private key. Please verify and try again.": [
+        "Загруженный файл не является действительным закрытым ключом. Пожалуйста, проверьте и повторите попытку."
+      ],
+      "${ numberOfNonPrivateKeys } uploaded file is not a valid private key. Please verify and try again.": [
+        "${ numberOfNonPrivateKeys } загруженный файл не является действительным закрытым ключом. Пожалуйста, проверьте и повторите попытку.",
+        "${ numberOfNonPrivateKeys } загруженные файлы не являются действительными закрытыми ключами. Пожалуйста, проверьте и повторите попытку.",
+        "${ numberOfNonPrivateKeys } загруженные файлы не являются действительными закрытыми ключами. Пожалуйста, проверьте и повторите попытку.",
+        "${ numberOfNonPrivateKeys } загруженные файлы не являются действительными закрытыми ключами. Пожалуйста, проверьте и повторите попытку."
+      ],
+      "To access your old messages, you will need to reactivate your old encryption keys using one of the following recovery methods.": [
+        "Чтобы получить доступ к старым сообщениям, вам нужно заново активировать старые ключи шифрования, используя один из следующих методов восстановления."
+      ],
+      "Give your public key to your friends, or publish it online, so that everyone can send you end-to-end encrypted email!": [
+        "Поделитесь своим публичным ключом с друзьями или опубликуйте его в Интернете, чтобы каждый мог отправлять вам письма со сквозным шифрованием!"
+      ],
+      "IMPORTANT: Downloading your private keys and sending them over or storing them on insecure media can jeopardise the security of your account!": [
+        "ВАЖНО: Скачивание ваших закрытых ключей и их рассылка или хранение их на незащищённых носителях может подвергнуть опасности защиту вашей учётной записи!"
+      ],
+      "Please enter a password to encrypt your private key with before exporting.": [
+        "Пожалуйста, введите пароль, которым будет зашифрован ваш закрытый ключ перед экспортом."
+      ],
+      "This feature is intended for advanced users only. After deleting this key, you will NOT be able to decrypt any message that has been encrypted with it. It may lead to data loss.": [
+        "Эта функция предназначена только для опытных пользователей! После удаления этого ключа вы не сможете расшифровать зашифрованные им сообщения. Это может привести к потере данных."
+      ],
+      "Key with fingerprint ${ fp } has been deleted.": [
+        "Ключ с отпечатком ${ fp } удалён."
+      ],
+      "You can generate a new encryption key if you think your previous key has been compromised.": [
+        "Вы можете создать новый ключ шифрования, если считаете, что ваш предыдущий ключ был скомпрометирован."
+      ],
+      "A key with the same encryption algorithm is already active for this address. Generating another key will cause slower account loading and deletion of this key can cause issues. If you are generating a new key because your old key is compromised, please mark that key as compromised. Are you sure you want to continue?": [
+        "Для этого адреса уже активен ключ с таким же алгоритмом шифрования. Создание ещё одного ключа вызовет замедление загрузки учётной записи и удаление этого ключа может вызвать проблемы. Если вы создаёте новый ключ по причине компрометации старого, пожалуйста, отметьте тот ключ как скомпрометированный. Вы уверены, что хотите продолжить?"
+      ],
+      "Key with fingerprint ${ fp } successfully created.": [
+        "Ключ с отпечатком ${ fp } успешно создан."
+      ],
+      "No addresses exist": [
+        "Нет адресов"
+      ],
+      "Download your PGP keys for use with other PGP-compatible services.": [
+        "Загрузите ключи PGP для использования в других PGP-совместимых сервисах."
+      ],
+      "No contact encryption keys exist": [
+        "У контакта нет ключей шифрования"
       ],
       "By leaving now, changes may not be saved": [
         "Если выйти сейчас, изменения могут не сохраниться"
@@ -3007,74 +3714,53 @@
       "Recovery phrase has been disabled": [
         "Фраза для восстановления доступа к учетной записи была отключена"
       ],
-      "Filters work on all emails, including incoming as well as sent emails. Each filter must contain at least a name and a valid Sieve script.": [
-        "Фильтры применяются ко всем письмам: как ко входящим, так и к отправленным. В каждом фильтре должно быть как минимум имя и корректный Sieve-скрипт."
+      "Address verification is an advanced security feature. Only turn this on if you know what it does.": [
+        "Проверка адреса – это расширенная функция безопасности. Включайте её только тогда, когда знаете, что она делает."
       ],
-      "Filters work on all emails, including incoming as well as sent emails. Each filter must contain at least a name, a condition and an action.": [
-        "Фильтры применяются ко всем письмам: как ко входящим, так и к отправленным. В каждом фильтре должно быть как минимум имя, условие и действие."
+      "Encryption setting updated": [
+        "Настройка шифрования обновлена"
       ],
-      "No label selected": [
-        "Ярлык не выбран"
+      "PGP clients are more likely to automatically detect your PGP keys if outgoing messages are signed.": [
+        "Клиенты с поддержкой PGP, скорее всего, смогут автоматически определять ваши PGP-ключи, если исходящие сообщения будут подписаны."
       ],
-      "No folder selected": [
-        "Папка не выбрана"
+      "Only change these settings if you are using PGP with non-ProtonMail recipients.": [
+        "Изменяйте эти настройки только в том случае, если применяете PGP для переписки с получателями вне ProtonMail."
       ],
-      "No action selected": [
-        "Действие не выбрано"
+      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
+        "Сейчас Ваш аккаунт Proton приостановлен. Чтобы продолжить использование вашего аккаунта, пожалуйста, оплатите просроченные счета."
       ],
-      "(Filter if ALL of the following conditions are met)": [
-        "(Фильтровать, если ВСЕ из следующих условий выполнены)"
+      "Would you like to receive a new verification code or use an alternative verification method?": [
+        "Вы хотите получить новый проверочный код или использовать альтернативный метод проверки?"
       ],
-      "(Filter if ANY of the following conditions are met)": [
-        "(Фильтровать, если ЛЮБОЕ из следующих условий выполнено)"
+      "Enter the verification code that was sent to ${ destinationText }.": [
+        "Введите код подтверждения, отправленный на ${ destinationText }."
       ],
-      "All your changes will be lost.": [
-        "Все ваши изменения будут потеряны."
+      "If you don't find the email in your inbox, please check your spam folder.": [
+        "Если сообщения нет в папке \"Входящие\" - проверьте, не попало ли оно в папку «спам»."
       ],
-      "Are you sure you want to discard your changes?": [
-        "Вы уверены, что хотите отменить изменения?"
+      "To fight spam and abuse, please verify you are human.": [
+        "Для предотвращения распространения спама и иных злоупотреблений нашим сервисом, нам нужно убедиться, что вы человек."
       ],
-      "Custom filters work on all new emails, including incoming emails as well as sent emails. Filters can be edited and created directly via Sieve programming language.": [
-        "Настраиваемые фильтры работают со всеми новыми письмами: и входящими, и отправляемыми. Фильтры могут быть созданы и изменены непосредственно с помощью языка программирования Sieve."
+      "Your email will only be used for this one-time verification.": [
+        "Ваш адрес электронной почты будет использован для этой разовой проверки."
       ],
-      "Please note that if you delete this filter, we will stop processing all the automated actions it triggers.": [
-        "Пожалуйста, обратите внимание, что если вы удалите этот фильтр, мы перестанем обрабатывать все автоматические действия, которые он запускает."
+      "Your phone number will only be used for this one-time verification.": [
+        "Ваш номер телефона будет использоваться только для этой разовой проверки."
       ],
-      "Are you sure you want to delete this filter?": [
-        "Вы уверены, что хотите удалить этот фильтр?"
+      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
+        "Если у вас возникли проблемы с созданием учетной записи, пожалуйста, запросите приглашение и мы ответим в течение одного рабочего дня."
       ],
-      "Your Allow List is empty.": [
-        "Список разрешённых пуст."
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
+        "Нажмите \"Запросить новый код\", и мы отправим новый проверочный код на ${ strong }. Если этот адрес электронной почты неверный, то выберите \"Изменить\" для обновления."
       ],
-      "Your Block List is empty.": [
-        "Список блокируемых пуст."
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
+        "Нажмите \"Запросить новый код\", и мы отправим новый проверочный код на ${ strong }. Если этот номер телефона не верный, то выберите \"Изменить\" для обновления."
       ],
       "Do you want to revoke all other sessions than the current one?": [
         "Вы хотите прервать все остальные сессии, кроме текущей?"
       ],
       "Unless you sign out of your account or change your password, your session will remain active. Sessions expire after 60 days of inactivity.": [
         "Пока вы не выйдете из своей учётной записи либо не измените свой пароль, ваша сессия остаётся активной. Срок действия сессий истекает после 60 дней бездействия."
-      ],
-      "Inherited from parent folder": [
-        "Унаследовано от родительской папки"
-      ],
-      "You can turn on notifications to get alerts when new email messages arrive in this folder.": [
-        "Вы можете включить уведомления, чтобы получать оповещения при появлении новых сообщений в этой папке."
-      ],
-      "Name your new folder and select the parent folder you want to put it in. If you do not select a parent folder, this new folder will be created as a top level folder.": [
-        "Назовите новую папку и выберите родительскую папку, в которую вы хотите ее поместить. Если вы не выберете родительскую папку, то эта новая папка будет создана как папка верхнего уровня."
-      ],
-      "Emails tagged with this label will not be deleted and can still be found in the respective folder.": [
-        "Письма, помеченные этим ярлыком, не будут удалены и по-прежнему могут быть найдены в соответствующей папке."
-      ],
-      "Are you sure you want to delete this label?": [
-        "Вы уверены, что хотите удалить этот ярлык?"
-      ],
-      "Emails stored in this folder will not be deleted and can still be found in the All Mail folder.": [
-        "Письма, хранящиеся в этой папке, не будут удалены и по-прежнему могут быть найдены в папке \"Вся почта\"."
-      ],
-      "Are you sure you want to delete this folder?": [
-        "Вы уверены, что хотите удалить эту папку?"
       ],
       "You can enable authentication logging to see when your account is accessed, and from which IP. We will record the IP address that accesses the account and the time, as well as failed attempts.": [
         "Вы можете включить логи аутентификации, чтобы видеть в какое время и с какого IP-адреса производился доступ к учётной записи. Мы будем записывать IP-адреса, которые имели доступ к учётной записи, а также время посещения и неудачные попытки входа."
@@ -3118,53 +3804,71 @@
       "of": [
         "из"
       ],
+      "Filters work on all emails, including incoming as well as sent emails. Each filter must contain at least a name and a valid Sieve script.": [
+        "Фильтры применяются ко всем письмам: как ко входящим, так и к отправленным. В каждом фильтре должно быть как минимум имя и корректный Sieve-скрипт."
+      ],
+      "Filters work on all emails, including incoming as well as sent emails. Each filter must contain at least a name, a condition and an action.": [
+        "Фильтры применяются ко всем письмам: как ко входящим, так и к отправленным. В каждом фильтре должно быть как минимум имя, условие и действие."
+      ],
+      "No label selected": [
+        "Ярлык не выбран"
+      ],
+      "No folder selected": [
+        "Папка не выбрана"
+      ],
+      "No action selected": [
+        "Действие не выбрано"
+      ],
+      "(Filter if ALL of the following conditions are met)": [
+        "(Фильтровать, если ВСЕ из следующих условий выполнены)"
+      ],
+      "(Filter if ANY of the following conditions are met)": [
+        "(Фильтровать, если ЛЮБОЕ из следующих условий выполнено)"
+      ],
+      "All your changes will be lost.": [
+        "Все ваши изменения будут потеряны."
+      ],
+      "Are you sure you want to discard your changes?": [
+        "Вы уверены, что хотите отменить изменения?"
+      ],
+      "Custom filters work on all new emails, including incoming emails as well as sent emails. Filters can be edited and created directly via Sieve programming language.": [
+        "Настраиваемые фильтры работают со всеми новыми письмами: и входящими, и отправляемыми. Фильтры могут быть созданы и изменены непосредственно с помощью языка программирования Sieve."
+      ],
+      "Please note that if you delete this filter, we will stop processing all the automated actions it triggers.": [
+        "Пожалуйста, обратите внимание, что если вы удалите этот фильтр, мы перестанем обрабатывать все автоматические действия, которые он запускает."
+      ],
+      "Are you sure you want to delete this filter?": [
+        "Вы уверены, что хотите удалить этот фильтр?"
+      ],
+      "Your Allow List is empty.": [
+        "Список разрешённых пуст."
+      ],
+      "Your Block List is empty.": [
+        "Список блокируемых пуст."
+      ],
+      "Inherited from parent folder": [
+        "Унаследовано от родительской папки"
+      ],
+      "You can turn on notifications to get alerts when new email messages arrive in this folder.": [
+        "Вы можете включить уведомления, чтобы получать оповещения при появлении новых сообщений в этой папке."
+      ],
+      "Name your new folder and select the parent folder you want to put it in. If you do not select a parent folder, this new folder will be created as a top level folder.": [
+        "Назовите новую папку и выберите родительскую папку, в которую вы хотите ее поместить. Если вы не выберете родительскую папку, то эта новая папка будет создана как папка верхнего уровня."
+      ],
+      "Emails tagged with this label will not be deleted and can still be found in the respective folder.": [
+        "Письма, помеченные этим ярлыком, не будут удалены и по-прежнему могут быть найдены в соответствующей папке."
+      ],
+      "Are you sure you want to delete this label?": [
+        "Вы уверены, что хотите удалить этот ярлык?"
+      ],
+      "Emails stored in this folder will not be deleted and can still be found in the All Mail folder.": [
+        "Письма, хранящиеся в этой папке, не будут удалены и по-прежнему могут быть найдены в папке \"Вся почта\"."
+      ],
+      "Are you sure you want to delete this folder?": [
+        "Вы уверены, что хотите удалить эту папку?"
+      ],
       "support team": [
         "команда поддержки"
-      ],
-      "When disabled, this prevents all files from loading on your device without your knowledge.\t": [
-        "Если отключено, то предотвращает загрузку всех файлов на вашем устройстве без вашего ведома."
-      ],
-      "When disabled, this prevents image files from loading on your device without your knowledge.": [
-        "Если отключено, то предотвращает загрузку изображений на вашем устройстве без вашего ведома."
-      ],
-      "here": [
-        "здесь"
-      ],
-      "This account has been suspended due to a potential policy violation.": [
-        "Этот аккаунт был приостановлен из-за потенциального нарушения политики."
-      ],
-      "If you believe this is in error, please contact us ${ contactLink }.": [
-        "Если вы считаете, что это ошибка, пожалуйста, свяжитесь с нами ${ contactLink }."
-      ],
-      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
-        "Основные клавиши для навигации и действий остаются доступными независимо от того, включены ли сочетания клавиш в настройках."
-      ],
-      "Let your contacts know you care about their privacy.": [
-        "Дайте своим контактам знать о том, что вы заботитесь об их конфиденциальности."
-      ],
-      "Please note that if you delete this address, you will no longer be able to send or receive emails using this address.": [
-        "Обратите внимание, что если вы удалите этот адрес, вы больше не сможете отправлять или получать письма, используя этот адрес."
-      ],
-      "Are you sure you want to delete this address?": [
-        "Вы уверены, что хотите удалить этот адрес?"
-      ],
-      "The email address you place at the top of the list is your default email address. Drag and drop to reorder your addresses.": [
-        "Адрес электронной почты, который вы разместите в верхней части списка, является адресом электронной почты по умолчанию. Перетаскивайте и отпускайте строки списка, чтобы изменять порядок адресов."
-      ],
-      "Queued": [
-        "Поставлено в очередь"
-      ],
-      "Done": [
-        "Готово"
-      ],
-      "Before you can start sending and receiving emails from your new addresses you need to create encryption keys for them.": [
-        "Перед тем, как начать отправлять и принимать электронную почту, для ваших новых адресов необходимо создать ключи шифрования."
-      ],
-      "You can use ProtonMail with any desktop email client that supports IMAP/SMTP, including Outlook, Apple Mail, and Thunderbird.": [
-        "Вы можете использовать ProtonMail с любым почтовым клиентом, поддерживающим IMAP/SMTP, включая Outlook, Apple Mail и Thunderbird."
-      ],
-      "Upgrade to a paid plan to unlock IMAP/SMTP support through ProtonMail Bridge.": [
-        "Перейдите на платный план, чтобы разблокировать поддержку IMAP/SMTP \nс помощью ProtonMail Bridge."
       ],
       "This will create an encryption key for your organization. 4096-bit keys only work on high performance computers, for most users, we recommend using 2048-bit keys.": [
         "Это действие создаст ключ шифрования для вашей организации. 4096-битные ключи работают только на высокопроизводительных компьютерах. Большинству пользователей мы рекомендуем использовать 2048-битные ключи."
@@ -3232,6 +3936,54 @@
       "Your organization's emails are protected with end-to-end encryption using the organization key. This fingerprint can be used to verify that all administrators in your account have the same key.": [
         "Письма вашей организации защищены сквозным шифрованием с применением ключа организации. Этот отпечаток можно использовать для проверки того, что у всех администраторов в вашей учётной записи есть один и тот же ключ."
       ],
+      "Prevents remote email content from loading automatically.": [
+        ""
+      ],
+      "When disabled, this prevents image files from loading on your device without your knowledge.": [
+        "Если отключено, то предотвращает загрузку изображений на вашем устройстве без вашего ведома."
+      ],
+      "Prevents senders from knowing whether and when you have opened a message.": [
+        ""
+      ],
+      "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
+        "Основные клавиши для навигации и действий остаются доступными независимо от того, включены ли сочетания клавиш в настройках."
+      ],
+      "here": [
+        "здесь"
+      ],
+      "This account has been suspended due to a potential policy violation.": [
+        "Этот аккаунт был приостановлен из-за потенциального нарушения политики."
+      ],
+      "If you believe this is in error, please contact us ${ contactLink }.": [
+        "Если вы считаете, что это ошибка, пожалуйста, свяжитесь с нами ${ contactLink }."
+      ],
+      "Let your contacts know you care about their privacy.": [
+        "Дайте своим контактам знать о том, что вы заботитесь об их конфиденциальности."
+      ],
+      "Please note that if you delete this address, you will no longer be able to send or receive emails using this address.": [
+        "Обратите внимание, что если вы удалите этот адрес, вы больше не сможете отправлять или получать письма, используя этот адрес."
+      ],
+      "Are you sure you want to delete this address?": [
+        "Вы уверены, что хотите удалить этот адрес?"
+      ],
+      "The email address you place at the top of the list is your default email address. Drag and drop to reorder your addresses.": [
+        "Адрес электронной почты, который вы разместите в верхней части списка, является адресом электронной почты по умолчанию. Перетаскивайте и отпускайте строки списка, чтобы изменять порядок адресов."
+      ],
+      "Queued": [
+        "Поставлено в очередь"
+      ],
+      "Done": [
+        "Готово"
+      ],
+      "Before you can start sending and receiving emails from your new addresses you need to create encryption keys for them.": [
+        "Перед тем, как начать отправлять и принимать электронную почту, для ваших новых адресов необходимо создать ключи шифрования."
+      ],
+      "You can use ProtonMail with any desktop email client that supports IMAP/SMTP, including Outlook, Apple Mail, and Thunderbird.": [
+        "Вы можете использовать ProtonMail с любым почтовым клиентом, поддерживающим IMAP/SMTP, включая Outlook, Apple Mail и Thunderbird."
+      ],
+      "Upgrade to a paid plan to unlock IMAP/SMTP support through ProtonMail Bridge.": [
+        "Перейдите на платный план, чтобы разблокировать поддержку IMAP/SMTP \nс помощью ProtonMail Bridge."
+      ],
       "This user is currently responsible for payments for your organization. By demoting this member, you will become responsible for payments for your organization.": [
         "Этот пользователь является ответственным за платежи вашей организации. Понижение прав этого участника приведёт к тому, что за платежи организации будете отвечать вы."
       ],
@@ -3252,6 +4004,15 @@
       ],
       "more": [
         "еще"
+      ],
+      "Session timed out.": [
+        "Время сессии истекло."
+      ],
+      "Internet connection lost.": [
+        "Соединение с интернетом потеряно."
+      ],
+      "Servers are unreachable.": [
+        "Серверы недоступны."
       ],
       "Custom daily": [
         "Настраиваемое ежедневное"
@@ -3276,15 +4037,6 @@
       ],
       "Yearly": [
         "Ежегодно"
-      ],
-      "Session timed out.": [
-        "Время сессии истекло."
-      ],
-      "Internet connection lost.": [
-        "Соединение с интернетом потеряно."
-      ],
-      "Servers are unreachable.": [
-        "Серверы недоступны."
       ],
       "Users can't make changes to organization settings. If you need admin privileges, reach out to your system administrator.": [
         "Пользователи не могут менять настройки организации. Если вам нужны права администратора, обратитесь к вашему системному администратору."
@@ -3410,743 +4162,6 @@
         "Это может занять от нескольких секунд до нескольких минут в зависимости от вашего устройства"
       ]
     },
-    "Title": {
-      "Expand content": [
-        "Развернуть содержимое"
-      ],
-      "Link confirmation": [
-        "Подтверждение ссылки"
-      ],
-      "Open actions dropdown": [
-        "Показать список доступных действий"
-      ],
-      "Previous": [
-        "Назад"
-      ],
-      "Open pagination": [
-        "Отобразить нумерацию страниц"
-      ],
-      "Next": [
-        "Далее"
-      ],
-      "Keyboard Shortcuts": [
-        "Сочетания клавиш"
-      ],
-      "What's new": [
-        "Что нового"
-      ],
-      "Enable keyboard shortcuts": [
-        "Включить сочетания клавиш"
-      ],
-      "Exporting contacts": [
-        "Экспортирование контактов"
-      ],
-      "Select action to take on contact group": [
-        "Выберите действие для группы контактов"
-      ],
-      "Add contact group name": [
-        "Добавить имя группы контактов"
-      ],
-      "Select contact group": [
-        "Выбор группы контактов"
-      ],
-      "Warning": [
-        "Предупреждение"
-      ],
-      "Import groups": [
-        "Импортировать группы"
-      ],
-      "Import contacts": [
-        "Импортировать контакты"
-      ],
-      "1. Select platform": [
-        "1. Выберите платформу"
-      ],
-      "2. Select protocol": [
-        "2. Выберите протокол"
-      ],
-      "3. Select config file and download": [
-        "3. Выберите файл конфигурации и скачайте"
-      ],
-      "Get ProtonVPN Plus to access all servers": [
-        "Перейдите на ProtonVPN Plus для доступа ко всем серверам"
-      ],
-      "Start import process": [
-        "Начать процесс импорта"
-      ],
-      "Import in progress": [
-        "Выполняется импорт"
-      ],
-      "Customize import": [
-        "Настройка импорта"
-      ],
-      "Prepare for import": [
-        "Подготовка к импорту"
-      ],
-      "Prepare Yahoo Mail for import": [
-        "Подготовка Yahoo Mail к импорту"
-      ],
-      "Prepare Gmail for import ${ gmailInstructionsStep }/${ totalSteps }": [
-        "Подготовка Gmail к импорту ${ gmailInstructionsStep }/${ totalSteps }"
-      ],
-      "Reconnect your account": [
-        "Повторно подключить свою учётную запись"
-      ],
-      "Start a new import": [
-        "Начать новый импорт"
-      ],
-      "Edit domain": [
-        "Изменить домен"
-      ],
-      "Add domain": [
-        "Добавление домена"
-      ],
-      "Catch-All address": [
-        "Ящик для получени всей почты домена"
-      ],
-      "Delete ${ domain.DomainName }": [
-        "Удалить ${ domain.DomainName }"
-      ],
-      "Error": [
-        "Ошибка"
-      ],
-      "Update calendar": [
-        "Обновить календарь"
-      ],
-      "Create calendar": [
-        "Создать календарь"
-      ],
-      "Select the way to send this notification": [
-        "Выберите способ отправки этого уведомления"
-      ],
-      "Select when you want this notification to be sent": [
-        "Выберите, когда вы хотите получать это уведомление"
-      ],
-      "Select the time to send this notification": [
-        "Выберите время отправки этого уведомления"
-      ],
-      "Add another notification to remind you of this event": [
-        "Добавить другое уведомление, чтобы напомнить вам об этом событии"
-      ],
-      "Export calendar": [
-        "Экспорт календаря"
-      ],
-      "Delete calendar": [
-        "Удалить календарь"
-      ],
-      "Remove calendar": [
-        "Удалить календарь"
-      ],
-      "Import events": [
-        "Импорт событий"
-      ],
-      "Your calendar link": [
-        "Ссылка на календарь"
-      ],
-      "Reactivate keys": [
-        "Реактивировать ключи"
-      ],
-      "Decrypt key": [
-        "Расшифровать ключ"
-      ],
-      "Export public key": [
-        "Экспорт публичного ключа"
-      ],
-      "Export private key": [
-        "Экспорт закрытого ключа"
-      ],
-      "Delete key": [
-        "Удалить ключ"
-      ],
-      "Create key": [
-        "Создание ключа"
-      ],
-      "Success": [
-        "Успешно"
-      ],
-      "Import key": [
-        "Импорт ключа"
-      ],
-      "Open help menu": [
-        "Открыть меню справки"
-      ],
-      "Back": [
-        "Назад"
-      ],
-      "Report a problem": [
-        "Сообщить о проблеме"
-      ],
-      "Confirm loss of Proton bonuses": [
-        "Подтвердите потерю бонусов Proton"
-      ],
-      "Processing": [
-        "Обработка"
-      ],
-      "Downgrade account": [
-        ""
-      ],
-      "Network error": [
-        "Ошибка сети"
-      ],
-      "Select a plan": [
-        "Выбор тарифного плана"
-      ],
-      "Customize your plan": [
-        "Настроить свой план"
-      ],
-      "Checkout": [
-        "Расчет"
-      ],
-      "Current plan": [
-        "Текущий тариф"
-      ],
-      "Apply gift code": [
-        "Применить подарочный код"
-      ],
-      "Subtotal": [
-        "Подытог"
-      ],
-      "Coupon discount": [
-        "Скидка по купону"
-      ],
-      "Total (monthly)": [
-        "Всего (ежемесячно)"
-      ],
-      "Credits": [
-        "Кредиты"
-      ],
-      "Gift code": [
-        "Подарочный код"
-      ],
-      "Amount due": [
-        "К оплате"
-      ],
-      "Edit credit/debit card": [
-        "Изменение данных банковской карты"
-      ],
-      "Add credit/debit card": [
-        "Добавление банковской карты"
-      ],
-      "Add PayPal payment method": [
-        "Добавить способ оплаты PayPal"
-      ],
-      "Add credits": [
-        "Пополнить счёт"
-      ],
-      "Confirm downgrade": [
-        "Подтвердите понижение тарифа"
-      ],
-      "ZIP / postal code": [
-        "Почтовый индекс"
-      ],
-      "Currency": [
-        "Валюта"
-      ],
-      "Billing cycle": [
-        "Период оплаты"
-      ],
-      "Payment details": [
-        "Реквизиты платежа"
-      ],
-      "Unsupported browser": [
-        "Неподдерживаемый браузер"
-      ],
-      "Card verification": [
-        "Проверка карты"
-      ],
-      "Payment verification": [
-        "Проверка платежа"
-      ],
-      "Processing...": [
-        "Обработка…"
-      ],
-      "Card verification in progress": [
-        "Идёт проверка карты"
-      ],
-      "Payment verification in progress": [
-        "Производится проверка платежа"
-      ],
-      "PayPal verification failed": [
-        "Сбой проверки PayPal"
-      ],
-      "3-D Secure verification failed": [
-        "Сбой проверки 3-D Secure"
-      ],
-      "${ appName } customization": [
-        "${ appName } настройка"
-      ],
-      "Plan summary": [
-        "Сводка по тарифу"
-      ],
-      "Invalid verification code": [
-        "Неверный проверочный код"
-      ],
-      "Human verification": [
-        "Проверка \"Я — не робот\""
-      ],
-      "Request new code": [
-        "Запросить новый код"
-      ],
-      "Automatically sign outgoing messages?": [
-        "Подписывать ли исходящие сообщения автоматически?"
-      ],
-      "Change password for ${ Name } (${ Email })": [
-        "Изменить пароль для ${ Name } (${ Email })"
-      ],
-      "Change password": [
-        "Изменить пароль"
-      ],
-      "Change login password": [
-        "Изменить пароль учётной записи"
-      ],
-      "Switch to two-password mode": [
-        "Переключение в режим с двумя паролями"
-      ],
-      "Switch to one-password mode": [
-        "Переключить в режим с одним паролем"
-      ],
-      "Change mailbox password": [
-        "Изменить пароль почтового ящика"
-      ],
-      "Set up two-factor authentication": [
-        "Настройка двухфакторной аутентификации"
-      ],
-      "Disable two-factor authentication": [
-        "Отключение двухфакторной аутентификации"
-      ],
-      "Password": [
-        "Пароль"
-      ],
-      "Login password": [
-        "Пароль для входа"
-      ],
-      "Delete account": [
-        "Удалить учётную запись"
-      ],
-      "Confirm address": [
-        "Подтвердите адрес"
-      ],
-      "Confirm phone number": [
-        "Подтвердите номер телефона"
-      ],
-      "Edit filter": [
-        "Изменение фильтра"
-      ],
-      "Add filter": [
-        "Добавить фильтр"
-      ],
-      "Are you sure you want to close?": [
-        "Вы уверены, что хотите закрыть?"
-      ],
-      "Edit Sieve filter": [
-        "Изменение Sieve-фильтра"
-      ],
-      "Add Sieve filter": [
-        "Добавить фильтр Sieve"
-      ],
-      "Delete ${ filter.Name }": [
-        "Удалить ${ filter.Name }"
-      ],
-      "Allow List": [
-        "Список разрешённых"
-      ],
-      "Block List": [
-        "Список блокируемых"
-      ],
-      "Add to Block List": [
-        "Добавить в список блокируемых"
-      ],
-      "Add to Allow List": [
-        "Добавить в список разрешённых"
-      ],
-      "Edit Block List": [
-        "Изменить список блокируемых"
-      ],
-      "Edit Allow List": [
-        "Изменить список разрешённых"
-      ],
-      "App": [
-        "Приложение"
-      ],
-      "Date": [
-        "Дата"
-      ],
-      "Action": [
-        "Действие"
-      ],
-      "Delete ${ Name } folder": [
-        "Удалить папку ${ Name }"
-      ],
-      "Delete ${ Name } label": [
-        "Удалить метку ${ Name }"
-      ],
-      "Sort folders alphabetically": [
-        "Сортировать папки по алфавиту"
-      ],
-      "Sort labels alphabetically": [
-        "Сортировать ярлыки по алфавиту"
-      ],
-      "Delete logs": [
-        "Удалить записи журнала"
-      ],
-      "Clear": [
-        "Очистить"
-      ],
-      "Pay invoice": [
-        "Оплатить счёт"
-      ],
-      "Add invoice details": [
-        "Добавить сведения к счёту"
-      ],
-      "Amount": [
-        "Сумма"
-      ],
-      "Type": [
-        "Тип"
-      ],
-      "Status": [
-        "Состояние"
-      ],
-      "Account suspended": [
-        "Учетная запись приостановлена"
-      ],
-      "Sign in again to continue": [
-        "Войдите снова, чтобы продолжить"
-      ],
-      "${ appName } Keyboard Shortcuts": [
-        "Сочетания клавиш ${ appName }"
-      ],
-      "Add address": [
-        "Добавить адрес"
-      ],
-      "Delete ${ address.Email }": [
-        "Удалить ${ address.Email }"
-      ],
-      "Generate missing keys": [
-        "Создать недостающие ключи"
-      ],
-      "Bridge for ${ platform }": [
-        "Bridge для ${ platform }"
-      ],
-      "Change organization name": [
-        "Изменение названия организации"
-      ],
-      "Set organization name": [
-        "Задать название организации"
-      ],
-      "Set organization keys": [
-        "Настройка ключей организации"
-      ],
-      "Set organization password": [
-        "Задать пароль организации"
-      ],
-      "Allocate storage": [
-        "Выделение объёма в хранилище"
-      ],
-      "Allocate VPN connections": [
-        "Выделить VPN-соединения"
-      ],
-      "Reset organization keys": [
-        "Сброс ключей организации"
-      ],
-      "Change organization keys": [
-        "Изменение ключей организации"
-      ],
-      "Activate organization key": [
-        "Активация ключа организации"
-      ],
-      "Restore administrator privileges": [
-        "Восстановить права администратора"
-      ],
-      "Change organization password": [
-        "Изменение пароля организации"
-      ],
-      "Change role": [
-        "Изменить роль"
-      ],
-      "Edit user": [
-        "Изменение пользователя"
-      ],
-      "Delete user": [
-        "Удалить пользователя"
-      ],
-      "Add user": [
-        "Добавить пользователя"
-      ],
-      "General": [
-        "Основные"
-      ],
-      "Theme": [
-        "Тема"
-      ],
-      "Contacts": [
-        "Контакты"
-      ],
-      "Import & export": [
-        "Импорт и экспорт"
-      ],
-      "Import": [
-        "Импортировать"
-      ],
-      "Export": [
-        "Экспорт"
-      ],
-      "VPN apps": [
-        "Приложения VPN"
-      ],
-      "ProtonVPN": [
-        "ProtonVPN"
-      ],
-      "OpenVPN / IKEv2": [
-        "OpenVPN / IKEv2"
-      ],
-      "Credentials": [
-        "Учетные данные"
-      ],
-      "OpenVPN configuration files": [
-        "Конфигурационные файлы OpenVPN"
-      ],
-      "Appearance": [
-        "Внешний вид"
-      ],
-      "Layout": [
-        "Макет"
-      ],
-      "Other": [
-        "Другое"
-      ],
-      "Domain names": [
-        "Доменные имена"
-      ],
-      "Catch-all address": [
-        "Адрес ящика-ловушки (получает всю почту домена)"
-      ],
-      "Auto reply": [
-        "Автоматический ответ"
-      ],
-      "Encryption & keys": [
-        "Шифрование и ключи"
-      ],
-      "Address verification": [
-        "Проверка адреса"
-      ],
-      "External PGP settings": [
-        "Настройки внешнего PGP"
-      ],
-      "Email encryption keys": [
-        "Ключи шифрования эл. почты"
-      ],
-      "Contact encryption keys": [
-        "Ключи шифрования контакта"
-      ],
-      "Filters": [
-        "Фильтры"
-      ],
-      "Custom filters": [
-        "Пользовательские фильтры"
-      ],
-      "Spam filters": [
-        "Фильтры спама"
-      ],
-      "Folders & labels": [
-        "Папки и ярлыки"
-      ],
-      "Folders": [
-        "Папки"
-      ],
-      "Labels": [
-        "Ярлыки"
-      ],
-      "Short domain (@pm.me)": [
-        "Короткий домен (@pm.me)"
-      ],
-      "Messages": [
-        "Сообщения"
-      ],
-      "Advanced": [
-        "Расширенные"
-      ],
-      "Identity & addresses": [
-        "Личность и адреса"
-      ],
-      "Display name & signature": [
-        "Отображаемое имя и подпись"
-      ],
-      "My addresses": [
-        "Мои адреса"
-      ],
-      "IMAP/SMTP": [
-        "IMAP/SMTP"
-      ],
-      "ProtonMail Bridge": [
-        "ProtonMail Bridge"
-      ],
-      "Import Assistant": [
-        "Помощник по импорту"
-      ],
-      "Current & past imports": [
-        "Текущие и прошлые импорты"
-      ],
-      "Import-Export app": [
-        "Приложение Import-Export"
-      ],
-      "Password & recovery": [
-        "Пароль и восстановление"
-      ],
-      "Passwords": [
-        "Пароли"
-      ],
-      "Recovery & notification": [
-        "Восстановление и уведомление"
-      ],
-      "Security": [
-        "Безопасность"
-      ],
-      "Session management": [
-        "Управление сессиями"
-      ],
-      "Security logs": [
-        "Журнал безопасности"
-      ],
-      "Payment": [
-        "Платёж"
-      ],
-      "Billing details": [
-        "Платёжная информация"
-      ],
-      "Payment methods": [
-        "Способы оплаты"
-      ],
-      "Invoices": [
-        "Счета"
-      ],
-      "Dashboard": [
-        "Личный кабинет"
-      ],
-      "Select plan": [
-        "Выберите тарифный план"
-      ],
-      "Your current plan": [
-        "Текущий тарифный план"
-      ],
-      "Your plan": [
-        "Ваш тариф"
-      ],
-      "Language & time": [
-        "Язык и время"
-      ],
-      "Email subscriptions": [
-        "Подписки на рассылки"
-      ],
-      "My calendars": [
-        "Мои календари"
-      ],
-      "Subscribed calendars": [
-        "Подписки на календари"
-      ],
-      "Share outside Proton": [
-        "Поделиться вне Proton"
-      ],
-      "Time zone": [
-        "Часовой пояс"
-      ],
-      "Organization": [
-        "Организация"
-      ],
-      "Multi-user support": [
-        "Многопользовательский режим"
-      ],
-      "Users and addresses": [
-        "Пользователи и адреса"
-      ],
-      "Addresses": [
-        "Адреса"
-      ],
-      "Organization & keys": [
-        "Организация и ключи"
-      ],
-      "Password & keys": [
-        "Пароль и ключи"
-      ],
-      "Sorry, you can't access this page": [
-        "Извините, у Вас нет доступа к этой странице"
-      ],
-      "Upgrade": [
-        "Улучшить"
-      ],
-      "Proton Logo": [
-        "Логотип Proton"
-      ],
-      "Settings": [
-        "Настройки"
-      ],
-      "Choose an account": [
-        "Выберите учётную запись"
-      ],
-      "Email": [
-        "Эл. почта"
-      ],
-      "Phone": [
-        "Телефон"
-      ],
-      "Find email or username": [
-        "Найти адрес эл. почты или имя пользователя"
-      ],
-      "This address might compromise your privacy.": [
-        "Этот адрес может поставить под угрозу вашу конфиденциальность."
-      ],
-      "Create your Proton Account": [
-        "Создание учётной записи Proton"
-      ],
-      "Add a recovery method": [
-        "Добавить метод восстановления"
-      ],
-      "(highly recommended)": [
-        "(настоятельно рекомендуется)"
-      ],
-      "Account verification": [
-        "Подтверждение аккаунта"
-      ],
-      "Plan selection": [
-        "Выбор тарифа"
-      ],
-      "Are you human?": [
-        "Вы человек?"
-      ],
-      "Creating account": [
-        "Создание учётной записи"
-      ],
-      "Sign in": [
-        "Войти"
-      ],
-      "Two-factor authentication": [
-        "Двухфакторная аутентификация"
-      ],
-      "Unlock your mailbox": [
-        "Разблокируйте ваш почтовый ящик"
-      ],
-      "Set new password": [
-        "Задать новый пароль"
-      ],
-      "Create a ${ mailAppName } address": [
-        "Создать адрес ${ mailAppName }"
-      ],
-      "Address is available": [
-        "Адрес доступен"
-      ],
-      "Reset password?": [
-        "Сбросить пароль?"
-      ],
-      "Warning!": [
-        "Предупреждение!"
-      ],
-      "Reset password": [
-        "Сбросить пароль"
-      ],
-      "No recovery method": [
-        "Отсутствует метод восстановления"
-      ]
-    },
     "Font Face Default": {
       "Default": [
         "По умолчанию"
@@ -4193,14 +4208,14 @@
       "Add a gift code": [
         "Добавить подарочный код"
       ],
-      "Request an invite": [
-        "Запросить приглашение"
-      ],
       "Pay invoice": [
         "Оплатить счёт"
       ],
       "Upgrade account": [
         "Улучшить аккаунт"
+      ],
+      "Request an invite": [
+        "Запросить приглашение"
       ],
       "Calendars": [
         "Календари"
@@ -4250,17 +4265,14 @@
       "Preference saved": [
         "Настройка сохранена"
       ],
+      "Locale updated": [
+        "Локаль обновлена"
+      ],
       "Premium address created": [
         "Платный адрес создан"
       ],
       "Keyboard shortcuts preferences updated": [
         "Настройки сочетаний клавиш обновлены"
-      ],
-      "Locale updated": [
-        "Локаль обновлена"
-      ],
-      "${ server.Domain } copied in your clipboard": [
-        "Скопировано в буфер обмена: ${ server.Domain }"
       ],
       "Import resumed": [
         "Импорт возобновлён"
@@ -4292,26 +4304,8 @@
       "Catch-all address updated": [
         "Адрес-ловушка обновлён"
       ],
-      "Calendar added. It might take a few minutes to sync.": [
-        "Календарь создан. Синхронизация может занять несколько минут."
-      ],
-      "Calendar created": [
-        "Календарь создан"
-      ],
-      "Calendar updated": [
-        "Календарь обновлен"
-      ],
-      "Default calendar updated": [
-        "Основной календарь обновлен"
-      ],
-      "Calendar removed": [
-        "Календарь удален"
-      ],
-      "Auto-reply disabled": [
-        "Автоответчик выключен"
-      ],
-      "Auto-reply updated": [
-        "Автоответчик обновлён"
+      "${ server.Domain } copied in your clipboard": [
+        "Скопировано в буфер обмена: ${ server.Domain }"
       ],
       "Email address copied to clipboard": [
         "Адрес скопирован в буфер обмена"
@@ -4334,11 +4328,26 @@
       "Gift code applied": [
         "Подарочный код применён"
       ],
-      "Code sent to ${ methodTo }": [
-        "Код отправлен на ${ methodTo }"
+      "Auto-reply disabled": [
+        "Автоответчик выключен"
       ],
-      "Verification successful": [
-        "Проверка прошла успешно"
+      "Auto-reply updated": [
+        "Автоответчик обновлён"
+      ],
+      "Calendar added. It might take a few minutes to sync.": [
+        "Календарь создан. Синхронизация может занять несколько минут."
+      ],
+      "Calendar created": [
+        "Календарь создан"
+      ],
+      "Calendar updated": [
+        "Календарь обновлен"
+      ],
+      "Default calendar updated": [
+        "Основной календарь обновлен"
+      ],
+      "Calendar removed": [
+        "Календарь удален"
       ],
       "Password updated": [
         "Пароль обновлён"
@@ -4351,6 +4360,12 @@
       ],
       "Phone number updated": [
         "Номер телефона обновлён"
+      ],
+      "Code sent to ${ methodTo }": [
+        "Код отправлен на ${ methodTo }"
+      ],
+      "Verification successful": [
+        "Проверка прошла успешно"
       ],
       "Session revoked": [
         "Сессия прервана"
@@ -4367,17 +4382,17 @@
       "Invoice customized": [
         "Счёт настроен"
       ],
-      "Address updated": [
-        "Адрес обновлён"
-      ],
-      "Address added": [
-        "Адрес добавлен"
-      ],
       "Organization activated": [
         "Организация активирована"
       ],
       "Keys updated": [
         "Ключи обновлены"
+      ],
+      "Address updated": [
+        "Адрес обновлён"
+      ],
+      "Address added": [
+        "Адрес добавлен"
       ],
       "User updated": [
         "Данные пользователя обновлены"
@@ -4407,6 +4422,18 @@
       ],
       "Ignore group": [
         "Игнорировать группу"
+      ],
+      "Normal": [
+        "Обычный"
+      ],
+      "Plain text": [
+        "Простой текст"
+      ],
+      "Left to Right": [
+        "Слева направо"
+      ],
+      "Right to Left": [
+        "Справа налево"
       ],
       "Android": [
         "Android"
@@ -4443,24 +4470,6 @@
       ],
       "Free server configs": [
         "Настройки бесплатных серверов"
-      ],
-      "Normal": [
-        "Обычный"
-      ],
-      "Plain text": [
-        "Простой текст"
-      ],
-      "Left to Right": [
-        "Слева направо"
-      ],
-      "Right to Left": [
-        "Справа налево"
-      ],
-      "${ stateOfTheArt } X25519 (Fastest, most modern)": [
-        "${ stateOfTheArt } X25519 (Самое быстрое, самое современное)"
-      ],
-      "${ highestSecurity } RSA 4096-bit (Slower, but increased compatibility with legacy software)": [
-        "${ highestSecurity } RSA 4096-bit (Медленнее, но совместимость с устаревшим программным обеспечением лучше)"
       ],
       "Fixed duration": [
         "Фиксированный срок"
@@ -4647,6 +4656,18 @@
       "You do not have any contacts to export": [
         "У вас нет контактов для экспорта"
       ],
+      "Set the default layout for your Inbox.": [
+        "Задать схему отображения по умолчанию для Входящих."
+      ],
+      "Set the default Composer popup size as small or full screen.": [
+        "Задать изначальный размер всплывающего окна редактора сообщений — небольшой или на полный экран."
+      ],
+      "When you add a label to a message in a conversation, it will automatically be applied to all future messages you send or receive in that conversation.": [
+        "Когда вы добавляете метку к сообщению в диалоге, она будет автоматически применяться ко всем будущим сообщениям, которые вы отправляете или получаете в этом диалоге."
+      ],
+      "Group emails in the same conversation together in your Inbox or display them separately.": [
+        "Группировать сообщения, относящиеся к одной теме в папке \"Входящие\" или отображать их отдельно."
+      ],
       "Customize import to reduce the number of labels": [
         "Настройте импорт, чтобы уменьшить количество ярлыков"
       ],
@@ -4677,18 +4698,6 @@
       "Your external account may have reached its 24-hour bandwidth limit. Proton will try to resume the import as soon as possible.": [
         "Возможно, ваш внешний аккаунт достиг своего лимита передачи данных за 24 часа. Proton попытается возобновить импорт как можно скорее."
       ],
-      "Set the default layout for your Inbox.": [
-        "Задать схему отображения по умолчанию для Входящих."
-      ],
-      "Set the default Composer popup size as small or full screen.": [
-        "Задать изначальный размер всплывающего окна редактора сообщений — небольшой или на полный экран."
-      ],
-      "When you add a label to a message in a conversation, it will automatically be applied to all future messages you send or receive in that conversation.": [
-        "Когда вы добавляете метку к сообщению в диалоге, она будет автоматически применяться ко всем будущим сообщениям, которые вы отправляете или получаете в этом диалоге."
-      ],
-      "Group emails in the same conversation together in your Inbox or display them separately.": [
-        "Группировать сообщения, относящиеся к одной теме в папке \"Входящие\" или отображать их отдельно."
-      ],
       "We stopped DKIM signing due to problems with your DNS configuration. Please follow the instructions below to resume signing.": [
         "Мы перестали подписывать DKIM из-за проблем с конфигурацией вашего DNS. Пожалуйста, следуйте инструкциям ниже, чтобы возобновить подписывание."
       ],
@@ -4697,27 +4706,6 @@
       ],
       "We detected a problem with your DNS configuration. Please make sure your records match the instructions below. If the problem persists, we will have to switch DKIM signing off.": [
         "Мы обнаружили проблему с настройками DNS. Пожалуйста, убедитесь, что ваши записи соответствуют инструкциям ниже. Если проблема останется, нам придётся выключить подписывание DKIM."
-      ],
-      "This feature is unavailable for the moment": [
-        "Эта функция недоступна в данный момент"
-      ],
-      "ProtonMail users will use this key by default for sending": [
-        "Пользователи ProtonMail будут использовать данный ключ по умолчанию для отправки"
-      ],
-      "You have locally decrypted this key": [
-        "Вы расшифровали этот ключ локально"
-      ],
-      "This key is encrypted with an old password": [
-        "Этот ключ зашифрован старым паролем"
-      ],
-      "Signatures produced by this key are treated as invalid and this key cannot be used for encryption": [
-        "Подписи, произведённые данным ключом, считаются недействительными, и этот ключ не может быть использован для шифрования"
-      ],
-      "This key cannot be used for encryption": [
-        "Этот ключ не может быть использован для шифрования"
-      ],
-      "This address has been disabled": [
-        "Этот адрес был отключён"
       ],
       "Use multiple addresses / aliases linked to your account, e.g. username2@protonmail.com": [
         "Используйте несколько адресов / псевдонимов, связанных с вашей учетной записью, например username2@protonmail.com"
@@ -4767,14 +4755,35 @@
       "If you purchased a gift code or received one from our support team, you can enter it here.": [
         "Если вы купили подарочный код или получили его от нашей службы поддержки, вы можете ввести его здесь."
       ],
+      "This feature is unavailable for the moment": [
+        "Эта функция недоступна в данный момент"
+      ],
+      "ProtonMail users will use this key by default for sending": [
+        "Пользователи ProtonMail будут использовать данный ключ по умолчанию для отправки"
+      ],
+      "You have locally decrypted this key": [
+        "Вы расшифровали этот ключ локально"
+      ],
+      "This key is encrypted with an old password": [
+        "Этот ключ зашифрован старым паролем"
+      ],
+      "Signatures produced by this key are treated as invalid and this key cannot be used for encryption": [
+        "Подписи, произведённые данным ключом, считаются недействительными, и этот ключ не может быть использован для шифрования"
+      ],
+      "This key cannot be used for encryption": [
+        "Этот ключ не может быть использован для шифрования"
+      ],
+      "This address has been disabled": [
+        "Этот адрес был отключён"
+      ],
+      "Enabling advanced logs records the IP address for each event in the security log.": [
+        "Включение расширенного журналирования записывает IP-адрес каждого события в журнале безопасности."
+      ],
       "This feature is only available for paid users": [
         "Эта функция доступна только пользователям с платными тарифами"
       ],
       "Enable/disable desktop and mobile notifications": [
         "Включить/отключить уведомления на рабочем столе, а также мобильные"
-      ],
-      "Enabling advanced logs records the IP address for each event in the security log.": [
-        "Включение расширенного журналирования записывает IP-адрес каждого события в журнале безопасности."
       ],
       "Messages in the Sent or Drafts folder will continue to appear in that folder, even if you move them to another folder.": [
         "Сообщения папок Отправленные или Черновики будут отображаться в этих папках, даже если вы переместите их в другую папку."
@@ -4980,74 +4989,28 @@
         "${ totalImported }/${ totalToImport } контактов зашифровано и добавлено в ваш список контактов"
       ]
     },
-    "VPNClient": {
-      "Android": [
-        "Android"
+    "Label to change composer mode": {
+      "Normal": [
+        "Обычный"
       ],
-      "iOS": [
-        "iOS"
-      ],
-      "Windows": [
-        "Windows"
-      ],
-      "macOS": [
-        "macOS"
-      ],
-      "GNU/Linux": [
-        "GNU/Linux"
-      ],
-      "Chromebook": [
-        "Chromebook"
-      ],
-      "Android TV": [
-        "Android TV"
+      "Maximized": [
+        "Развёрнутый"
       ]
     },
-    "Notification": {
-      "OpenVPN / IKEv2 credentials regenerated": [
-        "Учётные данные OpenVPN / IKEv2 обновлены"
+    "Label to change view layout": {
+      "Column": [
+        "Столбец"
       ],
-      "${ _Filter.Name } created": [
-        "${ _Filter.Name } создан"
-      ],
-      "A disabled address cannot be primary": [
-        "Отключённый адрес не может быть основным"
+      "Row": [
+        "Список"
       ]
     },
-    "CountryInfo": {
-      "(via ${ entryCountryName })": [
-        "(через ${ entryCountryName })"
-      ]
-    },
-    "Feature": {
-      "Access to all countries": [
-        "Доступ ко всем странам"
+    "Label to change density": {
+      "Comfortable": [
+        "Удобный"
       ],
-      "Secure Core servers": [
-        "Серверы Secure Core"
-      ],
-      "Fastest VPN servers": [
-        "Самые быстрые VPN серверы"
-      ],
-      "Torrenting support (P2P)": [
-        "Поддержка торрентов (P2P)"
-      ],
-      "Connection for up to ${ plusVpnConnections } device": [
-        "Подключение до ${ plusVpnConnections } устройства",
-        "Подключение до ${ plusVpnConnections } устройств",
-        "Подключение до ${ plusVpnConnections } устройств",
-        "Подключение до ${ plusVpnConnections } устройств"
-      ],
-      "Secure streaming support": [
-        "Поддержка безопасного потокового вещания"
-      ],
-      "VPN ${ connectionsPluralized }": [
-        "${ connectionsPluralized }"
-      ]
-    },
-    "VPN info": {
-      "Netflix, Amazon Prime Video, BBC iPlayer, ESPN+, Disney+, HBO Now, and more.": [
-        "Netflix, Amazon Prime Video, BBC iPlayer, ESPN+, Disney+, HBO Now и многое другое."
+      "Compact": [
+        "Компактный"
       ]
     },
     "Loading info": {
@@ -5426,30 +5389,6 @@
         "ограничение пропускной способности"
       ]
     },
-    "Label to change composer mode": {
-      "Normal": [
-        "Обычный"
-      ],
-      "Maximized": [
-        "Развёрнутый"
-      ]
-    },
-    "Label to change view layout": {
-      "Column": [
-        "Столбец"
-      ],
-      "Row": [
-        "Список"
-      ]
-    },
-    "Label to change density": {
-      "Comfortable": [
-        "Удобный"
-      ],
-      "Compact": [
-        "Компактный"
-      ]
-    },
     "Label for adding a new custom domain": {
       "Add a domain that you own to your ProtonMail account.": [
         "Привязать принадлежащий вам домен к учётной записи ProtonMail."
@@ -5586,126 +5525,80 @@
         "Вы уверены, что хотите отключить двухфакторную аутентификацию?"
       ]
     },
-    "Duration": {
-      "30 minutes": [
-        "30 минут"
+    "VPNClient": {
+      "Android": [
+        "Android"
       ],
-      "60 minutes": [
-        "60 минут"
+      "iOS": [
+        "iOS"
       ],
-      "90 minutes": [
-        "90 минут"
+      "Windows": [
+        "Windows"
       ],
-      "120 minutes": [
-        "120 минут"
+      "macOS": [
+        "macOS"
+      ],
+      "GNU/Linux": [
+        "GNU/Linux"
+      ],
+      "Chromebook": [
+        "Chromebook"
+      ],
+      "Android TV": [
+        "Android TV"
       ]
     },
-    "Notification when": {
-      "day before": [
-        "день до",
-        "дня до",
-        "дней до",
-        "дней до"
+    "Notification": {
+      "OpenVPN / IKEv2 credentials regenerated": [
+        "Учётные данные OpenVPN / IKEv2 обновлены"
       ],
-      "on the same day": [
-        "тот же день"
+      "${ _Filter.Name } created": [
+        "${ _Filter.Name } создан"
       ],
-      "at time of event": [
-        "во время события"
-      ],
-      "week before": [
-        "за неделю",
-        "недели до",
-        "недель до",
-        "недель до"
-      ],
-      "minute before": [
-        "минуту до",
-        "минуты до",
-        "минут до",
-        "минут до"
-      ],
-      "hour before": [
-        "час до",
-        "часа до",
-        "часов до",
-        "часов до"
+      "A disabled address cannot be primary": [
+        "Отключённый адрес не может быть основным"
       ]
     },
-    "Notification type": {
-      "notification": [
-        "уведомление"
-      ],
-      "email": [
-        "электронная почта"
+    "CountryInfo": {
+      "(via ${ entryCountryName })": [
+        "(через ${ entryCountryName })"
       ]
     },
-    "Title (number of minutes/hours/days/weeks)": {
-      "Choose a number": [
-        "Выберите количество"
+    "Feature": {
+      "Access to all countries": [
+        "Доступ ко всем странам"
+      ],
+      "Secure Core servers": [
+        "Серверы Secure Core"
+      ],
+      "Fastest VPN servers": [
+        "Самые быстрые VPN серверы"
+      ],
+      "Torrenting support (P2P)": [
+        "Поддержка торрентов (P2P)"
+      ],
+      "Connection for up to ${ plusVpnConnections } device": [
+        "Подключение до ${ plusVpnConnections } устройства",
+        "Подключение до ${ plusVpnConnections } устройств",
+        "Подключение до ${ plusVpnConnections } устройств",
+        "Подключение до ${ plusVpnConnections } устройств"
+      ],
+      "Secure streaming support": [
+        "Поддержка безопасного потокового вещания"
+      ],
+      "VPN ${ connectionsPluralized }": [
+        "${ connectionsPluralized }"
       ]
     },
-    "Notification time input": {
-      "at": [
-        "в"
-      ]
-    },
-    "Export calendar": {
-      "Loading events": [
-        "Загрузка событий"
-      ],
-      "Decrypting events from your calendar: ${ totalProcessed }/${ totalToProcess }": [
-        "Расшифровано событий из вашего календаря: ${ totalProcessed } из ${ totalToProcess }"
-      ],
-      "Please don't close the tab before the exporting process is finished.": [
-        "Пожалуйста, не закрывайте вкладку до завершения импорта."
-      ],
-      "Error decrypting event": [
-        "Ошибка расшифровки события"
-      ],
-      "Password reset - multiple events cannot be decrypted": [
-        "Сброс пароля: невозможно расшифровать несколько событий"
-      ],
-      "Password reset - event cannot be decrypted": [
-        "Сброс пароля: невозможно расшифровать событие"
-      ],
-      "${ totalProcessed }/${ totalToProcess } event exported": [
-        "${ totalProcessed } событие из ${ totalToProcess } экспортировано",
-        "${ totalProcessed } события из ${ totalToProcess } экспортированы",
-        "${ totalProcessed } событий из ${ totalToProcess } экспортированы",
-        "${ totalProcessed } событий из ${ totalToProcess } экспортированы"
-      ],
-      "Calendar successfully exported. You can now save the ICS file.": [
-        "Календарь успешно экспортирован. Теперь вы можете сохранить ICS файл."
-      ],
-      "Due to a password reset, some of your events could not be decrypted and exported.": [
-        "Из-за сброса пароля некоторые события не могут быть расшифрованы и экспортированы."
-      ],
-      "You can save an ICS file of the events that were successfully exported.": [
-        "Вы можете сохранить ICS файл событий, которые были успешно экспортированы."
-      ],
-      "Learn how to restore encrypted events with old password": [
-        "Узнайте, как восстановить зашифрованные события со старым паролем"
-      ],
-      "Some of your events could not be exported.": [
-        "Не удалось экспортировать некоторые события."
-      ],
-      "The internet connection was interrupted, causing the export process to fail. Please try again.": [
-        "Процесс экспорта завершился неудачно из-за прерванного соединения с интернет. Пожалуйста, попробуйте еще раз."
-      ],
-      "Due to a password reset, none of your events could be decrypted and exported.": [
-        "Ваши события не могут быть расшифрованы и экспортированы из-за сброса пароля."
-      ],
-      "None of the events could be exported.": [
-        "Ваши события не могут быть экспортированы."
-      ]
-    },
-    "Summary of errors during export calendar": {
-      "Details about events that couldn't be exported": [
-        "Подробности о событиях, которые не могут быть экспортированы"
+    "VPN info": {
+      "Netflix, Amazon Prime Video, BBC iPlayer, ESPN+, Disney+, HBO Now, and more.": [
+        "Netflix, Amazon Prime Video, BBC iPlayer, ESPN+, Disney+, HBO Now и многое другое."
       ]
     },
     "Header": {
+      "Get help": [
+        "Получить помощь"
+      ],
       "Name": [
         "Имя"
       ],
@@ -5724,8 +5617,11 @@
       "What others see": [
         "Что видят другие"
       ],
-      "Get help": [
-        "Получить помощь"
+      "Event": [
+        "Событие"
+      ],
+      "Time": [
+        "Время"
       ],
       "Folders": [
         "Папки"
@@ -5733,400 +5629,11 @@
       "Notifications": [
         "Уведомления"
       ],
-      "Event": [
-        "Событие"
-      ],
-      "Time": [
-        "Время"
-      ],
       "Organization key fingerprint": [
         "Отпечаток ключа организации"
       ],
       "Key type": [
         "Тип ключа"
-      ]
-    },
-    "Calendar status": {
-      "Default": [
-        "По умолчанию"
-      ],
-      "Active": [
-        "Активен"
-      ],
-      "Disabled": [
-        "Отключено"
-      ],
-      "Syncing": [
-        "Синхронизация"
-      ],
-      "Not synced": [
-        "Не синхронизировано"
-      ]
-    },
-    "Upgrade notice": {
-      "Upgrade to a paid plan to create up to ${ MAX_CALENDARS_PER_USER } calendar, allowing you to make calendars for work, to share with friends, and just for yourself.": [
-        "Переходите на платный план чтобы создать до ${ MAX_CALENDARS_PER_USER } календаря, что предоставит вам возможность создать календарь чтобы работать, делиться с друзьями и просто для себя.",
-        "Переходите на платный план чтобы создать до ${ MAX_CALENDARS_PER_USER } календарей, что предоставит вам возможность создать календари чтобы работать, делиться с друзьями и просто для себя.",
-        "Переходите на платный план чтобы создать до ${ MAX_CALENDARS_PER_USER } календарей, что предоставит вам возможность создать календари чтобы работать, делиться с друзьями и просто для себя.",
-        "Переходите на платный план чтобы создать до ${ MAX_CALENDARS_PER_USER } календаря, что предоставит вам возможность создать календарь чтобы работать, делиться с друзьями и просто для себя."
-      ],
-      "Upgrade to a paid plan to share your personal calendar via link with anyone.": [
-        "Перейдите на платный тариф, чтобы иметь возможность делиться с кем-нибудь ссылками на ваш календарь."
-      ]
-    },
-    "Calendar limit warning": {
-      "You have reached the maximum of ${ calendarsLimit } calendar.": [
-        "Вы достигли максимума из ${ calendarsLimit } календаря.",
-        "Вы достигли максимума из ${ calendarsLimit } календарея(ей).",
-        "Вы достигли максимума из ${ calendarsLimit } календарей.",
-        "Вы достигли максимума из ${ calendarsLimit } календарея(ей)."
-      ],
-      "You have reached the maximum of ${ MAX_SUBSCRIBED_CALENDARS_PER_USER } subscribed calendar.": [
-        "Вы достигли максимума из ${ MAX_SUBSCRIBED_CALENDARS_PER_USER } подписанного календаря.",
-        "Вы достигли максимума из ${ MAX_SUBSCRIBED_CALENDARS_PER_USER } подписанных календарей.",
-        "Вы достигли максимума из ${ MAX_SUBSCRIBED_CALENDARS_PER_USER } подписанных календарей.",
-        "Вы достигли максимума из ${ MAX_SUBSCRIBED_CALENDARS_PER_USER } подписанных календаря(ей)."
-      ]
-    },
-    "Subscribed calendar section description": {
-      "Add public, external, or shared calendars using a URL.": [
-        "Добавляйте публичные, внешние мли общие календари, используя URL-адерса."
-      ]
-    },
-    "Knowledge base link label": {
-      "Here's how": [
-        "Вот как"
-      ]
-    },
-    "Calendar import section description": {
-      "Import events or the contents of a calendar via ICS files.": [
-        "Импортируйте события или содержимое календаря при помощи файлов ICS."
-      ]
-    },
-    "Primary timezone": {
-      "Primary time zone": [
-        "Основной часовой пояс"
-      ],
-      "Secondary time zone": [
-        "Дополнительный часовой пояс"
-      ]
-    },
-    "Calendar view": {
-      "Day": [
-        "День"
-      ],
-      "Week": [
-        "Неделя"
-      ],
-      "Month": [
-        "Месяц"
-      ]
-    },
-    "Subscribed calendar extension warning": {
-      "This link might be wrong": [
-        "Эта ссылка может быть нерабочей"
-      ],
-      "By using this link, Google will make the calendar you are subscribing to public": [
-        "Используя эту ссылку, Google сделает публичным календарь, на который вы подписываетесь"
-      ]
-    },
-    "Modal title and action": {
-      "Add calendar": [
-        "Добавить календарь"
-      ]
-    },
-    "Subscribe to calendar modal description": {
-      "Learn how to get a private calendar link.": [
-        "Узнайте как создать приватную ссылку на календарь."
-      ]
-    },
-    "Subscribe to calendar modal": {
-      "You can subscribe to someone else's calendar by pasting its URL below. This will give you access to a read-only version of this calendar.\n${ kbLink }": [
-        "Вы можете подписаться на чей-то календарь, вставив его адрес ниже. Это предоставит вам доступ к версии календаря только для чтения. ${ kbLink }"
-      ],
-      "Calendar URL": [
-        "Адрес календаря"
-      ]
-    },
-    "Error message": {
-      "Invalid URL": [
-        "Недействительный адрес"
-      ],
-      "Oops, something went wrong": [
-        "Хм. Что-то пошло не так"
-      ],
-      "Too many child sessions, please clear your cookies and sign back in.": [
-        "Слишком много дочерних сессий, пожалуйста, очистите куки и войдите снова."
-      ],
-      "There was a problem connecting to Proton.": [
-        "Возникла проблема при подключении к Proton."
-      ],
-      "Please ${ refresh } or check your connection.": [
-        "Пожалуйста, ${ refresh } или проверьте подключение."
-      ],
-      "Error: ${ errorMessage }": [
-        "Ошибка: ${ errorMessage }"
-      ],
-      "Brace yourself till we get the error fixed.": [
-        "Держитесь, пока мы исправляем ошибку."
-      ],
-      "You may also ${ refresh } or try again later.": [
-        "Вы также можете ${ refresh } или повторить попытку позже."
-      ],
-      "There was a problem unsubscribing you.": [
-        "Произошла ошибка при отказе от подписки."
-      ],
-      "Please ${ signIn } to update your email subscription preferences.": [
-        "Пожалуйста ${ signIn }, чтобы изменить подписки."
-      ]
-    },
-    "Error importing event": {
-      "Event": [
-        "Событие"
-      ],
-      "Calendar": [
-        "Календарь"
-      ],
-      "Timezone": [
-        "Часовой пояс"
-      ],
-      "Element": [
-        "Элемент"
-      ],
-      "Bad format. Component cannot be read.": [
-        "Неверный формат. Компонент не может быть прочитан."
-      ],
-      "Unknown": [
-        "Неизвестно"
-      ],
-      "Component with wrong format": [
-        "Компонент с неправильным форматом"
-      ],
-      "Non-Gregorian": [
-        "Не Грегорианский"
-      ],
-      "To-do entry": [
-        "Запись списка задач"
-      ],
-      "Journal entry": [
-        "Запись журнала"
-      ],
-      "Free-busy time information": [
-        "Информация о свободном и занятом времени"
-      ],
-      "Custom timezone": [
-        "Настроить часовой пояс"
-      ],
-      "Invalid event": [
-        "Недействительное событие"
-      ],
-      "Unsupported event": [
-        "Неподдерживаемое событие"
-      ],
-      "Malformed all-day event": [
-        "Неправильное оформление события на весь день"
-      ],
-      "Missing start time": [
-        "Не установлено время начала"
-      ],
-      "Malformed start time": [
-        "Неправильный формат времени начала"
-      ],
-      "Floating times not supported": [
-        "Плавающий график не поддерживается"
-      ],
-      "Start time out of bounds": [
-        "Время начала вне границ"
-      ],
-      "Malformed end time": [
-        "Неправильный формат времени окончания"
-      ],
-      "End time out of bounds": [
-        "Время окончания вне границ"
-      ],
-      "Event duration not supported": [
-        "Длительность события не поддерживается"
-      ],
-      "Calendar timezone not supported": [
-        "Часовой пояс календаря не поддерживается"
-      ],
-      "Timezone not supported": [
-        "Часовой пояс не поддерживается"
-      ],
-      "Malformed recurring event": [
-        "Неправильное повторяющееся событие"
-      ],
-      "Recurring rule not supported": [
-        "Правило для повторения не поддерживается"
-      ],
-      "Edited event not supported": [
-        "Изменённое событие не поддерживается"
-      ],
-      "Notification out of bounds": [
-        "Уведомление вне границ"
-      ],
-      "Event validation failed": [
-        "Проверка события не удалась"
-      ],
-      "Encryption failed": [
-        "Ошибка шифрования"
-      ],
-      "Original recurring event could not be found": [
-        "Исходное повторяющееся событие не найдено"
-      ],
-      "no UID, title or start time": [
-        "нет UID, названия или времени начала"
-      ]
-    },
-    "Access level": {
-      "Full": [
-        "Полный"
-      ],
-      "Limited": [
-        "Ограниченный"
-      ],
-      "Limited view": [
-        "Ограниченный вид"
-      ],
-      "Full view": [
-        "Полный вид"
-      ]
-    },
-    "Select files": {
-      "Upload additional private keys": [
-        "Загрузите дополнительные закрытые ключи"
-      ],
-      "Browse": [
-        "Просмотреть"
-      ],
-      "Upload": [
-        "Загрузить"
-      ]
-    },
-    "info": {
-      "Key ${ fingerprint } has already been uploaded": [
-        "Ключ ${ fingerprint } уже был загружен"
-      ],
-      "Additional duplicate keys detected. Please upload individually for more information.": [
-        "Обнаружены дополнительные дубликаты ключей. Для получения дополнительной информации загрузите, пожалуйста, по отдельности."
-      ],
-      "(beta)": [
-        "(бета)"
-      ]
-    },
-    "Keys actions": {
-      "Export": [
-        "Экспорт"
-      ],
-      "Export private key": [
-        "Экспорт закрытого ключа"
-      ],
-      "Make primary": [
-        "Сделать основным"
-      ],
-      "Mark obsolete": [
-        "Пометить устаревшим"
-      ],
-      "Disables encryption with this key": [
-        "Отключает возможность шифрования этим ключом"
-      ],
-      "Mark not obsolete": [
-        "Снять пометку об устаревании"
-      ],
-      "Enable encryption with this key": [
-        "Включить возможность шифрования этим ключом"
-      ],
-      "Mark compromised": [
-        "Пометить скомпрометированным"
-      ],
-      "Disables signature verification and encryption with this key": [
-        "Отключает проверку подписи и возможность шифрования этим ключом"
-      ],
-      "Mark not compromised": [
-        "Снять пометку о компрометации"
-      ],
-      "Enable signature verification and encryption with this key": [
-        "Включить проверку подписи и возможность шифрования этим ключом"
-      ],
-      "Delete": [
-        "Удалить"
-      ]
-    },
-    "Key state badge": {
-      "Primary": [
-        "Основной"
-      ],
-      "Active": [
-        "Активен"
-      ],
-      "Inactive": [
-        "Неактивен"
-      ],
-      "Compromised": [
-        "Скомпрометирован"
-      ],
-      "Obsolete": [
-        "Устаревший"
-      ],
-      "Disabled": [
-        "Отключён"
-      ]
-    },
-    "Title header for keys table": {
-      "Fingerprint": [
-        "Отпечаток"
-      ],
-      "Key type": [
-        "Тип ключа"
-      ],
-      "Status": [
-        "Состояние"
-      ],
-      "Actions": [
-        "Действия"
-      ]
-    },
-    "Confirm": {
-      "Are you sure you want to permanently delete this key?": [
-        "Вы уверены, что хотите безвозвратно удалить этот ключ?"
-      ],
-      "Do you want to export your key?": [
-        "Вы хотите экспортировать ваш ключ?"
-      ],
-      "Are you sure you want to delete this key without backing it up?": [
-        "Вы уверены, что хотите удалить этот ключ без сохранения его резервной копии?"
-      ]
-    },
-    "alert": {
-      "The key for your address is now being deleted.": [
-        "Ключ для вашего адреса удаляется."
-      ],
-      "The encryption keys for your address are being generated. This may take several minutes and temporarily freeze your browser.": [
-        "Мы создаем ключи шифрования для вашего адреса. Это может занять несколько минут, и ваш браузер может выглядеть зависшим."
-      ]
-    },
-    "encryption": {
-      "State of the art": [
-        "Передовой"
-      ],
-      "Compatibility": [
-        "Совместимость"
-      ]
-    },
-    "Autoresponse": {
-      "I'm out of the office with limited access to my email.": [
-        "Я отсутствую на рабочем месте и не имею полного доступа к почте."
-      ]
-    },
-    "Apps dropdown": {
-      "Proton applications": [
-        "Приложения Proton"
-      ],
-      "Go to ${ title }": [
-        "Перейти к ${ title }"
-      ],
-      "Go to ${ vpnName }": [
-        "Перейти к ${ vpnName }"
       ]
     },
     "Onboarding Proton": {
@@ -6264,6 +5771,49 @@
         "Приложить снимки экрана"
       ]
     },
+    "Apps dropdown": {
+      "Proton applications": [
+        "Приложения Proton"
+      ],
+      "Go to ${ title }": [
+        "Перейти к ${ title }"
+      ],
+      "Go to ${ vpnName }": [
+        "Перейти к ${ vpnName }"
+      ]
+    },
+    "Error message": {
+      "Oops, something went wrong": [
+        "Хм. Что-то пошло не так"
+      ],
+      "Too many child sessions, please clear your cookies and sign back in.": [
+        "Слишком много дочерних сессий, пожалуйста, очистите куки и войдите снова."
+      ],
+      "There was a problem connecting to Proton.": [
+        "Возникла проблема при подключении к Proton."
+      ],
+      "Please ${ refresh } or check your connection.": [
+        "Пожалуйста, ${ refresh } или проверьте подключение."
+      ],
+      "Error: ${ errorMessage }": [
+        "Ошибка: ${ errorMessage }"
+      ],
+      "Invalid URL": [
+        "Недействительный адрес"
+      ],
+      "Brace yourself till we get the error fixed.": [
+        "Держитесь, пока мы исправляем ошибку."
+      ],
+      "You may also ${ refresh } or try again later.": [
+        "Вы также можете ${ refresh } или повторить попытку позже."
+      ],
+      "There was a problem unsubscribing you.": [
+        "Произошла ошибка при отказе от подписки."
+      ],
+      "Please ${ signIn } to update your email subscription preferences.": [
+        "Пожалуйста ${ signIn }, чтобы изменить подписки."
+      ]
+    },
     "Suffix": {
       "/ month": [
         "/ месяц"
@@ -6346,6 +5896,17 @@
     "Suffix for price": {
       "/ month": [
         "/ месяц"
+      ]
+    },
+    "info": {
+      "(beta)": [
+        "(бета)"
+      ],
+      "Key ${ fingerprint } has already been uploaded": [
+        "Ключ ${ fingerprint } уже был загружен"
+      ],
+      "Additional duplicate keys detected. Please upload individually for more information.": [
+        "Обнаружены дополнительные дубликаты ключей. Для получения дополнительной информации загрузите, пожалуйста, по отдельности."
       ]
     },
     "Mail feature": {
@@ -6858,51 +6419,465 @@
         "Бесплатно"
       ]
     },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "Просроченный счёт"
+    "Autoresponse": {
+      "I'm out of the office with limited access to my email.": [
+        "Я отсутствую на рабочем месте и не имею полного доступа к почте."
       ]
     },
-    "Human verification method": {
-      "CAPTCHA": [
-        "Капча"
+    "Duration": {
+      "30 minutes": [
+        "30 минут"
       ],
-      "Email": [
-        "Эл. почта"
+      "60 minutes": [
+        "60 минут"
       ],
-      "SMS": [
-        "Короткое сообщение на телефон"
+      "90 minutes": [
+        "90 минут"
       ],
-      "Manual": [
-        "Ручная"
+      "120 minutes": [
+        "120 минут"
+      ]
+    },
+    "Notification when": {
+      "day before": [
+        "день до",
+        "дня до",
+        "дней до",
+        "дней до"
       ],
-      "No verification method available": [
-        "Нет доступных способов проверки"
+      "on the same day": [
+        "тот же день"
+      ],
+      "at time of event": [
+        "во время события"
+      ],
+      "week before": [
+        "за неделю",
+        "недели до",
+        "недель до",
+        "недель до"
+      ],
+      "minute before": [
+        "минуту до",
+        "минуты до",
+        "минут до",
+        "минут до"
+      ],
+      "hour before": [
+        "час до",
+        "часа до",
+        "часов до",
+        "часов до"
       ]
     },
-    "Tooltip prompt to trust keys": {
-      "When receiving an email from another ProtonMail user who does not have trusted keys in your contacts, a banner will ask if you want to enable trusted keys.": [
-        "При получении письма от другого пользователя ProtonMail, для которого нет доверенных ключей в ваших контактах, баннер спросит, хотите ли вы включить доверенные ключи."
+    "Notification type": {
+      "notification": [
+        "уведомление"
+      ],
+      "email": [
+        "электронная почта"
       ]
     },
-    "Tooltip sign external messages": {
-      "Automatically sign all your outgoing messages so users can verify the authenticity of your messages. This is done in combination with the default PGP settings which can be configured below.": [
-        "Автоматически подписывать все ваши исходящие сообщения, чтобы получатели могли проверить их подлинность. Это происходит совместно со схемой PGP по умолчанию, которая выбирается ниже."
+    "Title (number of minutes/hours/days/weeks)": {
+      "Choose a number": [
+        "Выберите количество"
       ]
     },
-    "Tooltip automatically attach public key": {
-      "This automatically adds your public key to each message you send. Recipients can use this to verify the authenticity of your messages and send encrypted messages to you.": [
-        "Таким способом можно автоматически добавлять ваш публичный ключ к каждому отправляемому вами сообщению. Получатели могут использовать это, чтобы проверять подлинность ваших сообщений и отправлять зашифрованные сообщения вам."
+    "Notification time input": {
+      "at": [
+        "в"
       ]
     },
-    "Tooltip default pgp scheme": {
-      "Select the default PGP settings used to sign or encrypt messages with non-ProtonMail PGP users. Note that Inline PGP forces plain text messages. Learn more": [
-        "Выберите настройки PGP по умолчанию, используемые для подписи или шифрования сообщений с пользователями, не входящими в ProtonMail. Обратите внимание, что встроенный PGP требует использовать текстовые сообщения без дополнительного форматирования. Подробнее"
+    "Export calendar": {
+      "Loading events": [
+        "Загрузка событий"
+      ],
+      "Decrypting events from your calendar: ${ totalProcessed }/${ totalToProcess }": [
+        "Расшифровано событий из вашего календаря: ${ totalProcessed } из ${ totalToProcess }"
+      ],
+      "Please don't close the tab before the exporting process is finished.": [
+        "Пожалуйста, не закрывайте вкладку до завершения импорта."
+      ],
+      "Error decrypting event": [
+        "Ошибка расшифровки события"
+      ],
+      "Password reset - multiple events cannot be decrypted": [
+        "Сброс пароля: невозможно расшифровать несколько событий"
+      ],
+      "Password reset - event cannot be decrypted": [
+        "Сброс пароля: невозможно расшифровать событие"
+      ],
+      "${ totalProcessed }/${ totalToProcess } event exported": [
+        "${ totalProcessed } событие из ${ totalToProcess } экспортировано",
+        "${ totalProcessed } события из ${ totalToProcess } экспортированы",
+        "${ totalProcessed } событий из ${ totalToProcess } экспортированы",
+        "${ totalProcessed } событий из ${ totalToProcess } экспортированы"
+      ],
+      "Calendar successfully exported. You can now save the ICS file.": [
+        "Календарь успешно экспортирован. Теперь вы можете сохранить ICS файл."
+      ],
+      "Due to a password reset, some of your events could not be decrypted and exported.": [
+        "Из-за сброса пароля некоторые события не могут быть расшифрованы и экспортированы."
+      ],
+      "You can save an ICS file of the events that were successfully exported.": [
+        "Вы можете сохранить ICS файл событий, которые были успешно экспортированы."
+      ],
+      "Learn how to restore encrypted events with old password": [
+        "Узнайте, как восстановить зашифрованные события со старым паролем"
+      ],
+      "Some of your events could not be exported.": [
+        "Не удалось экспортировать некоторые события."
+      ],
+      "The internet connection was interrupted, causing the export process to fail. Please try again.": [
+        "Процесс экспорта завершился неудачно из-за прерванного соединения с интернет. Пожалуйста, попробуйте еще раз."
+      ],
+      "Due to a password reset, none of your events could be decrypted and exported.": [
+        "Ваши события не могут быть расшифрованы и экспортированы из-за сброса пароля."
+      ],
+      "None of the events could be exported.": [
+        "Ваши события не могут быть экспортированы."
+      ]
+    },
+    "Summary of errors during export calendar": {
+      "Details about events that couldn't be exported": [
+        "Подробности о событиях, которые не могут быть экспортированы"
+      ]
+    },
+    "Calendar status": {
+      "Default": [
+        "По умолчанию"
+      ],
+      "Active": [
+        "Активен"
+      ],
+      "Disabled": [
+        "Отключено"
+      ],
+      "Syncing": [
+        "Синхронизация"
+      ],
+      "Not synced": [
+        "Не синхронизировано"
+      ]
+    },
+    "Upgrade notice": {
+      "Upgrade to a paid plan to create up to ${ MAX_CALENDARS_PER_USER } calendar, allowing you to make calendars for work, to share with friends, and just for yourself.": [
+        "Переходите на платный план чтобы создать до ${ MAX_CALENDARS_PER_USER } календаря, что предоставит вам возможность создать календарь чтобы работать, делиться с друзьями и просто для себя.",
+        "Переходите на платный план чтобы создать до ${ MAX_CALENDARS_PER_USER } календарей, что предоставит вам возможность создать календари чтобы работать, делиться с друзьями и просто для себя.",
+        "Переходите на платный план чтобы создать до ${ MAX_CALENDARS_PER_USER } календарей, что предоставит вам возможность создать календари чтобы работать, делиться с друзьями и просто для себя.",
+        "Переходите на платный план чтобы создать до ${ MAX_CALENDARS_PER_USER } календаря, что предоставит вам возможность создать календарь чтобы работать, делиться с друзьями и просто для себя."
+      ],
+      "Upgrade to a paid plan to share your personal calendar via link with anyone.": [
+        "Перейдите на платный тариф, чтобы иметь возможность делиться с кем-нибудь ссылками на ваш календарь."
+      ]
+    },
+    "Calendar limit warning": {
+      "You have reached the maximum of ${ calendarsLimit } calendar.": [
+        "Вы достигли максимума из ${ calendarsLimit } календаря.",
+        "Вы достигли максимума из ${ calendarsLimit } календарея(ей).",
+        "Вы достигли максимума из ${ calendarsLimit } календарей.",
+        "Вы достигли максимума из ${ calendarsLimit } календарея(ей)."
+      ],
+      "You have reached the maximum of ${ MAX_SUBSCRIBED_CALENDARS_PER_USER } subscribed calendar.": [
+        "Вы достигли максимума из ${ MAX_SUBSCRIBED_CALENDARS_PER_USER } подписанного календаря.",
+        "Вы достигли максимума из ${ MAX_SUBSCRIBED_CALENDARS_PER_USER } подписанных календарей.",
+        "Вы достигли максимума из ${ MAX_SUBSCRIBED_CALENDARS_PER_USER } подписанных календарей.",
+        "Вы достигли максимума из ${ MAX_SUBSCRIBED_CALENDARS_PER_USER } подписанных календаря(ей)."
+      ]
+    },
+    "Subscribed calendar section description": {
+      "Add public, external, or shared calendars using a URL.": [
+        "Добавляйте публичные, внешние мли общие календари, используя URL-адерса."
+      ]
+    },
+    "Knowledge base link label": {
+      "Here's how": [
+        "Вот как"
+      ]
+    },
+    "Calendar import section description": {
+      "Import events or the contents of a calendar via ICS files.": [
+        "Импортируйте события или содержимое календаря при помощи файлов ICS."
+      ]
+    },
+    "Primary timezone": {
+      "Primary time zone": [
+        "Основной часовой пояс"
+      ],
+      "Secondary time zone": [
+        "Дополнительный часовой пояс"
+      ]
+    },
+    "Calendar view": {
+      "Day": [
+        "День"
+      ],
+      "Week": [
+        "Неделя"
+      ],
+      "Month": [
+        "Месяц"
+      ]
+    },
+    "Subscribed calendar extension warning": {
+      "This link might be wrong": [
+        "Эта ссылка может быть нерабочей"
+      ],
+      "By using this link, Google will make the calendar you are subscribing to public": [
+        "Используя эту ссылку, Google сделает публичным календарь, на который вы подписываетесь"
+      ]
+    },
+    "Modal title and action": {
+      "Add calendar": [
+        "Добавить календарь"
+      ]
+    },
+    "Subscribe to calendar modal description": {
+      "Learn how to get a private calendar link.": [
+        "Узнайте как создать приватную ссылку на календарь."
+      ]
+    },
+    "Subscribe to calendar modal": {
+      "You can subscribe to someone else's calendar by pasting its URL below. This will give you access to a read-only version of this calendar.\n${ kbLink }": [
+        "Вы можете подписаться на чей-то календарь, вставив его адрес ниже. Это предоставит вам доступ к версии календаря только для чтения. ${ kbLink }"
+      ],
+      "Calendar URL": [
+        "Адрес календаря"
+      ]
+    },
+    "Error importing event": {
+      "Event": [
+        "Событие"
+      ],
+      "Calendar": [
+        "Календарь"
+      ],
+      "Timezone": [
+        "Часовой пояс"
+      ],
+      "Element": [
+        "Элемент"
+      ],
+      "Bad format. Component cannot be read.": [
+        "Неверный формат. Компонент не может быть прочитан."
+      ],
+      "Unknown": [
+        "Неизвестно"
+      ],
+      "Component with wrong format": [
+        "Компонент с неправильным форматом"
+      ],
+      "Non-Gregorian": [
+        "Не Грегорианский"
+      ],
+      "To-do entry": [
+        "Запись списка задач"
+      ],
+      "Journal entry": [
+        "Запись журнала"
+      ],
+      "Free-busy time information": [
+        "Информация о свободном и занятом времени"
+      ],
+      "Custom timezone": [
+        "Настроить часовой пояс"
+      ],
+      "Invalid event": [
+        "Недействительное событие"
+      ],
+      "Unsupported event": [
+        "Неподдерживаемое событие"
+      ],
+      "Malformed all-day event": [
+        "Неправильное оформление события на весь день"
+      ],
+      "Missing start time": [
+        "Не установлено время начала"
+      ],
+      "Malformed start time": [
+        "Неправильный формат времени начала"
+      ],
+      "Floating times not supported": [
+        "Плавающий график не поддерживается"
+      ],
+      "Start time out of bounds": [
+        "Время начала вне границ"
+      ],
+      "Malformed end time": [
+        "Неправильный формат времени окончания"
+      ],
+      "End time out of bounds": [
+        "Время окончания вне границ"
+      ],
+      "Event duration not supported": [
+        "Длительность события не поддерживается"
+      ],
+      "Calendar timezone not supported": [
+        "Часовой пояс календаря не поддерживается"
+      ],
+      "Timezone not supported": [
+        "Часовой пояс не поддерживается"
+      ],
+      "Malformed recurring event": [
+        "Неправильное повторяющееся событие"
+      ],
+      "Recurring rule not supported": [
+        "Правило для повторения не поддерживается"
+      ],
+      "Edited event not supported": [
+        "Изменённое событие не поддерживается"
+      ],
+      "Notification out of bounds": [
+        "Уведомление вне границ"
+      ],
+      "Event validation failed": [
+        "Проверка события не удалась"
+      ],
+      "Encryption failed": [
+        "Ошибка шифрования"
+      ],
+      "Original recurring event could not be found": [
+        "Исходное повторяющееся событие не найдено"
+      ],
+      "no UID, title or start time": [
+        "нет UID, названия или времени начала"
+      ]
+    },
+    "Access level": {
+      "Full": [
+        "Полный"
+      ],
+      "Limited": [
+        "Ограниченный"
+      ],
+      "Limited view": [
+        "Ограниченный вид"
+      ],
+      "Full view": [
+        "Полный вид"
       ]
     },
     "Message display when a new app version is available": {
       "A new version of ${ appName } is available. ${ reloadButton }.": [
         "Доступна новая версия ${ appName } . ${ reloadButton }."
+      ]
+    },
+    "Select files": {
+      "Upload additional private keys": [
+        "Загрузите дополнительные закрытые ключи"
+      ],
+      "Browse": [
+        "Просмотреть"
+      ],
+      "Upload": [
+        "Загрузить"
+      ]
+    },
+    "Keys actions": {
+      "Export": [
+        "Экспорт"
+      ],
+      "Export private key": [
+        "Экспорт закрытого ключа"
+      ],
+      "Make primary": [
+        "Сделать основным"
+      ],
+      "Mark obsolete": [
+        "Пометить устаревшим"
+      ],
+      "Disables encryption with this key": [
+        "Отключает возможность шифрования этим ключом"
+      ],
+      "Mark not obsolete": [
+        "Снять пометку об устаревании"
+      ],
+      "Enable encryption with this key": [
+        "Включить возможность шифрования этим ключом"
+      ],
+      "Mark compromised": [
+        "Пометить скомпрометированным"
+      ],
+      "Disables signature verification and encryption with this key": [
+        "Отключает проверку подписи и возможность шифрования этим ключом"
+      ],
+      "Mark not compromised": [
+        "Снять пометку о компрометации"
+      ],
+      "Enable signature verification and encryption with this key": [
+        "Включить проверку подписи и возможность шифрования этим ключом"
+      ],
+      "Delete": [
+        "Удалить"
+      ]
+    },
+    "Key state badge": {
+      "Primary": [
+        "Основной"
+      ],
+      "Active": [
+        "Активен"
+      ],
+      "Inactive": [
+        "Неактивен"
+      ],
+      "Compromised": [
+        "Скомпрометирован"
+      ],
+      "Obsolete": [
+        "Устаревший"
+      ],
+      "Disabled": [
+        "Отключён"
+      ]
+    },
+    "Title header for keys table": {
+      "Fingerprint": [
+        "Отпечаток"
+      ],
+      "Key type": [
+        "Тип ключа"
+      ],
+      "Status": [
+        "Состояние"
+      ],
+      "Actions": [
+        "Действия"
+      ]
+    },
+    "Confirm": {
+      "Are you sure you want to permanently delete this key?": [
+        "Вы уверены, что хотите безвозвратно удалить этот ключ?"
+      ],
+      "Do you want to export your key?": [
+        "Вы хотите экспортировать ваш ключ?"
+      ],
+      "Are you sure you want to delete this key without backing it up?": [
+        "Вы уверены, что хотите удалить этот ключ без сохранения его резервной копии?"
+      ]
+    },
+    "alert": {
+      "The key for your address is now being deleted.": [
+        "Ключ для вашего адреса удаляется."
+      ],
+      "The encryption keys for your address are being generated. This may take several minutes and temporarily freeze your browser.": [
+        "Мы создаем ключи шифрования для вашего адреса. Это может занять несколько минут, и ваш браузер может выглядеть зависшим."
+      ]
+    },
+    "Remark about a key type option": {
+      "State of the art": [
+        ""
+      ],
+      "Compatibility": [
+        ""
+      ]
+    },
+    "Key type option": {
+      "${ stateOfTheArt } ECC Curve25519 (Fastest, most modern)": [
+        ""
+      ],
+      "${ compatibility } RSA 4096-bit (Slower, but increased compatibility with legacy software)": [
+        ""
       ]
     },
     "Label for news": {
@@ -6951,6 +6926,272 @@
       ],
       "Recovery phrase": [
         "Фраза для восстановления доступа к учетной записи"
+      ]
+    },
+    "Tooltip prompt to trust keys": {
+      "When receiving an email from another ProtonMail user who does not have trusted keys in your contacts, a banner will ask if you want to enable trusted keys.": [
+        "При получении письма от другого пользователя ProtonMail, для которого нет доверенных ключей в ваших контактах, баннер спросит, хотите ли вы включить доверенные ключи."
+      ]
+    },
+    "Tooltip sign external messages": {
+      "Automatically sign all your outgoing messages so users can verify the authenticity of your messages. This is done in combination with the default PGP settings which can be configured below.": [
+        "Автоматически подписывать все ваши исходящие сообщения, чтобы получатели могли проверить их подлинность. Это происходит совместно со схемой PGP по умолчанию, которая выбирается ниже."
+      ]
+    },
+    "Tooltip automatically attach public key": {
+      "This automatically adds your public key to each message you send. Recipients can use this to verify the authenticity of your messages and send encrypted messages to you.": [
+        "Таким способом можно автоматически добавлять ваш публичный ключ к каждому отправляемому вами сообщению. Получатели могут использовать это, чтобы проверять подлинность ваших сообщений и отправлять зашифрованные сообщения вам."
+      ]
+    },
+    "Tooltip default pgp scheme": {
+      "Select the default PGP settings used to sign or encrypt messages with non-ProtonMail PGP users. Note that Inline PGP forces plain text messages. Learn more": [
+        "Выберите настройки PGP по умолчанию, используемые для подписи или шифрования сообщений с пользователями, не входящими в ProtonMail. Обратите внимание, что встроенный PGP требует использовать текстовые сообщения без дополнительного форматирования. Подробнее"
+      ]
+    },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "Просроченный счёт"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "Капча"
+      ],
+      "Email": [
+        "Эл. почта"
+      ],
+      "SMS": [
+        "Короткое сообщение на телефон"
+      ],
+      "Manual": [
+        "Ручная"
+      ],
+      "No verification method available": [
+        "Нет доступных способов проверки"
+      ]
+    },
+    "Badge for user sessions table": {
+      "Current session": [
+        "Текущая сессия"
+      ]
+    },
+    "Action for user session": {
+      "Revoke": [
+        "Прервать"
+      ]
+    },
+    "Badge": {
+      "ProtonMail for web": [
+        "ProtonMail через браузер"
+      ],
+      "ProtonVPN for Windows": [
+        "ProtonVPN для Windows"
+      ],
+      "ProtonVPN for web": [
+        "ProtonVPN через браузер"
+      ],
+      "Admin": [
+        "Администратор"
+      ],
+      "ProtonMail Import-Export": [
+        "ProtonMail Import-Export"
+      ],
+      "ProtonMail Bridge": [
+        "ProtonMail Bridge"
+      ],
+      "ProtonMail for Android": [
+        "ProtonMail для Android"
+      ],
+      "Proton Account for web": [
+        "Веб-аккаунт Proton"
+      ],
+      "ProtonMail settings for web": [
+        "Настройки ProtonMail через браузер"
+      ],
+      "ProtonContacts for web": [
+        "ProtonContacts в браузере"
+      ],
+      "ProtonVPN settings for web": [
+        "Настройки ProtonVPN через браузер"
+      ],
+      "${ calendarAppName } for web": [
+        "${ calendarAppName } в браузере"
+      ],
+      "${ driveAppName } for web": [
+        "${ driveAppName } в браузере"
+      ],
+      "ProtonMail for iOS": [
+        "ProtonMail для iOS"
+      ],
+      "${ driveAppName } for iOS": [
+        "${ driveAppName } для iOS"
+      ],
+      "ProtonVPN for iOS": [
+        "ProtonVPN для iOS"
+      ],
+      "${ calendarAppName } for iOS": [
+        "${ calendarAppName } для iOS"
+      ],
+      "ProtonVPN for Android": [
+        "ProtonVPN для Android"
+      ],
+      "ProtonVPN for Android TV": [
+        "ProtonVPN для Android TV"
+      ],
+      "${ calendarAppName } for Android": [
+        "${ calendarAppName } для Android"
+      ],
+      "${ driveAppName } for Android": [
+        "${ driveAppName } для Android"
+      ],
+      "ProtonMail Import-Export for Windows": [
+        "ProtonMail Import-Export для Windows"
+      ],
+      "ProtonMail Bridge for Windows": [
+        "ProtonMail Bridge для Windows"
+      ],
+      "ProtonVPN for macOS": [
+        "ProtonVPN для macOS"
+      ],
+      "ProtonMail Import-Export for macOS": [
+        "ProtonMail Import-Export для macOS"
+      ],
+      "ProtonMail Bridge for macOS": [
+        "ProtonMail Bridge для macOS"
+      ],
+      "${ driveAppName } for macOS": [
+        "${ driveAppName } для macOS"
+      ],
+      "ProtonMail Import-Export for GNU/Linux": [
+        "ProtonMail Import-Export для GNU/Linux"
+      ],
+      "ProtonMail Bridge for GNU/Linux": [
+        "ProtonMail Bridge для GNU/Linux"
+      ],
+      "ProtonVPN for GNU/Linux": [
+        "ProtonVPN для GNU/Linux"
+      ]
+    },
+    "Log preference": {
+      "Enable authentication logs": [
+        "Включить журнал аутентификации"
+      ],
+      "Enable advanced logs": [
+        "Включить расширенное журналирование"
+      ]
+    },
+    "Confirmation title": {
+      "Delete payment method": [
+        "Удалить способ оплаты"
+      ]
+    },
+    "Info when deleting payment method": {
+      "To avoid any service interruption due to unpaid invoices, please make sure that you have at least 1 valid payment method saved at any point in time.": [
+        "Чтобы избежать перерыва в обслуживании из-за неоплаченных счетов, пожалуйста, убедитесь, что в любой момент времени у Вас сохраняется как минимум 1 работающий способ оплаты."
+      ]
+    },
+    "Confirmation message to delete payment method": {
+      "Are you sure you want to delete this payment method?": [
+        "Вы уверены, что хотите удалить этот способ оплаты?"
+      ]
+    },
+    "Label on payment method": {
+      "Expired": [
+        "Истёк"
+      ],
+      "Default": [
+        "По умолчанию"
+      ]
+    },
+    "Title for payment methods table": {
+      "Method": [
+        "Способ"
+      ],
+      "Status": [
+        "Состояние"
+      ],
+      "Actions": [
+        "Действия"
+      ]
+    },
+    "Info for payment methods": {
+      "You can add a payment method to have your subscription renewed automatically. Other payment methods are also available.": [
+        "Вы можете добавить способ оплаты, чтобы ваша подписка обновилась автоматически. Другие способы оплаты также доступны."
+      ]
+    },
+    "Payment method option": {
+      "New credit/debit card": [
+        "Новая кредитная или дебетовая карта"
+      ],
+      "PayPal": [
+        "PayPal"
+      ],
+      "Bitcoin": [
+        "Биткоин"
+      ]
+    },
+    "Invoice type display as badge": {
+      "Other": [
+        "Другое"
+      ],
+      "Subscription": [
+        "Подписка"
+      ],
+      "Cancellation": [
+        "Отмена"
+      ],
+      "Credit": [
+        "Кредит"
+      ],
+      "Donation": [
+        "Пожертвование"
+      ],
+      "Chargeback": [
+        "Возврат средств"
+      ],
+      "Renewal": [
+        "Продление"
+      ],
+      "Refund": [
+        "Возврат средств"
+      ],
+      "Modification": [
+        "Изменение"
+      ],
+      "Addition": [
+        "Добавление"
+      ]
+    },
+    "Invoice state display as badge": {
+      "Unpaid": [
+        "Не оплачено"
+      ],
+      "Paid": [
+        "Оплачено"
+      ],
+      "Void": [
+        "Аннулирован"
+      ],
+      "Billed": [
+        "Счёт выставлен"
+      ],
+      "Writeoff": [
+        "Списание"
+      ]
+    },
+    "Info message for custom invoice modal": {
+      "Add your name (or company name) and address to your invoices.": [
+        "Добавить ваше имя (или название компании) и адрес в ваши счета."
+      ]
+    },
+    "Placeholder for custom invoice text": {
+      "Add your name (or company name) and address to your invoices": [
+        "Добавьте ваше имя (или название компании) и адрес в ваши счета"
+      ]
+    },
+    "Title for PDF file": {
+      "ProtonMail invoice": [
+        "Счёт ProtonMail"
       ]
     },
     "Step in filter modal": {
@@ -7159,108 +7400,6 @@
         "${ Email } удалён"
       ]
     },
-    "Badge for user sessions table": {
-      "Current session": [
-        "Текущая сессия"
-      ]
-    },
-    "Action for user session": {
-      "Revoke": [
-        "Прервать"
-      ]
-    },
-    "Badge": {
-      "ProtonMail for web": [
-        "ProtonMail через браузер"
-      ],
-      "ProtonVPN for Windows": [
-        "ProtonVPN для Windows"
-      ],
-      "ProtonVPN for web": [
-        "ProtonVPN через браузер"
-      ],
-      "Admin": [
-        "Администратор"
-      ],
-      "ProtonMail Import-Export": [
-        "ProtonMail Import-Export"
-      ],
-      "ProtonMail Bridge": [
-        "ProtonMail Bridge"
-      ],
-      "ProtonMail for Android": [
-        "ProtonMail для Android"
-      ],
-      "Proton Account for web": [
-        "Веб-аккаунт Proton"
-      ],
-      "ProtonMail settings for web": [
-        "Настройки ProtonMail через браузер"
-      ],
-      "ProtonContacts for web": [
-        "ProtonContacts в браузере"
-      ],
-      "ProtonVPN settings for web": [
-        "Настройки ProtonVPN через браузер"
-      ],
-      "${ calendarAppName } for web": [
-        "${ calendarAppName } в браузере"
-      ],
-      "${ driveAppName } for web": [
-        "${ driveAppName } в браузере"
-      ],
-      "ProtonMail for iOS": [
-        "ProtonMail для iOS"
-      ],
-      "${ driveAppName } for iOS": [
-        "${ driveAppName } для iOS"
-      ],
-      "ProtonVPN for iOS": [
-        "ProtonVPN для iOS"
-      ],
-      "${ calendarAppName } for iOS": [
-        "${ calendarAppName } для iOS"
-      ],
-      "ProtonVPN for Android": [
-        "ProtonVPN для Android"
-      ],
-      "ProtonVPN for Android TV": [
-        "ProtonVPN для Android TV"
-      ],
-      "${ calendarAppName } for Android": [
-        "${ calendarAppName } для Android"
-      ],
-      "${ driveAppName } for Android": [
-        "${ driveAppName } для Android"
-      ],
-      "ProtonMail Import-Export for Windows": [
-        "ProtonMail Import-Export для Windows"
-      ],
-      "ProtonMail Bridge for Windows": [
-        "ProtonMail Bridge для Windows"
-      ],
-      "ProtonVPN for macOS": [
-        "ProtonVPN для macOS"
-      ],
-      "ProtonMail Import-Export for macOS": [
-        "ProtonMail Import-Export для macOS"
-      ],
-      "ProtonMail Bridge for macOS": [
-        "ProtonMail Bridge для macOS"
-      ],
-      "${ driveAppName } for macOS": [
-        "${ driveAppName } для macOS"
-      ],
-      "ProtonMail Import-Export for GNU/Linux": [
-        "ProtonMail Import-Export для GNU/Linux"
-      ],
-      "ProtonMail Bridge for GNU/Linux": [
-        "ProtonMail Bridge для GNU/Linux"
-      ],
-      "ProtonVPN for GNU/Linux": [
-        "ProtonVPN для GNU/Linux"
-      ]
-    },
     "New Label form": {
       "Color": [
         "Цвет"
@@ -7325,126 +7464,21 @@
         "Ярлыки отсортированы"
       ]
     },
-    "Log preference": {
-      "Enable authentication logs": [
-        "Включить журнал аутентификации"
+    "Restore administrator panel": {
+      "Due to a password change, your organization administrator privileges have been restricted. The following actions are no longer permitted:": [
+        "По причине смены пароля ваши полномочия администратора организации были ограничены. Указанные действия более не разрешены:"
       ],
-      "Enable advanced logs": [
-        "Включить расширенное журналирование"
-      ]
-    },
-    "Confirmation title": {
-      "Delete payment method": [
-        "Удалить способ оплаты"
-      ]
-    },
-    "Info when deleting payment method": {
-      "To avoid any service interruption due to unpaid invoices, please make sure that you have at least 1 valid payment method saved at any point in time.": [
-        "Чтобы избежать перерыва в обслуживании из-за неоплаченных счетов, пожалуйста, убедитесь, что в любой момент времени у Вас сохраняется как минимум 1 работающий способ оплаты."
-      ]
-    },
-    "Confirmation message to delete payment method": {
-      "Are you sure you want to delete this payment method?": [
-        "Вы уверены, что хотите удалить этот способ оплаты?"
-      ]
-    },
-    "Label on payment method": {
-      "Expired": [
-        "Истёк"
+      "Creating new users": [
+        "Создание новых пользователей"
       ],
-      "Default": [
-        "По умолчанию"
-      ]
-    },
-    "Title for payment methods table": {
-      "Method": [
-        "Способ"
+      "Reading emails of non-private users": [
+        "Чтение писем неконфиденциальных пользователей"
       ],
-      "Status": [
-        "Состояние"
+      "Changing organization password": [
+        "Изменение пароля организации"
       ],
-      "Actions": [
-        "Действия"
-      ]
-    },
-    "Info for payment methods": {
-      "You can add a payment method to have your subscription renewed automatically. Other payment methods are also available.": [
-        "Вы можете добавить способ оплаты, чтобы ваша подписка обновилась автоматически. Другие способы оплаты также доступны."
-      ]
-    },
-    "Payment method option": {
-      "New credit/debit card": [
-        "Новая кредитная или дебетовая карта"
-      ],
-      "PayPal": [
-        "PayPal"
-      ],
-      "Bitcoin": [
-        "Биткоин"
-      ]
-    },
-    "Invoice type display as badge": {
-      "Other": [
-        "Другое"
-      ],
-      "Subscription": [
-        "Подписка"
-      ],
-      "Cancellation": [
-        "Отмена"
-      ],
-      "Credit": [
-        "Кредит"
-      ],
-      "Donation": [
-        "Пожертвование"
-      ],
-      "Chargeback": [
-        "Возврат средств"
-      ],
-      "Renewal": [
-        "Продление"
-      ],
-      "Refund": [
-        "Возврат средств"
-      ],
-      "Modification": [
-        "Изменение"
-      ],
-      "Addition": [
-        "Добавление"
-      ]
-    },
-    "Invoice state display as badge": {
-      "Unpaid": [
-        "Не оплачено"
-      ],
-      "Paid": [
-        "Оплачено"
-      ],
-      "Void": [
-        "Аннулирован"
-      ],
-      "Billed": [
-        "Счёт выставлен"
-      ],
-      "Writeoff": [
-        "Списание"
-      ]
-    },
-    "Info message for custom invoice modal": {
-      "Add your name (or company name) and address to your invoices.": [
-        "Добавить ваше имя (или название компании) и адрес в ваши счета."
-      ]
-    },
-    "Placeholder for custom invoice text": {
-      "Add your name (or company name) and address to your invoices": [
-        "Добавьте ваше имя (или название компании) и адрес в ваши счета"
-      ]
-    },
-    "Title for PDF file": {
-      "ProtonMail invoice": [
-        "Счёт ProtonMail"
+      "Changing organization keys": [
+        "Изменение ключей организации"
       ]
     },
     "Option delay send seconds": {
@@ -7459,6 +7493,14 @@
       ],
       "20 seconds": [
         "20 секунд"
+      ]
+    },
+    "Option protection mode": {
+      "Prevent tracking (recommended)": [
+        ""
+      ],
+      "Prevent tracking and store content locally": [
+        ""
       ]
     },
     "Address status": {
@@ -7512,23 +7554,6 @@
       ],
       "PKGBUILD (for other distributions)": [
         "PKGBUILD (для других дистрибутивов)"
-      ]
-    },
-    "Restore administrator panel": {
-      "Due to a password change, your organization administrator privileges have been restricted. The following actions are no longer permitted:": [
-        "По причине смены пароля ваши полномочия администратора организации были ограничены. Указанные действия более не разрешены:"
-      ],
-      "Creating new users": [
-        "Создание новых пользователей"
-      ],
-      "Reading emails of non-private users": [
-        "Чтение писем неконфиденциальных пользователей"
-      ],
-      "Changing organization password": [
-        "Изменение пароля организации"
-      ],
-      "Changing organization keys": [
-        "Изменение ключей организации"
       ]
     },
     "Member action": {
@@ -8626,8 +8651,8 @@
       "Import & export": [
         "Импорт и экспорт"
       ],
-      "VPN apps": [
-        "Приложения VPN"
+      "Email privacy": [
+        ""
       ],
       "Identity & addresses": [
         "Личность и адреса"
@@ -8653,8 +8678,8 @@
       "IMAP/SMTP": [
         "IMAP/SMTP"
       ],
-      "Calendars": [
-        "Календари"
+      "VPN apps": [
+        "Приложения VPN"
       ],
       "Users & addresses": [
         "Пользователи и адреса"
@@ -8668,11 +8693,19 @@
       "Multi-user support": [
         "Многопользовательский режим"
       ],
+      "Calendars": [
+        "Календари"
+      ],
       "Account": [
         "Аккаунт"
       ],
       "Organization": [
         "Организация"
+      ]
+    },
+    "Settings description": {
+      "You can apply multiple labels to a single message, but messages can usually only be in a single folder. Drag and drop to rearrange the order of your folders and labels.": [
+        "Вы можете применить несколько меток к одному сообщению, но сообщения, как правило, могут быть только в одной папке. Перетащите и перемещайте, чтобы изменить порядок ваших папок и меток."
       ]
     },
     "Upgrade": {
@@ -8681,11 +8714,6 @@
         "Перейдите на ${ protonVpnName } ${ PLAN_NAMES[PLANS.VPNPLUS] }, чтобы подключать до ${ plusVpnConnections } устройств к VPN одновременно",
         "Перейдите на ${ protonVpnName } ${ PLAN_NAMES[PLANS.VPNPLUS] }, чтобы подключать до ${ plusVpnConnections } устройств к VPN одновременно",
         "Перейдите на ${ protonVpnName } ${ PLAN_NAMES[PLANS.VPNPLUS] }, чтобы подключать до ${ plusVpnConnections } устройств к VPN одновременно"
-      ]
-    },
-    "Settings description": {
-      "You can apply multiple labels to a single message, but messages can usually only be in a single folder. Drag and drop to rearrange the order of your folders and labels.": [
-        "Вы можете применить несколько меток к одному сообщению, но сообщения, как правило, могут быть только в одной папке. Перетащите и перемещайте, чтобы изменить порядок ваших папок и меток."
       ]
     },
     "Email Unsubscribe Categories": {
