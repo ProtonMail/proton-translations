@@ -5,87 +5,7 @@
   },
   "contexts": {
     "": {},
-    "Message": {
-      "Re:": [
-        "回复："
-      ],
-      "Fw:": [
-        "转发："
-      ],
-      "On ${ date }, ${ name } ${ address } wrote:": [
-        "${ date }，${ name } ${ address } 来信："
-      ]
-    },
     "Error": {
-      "Email address disabled": [
-        "邮件地址已禁用"
-      ],
-      "No keys retrieved for internal user": [
-        "没有为内部用户检索到密钥"
-      ],
-      "No valid keys retrieved for internal user": [
-        "没有为内部用户检索到有效密钥"
-      ],
-      "Contact signature could not be verified": [
-        "无法验证联系人签名"
-      ],
-      "No key retrieved for internal user is valid for sending": [
-        "没有为内部用户检索到的密钥用于发送"
-      ],
-      "Trusted keys are not valid for sending": [
-        "已信任的密钥对发送无效"
-      ],
-      "No WKD key retrieved for user is valid for sending": [
-        "没有为内部用户检索到的密钥用于发送"
-      ],
-      "The sending key is not valid": [
-        "发送密钥无效"
-      ],
-      "This field is required": [
-        "此项必须填写"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "该字段至少需要 ${ minimumLength } 个字符。"
-      ],
-      "Email is not valid": [
-        "无效邮箱"
-      ],
-      "Not a valid number": [
-        "无效号码"
-      ],
-      "Passwords do not match": [
-        "密码不匹配"
-      ],
-      "Request timed out.": [
-        "请求超时。"
-      ],
-      "Signature verification failed": [
-        "签名验证失败"
-      ],
-      "Could not find address ${ email }.": [
-        "找不到邮箱 ${ email }。"
-      ],
-      "Missing signature": [
-        "缺少签名"
-      ],
-      "Contact signature not verified": [
-        "未验证联系人签名"
-      ],
-      "Signature not verified": [
-        "签名未验证"
-      ],
-      "Invalid name": [
-        "名称无效"
-      ],
-      "The key properties for ${ emailAddress } could not be extracted": [
-        "无法提取${ emailAddress } 的密钥属性"
-      ],
-      "Address primary private key not found": [
-        "找不到地址主私钥"
-      ],
-      "Calendar primary private key is not decrypted": [
-        "日历主密钥未解密。"
-      ],
       "Unknown error": [
         "未知错误"
       ],
@@ -101,17 +21,20 @@
       "Authentication error.": [
         "验证出错。"
       ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "您使用的浏览器无法完成支付验证，请使用其他浏览器或电脑支付。"
+      ],
+      "Email address invalid": [
+        "邮箱格式不正确"
+      ],
+      "This field is required": [
+        "此项必须填写"
+      ],
       "The composer failed to load.": [
         "编辑器加载失败。"
       ],
       "Please refresh the page.": [
         "请刷新页面。"
-      ],
-      "Email address invalid": [
-        "邮箱格式不正确"
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "您使用的浏览器无法完成支付验证，请使用其他浏览器或电脑支付。"
       ],
       "Incorrect mailbox password. Please try again": [
         "邮箱密码错误，请重试"
@@ -172,6 +95,9 @@
       ],
       "A group with this name already exists": [
         "已存在同名群组"
+      ],
+      "Invalid name": [
+        "名称无效"
       ],
       "We were unable to connect to your service provider.": [
         "我们无法连接到您的服务提供商。"
@@ -259,6 +185,69 @@
       ],
       "Require at least one action": [
         "至少应有一项操作"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "该字段至少需要 ${ minimumLength } 个字符。"
+      ],
+      "Email is not valid": [
+        "无效邮箱"
+      ],
+      "Not a valid number": [
+        "无效号码"
+      ],
+      "Passwords do not match": [
+        "密码不匹配"
+      ],
+      "Request timed out.": [
+        "请求超时。"
+      ],
+      "Signature verification failed": [
+        "签名验证失败"
+      ],
+      "Could not find address ${ email }.": [
+        "找不到邮箱 ${ email }。"
+      ],
+      "Email address disabled": [
+        "邮件地址已禁用"
+      ],
+      "No keys retrieved for internal user": [
+        "没有为内部用户检索到密钥"
+      ],
+      "No valid keys retrieved for internal user": [
+        "没有为内部用户检索到有效密钥"
+      ],
+      "Contact signature could not be verified": [
+        "无法验证联系人签名"
+      ],
+      "No key retrieved for internal user is valid for sending": [
+        "没有为内部用户检索到的密钥用于发送"
+      ],
+      "Trusted keys are not valid for sending": [
+        "已信任的密钥对发送无效"
+      ],
+      "No WKD key retrieved for user is valid for sending": [
+        "没有为内部用户检索到的密钥用于发送"
+      ],
+      "The sending key is not valid": [
+        "发送密钥无效"
+      ],
+      "Missing signature": [
+        "缺少签名"
+      ],
+      "Contact signature not verified": [
+        "未验证联系人签名"
+      ],
+      "Signature not verified": [
+        "签名未验证"
+      ],
+      "The key properties for ${ emailAddress } could not be extracted": [
+        "无法提取${ emailAddress } 的密钥属性"
+      ],
+      "Address primary private key not found": [
+        "找不到地址主私钥"
+      ],
+      "Calendar primary private key is not decrypted": [
+        "日历主密钥未解密。"
       ],
       "You did not provide a file.": [
         "您尚未选择文件。"
@@ -372,175 +361,1387 @@
         "规则数量已达上限，须开通付费账户方可启用更多筛选规则"
       ]
     },
-    "file size format": {
-      "bytes": [
-        "字节"
+    "Action": {
+      "Close": [
+        "关闭"
       ],
-      "KB": [
-        "KB"
+      "Use “${ label }” setting": [
+        "使用 \"${ label }\" 设置"
       ],
-      "MB": [
-        "MB"
+      "More info: ${ safeTitle }": [
+        "更多信息：${ safeTitle }"
       ],
-      "GB": [
-        "GB"
+      "Cancel": [
+        "取消"
+      ],
+      "Submit": [
+        "提交"
+      ],
+      "Close modal": [
+        "关闭"
+      ],
+      "Confirm": [
+        "确定"
+      ],
+      "Save": [
+        "保存"
+      ],
+      "Upload picture": [
+        "上传图片"
+      ],
+      "Insert": [
+        "插入"
+      ],
+      "Font": [
+        "字体"
+      ],
+      "Size": [
+        "字号"
+      ],
+      "Color": [
+        "颜色"
+      ],
+      "Alignment": [
+        "对齐方式"
+      ],
+      "More": [
+        "更多"
+      ],
+      "Unordered list": [
+        "无标号列表"
+      ],
+      "Ordered list": [
+        "标号列表"
+      ],
+      "Align left": [
+        "左对齐"
+      ],
+      "Align center": [
+        "居中"
+      ],
+      "Align right": [
+        "右对齐"
+      ],
+      "Justify": [
+        "两端对齐"
+      ],
+      "Quote": [
+        "引用"
+      ],
+      "Insert link": [
+        "插入链接"
+      ],
+      "Clear all formatting": [
+        "清除所有格式"
+      ],
+      "Insert image": [
+        "插入图片"
+      ],
+      "Bold": [
+        "粗体"
+      ],
+      "Italic": [
+        "斜体"
+      ],
+      "Underline": [
+        "下划线"
+      ],
+      "Remove": [
+        "移除"
+      ],
+      "Next month": [
+        "下个月"
+      ],
+      "Previous month": [
+        "上个月"
+      ],
+      "Load image": [
+        "加载图片"
+      ],
+      "Confirm opening of link ${ link }": [
+        "确认打开链接 ${ link }"
+      ],
+      "Go to panel ${ index }": [
+        "转到面板 ${ index }"
+      ],
+      "Close navigation": [
+        "关闭导航栏"
+      ],
+      "Open navigation": [
+        "打开导航栏"
+      ],
+      "Continue with Google": [
+        "使用 Google 账号继续"
+      ],
+      "Delete": [
+        "删除"
+      ],
+      "Go to page ${ page }": [
+        "前往 ${ page } 页"
+      ],
+      "Go to first page": [
+        "转到首页"
+      ],
+      "Go to previous page": [
+        "前往上一页"
+      ],
+      "Go to next page": [
+        "前往下一页"
+      ],
+      "Go to last page": [
+        "转到末页"
+      ],
+      "Signing out": [
+        "正在退出账户"
+      ],
+      "refresh the page": [
+        "刷新页面"
+      ],
+      "Log in": [
+        "登录"
+      ],
+      "View invoice": [
+        "查看账单"
+      ],
+      "Get verification code": [
+        "获取验证码"
+      ],
+      "Try another method": [
+        "更换验证方式"
+      ],
+      "Request new code": [
+        "重发验证码"
+      ],
+      "Verify": [
+        "验证"
+      ],
+      "Did not receive the code?": [
+        "没收到验证码？"
+      ],
+      "Edit email address": [
+        "编辑电子邮件地址"
+      ],
+      "Edit phone number": [
+        "编辑手机号码"
+      ],
+      "Use ${ label } theme": [
+        "使用 ${ label } 主题"
+      ],
+      "OK": [
+        "确定"
+      ],
+      "Upgrade": [
+        "升级"
+      ],
+      "Add": [
+        "添加"
+      ],
+      "Edit": [
+        "更改"
+      ],
+      "Apply": [
+        "应用"
+      ],
+      "Insert contact": [
+        "插入联系人"
+      ],
+      "Insert ${ totalChecked } contact": [
+        "插入 ${ totalChecked } 联系人"
+      ],
+      "Done": [
+        "完成"
+      ],
+      "Clear data": [
+        "清除数据"
+      ],
+      "Recover data": [
+        "恢复数据"
+      ],
+      "Click here.": [
+        "点击此处。"
+      ],
+      "Re-sign": [
+        "重新签名"
+      ],
+      "Hide advanced PGP settings": [
+        "隐藏高级 PGP 设置"
+      ],
+      "Show advanced PGP settings": [
+        "显示高级 PGP 设置"
+      ],
+      "Add to group": [
+        "添加至群组"
+      ],
+      "Contact group": [
+        "联系人群组"
+      ],
+      "Create new contact": [
+        "新建联系人"
+      ],
+      "clear it": [
+        "将其清除"
+      ],
+      "Export": [
+        "导出"
+      ],
+      "Download": [
+        "下载"
+      ],
+      "Use for sending": [
+        "用于发送邮件"
+      ],
+      "Trust": [
+        "信任"
+      ],
+      "Untrust": [
+        "取消信任"
+      ],
+      "Email settings": [
+        "邮件设置"
+      ],
+      "Merge": [
+        "合并"
+      ],
+      "View": [
+        "查看"
+      ],
+      "Unmark for deletion": [
+        "取消标记以删除。"
+      ],
+      "Mark for deletion": [
+        "标记以删除"
+      ],
+      "Preview contact": [
+        "预览联系人"
+      ],
+      "Continue": [
+        "继续"
+      ],
+      "Copy email to clipboard": [
+        "复制邮箱地址"
+      ],
+      "Delete contact": [
+        "删除联系人"
+      ],
+      "Delete ${ selectedCount } contact": [
+        "删除 ${ selectedCount } 个联系人"
+      ],
+      "Deselect all": [
+        "取消全选"
+      ],
+      "Select all": [
+        "全选"
+      ],
+      "Compose": [
+        "写邮件"
+      ],
+      "Forward as attachment": [
+        "作为附件转发"
+      ],
+      "Merge contacts": [
+        "合并联系人"
+      ],
+      "Add new contact": [
+        "添加新联系人"
+      ],
+      "Add group": [
+        "添加群组"
+      ],
+      "Clear query": [
+        "清除查询"
+      ],
+      "Add contact": [
+        "添加联系人"
+      ],
+      "import": [
+        "导入"
+      ],
+      "Delete contact group": [
+        "删除联系人群组"
+      ],
+      "Delete ${ selectedCount } contact group": [
+        "删除 ${ selectedCount } 个联系人组"
+      ],
+      "Add new group": [
+        "添加新群组"
+      ],
+      "Export contacts": [
+        "导出联系人"
+      ],
+      "Import contacts": [
+        "导入联系人"
+      ],
+      "Choose a file or drag it here": [
+        "选择一个文件或将其拖动到这里"
+      ],
+      "Import": [
+        "导入"
+      ],
+      "Next": [
+        "继续"
+      ],
+      "Continue import": [
+        "继续导入"
+      ],
+      "Discard": [
+        "放弃"
+      ],
+      "Reconnect": [
+        "重新连接"
+      ],
+      "Start import": [
+        "开始导入"
+      ],
+      "Clear": [
+        "清除"
+      ],
+      "Add screenshot(s)": [
+        "添加屏幕截图"
+      ],
+      "Hide info": [
+        "隐藏信息"
+      ],
+      "Show info": [
+        "显示信息"
+      ],
+      "Details": [
+        "详细信息"
+      ],
+      "Share via link": [
+        "通过链接分享"
+      ],
+      "Sharing options": [
+        "共享选项"
+      ],
+      "Zoom out": [
+        "缩小"
+      ],
+      "Reset zoom": [
+        "重置缩放"
+      ],
+      "Zoom in": [
+        "放大"
+      ],
+      "Previous": [
+        "前一页"
+      ],
+      "Get started": [
+        "入门"
+      ],
+      "Start setup": [
+        "开始设置"
+      ],
+      "Skip": [
+        "跳过"
+      ],
+      "Back": [
+        "上一步"
+      ],
+      "Copy to clipboard": [
+        "复制到剪贴板"
+      ],
+      "Create recovery phrase": [
+        "创建恢复密语"
+      ],
+      "Don't secure account": [
+        "不保护账户"
+      ],
+      "Close this banner": [
+        "关闭此横幅"
+      ],
+      "Refresh the page": [
+        "刷新页面"
+      ],
+      "enable desktop notifications": [
+        "启用桌面通知"
+      ],
+      "here": [
+        "此处"
+      ],
+      "Search": [
+        "搜索"
+      ],
+      "${ BRAND_NAME } introduction": [
+        "${ BRAND_NAME } 简介"
+      ],
+      "Chat with us": [
+        "联系我们"
+      ],
+      "I have a question": [
+        "我有疑问"
+      ],
+      "Request a feature": [
+        "功能建议"
+      ],
+      "Report a problem": [
+        "反馈问题"
+      ],
+      "${ BRAND_NAME } shop": [
+        "${ BRAND_NAME } 商店"
+      ],
+      "Switch account": [
+        "切换账户"
+      ],
+      "Sign out": [
+        "退出"
+      ],
+      "Go to settings": [
+        "前往设置"
+      ],
+      "Beta Access": [
+        "测试版功能"
+      ],
+      "Theme": [
+        "主題"
+      ],
+      "Keyboard shortcuts": [
+        "键盘快捷键"
+      ],
+      "Mailbox layout": [
+        "邮箱布局"
+      ],
+      "Mailbox density": [
+        "邮箱密度"
+      ],
+      "Composer size": [
+        "编辑窗大小"
+      ],
+      "Remove bonuses": [
+        "放弃特权"
+      ],
+      "Try again": [
+        "重试"
+      ],
+      "Use a different card": [
+        "使用其他银行卡"
+      ],
+      "Use a different payment method": [
+        "改用其他支付方式"
+      ],
+      "Retry": [
+        "重试"
+      ],
+      "Loading verification": [
+        "正在准备验证"
+      ],
+      "Select plan": [
+        "选择套餐"
+      ],
+      "Compare all features": [
+        "功能对比"
+      ],
+      "${ boldSave } by switching to annual billing": [
+        "年付可享 ${ boldSave } 优惠"
+      ],
+      "Pay": [
+        "支付"
+      ],
+      "Open ${ CALENDAR_APP_NAME } settings": [
+        "打开 ${ CALENDAR_APP_NAME } 设置"
+      ],
+      "Remove gift code": [
+        "移除礼品码"
+      ],
+      "annual billing": [
+        "年费"
+      ],
+      "Compare plans": [
+        "套餐对比"
+      ],
+      "Decrease": [
+        "减少"
+      ],
+      "Increase": [
+        "增加"
+      ],
+      "Preview": [
+        "预览"
+      ],
+      "Create label": [
+        "创建标签"
+      ],
+      "Create folder": [
+        "创建文件夹"
+      ],
+      "Remove this label": [
+        "移除此标签"
+      ],
+      "Add condition": [
+        "添加条件"
+      ],
+      "label emails as": [
+        "给邮件加标签"
+      ],
+      "move emails to": [
+        "将邮件移至"
+      ],
+      "mark emails as": [
+        "将邮件标为"
+      ],
+      "send auto-reply email": [
+        "自动回复"
+      ],
+      "Yes, I'll attend": [
+        "是，我将参加"
+      ],
+      "Maybe I'll attend": [
+        "可能参加"
+      ],
+      "No, I won't attend": [
+        "不，我不会参加"
+      ],
+      "Yes": [
+        "是"
+      ],
+      "Maybe": [
+        "可能"
+      ],
+      "No": [
+        "否"
+      ],
+      "Add to ${ CALENDAR_APP_NAME }": [
+        "添加到 ${ CALENDAR_APP_NAME }"
+      ],
+      "Use your mouse to resize the view. If you're using your keyboard, you can use left and right arrow keys to resize.": [
+        ""
+      ],
+      "Send anyway": [
+        "仍然发送"
+      ],
+      "Got it": [
+        "知道了"
+      ],
+      "Maximize composer": [
+        "最大化编辑窗"
+      ],
+      "Minimize composer": [
+        "最小化编辑窗"
+      ],
+      "Contract composer": [
+        "还原编辑窗"
+      ],
+      "Expand composer": [
+        "展开编辑窗"
+      ],
+      "Close composer": [
+        "关闭编辑窗"
+      ],
+      "Trust key": [
+        "受信密钥"
+      ],
+      "Copy address": [
+        "复制地址"
+      ],
+      "Edit address": [
+        "编辑地址"
+      ],
+      "View contact details": [
+        "查看联系人详情"
+      ],
+      "Copy addresses": [
+        "复制地址"
+      ],
+      "View recipients": [
+        "查看收件人"
+      ],
+      "Carbon Copy, Blind Carbon Copy": [
+        "抄送、密送"
+      ],
+      "CC, BCC": [
+        "CC, BCC"
+      ],
+      "Send": [
+        "发送​​"
+      ],
+      "Attachment": [
+        "上传为附件"
+      ],
+      "Inline": [
+        "嵌入邮件中"
+      ],
+      "Cancel action": [
+        "取消操作"
+      ],
+      "Loading${ ellipsis }": [
+        "正在加载${ ellipsis }"
+      ],
+      "Saving${ _ellipsis }": [
+        "正在保存${ _ellipsis }"
+      ],
+      "Not saved": [
+        "未保存"
+      ],
+      "Schedule send": [
+        "定时发送"
+      ],
+      "Expiration time": [
+        "邮件有效期"
+      ],
+      "Encryption": [
+        "加密"
+      ],
+      "Delete draft": [
+        "删除草稿"
+      ],
+      "Set": [
+        "设置"
+      ],
+      "Schedule message": [
+        "定时邮件"
+      ],
+      "Print": [
+        "打印"
+      ],
+      "Address options": [
+        "地址选项"
+      ],
+      "New message": [
+        "撰写邮件"
+      ],
+      "Trust Public Key": [
+        "受信公钥"
+      ],
+      "Filter on...": [
+        "筛选依据..."
+      ],
+      "Move to...": [
+        "移至..."
+      ],
+      "Label as...": [
+        "加标签..."
+      ],
+      "Mark as unread": [
+        "标为未读"
+      ],
+      "Move to spam": [
+        "标为垃圾邮件"
+      ],
+      "Report phishing": [
+        "举报欺诈邮件"
+      ],
+      "View source code": [
+        "查看源代码"
+      ],
+      "View rendered HTML": [
+        "查看渲染后的HTML"
+      ],
+      "View headers": [
+        "查看邮件头信息"
+      ],
+      "Hide details": [
+        "隐藏详情"
+      ],
+      "Show details": [
+        "显示详情"
+      ],
+      "Custom filter": [
+        "自定义过滤规则"
+      ],
+      "Move to": [
+        "移至"
+      ],
+      "Label as": [
+        "加标签"
+      ],
+      "Load": [
+        "加载"
+      ],
+      "This message contains remote content.": [
+        "此邮件含有外链内容。"
+      ],
+      "This message contains embedded images.": [
+        "此邮件含有嵌入图像。"
+      ],
+      "Unsubscribe": [
+        "取消订阅"
+      ],
+      "Unsubscribing": [
+        "正在退订"
+      ],
+      "Mark legitimate": [
+        "标为非垃圾邮件"
+      ],
+      "Send receipt": [
+        "发送回执"
+      ],
+      "Accept": [
+        "接受"
+      ],
+      "Show": [
+        "显示"
+      ],
+      "Show less": [
+        "显示更少"
+      ],
+      "Never show": [
+        "不再显示"
+      ],
+      "View keys": [
+        "查看密钥"
+      ],
+      "Edit draft": [
+        "编辑草稿"
+      ],
+      "Download ${ attachmentName }": [
+        "下载 ${ attachmentName }"
+      ],
+      "Preview ${ attachmentName }": [
+        "预览 ${ attachmentName }"
+      ],
+      "Remove ${ attachmentName }": [
+        "移除 ${ attachmentName }"
+      ],
+      "Hide attachment details": [
+        "隐藏附件详细信息"
+      ],
+      "Show attachment details": [
+        "显示附件详细信息"
+      ],
+      "Hide": [
+        "隐藏"
+      ],
+      "Learn more": [
+        "了解详情"
+      ],
+      "Undo": [
+        "撤销"
+      ],
+      "View message": [
+        "查看邮件"
+      ],
+      "Enable": [
+        "启用"
+      ],
+      "Search message content": [
+        "搜索邮件内容"
+      ],
+      "Activate": [
+        "激活"
+      ],
+      "Resume": [
+        "继续"
+      ],
+      "Pause": [
+        "暂停"
+      ],
+      "Show less search options": [
+        "收起搜索选项"
+      ],
+      "Show more search options": [
+        "展开搜索选项"
+      ],
+      "Less search options": [
+        "更少的搜索选项"
+      ],
+      "More search options": [
+        "更多的搜索选项"
+      ],
+      "Advanced search": [
+        "高级搜索"
+      ],
+      "Clear browser data": [
+        "清除浏览器数据"
+      ],
+      "Mark as read": [
+        "标为已读"
+      ],
+      "Delete permanently": [
+        "永久删除"
+      ],
+      "Move to inbox": [
+        "移至收件箱"
+      ],
+      "Move to archive": [
+        "归档"
+      ],
+      "Move to inbox (not spam)": [
+        "移至收件箱（非垃圾邮件）"
+      ],
+      "Move to trash": [
+        "移至废件箱"
+      ],
+      "Delete all": [
+        "全部删除"
+      ],
+      "Deselect all messages": [
+        "取消选择所有邮件"
+      ],
+      "Select all messages": [
+        "选择所有邮件"
+      ],
+      "Select All": [
+        "全选"
+      ],
+      "All Read": [
+        "所有已读邮件"
+      ],
+      "All Unread": [
+        "所有未读邮件"
+      ],
+      "All Starred": [
+        "所有星标邮件"
+      ],
+      "All Unstarred": [
+        "所有非星标邮件"
+      ],
+      "Load more": [
+        "加载更多"
+      ],
+      "Previous page": [
+        "上一页"
+      ],
+      "Change page": [
+        "页面跳转"
+      ],
+      "Page ${ pageNumber }": [
+        "第 ${ pageNumber } 页"
+      ],
+      "Next page": [
+        "下一页"
+      ],
+      "Previous conversation": [
+        "上一个会话"
+      ],
+      "Previous message": [
+        "上一封邮件"
+      ],
+      "Next conversation": [
+        "下一个会话"
+      ],
+      "Next message": [
+        "下一封邮件"
+      ],
+      "Show messages": [
+        "显示邮件"
+      ],
+      "Hide messages": [
+        "隐藏邮件"
+      ],
+      "Create new message": [
+        "创建新邮件"
+      ],
+      "Open shop": [
+        "打开商店"
+      ],
+      "Open calendar": [
+        "打开日历"
+      ],
+      "Import messages": [
+        "导入邮件"
+      ],
+      "Deselect": [
+        "取消选择"
+      ],
+      "Start using ${ appName }": [
+        "开始使用 ${ appName }"
       ]
     },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "密码必须至少包含 ${ length } 个字符"
-      ]
-    },
-    "Contact field label": {
-      "Name": [
-        "姓名"
+    "Title": {
+      "Open actions dropdown": [
+        "展开操作菜单"
       ],
-      "Email": [
-        "邮箱"
+      "Expand content": [
+        "展开內容"
       ],
-      "Phone": [
-        "电话"
+      "Link confirmation": [
+        "确认打开链接"
       ],
-      "Address": [
-        "地址"
+      "Keyboard Shortcuts": [
+        "键盘快捷键"
       ],
-      "Photo": [
-        "照片"
+      "What's new": [
+        "更新内容"
       ],
-      "Organization": [
-        "单位"
+      "Sign in again to continue": [
+        "此操作需要重新登录"
       ],
-      "Birthday": [
-        "生日"
+      "Account suspended": [
+        "账号已被停用"
       ],
-      "Anniversary": [
-        "周年纪念日"
+      "Enter your username or ProtonMail email address": [
+        "输入用户名或 ProtonMail 邮箱"
       ],
-      "Title": [
-        "头衔"
+      "Enter your password": [
+        "输入密码"
       ],
-      "Role": [
-        "身份"
+      "Invalid verification code": [
+        "验证码无效"
       ],
-      "Note": [
-        "备注"
+      "Human verification": [
+        "身份验证"
       ],
-      "URL": [
-        "网址"
+      "Select a theme": [
+        "选择主题"
       ],
-      "Gender": [
-        "性别"
+      "Upgrade required": [
+        "需要升级"
       ],
-      "Language": [
-        "语言"
+      "Delete ${ Name }": [
+        "删除 ${ Name }"
       ],
-      "Timezone": [
-        "时区"
+      "Delete ${ count } contact group": [
+        "删除 ${ count } 个联系人组"
       ],
-      "Geo": [
-        "地理位置"
+      "Edit contact group": [
+        "更改联系人群组"
       ],
-      "Logo": [
-        "图标"
+      "Create new group": [
+        "创建群组"
       ],
-      "Member": [
-        "成员"
-      ]
-    },
-    "Contact type label": {
-      "Work": [
-        "工作"
+      "${ emailsCount } member": [
+        "{ emailsCount } 位成員"
       ],
-      "Personal": [
-        "私人"
+      "Edit image": [
+        "更改图片"
       ],
-      "Mobile": [
-        "手机"
+      "Add to ${ groupName }": [
+        "添加到 ${ groupName }"
       ],
-      "Main": [
-        "主要"
+      "Add to ${ groupCount } group": [
+        "添加到 ${ groupCount } 个群组"
       ],
-      "Yomi": [
-        "读音"
+      "Edit contact": [
+        "编辑联系人"
       ],
-      "Other": [
-        "其他"
+      "Create contact": [
+        "创建联系人"
       ],
-      "Fax": [
-        "传真"
+      "Insert contacts": [
+        "插入联系人"
       ],
-      "Pager": [
-        "寻呼机"
-      ]
-    },
-    "Property type": {
-      "Email": [
-        "邮箱"
+      "Delete ${ count } contact": [
+        "删除 ${ count } 联系人"
       ],
-      "Home": [
-        "家庭"
+      "Clearing data": [
+        "数据清除中"
       ],
-      "Work": [
-        "工作"
+      "Warning": [
+        "警告"
       ],
-      "Other": [
-        "其他"
+      "Recover data": [
+        "恢复数据"
       ],
-      "Phone": [
-        "电话"
+      "Re-signing contacts": [
+        "重新签署联系人"
       ],
-      "Mobile": [
-        "手机"
+      "Re-sign all contacts": [
+        "重新签署所有联系人"
       ],
-      "Main": [
-        "主要"
+      "Email settings (${ emailAddress })": [
+        "邮件设(${ emailAddress })"
       ],
-      "Fax": [
-        "传真"
+      "Exporting contacts": [
+        "导出联系人"
       ],
-      "Pager": [
-        "寻呼机"
+      "Contact group": [
+        "联系人群组"
       ],
-      "Address": [
-        "地址"
+      "Other names": [
+        "其他名称"
+      ],
+      "Email addresses": [
+        "邮箱地址"
+      ],
+      "Phone numbers": [
+        "电话号码"
+      ],
+      "Addresses": [
+        "邮箱地址"
+      ],
+      "Other information": [
+        "其他信息"
+      ],
+      "Email settings": [
+        "邮件设置"
+      ],
+      "Contact Details": [
+        "联系人详情"
+      ],
+      "Merging contacts": [
+        "合并联系人"
+      ],
+      "Merge contacts": [
+        "合并联系人"
+      ],
+      "Deleting contacts": [
+        "删除联系人中"
+      ],
+      "View contacts": [
+        "查看联系人"
+      ],
+      "Contacts": [
+        "通讯录"
+      ],
+      "Groups": [
+        "群组"
+      ],
+      "Settings": [
+        "设置"
+      ],
+      "Select action to take on contact group": [
+        "选择针对联系人群组的动作"
+      ],
+      "Add contact group name": [
+        "添加联系人群组名称"
+      ],
+      "Select contact group": [
+        "选择联系人群组"
+      ],
+      "Import groups": [
+        "导入群组"
+      ],
+      "Import contacts": [
+        "导入联系人"
+      ],
+      "Start import process": [
+        "开始导入过程"
+      ],
+      "Import in progress": [
+        "导入进行中"
+      ],
+      "Report a problem": [
+        "反馈问题"
+      ],
+      "${ appName } Keyboard Shortcuts": [
+        "${ appName } 快捷键"
+      ],
+      "Mailbox density": [
+        "邮箱密度"
+      ],
+      "Mailbox layout": [
+        "邮箱布局"
+      ],
+      "Composer mode": [
+        "邮件格式"
+      ],
+      "Open help menu": [
+        "打开帮助菜单"
+      ],
+      "Back": [
+        "返回"
+      ],
+      "Open settings menu": [
+        "打开设置菜单"
+      ],
+      "Confirm loss of Proton bonuses": [
+        "确定放弃 Proton 特权"
+      ],
+      "Unsupported browser": [
+        "不支持此浏览器"
+      ],
+      "Card verification": [
+        "银行卡验证"
+      ],
+      "Payment verification": [
+        "确认支付"
+      ],
+      "Processing...": [
+        "正在处理..."
+      ],
+      "Card verification in progress": [
+        "正在进行银行卡验证"
+      ],
+      "Payment verification in progress": [
+        "正在确认支付"
+      ],
+      "PayPal verification failed": [
+        "PayPal 验证失败"
+      ],
+      "3-D Secure verification failed": [
+        "3-D Secure 验证失败"
+      ],
+      "Error": [
+        "失败"
+      ],
+      "ZIP / postal code": [
+        "邮政编码"
+      ],
+      "Payment details": [
+        "支付明细"
+      ],
+      "Currency": [
+        "货币"
+      ],
+      "Billing cycle": [
+        "计费周期"
+      ],
+      "Current plan": [
+        "当前套餐"
+      ],
+      "Processing": [
+        "处理中"
+      ],
+      "Apply gift code": [
+        "使用礼品码"
+      ],
+      "Subtotal": [
+        "小计"
+      ],
+      "Coupon discount": [
+        "优惠券折扣"
+      ],
+      "Total (monthly)": [
+        "合计（按月）"
+      ],
+      "Credits": [
+        "余额"
+      ],
+      "Gift code": [
+        "礼品码"
+      ],
+      "Amount due": [
+        "应付金额"
+      ],
+      "Downgrade account": [
+        ""
+      ],
+      "Network error": [
+        "网络错误"
+      ],
+      "Select a plan": [
+        "选择套餐"
+      ],
+      "Customize your plan": [
+        "自定义您的套餐"
+      ],
+      "Checkout": [
+        "结算"
+      ],
+      "Plan summary": [
+        "订单概览"
+      ],
+      "${ appName } customization": [
+        "自定义 ${ appName }"
+      ],
+      "Beta Access": [
+        "测试版功能"
+      ],
+      "Edit filter": [
+        "更改规则"
+      ],
+      "Add filter": [
+        "创建规则"
+      ],
+      "Are you sure you want to close?": [
+        "确定要关闭吗？"
+      ],
+      "Change my answer": [
+        "更改我的回复"
+      ],
+      "Image": [
+        "图像"
+      ],
+      "Sending notice": [
+        "提示"
+      ],
+      "Storage capacity warning": [
+        "存储容量警告"
+      ],
+      "Sending original message": [
+        "正在发送原始邮件"
+      ],
+      "No recipient": [
+        "无收件人"
+      ],
+      "Message without subject?": [
+        "没有主题的消息？"
+      ],
+      "No attachment found": [
+        "未找到附件"
+      ],
+      "Re-sign contact": [
+        "重新签署联系人"
+      ],
+      "Verification error": [
+        "签名校验失败"
+      ],
+      "Decryption error": [
+        "解密失败"
+      ],
+      "Delete draft": [
+        "删除草稿"
+      ],
+      "Delete ${ count } draft": [
+        "删除 ${ count } 封草稿"
+      ],
+      "Delete message": [
+        "删除邮件"
+      ],
+      "Delete conversation": [
+        "删除会话"
+      ],
+      "Delete ${ count } conversation": [
+        "删除 ${ count } 条会话"
+      ],
+      "Delete ${ count } message": [
+        "删除 ${ count } 封邮件"
+      ],
+      "Delete all messages": [
+        "刪除所有邮件"
+      ],
+      "Trust new key?": [
+        "信任新密钥？"
+      ],
+      "Add contacts": [
+        "添加联系人"
+      ],
+      "To": [
+        "收件人"
+      ],
+      "CC": [
+        "抄送"
+      ],
+      "BCC": [
+        "密送"
+      ],
+      "Carbon Copy": [
+        "副本"
+      ],
+      "Blind Carbon Copy": [
+        "盲抄本"
+      ],
+      "Sending error": [
+        "发送时出错"
+      ],
+      "Confirm recipient address?": [
+        "确认收件人地址？"
+      ],
+      "Send without expiration?": [
+        "发送永久有效的邮件？"
+      ],
+      "Send with changed preferences?": [
+        "按变更后的首选项发送？"
+      ],
+      "Attachments": [
+        "附件"
+      ],
+      "Expiration time": [
+        "有效期"
+      ],
+      "Encryption": [
+        "加密"
+      ],
+      "Send email": [
+        "发送邮件"
+      ],
+      "Schedule send": [
+        "定时发送"
+      ],
+      "New message": [
+        "撰写邮件"
+      ],
+      "Trust public key?": [
+        "信任公钥?"
+      ],
+      "All recipients were added to the BCC field and cannot be disclosed": [
+        "所有收件人都已加入密送列表，不会公开"
+      ],
+      "Move to inbox (not spam)": [
+        "移至收件箱（不是垃圾邮件）"
+      ],
+      "Mark as unread": [
+        "标为未读"
+      ],
+      "Move to inbox": [
+        "移至收件箱"
+      ],
+      "Move to trash": [
+        "移至废件箱"
+      ],
+      "More": [
+        "更多"
+      ],
+      "More options": [
+        "更多选项"
+      ],
+      "Reply": [
+        "回复"
+      ],
+      "Reply all": [
+        "回复所有人"
+      ],
+      "Forward": [
+        "转发"
+      ],
+      "Filter on": [
+        "筛选依据"
+      ],
+      "Move to": [
+        "移动到"
+      ],
+      "Label as": [
+        "标记为"
+      ],
+      "Load remote content": [
+        "加载外部内容"
+      ],
+      "Load embedded images": [
+        "加载嵌入图像"
+      ],
+      "Unsubscribe": [
+        "退订"
+      ],
+      "Mark email as legitimate": [
+        "标为非垃圾邮件"
+      ],
+      "Trust pinned keys?": [
+        "信任固定的密钥？"
+      ],
+      "Enable message content search": [
+        "启用邮件全文搜索"
+      ],
+      "Create a new folder": [
+        "创建文件夹"
+      ],
+      "Create a new label": [
+        "创建标签"
+      ],
+      "More selections": [
+        "更多选择"
+      ],
+      "Previous conversation": [
+        "上一条会话"
+      ],
+      "Previous message": [
+        "上一封邮件"
+      ],
+      "Next conversation": [
+        "下一条会话"
+      ],
+      "Next message": [
+        "下一封邮件"
+      ],
+      "Sort conversations": [
+        "会话排序"
+      ],
+      "Sort messages": [
+        "邮件排序"
+      ],
+      "Create folder": [
+        "创建文件夹"
+      ],
+      "Create label": [
+        "创建标签"
+      ],
+      "Conversation list": [
+        "会话列表"
+      ],
+      "Message list": [
+        "邮件列表"
+      ],
+      "Welcome ${ userName }": [
+        "欢迎您，${ userName }"
+      ],
+      "Welcome": [
+        "欢迎"
       ]
     },
     "Info": {
-      "Session timed out.": [
-        "会话已超时。"
-      ],
-      "Internet connection lost.": [
-        "网络连接断开。"
-      ],
-      "Servers are unreachable.": [
-        "无法连接服务器。"
-      ],
-      "Custom daily": [
-        "个人每日计划"
-      ],
-      "Custom weekly": [
-        "个人周计划"
-      ],
-      "Custom monthly": [
-        "个人月计划"
-      ],
-      "Custom yearly": [
-        "个人年计划"
-      ],
-      "Custom": [
-        "自定义"
-      ],
-      "Daily": [
-        "每天"
-      ],
-      "Monthly ${ onDayString }": [
-        "每月 ${ onDayString }"
-      ],
-      "Yearly": [
-        "每年"
-      ],
       "No results found": [
         "未找到结果"
+      ],
+      "Loading": [
+        "加载中"
       ],
       "Insert image": [
         "插入图片"
@@ -619,9 +1820,6 @@
       ],
       "Week": [
         "周"
-      ],
-      "Loading": [
-        "加载中"
       ],
       "(${ memberCount } member)": [
         "（${ memberCount } 位成员）"
@@ -1184,6 +2382,39 @@
       "Are you sure you want to discard your changes?": [
         "确定要放弃修改吗？"
       ],
+      "Session timed out.": [
+        "会话已超时。"
+      ],
+      "Internet connection lost.": [
+        "网络连接断开。"
+      ],
+      "Servers are unreachable.": [
+        "无法连接服务器。"
+      ],
+      "Custom daily": [
+        "个人每日计划"
+      ],
+      "Custom weekly": [
+        "个人周计划"
+      ],
+      "Custom monthly": [
+        "个人月计划"
+      ],
+      "Custom yearly": [
+        "个人年计划"
+      ],
+      "Custom": [
+        "自定义"
+      ],
+      "Daily": [
+        "每天"
+      ],
+      "Monthly ${ onDayString }": [
+        "每月 ${ onDayString }"
+      ],
+      "Yearly": [
+        "每年"
+      ],
       "Members": [
         "成员"
       ],
@@ -1562,6 +2793,18 @@
       "No more results found": [
         "到底了"
       ],
+      "Protect yourself from trackers by turning on Proton email tracker protection.": [
+        ""
+      ],
+      "No email trackers found.": [
+        ""
+      ],
+      "Proton has blocked email trackers in this message in order to protect your privacy.": [
+        ""
+      ],
+      "${ numberOfTrackers } email tracker blocked": [
+        ""
+      ],
       "This conversation contains non-trashed messages.": [
         "此会话包含不在废件箱中的邮件。"
       ],
@@ -1698,9 +2941,2379 @@
         "使用移动设备扫描此二维码或打开 ${ link }。"
       ]
     },
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        "此密钥不能用于加密"
+      ]
+    },
+    "Label": {
+      "Copy": [
+        "复制"
+      ],
+      "Reveal password": [
+        "显示密码"
+      ],
+      "Hide password": [
+        "隐藏密码"
+      ],
+      "Do not ask again": [
+        "不再询问"
+      ],
+      "Cancel": [
+        "取消"
+      ],
+      "Submit": [
+        "提交"
+      ],
+      "Password": [
+        "密码"
+      ],
+      "Mailbox password": [
+        "邮箱密码"
+      ],
+      "Two-factor authentication code": [
+        "双重认证验证码"
+      ],
+      "Username or ProtonMail address": [
+        "用户名或 ProtonMail 地址"
+      ],
+      "Email address": [
+        "邮箱地址"
+      ],
+      "Phone number": [
+        "电话号码"
+      ],
+      "Verification code": [
+        "验证码"
+      ],
+      "Enter the 6-digit code": [
+        "请输入 6 位验证码"
+      ],
+      "Add email address": [
+        "添加邮箱地址"
+      ],
+      "Add image URL": [
+        "添加图像网址"
+      ],
+      "Upload picture": [
+        "上传图片"
+      ],
+      "Name": [
+        "姓名"
+      ],
+      "Email": [
+        "邮箱"
+      ],
+      "Group": [
+        "群组"
+      ],
+      "Email format": [
+        "电子邮件格式"
+      ],
+      "Street address": [
+        "街道地址"
+      ],
+      "City": [
+        "城市"
+      ],
+      "Region": [
+        "区域"
+      ],
+      "Postal code": [
+        "邮编"
+      ],
+      "Country": [
+        "国家"
+      ],
+      "Post office box": [
+        "邮局信箱"
+      ],
+      "Extended address": [
+        "详细地址"
+      ],
+      "Add to group": [
+        "添加至群组"
+      ],
+      "Encrypt emails": [
+        "加密电子邮件"
+      ],
+      "Sign emails": [
+        "签名电子邮件"
+      ],
+      "Cryptographic scheme": [
+        "加密方案"
+      ],
+      "Public keys": [
+        "公钥"
+      ],
+      "Automatically save contacts": [
+        "自动保存联系人"
+      ],
+      "Import contacts": [
+        "导入联系人"
+      ],
+      "Export contacts": [
+        "导出联系人"
+      ],
+      "From: ${ fromEmailAddress }": [
+        "来自: ${ fromEmailAddress }"
+      ],
+      "To: ${ toEmailAddress }": [
+        "导入到：${ toEmailAddress }"
+      ],
+      "Operating system": [
+        "操作系统"
+      ],
+      "Operating system version": [
+        "操作系统版本"
+      ],
+      "Proton username": [
+        "Proton 用户名"
+      ],
+      "Category": [
+        "类别"
+      ],
+      "What happened?": [
+        "发生了什么？"
+      ],
+      "System information": [
+        "系统信息"
+      ],
+      "Browser": [
+        "浏览器"
+      ],
+      "Browser version": [
+        "浏览器版本"
+      ],
+      "Display name": [
+        "对外名称"
+      ],
+      "Keyboard shortcuts": [
+        "快捷键"
+      ],
+      "Select how your list of messages looks like by default.": [
+        "请选择收件箱列表的默认外观"
+      ],
+      "Select how your mailbox looks like by default.": [
+        "请选择邮箱的默认外观"
+      ],
+      "Select how your composer opens by default.": [
+        "请选择编辑窗的默认外观"
+      ],
+      "Recovery phrase": [
+        "恢复密语"
+      ],
+      "Your recovery phrase": [
+        "您的恢复密语"
+      ],
+      "Name on card": [
+        "持卡人姓名"
+      ],
+      "Card number": [
+        "信用卡号"
+      ],
+      "Expiry date": [
+        "有效期至"
+      ],
+      "CVV code": [
+        "CVV 码"
+      ],
+      "Select your country": [
+        "选择国家"
+      ],
+      "ZIP": [
+        "邮编"
+      ],
+      "BTC amount:": [
+        "比特币金额："
+      ],
+      "BTC address:": [
+        "比特币地址："
+      ],
+      "Select a method": [
+        "选择支付方式"
+      ],
+      "Total (${ countdown })": [
+        "合计 (${ countdown })"
+      ],
+      "Total": [
+        "合计"
+      ],
+      "Proration": [
+        "当前等级结余"
+      ],
+      "Cash": [
+        "现金"
+      ],
+      "Card holder": [
+        "持卡人"
+      ],
+      "Expires": [
+        "有效期至"
+      ],
+      "Payer": [
+        "付款人"
+      ],
+      "Enable Beta Access": [
+        "启用测试版功能"
+      ],
+      "Folder location": [
+        "文件夹位置"
+      ],
+      "Notification": [
+        "通知"
+      ],
+      "Filter Name": [
+        "筛选规则名称"
+      ],
+      "Label as": [
+        "加标签"
+      ],
+      "No label found": [
+        "无标签"
+      ],
+      "Move to": [
+        "移至"
+      ],
+      "Read": [
+        "已读"
+      ],
+      "Starred": [
+        "星标"
+      ],
+      "Mark as": [
+        "标为"
+      ],
+      "Send auto-reply": [
+        "自动回复"
+      ],
+      "AND": [
+        "且"
+      ],
+      "OR": [
+        "或"
+      ],
+      "IF": [
+        "如果"
+      ],
+      "With attachment": [
+        "含有附件"
+      ],
+      "Without attachment": [
+        "不含附件"
+      ],
+      "or": [
+        "或"
+      ],
+      "with attachments": [
+        "含有附件"
+      ],
+      "without attachment": [
+        "不含附件"
+      ],
+      "The email was sent ${ attachmentStrong }": [
+        "邮件${ attachmentStrong }"
+      ],
+      "The email was sent ${ attachment }": [
+        "邮件${ attachment }"
+      ],
+      "Statement": [
+        "要求"
+      ],
+      "ALL": [
+        "且"
+      ],
+      "ANY": [
+        "或"
+      ],
+      " and ${ l }": [
+        "、${ l }"
+      ],
+      " and ": [
+        "、"
+      ],
+      "and": [
+        "、"
+      ],
+      "Then": [
+        "则"
+      ],
+      "And": [
+        "且"
+      ],
+      "Actions": [
+        "操作"
+      ],
+      "without attachments": [
+        "不含附件"
+      ],
+      "the email was sent ${ attachment }": [
+        "邮件${ attachment }"
+      ],
+      "the email was sent ${ label }": [
+        "邮件${ label }"
+      ],
+      "If": [
+        "如果"
+      ],
+      "Or": [
+        "或"
+      ],
+      "Conditions": [
+        "条件"
+      ],
+      "Carbon Copy": [
+        "抄送"
+      ],
+      "Blind Carbon Copy": [
+        "密送"
+      ],
+      "Date": [
+        "日期"
+      ],
+      "Time": [
+        "时间"
+      ],
+      "From:": [
+        "发件人："
+      ],
+      "Date:": [
+        "日期："
+      ],
+      "${ firstAddress } and ${ count } others": [
+        "${ firstAddress } 及其他 ${ count } 位"
+      ],
+      "Undisclosed Recipients": [
+        "非公开收件人"
+      ],
+      "To:": [
+        "收件人："
+      ],
+      "CC:": [
+        "抄送："
+      ],
+      "BCC:": [
+        "密送："
+      ],
+      "Size:": [
+        "大小："
+      ],
+      "Labels:": [
+        "标记："
+      ],
+      "Keyword": [
+        "关键词"
+      ],
+      "Search in": [
+        ""
+      ],
+      "From": [
+        "发件人"
+      ],
+      "To": [
+        "收件人"
+      ],
+      "Sender": [
+        "发件人"
+      ],
+      "Recipient": [
+        "收件人"
+      ],
+      "Attachments": [
+        "附件"
+      ],
+      "Also archive": [
+        "同时存档"
+      ]
+    },
+    "Placeholder": {
+      "E.g., ": [
+        "例如："
+      ],
+      "Link": [
+        "链接"
+      ],
+      "Fill in the URL link and text to test your link": [
+        "填写网址和要显示的文本来测试链接"
+      ],
+      "Email address": [
+        "邮箱地址"
+      ],
+      "Fill in the email address and text to test your link": [
+        "填写邮箱地址和文本来测试链接"
+      ],
+      "Phone number": [
+        "电话号码"
+      ],
+      "Fill in the phone number and text to test your link": [
+        "填写电话号码和文本来测试链接"
+      ],
+      "Text": [
+        "文本"
+      ],
+      "Mailbox password": [
+        "邮箱密码"
+      ],
+      "Start typing an email address": [
+        "开始输入电子邮件地址"
+      ],
+      "Image URL": [
+        "图像 URL"
+      ],
+      "Search name, email or group": [
+        "搜索名称、电子邮件或群组"
+      ],
+      "Filter groups": [
+        "查找群组"
+      ],
+      "Search for name or email": [
+        "搜索名称或电子邮件地址"
+      ],
+      "Search for group name": [
+        "搜索群组名称"
+      ],
+      "Name": [
+        "名称"
+      ],
+      "OS name": [
+        "操作系统名称"
+      ],
+      "OS version": [
+        "操作系统版本"
+      ],
+      "Proton username": [
+        "Proton 用户名"
+      ],
+      "A way to contact you": [
+        "您的联系方式"
+      ],
+      "Please describe the problem and include any error messages": [
+        "请说明您的问题，并附上看到的所有错误提示"
+      ],
+      "Browser name": [
+        "浏览器名称"
+      ],
+      "Browser version": [
+        "浏览器版本"
+      ],
+      "e.g. Julia Smith": [
+        "例如：Julia Smith"
+      ],
+      "ZIP": [
+        "邮编"
+      ],
+      "Postal code": [
+        "邮政编码"
+      ],
+      "Gift code": [
+        "礼品码"
+      ],
+      "Type text or keyword": [
+        "输入文本或关键词"
+      ],
+      "Subject": [
+        "主题"
+      ],
+      "Write your message": [
+        "编写你的邮件"
+      ],
+      "Password": [
+        "密码"
+      ],
+      "Confirm Password": [
+        "确认密码"
+      ],
+      "Hint": [
+        "提示"
+      ],
+      "Search Messages": [
+        "搜索邮件"
+      ],
+      "Start date": [
+        "开始日期"
+      ],
+      "End date": [
+        "结束日期"
+      ],
+      "Name or email address": [
+        "用户名或邮箱地址"
+      ],
+      "Search messages": [
+        "搜索邮件"
+      ],
+      "Filter folders": [
+        "过滤文件夹"
+      ],
+      "Filter labels": [
+        "查找标签"
+      ]
+    },
+    "Time unit": {
+      "${ hours } hour": [
+        "${ hours } 小时"
+      ],
+      "${ minutes } minute": [
+        "${ minutes } 分钟"
+      ],
+      "${ daysCountLeft } day": [
+        "${ daysCountLeft } 天"
+      ],
+      "${ hoursCountLeft } hour": [
+        "${ hoursCountLeft } 小时"
+      ],
+      "${ minutesCountLeft } minute": [
+        "${ minutesCountLeft } 分钟"
+      ],
+      "${ secondsCountLeft } second": [
+        "${ secondsCountLeft } 秒"
+      ]
+    },
+    "Link": {
+      "Learn more": [
+        "了解详情"
+      ],
+      "Request an invite": [
+        "请求邀请"
+      ],
+      "clearing your browser cache": [
+        "清除浏览器缓存"
+      ],
+      "Pay invoice": [
+        "前去支付"
+      ],
+      "Upgrade account": [
+        "升级账户"
+      ],
+      "Upgrade": [
+        "升级"
+      ],
+      "Go to subscription plans": [
+        "转至订阅计划"
+      ],
+      "click here": [
+        "请单击此处"
+      ],
+      "Add a gift code": [
+        "使用礼品码"
+      ],
+      "Inbox": [
+        "收件箱"
+      ],
+      "Drafts": [
+        "草稿"
+      ],
+      "Sent": [
+        "已发送"
+      ],
+      "Trash": [
+        "废件箱"
+      ],
+      "Spam": [
+        "垃圾邮件"
+      ],
+      "All mail": [
+        "所有邮件"
+      ],
+      "Archive": [
+        "归档"
+      ],
+      "Starred": [
+        "已加星标"
+      ],
+      "Outbox": [
+        "发件箱"
+      ],
+      "Scheduled": [
+        "定时发送"
+      ],
+      "You need to activate your calendar keys to add this event": [
+        "您需要激活您的日历密钥才能添加此日程"
+      ],
+      "You need to activate your calendar keys to manage this invitation": [
+        "您需要激活您的日历密钥才能管理此邀请"
+      ],
+      "You need to activate your calendar keys to answer this invitation": [
+        "您需要激活您的日历密钥才能回复此邀请"
+      ],
+      "You need to activate your calendar keys to see the updated event": [
+        "您需要激活您的日历密钥才能看到更新的日程"
+      ],
+      "You need to activate your calendar keys to see the updated invitation": [
+        "您需要激活日历密钥才能看到更新的邀请"
+      ],
+      "This ICS file contains more than one event. Please download it and import the events in ${ calendarAppName }": [
+        "此 ICS 文件包含多个日程，请下载并导入 ${ calendarAppName } 中的日程"
+      ],
+      "You need to reactivate your keys to manage this invitation": [
+        "您需要重新激活您的密钥才能管理此邀请"
+      ],
+      "You need to reactivate your keys to see the updated event": [
+        "您需要重新激活您的密钥才能看到更新的日程"
+      ],
+      "You need to reactivate your keys to see the updated invitation": [
+        "您需要重新激活您的密钥才能看到更新的邀请"
+      ],
+      "Create a new calendar to add this event": [
+        "创建新日历来添加此日程"
+      ],
+      "Create a new calendar to answer this invitation": [
+        "创建新日历来回复此邀请"
+      ],
+      "Create a new calendar to manage your invitations": [
+        "创建新日历来管理您的邀请"
+      ],
+      "Open updated event in ${ calendarAppName }": [
+        "在 ${ calendarAppName } 中打开更新的日程"
+      ],
+      "Open in ${ calendarAppName }": [
+        "在 ${ calendarAppName } 中打开"
+      ],
+      "Re-enable the address linked to this calendar to manage your invitation.": [
+        "重新启用与本日历关联的地址以管理您的邀请。"
+      ],
+      "Re-enable the address linked to this calendar to update your invitation.": [
+        "重新启用与本日历关联的地址以更新您的邀请。"
+      ],
+      "Enable your address to answer this invitation.": [
+        "启用您的邮箱地址来回复此邀请。"
+      ],
+      "Create a calendar linked to an active email address.": [
+        "创建一个与在用邮箱地址关联的日历。"
+      ],
+      "Enable an email address linked to one of your calendars.": [
+        "启用与您日历之一关联的邮箱地址。"
+      ],
+      "Or you can delete one of your calendars and create a new one linked to an active email address.": [
+        "或者您可以删除一个日历后创建一个新的，将其关联到一个在用的邮箱地址。"
+      ],
+      "Enable your address again to modify your answer.": [
+        "再次启用您的邮箱地址来修改您的答案。"
+      ],
+      "Enable the email address linked to the disabled calendar to cancel the event.": [
+        "启用与禁用日历关联的邮箱地址来取消活动。"
+      ],
+      "Enable the email address linked to the disabled calendar to modify your answer.": [
+        "启用与禁用日历关联的邮箱地址来修改您的回复。"
+      ],
+      "Add folder": [
+        "添加文件夹"
+      ],
+      "Add label": [
+        "添加标签"
+      ],
+      "Folders": [
+        "文件夹"
+      ],
+      "Manage your folders": [
+        "管理文件夹"
+      ],
+      "Labels": [
+        "标签"
+      ],
+      "Manage your labels": [
+        "管理标签"
+      ]
+    },
+    "Font Face Default": {
+      "Default": [
+        "默认"
+      ]
+    },
+    "Font Size Default": {
+      "Default": [
+        "默认"
+      ]
+    },
+    "Hint": {
+      "Use Up and Down keys to access and browse suggestions after input. Press Enter to confirm your choice, or Escape to close the suggestions box.": [
+        "使用向上和向下键进入并浏览输入后的建议。按 Enter 键确认您的选择，或按 Escape 键关闭建议框。"
+      ],
+      "Found ${ items.length } suggestion, use keyboard to navigate.": [
+        "找到 ${ items.length } 建议，使用键盘导航。"
+      ]
+    },
+    "Storage": {
+      "Your current storage:": [
+        "您当前的存储空间："
+      ],
+      "Upgrade storage": [
+        "购买存储空间"
+      ],
+      "Release notes": [
+        "版本说明"
+      ]
+    },
+    "Header": {
+      "Search": [
+        "搜索"
+      ],
+      "Contacts": [
+        "通讯录"
+      ],
+      "Contacts, groups and settings": [
+        "联系人、群组和设置"
+      ],
+      "Get help": [
+        "获取帮助"
+      ]
+    },
+    "Error message": {
+      "Oops, something went wrong": [
+        "糟糕，出错了"
+      ],
+      "There was a problem connecting to Proton.": [
+        "连接 Proton 服务器失败。"
+      ],
+      "Please ${ refresh } or check your connection.": [
+        "请${ refresh }或检查网络连接。"
+      ],
+      "Error: ${ errorMessage }": [
+        "错误：${ errorMessage }"
+      ],
+      "No results found": [
+        "搜索无结果"
+      ],
+      "You do not have any contact yet. Start by creating a new contact": [
+        "您还没有任何联系人。首先创建一个新的联系人。"
+      ],
+      "No results found for \"${ query }\"": [
+        "找不到 \"${ query }\" 的结果"
+      ],
+      "Brace yourself till we get the error fixed.": [
+        "别担心，我们会解决的。"
+      ],
+      "You may also ${ refresh } or try again later.": [
+        "您也可以${ refresh }页面或稍后再试。"
+      ]
+    },
+    "Apps dropdown": {
+      "Proton applications": [
+        "Proton 产品"
+      ],
+      "Go to ${ title }": [
+        "转到 ${ title }"
+      ],
+      "Go to ${ vpnName }": [
+        "跳转到 ${ vpnName }"
+      ]
+    },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "逾期账单"
+      ]
+    },
+    "Success": {
+      "Code sent to ${ methodTo }": [
+        "验证码已发至 ${ methodTo }"
+      ],
+      "Verification successful": [
+        "验证成功"
+      ],
+      "Contact group deleted": [
+        "联系人群组已删除"
+      ],
+      "Contact saved": [
+        "联系人已保存"
+      ],
+      "Contacts deleted": [
+        "联系人已删除"
+      ],
+      "Contact deleted": [
+        "已删除联系人"
+      ],
+      "Fingerprint copied to clipboard": [
+        "指纹已复制到剪贴板"
+      ],
+      "Preferences saved": [
+        "设置已保存"
+      ],
+      "Email address copied to clipboard": [
+        "邮箱地址已复制到剪贴板"
+      ],
+      "Phone number copied to clipboard": [
+        "电话号码已复制到剪贴板"
+      ],
+      "Address copied to clipboard": [
+        "地址已复制到剪贴板"
+      ],
+      "Bug reported": [
+        "问题已反馈"
+      ],
+      "Keyboard shortcuts preferences updated": [
+        "键盘快捷键设置已更新"
+      ],
+      "Preference saved": [
+        "设置已生效"
+      ],
+      "You have successfully unsubscribed": [
+        "退订成功"
+      ],
+      "Message content search activated": [
+        "邮件全文搜索已开启"
+      ],
+      "Message marked as Starred": [
+        "邮件已加星标"
+      ],
+      "${ elementsCount } message marked as Starred.": [
+        "${ elementsCount } 封邮件已加星标。"
+      ],
+      "Conversation marked as Starred": [
+        "会话已加星标"
+      ],
+      "${ elementsCount } conversation marked as Starred.": [
+        "${ elementsCount } 条会话已加星标。"
+      ],
+      "Message removed from ${ labelName }": [
+        "邮件已移除 ${ labelName } 标签"
+      ],
+      "${ elementsCount } message removed from ${ labelName }.": [
+        "${ elementsCount } 封邮件已移除 ${ labelName } 标签。"
+      ],
+      "Conversation removed from ${ labelName }": [
+        "会话已移除 ${ labelName } 标签"
+      ],
+      "${ elementsCount } conversation removed from ${ labelName }.": [
+        "${ elementsCount } 条会话已移除 ${ labelName } 标签。"
+      ],
+      "Message added to ${ labelName }": [
+        "邮件已添加 ${ labelName } 标签"
+      ],
+      "${ elementsCount } message added to ${ labelName }.": [
+        "${ elementsCount } 封邮件已添加 ${ labelName } 标签。"
+      ],
+      "Conversation added to ${ labelName }": [
+        "会话已添加 ${ labelName } 标签"
+      ],
+      "${ elementsCount } conversation added to ${ labelName }.": [
+        "${ elementsCount } 条会话已添加 ${ labelName } 标签。"
+      ],
+      "Message moved to spam and sender added to Block List.": [
+        "邮件已标为垃圾邮件，其发件人已加入黑名单。"
+      ],
+      "${ elementsCount } message moved to spam and sender added to Block List.": [
+        "${ elementsCount } 封邮件已标为垃圾邮件，其发件人已加入黑名单。"
+      ],
+      "Conversation moved to spam and sender added to Block List.": [
+        "会话中的邮件已标为垃圾邮件，其发件人已加入黑名单。"
+      ],
+      "${ elementsCount } conversation moved to spam and sender added to Block List.": [
+        "${ elementsCount } 条会话中的邮件已标为垃圾邮件，其发件人已加入黑名单。"
+      ],
+      "Message moved to ${ folderName } and sender added to Allow List.": [
+        "邮件已移至${ folderName }，其发件人已添加至白名单。"
+      ],
+      "${ elementsCount } message moved to ${ folderName } and sender added to Allow List.": [
+        "${ elementsCount } 封邮件已移至${ folderName }，其发件人已添加至白名单。"
+      ],
+      "Conversation moved to ${ folderName } and sender added to Allow List.": [
+        "会话已移至${ folderName }，其发件人已添加至白名单。"
+      ],
+      "${ elementsCount } conversation moved to ${ folderName } and sender added to Allow List.": [
+        "${ elementsCount } 条会话已移至${ folderName }，其发件人已添加至白名单。"
+      ],
+      "Message moved to ${ folderName }.": [
+        "邮件已移动到 ${ folderName }。"
+      ],
+      "${ elementsCount } message moved to ${ folderName }.": [
+        "${ elementsCount } 邮件已添加到 ${ folderName }。"
+      ],
+      "Conversation moved to ${ folderName }.": [
+        "会话已移动到 ${ folderName }。"
+      ],
+      "${ elementsCount } conversation moved to ${ folderName }.": [
+        "${ elementsCount } 条会话已移至${ folderName }。"
+      ],
+      "Labels applied.": [
+        "标签已添加。"
+      ],
+      "Draft deleted": [
+        "草稿已删除"
+      ],
+      "${ count } draft deleted": [
+        "${ count } 份草稿已删除"
+      ],
+      "Message deleted": [
+        "邮件已删除"
+      ],
+      "Conversation deleted": [
+        "会话已删除"
+      ],
+      "${ count } conversation deleted": [
+        "${ count } 条会话已删除"
+      ],
+      "${ count } message deleted": [
+        "${ count } 封邮件已删除"
+      ],
+      "Label cleared": [
+        "标签已清除"
+      ],
+      "Folder cleared": [
+        "文件夹已清空"
+      ],
+      "Public key trusted": [
+        "公钥已信任"
+      ],
+      "Phishing reported": [
+        "欺诈信息举报完成"
+      ],
+      "Mail list unsubscribed": [
+        "邮件订阅已取消订阅"
+      ],
+      "Message marked as legitimate": [
+        "邮件已标为非垃圾邮件"
+      ],
+      "Read receipt sent": [
+        "回执已发送"
+      ],
+      "Address verification disabled": [
+        "地址验证已关闭"
+      ],
+      "Move ${ selectionCount } message": [
+        "移动 ${ selectionCount } 封邮件"
+      ],
+      "Move ${ selectionCount } conversation": [
+        "移动 ${ selectionCount } 条会话"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "验证码"
+      ],
+      "Email": [
+        "邮件"
+      ],
+      "SMS": [
+        "短信"
+      ],
+      "Manual": [
+        "手动"
+      ],
+      "No verification method available": [
+        "没有可用的验证方法"
+      ]
+    },
+    "Label to change density": {
+      "Comfortable": [
+        "舒适"
+      ],
+      "Compact": [
+        "紧凑"
+      ]
+    },
+    "Label to change view layout": {
+      "Column": [
+        "列"
+      ],
+      "Row": [
+        "行"
+      ]
+    },
+    "Label to change composer mode": {
+      "Normal": [
+        "常规"
+      ],
+      "Maximized": [
+        "满屏"
+      ]
+    },
+    "Table header": {
+      "Name": [
+        "名称"
+      ],
+      "Address": [
+        "地址"
+      ],
+      "Action": [
+        "操作"
+      ],
+      "Fingerprint": [
+        "指纹"
+      ],
+      "Created": [
+        "创建时间"
+      ],
+      "Expires": [
+        "有效期至"
+      ],
+      "Type": [
+        "类型"
+      ],
+      "Status": [
+        "状态"
+      ],
+      "Actions": [
+        "操作"
+      ]
+    },
+    "Warning": {
+      "This feature requires a paid Proton account": [
+        "此功能仅限付费用户使用"
+      ],
+      "Are you sure you want to permanently delete this contact group?": [
+        "您确定要永久删除此联系人群组吗？"
+      ],
+      "Are you sure you want to permanently delete ${ count } contact group?": [
+        "您确定要永久删除 ${ count } 联系人群组吗？"
+      ],
+      "Are you sure you want to permanently delete this contact?": [
+        "您确认要永久删除此邮件吗？"
+      ],
+      "Are you sure you want to permanently delete ${ count } contact?": [
+        "您确定要永久删除 ${ count } 联系人吗？"
+      ],
+      "If you don’t remember your password, it is impossible to re-activate your key. We can help you dismiss the alert banner but in the process you will permanently lose access to all the data encrypted with that key.": [
+        "如果您忘记了密码，您将无法重新激活密钥。我们可以帮助您关闭警告横幅，但在此过程中，您将永久失去通过该密钥加密的所有数据"
+      ],
+      "This action is irreversible. Please enter the word ${ boldDanger } in the field to proceed.": [
+        "此操作不可逆，请在字段中输入 ${ boldDanger } 以继续"
+      ],
+      "The decryption of the encrypted content failed.": [
+        "解密失败"
+      ],
+      "The verification of the contact details' signature failed.": [
+        "联系方式签名验证失败"
+      ],
+      "The contact failed to load.": [
+        "联系人加载失败"
+      ],
+      "Some of the contacts to be merged display errors. Please review them individually": [
+        "部分需合并的联系人无法显示，请单独查看。"
+      ],
+      "Contacts could not be merged": [
+        "无法合并联系人"
+      ],
+      "Are you sure you want to discard your import?": [
+        "您确定要放弃导入吗？"
+      ],
+      "Live chat is a premium feature available only to those with paid ProtonVPN plans. Please open a ticket instead.": [
+        ""
+      ],
+      "Unfortunately, we’re not online at the moment. Please complete the form below to describe your issue, and we will look into it and be in touch when we’re back online.": [
+        "非常抱歉，我们目前不在线。请填写下面的表格来描述您的问题，我们会进行调查并在上线后联系您。"
+      ],
+      "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
+        "反馈内容不会经过端对端加密，请勿发送敏感信息。"
+      ],
+      "Your local date & time settings seem to be out of sync.": [
+        "您的本地日期和时间设置似乎不同步。"
+      ],
+      "Please note that by choosing this payment method, your account cannot be upgraded immediately. We will update your account once the payment is cleared.": [
+        "请注意，使用此方式支付不能立即完成账户升级，支付确认过后我们会马上为您升级账户。"
+      ],
+      "The attachment's signature failed verification.\nYou can still download this attachment but it might have been tampered with.": [
+        "该附件的签名验证失败。\n你仍然可以下载这个附件，但它可能被篡改了。"
+      ]
+    },
+    "Label for contact group name": {
+      "Name": [
+        "姓名"
+      ]
+    },
+    "Placeholder for contact group name": {
+      "Name": [
+        "姓名"
+      ]
+    },
+    "Label for contact group color": {
+      "Color": [
+        "颜色"
+      ]
+    },
+    "Tooltip": {
+      "Automatic indicates that the format in the composer is used to send to this user. Plain text indicates that the message will always be converted to plain text on send.": [
+        "“自动”表示使用编辑区中指定的格式，“纯文本”则表示向此人发送的邮件一律使用纯文本。"
+      ],
+      "Encrypted data with verified digital signature": [
+        "经过已验证的数字签名加密过的数据"
+      ],
+      "Email encryption forces email signature to help authenticate your sent messages": [
+        "电子邮件加密迫使电子邮件签名，以帮助验证您发送的信息。"
+      ],
+      "Digitally signing emails helps authenticating that messages are sent by you": [
+        "数字签名电子邮件有助于验证您发送的消息"
+      ],
+      "Select the PGP scheme to be used when signing or encrypting to a user. Note that PGP/Inline forces plain text messages": [
+        "选择在向用户签名或加密时要使用的 PGP 方案。请注意, PGP/内嵌强制纯文本消息。"
+      ],
+      "Upload a public key to enable sending end-to-end encrypted emails to this email": [
+        "上传公钥后方可向其发送端到端加密的邮件"
+      ],
+      "You do not have any contacts to export": [
+        "您没有任何联系人可导出"
+      ],
+      "Use multiple addresses / aliases linked to your account, e.g. username2@protonmail.com": [
+        "使用多个电子邮箱地址 / 别名连接到您的帐户，例如 username2@protonmail.com"
+      ],
+      "Host emails for your own domain(s) at ProtonMail, e.g. john.smith@example.com": [
+        "使用 ProtonMail 托管您自己的域名，如 zhangsan@example.com"
+      ],
+      "Use the personal address username@pm.me to send emails": [
+        "使用个人邮箱地址 username@pm.me 发送邮件"
+      ],
+      "Multi-user support is only applicable to plans with 2 or more users": [
+        "多用户支持仅适用于 2 名及以上用户方案"
+      ],
+      "NetShield protects your device and speeds up your browsing by blocking ads, trackers, and malware.": [
+        "NetShield通过屏蔽广告、跟踪和恶意软件来保护您的设备并加快您的浏览速度。"
+      ],
+      "Support for file sharing protocols such as BitTorrent.": [
+        "支持诸如 BitTorrent 的文件共享协议。"
+      ],
+      "Access geo-blocked content (Netflix, Amazon Prime Video, BBC iPlayer, Wikipedia, Facebook, YouTube, etc) no matter where you are.": [
+        "无论身在何方，Netflix、Amazon Prime、BBC iPlayer、Wikipedia、Facebook、YouTube 均触手可及。"
+      ],
+      "Route your Internet traffic through the Tor network with a single click.": [
+        "可一键通过 Tor 网络通信。"
+      ],
+      "Defends against threats to VPN privacy by passing your Internet traffic through multiple servers.": [
+        "由多个服务器中转流量，增强 VPN 安全性。"
+      ],
+      "Get access to all the paid features for both ProtonVPN and ProtonMail (the encrypted email service that millions use to protect their data) with one plan.": [
+        "同时享用 ProtonVPN 和 ProtonMail（拥有数百万用户的加密邮箱服务）的所有收费功能。"
+      ],
+      "Get access to all the paid features for both ${ vpnAppName } and ${ mailAppName } (the encrypted email service that millions use to protect their data) with one plan.": [
+        "同时享用 ${ vpnAppName } 和 ${ mailAppName }（拥有数百万用户的加密邮箱服务）的所有收费功能。"
+      ],
+      "Host emails for your own domain(s) at ${ mailAppName }, e.g. john.smith@example.com": [
+        "使用 ${ mailAppName } 托管您自己的域名，如 zhangsan@example.com"
+      ],
+      "Create multiple email addresses linked to your account, e.g. username2@protonmail.com": [
+        "创建多个电子邮件地址连接到您的账户，例如 username2@protonmail.com"
+      ],
+      "Discount applied for annual billing cycle": [
+        "年费折扣已计入"
+      ],
+      "Discount applied for two-year billing cycle": [
+        "两年折扣已计入"
+      ],
+      "If you purchased a gift code or received one from our support team, you can enter it here.": [
+        "若您已购买或从我们的客服团队处获得了礼品码，可以在此输入。"
+      ],
+      "This feature is only available for paid users": [
+        "此功能仅供付费用户使用"
+      ],
+      "This action will download all messages so they can be searched locally. Clearing your browser data will disable this option.": [
+        "此操作将从服务器下载所有邮件并在本地进行搜索，清除浏览器数据将禁用此选项。"
+      ]
+    },
+    "Progress bar description": {
+      "${ contactsExported.length } out of ${ countContacts } contacts successfully exported.": [
+        "共 ${ countContacts } 名联系人，成功导出 ${ contactsExported.length } 名联系人。"
+      ],
+      "No contacts exported.": [
+        "没有导出联系人。"
+      ],
+      "Progress: ${ combinedProgress }%": [
+        "进度：${ combinedProgress }%"
+      ],
+      "${ model.deleted.length } out of ${ totalBeDeleted } contact successfully deleted.": [
+        "${ model.deleted.length }/${ totalBeDeleted } 联系人已成功删除"
+      ],
+      "${ model.submitted.length } out of ${ totalBeMerged } contact successfully merged.": [
+        "共 ${ totalBeMerged } 名联系人，成功合并 ${ model.submitted.length } 名联系人。"
+      ],
+      "No contacts merged.": [
+        "没有合并联系人。"
+      ]
+    },
+    "Description": {
+      "Decrypting contacts... This may take a few minutes. When the process is completed, you will be able to download the file with all your contacts exported.": [
+        "正在解密联系人，可能需要几分钟的时间。完成后您就可以下载导出的联系人了。"
+      ],
+      "Merging contacts... This may take a few minutes. When the process is completed, you can close this modal.": [
+        "正在合并联系人，可能需要几分钟的时间。完成后您就可以关闭此对话框了。"
+      ],
+      "Deleting contacts... This may take a few minutes. When the process is completed, you can close this modal.": [
+        "正在删除联系人... 该过程可能需要几分钟，完成后您就可以关闭此对话框了"
+      ],
+      "Use Drag and Drop to rank merging priority between contacts. Uncheck the contacts you do not want to merge.": [
+        "拖动可调整联系人合并优先级，未勾选的联系人不会被合并。"
+      ],
+      "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
+        "您可以选择稍后删除既不想合并也不想保留的联系人，点击合并按钮后他们就会被删除"
+      ],
+      "The file should have a maximum size of ${ MAX_IMPORT_FILE_SIZE_STRING } and have up to ${ MAX_IMPORT_CONTACTS_STRING } contact. If your file is bigger, please split it into smaller files.": [
+        "文件大小上限为 ${ MAX_IMPORT_FILE_SIZE_STRING }，且联系人总数上限为 ${ MAX_IMPORT_CONTACTS_STRING }。若您的文件超出此限，请将其拆分成较小的文件。"
+      ],
+      "It looks like the contact list you are importing contains some groups. Please review how these groups should be imported.": [
+        "您正在导入的联系人列表似乎包含一些群组，请查看并选择应如何导入这些群组。"
+      ],
+      "Encrypting and importing contacts... This may take a few minutes. When the process is completed, you can close this modal.": [
+        "正在加密并导入联系人... 该过程可能需要几分钟，完成后您就可以关闭此对话框了。"
+      ]
+    },
+    "Notification": {
+      "Contact group updated": [
+        "群组已更改"
+      ],
+      "Contact group created": [
+        "群组已创建"
+      ],
+      "${ _Filter.Name } created": [
+        "${ _Filter.Name } 已创建"
+      ]
+    },
+    "MIME type": {
+      "Automatic": [
+        "自动"
+      ],
+      "Plain text": [
+        "纯文本"
+      ]
+    },
+    "Default encryption scheme": {
+      "Use global default (${ defaultValueText })": [
+        "遵循系统设置 (${ defaultValueText })"
+      ]
+    },
+    "Key badge": {
+      "Primary": [
+        "首选"
+      ],
+      "Verification only": [
+        "仅用于验证"
+      ],
+      "WKD": [
+        "WKD"
+      ],
+      "Trusted": [
+        "已信任"
+      ],
+      "Revoked": [
+        "已吊销"
+      ],
+      "Expired": [
+        "已过期"
+      ]
+    },
+    "TableHeader": {
+      "Name": [
+        "姓名"
+      ],
+      "Address": [
+        "地址"
+      ],
+      "Actions": [
+        "操作"
+      ],
+      "Import": [
+        "导入"
+      ],
+      "CSV field": [
+        "CSV 字段"
+      ],
+      "vCard field": [
+        "vCard 字段"
+      ],
+      "Values": [
+        "值"
+      ]
+    },
+    "Actions message": {
+      "You don't have any groups.": [
+        "您没有任何群组"
+      ],
+      "No results found.": [
+        "未找到结果"
+      ],
+      "Please try another search term.": [
+        "请试下其他搜索词"
+      ],
+      "You don't have any contacts.": [
+        "您没有任何联系人"
+      ],
+      "${ addContact } or ${ importContact }.": [
+        "${ addContact } 或者 ${ importContact }"
+      ]
+    },
+    "Info, no need for singular": {
+      "Multiple contacts look identical. ${ mergeAction }": [
+        "多名联系人重复。${ mergeAction }"
+      ]
+    },
+    "Error notification": {
+      "First name and last name cannot be unchecked at the same time": [
+        "姓和名字不能同时不选"
+      ]
+    },
+    "Description of the purpose of the import CSV modal": {
+      "We have detected the following fields in the CSV file you uploaded. Check the ones you want to import.": [
+        "我们从您选择的 CSV 文件中检测到了以下信息，请选择要导入的内容。"
+      ],
+      "Also, we have automatically matched CSV fields with vCard fields. You can review and change this matching manually.": [
+        "另外，我们已将 CSV 自动转换成 vCard 信息，您可以查看并修改对应关系。"
+      ]
+    },
+    "Option": {
+      "Add to existing group": [
+        "添加到已有队列"
+      ],
+      "Create new group": [
+        "创建群组"
+      ],
+      "Ignore group": [
+        "忽略分组"
+      ],
+      "No parent folder": [
+        "无上层文件夹"
+      ]
+    },
+    "Import contact groups info": {
+      "${ totalContacts } contact": [
+        "${ totalContacts } 名联系人"
+      ]
+    },
+    "Alert": {
+      "By leaving now, some contacts may not be imported": [
+        "如果现在离开，一些联系人可能无法导入"
+      ]
+    },
+    "Import calendar": {
+      "Encrypting and adding contacts: ${ totalImported }/${ totalToImport }": [
+        "正在加密并添加联系人：已完成 ${ totalImported }/${ totalToImport }"
+      ]
+    },
+    "Import contact error": {
+      "Contact ${ contactId }: ": [
+        "联系人 ${ contactId }: "
+      ]
+    },
+    "Info on errors": {
+      "Click for details": [
+        "点击查看详情"
+      ]
+    },
+    "Import contacts warning": {
+      "for now": [
+        "暂时"
+      ],
+      "ProtonContacts does not support ${ forNow }:": [
+        "ProtonContacts 不支持 ${ forNow }:"
+      ]
+    },
+    "Import warning": {
+      "No contact can be imported. Click for details": [
+        "没有联系人可以导入。点击查看详情"
+      ],
+      "${ totalContactsDiscarded } out of ${ totalContacts } contacts will not be imported. Click for details": [
+        "${ totalContactsDiscarded } /${ totalContacts } 联系人将不会被导入。点击查看详情"
+      ]
+    },
+    "Import calendar warning": {
+      "vCard versions < 3.0": [
+        "vCard 版本小于3.0"
+      ]
+    },
+    "Import contacts": {
+      "Contact successfully imported. The imported contact will now appear in your contact list.": [
+        "联系人导入成功，已显示在您的通讯录中。"
+      ],
+      "An error occurred while encrypting and adding your contacts. ${ totalImported } out of ${ totalToImport } contacts successfully imported.": [
+        "加密并添加联系人时出错，${ totalImported }/${ totalToImport } 联系人已成功导入。"
+      ]
+    },
+    "Import contact": {
+      "An error occurred while encrypting and adding your contact. No contact could be imported.": [
+        "加密并添加联系人时出错，未能导入任何联系人。"
+      ],
+      "${ totalImported }/${ totalToImport } contact encrypted and added to your contact list": [
+        "${ totalImported }/${ totalToImport } 联系人已加密并添加到您的联系人列表"
+      ]
+    },
+    "Loading info": {
+      "Connecting to your contacts provider": [
+        "正在连接到您的联系人提供商"
+      ]
+    },
+    "Wizard step": {
+      "Authenticate": [
+        "验证账户"
+      ],
+      "Configure Import": [
+        "导入配置"
+      ],
+      "Import": [
+        "导入"
+      ]
+    },
+    "Confirm modal title": {
+      "Quit import?": [
+        "退出导入？"
+      ],
+      "Message saved to Drafts": [
+        "邮件已保存到草稿箱"
+      ],
+      "Edit and reschedule": [
+        "编辑并重新定时发送"
+      ]
+    },
+    "Error notification in the bug report modal when the user upload file": {
+      "No image selected": [
+        "没有选择图像"
+      ]
+    },
+    "Bug category": {
+      "Sign in problem": [
+        "登录问题"
+      ],
+      "Sign up problem": [
+        "注册问题"
+      ],
+      "Payments problem": [
+        "支付问题"
+      ],
+      "Custom domain problem": [
+        "自有域名问题"
+      ],
+      "Bridge problem": [
+        "Bridge 问题"
+      ],
+      "Import / export problem": [
+        "导入/导出问题"
+      ],
+      "Connection problem": [
+        "连接问题"
+      ],
+      "Slow speed problem": [
+        "速度缓慢"
+      ],
+      "Calendar problem": [
+        "日历问题"
+      ],
+      "Contacts problem": [
+        "通讯录问题"
+      ],
+      "Drive problem": [
+        "网盘问题"
+      ],
+      "Mail problem": [
+        "邮件问题"
+      ],
+      "VPN problem": [
+        "VPN 问题"
+      ],
+      "Feature request": [
+        "功能建议"
+      ],
+      "Other": [
+        "其他"
+      ],
+      "Signup problem": [
+        "注册问题"
+      ],
+      "Installation problem": [
+        "安装问题"
+      ],
+      "Update problem": [
+        "更新问题"
+      ],
+      "Application problem": [
+        "应用程序问题"
+      ],
+      "Speed problem": [
+        "速度问题"
+      ],
+      "Manual setup problem": [
+        "手动设置问题"
+      ],
+      "Website access problem": [
+        "网站连接问题"
+      ],
+      "Streaming problem": [
+        "视频播放问题"
+      ]
+    },
+    "Group": {
+      "Account": [
+        "账户"
+      ],
+      "Apps": [
+        "应用"
+      ],
+      "Network": [
+        "网络"
+      ],
+      "Services": [
+        "服务"
+      ],
+      "Other category": [
+        "其他类别"
+      ],
+      "Default folders": [
+        "默认文件夹"
+      ],
+      "Custom folders": [
+        "自定义文件夹"
+      ],
+      "Labels": [
+        "标签"
+      ]
+    },
+    "Action to select a title for the bug report modal": {
+      "Select": [
+        "选择"
+      ]
+    },
+    "Label, make it short please": {
+      "Attach screenshot(s)": [
+        "添加截图"
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "上传"
+      ]
+    },
+    "Onboarding Proton": {
+      "This is what people will see when you send them an email, invite them to an event, or share a file with them.": [
+        "这是当您向他人发送电子邮件、邀请他人参加活动或与之共享文件时对方会看到的内容。"
+      ],
+      "Choose a display name": [
+        "选择显示名称"
+      ],
+      "Select a theme": [
+        "选择主题"
+      ],
+      "You can change this anytime in your settings.": [
+        "您可以随时在设置中更改。"
+      ],
+      "Discover all Proton services": [
+        "探索所有 Proton 系列服务"
+      ],
+      "Use the app selector in the top left to access other Proton services, including VPN, Calendar and Drive.": [
+        "使用左上角的应用选择器访问其他 Proton 服务，包括 VPN, 日历和云盘。"
+      ],
+      "Welcome to Proton": [
+        "欢迎使用 Proton"
+      ],
+      "Our mission is to build an internet where you are in control of your data and your privacy. We have recently updated Proton - welcome to the secure internet.": [
+        "我们的宗旨是建立一个由您来管控您自己的数据和隐私的网络。我们最近更新了 Proton ―― 畅享安全的互联网吧！"
+      ],
+      "Set up your organization": [
+        "填写机构信息"
+      ],
+      "Configure your organization, link your domain name, and create accounts to ensure all members of your organization are protected.": [
+        "配置您的机构信息、链接您的域名、创建账户以确保您机构的所有成员都受到保护。"
+      ]
+    },
+    "Onboarding Beta": {
+      "Got it": [
+        "知道了"
+      ],
+      "Beta enabled": [
+        "已启用测试版"
+      ],
+      "To disable beta, open the settings dropdown menu and click on the “Beta Access” option.": [
+        "要禁用测试功能，请打开设置下拉菜单并单击“测试版功能”选项。"
+      ]
+    },
+    "Message display when a new app version is available": {
+      "A new version of ${ appName } is available. ${ reloadButton }.": [
+        "${ appName } 有新版本，请${ reloadButton }。"
+      ]
+    },
+    "Text": {
+      "Settings": [
+        "设置"
+      ]
+    },
+    "Early Access Enabled": {
+      "On": [
+        "开"
+      ]
+    },
+    "Early Access Disabled": {
+      "Off": [
+        "关"
+      ]
+    },
+    "Keyboard Shortcuts Enabled": {
+      "On": [
+        "开"
+      ]
+    },
+    "Keyboard Shortcuts Disabled": {
+      "Off": [
+        "关"
+      ]
+    },
+    "Layout mode": {
+      "Column": [
+        "列"
+      ],
+      "Row": [
+        "行"
+      ]
+    },
+    "Density mode": {
+      "Comfortable": [
+        "舒适"
+      ],
+      "Compact": [
+        "紧凑"
+      ]
+    },
+    "Composer size": {
+      "Maximized": [
+        "满屏"
+      ],
+      "Normal": [
+        "常规"
+      ]
+    },
+    "Info for cash payment method": {
+      "Please contact us at ${ email } for instructions on how to pay us with cash.": [
+        "请联系 ${ email } 了解如何使用现金支付。"
+      ]
+    },
+    "Billing cycle option": {
+      "Monthly": [
+        "按月付费"
+      ],
+      "Annually": [
+        "每年"
+      ],
+      "Two-year": [
+        "两年付费"
+      ],
+      "Annually SAVE 20%": [
+        "年费（省 20%）"
+      ],
+      "Two years SAVE 33%": [
+        "两年（省 33%）"
+      ]
+    },
+    "Suffix for price": {
+      "/ month": [
+        "/月"
+      ]
+    },
+    "info": {
+      "(beta)": [
+        "（测试版）"
+      ]
+    },
+    "Mail feature": {
+      "Users": [
+        "用户"
+      ],
+      "Storage": [
+        "存储空间"
+      ],
+      "0.5 GB": [
+        "0.5 GB"
+      ],
+      "20 GB": [
+        "20 GB"
+      ],
+      "Addresses": [
+        "邮箱地址"
+      ],
+      "Custom email addresses": [
+        "自定义电子邮件地址"
+      ],
+      "Messages per day": [
+        "邮件/天"
+      ],
+      "Folders / labels": [
+        "个文件夹/标签"
+      ],
+      "Support": [
+        "客服"
+      ],
+      "Limited": [
+        "受限"
+      ],
+      "Priority": [
+        "优先级"
+      ],
+      "Encrypted contacts": [
+        "通讯录加密"
+      ],
+      "Contact groups": [
+        "联系人群组"
+      ],
+      "Address verification": [
+        "地址验证"
+      ],
+      "Custom filters": [
+        "定制筛选规则"
+      ],
+      "IMAP / SMTP": [
+        "IMAP / SMTP"
+      ],
+      "Autoresponder": [
+        "自动回复"
+      ],
+      "Use @pm.me address": [
+        "可使用 @pm.me 地址"
+      ],
+      "Catch-All email": [
+        ""
+      ],
+      "Multi-user support": [
+        "多用户功能"
+      ]
+    },
+    "Mail feature option": {
+      "5 GB *": [
+        "5 GB *"
+      ],
+      "5 GB / user *": [
+        "5 GB / 用户 *"
+      ],
+      "Unlimited **": [
+        "无限制 **"
+      ],
+      "Unlimited": [
+        "无限制"
+      ]
+    },
+    "Mail feature option: 5 email addresses / user": {
+      "5 / user *": [
+        "5 个 / 用户 *"
+      ]
+    },
+    "information": {
+      "Included": [
+        "已包含在内"
+      ]
+    },
+    "VPN feature": {
+      "VPN Connections": [
+        "VPN 接入量"
+      ],
+      "Speed": [
+        "速度"
+      ],
+      "VPN servers": [
+        "VPN 服务器"
+      ],
+      "Locations/Countries": [
+        "位置/国家"
+      ],
+      "Adblocker (NetShield)": [
+        "广告拦截 (NetShield)"
+      ],
+      "P2P/BitTorrent": [
+        "P2P/BitTorrent"
+      ],
+      "Streaming service support": [
+        "串流服务支持"
+      ],
+      "Tor over VPN": [
+        "Tor+VPN"
+      ],
+      "Secure Core servers": [
+        "安全核心服务器"
+      ],
+      "${ mailAppName } Visionary": [
+        "${ mailAppName } 尊享版"
+      ],
+      "Jurisdiction": [
+        "管辖权"
+      ],
+      "Open Source & audited apps": [
+        "开源并经审核的应用"
+      ],
+      "Access blocked content": [
+        "突破网络封锁"
+      ],
+      "Strict no-logs policy": [
+        "严格的零日志原则"
+      ],
+      "Volume/bandwidth cap": [
+        "容量/带宽上限"
+      ],
+      "User data monetization": [
+        "用户数据盈利"
+      ],
+      "Platforms supported": [
+        "支持平台"
+      ],
+      "Languages supported": [
+        "支持语言"
+      ],
+      "DNS leak prevention": [
+        "DNS 泄露防护"
+      ],
+      "Kill Switch / Always-on VPN": [
+        "安全闸/始终开启 VPN"
+      ],
+      "Perfect Forward Secrecy (PFS)": [
+        "完美前向加密（PFS）"
+      ],
+      "Full Disk Encryption on Servers": [
+        "服务器端全盘加密"
+      ],
+      "Split tunneling": [
+        "VPN 分流"
+      ],
+      "Custom connection profiles": [
+        ""
+      ],
+      "Router support": [
+        "路由器支持"
+      ],
+      "30-days money-back guarantee": [
+        "30 天内可退款"
+      ]
+    },
+    "VPN feature option": {
+      "Medium": [
+        "一般"
+      ],
+      "High": [
+        "高"
+      ],
+      "Highest (up to 10 Gbps)": [
+        "最快（可达 10 Gbps）"
+      ],
+      "Switzerland": [
+        "瑞士"
+      ],
+      "None": [
+        "无"
+      ],
+      "Windows, macOS, iOS, Linux, Android, Android TV, Chromebook, Chromecast": [
+        "Windows、macOS、iOS、Linux、Android、Android TV、Chromebook、Chromecast"
+      ],
+      "(Android & Windows only)": [
+        "(仅限 Android 及 Windows)"
+      ]
+    },
+    "Calendar feature": {
+      "Multiple calendars": [
+        "多日历"
+      ],
+      "Calendar import": [
+        "日历导入"
+      ],
+      "Recurring events": [
+        "重复事件"
+      ],
+      "Invitations": [
+        "邀请"
+      ],
+      "Share Calendar via link": [
+        "通过链接共享日历"
+      ]
+    },
+    "Calendar feature option": {
+      "20 / user *": [
+        "20 个 / 用户 *"
+      ],
+      "20 / user": [
+        "20 个 / 用户"
+      ]
+    },
+    "Drive feature": {
+      "Access via Web": [
+        "通过网页访问"
+      ],
+      "Upload / download files": [
+        "上传/下载文件"
+      ],
+      "Share files via link": [
+        "通过链接共享文件"
+      ]
+    },
+    "Info concerning plan features": {
+      "Customizable features": [
+        "可定制的功能"
+      ],
+      "ProtonMail cannot be used for mass emailing or spamming. Legitimate emails are unlimited.": [
+        "ProtonMail 不允许发送垃圾邮件或大规模群发邮件，合理的邮件没有数量限制。"
+      ]
+    },
+    "Plan Feature": {
+      "${ n } VPN connection": [
+        "${ n } VPN 连接"
+      ],
+      "${ n } server": [
+        "${ n } 台服务器"
+      ]
+    },
+    "Netflix": {
+      "Netflix": [
+        "Netflix"
+      ]
+    },
+    "Disney": {
+      "Disney+": [
+        "Disney+"
+      ]
+    },
+    "Prime Video": {
+      "Prime Video": [
+        "Prime Video"
+      ]
+    },
+    "Many Others": {
+      "and many others": [
+        "- 等等"
+      ]
+    },
+    "Plan feature": {
+      "Built-in Adblocker (NetShield)": [
+        "内置Adblocker (NetShield)"
+      ],
+      "Secure Core servers": [
+        "安全核心服务器"
+      ],
+      "Streaming service support": [
+        "串流服务支持"
+      ],
+      "Access blocked content": [
+        "冲破网络封锁"
+      ],
+      "${ freeServers } in ${ freeCountries } country": [
+        "${ freeCountries } 个国家的 ${ freeServers }"
+      ],
+      "Medium speed": [
+        "速度一般"
+      ],
+      "350+ servers in ${ basicCountries } country": [
+        "${ basicCountries }+ 个国家的 350+ 台服务器"
+      ],
+      "High speed": [
+        "速度较快"
+      ],
+      "1200+ servers in ${ plusCountries } country": [
+        "${ plusCountries } 个国家的 1200+ 台服务器"
+      ],
+      "Highest speed (up to 10 Gbps)": [
+        "速度最快（最高可达 10 Gbps）"
+      ],
+      "All ${ PLAN_NAMES[PLANS.VPNPLUS] } plan features": [
+        "所有 ${ PLAN_NAMES[PLANS.VPNPLUS] } 套餐功能"
+      ],
+      "Includes 6 user accounts": [
+        "包括6个用户帐户"
+      ],
+      "Includes Proton Visionary": [
+        "包含 Proton Visionary"
+      ],
+      "Early access to new products": [
+        "尽早试用新产品"
+      ],
+      "Custom email addresses": [
+        "自定义电子邮件地址"
+      ],
+      "Access to ${ driveAppName } (beta)": [
+        "抢先体验 ${ driveAppName }（公测版）"
+      ],
+      "1 user": [
+        "1 名用户"
+      ],
+      "0.5 GB storage": [
+        "0.5 GB 存储空间"
+      ],
+      "1 address": [
+        "一个邮箱地址"
+      ],
+      "3 folders / labels": [
+        "3 个文件夹/标签"
+      ],
+      "5 GB storage *": [
+        "5 GB 存储空间 *"
+      ],
+      "5 addresses": [
+        "5 个地址 *"
+      ],
+      "200 folders / labels": [
+        "200 个文件夹/标签"
+      ],
+      "1 - 5000 users *": [
+        "1 - 5000 位用户 *"
+      ],
+      "5 GB storage / user": [
+        "5 GB 存储空间 / 用户"
+      ],
+      "5 addresses / user": [
+        "5 个地址 / 用户"
+      ],
+      "Unlimited folders / labels": [
+        "文件夹/标签不限量"
+      ],
+      "6 users": [
+        "6 名用户"
+      ],
+      "20 GB storage": [
+        "20 GB 存储空间"
+      ],
+      "50 addresses": [
+        "50 个邮箱地址"
+      ]
+    },
+    "Price": {
+      "Free": [
+        "免费版"
+      ]
+    },
+    "Countdown unit": {
+      "${ monthsWithYears } month": [
+        "${ monthsWithYears } 月"
+      ],
+      "${ days } day": [
+        "${ days } 天"
+      ]
+    },
+    "Addon": {
+      "+ ${ addresses } email address": [
+        "+ ${ addresses } 个邮箱地址"
+      ],
+      "+ ${ storage } storage": [
+        "+ ${ storage } 存储空间"
+      ],
+      "+ ${ domains } custom domain": [
+        "+ ${ domains } 个自有域名"
+      ],
+      "+ ${ members } user": [
+        "+ ${ members } 位用户"
+      ],
+      "+ ${ vpn } connection": [
+        "+ ${ vpn } VPN 连接数"
+      ]
+    },
+    "Plan info": {
+      "(current plan)": [
+        "（当前套餐）"
+      ]
+    },
+    "Free price": {
+      "Free": [
+        "免费"
+      ]
+    },
+    "Payment method option": {
+      "New credit/debit card": [
+        "添加信用卡/借记卡"
+      ],
+      "PayPal": [
+        "PayPal"
+      ],
+      "Bitcoin": [
+        "比特币"
+      ]
+    },
+    "Beta access description": {
+      "Beta Access lets you use the beta version of ProtonMail, Proton Calendar, and Proton Drive before they are released to the public. This means you can be the first to try new products, get new updates, and use new features.": [
+        "启用 \"测试版功能\" 能让您在正式发布之前使用 ProtonMail, Proton Calendar, Proton Drive 的测试版本。这代表您可以抢先体验新产品，获得最新更新，并使用最新推出的功能"
+      ],
+      "If you encounter issues, you can always disable Beta Access.": [
+        "如果您在使用过程中遇到问题，您可以随时禁用该选项"
+      ]
+    },
+    "Refresh on apply warning": {
+      "Note: the service will reload after you click the Apply button.": [
+        "请注意：点击 \"应用\" 按钮后，服务将重新加载"
+      ]
+    },
+    "New Label form": {
+      "Color": [
+        "颜色"
+      ],
+      "Folder name": [
+        "文件夹名称"
+      ],
+      "Label name": [
+        "标签名称"
+      ]
+    },
+    "label/folder notification": {
+      "${ Label.Name } created": [
+        "${ Label.Name } 已创建"
+      ]
+    },
+    "Filter notification": {
+      "${ Label.Name } updated": [
+        "${ Label.Name } 已更改"
+      ],
+      "Filter ${ Filter.Name } updated": [
+        "${ Filter.Name } 规则已更改"
+      ]
+    },
+    "Label/folder modal": {
+      "Create folder": [
+        "创建文件夹"
+      ],
+      "Create label": [
+        "创建标签"
+      ],
+      "Edit folder": [
+        "更改文件夹"
+      ],
+      "Edit label": [
+        "更改标签"
+      ]
+    },
+    "Filter modal type": {
+      "Select…": [
+        "选择…"
+      ],
+      "The subject": [
+        "主题"
+      ],
+      "The sender": [
+        "发件人"
+      ],
+      "The recipient": [
+        "收件人"
+      ],
+      "The attachment": [
+        "附件"
+      ],
+      "If the subject": [
+        "如果标题"
+      ],
+      "If the sender": [
+        "如果发件人"
+      ],
+      "If the recipient": [
+        "如果收件人"
+      ],
+      "If the attachments": [
+        "如果附件"
+      ]
+    },
+    "Condition for custom filter": {
+      "contains": [
+        "包含"
+      ],
+      "is exactly": [
+        "是"
+      ],
+      "begins with": [
+        "开头是"
+      ],
+      "ends with": [
+        "结尾是"
+      ],
+      "matches": [
+        "匹配"
+      ],
+      "does not contain": [
+        "不包含"
+      ],
+      "is not": [
+        "不是"
+      ],
+      "does not begin with": [
+        "开头不是"
+      ],
+      "does not end with": [
+        "结尾不是"
+      ],
+      "does not match": [
+        "不匹配"
+      ]
+    },
+    "Filter modal operators": {
+      "All conditions must be fulfilled (AND)": [
+        "所有条件同时满足（且）"
+      ],
+      "One condition must be fulfilled (OR)": [
+        "至少一个条件满足（或）"
+      ]
+    },
+    "Option group": {
+      "Move to...": [
+        "移至..."
+      ],
+      "Default folders": [
+        "预置文件夹"
+      ],
+      "Custom folders": [
+        "用户文件夹"
+      ]
+    },
+    "Filter Actions": {
+      "Select a folder": [
+        "选择文件夹"
+      ],
+      "Archive": [
+        "存档"
+      ],
+      "Inbox": [
+        "收件箱"
+      ],
+      "Spam": [
+        "垃圾邮件"
+      ],
+      "Trash": [
+        "废件箱"
+      ]
+    },
+    "Step in filter modal": {
+      "Name": [
+        "名称"
+      ],
+      "Conditions": [
+        "条件"
+      ],
+      "Actions": [
+        "操作"
+      ],
+      "Preview": [
+        "预览"
+      ]
+    },
+    "Filter preview": {
+      "read": [
+        "已读"
+      ],
+      "starred": [
+        "星标邮件"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "密码必须至少包含 ${ length } 个字符"
+      ]
+    },
+    "file size format": {
+      "bytes": [
+        "字节"
+      ],
+      "KB": [
+        "KB"
+      ],
+      "MB": [
+        "MB"
+      ],
+      "GB": [
+        "GB"
+      ]
+    },
+    "Contact field label": {
+      "Name": [
+        "姓名"
+      ],
+      "Email": [
+        "邮箱"
+      ],
+      "Phone": [
+        "电话"
+      ],
+      "Address": [
+        "地址"
+      ],
+      "Photo": [
+        "照片"
+      ],
+      "Organization": [
+        "单位"
+      ],
+      "Birthday": [
+        "生日"
+      ],
+      "Anniversary": [
+        "周年纪念日"
+      ],
+      "Title": [
+        "头衔"
+      ],
+      "Role": [
+        "身份"
+      ],
+      "Note": [
+        "备注"
+      ],
+      "URL": [
+        "网址"
+      ],
+      "Gender": [
+        "性别"
+      ],
+      "Language": [
+        "语言"
+      ],
+      "Timezone": [
+        "时区"
+      ],
+      "Geo": [
+        "地理位置"
+      ],
+      "Logo": [
+        "图标"
+      ],
+      "Member": [
+        "成员"
+      ]
+    },
+    "Contact type label": {
+      "Work": [
+        "工作"
+      ],
+      "Personal": [
+        "私人"
+      ],
+      "Mobile": [
+        "手机"
+      ],
+      "Main": [
+        "主要"
+      ],
+      "Yomi": [
+        "读音"
+      ],
+      "Other": [
+        "其他"
+      ],
+      "Fax": [
+        "传真"
+      ],
+      "Pager": [
+        "寻呼机"
+      ]
+    },
+    "Property type": {
+      "Email": [
+        "邮箱"
+      ],
+      "Home": [
+        "家庭"
+      ],
+      "Work": [
+        "工作"
+      ],
+      "Other": [
+        "其他"
+      ],
+      "Phone": [
+        "电话"
+      ],
+      "Mobile": [
+        "手机"
+      ],
+      "Main": [
+        "主要"
+      ],
+      "Fax": [
+        "传真"
+      ],
+      "Pager": [
+        "寻呼机"
+      ],
+      "Address": [
+        "地址"
+      ]
+    },
     "PGP key warning": {
       "Email address not found among user ids defined in sending key (${ keyUserIds })": [
         "在发送密钥中定义的用户编号中找不到电子邮件地址 (${ keyUserIds })"
+      ]
+    },
+    "Message": {
+      "Re:": [
+        "回复："
+      ],
+      "Fw:": [
+        "转发："
+      ],
+      "On ${ date }, ${ name } ${ address } wrote:": [
+        "${ date }，${ name } ${ address } 来信："
       ]
     },
     "Default display name vcard": {
@@ -2529,3607 +6142,6 @@
         "每 ${ interval } 年，直到 ${ untilString }"
       ]
     },
-    "Action": {
-      "Close": [
-        "关闭"
-      ],
-      "Cancel": [
-        "取消"
-      ],
-      "Save": [
-        "保存"
-      ],
-      "Upload picture": [
-        "上传图片"
-      ],
-      "Insert": [
-        "插入"
-      ],
-      "Font": [
-        "字体"
-      ],
-      "Size": [
-        "字号"
-      ],
-      "Color": [
-        "颜色"
-      ],
-      "Alignment": [
-        "对齐方式"
-      ],
-      "More": [
-        "更多"
-      ],
-      "Unordered list": [
-        "无标号列表"
-      ],
-      "Ordered list": [
-        "标号列表"
-      ],
-      "Align left": [
-        "左对齐"
-      ],
-      "Align center": [
-        "居中"
-      ],
-      "Align right": [
-        "右对齐"
-      ],
-      "Justify": [
-        "两端对齐"
-      ],
-      "Quote": [
-        "引用"
-      ],
-      "Insert link": [
-        "插入链接"
-      ],
-      "Clear all formatting": [
-        "清除所有格式"
-      ],
-      "Insert image": [
-        "插入图片"
-      ],
-      "Bold": [
-        "粗体"
-      ],
-      "Italic": [
-        "斜体"
-      ],
-      "Underline": [
-        "下划线"
-      ],
-      "More info: ${ safeTitle }": [
-        "更多信息：${ safeTitle }"
-      ],
-      "Confirm": [
-        "确定"
-      ],
-      "Submit": [
-        "提交"
-      ],
-      "Close modal": [
-        "关闭"
-      ],
-      "Use “${ label }” setting": [
-        "使用 \"${ label }\" 设置"
-      ],
-      "Remove": [
-        "移除"
-      ],
-      "Next month": [
-        "下个月"
-      ],
-      "Previous month": [
-        "上个月"
-      ],
-      "Load image": [
-        "加载图片"
-      ],
-      "Confirm opening of link ${ link }": [
-        "确认打开链接 ${ link }"
-      ],
-      "Go to panel ${ index }": [
-        "转到面板 ${ index }"
-      ],
-      "Close navigation": [
-        "关闭导航栏"
-      ],
-      "Open navigation": [
-        "打开导航栏"
-      ],
-      "Continue with Google": [
-        "使用 Google 账号继续"
-      ],
-      "Delete": [
-        "删除"
-      ],
-      "Go to page ${ page }": [
-        "前往 ${ page } 页"
-      ],
-      "Go to first page": [
-        "转到首页"
-      ],
-      "Go to previous page": [
-        "前往上一页"
-      ],
-      "Go to next page": [
-        "前往下一页"
-      ],
-      "Go to last page": [
-        "转到末页"
-      ],
-      "Signing out": [
-        "正在退出账户"
-      ],
-      "refresh the page": [
-        "刷新页面"
-      ],
-      "Log in": [
-        "登录"
-      ],
-      "View invoice": [
-        "查看账单"
-      ],
-      "Get verification code": [
-        "获取验证码"
-      ],
-      "Try another method": [
-        "更换验证方式"
-      ],
-      "Request new code": [
-        "重发验证码"
-      ],
-      "Verify": [
-        "验证"
-      ],
-      "Did not receive the code?": [
-        "没收到验证码？"
-      ],
-      "Edit email address": [
-        "编辑电子邮件地址"
-      ],
-      "Edit phone number": [
-        "编辑手机号码"
-      ],
-      "Upgrade": [
-        "升级"
-      ],
-      "Add": [
-        "添加"
-      ],
-      "Edit": [
-        "更改"
-      ],
-      "Apply": [
-        "应用"
-      ],
-      "Insert contact": [
-        "插入联系人"
-      ],
-      "Insert ${ totalChecked } contact": [
-        "插入 ${ totalChecked } 联系人"
-      ],
-      "Done": [
-        "完成"
-      ],
-      "Clear data": [
-        "清除数据"
-      ],
-      "Recover data": [
-        "恢复数据"
-      ],
-      "Click here.": [
-        "点击此处。"
-      ],
-      "Re-sign": [
-        "重新签名"
-      ],
-      "Hide advanced PGP settings": [
-        "隐藏高级 PGP 设置"
-      ],
-      "Show advanced PGP settings": [
-        "显示高级 PGP 设置"
-      ],
-      "Add to group": [
-        "添加至群组"
-      ],
-      "Contact group": [
-        "联系人群组"
-      ],
-      "Create new contact": [
-        "新建联系人"
-      ],
-      "clear it": [
-        "将其清除"
-      ],
-      "Export": [
-        "导出"
-      ],
-      "Download": [
-        "下载"
-      ],
-      "Use for sending": [
-        "用于发送邮件"
-      ],
-      "Trust": [
-        "信任"
-      ],
-      "Untrust": [
-        "取消信任"
-      ],
-      "Email settings": [
-        "邮件设置"
-      ],
-      "Merge": [
-        "合并"
-      ],
-      "View": [
-        "查看"
-      ],
-      "Unmark for deletion": [
-        "取消标记以删除。"
-      ],
-      "Mark for deletion": [
-        "标记以删除"
-      ],
-      "Preview contact": [
-        "预览联系人"
-      ],
-      "Continue": [
-        "继续"
-      ],
-      "Copy email to clipboard": [
-        "复制邮箱地址"
-      ],
-      "Delete contact": [
-        "删除联系人"
-      ],
-      "Delete ${ selectedCount } contact": [
-        "删除 ${ selectedCount } 个联系人"
-      ],
-      "Deselect all": [
-        "取消全选"
-      ],
-      "Select all": [
-        "全选"
-      ],
-      "Compose": [
-        "写邮件"
-      ],
-      "Forward as attachment": [
-        "作为附件转发"
-      ],
-      "Merge contacts": [
-        "合并联系人"
-      ],
-      "Add new contact": [
-        "添加新联系人"
-      ],
-      "Add group": [
-        "添加群组"
-      ],
-      "Clear query": [
-        "清除查询"
-      ],
-      "Add contact": [
-        "添加联系人"
-      ],
-      "import": [
-        "导入"
-      ],
-      "Delete contact group": [
-        "删除联系人群组"
-      ],
-      "Delete ${ selectedCount } contact group": [
-        "删除 ${ selectedCount } 个联系人组"
-      ],
-      "Add new group": [
-        "添加新群组"
-      ],
-      "Export contacts": [
-        "导出联系人"
-      ],
-      "Import contacts": [
-        "导入联系人"
-      ],
-      "Choose a file or drag it here": [
-        "选择一个文件或将其拖动到这里"
-      ],
-      "Import": [
-        "导入"
-      ],
-      "Next": [
-        "继续"
-      ],
-      "Use ${ label } theme": [
-        "使用 ${ label } 主题"
-      ],
-      "OK": [
-        "确定"
-      ],
-      "Continue import": [
-        "继续导入"
-      ],
-      "Discard": [
-        "放弃"
-      ],
-      "Reconnect": [
-        "重新连接"
-      ],
-      "Start import": [
-        "开始导入"
-      ],
-      "Clear": [
-        "清除"
-      ],
-      "Add screenshot(s)": [
-        "添加屏幕截图"
-      ],
-      "Hide info": [
-        "隐藏信息"
-      ],
-      "Show info": [
-        "显示信息"
-      ],
-      "Details": [
-        "详细信息"
-      ],
-      "Share via link": [
-        "通过链接分享"
-      ],
-      "Sharing options": [
-        "共享选项"
-      ],
-      "Zoom out": [
-        "缩小"
-      ],
-      "Reset zoom": [
-        "重置缩放"
-      ],
-      "Zoom in": [
-        "放大"
-      ],
-      "Previous": [
-        "前一页"
-      ],
-      "Get started": [
-        "入门"
-      ],
-      "Start setup": [
-        "开始设置"
-      ],
-      "Skip": [
-        "跳过"
-      ],
-      "Back": [
-        "上一步"
-      ],
-      "Copy to clipboard": [
-        "复制到剪贴板"
-      ],
-      "Create recovery phrase": [
-        "创建恢复密语"
-      ],
-      "Don't secure account": [
-        "不保护账户"
-      ],
-      "Close this banner": [
-        "关闭此横幅"
-      ],
-      "Refresh the page": [
-        "刷新页面"
-      ],
-      "enable desktop notifications": [
-        "启用桌面通知"
-      ],
-      "here": [
-        "此处"
-      ],
-      "Search": [
-        "搜索"
-      ],
-      "${ BRAND_NAME } introduction": [
-        "${ BRAND_NAME } 简介"
-      ],
-      "Chat with us": [
-        "联系我们"
-      ],
-      "I have a question": [
-        "我有疑问"
-      ],
-      "Request a feature": [
-        "功能建议"
-      ],
-      "Report a problem": [
-        "反馈问题"
-      ],
-      "${ BRAND_NAME } shop": [
-        "${ BRAND_NAME } 商店"
-      ],
-      "Switch account": [
-        "切换账户"
-      ],
-      "Sign out": [
-        "退出"
-      ],
-      "Go to settings": [
-        "前往设置"
-      ],
-      "Beta Access": [
-        "测试版功能"
-      ],
-      "Theme": [
-        "主題"
-      ],
-      "Keyboard shortcuts": [
-        "键盘快捷键"
-      ],
-      "Mailbox layout": [
-        "邮箱布局"
-      ],
-      "Mailbox density": [
-        "邮箱密度"
-      ],
-      "Composer size": [
-        "编辑窗大小"
-      ],
-      "Remove bonuses": [
-        "放弃特权"
-      ],
-      "Try again": [
-        "重试"
-      ],
-      "Use a different card": [
-        "使用其他银行卡"
-      ],
-      "Use a different payment method": [
-        "改用其他支付方式"
-      ],
-      "Retry": [
-        "重试"
-      ],
-      "Loading verification": [
-        "正在准备验证"
-      ],
-      "Select plan": [
-        "选择套餐"
-      ],
-      "Compare all features": [
-        "功能对比"
-      ],
-      "${ boldSave } by switching to annual billing": [
-        "年付可享 ${ boldSave } 优惠"
-      ],
-      "Pay": [
-        "支付"
-      ],
-      "Open ${ CALENDAR_APP_NAME } settings": [
-        "打开 ${ CALENDAR_APP_NAME } 设置"
-      ],
-      "Remove gift code": [
-        "移除礼品码"
-      ],
-      "annual billing": [
-        "年费"
-      ],
-      "Compare plans": [
-        "套餐对比"
-      ],
-      "Decrease": [
-        "减少"
-      ],
-      "Increase": [
-        "增加"
-      ],
-      "Preview": [
-        "预览"
-      ],
-      "Create label": [
-        "创建标签"
-      ],
-      "Create folder": [
-        "创建文件夹"
-      ],
-      "Remove this label": [
-        "移除此标签"
-      ],
-      "Add condition": [
-        "添加条件"
-      ],
-      "label emails as": [
-        "给邮件加标签"
-      ],
-      "move emails to": [
-        "将邮件移至"
-      ],
-      "mark emails as": [
-        "将邮件标为"
-      ],
-      "send auto-reply email": [
-        "自动回复"
-      ],
-      "Yes, I'll attend": [
-        "是，我将参加"
-      ],
-      "Maybe I'll attend": [
-        "可能参加"
-      ],
-      "No, I won't attend": [
-        "不，我不会参加"
-      ],
-      "Yes": [
-        "是"
-      ],
-      "Maybe": [
-        "可能"
-      ],
-      "No": [
-        "否"
-      ],
-      "Add to ${ CALENDAR_APP_NAME }": [
-        "添加到 ${ CALENDAR_APP_NAME }"
-      ],
-      "Use your mouse to resize the view. If you're using your keyboard, you can use left and right arrow keys to resize.": [
-        ""
-      ],
-      "Send anyway": [
-        "仍然发送"
-      ],
-      "Got it": [
-        "知道了"
-      ],
-      "Maximize composer": [
-        "最大化编辑窗"
-      ],
-      "Minimize composer": [
-        "最小化编辑窗"
-      ],
-      "Contract composer": [
-        "还原编辑窗"
-      ],
-      "Expand composer": [
-        "展开编辑窗"
-      ],
-      "Close composer": [
-        "关闭编辑窗"
-      ],
-      "Trust key": [
-        "受信密钥"
-      ],
-      "Copy address": [
-        "复制地址"
-      ],
-      "Edit address": [
-        "编辑地址"
-      ],
-      "View contact details": [
-        "查看联系人详情"
-      ],
-      "Copy addresses": [
-        "复制地址"
-      ],
-      "View recipients": [
-        "查看收件人"
-      ],
-      "Carbon Copy, Blind Carbon Copy": [
-        "抄送、密送"
-      ],
-      "CC, BCC": [
-        "CC, BCC"
-      ],
-      "Send": [
-        "发送​​"
-      ],
-      "Attachment": [
-        "上传为附件"
-      ],
-      "Inline": [
-        "嵌入邮件中"
-      ],
-      "Cancel action": [
-        "取消操作"
-      ],
-      "Loading${ ellipsis }": [
-        "正在加载${ ellipsis }"
-      ],
-      "Saving${ _ellipsis }": [
-        "正在保存${ _ellipsis }"
-      ],
-      "Not saved": [
-        "未保存"
-      ],
-      "Schedule send": [
-        "定时发送"
-      ],
-      "Expiration time": [
-        "邮件有效期"
-      ],
-      "Encryption": [
-        "加密"
-      ],
-      "Delete draft": [
-        "删除草稿"
-      ],
-      "Set": [
-        "设置"
-      ],
-      "Schedule message": [
-        "定时邮件"
-      ],
-      "Print": [
-        "打印"
-      ],
-      "Address options": [
-        "地址选项"
-      ],
-      "New message": [
-        "撰写邮件"
-      ],
-      "Trust Public Key": [
-        "受信公钥"
-      ],
-      "Filter on...": [
-        "筛选依据..."
-      ],
-      "Move to...": [
-        "移至..."
-      ],
-      "Label as...": [
-        "加标签..."
-      ],
-      "Mark as unread": [
-        "标为未读"
-      ],
-      "Move to spam": [
-        "标为垃圾邮件"
-      ],
-      "Report phishing": [
-        "举报欺诈邮件"
-      ],
-      "View source code": [
-        "查看源代码"
-      ],
-      "View rendered HTML": [
-        "查看渲染后的HTML"
-      ],
-      "View headers": [
-        "查看邮件头信息"
-      ],
-      "Hide details": [
-        "隐藏详情"
-      ],
-      "Show details": [
-        "显示详情"
-      ],
-      "Custom filter": [
-        "自定义过滤规则"
-      ],
-      "Move to": [
-        "移至"
-      ],
-      "Label as": [
-        "加标签"
-      ],
-      "Load": [
-        "加载"
-      ],
-      "This message contains remote content.": [
-        "此邮件含有外链内容。"
-      ],
-      "This message contains embedded images.": [
-        "此邮件含有嵌入图像。"
-      ],
-      "Unsubscribe": [
-        "取消订阅"
-      ],
-      "Unsubscribing": [
-        "正在退订"
-      ],
-      "Mark legitimate": [
-        "标为非垃圾邮件"
-      ],
-      "Send receipt": [
-        "发送回执"
-      ],
-      "Accept": [
-        "接受"
-      ],
-      "Show": [
-        "显示"
-      ],
-      "Show less": [
-        "显示更少"
-      ],
-      "Never show": [
-        "不再显示"
-      ],
-      "View keys": [
-        "查看密钥"
-      ],
-      "Edit draft": [
-        "编辑草稿"
-      ],
-      "Download ${ attachmentName }": [
-        "下载 ${ attachmentName }"
-      ],
-      "Preview ${ attachmentName }": [
-        "预览 ${ attachmentName }"
-      ],
-      "Remove ${ attachmentName }": [
-        "移除 ${ attachmentName }"
-      ],
-      "Hide attachment details": [
-        "隐藏附件详细信息"
-      ],
-      "Show attachment details": [
-        "显示附件详细信息"
-      ],
-      "Hide": [
-        "隐藏"
-      ],
-      "Learn more": [
-        "了解详情"
-      ],
-      "Undo": [
-        "撤销"
-      ],
-      "View message": [
-        "查看邮件"
-      ],
-      "Enable": [
-        "启用"
-      ],
-      "Search message content": [
-        "搜索邮件内容"
-      ],
-      "Activate": [
-        "激活"
-      ],
-      "Resume": [
-        "继续"
-      ],
-      "Pause": [
-        "暂停"
-      ],
-      "Show less search options": [
-        "收起搜索选项"
-      ],
-      "Show more search options": [
-        "展开搜索选项"
-      ],
-      "Less search options": [
-        "更少的搜索选项"
-      ],
-      "More search options": [
-        "更多的搜索选项"
-      ],
-      "Advanced search": [
-        "高级搜索"
-      ],
-      "Clear browser data": [
-        "清除浏览器数据"
-      ],
-      "Mark as read": [
-        "标为已读"
-      ],
-      "Delete permanently": [
-        "永久删除"
-      ],
-      "Move to inbox": [
-        "移至收件箱"
-      ],
-      "Move to archive": [
-        "归档"
-      ],
-      "Move to inbox (not spam)": [
-        "移至收件箱（非垃圾邮件）"
-      ],
-      "Move to trash": [
-        "移至废件箱"
-      ],
-      "Delete all": [
-        "全部删除"
-      ],
-      "Deselect all messages": [
-        "取消选择所有邮件"
-      ],
-      "Select all messages": [
-        "选择所有邮件"
-      ],
-      "Select All": [
-        "全选"
-      ],
-      "All Read": [
-        "所有已读邮件"
-      ],
-      "All Unread": [
-        "所有未读邮件"
-      ],
-      "All Starred": [
-        "所有星标邮件"
-      ],
-      "All Unstarred": [
-        "所有非星标邮件"
-      ],
-      "Load more": [
-        "加载更多"
-      ],
-      "Previous page": [
-        "上一页"
-      ],
-      "Change page": [
-        "页面跳转"
-      ],
-      "Page ${ pageNumber }": [
-        "第 ${ pageNumber } 页"
-      ],
-      "Next page": [
-        "下一页"
-      ],
-      "Previous conversation": [
-        "上一个会话"
-      ],
-      "Previous message": [
-        "上一封邮件"
-      ],
-      "Next conversation": [
-        "下一个会话"
-      ],
-      "Next message": [
-        "下一封邮件"
-      ],
-      "Show messages": [
-        "显示邮件"
-      ],
-      "Hide messages": [
-        "隐藏邮件"
-      ],
-      "Create new message": [
-        "创建新邮件"
-      ],
-      "Open shop": [
-        "打开商店"
-      ],
-      "Open calendar": [
-        "打开日历"
-      ],
-      "Import messages": [
-        "导入邮件"
-      ],
-      "Deselect": [
-        "取消选择"
-      ],
-      "Start using ${ appName }": [
-        "开始使用 ${ appName }"
-      ]
-    },
-    "Title": {
-      "Open actions dropdown": [
-        "展开操作菜单"
-      ],
-      "Expand content": [
-        "展开內容"
-      ],
-      "Link confirmation": [
-        "确认打开链接"
-      ],
-      "Keyboard Shortcuts": [
-        "键盘快捷键"
-      ],
-      "What's new": [
-        "更新内容"
-      ],
-      "Sign in again to continue": [
-        "此操作需要重新登录"
-      ],
-      "Account suspended": [
-        "账号已被停用"
-      ],
-      "Enter your username or ProtonMail email address": [
-        "输入用户名或 ProtonMail 邮箱"
-      ],
-      "Enter your password": [
-        "输入密码"
-      ],
-      "Invalid verification code": [
-        "验证码无效"
-      ],
-      "Human verification": [
-        "身份验证"
-      ],
-      "Upgrade required": [
-        "需要升级"
-      ],
-      "Delete ${ Name }": [
-        "删除 ${ Name }"
-      ],
-      "Delete ${ count } contact group": [
-        "删除 ${ count } 个联系人组"
-      ],
-      "Edit contact group": [
-        "更改联系人群组"
-      ],
-      "Create new group": [
-        "创建群组"
-      ],
-      "${ emailsCount } member": [
-        "{ emailsCount } 位成員"
-      ],
-      "Edit image": [
-        "更改图片"
-      ],
-      "Add to ${ groupName }": [
-        "添加到 ${ groupName }"
-      ],
-      "Add to ${ groupCount } group": [
-        "添加到 ${ groupCount } 个群组"
-      ],
-      "Edit contact": [
-        "编辑联系人"
-      ],
-      "Create contact": [
-        "创建联系人"
-      ],
-      "Insert contacts": [
-        "插入联系人"
-      ],
-      "Delete ${ count } contact": [
-        "删除 ${ count } 联系人"
-      ],
-      "Clearing data": [
-        "数据清除中"
-      ],
-      "Warning": [
-        "警告"
-      ],
-      "Recover data": [
-        "恢复数据"
-      ],
-      "Re-signing contacts": [
-        "重新签署联系人"
-      ],
-      "Re-sign all contacts": [
-        "重新签署所有联系人"
-      ],
-      "Email settings (${ emailAddress })": [
-        "邮件设(${ emailAddress })"
-      ],
-      "Exporting contacts": [
-        "导出联系人"
-      ],
-      "Contact group": [
-        "联系人群组"
-      ],
-      "Other names": [
-        "其他名称"
-      ],
-      "Email addresses": [
-        "邮箱地址"
-      ],
-      "Phone numbers": [
-        "电话号码"
-      ],
-      "Addresses": [
-        "邮箱地址"
-      ],
-      "Other information": [
-        "其他信息"
-      ],
-      "Email settings": [
-        "邮件设置"
-      ],
-      "Contact Details": [
-        "联系人详情"
-      ],
-      "Merging contacts": [
-        "合并联系人"
-      ],
-      "Merge contacts": [
-        "合并联系人"
-      ],
-      "Deleting contacts": [
-        "删除联系人中"
-      ],
-      "View contacts": [
-        "查看联系人"
-      ],
-      "Contacts": [
-        "通讯录"
-      ],
-      "Groups": [
-        "群组"
-      ],
-      "Settings": [
-        "设置"
-      ],
-      "Select action to take on contact group": [
-        "选择针对联系人群组的动作"
-      ],
-      "Add contact group name": [
-        "添加联系人群组名称"
-      ],
-      "Select contact group": [
-        "选择联系人群组"
-      ],
-      "Import groups": [
-        "导入群组"
-      ],
-      "Import contacts": [
-        "导入联系人"
-      ],
-      "Select a theme": [
-        "选择主题"
-      ],
-      "Start import process": [
-        "开始导入过程"
-      ],
-      "Import in progress": [
-        "导入进行中"
-      ],
-      "Report a problem": [
-        "反馈问题"
-      ],
-      "${ appName } Keyboard Shortcuts": [
-        "${ appName } 快捷键"
-      ],
-      "Mailbox density": [
-        "邮箱密度"
-      ],
-      "Mailbox layout": [
-        "邮箱布局"
-      ],
-      "Composer mode": [
-        "邮件格式"
-      ],
-      "Open help menu": [
-        "打开帮助菜单"
-      ],
-      "Back": [
-        "返回"
-      ],
-      "Open settings menu": [
-        "打开设置菜单"
-      ],
-      "Confirm loss of Proton bonuses": [
-        "确定放弃 Proton 特权"
-      ],
-      "Unsupported browser": [
-        "不支持此浏览器"
-      ],
-      "Card verification": [
-        "银行卡验证"
-      ],
-      "Payment verification": [
-        "确认支付"
-      ],
-      "Processing...": [
-        "正在处理..."
-      ],
-      "Card verification in progress": [
-        "正在进行银行卡验证"
-      ],
-      "Payment verification in progress": [
-        "正在确认支付"
-      ],
-      "PayPal verification failed": [
-        "PayPal 验证失败"
-      ],
-      "3-D Secure verification failed": [
-        "3-D Secure 验证失败"
-      ],
-      "Error": [
-        "失败"
-      ],
-      "ZIP / postal code": [
-        "邮政编码"
-      ],
-      "Payment details": [
-        "支付明细"
-      ],
-      "Currency": [
-        "货币"
-      ],
-      "Billing cycle": [
-        "计费周期"
-      ],
-      "Current plan": [
-        "当前套餐"
-      ],
-      "Processing": [
-        "处理中"
-      ],
-      "Apply gift code": [
-        "使用礼品码"
-      ],
-      "Subtotal": [
-        "小计"
-      ],
-      "Coupon discount": [
-        "优惠券折扣"
-      ],
-      "Total (monthly)": [
-        "合计（按月）"
-      ],
-      "Credits": [
-        "余额"
-      ],
-      "Gift code": [
-        "礼品码"
-      ],
-      "Amount due": [
-        "应付金额"
-      ],
-      "Downgrade account": [
-        ""
-      ],
-      "Network error": [
-        "网络错误"
-      ],
-      "Select a plan": [
-        "选择套餐"
-      ],
-      "Customize your plan": [
-        "自定义您的套餐"
-      ],
-      "Checkout": [
-        "结算"
-      ],
-      "Plan summary": [
-        "订单概览"
-      ],
-      "${ appName } customization": [
-        "自定义 ${ appName }"
-      ],
-      "Beta Access": [
-        "测试版功能"
-      ],
-      "Edit filter": [
-        "更改规则"
-      ],
-      "Add filter": [
-        "创建规则"
-      ],
-      "Are you sure you want to close?": [
-        "确定要关闭吗？"
-      ],
-      "Change my answer": [
-        "更改我的回复"
-      ],
-      "Image": [
-        "图像"
-      ],
-      "Sending notice": [
-        "提示"
-      ],
-      "Storage capacity warning": [
-        "存储容量警告"
-      ],
-      "Sending original message": [
-        "正在发送原始邮件"
-      ],
-      "No recipient": [
-        "无收件人"
-      ],
-      "Message without subject?": [
-        "没有主题的消息？"
-      ],
-      "No attachment found": [
-        "未找到附件"
-      ],
-      "Re-sign contact": [
-        "重新签署联系人"
-      ],
-      "Verification error": [
-        "签名校验失败"
-      ],
-      "Decryption error": [
-        "解密失败"
-      ],
-      "Delete draft": [
-        "删除草稿"
-      ],
-      "Delete ${ count } draft": [
-        "删除 ${ count } 封草稿"
-      ],
-      "Delete message": [
-        "删除邮件"
-      ],
-      "Delete conversation": [
-        "删除会话"
-      ],
-      "Delete ${ count } conversation": [
-        "删除 ${ count } 条会话"
-      ],
-      "Delete ${ count } message": [
-        "删除 ${ count } 封邮件"
-      ],
-      "Delete all messages": [
-        "刪除所有邮件"
-      ],
-      "Trust new key?": [
-        "信任新密钥？"
-      ],
-      "Add contacts": [
-        "添加联系人"
-      ],
-      "To": [
-        "收件人"
-      ],
-      "CC": [
-        "抄送"
-      ],
-      "BCC": [
-        "密送"
-      ],
-      "Carbon Copy": [
-        "副本"
-      ],
-      "Blind Carbon Copy": [
-        "盲抄本"
-      ],
-      "Sending error": [
-        "发送时出错"
-      ],
-      "Confirm recipient address?": [
-        "确认收件人地址？"
-      ],
-      "Send without expiration?": [
-        "发送永久有效的邮件？"
-      ],
-      "Send with changed preferences?": [
-        "按变更后的首选项发送？"
-      ],
-      "Attachments": [
-        "附件"
-      ],
-      "Expiration time": [
-        "有效期"
-      ],
-      "Encryption": [
-        "加密"
-      ],
-      "Send email": [
-        "发送邮件"
-      ],
-      "Schedule send": [
-        "定时发送"
-      ],
-      "New message": [
-        "撰写邮件"
-      ],
-      "Trust public key?": [
-        "信任公钥?"
-      ],
-      "All recipients were added to the BCC field and cannot be disclosed": [
-        "所有收件人都已加入密送列表，不会公开"
-      ],
-      "Move to inbox (not spam)": [
-        "移至收件箱（不是垃圾邮件）"
-      ],
-      "Mark as unread": [
-        "标为未读"
-      ],
-      "Move to inbox": [
-        "移至收件箱"
-      ],
-      "Move to trash": [
-        "移至废件箱"
-      ],
-      "More": [
-        "更多"
-      ],
-      "More options": [
-        "更多选项"
-      ],
-      "Reply": [
-        "回复"
-      ],
-      "Reply all": [
-        "回复所有人"
-      ],
-      "Forward": [
-        "转发"
-      ],
-      "Filter on": [
-        "筛选依据"
-      ],
-      "Move to": [
-        "移动到"
-      ],
-      "Label as": [
-        "标记为"
-      ],
-      "Load remote content": [
-        "加载外部内容"
-      ],
-      "Load embedded images": [
-        "加载嵌入图像"
-      ],
-      "Unsubscribe": [
-        "退订"
-      ],
-      "Mark email as legitimate": [
-        "标为非垃圾邮件"
-      ],
-      "Trust pinned keys?": [
-        "信任固定的密钥？"
-      ],
-      "Enable message content search": [
-        "启用邮件全文搜索"
-      ],
-      "Create a new folder": [
-        "创建文件夹"
-      ],
-      "Create a new label": [
-        "创建标签"
-      ],
-      "More selections": [
-        "更多选择"
-      ],
-      "Previous conversation": [
-        "上一条会话"
-      ],
-      "Previous message": [
-        "上一封邮件"
-      ],
-      "Next conversation": [
-        "下一条会话"
-      ],
-      "Next message": [
-        "下一封邮件"
-      ],
-      "Sort conversations": [
-        "会话排序"
-      ],
-      "Sort messages": [
-        "邮件排序"
-      ],
-      "Create folder": [
-        "创建文件夹"
-      ],
-      "Create label": [
-        "创建标签"
-      ],
-      "Conversation list": [
-        "会话列表"
-      ],
-      "Message list": [
-        "邮件列表"
-      ],
-      "Welcome ${ userName }": [
-        "欢迎您，${ userName }"
-      ],
-      "Welcome": [
-        "欢迎"
-      ]
-    },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        "此密钥不能用于加密"
-      ]
-    },
-    "Placeholder": {
-      "Link": [
-        "链接"
-      ],
-      "Fill in the URL link and text to test your link": [
-        "填写网址和要显示的文本来测试链接"
-      ],
-      "Email address": [
-        "邮箱地址"
-      ],
-      "Fill in the email address and text to test your link": [
-        "填写邮箱地址和文本来测试链接"
-      ],
-      "Phone number": [
-        "电话号码"
-      ],
-      "Fill in the phone number and text to test your link": [
-        "填写电话号码和文本来测试链接"
-      ],
-      "Text": [
-        "文本"
-      ],
-      "E.g., ": [
-        "例如："
-      ],
-      "Mailbox password": [
-        "邮箱密码"
-      ],
-      "Start typing an email address": [
-        "开始输入电子邮件地址"
-      ],
-      "Image URL": [
-        "图像 URL"
-      ],
-      "Search name, email or group": [
-        "搜索名称、电子邮件或群组"
-      ],
-      "Filter groups": [
-        "查找群组"
-      ],
-      "Search for name or email": [
-        "搜索名称或电子邮件地址"
-      ],
-      "Search for group name": [
-        "搜索群组名称"
-      ],
-      "Name": [
-        "名称"
-      ],
-      "OS name": [
-        "操作系统名称"
-      ],
-      "OS version": [
-        "操作系统版本"
-      ],
-      "Proton username": [
-        "Proton 用户名"
-      ],
-      "A way to contact you": [
-        "您的联系方式"
-      ],
-      "Please describe the problem and include any error messages": [
-        "请说明您的问题，并附上看到的所有错误提示"
-      ],
-      "Browser name": [
-        "浏览器名称"
-      ],
-      "Browser version": [
-        "浏览器版本"
-      ],
-      "e.g. Julia Smith": [
-        "例如：Julia Smith"
-      ],
-      "ZIP": [
-        "邮编"
-      ],
-      "Postal code": [
-        "邮政编码"
-      ],
-      "Gift code": [
-        "礼品码"
-      ],
-      "Type text or keyword": [
-        "输入文本或关键词"
-      ],
-      "Subject": [
-        "主题"
-      ],
-      "Write your message": [
-        "编写你的邮件"
-      ],
-      "Password": [
-        "密码"
-      ],
-      "Confirm Password": [
-        "确认密码"
-      ],
-      "Hint": [
-        "提示"
-      ],
-      "Search Messages": [
-        "搜索邮件"
-      ],
-      "Start date": [
-        "开始日期"
-      ],
-      "End date": [
-        "结束日期"
-      ],
-      "Name or email address": [
-        "用户名或邮箱地址"
-      ],
-      "Search messages": [
-        "搜索邮件"
-      ],
-      "Filter folders": [
-        "过滤文件夹"
-      ],
-      "Filter labels": [
-        "查找标签"
-      ]
-    },
-    "Font Face Default": {
-      "Default": [
-        "默认"
-      ]
-    },
-    "Font Size Default": {
-      "Default": [
-        "默认"
-      ]
-    },
-    "Link": {
-      "Learn more": [
-        "了解详情"
-      ],
-      "Request an invite": [
-        "请求邀请"
-      ],
-      "clearing your browser cache": [
-        "清除浏览器缓存"
-      ],
-      "Pay invoice": [
-        "前去支付"
-      ],
-      "Upgrade account": [
-        "升级账户"
-      ],
-      "Upgrade": [
-        "升级"
-      ],
-      "Go to subscription plans": [
-        "转至订阅计划"
-      ],
-      "click here": [
-        "请单击此处"
-      ],
-      "Add a gift code": [
-        "使用礼品码"
-      ],
-      "You need to activate your calendar keys to add this event": [
-        "您需要激活您的日历密钥才能添加此日程"
-      ],
-      "You need to activate your calendar keys to manage this invitation": [
-        "您需要激活您的日历密钥才能管理此邀请"
-      ],
-      "You need to activate your calendar keys to answer this invitation": [
-        "您需要激活您的日历密钥才能回复此邀请"
-      ],
-      "You need to activate your calendar keys to see the updated event": [
-        "您需要激活您的日历密钥才能看到更新的日程"
-      ],
-      "You need to activate your calendar keys to see the updated invitation": [
-        "您需要激活日历密钥才能看到更新的邀请"
-      ],
-      "This ICS file contains more than one event. Please download it and import the events in ${ calendarAppName }": [
-        "此 ICS 文件包含多个日程，请下载并导入 ${ calendarAppName } 中的日程"
-      ],
-      "You need to reactivate your keys to manage this invitation": [
-        "您需要重新激活您的密钥才能管理此邀请"
-      ],
-      "You need to reactivate your keys to see the updated event": [
-        "您需要重新激活您的密钥才能看到更新的日程"
-      ],
-      "You need to reactivate your keys to see the updated invitation": [
-        "您需要重新激活您的密钥才能看到更新的邀请"
-      ],
-      "Create a new calendar to add this event": [
-        "创建新日历来添加此日程"
-      ],
-      "Create a new calendar to answer this invitation": [
-        "创建新日历来回复此邀请"
-      ],
-      "Create a new calendar to manage your invitations": [
-        "创建新日历来管理您的邀请"
-      ],
-      "Open updated event in ${ calendarAppName }": [
-        "在 ${ calendarAppName } 中打开更新的日程"
-      ],
-      "Open in ${ calendarAppName }": [
-        "在 ${ calendarAppName } 中打开"
-      ],
-      "Inbox": [
-        "收件箱"
-      ],
-      "Drafts": [
-        "草稿"
-      ],
-      "Sent": [
-        "已发送"
-      ],
-      "Trash": [
-        "废件箱"
-      ],
-      "Spam": [
-        "垃圾邮件"
-      ],
-      "All mail": [
-        "所有邮件"
-      ],
-      "Archive": [
-        "归档"
-      ],
-      "Starred": [
-        "已加星标"
-      ],
-      "Outbox": [
-        "发件箱"
-      ],
-      "Scheduled": [
-        "定时发送"
-      ],
-      "Re-enable the address linked to this calendar to manage your invitation.": [
-        "重新启用与本日历关联的地址以管理您的邀请。"
-      ],
-      "Re-enable the address linked to this calendar to update your invitation.": [
-        "重新启用与本日历关联的地址以更新您的邀请。"
-      ],
-      "Enable your address to answer this invitation.": [
-        "启用您的邮箱地址来回复此邀请。"
-      ],
-      "Create a calendar linked to an active email address.": [
-        "创建一个与在用邮箱地址关联的日历。"
-      ],
-      "Enable an email address linked to one of your calendars.": [
-        "启用与您日历之一关联的邮箱地址。"
-      ],
-      "Or you can delete one of your calendars and create a new one linked to an active email address.": [
-        "或者您可以删除一个日历后创建一个新的，将其关联到一个在用的邮箱地址。"
-      ],
-      "Enable your address again to modify your answer.": [
-        "再次启用您的邮箱地址来修改您的答案。"
-      ],
-      "Enable the email address linked to the disabled calendar to cancel the event.": [
-        "启用与禁用日历关联的邮箱地址来取消活动。"
-      ],
-      "Enable the email address linked to the disabled calendar to modify your answer.": [
-        "启用与禁用日历关联的邮箱地址来修改您的回复。"
-      ],
-      "Add folder": [
-        "添加文件夹"
-      ],
-      "Add label": [
-        "添加标签"
-      ],
-      "Folders": [
-        "文件夹"
-      ],
-      "Manage your folders": [
-        "管理文件夹"
-      ],
-      "Labels": [
-        "标签"
-      ],
-      "Manage your labels": [
-        "管理标签"
-      ]
-    },
-    "Label": {
-      "Copy": [
-        "复制"
-      ],
-      "Reveal password": [
-        "显示密码"
-      ],
-      "Hide password": [
-        "隐藏密码"
-      ],
-      "Do not ask again": [
-        "不再询问"
-      ],
-      "Cancel": [
-        "取消"
-      ],
-      "Submit": [
-        "提交"
-      ],
-      "Password": [
-        "密码"
-      ],
-      "Mailbox password": [
-        "邮箱密码"
-      ],
-      "Two-factor authentication code": [
-        "双重认证验证码"
-      ],
-      "Username or ProtonMail address": [
-        "用户名或 ProtonMail 地址"
-      ],
-      "Email address": [
-        "邮箱地址"
-      ],
-      "Phone number": [
-        "电话号码"
-      ],
-      "Verification code": [
-        "验证码"
-      ],
-      "Enter the 6-digit code": [
-        "请输入 6 位验证码"
-      ],
-      "Add email address": [
-        "添加邮箱地址"
-      ],
-      "Add image URL": [
-        "添加图像网址"
-      ],
-      "Upload picture": [
-        "上传图片"
-      ],
-      "Name": [
-        "姓名"
-      ],
-      "Email": [
-        "邮箱"
-      ],
-      "Group": [
-        "群组"
-      ],
-      "Email format": [
-        "电子邮件格式"
-      ],
-      "Street address": [
-        "街道地址"
-      ],
-      "City": [
-        "城市"
-      ],
-      "Region": [
-        "区域"
-      ],
-      "Postal code": [
-        "邮编"
-      ],
-      "Country": [
-        "国家"
-      ],
-      "Post office box": [
-        "邮局信箱"
-      ],
-      "Extended address": [
-        "详细地址"
-      ],
-      "Add to group": [
-        "添加至群组"
-      ],
-      "Encrypt emails": [
-        "加密电子邮件"
-      ],
-      "Sign emails": [
-        "签名电子邮件"
-      ],
-      "Cryptographic scheme": [
-        "加密方案"
-      ],
-      "Public keys": [
-        "公钥"
-      ],
-      "Automatically save contacts": [
-        "自动保存联系人"
-      ],
-      "Import contacts": [
-        "导入联系人"
-      ],
-      "Export contacts": [
-        "导出联系人"
-      ],
-      "From: ${ fromEmailAddress }": [
-        "来自: ${ fromEmailAddress }"
-      ],
-      "To: ${ toEmailAddress }": [
-        "导入到：${ toEmailAddress }"
-      ],
-      "Operating system": [
-        "操作系统"
-      ],
-      "Operating system version": [
-        "操作系统版本"
-      ],
-      "Proton username": [
-        "Proton 用户名"
-      ],
-      "Category": [
-        "类别"
-      ],
-      "What happened?": [
-        "发生了什么？"
-      ],
-      "System information": [
-        "系统信息"
-      ],
-      "Browser": [
-        "浏览器"
-      ],
-      "Browser version": [
-        "浏览器版本"
-      ],
-      "Display name": [
-        "对外名称"
-      ],
-      "Keyboard shortcuts": [
-        "快捷键"
-      ],
-      "Select how your list of messages looks like by default.": [
-        "请选择收件箱列表的默认外观"
-      ],
-      "Select how your mailbox looks like by default.": [
-        "请选择邮箱的默认外观"
-      ],
-      "Select how your composer opens by default.": [
-        "请选择编辑窗的默认外观"
-      ],
-      "Recovery phrase": [
-        "恢复密语"
-      ],
-      "Your recovery phrase": [
-        "您的恢复密语"
-      ],
-      "Name on card": [
-        "持卡人姓名"
-      ],
-      "Card number": [
-        "信用卡号"
-      ],
-      "Expiry date": [
-        "有效期至"
-      ],
-      "CVV code": [
-        "CVV 码"
-      ],
-      "Select your country": [
-        "选择国家"
-      ],
-      "ZIP": [
-        "邮编"
-      ],
-      "BTC amount:": [
-        "比特币金额："
-      ],
-      "BTC address:": [
-        "比特币地址："
-      ],
-      "Select a method": [
-        "选择支付方式"
-      ],
-      "Total (${ countdown })": [
-        "合计 (${ countdown })"
-      ],
-      "Total": [
-        "合计"
-      ],
-      "Proration": [
-        "当前等级结余"
-      ],
-      "Cash": [
-        "现金"
-      ],
-      "Card holder": [
-        "持卡人"
-      ],
-      "Expires": [
-        "有效期至"
-      ],
-      "Payer": [
-        "付款人"
-      ],
-      "Enable Beta Access": [
-        "启用测试版功能"
-      ],
-      "Folder location": [
-        "文件夹位置"
-      ],
-      "Notification": [
-        "通知"
-      ],
-      "Filter Name": [
-        "筛选规则名称"
-      ],
-      "Label as": [
-        "加标签"
-      ],
-      "No label found": [
-        "无标签"
-      ],
-      "Move to": [
-        "移至"
-      ],
-      "Read": [
-        "已读"
-      ],
-      "Starred": [
-        "星标"
-      ],
-      "Mark as": [
-        "标为"
-      ],
-      "Send auto-reply": [
-        "自动回复"
-      ],
-      "AND": [
-        "且"
-      ],
-      "OR": [
-        "或"
-      ],
-      "IF": [
-        "如果"
-      ],
-      "With attachment": [
-        "含有附件"
-      ],
-      "Without attachment": [
-        "不含附件"
-      ],
-      "or": [
-        "或"
-      ],
-      "with attachments": [
-        "含有附件"
-      ],
-      "without attachment": [
-        "不含附件"
-      ],
-      "The email was sent ${ attachmentStrong }": [
-        "邮件${ attachmentStrong }"
-      ],
-      "The email was sent ${ attachment }": [
-        "邮件${ attachment }"
-      ],
-      "Statement": [
-        "要求"
-      ],
-      "ALL": [
-        "且"
-      ],
-      "ANY": [
-        "或"
-      ],
-      " and ${ l }": [
-        "、${ l }"
-      ],
-      " and ": [
-        "、"
-      ],
-      "and": [
-        "、"
-      ],
-      "Then": [
-        "则"
-      ],
-      "And": [
-        "且"
-      ],
-      "Actions": [
-        "操作"
-      ],
-      "without attachments": [
-        "不含附件"
-      ],
-      "the email was sent ${ attachment }": [
-        "邮件${ attachment }"
-      ],
-      "the email was sent ${ label }": [
-        "邮件${ label }"
-      ],
-      "If": [
-        "如果"
-      ],
-      "Or": [
-        "或"
-      ],
-      "Conditions": [
-        "条件"
-      ],
-      "Carbon Copy": [
-        "抄送"
-      ],
-      "Blind Carbon Copy": [
-        "密送"
-      ],
-      "Date": [
-        "日期"
-      ],
-      "Time": [
-        "时间"
-      ],
-      "From:": [
-        "发件人："
-      ],
-      "Date:": [
-        "日期："
-      ],
-      "${ firstAddress } and ${ count } others": [
-        "${ firstAddress } 及其他 ${ count } 位"
-      ],
-      "Undisclosed Recipients": [
-        "非公开收件人"
-      ],
-      "To:": [
-        "收件人："
-      ],
-      "CC:": [
-        "抄送："
-      ],
-      "BCC:": [
-        "密送："
-      ],
-      "Size:": [
-        "大小："
-      ],
-      "Labels:": [
-        "标记："
-      ],
-      "Keyword": [
-        "关键词"
-      ],
-      "Search in": [
-        ""
-      ],
-      "From": [
-        "发件人"
-      ],
-      "To": [
-        "收件人"
-      ],
-      "Sender": [
-        "发件人"
-      ],
-      "Recipient": [
-        "收件人"
-      ],
-      "Attachments": [
-        "附件"
-      ],
-      "Also archive": [
-        "同时存档"
-      ]
-    },
-    "Time unit": {
-      "${ hours } hour": [
-        "${ hours } 小时"
-      ],
-      "${ minutes } minute": [
-        "${ minutes } 分钟"
-      ],
-      "${ daysCountLeft } day": [
-        "${ daysCountLeft } 天"
-      ],
-      "${ hoursCountLeft } hour": [
-        "${ hoursCountLeft } 小时"
-      ],
-      "${ minutesCountLeft } minute": [
-        "${ minutesCountLeft } 分钟"
-      ],
-      "${ secondsCountLeft } second": [
-        "${ secondsCountLeft } 秒"
-      ]
-    },
-    "Hint": {
-      "Use Up and Down keys to access and browse suggestions after input. Press Enter to confirm your choice, or Escape to close the suggestions box.": [
-        "使用向上和向下键进入并浏览输入后的建议。按 Enter 键确认您的选择，或按 Escape 键关闭建议框。"
-      ],
-      "Found ${ items.length } suggestion, use keyboard to navigate.": [
-        "找到 ${ items.length } 建议，使用键盘导航。"
-      ]
-    },
-    "Storage": {
-      "Your current storage:": [
-        "您当前的存储空间："
-      ],
-      "Upgrade storage": [
-        "购买存储空间"
-      ],
-      "Release notes": [
-        "版本说明"
-      ]
-    },
-    "Header": {
-      "Search": [
-        "搜索"
-      ],
-      "Contacts": [
-        "通讯录"
-      ],
-      "Contacts, groups and settings": [
-        "联系人、群组和设置"
-      ],
-      "Get help": [
-        "获取帮助"
-      ]
-    },
-    "Error message": {
-      "Oops, something went wrong": [
-        "糟糕，出错了"
-      ],
-      "There was a problem connecting to Proton.": [
-        "连接 Proton 服务器失败。"
-      ],
-      "Please ${ refresh } or check your connection.": [
-        "请${ refresh }或检查网络连接。"
-      ],
-      "Error: ${ errorMessage }": [
-        "错误：${ errorMessage }"
-      ],
-      "No results found": [
-        "搜索无结果"
-      ],
-      "You do not have any contact yet. Start by creating a new contact": [
-        "您还没有任何联系人。首先创建一个新的联系人。"
-      ],
-      "No results found for \"${ query }\"": [
-        "找不到 \"${ query }\" 的结果"
-      ],
-      "Brace yourself till we get the error fixed.": [
-        "别担心，我们会解决的。"
-      ],
-      "You may also ${ refresh } or try again later.": [
-        "您也可以${ refresh }页面或稍后再试。"
-      ]
-    },
-    "Apps dropdown": {
-      "Proton applications": [
-        "Proton 产品"
-      ],
-      "Go to ${ title }": [
-        "转到 ${ title }"
-      ],
-      "Go to ${ vpnName }": [
-        "跳转到 ${ vpnName }"
-      ]
-    },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "逾期账单"
-      ]
-    },
-    "Success": {
-      "Code sent to ${ methodTo }": [
-        "验证码已发至 ${ methodTo }"
-      ],
-      "Verification successful": [
-        "验证成功"
-      ],
-      "Contact group deleted": [
-        "联系人群组已删除"
-      ],
-      "Contact saved": [
-        "联系人已保存"
-      ],
-      "Contacts deleted": [
-        "联系人已删除"
-      ],
-      "Contact deleted": [
-        "已删除联系人"
-      ],
-      "Fingerprint copied to clipboard": [
-        "指纹已复制到剪贴板"
-      ],
-      "Preferences saved": [
-        "设置已保存"
-      ],
-      "Email address copied to clipboard": [
-        "邮箱地址已复制到剪贴板"
-      ],
-      "Phone number copied to clipboard": [
-        "电话号码已复制到剪贴板"
-      ],
-      "Address copied to clipboard": [
-        "地址已复制到剪贴板"
-      ],
-      "Bug reported": [
-        "问题已反馈"
-      ],
-      "Keyboard shortcuts preferences updated": [
-        "键盘快捷键设置已更新"
-      ],
-      "Preference saved": [
-        "设置已生效"
-      ],
-      "You have successfully unsubscribed": [
-        "退订成功"
-      ],
-      "Message content search activated": [
-        "邮件全文搜索已开启"
-      ],
-      "Message marked as Starred": [
-        "邮件已加星标"
-      ],
-      "${ elementsCount } message marked as Starred.": [
-        "${ elementsCount } 封邮件已加星标。"
-      ],
-      "Conversation marked as Starred": [
-        "会话已加星标"
-      ],
-      "${ elementsCount } conversation marked as Starred.": [
-        "${ elementsCount } 条会话已加星标。"
-      ],
-      "Message removed from ${ labelName }": [
-        "邮件已移除 ${ labelName } 标签"
-      ],
-      "${ elementsCount } message removed from ${ labelName }.": [
-        "${ elementsCount } 封邮件已移除 ${ labelName } 标签。"
-      ],
-      "Conversation removed from ${ labelName }": [
-        "会话已移除 ${ labelName } 标签"
-      ],
-      "${ elementsCount } conversation removed from ${ labelName }.": [
-        "${ elementsCount } 条会话已移除 ${ labelName } 标签。"
-      ],
-      "Message added to ${ labelName }": [
-        "邮件已添加 ${ labelName } 标签"
-      ],
-      "${ elementsCount } message added to ${ labelName }.": [
-        "${ elementsCount } 封邮件已添加 ${ labelName } 标签。"
-      ],
-      "Conversation added to ${ labelName }": [
-        "会话已添加 ${ labelName } 标签"
-      ],
-      "${ elementsCount } conversation added to ${ labelName }.": [
-        "${ elementsCount } 条会话已添加 ${ labelName } 标签。"
-      ],
-      "Message moved to spam and sender added to Block List.": [
-        "邮件已标为垃圾邮件，其发件人已加入黑名单。"
-      ],
-      "${ elementsCount } message moved to spam and sender added to Block List.": [
-        "${ elementsCount } 封邮件已标为垃圾邮件，其发件人已加入黑名单。"
-      ],
-      "Conversation moved to spam and sender added to Block List.": [
-        "会话中的邮件已标为垃圾邮件，其发件人已加入黑名单。"
-      ],
-      "${ elementsCount } conversation moved to spam and sender added to Block List.": [
-        "${ elementsCount } 条会话中的邮件已标为垃圾邮件，其发件人已加入黑名单。"
-      ],
-      "Message moved to ${ folderName } and sender added to Allow List.": [
-        "邮件已移至${ folderName }，其发件人已添加至白名单。"
-      ],
-      "${ elementsCount } message moved to ${ folderName } and sender added to Allow List.": [
-        "${ elementsCount } 封邮件已移至${ folderName }，其发件人已添加至白名单。"
-      ],
-      "Conversation moved to ${ folderName } and sender added to Allow List.": [
-        "会话已移至${ folderName }，其发件人已添加至白名单。"
-      ],
-      "${ elementsCount } conversation moved to ${ folderName } and sender added to Allow List.": [
-        "${ elementsCount } 条会话已移至${ folderName }，其发件人已添加至白名单。"
-      ],
-      "Message moved to ${ folderName }.": [
-        "邮件已移动到 ${ folderName }。"
-      ],
-      "${ elementsCount } message moved to ${ folderName }.": [
-        "${ elementsCount } 邮件已添加到 ${ folderName }。"
-      ],
-      "Conversation moved to ${ folderName }.": [
-        "会话已移动到 ${ folderName }。"
-      ],
-      "${ elementsCount } conversation moved to ${ folderName }.": [
-        "${ elementsCount } 条会话已移至${ folderName }。"
-      ],
-      "Labels applied.": [
-        "标签已添加。"
-      ],
-      "Draft deleted": [
-        "草稿已删除"
-      ],
-      "${ count } draft deleted": [
-        "${ count } 份草稿已删除"
-      ],
-      "Message deleted": [
-        "邮件已删除"
-      ],
-      "Conversation deleted": [
-        "会话已删除"
-      ],
-      "${ count } conversation deleted": [
-        "${ count } 条会话已删除"
-      ],
-      "${ count } message deleted": [
-        "${ count } 封邮件已删除"
-      ],
-      "Label cleared": [
-        "标签已清除"
-      ],
-      "Folder cleared": [
-        "文件夹已清空"
-      ],
-      "Public key trusted": [
-        "公钥已信任"
-      ],
-      "Phishing reported": [
-        "欺诈信息举报完成"
-      ],
-      "Mail list unsubscribed": [
-        "邮件订阅已取消订阅"
-      ],
-      "Message marked as legitimate": [
-        "邮件已标为非垃圾邮件"
-      ],
-      "Read receipt sent": [
-        "回执已发送"
-      ],
-      "Address verification disabled": [
-        "地址验证已关闭"
-      ],
-      "Move ${ selectionCount } message": [
-        "移动 ${ selectionCount } 封邮件"
-      ],
-      "Move ${ selectionCount } conversation": [
-        "移动 ${ selectionCount } 条会话"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "验证码"
-      ],
-      "Email": [
-        "邮件"
-      ],
-      "SMS": [
-        "短信"
-      ],
-      "Manual": [
-        "手动"
-      ],
-      "No verification method available": [
-        "没有可用的验证方法"
-      ]
-    },
-    "Table header": {
-      "Name": [
-        "名称"
-      ],
-      "Address": [
-        "地址"
-      ],
-      "Action": [
-        "操作"
-      ],
-      "Fingerprint": [
-        "指纹"
-      ],
-      "Created": [
-        "创建时间"
-      ],
-      "Expires": [
-        "有效期至"
-      ],
-      "Type": [
-        "类型"
-      ],
-      "Status": [
-        "状态"
-      ],
-      "Actions": [
-        "操作"
-      ]
-    },
-    "Warning": {
-      "This feature requires a paid Proton account": [
-        "此功能仅限付费用户使用"
-      ],
-      "Are you sure you want to permanently delete this contact group?": [
-        "您确定要永久删除此联系人群组吗？"
-      ],
-      "Are you sure you want to permanently delete ${ count } contact group?": [
-        "您确定要永久删除 ${ count } 联系人群组吗？"
-      ],
-      "Are you sure you want to permanently delete this contact?": [
-        "您确认要永久删除此邮件吗？"
-      ],
-      "Are you sure you want to permanently delete ${ count } contact?": [
-        "您确定要永久删除 ${ count } 联系人吗？"
-      ],
-      "If you don’t remember your password, it is impossible to re-activate your key. We can help you dismiss the alert banner but in the process you will permanently lose access to all the data encrypted with that key.": [
-        "如果您忘记了密码，您将无法重新激活密钥。我们可以帮助您关闭警告横幅，但在此过程中，您将永久失去通过该密钥加密的所有数据"
-      ],
-      "This action is irreversible. Please enter the word ${ boldDanger } in the field to proceed.": [
-        "此操作不可逆，请在字段中输入 ${ boldDanger } 以继续"
-      ],
-      "The decryption of the encrypted content failed.": [
-        "解密失败"
-      ],
-      "The verification of the contact details' signature failed.": [
-        "联系方式签名验证失败"
-      ],
-      "The contact failed to load.": [
-        "联系人加载失败"
-      ],
-      "Some of the contacts to be merged display errors. Please review them individually": [
-        "部分需合并的联系人无法显示，请单独查看。"
-      ],
-      "Contacts could not be merged": [
-        "无法合并联系人"
-      ],
-      "Are you sure you want to discard your import?": [
-        "您确定要放弃导入吗？"
-      ],
-      "Live chat is a premium feature available only to those with paid ProtonVPN plans. Please open a ticket instead.": [
-        ""
-      ],
-      "Unfortunately, we’re not online at the moment. Please complete the form below to describe your issue, and we will look into it and be in touch when we’re back online.": [
-        "非常抱歉，我们目前不在线。请填写下面的表格来描述您的问题，我们会进行调查并在上线后联系您。"
-      ],
-      "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
-        "反馈内容不会经过端对端加密，请勿发送敏感信息。"
-      ],
-      "Your local date & time settings seem to be out of sync.": [
-        "您的本地日期和时间设置似乎不同步。"
-      ],
-      "Please note that by choosing this payment method, your account cannot be upgraded immediately. We will update your account once the payment is cleared.": [
-        "请注意，使用此方式支付不能立即完成账户升级，支付确认过后我们会马上为您升级账户。"
-      ],
-      "The attachment's signature failed verification.\nYou can still download this attachment but it might have been tampered with.": [
-        "该附件的签名验证失败。\n你仍然可以下载这个附件，但它可能被篡改了。"
-      ]
-    },
-    "Label for contact group name": {
-      "Name": [
-        "姓名"
-      ]
-    },
-    "Placeholder for contact group name": {
-      "Name": [
-        "姓名"
-      ]
-    },
-    "Label for contact group color": {
-      "Color": [
-        "颜色"
-      ]
-    },
-    "Tooltip": {
-      "Automatic indicates that the format in the composer is used to send to this user. Plain text indicates that the message will always be converted to plain text on send.": [
-        "“自动”表示使用编辑区中指定的格式，“纯文本”则表示向此人发送的邮件一律使用纯文本。"
-      ],
-      "Encrypted data with verified digital signature": [
-        "经过已验证的数字签名加密过的数据"
-      ],
-      "Email encryption forces email signature to help authenticate your sent messages": [
-        "电子邮件加密迫使电子邮件签名，以帮助验证您发送的信息。"
-      ],
-      "Digitally signing emails helps authenticating that messages are sent by you": [
-        "数字签名电子邮件有助于验证您发送的消息"
-      ],
-      "Select the PGP scheme to be used when signing or encrypting to a user. Note that PGP/Inline forces plain text messages": [
-        "选择在向用户签名或加密时要使用的 PGP 方案。请注意, PGP/内嵌强制纯文本消息。"
-      ],
-      "Upload a public key to enable sending end-to-end encrypted emails to this email": [
-        "上传公钥后方可向其发送端到端加密的邮件"
-      ],
-      "You do not have any contacts to export": [
-        "您没有任何联系人可导出"
-      ],
-      "Use multiple addresses / aliases linked to your account, e.g. username2@protonmail.com": [
-        "使用多个电子邮箱地址 / 别名连接到您的帐户，例如 username2@protonmail.com"
-      ],
-      "Host emails for your own domain(s) at ProtonMail, e.g. john.smith@example.com": [
-        "使用 ProtonMail 托管您自己的域名，如 zhangsan@example.com"
-      ],
-      "Use the personal address username@pm.me to send emails": [
-        "使用个人邮箱地址 username@pm.me 发送邮件"
-      ],
-      "Multi-user support is only applicable to plans with 2 or more users": [
-        "多用户支持仅适用于 2 名及以上用户方案"
-      ],
-      "NetShield protects your device and speeds up your browsing by blocking ads, trackers, and malware.": [
-        "NetShield通过屏蔽广告、跟踪和恶意软件来保护您的设备并加快您的浏览速度。"
-      ],
-      "Support for file sharing protocols such as BitTorrent.": [
-        "支持诸如 BitTorrent 的文件共享协议。"
-      ],
-      "Access geo-blocked content (Netflix, Amazon Prime Video, BBC iPlayer, Wikipedia, Facebook, YouTube, etc) no matter where you are.": [
-        "无论身在何方，Netflix、Amazon Prime、BBC iPlayer、Wikipedia、Facebook、YouTube 均触手可及。"
-      ],
-      "Route your Internet traffic through the Tor network with a single click.": [
-        "可一键通过 Tor 网络通信。"
-      ],
-      "Defends against threats to VPN privacy by passing your Internet traffic through multiple servers.": [
-        "由多个服务器中转流量，增强 VPN 安全性。"
-      ],
-      "Get access to all the paid features for both ProtonVPN and ProtonMail (the encrypted email service that millions use to protect their data) with one plan.": [
-        "同时享用 ProtonVPN 和 ProtonMail（拥有数百万用户的加密邮箱服务）的所有收费功能。"
-      ],
-      "Get access to all the paid features for both ${ vpnAppName } and ${ mailAppName } (the encrypted email service that millions use to protect their data) with one plan.": [
-        "同时享用 ${ vpnAppName } 和 ${ mailAppName }（拥有数百万用户的加密邮箱服务）的所有收费功能。"
-      ],
-      "Host emails for your own domain(s) at ${ mailAppName }, e.g. john.smith@example.com": [
-        "使用 ${ mailAppName } 托管您自己的域名，如 zhangsan@example.com"
-      ],
-      "Create multiple email addresses linked to your account, e.g. username2@protonmail.com": [
-        "创建多个电子邮件地址连接到您的账户，例如 username2@protonmail.com"
-      ],
-      "Discount applied for annual billing cycle": [
-        "年费折扣已计入"
-      ],
-      "Discount applied for two-year billing cycle": [
-        "两年折扣已计入"
-      ],
-      "If you purchased a gift code or received one from our support team, you can enter it here.": [
-        "若您已购买或从我们的客服团队处获得了礼品码，可以在此输入。"
-      ],
-      "This feature is only available for paid users": [
-        "此功能仅供付费用户使用"
-      ],
-      "This action will download all messages so they can be searched locally. Clearing your browser data will disable this option.": [
-        "此操作将从服务器下载所有邮件并在本地进行搜索，清除浏览器数据将禁用此选项。"
-      ]
-    },
-    "Progress bar description": {
-      "${ contactsExported.length } out of ${ countContacts } contacts successfully exported.": [
-        "共 ${ countContacts } 名联系人，成功导出 ${ contactsExported.length } 名联系人。"
-      ],
-      "No contacts exported.": [
-        "没有导出联系人。"
-      ],
-      "Progress: ${ combinedProgress }%": [
-        "进度：${ combinedProgress }%"
-      ],
-      "${ model.deleted.length } out of ${ totalBeDeleted } contact successfully deleted.": [
-        "${ model.deleted.length }/${ totalBeDeleted } 联系人已成功删除"
-      ],
-      "${ model.submitted.length } out of ${ totalBeMerged } contact successfully merged.": [
-        "共 ${ totalBeMerged } 名联系人，成功合并 ${ model.submitted.length } 名联系人。"
-      ],
-      "No contacts merged.": [
-        "没有合并联系人。"
-      ]
-    },
-    "Description": {
-      "Decrypting contacts... This may take a few minutes. When the process is completed, you will be able to download the file with all your contacts exported.": [
-        "正在解密联系人，可能需要几分钟的时间。完成后您就可以下载导出的联系人了。"
-      ],
-      "Merging contacts... This may take a few minutes. When the process is completed, you can close this modal.": [
-        "正在合并联系人，可能需要几分钟的时间。完成后您就可以关闭此对话框了。"
-      ],
-      "Deleting contacts... This may take a few minutes. When the process is completed, you can close this modal.": [
-        "正在删除联系人... 该过程可能需要几分钟，完成后您就可以关闭此对话框了"
-      ],
-      "Use Drag and Drop to rank merging priority between contacts. Uncheck the contacts you do not want to merge.": [
-        "拖动可调整联系人合并优先级，未勾选的联系人不会被合并。"
-      ],
-      "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
-        "您可以选择稍后删除既不想合并也不想保留的联系人，点击合并按钮后他们就会被删除"
-      ],
-      "The file should have a maximum size of ${ MAX_IMPORT_FILE_SIZE_STRING } and have up to ${ MAX_IMPORT_CONTACTS_STRING } contact. If your file is bigger, please split it into smaller files.": [
-        "文件大小上限为 ${ MAX_IMPORT_FILE_SIZE_STRING }，且联系人总数上限为 ${ MAX_IMPORT_CONTACTS_STRING }。若您的文件超出此限，请将其拆分成较小的文件。"
-      ],
-      "It looks like the contact list you are importing contains some groups. Please review how these groups should be imported.": [
-        "您正在导入的联系人列表似乎包含一些群组，请查看并选择应如何导入这些群组。"
-      ],
-      "Encrypting and importing contacts... This may take a few minutes. When the process is completed, you can close this modal.": [
-        "正在加密并导入联系人... 该过程可能需要几分钟，完成后您就可以关闭此对话框了。"
-      ]
-    },
-    "Notification": {
-      "Contact group updated": [
-        "群组已更改"
-      ],
-      "Contact group created": [
-        "群组已创建"
-      ],
-      "${ _Filter.Name } created": [
-        "${ _Filter.Name } 已创建"
-      ]
-    },
-    "MIME type": {
-      "Automatic": [
-        "自动"
-      ],
-      "Plain text": [
-        "纯文本"
-      ]
-    },
-    "Default encryption scheme": {
-      "Use global default (${ defaultValueText })": [
-        "遵循系统设置 (${ defaultValueText })"
-      ]
-    },
-    "Key badge": {
-      "Primary": [
-        "首选"
-      ],
-      "Verification only": [
-        "仅用于验证"
-      ],
-      "WKD": [
-        "WKD"
-      ],
-      "Trusted": [
-        "已信任"
-      ],
-      "Revoked": [
-        "已吊销"
-      ],
-      "Expired": [
-        "已过期"
-      ]
-    },
-    "TableHeader": {
-      "Name": [
-        "姓名"
-      ],
-      "Address": [
-        "地址"
-      ],
-      "Actions": [
-        "操作"
-      ],
-      "Import": [
-        "导入"
-      ],
-      "CSV field": [
-        "CSV 字段"
-      ],
-      "vCard field": [
-        "vCard 字段"
-      ],
-      "Values": [
-        "值"
-      ]
-    },
-    "Actions message": {
-      "You don't have any groups.": [
-        "您没有任何群组"
-      ],
-      "No results found.": [
-        "未找到结果"
-      ],
-      "Please try another search term.": [
-        "请试下其他搜索词"
-      ],
-      "You don't have any contacts.": [
-        "您没有任何联系人"
-      ],
-      "${ addContact } or ${ importContact }.": [
-        "${ addContact } 或者 ${ importContact }"
-      ]
-    },
-    "Info, no need for singular": {
-      "Multiple contacts look identical. ${ mergeAction }": [
-        "多名联系人重复。${ mergeAction }"
-      ]
-    },
-    "Error notification": {
-      "First name and last name cannot be unchecked at the same time": [
-        "姓和名字不能同时不选"
-      ]
-    },
-    "Description of the purpose of the import CSV modal": {
-      "We have detected the following fields in the CSV file you uploaded. Check the ones you want to import.": [
-        "我们从您选择的 CSV 文件中检测到了以下信息，请选择要导入的内容。"
-      ],
-      "Also, we have automatically matched CSV fields with vCard fields. You can review and change this matching manually.": [
-        "另外，我们已将 CSV 自动转换成 vCard 信息，您可以查看并修改对应关系。"
-      ]
-    },
-    "Option": {
-      "Add to existing group": [
-        "添加到已有队列"
-      ],
-      "Create new group": [
-        "创建群组"
-      ],
-      "Ignore group": [
-        "忽略分组"
-      ],
-      "No parent folder": [
-        "无上层文件夹"
-      ]
-    },
-    "Import contact groups info": {
-      "${ totalContacts } contact": [
-        "${ totalContacts } 名联系人"
-      ]
-    },
-    "Alert": {
-      "By leaving now, some contacts may not be imported": [
-        "如果现在离开，一些联系人可能无法导入"
-      ]
-    },
-    "Import calendar": {
-      "Encrypting and adding contacts: ${ totalImported }/${ totalToImport }": [
-        "正在加密并添加联系人：已完成 ${ totalImported }/${ totalToImport }"
-      ]
-    },
-    "Import contact error": {
-      "Contact ${ contactId }: ": [
-        "联系人 ${ contactId }: "
-      ]
-    },
-    "Info on errors": {
-      "Click for details": [
-        "点击查看详情"
-      ]
-    },
-    "Import contacts warning": {
-      "for now": [
-        "暂时"
-      ],
-      "ProtonContacts does not support ${ forNow }:": [
-        "ProtonContacts 不支持 ${ forNow }:"
-      ]
-    },
-    "Import warning": {
-      "No contact can be imported. Click for details": [
-        "没有联系人可以导入。点击查看详情"
-      ],
-      "${ totalContactsDiscarded } out of ${ totalContacts } contacts will not be imported. Click for details": [
-        "${ totalContactsDiscarded } /${ totalContacts } 联系人将不会被导入。点击查看详情"
-      ]
-    },
-    "Import calendar warning": {
-      "vCard versions < 3.0": [
-        "vCard 版本小于3.0"
-      ]
-    },
-    "Import contacts": {
-      "Contact successfully imported. The imported contact will now appear in your contact list.": [
-        "联系人导入成功，已显示在您的通讯录中。"
-      ],
-      "An error occurred while encrypting and adding your contacts. ${ totalImported } out of ${ totalToImport } contacts successfully imported.": [
-        "加密并添加联系人时出错，${ totalImported }/${ totalToImport } 联系人已成功导入。"
-      ]
-    },
-    "Import contact": {
-      "An error occurred while encrypting and adding your contact. No contact could be imported.": [
-        "加密并添加联系人时出错，未能导入任何联系人。"
-      ],
-      "${ totalImported }/${ totalToImport } contact encrypted and added to your contact list": [
-        "${ totalImported }/${ totalToImport } 联系人已加密并添加到您的联系人列表"
-      ]
-    },
-    "Label to change density": {
-      "Comfortable": [
-        "舒适"
-      ],
-      "Compact": [
-        "紧凑"
-      ]
-    },
-    "Label to change view layout": {
-      "Column": [
-        "列"
-      ],
-      "Row": [
-        "行"
-      ]
-    },
-    "Label to change composer mode": {
-      "Normal": [
-        "常规"
-      ],
-      "Maximized": [
-        "满屏"
-      ]
-    },
-    "Select files": {
-      "Upload": [
-        "上传"
-      ]
-    },
-    "Loading info": {
-      "Connecting to your contacts provider": [
-        "正在连接到您的联系人提供商"
-      ]
-    },
-    "Wizard step": {
-      "Authenticate": [
-        "验证账户"
-      ],
-      "Configure Import": [
-        "导入配置"
-      ],
-      "Import": [
-        "导入"
-      ]
-    },
-    "Confirm modal title": {
-      "Quit import?": [
-        "退出导入？"
-      ],
-      "Message saved to Drafts": [
-        "邮件已保存到草稿箱"
-      ],
-      "Edit and reschedule": [
-        "编辑并重新定时发送"
-      ]
-    },
-    "Error notification in the bug report modal when the user upload file": {
-      "No image selected": [
-        "没有选择图像"
-      ]
-    },
-    "Bug category": {
-      "Sign in problem": [
-        "登录问题"
-      ],
-      "Sign up problem": [
-        "注册问题"
-      ],
-      "Payments problem": [
-        "支付问题"
-      ],
-      "Custom domain problem": [
-        "自有域名问题"
-      ],
-      "Bridge problem": [
-        "Bridge 问题"
-      ],
-      "Import / export problem": [
-        "导入/导出问题"
-      ],
-      "Connection problem": [
-        "连接问题"
-      ],
-      "Slow speed problem": [
-        "速度缓慢"
-      ],
-      "Calendar problem": [
-        "日历问题"
-      ],
-      "Contacts problem": [
-        "通讯录问题"
-      ],
-      "Drive problem": [
-        "网盘问题"
-      ],
-      "Mail problem": [
-        "邮件问题"
-      ],
-      "VPN problem": [
-        "VPN 问题"
-      ],
-      "Feature request": [
-        "功能建议"
-      ],
-      "Other": [
-        "其他"
-      ],
-      "Signup problem": [
-        "注册问题"
-      ],
-      "Installation problem": [
-        "安装问题"
-      ],
-      "Update problem": [
-        "更新问题"
-      ],
-      "Application problem": [
-        "应用程序问题"
-      ],
-      "Speed problem": [
-        "速度问题"
-      ],
-      "Manual setup problem": [
-        "手动设置问题"
-      ],
-      "Website access problem": [
-        "网站连接问题"
-      ],
-      "Streaming problem": [
-        "视频播放问题"
-      ]
-    },
-    "Group": {
-      "Account": [
-        "账户"
-      ],
-      "Apps": [
-        "应用"
-      ],
-      "Network": [
-        "网络"
-      ],
-      "Services": [
-        "服务"
-      ],
-      "Other category": [
-        "其他类别"
-      ],
-      "Default folders": [
-        "默认文件夹"
-      ],
-      "Custom folders": [
-        "自定义文件夹"
-      ],
-      "Labels": [
-        "标签"
-      ]
-    },
-    "Action to select a title for the bug report modal": {
-      "Select": [
-        "选择"
-      ]
-    },
-    "Label, make it short please": {
-      "Attach screenshot(s)": [
-        "添加截图"
-      ]
-    },
-    "Onboarding Proton": {
-      "This is what people will see when you send them an email, invite them to an event, or share a file with them.": [
-        "这是当您向他人发送电子邮件、邀请他人参加活动或与之共享文件时对方会看到的内容。"
-      ],
-      "Choose a display name": [
-        "选择显示名称"
-      ],
-      "Select a theme": [
-        "选择主题"
-      ],
-      "You can change this anytime in your settings.": [
-        "您可以随时在设置中更改。"
-      ],
-      "Discover all Proton services": [
-        "探索所有 Proton 系列服务"
-      ],
-      "Use the app selector in the top left to access other Proton services, including VPN, Calendar and Drive.": [
-        "使用左上角的应用选择器访问其他 Proton 服务，包括 VPN, 日历和云盘。"
-      ],
-      "Welcome to Proton": [
-        "欢迎使用 Proton"
-      ],
-      "Our mission is to build an internet where you are in control of your data and your privacy. We have recently updated Proton - welcome to the secure internet.": [
-        "我们的宗旨是建立一个由您来管控您自己的数据和隐私的网络。我们最近更新了 Proton ―― 畅享安全的互联网吧！"
-      ],
-      "Set up your organization": [
-        "填写机构信息"
-      ],
-      "Configure your organization, link your domain name, and create accounts to ensure all members of your organization are protected.": [
-        "配置您的机构信息、链接您的域名、创建账户以确保您机构的所有成员都受到保护。"
-      ]
-    },
-    "Onboarding Beta": {
-      "Got it": [
-        "知道了"
-      ],
-      "Beta enabled": [
-        "已启用测试版"
-      ],
-      "To disable beta, open the settings dropdown menu and click on the “Beta Access” option.": [
-        "要禁用测试功能，请打开设置下拉菜单并单击“测试版功能”选项。"
-      ]
-    },
-    "Message display when a new app version is available": {
-      "A new version of ${ appName } is available. ${ reloadButton }.": [
-        "${ appName } 有新版本，请${ reloadButton }。"
-      ]
-    },
-    "Text": {
-      "Settings": [
-        "设置"
-      ]
-    },
-    "Early Access Enabled": {
-      "On": [
-        "开"
-      ]
-    },
-    "Early Access Disabled": {
-      "Off": [
-        "关"
-      ]
-    },
-    "Keyboard Shortcuts Enabled": {
-      "On": [
-        "开"
-      ]
-    },
-    "Keyboard Shortcuts Disabled": {
-      "Off": [
-        "关"
-      ]
-    },
-    "Layout mode": {
-      "Column": [
-        "列"
-      ],
-      "Row": [
-        "行"
-      ]
-    },
-    "Density mode": {
-      "Comfortable": [
-        "舒适"
-      ],
-      "Compact": [
-        "紧凑"
-      ]
-    },
-    "Composer size": {
-      "Maximized": [
-        "满屏"
-      ],
-      "Normal": [
-        "常规"
-      ]
-    },
-    "Info for cash payment method": {
-      "Please contact us at ${ email } for instructions on how to pay us with cash.": [
-        "请联系 ${ email } 了解如何使用现金支付。"
-      ]
-    },
-    "Billing cycle option": {
-      "Monthly": [
-        "按月付费"
-      ],
-      "Annually": [
-        "每年"
-      ],
-      "Two-year": [
-        "两年付费"
-      ],
-      "Annually SAVE 20%": [
-        "年费（省 20%）"
-      ],
-      "Two years SAVE 33%": [
-        "两年（省 33%）"
-      ]
-    },
-    "Suffix for price": {
-      "/ month": [
-        "/月"
-      ]
-    },
-    "info": {
-      "(beta)": [
-        "（测试版）"
-      ]
-    },
-    "Mail feature": {
-      "Users": [
-        "用户"
-      ],
-      "Storage": [
-        "存储空间"
-      ],
-      "0.5 GB": [
-        "0.5 GB"
-      ],
-      "20 GB": [
-        "20 GB"
-      ],
-      "Addresses": [
-        "邮箱地址"
-      ],
-      "Custom email addresses": [
-        "自定义电子邮件地址"
-      ],
-      "Messages per day": [
-        "邮件/天"
-      ],
-      "Folders / labels": [
-        "个文件夹/标签"
-      ],
-      "Support": [
-        "客服"
-      ],
-      "Limited": [
-        "受限"
-      ],
-      "Priority": [
-        "优先级"
-      ],
-      "Encrypted contacts": [
-        "通讯录加密"
-      ],
-      "Contact groups": [
-        "联系人群组"
-      ],
-      "Address verification": [
-        "地址验证"
-      ],
-      "Custom filters": [
-        "定制筛选规则"
-      ],
-      "IMAP / SMTP": [
-        "IMAP / SMTP"
-      ],
-      "Autoresponder": [
-        "自动回复"
-      ],
-      "Use @pm.me address": [
-        "可使用 @pm.me 地址"
-      ],
-      "Catch-All email": [
-        ""
-      ],
-      "Multi-user support": [
-        "多用户功能"
-      ]
-    },
-    "Mail feature option": {
-      "5 GB *": [
-        "5 GB *"
-      ],
-      "5 GB / user *": [
-        "5 GB / 用户 *"
-      ],
-      "Unlimited **": [
-        "无限制 **"
-      ],
-      "Unlimited": [
-        "无限制"
-      ]
-    },
-    "Mail feature option: 5 email addresses / user": {
-      "5 / user *": [
-        "5 个 / 用户 *"
-      ]
-    },
-    "information": {
-      "Included": [
-        "已包含在内"
-      ]
-    },
-    "VPN feature": {
-      "VPN Connections": [
-        "VPN 接入量"
-      ],
-      "Speed": [
-        "速度"
-      ],
-      "VPN servers": [
-        "VPN 服务器"
-      ],
-      "Locations/Countries": [
-        "位置/国家"
-      ],
-      "Adblocker (NetShield)": [
-        "广告拦截 (NetShield)"
-      ],
-      "P2P/BitTorrent": [
-        "P2P/BitTorrent"
-      ],
-      "Streaming service support": [
-        "串流服务支持"
-      ],
-      "Tor over VPN": [
-        "Tor+VPN"
-      ],
-      "Secure Core servers": [
-        "安全核心服务器"
-      ],
-      "${ mailAppName } Visionary": [
-        "${ mailAppName } 尊享版"
-      ],
-      "Jurisdiction": [
-        "管辖权"
-      ],
-      "Open Source & audited apps": [
-        "开源并经审核的应用"
-      ],
-      "Access blocked content": [
-        "突破网络封锁"
-      ],
-      "Strict no-logs policy": [
-        "严格的零日志原则"
-      ],
-      "Volume/bandwidth cap": [
-        "容量/带宽上限"
-      ],
-      "User data monetization": [
-        "用户数据盈利"
-      ],
-      "Platforms supported": [
-        "支持平台"
-      ],
-      "Languages supported": [
-        "支持语言"
-      ],
-      "DNS leak prevention": [
-        "DNS 泄露防护"
-      ],
-      "Kill Switch / Always-on VPN": [
-        "安全闸/始终开启 VPN"
-      ],
-      "Perfect Forward Secrecy (PFS)": [
-        "完美前向加密（PFS）"
-      ],
-      "Full Disk Encryption on Servers": [
-        "服务器端全盘加密"
-      ],
-      "Split tunneling": [
-        "VPN 分流"
-      ],
-      "Custom connection profiles": [
-        ""
-      ],
-      "Router support": [
-        "路由器支持"
-      ],
-      "30-days money-back guarantee": [
-        "30 天内可退款"
-      ]
-    },
-    "VPN feature option": {
-      "Medium": [
-        "一般"
-      ],
-      "High": [
-        "高"
-      ],
-      "Highest (up to 10 Gbps)": [
-        "最快（可达 10 Gbps）"
-      ],
-      "Switzerland": [
-        "瑞士"
-      ],
-      "None": [
-        "无"
-      ],
-      "Windows, macOS, iOS, Linux, Android, Android TV, Chromebook, Chromecast": [
-        "Windows、macOS、iOS、Linux、Android、Android TV、Chromebook、Chromecast"
-      ],
-      "(Android & Windows only)": [
-        "(仅限 Android 及 Windows)"
-      ]
-    },
-    "Calendar feature": {
-      "Multiple calendars": [
-        "多日历"
-      ],
-      "Calendar import": [
-        "日历导入"
-      ],
-      "Recurring events": [
-        "重复事件"
-      ],
-      "Invitations": [
-        "邀请"
-      ],
-      "Share Calendar via link": [
-        "通过链接共享日历"
-      ]
-    },
-    "Calendar feature option": {
-      "20 / user *": [
-        "20 个 / 用户 *"
-      ],
-      "20 / user": [
-        "20 个 / 用户"
-      ]
-    },
-    "Drive feature": {
-      "Access via Web": [
-        "通过网页访问"
-      ],
-      "Upload / download files": [
-        "上传/下载文件"
-      ],
-      "Share files via link": [
-        "通过链接共享文件"
-      ]
-    },
-    "Info concerning plan features": {
-      "Customizable features": [
-        "可定制的功能"
-      ],
-      "ProtonMail cannot be used for mass emailing or spamming. Legitimate emails are unlimited.": [
-        "ProtonMail 不允许发送垃圾邮件或大规模群发邮件，合理的邮件没有数量限制。"
-      ]
-    },
-    "Plan Feature": {
-      "${ n } VPN connection": [
-        "${ n } VPN 连接"
-      ],
-      "${ n } server": [
-        "${ n } 台服务器"
-      ]
-    },
-    "Netflix": {
-      "Netflix": [
-        "Netflix"
-      ]
-    },
-    "Disney": {
-      "Disney+": [
-        "Disney+"
-      ]
-    },
-    "Prime Video": {
-      "Prime Video": [
-        "Prime Video"
-      ]
-    },
-    "Many Others": {
-      "and many others": [
-        "- 等等"
-      ]
-    },
-    "Plan feature": {
-      "Built-in Adblocker (NetShield)": [
-        "内置Adblocker (NetShield)"
-      ],
-      "Secure Core servers": [
-        "安全核心服务器"
-      ],
-      "Streaming service support": [
-        "串流服务支持"
-      ],
-      "Access blocked content": [
-        "冲破网络封锁"
-      ],
-      "${ freeServers } in ${ freeCountries } country": [
-        "${ freeCountries } 个国家的 ${ freeServers }"
-      ],
-      "Medium speed": [
-        "速度一般"
-      ],
-      "350+ servers in ${ basicCountries } country": [
-        "${ basicCountries }+ 个国家的 350+ 台服务器"
-      ],
-      "High speed": [
-        "速度较快"
-      ],
-      "1200+ servers in ${ plusCountries } country": [
-        "${ plusCountries } 个国家的 1200+ 台服务器"
-      ],
-      "Highest speed (up to 10 Gbps)": [
-        "速度最快（最高可达 10 Gbps）"
-      ],
-      "All ${ PLAN_NAMES[PLANS.VPNPLUS] } plan features": [
-        "所有 ${ PLAN_NAMES[PLANS.VPNPLUS] } 套餐功能"
-      ],
-      "Includes 6 user accounts": [
-        "包括6个用户帐户"
-      ],
-      "Includes Proton Visionary": [
-        "包含 Proton Visionary"
-      ],
-      "Early access to new products": [
-        "尽早试用新产品"
-      ],
-      "Custom email addresses": [
-        "自定义电子邮件地址"
-      ],
-      "Access to ${ driveAppName } (beta)": [
-        "抢先体验 ${ driveAppName }（公测版）"
-      ],
-      "1 user": [
-        "1 名用户"
-      ],
-      "0.5 GB storage": [
-        "0.5 GB 存储空间"
-      ],
-      "1 address": [
-        "一个邮箱地址"
-      ],
-      "3 folders / labels": [
-        "3 个文件夹/标签"
-      ],
-      "5 GB storage *": [
-        "5 GB 存储空间 *"
-      ],
-      "5 addresses": [
-        "5 个地址 *"
-      ],
-      "200 folders / labels": [
-        "200 个文件夹/标签"
-      ],
-      "1 - 5000 users *": [
-        "1 - 5000 位用户 *"
-      ],
-      "5 GB storage / user": [
-        "5 GB 存储空间 / 用户"
-      ],
-      "5 addresses / user": [
-        "5 个地址 / 用户"
-      ],
-      "Unlimited folders / labels": [
-        "文件夹/标签不限量"
-      ],
-      "6 users": [
-        "6 名用户"
-      ],
-      "20 GB storage": [
-        "20 GB 存储空间"
-      ],
-      "50 addresses": [
-        "50 个邮箱地址"
-      ]
-    },
-    "Price": {
-      "Free": [
-        "免费版"
-      ]
-    },
-    "Countdown unit": {
-      "${ monthsWithYears } month": [
-        "${ monthsWithYears } 月"
-      ],
-      "${ days } day": [
-        "${ days } 天"
-      ]
-    },
-    "Addon": {
-      "+ ${ addresses } email address": [
-        "+ ${ addresses } 个邮箱地址"
-      ],
-      "+ ${ storage } storage": [
-        "+ ${ storage } 存储空间"
-      ],
-      "+ ${ domains } custom domain": [
-        "+ ${ domains } 个自有域名"
-      ],
-      "+ ${ members } user": [
-        "+ ${ members } 位用户"
-      ],
-      "+ ${ vpn } connection": [
-        "+ ${ vpn } VPN 连接数"
-      ]
-    },
-    "Plan info": {
-      "(current plan)": [
-        "（当前套餐）"
-      ]
-    },
-    "Free price": {
-      "Free": [
-        "免费"
-      ]
-    },
-    "Payment method option": {
-      "New credit/debit card": [
-        "添加信用卡/借记卡"
-      ],
-      "PayPal": [
-        "PayPal"
-      ],
-      "Bitcoin": [
-        "比特币"
-      ]
-    },
-    "Beta access description": {
-      "Beta Access lets you use the beta version of ProtonMail, Proton Calendar, and Proton Drive before they are released to the public. This means you can be the first to try new products, get new updates, and use new features.": [
-        "启用 \"测试版功能\" 能让您在正式发布之前使用 ProtonMail, Proton Calendar, Proton Drive 的测试版本。这代表您可以抢先体验新产品，获得最新更新，并使用最新推出的功能"
-      ],
-      "If you encounter issues, you can always disable Beta Access.": [
-        "如果您在使用过程中遇到问题，您可以随时禁用该选项"
-      ]
-    },
-    "Refresh on apply warning": {
-      "Note: the service will reload after you click the Apply button.": [
-        "请注意：点击 \"应用\" 按钮后，服务将重新加载"
-      ]
-    },
-    "New Label form": {
-      "Color": [
-        "颜色"
-      ],
-      "Folder name": [
-        "文件夹名称"
-      ],
-      "Label name": [
-        "标签名称"
-      ]
-    },
-    "label/folder notification": {
-      "${ Label.Name } created": [
-        "${ Label.Name } 已创建"
-      ]
-    },
-    "Filter notification": {
-      "${ Label.Name } updated": [
-        "${ Label.Name } 已更改"
-      ],
-      "Filter ${ Filter.Name } updated": [
-        "${ Filter.Name } 规则已更改"
-      ]
-    },
-    "Label/folder modal": {
-      "Create folder": [
-        "创建文件夹"
-      ],
-      "Create label": [
-        "创建标签"
-      ],
-      "Edit folder": [
-        "更改文件夹"
-      ],
-      "Edit label": [
-        "更改标签"
-      ]
-    },
-    "Filter modal type": {
-      "Select…": [
-        "选择…"
-      ],
-      "The subject": [
-        "主题"
-      ],
-      "The sender": [
-        "发件人"
-      ],
-      "The recipient": [
-        "收件人"
-      ],
-      "The attachment": [
-        "附件"
-      ],
-      "If the subject": [
-        "如果标题"
-      ],
-      "If the sender": [
-        "如果发件人"
-      ],
-      "If the recipient": [
-        "如果收件人"
-      ],
-      "If the attachments": [
-        "如果附件"
-      ]
-    },
-    "Condition for custom filter": {
-      "contains": [
-        "包含"
-      ],
-      "is exactly": [
-        "是"
-      ],
-      "begins with": [
-        "开头是"
-      ],
-      "ends with": [
-        "结尾是"
-      ],
-      "matches": [
-        "匹配"
-      ],
-      "does not contain": [
-        "不包含"
-      ],
-      "is not": [
-        "不是"
-      ],
-      "does not begin with": [
-        "开头不是"
-      ],
-      "does not end with": [
-        "结尾不是"
-      ],
-      "does not match": [
-        "不匹配"
-      ]
-    },
-    "Filter modal operators": {
-      "All conditions must be fulfilled (AND)": [
-        "所有条件同时满足（且）"
-      ],
-      "One condition must be fulfilled (OR)": [
-        "至少一个条件满足（或）"
-      ]
-    },
-    "Option group": {
-      "Move to...": [
-        "移至..."
-      ],
-      "Default folders": [
-        "预置文件夹"
-      ],
-      "Custom folders": [
-        "用户文件夹"
-      ]
-    },
-    "Filter Actions": {
-      "Select a folder": [
-        "选择文件夹"
-      ],
-      "Archive": [
-        "存档"
-      ],
-      "Inbox": [
-        "收件箱"
-      ],
-      "Spam": [
-        "垃圾邮件"
-      ],
-      "Trash": [
-        "废件箱"
-      ]
-    },
-    "Step in filter modal": {
-      "Name": [
-        "名称"
-      ],
-      "Conditions": [
-        "条件"
-      ],
-      "Actions": [
-        "操作"
-      ],
-      "Preview": [
-        "预览"
-      ]
-    },
-    "Filter preview": {
-      "read": [
-        "已读"
-      ],
-      "starred": [
-        "星标邮件"
-      ]
-    },
     "Mailbox": {
       "Inbox": [
         "收件箱"
@@ -6565,6 +6577,12 @@
     "Spotlight": {
       "You can now schedule your messages to be sent later": [
         "您现在可以计划稍后发送邮件"
+      ],
+      "Tracker protection": [
+        ""
+      ],
+      "Proton blocked email trackers in this message in order to protect your privacy": [
+        ""
       ]
     },
     "Message image": {
