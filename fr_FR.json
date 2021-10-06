@@ -5,442 +5,6 @@
   },
   "contexts": {
     "": {},
-    "Error": {
-      "This field is required": [
-        "Ce champ est requis"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Ce champ nécessite un minimum de ${ minimumLength } caractères."
-      ],
-      "Email is not valid": [
-        "L’adresse électronique n’est pas valide"
-      ],
-      "Not a valid number": [
-        "Numéro non valide"
-      ],
-      "Passwords do not match": [
-        "Les mots de passe ne correspondent pas"
-      ],
-      "Address primary private key not found": [
-        "La clé privée principale de l’adresse n’a pas été trouvée"
-      ],
-      "Calendar primary private key is not decrypted": [
-        "La clé privée principale du calendrier n’est pas déchiffrée"
-      ],
-      "Request timed out.": [
-        "La requête a expiré."
-      ],
-      "Signature verification failed": [
-        "Échec de la vérification de la signature"
-      ],
-      "Could not find address ${ email }.": [
-        "Impossible de trouver l’adresse ${ email }."
-      ],
-      "Missing signature": [
-        "Signature manquante"
-      ],
-      "Contact signature not verified": [
-        "Signature du contact non vérifiée"
-      ],
-      "Signature not verified": [
-        "Signature non vérifiée"
-      ],
-      "Invalid name": [
-        "Nom non valide"
-      ],
-      "Email address disabled": [
-        "Adresse électronique désactivée"
-      ],
-      "No keys retrieved for internal user": [
-        "Aucune clé récupérée pour l’utilisateur interne"
-      ],
-      "No valid keys retrieved for internal user": [
-        "Aucune clé valide récupérée pour l’utilisateur interne"
-      ],
-      "Contact signature could not be verified": [
-        "La signature du contact n’a pu être vérifiée"
-      ],
-      "No key retrieved for internal user is valid for sending": [
-        "Aucune clé récupérée pour l’utilisateur interne n’est valide pour l’envoi"
-      ],
-      "Trusted keys are not valid for sending": [
-        "Les clés approuvées ne sont pas valides pour l’envoi"
-      ],
-      "No WKD key retrieved for user is valid for sending": [
-        "Aucune clé WKD récupérée pour l’utilisateur n’est valide pour l’envoi"
-      ],
-      "The sending key is not valid": [
-        "La clé d’envoi n’est pas valide"
-      ],
-      "Unknown error": [
-        "Erreur inconnue"
-      ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser": [
-        "Il est possible que ce message contienne des liens URL qui pourraient ne pas être ouverts correctement par votre navigateur actuel"
-      ],
-      "Authentication canceled.": [
-        "Authentification annulée."
-      ],
-      "Your import will not be processed.": [
-        "Votre importation ne sera pas traitée."
-      ],
-      "Authentication error.": [
-        "Erreur d'authentification."
-      ],
-      "Email address invalid": [
-        "Adresse électronique non valide"
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "Le navigateur que vous utilisez ne permet pas de finaliser l’autorisation de paiement. Veuillez utiliser un autre navigateur ou vous connecter via un ordinateur."
-      ],
-      "Incorrect mailbox password. Please try again": [
-        "Mot de passe de la messagerie incorrect. Veuillez réessayer"
-      ],
-      "Incorrect login credentials. Please try again": [
-        "Identifiants de connexion incorrects. Veuillez réessayer"
-      ],
-      "Can't validate email, try again later": [
-        "Impossible de valider l’adresse électronique, veuillez réessayer plus tard"
-      ],
-      "Can't validate phone, try again later": [
-        "Impossible de valider le numéro de téléphone, veuillez réessayer plus tard"
-      ],
-      "Enter 6 digits": [
-        "Saisissez 6 chiffres"
-      ],
-      "Invalid verification code": [
-        "Code de vérification non valide"
-      ],
-      "Process aborted": [
-        "Processus interrompu"
-      ],
-      "Payment process cancelled": [
-        "Processus de paiement annulé"
-      ],
-      "Payment process failed": [
-        "Échec du processus de paiement"
-      ],
-      "Payment process consumed": [
-        "Processus de paiement achevé"
-      ],
-      "Payment process not supported": [
-        "Processus de paiement non pris en charge"
-      ],
-      "Unknown payment token status": [
-        "Statut du jeton de paiement inconnu"
-      ],
-      "Tab closed": [
-        "Onglet fermé"
-      ],
-      "Name on card required": [
-        "Nom du titulaire de la carte requis"
-      ],
-      "Invalid expiration date": [
-        "Date d’expiration invalide"
-      ],
-      "Invalid card number": [
-        "Numéro de carte non valide"
-      ],
-      "Invalid ${ name } code": [
-        "Code ${ name } non valide"
-      ],
-      "Invalid postal code": [
-        "Code postal invalide"
-      ],
-      "Error connecting to the Bitcoin API.": [
-        "Erreur de connexion à l’API Bitcoin."
-      ],
-      "Amount below minimum.": [
-        "Montant inférieur au minimum autorisé."
-      ],
-      "Amount above the maximum.": [
-        "Montant supérieur au maximum autorisé."
-      ],
-      "The minimum amount that can be donated is ${ price }": [
-        "Le montant minimal qui peut être donné est ${ price }"
-      ],
-      "The minimum amount of credit that can be added is ${ _price }": [
-        "Le montant minimal de crédit qui peut être ajouté est ${ _price }"
-      ],
-      "The minimum payment we accept is ${ _price2 }": [
-        "Le paiement minimal que nous acceptons est ${ _price2 }"
-      ],
-      "Checkout expired, please try again.": [
-        "La commande a expiré, veuillez réessayer."
-      ],
-      "Invalid code": [
-        "Code non valide"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Quelque chose s'est mal passé, veuillez ${ refresh } afin de pouvoir continuer. Si ce message d'erreur s'affiche toujours, veuillez contacter notre ${ supportTeam }."
-      ],
-      "Image upload failed": [
-        "Échec du téléchargement de l’image"
-      ],
-      "Contact could not be saved": [
-        "Le contact n’a pas pu être enregistré"
-      ],
-      "Some contacts could not be deleted": [
-        "Certains contacts n’ont pas pu être supprimés"
-      ],
-      "Preferences could not be saved": [
-        "Les préférences n’ont pas pu être enregistrées"
-      ],
-      "Some groups could not be deleted": [
-        "Certains groupes n'ont pas pu être supprimés"
-      ],
-      "Invalid public key file": [
-        "Fichier de clé publique non valide"
-      ],
-      "You can't send a mail to more than 100 recipients": [
-        "Vous ne pouvez pas envoyer de courriel à plus de 100 destinataires"
-      ],
-      "One of the contacts has no email address: ${ noEmailsContactNamesList }": [
-        "L’un des contacts ne dispose pas d’adresse électronique : ${ noEmailsContactNamesList }",
-        "Certains contacts n disposent pas d’adresse électronique : ${ noEmailsContactNamesList } "
-      ],
-      "You can't send vCards of more than 10 contacts": [
-        "Vous ne pouvez pas envoyer de vCards de plus de 10 contacts"
-      ],
-      "There was an error when exporting the contacts vCards": [
-        "Une erreur s’est produite lors de l’exportation des vCards des contacts"
-      ],
-      "One of the groups has no contacts: ${ noContactGroupList }": [
-        "Un des groupes ne dispose pas de contacts : ${ noContactGroupList }",
-        "Certains groupes ne disposent pas de contacts : ${ noContactGroupList } "
-      ],
-      "You must set a name": [
-        "Vous devez définir un nom"
-      ],
-      "A group with this name already exists": [
-        "Un groupe portant ce nom existe déjà"
-      ],
-      "We were unable to connect to your service provider.": [
-        ""
-      ],
-      "Please try to reauthenticate and make sure the permissions are set correctly.": [
-        ""
-      ],
-      "Primary address key is not decrypted": [
-        "La clé d’adresse principale n’est pas déchiffrée"
-      ],
-      "No valid address found": [
-        "Aucune adresse valide trouvée"
-      ],
-      "Primary address key is not decrypted.": [
-        "La clé d’adresse principale n’est pas déchiffrée."
-      ],
-      "Name required": [
-        "Nom requis"
-      ],
-      "Self invitation not allowed": [
-        "L'auto-invitation n'est pas autorisée"
-      ],
-      "${ list } doesn't have a valid email address": [
-        "${ list } ne contient pas d’adresse électronique valide",
-        "Certains contacts ne contiennent pas d’adresse électronique valide : ${ list }"
-      ],
-      "${ _list } doesn't have an email address": [
-        "${ _list } ne contient pas d’adresse électronique",
-        "Certains contacts ne contiennent pas d’adresse électronique : ${ _list }"
-      ],
-      "${ list } has invalid emails": [
-        "${ list } contient des adresses électroniques non valides",
-        "Certains groupes contiennent des adresses électroniques non valides : ${ list }"
-      ],
-      "${ _list2 } has no contacts": [
-        "${ _list2 } ne contient aucun contact",
-        "Certains groupes ne contiennent aucun contacts : ${ _list2 }"
-      ],
-      "Failed to get original occurrence in series": [
-        "Impossible d’obtenir l’occurrence d’origine dans la série"
-      ],
-      "It is only possible to move events between ${ minDateString } - ${ maxDateString }": [
-        "Seuls les événements situés entre ${ minDateString } et ${ maxDateString } peuvent être déplacés"
-      ],
-      "It is only possible to create events between ${ minDateString } - ${ maxDateString }": [
-        "Il n’est possible de créer des événements qu’entre ${ minDateString } et ${ maxDateString }"
-      ],
-      "Invitation failed to be sent": [
-        "L'invitation n'a pas pu être envoyée"
-      ],
-      "Answer failed to be sent": [
-        "Échec d’envoi de la réponse"
-      ],
-      "Cancellation failed to be sent": [
-        "Échec d’envoi de l’annulation"
-      ],
-      "Invalid link to the event": [
-        "Lien non valide vers l’événement"
-      ],
-      "Please create an address first.": [
-        "Veuillez d’abord créer une adresse."
-      ],
-      "Start time must be before end time": [
-        "L’heure de début doit être antérieure à l’heure de fin"
-      ],
-      "Interval cannot be empty": [
-        "L’intervalle ne peut pas être vide"
-      ],
-      "Ends on date cannot be empty": [
-        "La date de fin ne peut pas être vide"
-      ],
-      "Ends on date must be after start time": [
-        "La date de fin doit être postérieure à l'heure de début"
-      ],
-      "Number of occurrences cannot be empty": [
-        "Le nombre d’occurrences ne peut pas être vide"
-      ],
-      "A maximum of 10 notifications is allowed": [
-        "Un maximum de 10 notifications est autorisé"
-      ],
-      "Invalid email address": [
-        "Adresse électronique non valide"
-      ],
-      "Decryption error: Decryption of this event's content failed.": [
-        "Erreur de déchiffrement : le déchiffrement du contenu de cet événement a échoué."
-      ],
-      "Error: ${ errorMessage }": [
-        "Erreur : ${ errorMessage }"
-      ],
-      "Error": [
-        "Erreur"
-      ]
-    },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "Le mot de passe doit comporter au moins ${ length } caractère",
-        "Le mot de passe doit comporter au moins ${ length } caractères"
-      ]
-    },
-    "file size format": {
-      "bytes": [
-        "octets"
-      ],
-      "KB": [
-        "ko"
-      ],
-      "MB": [
-        "Mo"
-      ],
-      "GB": [
-        "Go"
-      ]
-    },
-    "Contact field label": {
-      "Name": [
-        "Nom"
-      ],
-      "Email": [
-        "Adresse électronique"
-      ],
-      "Phone": [
-        "Téléphone"
-      ],
-      "Address": [
-        "Adresse"
-      ],
-      "Photo": [
-        "Photo"
-      ],
-      "Organization": [
-        "Organisation"
-      ],
-      "Birthday": [
-        "Date de naissance"
-      ],
-      "Anniversary": [
-        "Anniversaire"
-      ],
-      "Title": [
-        "Titre"
-      ],
-      "Role": [
-        "Rôle"
-      ],
-      "Note": [
-        "Note"
-      ],
-      "URL": [
-        "URL"
-      ],
-      "Gender": [
-        "Genre"
-      ],
-      "Language": [
-        "Langue"
-      ],
-      "Timezone": [
-        "Fuseau horaire"
-      ],
-      "Geo": [
-        "Coordonnées géographiques"
-      ],
-      "Logo": [
-        "Logo"
-      ],
-      "Member": [
-        "Membre"
-      ]
-    },
-    "Contact type label": {
-      "Work": [
-        "Bureau"
-      ],
-      "Personal": [
-        "Personnel"
-      ],
-      "Mobile": [
-        "Portable"
-      ],
-      "Main": [
-        "Principal"
-      ],
-      "Yomi": [
-        "Yomi"
-      ],
-      "Other": [
-        "Autre"
-      ],
-      "Fax": [
-        "Fax"
-      ],
-      "Pager": [
-        "Pager"
-      ]
-    },
-    "Property type": {
-      "Email": [
-        "Adresse électronique"
-      ],
-      "Home": [
-        "Domicile"
-      ],
-      "Work": [
-        "Travail"
-      ],
-      "Other": [
-        "Autre"
-      ],
-      "Phone": [
-        "Téléphone"
-      ],
-      "Mobile": [
-        "Portable"
-      ],
-      "Main": [
-        "Principal"
-      ],
-      "Fax": [
-        "Fax"
-      ],
-      "Pager": [
-        "Pager"
-      ],
-      "Address": [
-        "Adresse"
-      ]
-    },
     "Calendar status": {
       "Syncing": [
         "Synchronisation en cours"
@@ -465,8 +29,8 @@
       "Calendar link is not accessible": [
         "Le lien du calendrier n’est pas accessible"
       ],
-      "Calendar link is temporarily unaccessible": [
-        "Le lien du calendrier est temporairement inaccessible"
+      "Calendar link is temporarily inaccessible": [
+        ""
       ],
       "Failed to sync calendar": [
         "Échec de la synchronisation du calendrier"
@@ -1072,45 +636,6 @@
       "Loading ${ appName }": [
         "Chargement de ${ appName }"
       ],
-      "here": [
-        "ici"
-      ],
-      "This account has been suspended due to a potential policy violation.": [
-        "Ce compte a été suspendu en raison d’une violation potentielle des règles d’utilisation."
-      ],
-      "If you believe this is in error, please contact us ${ contactLink }.": [
-        "Si vous pensez que c’est une erreur, veuillez nous contacter ${ contactLink }."
-      ],
-      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
-        "Votre compte Proton est actuellement suspendu. Pour continuer à utiliser votre compte, veuillez régler les factures impayées."
-      ],
-      "Would you like to receive a new verification code or use an alternative verification method?": [
-        "Souhaitez-vous recevoir un nouveau code de vérification ou utiliser une autre méthode de vérification ?"
-      ],
-      "Enter the verification code that was sent to ${ destinationText }.": [
-        "Entrez le code de vérification qui a été envoyé à ${ destinationText }."
-      ],
-      "If you don't find the email in your inbox, please check your spam folder.": [
-        "Si vous ne trouvez pas le message dans votre boîte de réception, veuillez vérifier votre dossier indésirables."
-      ],
-      "To fight spam and abuse, please verify you are human.": [
-        "Pour lutter contre les messages indésirables et les abus, veuillez prouver que vous êtes humain."
-      ],
-      "Your email will only be used for this one-time verification.": [
-        "Votre adresse électronique ne sera utilisée que pour cette vérification unique."
-      ],
-      "Your phone number will only be used for this one-time verification.": [
-        "Votre numéro de téléphone ne sera utilisé que pour cette vérification unique."
-      ],
-      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
-        "Si vous rencontrez des difficultés à créer votre compte, veuillez demander une invitation et nous vous répondrons dans un délai d’un jour ouvré."
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
-        "Cliquez sur « Demander un nouveau code » pour qu’un nouveau code de vérification soit envoyé à ${ strong }. Si cette adresse électronique est incorrecte, cliquez sur « Modifier » pour la corriger."
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
-        "Cliquez sur « Demander un nouveau code » pour envoyer un nouveau code de vérification à ${ strong }. Si ce numéro de téléphone est incorrect, cliquez sur « Modifier » pour le corriger."
-      ],
       "Screenshot(s) attached": [
         "Capture(s) d’écran jointe(s)"
       ],
@@ -1352,6 +877,45 @@
       ],
       "Not customizable": [
         "Non personnalisable"
+      ],
+      "here": [
+        "ici"
+      ],
+      "This account has been suspended due to a potential policy violation.": [
+        "Ce compte a été suspendu en raison d’une violation potentielle des règles d’utilisation."
+      ],
+      "If you believe this is in error, please contact us ${ contactLink }.": [
+        "Si vous pensez que c’est une erreur, veuillez nous contacter ${ contactLink }."
+      ],
+      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
+        "Votre compte Proton est actuellement suspendu. Pour continuer à utiliser votre compte, veuillez régler les factures impayées."
+      ],
+      "Would you like to receive a new verification code or use an alternative verification method?": [
+        "Souhaitez-vous recevoir un nouveau code de vérification ou utiliser une autre méthode de vérification ?"
+      ],
+      "Enter the verification code that was sent to ${ destinationText }.": [
+        "Entrez le code de vérification qui a été envoyé à ${ destinationText }."
+      ],
+      "If you don't find the email in your inbox, please check your spam folder.": [
+        "Si vous ne trouvez pas le message dans votre boîte de réception, veuillez vérifier votre dossier indésirables."
+      ],
+      "To fight spam and abuse, please verify you are human.": [
+        "Pour lutter contre les messages indésirables et les abus, veuillez prouver que vous êtes humain."
+      ],
+      "Your email will only be used for this one-time verification.": [
+        "Votre adresse électronique ne sera utilisée que pour cette vérification unique."
+      ],
+      "Your phone number will only be used for this one-time verification.": [
+        "Votre numéro de téléphone ne sera utilisé que pour cette vérification unique."
+      ],
+      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
+        "Si vous rencontrez des difficultés à créer votre compte, veuillez demander une invitation et nous vous répondrons dans un délai d’un jour ouvré."
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
+        "Cliquez sur « Demander un nouveau code » pour qu’un nouveau code de vérification soit envoyé à ${ strong }. Si cette adresse électronique est incorrecte, cliquez sur « Modifier » pour la corriger."
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
+        "Cliquez sur « Demander un nouveau code » pour envoyer un nouveau code de vérification à ${ strong }. Si ce numéro de téléphone est incorrect, cliquez sur « Modifier » pour le corriger."
       ],
       "Expired": [
         "Expirée"
@@ -1714,6 +1278,442 @@
       ],
       "Loading event": [
         "Chargement de l’événement"
+      ]
+    },
+    "Error": {
+      "Address primary private key not found": [
+        "La clé privée principale de l’adresse n’a pas été trouvée"
+      ],
+      "Calendar primary private key is not decrypted": [
+        "La clé privée principale du calendrier n’est pas déchiffrée"
+      ],
+      "This field is required": [
+        "Ce champ est requis"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Ce champ nécessite un minimum de ${ minimumLength } caractères."
+      ],
+      "Email is not valid": [
+        "L’adresse électronique n’est pas valide"
+      ],
+      "Not a valid number": [
+        "Numéro non valide"
+      ],
+      "Passwords do not match": [
+        "Les mots de passe ne correspondent pas"
+      ],
+      "Request timed out.": [
+        "La requête a expiré."
+      ],
+      "Signature verification failed": [
+        "Échec de la vérification de la signature"
+      ],
+      "Could not find address ${ email }.": [
+        "Impossible de trouver l’adresse ${ email }."
+      ],
+      "Missing signature": [
+        "Signature manquante"
+      ],
+      "Contact signature not verified": [
+        "Signature du contact non vérifiée"
+      ],
+      "Signature not verified": [
+        "Signature non vérifiée"
+      ],
+      "Invalid name": [
+        "Nom non valide"
+      ],
+      "Email address disabled": [
+        "Adresse électronique désactivée"
+      ],
+      "No keys retrieved for internal user": [
+        "Aucune clé récupérée pour l’utilisateur interne"
+      ],
+      "No valid keys retrieved for internal user": [
+        "Aucune clé valide récupérée pour l’utilisateur interne"
+      ],
+      "Contact signature could not be verified": [
+        "La signature du contact n’a pu être vérifiée"
+      ],
+      "No key retrieved for internal user is valid for sending": [
+        "Aucune clé récupérée pour l’utilisateur interne n’est valide pour l’envoi"
+      ],
+      "Trusted keys are not valid for sending": [
+        "Les clés approuvées ne sont pas valides pour l’envoi"
+      ],
+      "No WKD key retrieved for user is valid for sending": [
+        "Aucune clé WKD récupérée pour l’utilisateur n’est valide pour l’envoi"
+      ],
+      "The sending key is not valid": [
+        "La clé d’envoi n’est pas valide"
+      ],
+      "Unknown error": [
+        "Erreur inconnue"
+      ],
+      "This message may contain some link's URL that cannot be properly opened by your current browser": [
+        "Il est possible que ce message contienne des liens URL qui pourraient ne pas être ouverts correctement par votre navigateur actuel"
+      ],
+      "Authentication canceled.": [
+        "Authentification annulée."
+      ],
+      "Your import will not be processed.": [
+        "Votre importation ne sera pas traitée."
+      ],
+      "Authentication error.": [
+        "Erreur d'authentification."
+      ],
+      "Email address invalid": [
+        "Adresse électronique non valide"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "Le navigateur que vous utilisez ne permet pas de finaliser l’autorisation de paiement. Veuillez utiliser un autre navigateur ou vous connecter via un ordinateur."
+      ],
+      "Process aborted": [
+        "Processus interrompu"
+      ],
+      "Payment process cancelled": [
+        "Processus de paiement annulé"
+      ],
+      "Payment process failed": [
+        "Échec du processus de paiement"
+      ],
+      "Payment process consumed": [
+        "Processus de paiement achevé"
+      ],
+      "Payment process not supported": [
+        "Processus de paiement non pris en charge"
+      ],
+      "Unknown payment token status": [
+        "Statut du jeton de paiement inconnu"
+      ],
+      "Tab closed": [
+        "Onglet fermé"
+      ],
+      "Name on card required": [
+        "Nom du titulaire de la carte requis"
+      ],
+      "Invalid expiration date": [
+        "Date d’expiration invalide"
+      ],
+      "Invalid card number": [
+        "Numéro de carte non valide"
+      ],
+      "Invalid ${ name } code": [
+        "Code ${ name } non valide"
+      ],
+      "Invalid postal code": [
+        "Code postal invalide"
+      ],
+      "Error connecting to the Bitcoin API.": [
+        "Erreur de connexion à l’API Bitcoin."
+      ],
+      "Amount below minimum.": [
+        "Montant inférieur au minimum autorisé."
+      ],
+      "Amount above the maximum.": [
+        "Montant supérieur au maximum autorisé."
+      ],
+      "The minimum amount that can be donated is ${ price }": [
+        "Le montant minimal qui peut être donné est ${ price }"
+      ],
+      "The minimum amount of credit that can be added is ${ _price }": [
+        "Le montant minimal de crédit qui peut être ajouté est ${ _price }"
+      ],
+      "The minimum payment we accept is ${ _price2 }": [
+        "Le paiement minimal que nous acceptons est ${ _price2 }"
+      ],
+      "Checkout expired, please try again.": [
+        "La commande a expiré, veuillez réessayer."
+      ],
+      "Invalid code": [
+        "Code non valide"
+      ],
+      "Incorrect mailbox password. Please try again": [
+        "Mot de passe de la messagerie incorrect. Veuillez réessayer"
+      ],
+      "Incorrect login credentials. Please try again": [
+        "Identifiants de connexion incorrects. Veuillez réessayer"
+      ],
+      "Can't validate email, try again later": [
+        "Impossible de valider l’adresse électronique, veuillez réessayer plus tard"
+      ],
+      "Can't validate phone, try again later": [
+        "Impossible de valider le numéro de téléphone, veuillez réessayer plus tard"
+      ],
+      "Enter 6 digits": [
+        "Saisissez 6 chiffres"
+      ],
+      "Invalid verification code": [
+        "Code de vérification non valide"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Quelque chose s'est mal passé, veuillez ${ refresh } afin de pouvoir continuer. Si ce message d'erreur s'affiche toujours, veuillez contacter notre ${ supportTeam }."
+      ],
+      "Image upload failed": [
+        "Échec du téléchargement de l’image"
+      ],
+      "Contact could not be saved": [
+        "Le contact n’a pas pu être enregistré"
+      ],
+      "Some contacts could not be deleted": [
+        "Certains contacts n’ont pas pu être supprimés"
+      ],
+      "Preferences could not be saved": [
+        "Les préférences n’ont pas pu être enregistrées"
+      ],
+      "Some groups could not be deleted": [
+        "Certains groupes n'ont pas pu être supprimés"
+      ],
+      "Invalid public key file": [
+        "Fichier de clé publique non valide"
+      ],
+      "You can't send a mail to more than 100 recipients": [
+        "Vous ne pouvez pas envoyer de courriel à plus de 100 destinataires"
+      ],
+      "One of the contacts has no email address: ${ noEmailsContactNamesList }": [
+        "L’un des contacts ne dispose pas d’adresse électronique : ${ noEmailsContactNamesList }",
+        "Certains contacts n disposent pas d’adresse électronique : ${ noEmailsContactNamesList } "
+      ],
+      "You can't send vCards of more than 10 contacts": [
+        "Vous ne pouvez pas envoyer de vCards de plus de 10 contacts"
+      ],
+      "There was an error when exporting the contacts vCards": [
+        "Une erreur s’est produite lors de l’exportation des vCards des contacts"
+      ],
+      "One of the groups has no contacts: ${ noContactGroupList }": [
+        "Un des groupes ne dispose pas de contacts : ${ noContactGroupList }",
+        "Certains groupes ne disposent pas de contacts : ${ noContactGroupList } "
+      ],
+      "You must set a name": [
+        "Vous devez définir un nom"
+      ],
+      "A group with this name already exists": [
+        "Un groupe portant ce nom existe déjà"
+      ],
+      "We were unable to connect to your service provider.": [
+        ""
+      ],
+      "Please try to reauthenticate and make sure the permissions are set correctly.": [
+        ""
+      ],
+      "Primary address key is not decrypted": [
+        "La clé d’adresse principale n’est pas déchiffrée"
+      ],
+      "No valid address found": [
+        "Aucune adresse valide trouvée"
+      ],
+      "Primary address key is not decrypted.": [
+        "La clé d’adresse principale n’est pas déchiffrée."
+      ],
+      "Name required": [
+        "Nom requis"
+      ],
+      "Self invitation not allowed": [
+        "L'auto-invitation n'est pas autorisée"
+      ],
+      "${ list } doesn't have a valid email address": [
+        "${ list } ne contient pas d’adresse électronique valide",
+        "Certains contacts ne contiennent pas d’adresse électronique valide : ${ list }"
+      ],
+      "${ _list } doesn't have an email address": [
+        "${ _list } ne contient pas d’adresse électronique",
+        "Certains contacts ne contiennent pas d’adresse électronique : ${ _list }"
+      ],
+      "${ list } has invalid emails": [
+        "${ list } contient des adresses électroniques non valides",
+        "Certains groupes contiennent des adresses électroniques non valides : ${ list }"
+      ],
+      "${ _list2 } has no contacts": [
+        "${ _list2 } ne contient aucun contact",
+        "Certains groupes ne contiennent aucun contacts : ${ _list2 }"
+      ],
+      "Failed to get original occurrence in series": [
+        "Impossible d’obtenir l’occurrence d’origine dans la série"
+      ],
+      "It is only possible to move events between ${ minDateString } - ${ maxDateString }": [
+        "Seuls les événements situés entre ${ minDateString } et ${ maxDateString } peuvent être déplacés"
+      ],
+      "It is only possible to create events between ${ minDateString } - ${ maxDateString }": [
+        "Il n’est possible de créer des événements qu’entre ${ minDateString } et ${ maxDateString }"
+      ],
+      "Invitation failed to be sent": [
+        "L'invitation n'a pas pu être envoyée"
+      ],
+      "Answer failed to be sent": [
+        "Échec d’envoi de la réponse"
+      ],
+      "Cancellation failed to be sent": [
+        "Échec d’envoi de l’annulation"
+      ],
+      "Invalid link to the event": [
+        "Lien non valide vers l’événement"
+      ],
+      "Please create an address first.": [
+        "Veuillez d’abord créer une adresse."
+      ],
+      "Start time must be before end time": [
+        "L’heure de début doit être antérieure à l’heure de fin"
+      ],
+      "Interval cannot be empty": [
+        "L’intervalle ne peut pas être vide"
+      ],
+      "Ends on date cannot be empty": [
+        "La date de fin ne peut pas être vide"
+      ],
+      "Ends on date must be after start time": [
+        "La date de fin doit être postérieure à l'heure de début"
+      ],
+      "Number of occurrences cannot be empty": [
+        "Le nombre d’occurrences ne peut pas être vide"
+      ],
+      "A maximum of 10 notifications is allowed": [
+        "Un maximum de 10 notifications est autorisé"
+      ],
+      "Invalid email address": [
+        "Adresse électronique non valide"
+      ],
+      "Decryption error: Decryption of this event's content failed.": [
+        "Erreur de déchiffrement : le déchiffrement du contenu de cet événement a échoué."
+      ],
+      "Error: ${ errorMessage }": [
+        "Erreur : ${ errorMessage }"
+      ],
+      "Error": [
+        "Erreur"
+      ]
+    },
+    "file size format": {
+      "bytes": [
+        "octets"
+      ],
+      "KB": [
+        "ko"
+      ],
+      "MB": [
+        "Mo"
+      ],
+      "GB": [
+        "Go"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "Le mot de passe doit comporter au moins ${ length } caractère",
+        "Le mot de passe doit comporter au moins ${ length } caractères"
+      ]
+    },
+    "Contact field label": {
+      "Name": [
+        "Nom"
+      ],
+      "Email": [
+        "Adresse électronique"
+      ],
+      "Phone": [
+        "Téléphone"
+      ],
+      "Address": [
+        "Adresse"
+      ],
+      "Photo": [
+        "Photo"
+      ],
+      "Organization": [
+        "Organisation"
+      ],
+      "Birthday": [
+        "Date de naissance"
+      ],
+      "Anniversary": [
+        "Anniversaire"
+      ],
+      "Title": [
+        "Titre"
+      ],
+      "Role": [
+        "Rôle"
+      ],
+      "Note": [
+        "Note"
+      ],
+      "URL": [
+        "URL"
+      ],
+      "Gender": [
+        "Genre"
+      ],
+      "Language": [
+        "Langue"
+      ],
+      "Timezone": [
+        "Fuseau horaire"
+      ],
+      "Geo": [
+        "Coordonnées géographiques"
+      ],
+      "Logo": [
+        "Logo"
+      ],
+      "Member": [
+        "Membre"
+      ]
+    },
+    "Contact type label": {
+      "Work": [
+        "Bureau"
+      ],
+      "Personal": [
+        "Personnel"
+      ],
+      "Mobile": [
+        "Portable"
+      ],
+      "Main": [
+        "Principal"
+      ],
+      "Yomi": [
+        "Yomi"
+      ],
+      "Other": [
+        "Autre"
+      ],
+      "Fax": [
+        "Fax"
+      ],
+      "Pager": [
+        "Pager"
+      ]
+    },
+    "Property type": {
+      "Email": [
+        "Adresse électronique"
+      ],
+      "Home": [
+        "Domicile"
+      ],
+      "Work": [
+        "Travail"
+      ],
+      "Other": [
+        "Autre"
+      ],
+      "Phone": [
+        "Téléphone"
+      ],
+      "Mobile": [
+        "Portable"
+      ],
+      "Main": [
+        "Principal"
+      ],
+      "Fax": [
+        "Fax"
+      ],
+      "Pager": [
+        "Pager"
+      ],
+      "Address": [
+        "Adresse"
       ]
     },
     "PGP key warning": {
@@ -2089,33 +2089,6 @@
       "OK": [
         "OK"
       ],
-      "Log in": [
-        "Connexion"
-      ],
-      "View invoice": [
-        "Voir la facture"
-      ],
-      "Get verification code": [
-        "Obtenir un code de vérification"
-      ],
-      "Try another method": [
-        "Essayer une autre méthode"
-      ],
-      "Request new code": [
-        "Demander un nouveau code"
-      ],
-      "Verify": [
-        "Vérifier "
-      ],
-      "Did not receive the code?": [
-        "Vous n’avez pas reçu le code ?"
-      ],
-      "Edit email address": [
-        "Modifier l’adresse électronique"
-      ],
-      "Edit phone number": [
-        "Modifier le numéro de téléphone"
-      ],
       "Clear": [
         "Effacer"
       ],
@@ -2130,6 +2103,9 @@
       ],
       "Remove bonuses": [
         "Retirer les bonus"
+      ],
+      "Verify": [
+        "Vérifier "
       ],
       "Try again": [
         "Réessayer"
@@ -2181,6 +2157,30 @@
       ],
       "Increase": [
         "Augmenter"
+      ],
+      "Log in": [
+        "Connexion"
+      ],
+      "View invoice": [
+        "Voir la facture"
+      ],
+      "Get verification code": [
+        "Obtenir un code de vérification"
+      ],
+      "Try another method": [
+        "Essayer une autre méthode"
+      ],
+      "Request new code": [
+        "Demander un nouveau code"
+      ],
+      "Did not receive the code?": [
+        "Vous n’avez pas reçu le code ?"
+      ],
+      "Edit email address": [
+        "Modifier l’adresse électronique"
+      ],
+      "Edit phone number": [
+        "Modifier le numéro de téléphone"
       ],
       "Save": [
         "Enregistrer"
@@ -2459,24 +2459,6 @@
       "Select a theme": [
         "Choisissez un thème"
       ],
-      "Sign in again to continue": [
-        "Connectez-vous à nouveau pour continuer"
-      ],
-      "Account suspended": [
-        "Compte suspendu"
-      ],
-      "Enter your username or ProtonMail email address": [
-        "Saisissez votre nom d’utilisateur ou votre adresse électronique ProtonMail"
-      ],
-      "Enter your password": [
-        "Saisissez votre mot de passe"
-      ],
-      "Invalid verification code": [
-        "Code de vérification non valide"
-      ],
-      "Human verification": [
-        "Vérification humaine"
-      ],
       "Report a problem": [
         "Signaler un problème"
       ],
@@ -2569,6 +2551,24 @@
       ],
       "${ appName } customization": [
         "Personnalisation de ${ appName }"
+      ],
+      "Sign in again to continue": [
+        "Connectez-vous à nouveau pour continuer"
+      ],
+      "Account suspended": [
+        "Compte suspendu"
+      ],
+      "Enter your username or ProtonMail email address": [
+        "Saisissez votre nom d’utilisateur ou votre adresse électronique ProtonMail"
+      ],
+      "Enter your password": [
+        "Saisissez votre mot de passe"
+      ],
+      "Invalid verification code": [
+        "Code de vérification non valide"
+      ],
+      "Human verification": [
+        "Vérification humaine"
       ],
       "Edit image": [
         "Modifier l’image"
@@ -2883,36 +2883,6 @@
       "Display name": [
         "Nom d’affichage"
       ],
-      "Cancel": [
-        "Annuler"
-      ],
-      "Submit": [
-        "Envoyer"
-      ],
-      "Password": [
-        "Mot de passe"
-      ],
-      "Mailbox password": [
-        "Mot de passe de messagerie"
-      ],
-      "Two-factor authentication code": [
-        "Code d’authentification à deux facteurs"
-      ],
-      "Username or ProtonMail address": [
-        "Nom d’utilisateur ou adresse ProtonMail"
-      ],
-      "Email address": [
-        "Adresse électronique"
-      ],
-      "Phone number": [
-        "Téléphone"
-      ],
-      "Verification code": [
-        "Code de vérification"
-      ],
-      "Enter the 6-digit code": [
-        "Saisissez le code à 6 chiffres"
-      ],
       "Operating system": [
         "Système d’exploitation"
       ],
@@ -2921,6 +2891,9 @@
       ],
       "Proton username": [
         "Nom d’utilisateur Proton"
+      ],
+      "Email address": [
+        "Adresse électronique"
       ],
       "Category": [
         "Catégorie"
@@ -2978,6 +2951,33 @@
       ],
       "Proration": [
         "Prorata"
+      ],
+      "Cancel": [
+        "Annuler"
+      ],
+      "Submit": [
+        "Envoyer"
+      ],
+      "Password": [
+        "Mot de passe"
+      ],
+      "Mailbox password": [
+        "Mot de passe de messagerie"
+      ],
+      "Two-factor authentication code": [
+        "Code d’authentification à deux facteurs"
+      ],
+      "Username or ProtonMail address": [
+        "Nom d’utilisateur ou adresse ProtonMail"
+      ],
+      "Phone number": [
+        "Téléphone"
+      ],
+      "Verification code": [
+        "Code de vérification"
+      ],
+      "Enter the 6-digit code": [
+        "Saisissez le code à 6 chiffres"
       ],
       "Cash": [
         "Espèces"
@@ -3156,9 +3156,6 @@
       "Go to subscription plans": [
         "Accéder aux abonnements"
       ],
-      "Request an invite": [
-        "Demander une invitation"
-      ],
       "clearing your browser cache": [
         "vider le cache de votre navigateur"
       ],
@@ -3167,6 +3164,9 @@
       ],
       "Add a gift code": [
         "Ajouter un code cadeau"
+      ],
+      "Request an invite": [
+        "Demander une invitation"
       ],
       "Pay invoice": [
         "Payer la facture"
@@ -3193,9 +3193,6 @@
       ],
       "e.g. Julia Smith": [
         "p. ex. Julia Smith"
-      ],
-      "Mailbox password": [
-        "Mot de passe de messagerie"
       ],
       "OS name": [
         "Nom du système d’exploitation"
@@ -3226,6 +3223,9 @@
       ],
       "Gift code": [
         "Code cadeau"
+      ],
+      "Mailbox password": [
+        "Mot de passe de messagerie"
       ],
       "Image URL": [
         "URL de l’image"
@@ -3336,17 +3336,17 @@
       "Email address copied to clipboard": [
         "Adresse électronique copiée dans le presse-papiers"
       ],
-      "Code sent to ${ methodTo }": [
-        "Code envoyé à ${ methodTo }"
-      ],
-      "Verification successful": [
-        "Vérification réussie"
-      ],
       "Bug reported": [
         "Erreur signalée"
       ],
       "You have successfully unsubscribed": [
         "Vous vous êtes correctement désabonné"
+      ],
+      "Code sent to ${ methodTo }": [
+        "Code envoyé à ${ methodTo }"
+      ],
+      "Verification successful": [
+        "Vérification réussie"
       ],
       "Contact saved": [
         "Contact enregistré"
@@ -3571,28 +3571,6 @@
       ],
       "Configure your organization, link your domain name, and create accounts to ensure all members of your organization are protected.": [
         "Configurez votre organisation, associez votre nom de domaine et créez des comptes pour garantir la protection de tous les membres de votre organisation."
-      ]
-    },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "Facture impayée"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
-      ],
-      "Email": [
-        "Adresse électronique"
-      ],
-      "SMS": [
-        "SMS"
-      ],
-      "Manual": [
-        "Manuel"
-      ],
-      "No verification method available": [
-        "Aucune méthode de vérification disponible"
       ]
     },
     "Error notification in the bug report modal when the user upload file": {
@@ -4261,6 +4239,28 @@
     "Free price": {
       "Free": [
         "Gratuit"
+      ]
+    },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "Facture impayée"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "Adresse électronique"
+      ],
+      "SMS": [
+        "SMS"
+      ],
+      "Manual": [
+        "Manuel"
+      ],
+      "No verification method available": [
+        "Aucune méthode de vérification disponible"
       ]
     },
     "Payment method option": {

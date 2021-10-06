@@ -5,456 +5,6 @@
   },
   "contexts": {
     "": {},
-    "Error": {
-      "This field is required": [
-        "Це поле обов'язкове"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "В цьому полі повинно бути не менше ${ minimumLength } символів."
-      ],
-      "Email is not valid": [
-        "Е-пошта недійсна"
-      ],
-      "Not a valid number": [
-        "Номер недійсний"
-      ],
-      "Passwords do not match": [
-        "Паролі відрізняються"
-      ],
-      "Address primary private key not found": [
-        "Основний приватний ключ адреси не знайдено"
-      ],
-      "Calendar primary private key is not decrypted": [
-        "Основний приватний ключ календаря не розшифровано"
-      ],
-      "Request timed out.": [
-        "Час очікування запиту завершився."
-      ],
-      "Signature verification failed": [
-        "Неможливо перевірити підпис"
-      ],
-      "Could not find address ${ email }.": [
-        "Неможливо знайти адресу ${ email }."
-      ],
-      "Missing signature": [
-        "Відсутній підпис"
-      ],
-      "Contact signature not verified": [
-        "Підпис контакту не перевірено"
-      ],
-      "Signature not verified": [
-        "Підпис не перевірено"
-      ],
-      "Invalid name": [
-        "Неприпустима назва"
-      ],
-      "Email address disabled": [
-        "Адреса е-пошти вимкнена"
-      ],
-      "No keys retrieved for internal user": [
-        "Для внутрішнього користувача не отримано жодного ключа"
-      ],
-      "No valid keys retrieved for internal user": [
-        "Для внутрішнього користувача не отримано жодного дійсного ключа"
-      ],
-      "Contact signature could not be verified": [
-        "Не вдалося перевірити підпис контакту"
-      ],
-      "No key retrieved for internal user is valid for sending": [
-        "Для внутрішнього користувача не отримано жодного дійсного ключа для надсилання"
-      ],
-      "Trusted keys are not valid for sending": [
-        "Довірені ключі недійсні для надсилання"
-      ],
-      "No WKD key retrieved for user is valid for sending": [
-        "Для користувача не отримано жодного ключа WKD, дійсного для надсилання"
-      ],
-      "The sending key is not valid": [
-        "Ключ надсилання недійсний"
-      ],
-      "Unknown error": [
-        "Невідома помилка"
-      ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser": [
-        "Це повідомлення може містити URL-посилання, які неможливо правильно відкрити у цьому браузері"
-      ],
-      "Authentication canceled.": [
-        "Автентифікацію скасовано."
-      ],
-      "Your import will not be processed.": [
-        "Ваш імпорт не буде оброблений."
-      ],
-      "Authentication error.": [
-        "Помилка автентифікації."
-      ],
-      "Email address invalid": [
-        "Недійсна адреса електронної пошти"
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "Браузер, яким ви користуєтеся, не дозволяє повністю авторизувати платіж. Скористайтеся іншим браузером або увійдіть через комп’ютер."
-      ],
-      "Incorrect mailbox password. Please try again": [
-        "Неправильний пароль поштової скриньки. Спробуйте знову"
-      ],
-      "Incorrect login credentials. Please try again": [
-        "Неправильні дані входу. Спробуйте ще раз"
-      ],
-      "Can't validate email, try again later": [
-        "Не вдається підтвердити електронну пошту. Спробуйте знову пізніше"
-      ],
-      "Can't validate phone, try again later": [
-        "Не вдається підтвердити номер телефону. Спробуйте знову пізніше"
-      ],
-      "Enter 6 digits": [
-        "Введіть 6 цифр"
-      ],
-      "Invalid verification code": [
-        "Недійсний код підтвердження"
-      ],
-      "Process aborted": [
-        "Обробку перервано"
-      ],
-      "Payment process cancelled": [
-        "Обробку платежу скасовано"
-      ],
-      "Payment process failed": [
-        "Не вдалося обробити платіж"
-      ],
-      "Payment process consumed": [
-        "Обробку платежу завершено"
-      ],
-      "Payment process not supported": [
-        "Обробка платежу не підтримується"
-      ],
-      "Unknown payment token status": [
-        "Невідомий стан платіжного токена"
-      ],
-      "Tab closed": [
-        "Вкладку закрито"
-      ],
-      "Name on card required": [
-        "Необхідно ввести ім'я, вказане на картці"
-      ],
-      "Invalid expiration date": [
-        "Недійсний термін дії картки"
-      ],
-      "Invalid card number": [
-        "Недійсний номер картки"
-      ],
-      "Invalid ${ name } code": [
-        "Недійсний код ${ name }"
-      ],
-      "Invalid postal code": [
-        "Недійсний поштовий індекс"
-      ],
-      "Error connecting to the Bitcoin API.": [
-        "Помилка під час з'єднання з Bitcoin API."
-      ],
-      "Amount below minimum.": [
-        "Сума менше допустимого обмеження."
-      ],
-      "Amount above the maximum.": [
-        "Сума перевищує обмеження."
-      ],
-      "The minimum amount that can be donated is ${ price }": [
-        "Найменша сума, яку можна внести, становить ${ price }"
-      ],
-      "The minimum amount of credit that can be added is ${ _price }": [
-        "Найменша сума, яку можна додати, становить ${ _price }"
-      ],
-      "The minimum payment we accept is ${ _price2 }": [
-        "Найменший платіж, який ми приймаємо, становить ${ _price2 }"
-      ],
-      "Checkout expired, please try again.": [
-        "Час оформлення замовлення минув, повторіть спробу."
-      ],
-      "Invalid code": [
-        "Недійсний код"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Щось пішло не так. Будь ласка, ${ refresh } для продовження. Якщо це повідомлення не зникає, зв'яжіться з нашою ${ supportTeam }."
-      ],
-      "Image upload failed": [
-        "Не вдалося вивантажити зображення"
-      ],
-      "Contact could not be saved": [
-        "Не вдалося зберегти контакт"
-      ],
-      "Some contacts could not be deleted": [
-        "Не вдалося видалити деякі контакти"
-      ],
-      "Preferences could not be saved": [
-        "Не вдалося зберегти налаштування"
-      ],
-      "Some groups could not be deleted": [
-        "Не вдається видалити деякі групи"
-      ],
-      "Invalid public key file": [
-        "Недійсний файл відкритого ключа"
-      ],
-      "You can't send a mail to more than 100 recipients": [
-        "Ви не можете надіслати лист понад 100 отримувачам"
-      ],
-      "One of the contacts has no email address: ${ noEmailsContactNamesList }": [
-        "Один контакт не має адреси е-пошти: ${ noEmailsContactNamesList }",
-        "Деякі контакти не мають адреси е-пошти: ${ noEmailsContactNamesList }",
-        "Деякі контакти не мають адреси е-пошти: ${ noEmailsContactNamesList }",
-        "Деякі контакти не мають адреси е-пошти: ${ noEmailsContactNamesList }"
-      ],
-      "You can't send vCards of more than 10 contacts": [
-        "Ви не можете надіслати vCards для понад 10 контактів"
-      ],
-      "There was an error when exporting the contacts vCards": [
-        "При експортуванні vCards для контактів виникла помилка"
-      ],
-      "One of the groups has no contacts: ${ noContactGroupList }": [
-        "В одній з груп немає контактів: ${ noContactGroupList }",
-        "В деяких групах немає контактів: ${ noContactGroupList }",
-        "В деяких групах немає контактів: ${ noContactGroupList }",
-        "В деяких групах немає контактів: ${ noContactGroupList }"
-      ],
-      "You must set a name": [
-        "Ви повинні вказати назву"
-      ],
-      "A group with this name already exists": [
-        "Група з такою назвою вже існує"
-      ],
-      "We were unable to connect to your service provider.": [
-        ""
-      ],
-      "Please try to reauthenticate and make sure the permissions are set correctly.": [
-        ""
-      ],
-      "Primary address key is not decrypted": [
-        "Основний ключ адреси не розшифрований"
-      ],
-      "No valid address found": [
-        "Не знайдено дійсної адреси"
-      ],
-      "Primary address key is not decrypted.": [
-        "Основний ключ адреси не розшифрований."
-      ],
-      "Name required": [
-        "Назва обов'язкова"
-      ],
-      "Self invitation not allowed": [
-        "Запрошення самих себе заборонено"
-      ],
-      "${ list } doesn't have a valid email address": [
-        "${ list } не має дійсної адреси е-пошти",
-        "Деякі контакти не мають дійсної адреси е-пошти: ${ list }",
-        "Деякі контакти не мають дійсної адреси е-пошти: ${ list }",
-        "Деякі контакти не мають дійсної адреси е-пошти: ${ list }"
-      ],
-      "${ _list } doesn't have an email address": [
-        "${ _list } не має адреси е-пошти",
-        "Деякі контакти не мають адреси е-пошти: ${ _list }",
-        "Деякі контакти не мають адреси е-пошти: ${ _list }",
-        "Деякі контакти не мають адреси е-пошти: ${ _list }"
-      ],
-      "${ list } has invalid emails": [
-        "${ list } має недійсні адреси е-пошти",
-        "В деяких групах недійсні адреси е-пошти: ${ list }",
-        "В деяких групах недійсні адреси е-пошти: ${ list }",
-        "В деяких групах недійсні адреси е-пошти: ${ list }"
-      ],
-      "${ _list2 } has no contacts": [
-        "${ _list2 } не має контактів",
-        "У деяких групах немає контактів: ${ _list2 }",
-        "У деяких групах немає контактів: ${ _list2 }",
-        "У деяких групах немає контактів: ${ _list2 }"
-      ],
-      "Failed to get original occurrence in series": [
-        "Не вдалося отримати оригінальне повторення в серії"
-      ],
-      "It is only possible to move events between ${ minDateString } - ${ maxDateString }": [
-        "Можливо переміщувати події лише між ${ minDateString } - ${ maxDateString }"
-      ],
-      "It is only possible to create events between ${ minDateString } - ${ maxDateString }": [
-        "Можливо створювати події лише між ${ minDateString } - ${ maxDateString }"
-      ],
-      "Invitation failed to be sent": [
-        "Не вдалося надіслати запрошення"
-      ],
-      "Answer failed to be sent": [
-        "Не вдалося надіслати відповідь"
-      ],
-      "Cancellation failed to be sent": [
-        "Не вдалося надіслати скасування"
-      ],
-      "Invalid link to the event": [
-        "Недійсне посилання на подію"
-      ],
-      "Please create an address first.": [
-        "Спочатку створіть адресу."
-      ],
-      "Start time must be before end time": [
-        "Час початку повинен бути раніше часу завершення"
-      ],
-      "Interval cannot be empty": [
-        "Інтервал не може бути порожнім"
-      ],
-      "Ends on date cannot be empty": [
-        "Кінцева дата не може бути порожньою"
-      ],
-      "Ends on date must be after start time": [
-        "Дата завершення має бути після початку"
-      ],
-      "Number of occurrences cannot be empty": [
-        "Кількість повторень не може бути порожньою"
-      ],
-      "A maximum of 10 notifications is allowed": [
-        "Дозволено до 10 сповіщень"
-      ],
-      "Invalid email address": [
-        "Недійсна адреса електронної пошти"
-      ],
-      "Decryption error: Decryption of this event's content failed.": [
-        "Помилка розшифрування: Не вдалося розшифрувати вміст цієї події."
-      ],
-      "Error: ${ errorMessage }": [
-        "Помилка: ${ errorMessage }"
-      ],
-      "Error": [
-        "Помилка"
-      ]
-    },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "Пароль повинен містити принаймні ${ length } символ",
-        "Пароль повинен містити принаймні ${ length } символи",
-        "Пароль повинен містити принаймні ${ length } символів",
-        "Пароль повинен містити принаймні ${ length } символів"
-      ]
-    },
-    "file size format": {
-      "bytes": [
-        "байт"
-      ],
-      "KB": [
-        "КБ"
-      ],
-      "MB": [
-        "МБ"
-      ],
-      "GB": [
-        "ГБ"
-      ]
-    },
-    "Contact field label": {
-      "Name": [
-        "Ім'я"
-      ],
-      "Email": [
-        "Е-пошта"
-      ],
-      "Phone": [
-        "Телефон"
-      ],
-      "Address": [
-        "Адреса"
-      ],
-      "Photo": [
-        "Фото"
-      ],
-      "Organization": [
-        "Організація"
-      ],
-      "Birthday": [
-        "День народження"
-      ],
-      "Anniversary": [
-        "Річниця"
-      ],
-      "Title": [
-        "Посада"
-      ],
-      "Role": [
-        "Роль"
-      ],
-      "Note": [
-        "Нотатка"
-      ],
-      "URL": [
-        "URL-адреса"
-      ],
-      "Gender": [
-        "Стать"
-      ],
-      "Language": [
-        "Мова"
-      ],
-      "Timezone": [
-        "Часовий пояс"
-      ],
-      "Geo": [
-        "Геолокація"
-      ],
-      "Logo": [
-        "Логотип"
-      ],
-      "Member": [
-        "Учасник"
-      ]
-    },
-    "Contact type label": {
-      "Work": [
-        "Робота"
-      ],
-      "Personal": [
-        "Особистий"
-      ],
-      "Mobile": [
-        "Мобільний"
-      ],
-      "Main": [
-        "Основний"
-      ],
-      "Yomi": [
-        "Йомі"
-      ],
-      "Other": [
-        "Інше"
-      ],
-      "Fax": [
-        "Факс"
-      ],
-      "Pager": [
-        "Пейджер"
-      ]
-    },
-    "Property type": {
-      "Email": [
-        "Е-пошта"
-      ],
-      "Home": [
-        "Дім"
-      ],
-      "Work": [
-        "Робота"
-      ],
-      "Other": [
-        "Інше"
-      ],
-      "Phone": [
-        "Телефон"
-      ],
-      "Mobile": [
-        "Мобільний"
-      ],
-      "Main": [
-        "Основний"
-      ],
-      "Fax": [
-        "Факс"
-      ],
-      "Pager": [
-        "Пейджер"
-      ],
-      "Address": [
-        "Адреса"
-      ]
-    },
     "Calendar status": {
       "Syncing": [
         "Синхронізація"
@@ -479,8 +29,8 @@
       "Calendar link is not accessible": [
         "Календар за посиланням недоступний"
       ],
-      "Calendar link is temporarily unaccessible": [
-        "Календар за посиланням тимчасово недоступний"
+      "Calendar link is temporarily inaccessible": [
+        ""
       ],
       "Failed to sync calendar": [
         "Не вдалося синхронізувати календар"
@@ -1162,45 +712,6 @@
       "Loading ${ appName }": [
         "Завантаження ${ appName }"
       ],
-      "here": [
-        "тут"
-      ],
-      "This account has been suspended due to a potential policy violation.": [
-        "Цей обліковий запис було призупинено через потенційне порушення правил."
-      ],
-      "If you believe this is in error, please contact us ${ contactLink }.": [
-        "Якщо ви вважаєте, що це помилка, зв'яжіться з нами ${ contactLink }."
-      ],
-      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
-        "Робота вашого облікового запису Proton тимчасово зупинена. Щоб відновити роботу, будь ласка, сплатіть прострочені рахунки."
-      ],
-      "Would you like to receive a new verification code or use an alternative verification method?": [
-        "Бажаєте отримати новий код перевірки чи скористатися іншим способом перевірки?"
-      ],
-      "Enter the verification code that was sent to ${ destinationText }.": [
-        "Введіть код перевірки, який був надісланий на ${ destinationText }."
-      ],
-      "If you don't find the email in your inbox, please check your spam folder.": [
-        "Якщо ви не можете знайти лист у вхідних повідомленнях, перевірте свою теку спаму."
-      ],
-      "To fight spam and abuse, please verify you are human.": [
-        "З метою протидії спаму та зловживанням, будь ласка, підтвердьте, що ви людина."
-      ],
-      "Your email will only be used for this one-time verification.": [
-        "Ваша електронна пошта використається лише для цієї одноразової перевірки."
-      ],
-      "Your phone number will only be used for this one-time verification.": [
-        "Ваш номер телефону використається лише для цієї одноразової перевірки."
-      ],
-      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
-        "Якщо у вас виникли труднощі під час створення облікового запису, подайте запит на запрошення і ми відповімо протягом одного робочого дня."
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
-        "Натисніть \"Запитати новий код\", щоб отримати новий код перевірки на ${ strong }. Якщо ця адреса е-пошти неправильна, натисніть \"Змінити\" для її виправлення."
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
-        "Натисніть \"Запитати новий код\", щоб отримати новий код перевірки на ${ strong }. Якщо цей номер телефону неправильний, натисніть \"Змінити\" для його виправлення."
-      ],
       "Screenshot(s) attached": [
         "Знімки екрана додано"
       ],
@@ -1446,6 +957,45 @@
       ],
       "Not customizable": [
         "Не налаштовується"
+      ],
+      "here": [
+        "тут"
+      ],
+      "This account has been suspended due to a potential policy violation.": [
+        "Цей обліковий запис було призупинено через потенційне порушення правил."
+      ],
+      "If you believe this is in error, please contact us ${ contactLink }.": [
+        "Якщо ви вважаєте, що це помилка, зв'яжіться з нами ${ contactLink }."
+      ],
+      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
+        "Робота вашого облікового запису Proton тимчасово зупинена. Щоб відновити роботу, будь ласка, сплатіть прострочені рахунки."
+      ],
+      "Would you like to receive a new verification code or use an alternative verification method?": [
+        "Бажаєте отримати новий код перевірки чи скористатися іншим способом перевірки?"
+      ],
+      "Enter the verification code that was sent to ${ destinationText }.": [
+        "Введіть код перевірки, який був надісланий на ${ destinationText }."
+      ],
+      "If you don't find the email in your inbox, please check your spam folder.": [
+        "Якщо ви не можете знайти лист у вхідних повідомленнях, перевірте свою теку спаму."
+      ],
+      "To fight spam and abuse, please verify you are human.": [
+        "З метою протидії спаму та зловживанням, будь ласка, підтвердьте, що ви людина."
+      ],
+      "Your email will only be used for this one-time verification.": [
+        "Ваша електронна пошта використається лише для цієї одноразової перевірки."
+      ],
+      "Your phone number will only be used for this one-time verification.": [
+        "Ваш номер телефону використається лише для цієї одноразової перевірки."
+      ],
+      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
+        "Якщо у вас виникли труднощі під час створення облікового запису, подайте запит на запрошення і ми відповімо протягом одного робочого дня."
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
+        "Натисніть \"Запитати новий код\", щоб отримати новий код перевірки на ${ strong }. Якщо ця адреса е-пошти неправильна, натисніть \"Змінити\" для її виправлення."
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
+        "Натисніть \"Запитати новий код\", щоб отримати новий код перевірки на ${ strong }. Якщо цей номер телефону неправильний, натисніть \"Змінити\" для його виправлення."
       ],
       "Expired": [
         "Термін дії минув"
@@ -1818,6 +1368,456 @@
       ],
       "Loading event": [
         "Завантаження події"
+      ]
+    },
+    "Error": {
+      "Address primary private key not found": [
+        "Основний приватний ключ адреси не знайдено"
+      ],
+      "Calendar primary private key is not decrypted": [
+        "Основний приватний ключ календаря не розшифровано"
+      ],
+      "This field is required": [
+        "Це поле обов'язкове"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "В цьому полі повинно бути не менше ${ minimumLength } символів."
+      ],
+      "Email is not valid": [
+        "Е-пошта недійсна"
+      ],
+      "Not a valid number": [
+        "Номер недійсний"
+      ],
+      "Passwords do not match": [
+        "Паролі відрізняються"
+      ],
+      "Request timed out.": [
+        "Час очікування запиту завершився."
+      ],
+      "Signature verification failed": [
+        "Неможливо перевірити підпис"
+      ],
+      "Could not find address ${ email }.": [
+        "Неможливо знайти адресу ${ email }."
+      ],
+      "Missing signature": [
+        "Відсутній підпис"
+      ],
+      "Contact signature not verified": [
+        "Підпис контакту не перевірено"
+      ],
+      "Signature not verified": [
+        "Підпис не перевірено"
+      ],
+      "Invalid name": [
+        "Неприпустима назва"
+      ],
+      "Email address disabled": [
+        "Адреса е-пошти вимкнена"
+      ],
+      "No keys retrieved for internal user": [
+        "Для внутрішнього користувача не отримано жодного ключа"
+      ],
+      "No valid keys retrieved for internal user": [
+        "Для внутрішнього користувача не отримано жодного дійсного ключа"
+      ],
+      "Contact signature could not be verified": [
+        "Не вдалося перевірити підпис контакту"
+      ],
+      "No key retrieved for internal user is valid for sending": [
+        "Для внутрішнього користувача не отримано жодного дійсного ключа для надсилання"
+      ],
+      "Trusted keys are not valid for sending": [
+        "Довірені ключі недійсні для надсилання"
+      ],
+      "No WKD key retrieved for user is valid for sending": [
+        "Для користувача не отримано жодного ключа WKD, дійсного для надсилання"
+      ],
+      "The sending key is not valid": [
+        "Ключ надсилання недійсний"
+      ],
+      "Unknown error": [
+        "Невідома помилка"
+      ],
+      "This message may contain some link's URL that cannot be properly opened by your current browser": [
+        "Це повідомлення може містити URL-посилання, які неможливо правильно відкрити у цьому браузері"
+      ],
+      "Authentication canceled.": [
+        "Автентифікацію скасовано."
+      ],
+      "Your import will not be processed.": [
+        "Ваш імпорт не буде оброблений."
+      ],
+      "Authentication error.": [
+        "Помилка автентифікації."
+      ],
+      "Email address invalid": [
+        "Недійсна адреса електронної пошти"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "Браузер, яким ви користуєтеся, не дозволяє повністю авторизувати платіж. Скористайтеся іншим браузером або увійдіть через комп’ютер."
+      ],
+      "Process aborted": [
+        "Обробку перервано"
+      ],
+      "Payment process cancelled": [
+        "Обробку платежу скасовано"
+      ],
+      "Payment process failed": [
+        "Не вдалося обробити платіж"
+      ],
+      "Payment process consumed": [
+        "Обробку платежу завершено"
+      ],
+      "Payment process not supported": [
+        "Обробка платежу не підтримується"
+      ],
+      "Unknown payment token status": [
+        "Невідомий стан платіжного токена"
+      ],
+      "Tab closed": [
+        "Вкладку закрито"
+      ],
+      "Name on card required": [
+        "Необхідно ввести ім'я, вказане на картці"
+      ],
+      "Invalid expiration date": [
+        "Недійсний термін дії картки"
+      ],
+      "Invalid card number": [
+        "Недійсний номер картки"
+      ],
+      "Invalid ${ name } code": [
+        "Недійсний код ${ name }"
+      ],
+      "Invalid postal code": [
+        "Недійсний поштовий індекс"
+      ],
+      "Error connecting to the Bitcoin API.": [
+        "Помилка під час з'єднання з Bitcoin API."
+      ],
+      "Amount below minimum.": [
+        "Сума менше допустимого обмеження."
+      ],
+      "Amount above the maximum.": [
+        "Сума перевищує обмеження."
+      ],
+      "The minimum amount that can be donated is ${ price }": [
+        "Найменша сума, яку можна внести, становить ${ price }"
+      ],
+      "The minimum amount of credit that can be added is ${ _price }": [
+        "Найменша сума, яку можна додати, становить ${ _price }"
+      ],
+      "The minimum payment we accept is ${ _price2 }": [
+        "Найменший платіж, який ми приймаємо, становить ${ _price2 }"
+      ],
+      "Checkout expired, please try again.": [
+        "Час оформлення замовлення минув, повторіть спробу."
+      ],
+      "Invalid code": [
+        "Недійсний код"
+      ],
+      "Incorrect mailbox password. Please try again": [
+        "Неправильний пароль поштової скриньки. Спробуйте знову"
+      ],
+      "Incorrect login credentials. Please try again": [
+        "Неправильні дані входу. Спробуйте ще раз"
+      ],
+      "Can't validate email, try again later": [
+        "Не вдається підтвердити електронну пошту. Спробуйте знову пізніше"
+      ],
+      "Can't validate phone, try again later": [
+        "Не вдається підтвердити номер телефону. Спробуйте знову пізніше"
+      ],
+      "Enter 6 digits": [
+        "Введіть 6 цифр"
+      ],
+      "Invalid verification code": [
+        "Недійсний код підтвердження"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Щось пішло не так. Будь ласка, ${ refresh } для продовження. Якщо це повідомлення не зникає, зв'яжіться з нашою ${ supportTeam }."
+      ],
+      "Image upload failed": [
+        "Не вдалося вивантажити зображення"
+      ],
+      "Contact could not be saved": [
+        "Не вдалося зберегти контакт"
+      ],
+      "Some contacts could not be deleted": [
+        "Не вдалося видалити деякі контакти"
+      ],
+      "Preferences could not be saved": [
+        "Не вдалося зберегти налаштування"
+      ],
+      "Some groups could not be deleted": [
+        "Не вдається видалити деякі групи"
+      ],
+      "Invalid public key file": [
+        "Недійсний файл відкритого ключа"
+      ],
+      "You can't send a mail to more than 100 recipients": [
+        "Ви не можете надіслати лист понад 100 отримувачам"
+      ],
+      "One of the contacts has no email address: ${ noEmailsContactNamesList }": [
+        "Один контакт не має адреси е-пошти: ${ noEmailsContactNamesList }",
+        "Деякі контакти не мають адреси е-пошти: ${ noEmailsContactNamesList }",
+        "Деякі контакти не мають адреси е-пошти: ${ noEmailsContactNamesList }",
+        "Деякі контакти не мають адреси е-пошти: ${ noEmailsContactNamesList }"
+      ],
+      "You can't send vCards of more than 10 contacts": [
+        "Ви не можете надіслати vCards для понад 10 контактів"
+      ],
+      "There was an error when exporting the contacts vCards": [
+        "При експортуванні vCards для контактів виникла помилка"
+      ],
+      "One of the groups has no contacts: ${ noContactGroupList }": [
+        "В одній з груп немає контактів: ${ noContactGroupList }",
+        "В деяких групах немає контактів: ${ noContactGroupList }",
+        "В деяких групах немає контактів: ${ noContactGroupList }",
+        "В деяких групах немає контактів: ${ noContactGroupList }"
+      ],
+      "You must set a name": [
+        "Ви повинні вказати назву"
+      ],
+      "A group with this name already exists": [
+        "Група з такою назвою вже існує"
+      ],
+      "We were unable to connect to your service provider.": [
+        ""
+      ],
+      "Please try to reauthenticate and make sure the permissions are set correctly.": [
+        ""
+      ],
+      "Primary address key is not decrypted": [
+        "Основний ключ адреси не розшифрований"
+      ],
+      "No valid address found": [
+        "Не знайдено дійсної адреси"
+      ],
+      "Primary address key is not decrypted.": [
+        "Основний ключ адреси не розшифрований."
+      ],
+      "Name required": [
+        "Назва обов'язкова"
+      ],
+      "Self invitation not allowed": [
+        "Запрошення самих себе заборонено"
+      ],
+      "${ list } doesn't have a valid email address": [
+        "${ list } не має дійсної адреси е-пошти",
+        "Деякі контакти не мають дійсної адреси е-пошти: ${ list }",
+        "Деякі контакти не мають дійсної адреси е-пошти: ${ list }",
+        "Деякі контакти не мають дійсної адреси е-пошти: ${ list }"
+      ],
+      "${ _list } doesn't have an email address": [
+        "${ _list } не має адреси е-пошти",
+        "Деякі контакти не мають адреси е-пошти: ${ _list }",
+        "Деякі контакти не мають адреси е-пошти: ${ _list }",
+        "Деякі контакти не мають адреси е-пошти: ${ _list }"
+      ],
+      "${ list } has invalid emails": [
+        "${ list } має недійсні адреси е-пошти",
+        "В деяких групах недійсні адреси е-пошти: ${ list }",
+        "В деяких групах недійсні адреси е-пошти: ${ list }",
+        "В деяких групах недійсні адреси е-пошти: ${ list }"
+      ],
+      "${ _list2 } has no contacts": [
+        "${ _list2 } не має контактів",
+        "У деяких групах немає контактів: ${ _list2 }",
+        "У деяких групах немає контактів: ${ _list2 }",
+        "У деяких групах немає контактів: ${ _list2 }"
+      ],
+      "Failed to get original occurrence in series": [
+        "Не вдалося отримати оригінальне повторення в серії"
+      ],
+      "It is only possible to move events between ${ minDateString } - ${ maxDateString }": [
+        "Можливо переміщувати події лише між ${ minDateString } - ${ maxDateString }"
+      ],
+      "It is only possible to create events between ${ minDateString } - ${ maxDateString }": [
+        "Можливо створювати події лише між ${ minDateString } - ${ maxDateString }"
+      ],
+      "Invitation failed to be sent": [
+        "Не вдалося надіслати запрошення"
+      ],
+      "Answer failed to be sent": [
+        "Не вдалося надіслати відповідь"
+      ],
+      "Cancellation failed to be sent": [
+        "Не вдалося надіслати скасування"
+      ],
+      "Invalid link to the event": [
+        "Недійсне посилання на подію"
+      ],
+      "Please create an address first.": [
+        "Спочатку створіть адресу."
+      ],
+      "Start time must be before end time": [
+        "Час початку повинен бути раніше часу завершення"
+      ],
+      "Interval cannot be empty": [
+        "Інтервал не може бути порожнім"
+      ],
+      "Ends on date cannot be empty": [
+        "Кінцева дата не може бути порожньою"
+      ],
+      "Ends on date must be after start time": [
+        "Дата завершення має бути після початку"
+      ],
+      "Number of occurrences cannot be empty": [
+        "Кількість повторень не може бути порожньою"
+      ],
+      "A maximum of 10 notifications is allowed": [
+        "Дозволено до 10 сповіщень"
+      ],
+      "Invalid email address": [
+        "Недійсна адреса електронної пошти"
+      ],
+      "Decryption error: Decryption of this event's content failed.": [
+        "Помилка розшифрування: Не вдалося розшифрувати вміст цієї події."
+      ],
+      "Error: ${ errorMessage }": [
+        "Помилка: ${ errorMessage }"
+      ],
+      "Error": [
+        "Помилка"
+      ]
+    },
+    "file size format": {
+      "bytes": [
+        "байт"
+      ],
+      "KB": [
+        "КБ"
+      ],
+      "MB": [
+        "МБ"
+      ],
+      "GB": [
+        "ГБ"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "Пароль повинен містити принаймні ${ length } символ",
+        "Пароль повинен містити принаймні ${ length } символи",
+        "Пароль повинен містити принаймні ${ length } символів",
+        "Пароль повинен містити принаймні ${ length } символів"
+      ]
+    },
+    "Contact field label": {
+      "Name": [
+        "Ім'я"
+      ],
+      "Email": [
+        "Е-пошта"
+      ],
+      "Phone": [
+        "Телефон"
+      ],
+      "Address": [
+        "Адреса"
+      ],
+      "Photo": [
+        "Фото"
+      ],
+      "Organization": [
+        "Організація"
+      ],
+      "Birthday": [
+        "День народження"
+      ],
+      "Anniversary": [
+        "Річниця"
+      ],
+      "Title": [
+        "Посада"
+      ],
+      "Role": [
+        "Роль"
+      ],
+      "Note": [
+        "Нотатка"
+      ],
+      "URL": [
+        "URL-адреса"
+      ],
+      "Gender": [
+        "Стать"
+      ],
+      "Language": [
+        "Мова"
+      ],
+      "Timezone": [
+        "Часовий пояс"
+      ],
+      "Geo": [
+        "Геолокація"
+      ],
+      "Logo": [
+        "Логотип"
+      ],
+      "Member": [
+        "Учасник"
+      ]
+    },
+    "Contact type label": {
+      "Work": [
+        "Робота"
+      ],
+      "Personal": [
+        "Особистий"
+      ],
+      "Mobile": [
+        "Мобільний"
+      ],
+      "Main": [
+        "Основний"
+      ],
+      "Yomi": [
+        "Йомі"
+      ],
+      "Other": [
+        "Інше"
+      ],
+      "Fax": [
+        "Факс"
+      ],
+      "Pager": [
+        "Пейджер"
+      ]
+    },
+    "Property type": {
+      "Email": [
+        "Е-пошта"
+      ],
+      "Home": [
+        "Дім"
+      ],
+      "Work": [
+        "Робота"
+      ],
+      "Other": [
+        "Інше"
+      ],
+      "Phone": [
+        "Телефон"
+      ],
+      "Mobile": [
+        "Мобільний"
+      ],
+      "Main": [
+        "Основний"
+      ],
+      "Fax": [
+        "Факс"
+      ],
+      "Pager": [
+        "Пейджер"
+      ],
+      "Address": [
+        "Адреса"
       ]
     },
     "PGP key warning": {
@@ -2193,33 +2193,6 @@
       "OK": [
         "Гаразд"
       ],
-      "Log in": [
-        "Увійти"
-      ],
-      "View invoice": [
-        "Переглянути рахунок-фактуру"
-      ],
-      "Get verification code": [
-        "Отримати код підтвердження"
-      ],
-      "Try another method": [
-        "Спробувати інший спосіб"
-      ],
-      "Request new code": [
-        "Отримати новий код"
-      ],
-      "Verify": [
-        "Перевірити"
-      ],
-      "Did not receive the code?": [
-        "Не отримали код?"
-      ],
-      "Edit email address": [
-        "Змінити електронну адресу"
-      ],
-      "Edit phone number": [
-        "Змінити номер телефону"
-      ],
       "Clear": [
         "Очистити"
       ],
@@ -2234,6 +2207,9 @@
       ],
       "Remove bonuses": [
         "Вилучити бонуси"
+      ],
+      "Verify": [
+        "Перевірити"
       ],
       "Try again": [
         "Спробувати знову"
@@ -2285,6 +2261,30 @@
       ],
       "Increase": [
         "Збільшити"
+      ],
+      "Log in": [
+        "Увійти"
+      ],
+      "View invoice": [
+        "Переглянути рахунок-фактуру"
+      ],
+      "Get verification code": [
+        "Отримати код підтвердження"
+      ],
+      "Try another method": [
+        "Спробувати інший спосіб"
+      ],
+      "Request new code": [
+        "Отримати новий код"
+      ],
+      "Did not receive the code?": [
+        "Не отримали код?"
+      ],
+      "Edit email address": [
+        "Змінити електронну адресу"
+      ],
+      "Edit phone number": [
+        "Змінити номер телефону"
       ],
       "Save": [
         "Зберегти"
@@ -2567,24 +2567,6 @@
       "Select a theme": [
         "Вибрати тему"
       ],
-      "Sign in again to continue": [
-        "Увійдіть знову для продовження"
-      ],
-      "Account suspended": [
-        "Обліковий запис призупинено"
-      ],
-      "Enter your username or ProtonMail email address": [
-        "Введіть своє ім'я користувача або електронну адресу ProtonMail"
-      ],
-      "Enter your password": [
-        "Введіть свій пароль"
-      ],
-      "Invalid verification code": [
-        "Недійсний код підтвердження"
-      ],
-      "Human verification": [
-        "Перевірка \"Я не робот\""
-      ],
       "Report a problem": [
         "Повідомити про проблему"
       ],
@@ -2677,6 +2659,24 @@
       ],
       "${ appName } customization": [
         "Налаштування ${ appName }"
+      ],
+      "Sign in again to continue": [
+        "Увійдіть знову для продовження"
+      ],
+      "Account suspended": [
+        "Обліковий запис призупинено"
+      ],
+      "Enter your username or ProtonMail email address": [
+        "Введіть своє ім'я користувача або електронну адресу ProtonMail"
+      ],
+      "Enter your password": [
+        "Введіть свій пароль"
+      ],
+      "Invalid verification code": [
+        "Недійсний код підтвердження"
+      ],
+      "Human verification": [
+        "Перевірка \"Я не робот\""
       ],
       "Edit image": [
         "Змінити зображення"
@@ -2999,36 +2999,6 @@
       "Display name": [
         "Показуване ім'я"
       ],
-      "Cancel": [
-        "Скасувати"
-      ],
-      "Submit": [
-        "Надіслати"
-      ],
-      "Password": [
-        "Пароль"
-      ],
-      "Mailbox password": [
-        "Пароль поштової скриньки"
-      ],
-      "Two-factor authentication code": [
-        "Код двоетапної перевірки"
-      ],
-      "Username or ProtonMail address": [
-        "Ім'я користувача або адреса ProtonMail"
-      ],
-      "Email address": [
-        "Адреса е-пошти"
-      ],
-      "Phone number": [
-        "Номер телефону"
-      ],
-      "Verification code": [
-        "Код підтвердження"
-      ],
-      "Enter the 6-digit code": [
-        "Введіть 6-значний код"
-      ],
       "Operating system": [
         "Операційна система"
       ],
@@ -3037,6 +3007,9 @@
       ],
       "Proton username": [
         "Ім'я користувача Proton"
+      ],
+      "Email address": [
+        "Адреса е-пошти"
       ],
       "Category": [
         "Категорія"
@@ -3094,6 +3067,33 @@
       ],
       "Proration": [
         "Розподілення"
+      ],
+      "Cancel": [
+        "Скасувати"
+      ],
+      "Submit": [
+        "Надіслати"
+      ],
+      "Password": [
+        "Пароль"
+      ],
+      "Mailbox password": [
+        "Пароль поштової скриньки"
+      ],
+      "Two-factor authentication code": [
+        "Код двоетапної перевірки"
+      ],
+      "Username or ProtonMail address": [
+        "Ім'я користувача або адреса ProtonMail"
+      ],
+      "Phone number": [
+        "Номер телефону"
+      ],
+      "Verification code": [
+        "Код підтвердження"
+      ],
+      "Enter the 6-digit code": [
+        "Введіть 6-значний код"
       ],
       "Cash": [
         "Готівка"
@@ -3274,9 +3274,6 @@
       "Go to subscription plans": [
         "Перейти до тарифних планів"
       ],
-      "Request an invite": [
-        "Запитати запрошення"
-      ],
       "clearing your browser cache": [
         "очищення кешу браузера"
       ],
@@ -3285,6 +3282,9 @@
       ],
       "Add a gift code": [
         "Додати подарунковий код"
+      ],
+      "Request an invite": [
+        "Запитати запрошення"
       ],
       "Pay invoice": [
         "Сплатити рахунок-фактуру"
@@ -3311,9 +3311,6 @@
       ],
       "e.g. Julia Smith": [
         "наприклад, Оксана Пазиненко"
-      ],
-      "Mailbox password": [
-        "Пароль поштової скриньки"
       ],
       "OS name": [
         "Назва ОС"
@@ -3344,6 +3341,9 @@
       ],
       "Gift code": [
         "Подарунковий код"
+      ],
+      "Mailbox password": [
+        "Пароль поштової скриньки"
       ],
       "Image URL": [
         "URL-адреса зображення"
@@ -3460,17 +3460,17 @@
       "Email address copied to clipboard": [
         "Адресу е-пошти скопійовано до буфера обміну"
       ],
-      "Code sent to ${ methodTo }": [
-        "Код надісланий до ${ methodTo }"
-      ],
-      "Verification successful": [
-        "Перевірка пройшла успішно"
-      ],
       "Bug reported": [
         "Звіт про ваду надіслано"
       ],
       "You have successfully unsubscribed": [
         "Ви успішно відписались"
+      ],
+      "Code sent to ${ methodTo }": [
+        "Код надісланий до ${ methodTo }"
+      ],
+      "Verification successful": [
+        "Перевірка пройшла успішно"
       ],
       "Contact saved": [
         "Контакт збережено"
@@ -3699,28 +3699,6 @@
       ],
       "Configure your organization, link your domain name, and create accounts to ensure all members of your organization are protected.": [
         "Налаштуйте свою організацію, прив'яжіть свій домен, а також створіть захищені облікові записи для всіх учасників організації."
-      ]
-    },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "Протермінований рахунок"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
-      ],
-      "Email": [
-        "Електронна пошта"
-      ],
-      "SMS": [
-        "СМС"
-      ],
-      "Manual": [
-        "Вручну"
-      ],
-      "No verification method available": [
-        "Немає доступних способів перевірки"
       ]
     },
     "Error notification in the bug report modal when the user upload file": {
@@ -4415,6 +4393,28 @@
     "Free price": {
       "Free": [
         "Безплатний"
+      ]
+    },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "Протермінований рахунок"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "Електронна пошта"
+      ],
+      "SMS": [
+        "СМС"
+      ],
+      "Manual": [
+        "Вручну"
+      ],
+      "No verification method available": [
+        "Немає доступних способів перевірки"
       ]
     },
     "Payment method option": {

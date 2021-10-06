@@ -5,435 +5,6 @@
   },
   "contexts": {
     "": {},
-    "Error": {
-      "This field is required": [
-        "此欄位為必填"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "此欄位至少須有 ${ minimumLength } 個字元。"
-      ],
-      "Email is not valid": [
-        "電子郵件無效"
-      ],
-      "Not a valid number": [
-        "號碼無效"
-      ],
-      "Passwords do not match": [
-        "密碼不相符"
-      ],
-      "Address primary private key not found": [
-        "找不到地址主要金鑰"
-      ],
-      "Calendar primary private key is not decrypted": [
-        "行事曆主要私密金鑰並未解密"
-      ],
-      "Request timed out.": [
-        "請求逾時。"
-      ],
-      "Signature verification failed": [
-        "簽名驗證失敗"
-      ],
-      "Could not find address ${ email }.": [
-        "找不到地址 ${ email } 。"
-      ],
-      "Missing signature": [
-        "簽章遺失"
-      ],
-      "Contact signature not verified": [
-        "連絡人簽章未驗證"
-      ],
-      "Signature not verified": [
-        "簽章未驗證"
-      ],
-      "Invalid name": [
-        "名稱無效"
-      ],
-      "Email address disabled": [
-        "電子郵件地址已停用"
-      ],
-      "No keys retrieved for internal user": [
-        "內部使用者沒有提取到任何金鑰"
-      ],
-      "No valid keys retrieved for internal user": [
-        "內部使用者沒有提取到任何有效的金鑰"
-      ],
-      "Contact signature could not be verified": [
-        "連絡人簽章無法驗證"
-      ],
-      "No key retrieved for internal user is valid for sending": [
-        "內部使用者沒有提取到任何用於寄送的有效金鑰"
-      ],
-      "Trusted keys are not valid for sending": [
-        "信任的金鑰用於寄送時無效"
-      ],
-      "No WKD key retrieved for user is valid for sending": [
-        "使用者沒有提取到任何用於寄送的有效 WKD 金鑰"
-      ],
-      "The sending key is not valid": [
-        "寄送金鑰無效"
-      ],
-      "Unknown error": [
-        "未知的錯誤"
-      ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser": [
-        "此郵件包含的某些連結 URL 或未能以您目前的瀏覽器正確開啟"
-      ],
-      "Authentication canceled.": [
-        "認證已取消。"
-      ],
-      "Your import will not be processed.": [
-        "您的匯入將不會處理。"
-      ],
-      "Authentication error.": [
-        "認證錯誤。"
-      ],
-      "Email address invalid": [
-        "電子郵件地址無效"
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "您正在使用的瀏覽器不允許您完整授權付款。請使用其他瀏覽器或透過電腦登入。"
-      ],
-      "Incorrect mailbox password. Please try again": [
-        "郵箱密碼不正確，請再試一次"
-      ],
-      "Incorrect login credentials. Please try again": [
-        "登入認證不正確，請再試一次"
-      ],
-      "Can't validate email, try again later": [
-        "無法驗證電子郵件，請稍後再試"
-      ],
-      "Can't validate phone, try again later": [
-        "無法驗證電話號碼，請稍後再試"
-      ],
-      "Enter 6 digits": [
-        "請輸入 6 位數字"
-      ],
-      "Invalid verification code": [
-        "無效的驗證碼"
-      ],
-      "Process aborted": [
-        "處理已中止"
-      ],
-      "Payment process cancelled": [
-        "付款程序已取消"
-      ],
-      "Payment process failed": [
-        "付款程序失敗"
-      ],
-      "Payment process consumed": [
-        "付款程序已開始"
-      ],
-      "Payment process not supported": [
-        "付款程序不支援"
-      ],
-      "Unknown payment token status": [
-        "未知的付款符記狀態"
-      ],
-      "Tab closed": [
-        "分頁已關閉"
-      ],
-      "Name on card required": [
-        "持卡人姓名必須填寫"
-      ],
-      "Invalid expiration date": [
-        "到期日無效"
-      ],
-      "Invalid card number": [
-        "卡號無效"
-      ],
-      "Invalid ${ name } code": [
-        "${ name }代碼無效"
-      ],
-      "Invalid postal code": [
-        "郵遞區號無效"
-      ],
-      "Error connecting to the Bitcoin API.": [
-        "連接比特幣 API 時出錯。"
-      ],
-      "Amount below minimum.": [
-        "金額低於下限。"
-      ],
-      "Amount above the maximum.": [
-        "金額高於上限。"
-      ],
-      "The minimum amount that can be donated is ${ price }": [
-        "最低的捐款金額數量是 ${ price }"
-      ],
-      "The minimum amount of credit that can be added is ${ _price }": [
-        "能夠被儲值的最低金額是 ${ _price }"
-      ],
-      "The minimum payment we accept is ${ _price2 }": [
-        "我們接受的最低付款是 ${ _price2 }"
-      ],
-      "Checkout expired, please try again.": [
-        "結帳已逾時，請重試。"
-      ],
-      "Invalid code": [
-        "無效的代碼"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "發生錯誤，請${ refresh }以繼續。如果您仍看到此錯誤訊息，請聯絡我們的${ supportTeam }。"
-      ],
-      "Image upload failed": [
-        "圖片上載失敗"
-      ],
-      "Contact could not be saved": [
-        "無法儲存聯絡人"
-      ],
-      "Some contacts could not be deleted": [
-        "一些聯絡人未能刪除"
-      ],
-      "Preferences could not be saved": [
-        "無法儲存喜好設定"
-      ],
-      "Some groups could not be deleted": [
-        "部份群組無法刪除"
-      ],
-      "Invalid public key file": [
-        "公開密鑰檔案無效"
-      ],
-      "You can't send a mail to more than 100 recipients": [
-        "您不得傳送一封電子郵件給超過 100 個收件人"
-      ],
-      "One of the contacts has no email address: ${ noEmailsContactNamesList }": [
-        "部份聯絡人無電子郵件地址：${ noEmailsContactNamesList }"
-      ],
-      "You can't send vCards of more than 10 contacts": [
-        "您不得傳送超過 10 個聯絡人的 vCard"
-      ],
-      "There was an error when exporting the contacts vCards": [
-        "匯出聯絡人 vCard 時發生錯誤"
-      ],
-      "One of the groups has no contacts: ${ noContactGroupList }": [
-        "部份群組無聯絡人：${ noContactGroupList }"
-      ],
-      "You must set a name": [
-        "您必須設定名稱"
-      ],
-      "A group with this name already exists": [
-        "以此為名的群組已存在"
-      ],
-      "We were unable to connect to your service provider.": [
-        ""
-      ],
-      "Please try to reauthenticate and make sure the permissions are set correctly.": [
-        ""
-      ],
-      "Primary address key is not decrypted": [
-        "主要地址金鑰並未被加密"
-      ],
-      "No valid address found": [
-        "找不到有效的地址"
-      ],
-      "Primary address key is not decrypted.": [
-        "主要地址金鑰並未被加密。"
-      ],
-      "Name required": [
-        "名稱為必填"
-      ],
-      "Self invitation not allowed": [
-        "不允許自我邀請"
-      ],
-      "${ list } doesn't have a valid email address": [
-        "${ list } 沒有有效的電子郵件地址"
-      ],
-      "${ _list } doesn't have an email address": [
-        "${ _list } 沒有電子郵件地址"
-      ],
-      "${ list } has invalid emails": [
-        "${ list } 沒有有效的電子郵件"
-      ],
-      "${ _list2 } has no contacts": [
-        "${ _list2 } 沒有聯絡人"
-      ],
-      "Failed to get original occurrence in series": [
-        "無法取得系列中原本事件。"
-      ],
-      "It is only possible to move events between ${ minDateString } - ${ maxDateString }": [
-        "僅可在 ${ minDateString } - ${ maxDateString } 之間移動事件"
-      ],
-      "It is only possible to create events between ${ minDateString } - ${ maxDateString }": [
-        "僅可在 ${ minDateString } - ${ maxDateString } 之間創立事件"
-      ],
-      "Invitation failed to be sent": [
-        "邀請傳送失敗"
-      ],
-      "Answer failed to be sent": [
-        "回答傳送失敗"
-      ],
-      "Cancellation failed to be sent": [
-        "取消傳送失敗"
-      ],
-      "Invalid link to the event": [
-        "事件的連結無效"
-      ],
-      "Please create an address first.": [
-        "請先建立一個地址。"
-      ],
-      "Start time must be before end time": [
-        "起始時間必須在結束時間之前"
-      ],
-      "Interval cannot be empty": [
-        "間隔不能為空白"
-      ],
-      "Ends on date cannot be empty": [
-        "結束日期不能為空"
-      ],
-      "Ends on date must be after start time": [
-        "結束日期必須晚於開始日期"
-      ],
-      "Number of occurrences cannot be empty": [
-        "重複次數不能為空"
-      ],
-      "A maximum of 10 notifications is allowed": [
-        "最多可以設定 10 個提醒"
-      ],
-      "Invalid email address": [
-        "電子郵件地址無效"
-      ],
-      "Decryption error: Decryption of this event's content failed.": [
-        "解密失敗：此事件內容解密失敗。"
-      ],
-      "Error: ${ errorMessage }": [
-        "錯誤：${ errorMessage }"
-      ],
-      "Error": [
-        "錯誤"
-      ]
-    },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "密碼至少必須包含 ${ length } 個字元"
-      ]
-    },
-    "file size format": {
-      "bytes": [
-        "位元組"
-      ],
-      "KB": [
-        "KB"
-      ],
-      "MB": [
-        "MB"
-      ],
-      "GB": [
-        "GB"
-      ]
-    },
-    "Contact field label": {
-      "Name": [
-        "姓名"
-      ],
-      "Email": [
-        "電子郵件"
-      ],
-      "Phone": [
-        "電話號碼"
-      ],
-      "Address": [
-        "地址"
-      ],
-      "Photo": [
-        "相片"
-      ],
-      "Organization": [
-        "組織"
-      ],
-      "Birthday": [
-        "生日"
-      ],
-      "Anniversary": [
-        "週年紀念日"
-      ],
-      "Title": [
-        "頭銜"
-      ],
-      "Role": [
-        "角色"
-      ],
-      "Note": [
-        "備註"
-      ],
-      "URL": [
-        "網址"
-      ],
-      "Gender": [
-        "性別"
-      ],
-      "Language": [
-        "語言"
-      ],
-      "Timezone": [
-        "時區"
-      ],
-      "Geo": [
-        "經緯"
-      ],
-      "Logo": [
-        "標誌"
-      ],
-      "Member": [
-        "成員"
-      ]
-    },
-    "Contact type label": {
-      "Work": [
-        "工作"
-      ],
-      "Personal": [
-        "私人"
-      ],
-      "Mobile": [
-        "手機"
-      ],
-      "Main": [
-        "主要"
-      ],
-      "Yomi": [
-        "漢字讀音"
-      ],
-      "Other": [
-        "其他"
-      ],
-      "Fax": [
-        "傳真"
-      ],
-      "Pager": [
-        "呼叫器"
-      ]
-    },
-    "Property type": {
-      "Email": [
-        "電子郵件"
-      ],
-      "Home": [
-        "住家"
-      ],
-      "Work": [
-        "工作"
-      ],
-      "Other": [
-        "其他"
-      ],
-      "Phone": [
-        "電話號碼"
-      ],
-      "Mobile": [
-        "手機"
-      ],
-      "Main": [
-        "主要"
-      ],
-      "Fax": [
-        "傳真"
-      ],
-      "Pager": [
-        "呼叫器"
-      ],
-      "Address": [
-        "地址"
-      ]
-    },
     "Calendar status": {
       "Syncing": [
         "正在同步"
@@ -458,8 +29,8 @@
       "Calendar link is not accessible": [
         "日曆無法存取"
       ],
-      "Calendar link is temporarily unaccessible": [
-        "日曆連結暫時無法存取"
+      "Calendar link is temporarily inaccessible": [
+        ""
       ],
       "Failed to sync calendar": [
         "同步日曆失敗"
@@ -1027,45 +598,6 @@
       "Loading ${ appName }": [
         "載入${ appName }"
       ],
-      "here": [
-        "此處"
-      ],
-      "This account has been suspended due to a potential policy violation.": [
-        "因為可能違反政策，因此這個已被暫時停用。"
-      ],
-      "If you believe this is in error, please contact us ${ contactLink }.": [
-        "如果您相信這是錯的，請聯絡我們 ${ contactLink }。"
-      ],
-      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
-        "你的Proton帳戶已被暫停。請先支付任何逾期的款項，然後繼續使用你的帳戶。"
-      ],
-      "Would you like to receive a new verification code or use an alternative verification method?": [
-        "你想接收新的驗證碼還是選擇另一種驗證方式？"
-      ],
-      "Enter the verification code that was sent to ${ destinationText }.": [
-        "輸入從 ${ destinationText } 接收的驗證碼。"
-      ],
-      "If you don't find the email in your inbox, please check your spam folder.": [
-        "如果你看不到郵件，請檢查您的垃圾郵件文件夾。"
-      ],
-      "To fight spam and abuse, please verify you are human.": [
-        "為防止惡意行為，請證明您不是機器人。"
-      ],
-      "Your email will only be used for this one-time verification.": [
-        "您的電子郵件只會用於此一次驗證。"
-      ],
-      "Your phone number will only be used for this one-time verification.": [
-        "您的電話號碼只會用於此一次驗證。"
-      ],
-      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
-        "如果你無法建立帳戶，請聯絡我們。我們將會於一個工作天內處理你的申請。"
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
-        "按一下「要求新代碼」向 ${ strong } 發送新的驗證碼。如果此電子郵件地址不正確，請按一下「編輯」作出修正。"
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
-        "按一下「要求新代碼」向 ${ strong } 發送新的驗證碼。如果此電話號碼不正確，請按一下「編輯」作出修正。"
-      ],
       "Screenshot(s) attached": [
         "已附加的螢幕截圖"
       ],
@@ -1305,6 +837,45 @@
       ],
       "Not customizable": [
         "不能自訂"
+      ],
+      "here": [
+        "此處"
+      ],
+      "This account has been suspended due to a potential policy violation.": [
+        "因為可能違反政策，因此這個已被暫時停用。"
+      ],
+      "If you believe this is in error, please contact us ${ contactLink }.": [
+        "如果您相信這是錯的，請聯絡我們 ${ contactLink }。"
+      ],
+      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
+        "你的Proton帳戶已被暫停。請先支付任何逾期的款項，然後繼續使用你的帳戶。"
+      ],
+      "Would you like to receive a new verification code or use an alternative verification method?": [
+        "你想接收新的驗證碼還是選擇另一種驗證方式？"
+      ],
+      "Enter the verification code that was sent to ${ destinationText }.": [
+        "輸入從 ${ destinationText } 接收的驗證碼。"
+      ],
+      "If you don't find the email in your inbox, please check your spam folder.": [
+        "如果你看不到郵件，請檢查您的垃圾郵件文件夾。"
+      ],
+      "To fight spam and abuse, please verify you are human.": [
+        "為防止惡意行為，請證明您不是機器人。"
+      ],
+      "Your email will only be used for this one-time verification.": [
+        "您的電子郵件只會用於此一次驗證。"
+      ],
+      "Your phone number will only be used for this one-time verification.": [
+        "您的電話號碼只會用於此一次驗證。"
+      ],
+      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
+        "如果你無法建立帳戶，請聯絡我們。我們將會於一個工作天內處理你的申請。"
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
+        "按一下「要求新代碼」向 ${ strong } 發送新的驗證碼。如果此電子郵件地址不正確，請按一下「編輯」作出修正。"
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
+        "按一下「要求新代碼」向 ${ strong } 發送新的驗證碼。如果此電話號碼不正確，請按一下「編輯」作出修正。"
       ],
       "Expired": [
         "過期"
@@ -1662,6 +1233,435 @@
       ],
       "Loading event": [
         "正在載入事件"
+      ]
+    },
+    "Error": {
+      "Address primary private key not found": [
+        "找不到地址主要金鑰"
+      ],
+      "Calendar primary private key is not decrypted": [
+        "行事曆主要私密金鑰並未解密"
+      ],
+      "This field is required": [
+        "此欄位為必填"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "此欄位至少須有 ${ minimumLength } 個字元。"
+      ],
+      "Email is not valid": [
+        "電子郵件無效"
+      ],
+      "Not a valid number": [
+        "號碼無效"
+      ],
+      "Passwords do not match": [
+        "密碼不相符"
+      ],
+      "Request timed out.": [
+        "請求逾時。"
+      ],
+      "Signature verification failed": [
+        "簽名驗證失敗"
+      ],
+      "Could not find address ${ email }.": [
+        "找不到地址 ${ email } 。"
+      ],
+      "Missing signature": [
+        "簽章遺失"
+      ],
+      "Contact signature not verified": [
+        "連絡人簽章未驗證"
+      ],
+      "Signature not verified": [
+        "簽章未驗證"
+      ],
+      "Invalid name": [
+        "名稱無效"
+      ],
+      "Email address disabled": [
+        "電子郵件地址已停用"
+      ],
+      "No keys retrieved for internal user": [
+        "內部使用者沒有提取到任何金鑰"
+      ],
+      "No valid keys retrieved for internal user": [
+        "內部使用者沒有提取到任何有效的金鑰"
+      ],
+      "Contact signature could not be verified": [
+        "連絡人簽章無法驗證"
+      ],
+      "No key retrieved for internal user is valid for sending": [
+        "內部使用者沒有提取到任何用於寄送的有效金鑰"
+      ],
+      "Trusted keys are not valid for sending": [
+        "信任的金鑰用於寄送時無效"
+      ],
+      "No WKD key retrieved for user is valid for sending": [
+        "使用者沒有提取到任何用於寄送的有效 WKD 金鑰"
+      ],
+      "The sending key is not valid": [
+        "寄送金鑰無效"
+      ],
+      "Unknown error": [
+        "未知的錯誤"
+      ],
+      "This message may contain some link's URL that cannot be properly opened by your current browser": [
+        "此郵件包含的某些連結 URL 或未能以您目前的瀏覽器正確開啟"
+      ],
+      "Authentication canceled.": [
+        "認證已取消。"
+      ],
+      "Your import will not be processed.": [
+        "您的匯入將不會處理。"
+      ],
+      "Authentication error.": [
+        "認證錯誤。"
+      ],
+      "Email address invalid": [
+        "電子郵件地址無效"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "您正在使用的瀏覽器不允許您完整授權付款。請使用其他瀏覽器或透過電腦登入。"
+      ],
+      "Process aborted": [
+        "處理已中止"
+      ],
+      "Payment process cancelled": [
+        "付款程序已取消"
+      ],
+      "Payment process failed": [
+        "付款程序失敗"
+      ],
+      "Payment process consumed": [
+        "付款程序已開始"
+      ],
+      "Payment process not supported": [
+        "付款程序不支援"
+      ],
+      "Unknown payment token status": [
+        "未知的付款符記狀態"
+      ],
+      "Tab closed": [
+        "分頁已關閉"
+      ],
+      "Name on card required": [
+        "持卡人姓名必須填寫"
+      ],
+      "Invalid expiration date": [
+        "到期日無效"
+      ],
+      "Invalid card number": [
+        "卡號無效"
+      ],
+      "Invalid ${ name } code": [
+        "${ name }代碼無效"
+      ],
+      "Invalid postal code": [
+        "郵遞區號無效"
+      ],
+      "Error connecting to the Bitcoin API.": [
+        "連接比特幣 API 時出錯。"
+      ],
+      "Amount below minimum.": [
+        "金額低於下限。"
+      ],
+      "Amount above the maximum.": [
+        "金額高於上限。"
+      ],
+      "The minimum amount that can be donated is ${ price }": [
+        "最低的捐款金額數量是 ${ price }"
+      ],
+      "The minimum amount of credit that can be added is ${ _price }": [
+        "能夠被儲值的最低金額是 ${ _price }"
+      ],
+      "The minimum payment we accept is ${ _price2 }": [
+        "我們接受的最低付款是 ${ _price2 }"
+      ],
+      "Checkout expired, please try again.": [
+        "結帳已逾時，請重試。"
+      ],
+      "Invalid code": [
+        "無效的代碼"
+      ],
+      "Incorrect mailbox password. Please try again": [
+        "郵箱密碼不正確，請再試一次"
+      ],
+      "Incorrect login credentials. Please try again": [
+        "登入認證不正確，請再試一次"
+      ],
+      "Can't validate email, try again later": [
+        "無法驗證電子郵件，請稍後再試"
+      ],
+      "Can't validate phone, try again later": [
+        "無法驗證電話號碼，請稍後再試"
+      ],
+      "Enter 6 digits": [
+        "請輸入 6 位數字"
+      ],
+      "Invalid verification code": [
+        "無效的驗證碼"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "發生錯誤，請${ refresh }以繼續。如果您仍看到此錯誤訊息，請聯絡我們的${ supportTeam }。"
+      ],
+      "Image upload failed": [
+        "圖片上載失敗"
+      ],
+      "Contact could not be saved": [
+        "無法儲存聯絡人"
+      ],
+      "Some contacts could not be deleted": [
+        "一些聯絡人未能刪除"
+      ],
+      "Preferences could not be saved": [
+        "無法儲存喜好設定"
+      ],
+      "Some groups could not be deleted": [
+        "部份群組無法刪除"
+      ],
+      "Invalid public key file": [
+        "公開密鑰檔案無效"
+      ],
+      "You can't send a mail to more than 100 recipients": [
+        "您不得傳送一封電子郵件給超過 100 個收件人"
+      ],
+      "One of the contacts has no email address: ${ noEmailsContactNamesList }": [
+        "部份聯絡人無電子郵件地址：${ noEmailsContactNamesList }"
+      ],
+      "You can't send vCards of more than 10 contacts": [
+        "您不得傳送超過 10 個聯絡人的 vCard"
+      ],
+      "There was an error when exporting the contacts vCards": [
+        "匯出聯絡人 vCard 時發生錯誤"
+      ],
+      "One of the groups has no contacts: ${ noContactGroupList }": [
+        "部份群組無聯絡人：${ noContactGroupList }"
+      ],
+      "You must set a name": [
+        "您必須設定名稱"
+      ],
+      "A group with this name already exists": [
+        "以此為名的群組已存在"
+      ],
+      "We were unable to connect to your service provider.": [
+        ""
+      ],
+      "Please try to reauthenticate and make sure the permissions are set correctly.": [
+        ""
+      ],
+      "Primary address key is not decrypted": [
+        "主要地址金鑰並未被加密"
+      ],
+      "No valid address found": [
+        "找不到有效的地址"
+      ],
+      "Primary address key is not decrypted.": [
+        "主要地址金鑰並未被加密。"
+      ],
+      "Name required": [
+        "名稱為必填"
+      ],
+      "Self invitation not allowed": [
+        "不允許自我邀請"
+      ],
+      "${ list } doesn't have a valid email address": [
+        "${ list } 沒有有效的電子郵件地址"
+      ],
+      "${ _list } doesn't have an email address": [
+        "${ _list } 沒有電子郵件地址"
+      ],
+      "${ list } has invalid emails": [
+        "${ list } 沒有有效的電子郵件"
+      ],
+      "${ _list2 } has no contacts": [
+        "${ _list2 } 沒有聯絡人"
+      ],
+      "Failed to get original occurrence in series": [
+        "無法取得系列中原本事件。"
+      ],
+      "It is only possible to move events between ${ minDateString } - ${ maxDateString }": [
+        "僅可在 ${ minDateString } - ${ maxDateString } 之間移動事件"
+      ],
+      "It is only possible to create events between ${ minDateString } - ${ maxDateString }": [
+        "僅可在 ${ minDateString } - ${ maxDateString } 之間創立事件"
+      ],
+      "Invitation failed to be sent": [
+        "邀請傳送失敗"
+      ],
+      "Answer failed to be sent": [
+        "回答傳送失敗"
+      ],
+      "Cancellation failed to be sent": [
+        "取消傳送失敗"
+      ],
+      "Invalid link to the event": [
+        "事件的連結無效"
+      ],
+      "Please create an address first.": [
+        "請先建立一個地址。"
+      ],
+      "Start time must be before end time": [
+        "起始時間必須在結束時間之前"
+      ],
+      "Interval cannot be empty": [
+        "間隔不能為空白"
+      ],
+      "Ends on date cannot be empty": [
+        "結束日期不能為空"
+      ],
+      "Ends on date must be after start time": [
+        "結束日期必須晚於開始日期"
+      ],
+      "Number of occurrences cannot be empty": [
+        "重複次數不能為空"
+      ],
+      "A maximum of 10 notifications is allowed": [
+        "最多可以設定 10 個提醒"
+      ],
+      "Invalid email address": [
+        "電子郵件地址無效"
+      ],
+      "Decryption error: Decryption of this event's content failed.": [
+        "解密失敗：此事件內容解密失敗。"
+      ],
+      "Error: ${ errorMessage }": [
+        "錯誤：${ errorMessage }"
+      ],
+      "Error": [
+        "錯誤"
+      ]
+    },
+    "file size format": {
+      "bytes": [
+        "位元組"
+      ],
+      "KB": [
+        "KB"
+      ],
+      "MB": [
+        "MB"
+      ],
+      "GB": [
+        "GB"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "密碼至少必須包含 ${ length } 個字元"
+      ]
+    },
+    "Contact field label": {
+      "Name": [
+        "姓名"
+      ],
+      "Email": [
+        "電子郵件"
+      ],
+      "Phone": [
+        "電話號碼"
+      ],
+      "Address": [
+        "地址"
+      ],
+      "Photo": [
+        "相片"
+      ],
+      "Organization": [
+        "組織"
+      ],
+      "Birthday": [
+        "生日"
+      ],
+      "Anniversary": [
+        "週年紀念日"
+      ],
+      "Title": [
+        "頭銜"
+      ],
+      "Role": [
+        "角色"
+      ],
+      "Note": [
+        "備註"
+      ],
+      "URL": [
+        "網址"
+      ],
+      "Gender": [
+        "性別"
+      ],
+      "Language": [
+        "語言"
+      ],
+      "Timezone": [
+        "時區"
+      ],
+      "Geo": [
+        "經緯"
+      ],
+      "Logo": [
+        "標誌"
+      ],
+      "Member": [
+        "成員"
+      ]
+    },
+    "Contact type label": {
+      "Work": [
+        "工作"
+      ],
+      "Personal": [
+        "私人"
+      ],
+      "Mobile": [
+        "手機"
+      ],
+      "Main": [
+        "主要"
+      ],
+      "Yomi": [
+        "漢字讀音"
+      ],
+      "Other": [
+        "其他"
+      ],
+      "Fax": [
+        "傳真"
+      ],
+      "Pager": [
+        "呼叫器"
+      ]
+    },
+    "Property type": {
+      "Email": [
+        "電子郵件"
+      ],
+      "Home": [
+        "住家"
+      ],
+      "Work": [
+        "工作"
+      ],
+      "Other": [
+        "其他"
+      ],
+      "Phone": [
+        "電話號碼"
+      ],
+      "Mobile": [
+        "手機"
+      ],
+      "Main": [
+        "主要"
+      ],
+      "Fax": [
+        "傳真"
+      ],
+      "Pager": [
+        "呼叫器"
+      ],
+      "Address": [
+        "地址"
       ]
     },
     "PGP key warning": {
@@ -2037,33 +2037,6 @@
       "OK": [
         "確定"
       ],
-      "Log in": [
-        "登入"
-      ],
-      "View invoice": [
-        "檢視發票"
-      ],
-      "Get verification code": [
-        "取得驗證碼"
-      ],
-      "Try another method": [
-        "嘗試其他方法"
-      ],
-      "Request new code": [
-        "重發驗證碼"
-      ],
-      "Verify": [
-        "驗證"
-      ],
-      "Did not receive the code?": [
-        "尚未收到驗證碼？"
-      ],
-      "Edit email address": [
-        "編輯電子郵件地址"
-      ],
-      "Edit phone number": [
-        "編輯電話號碼"
-      ],
       "Clear": [
         "清除"
       ],
@@ -2078,6 +2051,9 @@
       ],
       "Remove bonuses": [
         "移除獎勵"
+      ],
+      "Verify": [
+        "驗證"
       ],
       "Try again": [
         "再試一次"
@@ -2129,6 +2105,30 @@
       ],
       "Increase": [
         "加"
+      ],
+      "Log in": [
+        "登入"
+      ],
+      "View invoice": [
+        "檢視發票"
+      ],
+      "Get verification code": [
+        "取得驗證碼"
+      ],
+      "Try another method": [
+        "嘗試其他方法"
+      ],
+      "Request new code": [
+        "重發驗證碼"
+      ],
+      "Did not receive the code?": [
+        "尚未收到驗證碼？"
+      ],
+      "Edit email address": [
+        "編輯電子郵件地址"
+      ],
+      "Edit phone number": [
+        "編輯電話號碼"
       ],
       "Save": [
         "儲存"
@@ -2405,24 +2405,6 @@
       "Select a theme": [
         "選擇佈景主題"
       ],
-      "Sign in again to continue": [
-        "請重新登入以繼續"
-      ],
-      "Account suspended": [
-        "帳號被暫停"
-      ],
-      "Enter your username or ProtonMail email address": [
-        "請輸入您的使用者名稱或 ProtonMail 電子郵件地址"
-      ],
-      "Enter your password": [
-        "請輸入您的密碼"
-      ],
-      "Invalid verification code": [
-        "無效的驗證碼"
-      ],
-      "Human verification": [
-        "真人驗證"
-      ],
       "Report a problem": [
         "回報問題"
       ],
@@ -2515,6 +2497,24 @@
       ],
       "${ appName } customization": [
         "${ appName } 自訂化"
+      ],
+      "Sign in again to continue": [
+        "請重新登入以繼續"
+      ],
+      "Account suspended": [
+        "帳號被暫停"
+      ],
+      "Enter your username or ProtonMail email address": [
+        "請輸入您的使用者名稱或 ProtonMail 電子郵件地址"
+      ],
+      "Enter your password": [
+        "請輸入您的密碼"
+      ],
+      "Invalid verification code": [
+        "無效的驗證碼"
+      ],
+      "Human verification": [
+        "真人驗證"
       ],
       "Edit image": [
         "編輯圖片"
@@ -2825,36 +2825,6 @@
       "Display name": [
         "顯示名稱"
       ],
-      "Cancel": [
-        "取消"
-      ],
-      "Submit": [
-        "送出"
-      ],
-      "Password": [
-        "密碼"
-      ],
-      "Mailbox password": [
-        "郵箱密碼"
-      ],
-      "Two-factor authentication code": [
-        "兩步驟驗證碼"
-      ],
-      "Username or ProtonMail address": [
-        "使用者名稱或 ProtonMail 電子郵件地址"
-      ],
-      "Email address": [
-        "電子郵件地址"
-      ],
-      "Phone number": [
-        "電話號碼"
-      ],
-      "Verification code": [
-        "驗證碼"
-      ],
-      "Enter the 6-digit code": [
-        "請輸入 6 位數代碼"
-      ],
       "Operating system": [
         "操作系统"
       ],
@@ -2863,6 +2833,9 @@
       ],
       "Proton username": [
         "Proton 使用者名稱"
+      ],
+      "Email address": [
+        "電子郵件地址"
       ],
       "Category": [
         "類別"
@@ -2920,6 +2893,33 @@
       ],
       "Proration": [
         "按比例分配後"
+      ],
+      "Cancel": [
+        "取消"
+      ],
+      "Submit": [
+        "送出"
+      ],
+      "Password": [
+        "密碼"
+      ],
+      "Mailbox password": [
+        "郵箱密碼"
+      ],
+      "Two-factor authentication code": [
+        "兩步驟驗證碼"
+      ],
+      "Username or ProtonMail address": [
+        "使用者名稱或 ProtonMail 電子郵件地址"
+      ],
+      "Phone number": [
+        "電話號碼"
+      ],
+      "Verification code": [
+        "驗證碼"
+      ],
+      "Enter the 6-digit code": [
+        "請輸入 6 位數代碼"
       ],
       "Cash": [
         "現金"
@@ -3097,9 +3097,6 @@
       "Go to subscription plans": [
         "前往訂閱方案"
       ],
-      "Request an invite": [
-        "請求一個邀請"
-      ],
       "clearing your browser cache": [
         "清除瀏覽器快取"
       ],
@@ -3108,6 +3105,9 @@
       ],
       "Add a gift code": [
         "新增禮品代碼"
+      ],
+      "Request an invite": [
+        "請求一個邀請"
       ],
       "Pay invoice": [
         "付款發票"
@@ -3134,9 +3134,6 @@
       ],
       "e.g. Julia Smith": [
         "範例：衛梓祐"
-      ],
-      "Mailbox password": [
-        "郵箱密碼"
       ],
       "OS name": [
         "作業系統名稱"
@@ -3167,6 +3164,9 @@
       ],
       "Gift code": [
         "禮品代碼"
+      ],
+      "Mailbox password": [
+        "郵箱密碼"
       ],
       "Image URL": [
         "圖片 URL"
@@ -3274,17 +3274,17 @@
       "Email address copied to clipboard": [
         "電子郵件地址已複製到剪貼簿"
       ],
-      "Code sent to ${ methodTo }": [
-        "已向 ${ methodTo } 發送驗證碼"
-      ],
-      "Verification successful": [
-        "驗證成功"
-      ],
       "Bug reported": [
         "錯誤回報"
       ],
       "You have successfully unsubscribed": [
         "您已成功取消訂閱"
+      ],
+      "Code sent to ${ methodTo }": [
+        "已向 ${ methodTo } 發送驗證碼"
+      ],
+      "Verification successful": [
+        "驗證成功"
       ],
       "Contact saved": [
         "聯絡人已儲存"
@@ -3507,28 +3507,6 @@
       ],
       "Configure your organization, link your domain name, and create accounts to ensure all members of your organization are protected.": [
         "設置您的組織、連結您的網域名稱，並建立各個帳號以確保您的組織中所有成員均得到保護。"
-      ]
-    },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "逾期帳單"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA 驗證碼"
-      ],
-      "Email": [
-        "電子郵件"
-      ],
-      "SMS": [
-        "簡訊"
-      ],
-      "Manual": [
-        "手動"
-      ],
-      "No verification method available": [
-        "沒有可用的驗證方式"
       ]
     },
     "Error notification in the bug report modal when the user upload file": {
@@ -4184,6 +4162,28 @@
     "Free price": {
       "Free": [
         "免費"
+      ]
+    },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "逾期帳單"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA 驗證碼"
+      ],
+      "Email": [
+        "電子郵件"
+      ],
+      "SMS": [
+        "簡訊"
+      ],
+      "Manual": [
+        "手動"
+      ],
+      "No verification method available": [
+        "沒有可用的驗證方式"
       ]
     },
     "Payment method option": {

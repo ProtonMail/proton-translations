@@ -5,442 +5,6 @@
   },
   "contexts": {
     "": {},
-    "Error": {
-      "This field is required": [
-        "Bu alan gereklidir"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Bu alan minimum ${ minimumLength } karakter gerektirir."
-      ],
-      "Email is not valid": [
-        "Geçersiz E-posta"
-      ],
-      "Not a valid number": [
-        "Geçersiz numara"
-      ],
-      "Passwords do not match": [
-        "Şifreler eşleşmiyor"
-      ],
-      "Address primary private key not found": [
-        "Adres birincil özel anahtarı bulunamadı"
-      ],
-      "Calendar primary private key is not decrypted": [
-        "Takvim birincil özel anahtarının şifresi çözülemedi"
-      ],
-      "Request timed out.": [
-        "İstek zaman aşımına uğradı."
-      ],
-      "Signature verification failed": [
-        "İmza doğrulaması başarısız oldu"
-      ],
-      "Could not find address ${ email }.": [
-        "${ email } adresi bulunamadı."
-      ],
-      "Missing signature": [
-        "İmza eksik"
-      ],
-      "Contact signature not verified": [
-        "Kişi imzası doğrulanamadı"
-      ],
-      "Signature not verified": [
-        "İmza doğrulanamadı"
-      ],
-      "Invalid name": [
-        "Geçersiz ad"
-      ],
-      "Email address disabled": [
-        "E-posta adresi devre dışı"
-      ],
-      "No keys retrieved for internal user": [
-        "Dahili kullanıcı için anahtar alınamadı"
-      ],
-      "No valid keys retrieved for internal user": [
-        "Dahili kullanıcı için geçerli anahtar alınamadı"
-      ],
-      "Contact signature could not be verified": [
-        "Kişi imzası doğrulanamadı"
-      ],
-      "No key retrieved for internal user is valid for sending": [
-        "Dahili kullanıcı için alınan hiçbir anahtar göndermek için geçerli değil"
-      ],
-      "Trusted keys are not valid for sending": [
-        "Güvenilir anahtarlar göndermek için geçerli değil"
-      ],
-      "No WKD key retrieved for user is valid for sending": [
-        "Kullanıcı için alınan WKD anahtarı gönderilemez"
-      ],
-      "The sending key is not valid": [
-        "Gönderilen anahtar geçerli değil"
-      ],
-      "Unknown error": [
-        "Bilinmeyen hata"
-      ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser": [
-        "Bu ileti, mevcut tarayıcınızda açılamayacak bazı bağlantı adreslerini içerebilir"
-      ],
-      "Authentication canceled.": [
-        "Kimlik doğrulama iptal edildi."
-      ],
-      "Your import will not be processed.": [
-        "İçe aktarımınız işlenmeyecektir."
-      ],
-      "Authentication error.": [
-        "Doğrulama hatası."
-      ],
-      "Email address invalid": [
-        "E-posta adresi geçersiz"
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "Kullanmakta olduğunuz tarayıcı ödemenin tam olarak onaylanmasına izin vermemektedir. Lütfen farklı bir tarayıcı kullanın ya da bir bilgisayarla oturum açın."
-      ],
-      "Incorrect mailbox password. Please try again": [
-        "Posta kutusu şifresi yanlış. Lütfen tekrar deneyin"
-      ],
-      "Incorrect login credentials. Please try again": [
-        "Giriş bilgileri yanlış, lütfen tekrar deneyin"
-      ],
-      "Can't validate email, try again later": [
-        "E-posta doğrulanamıyor, daha sonra tekrar deneyin"
-      ],
-      "Can't validate phone, try again later": [
-        "Telefon doğrulanamıyor, daha sonra tekrar deneyin"
-      ],
-      "Enter 6 digits": [
-        "6 hane girin"
-      ],
-      "Invalid verification code": [
-        "Doğrulama kodu geçersiz"
-      ],
-      "Process aborted": [
-        "İşlem iptal edildi"
-      ],
-      "Payment process cancelled": [
-        "Ödeme işlemi iptal edildi"
-      ],
-      "Payment process failed": [
-        "Ödeme işlemi başarısız oldu"
-      ],
-      "Payment process consumed": [
-        "Ödeme süresi bitti"
-      ],
-      "Payment process not supported": [
-        "Ödeme işlemi desteklenmiyor"
-      ],
-      "Unknown payment token status": [
-        "Bilinmeyen ödeme belirteci durumu"
-      ],
-      "Tab closed": [
-        "Sekme kapatıldı"
-      ],
-      "Name on card required": [
-        "Kartın üzerindeki ad gerekli"
-      ],
-      "Invalid expiration date": [
-        "Geçersiz son kullanım tarihi"
-      ],
-      "Invalid card number": [
-        "Geçersiz kart numarası"
-      ],
-      "Invalid ${ name } code": [
-        "Geçersiz ${ name } kodu"
-      ],
-      "Invalid postal code": [
-        "Geçersiz posta kodu"
-      ],
-      "Error connecting to the Bitcoin API.": [
-        "Bitcoin API'sına bağlanırken hata oluştu."
-      ],
-      "Amount below minimum.": [
-        "En düşük değerin altındaki tutar."
-      ],
-      "Amount above the maximum.": [
-        "En yüksek değerin üzerindeki tutar."
-      ],
-      "The minimum amount that can be donated is ${ price }": [
-        "Bağışlanabilecek en düşük tutar ${ price }"
-      ],
-      "The minimum amount of credit that can be added is ${ _price }": [
-        "Eklenebilecek en düşük kredi tutarı ${ _price }"
-      ],
-      "The minimum payment we accept is ${ _price2 }": [
-        "Onayladığımız en düşük ödeme ${ _price2 }"
-      ],
-      "Checkout expired, please try again.": [
-        "Ödeme süresi doldu, lütfen tekrar deneyin."
-      ],
-      "Invalid code": [
-        "Geçersiz kod"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Bir şeyler ters gitti, devam etmek için ${ refresh }. Hala bu hata iletisini görüyorsanız lütfen ${ supportTeam } ile iletişime geçin."
-      ],
-      "Image upload failed": [
-        "Resim yükleme başarısız"
-      ],
-      "Contact could not be saved": [
-        "Kişi kaydedilemedi"
-      ],
-      "Some contacts could not be deleted": [
-        "Bazı kişiler silinemedi"
-      ],
-      "Preferences could not be saved": [
-        "Tercihler kaydedilemedi"
-      ],
-      "Some groups could not be deleted": [
-        "Bazı gruplar silinemedi"
-      ],
-      "Invalid public key file": [
-        "Geçersiz genel anahtar dosyası"
-      ],
-      "You can't send a mail to more than 100 recipients": [
-        "100'den fazla alıcıya ileti gönderemezsiniz"
-      ],
-      "One of the contacts has no email address: ${ noEmailsContactNamesList }": [
-        "Kişilerden birinin e-posta adresi yok: ${ noEmailsContactNamesList }",
-        "Kişilerden bazılarının e-posta adresleri yok: ${ noEmailsContactNamesList } "
-      ],
-      "You can't send vCards of more than 10 contacts": [
-        "10'dan daha fazla kişinin vCard'larını gönderemezsiniz"
-      ],
-      "There was an error when exporting the contacts vCards": [
-        "Kişilerin vCard'larını dışa aktarırken bir hata oluştu"
-      ],
-      "One of the groups has no contacts: ${ noContactGroupList }": [
-        "Gruplardan birinde kişi yok: ${ noContactGroupList }",
-        "Gruplardan bazılarında kişi yok: ${ noContactGroupList } "
-      ],
-      "You must set a name": [
-        "Bir ad belirlemelisiniz"
-      ],
-      "A group with this name already exists": [
-        "Bu isimde bir grup zaten var"
-      ],
-      "We were unable to connect to your service provider.": [
-        ""
-      ],
-      "Please try to reauthenticate and make sure the permissions are set correctly.": [
-        ""
-      ],
-      "Primary address key is not decrypted": [
-        "Birincil adres anahtarının şifresi çözülemedi"
-      ],
-      "No valid address found": [
-        "Geçerli bir adres bulunamadı"
-      ],
-      "Primary address key is not decrypted.": [
-        "Birincil adres anahtarının şifresi çözülemedi."
-      ],
-      "Name required": [
-        "Ad gerekli"
-      ],
-      "Self invitation not allowed": [
-        "Kullanıcı, kendini davet edemez"
-      ],
-      "${ list } doesn't have a valid email address": [
-        "${ list } içinde geçerli bir e-posta adresi yok",
-        "Kişilerden bazılarında geçerli bir e-posta adresi yok: ${ list }"
-      ],
-      "${ _list } doesn't have an email address": [
-        "${ _list } içinde bir e-posta adresi yok",
-        "Kişilerden bazılarında e-posta adresi yok: ${ _list }"
-      ],
-      "${ list } has invalid emails": [
-        "${ list } içinde geçersiz adresler var",
-        "Grupların bazılarında geçersiz adresler var: ${ list }"
-      ],
-      "${ _list2 } has no contacts": [
-        "${ _list2 } içinde kişi yok",
-        "Gruplardan bazılarında kişi yok: ${ _list2 }"
-      ],
-      "Failed to get original occurrence in series": [
-        ""
-      ],
-      "It is only possible to move events between ${ minDateString } - ${ maxDateString }": [
-        "Etkinlikleri yalnızca arasında ${ minDateString } - ${ maxDateString } taşımak olanaklıdır"
-      ],
-      "It is only possible to create events between ${ minDateString } - ${ maxDateString }": [
-        "Etkinlikleri yalnızca arasında ${ minDateString } - ${ maxDateString } oluşturmak olanaklıdır"
-      ],
-      "Invitation failed to be sent": [
-        "Davetiye gönderilemedi"
-      ],
-      "Answer failed to be sent": [
-        "Yanıt gönderim hatası"
-      ],
-      "Cancellation failed to be sent": [
-        "İptal gönderim hatası"
-      ],
-      "Invalid link to the event": [
-        "Etkinlik bağlantısı geçersiz"
-      ],
-      "Please create an address first.": [
-        "Lütfen önce bir adres oluşturun."
-      ],
-      "Start time must be before end time": [
-        "Başlangıç zamanı bitiş zamanından önce olmalıdır"
-      ],
-      "Interval cannot be empty": [
-        "Aralık boş olamaz"
-      ],
-      "Ends on date cannot be empty": [
-        "Bitiş tarihi boş olamaz"
-      ],
-      "Ends on date must be after start time": [
-        "Bitiş tarihi başlangıç zamanından sonra olmalıdır"
-      ],
-      "Number of occurrences cannot be empty": [
-        "Tekrar sayısı boş olamaz"
-      ],
-      "A maximum of 10 notifications is allowed": [
-        "En fazla 10 bildirime izin verilir"
-      ],
-      "Invalid email address": [
-        "E-posta adresi geçersiz"
-      ],
-      "Decryption error: Decryption of this event's content failed.": [
-        "Şifre çözme hatası: Bu etkinliğin içeriğinin şifresi çözülemedi."
-      ],
-      "Error: ${ errorMessage }": [
-        "Hata: ${ errorMessage }"
-      ],
-      "Error": [
-        "Hata"
-      ]
-    },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "Şifre en az ${ length } karakter içermelidir",
-        "Şifre en az ${ length } karakter içermelidir"
-      ]
-    },
-    "file size format": {
-      "bytes": [
-        "bayt"
-      ],
-      "KB": [
-        "KB"
-      ],
-      "MB": [
-        "MB"
-      ],
-      "GB": [
-        "GB"
-      ]
-    },
-    "Contact field label": {
-      "Name": [
-        "Ad"
-      ],
-      "Email": [
-        "E-Posta"
-      ],
-      "Phone": [
-        "Telefon"
-      ],
-      "Address": [
-        "Adres"
-      ],
-      "Photo": [
-        "Fotoğraf"
-      ],
-      "Organization": [
-        "Kuruluş"
-      ],
-      "Birthday": [
-        "Doğum günü"
-      ],
-      "Anniversary": [
-        "Yıl dönümü"
-      ],
-      "Title": [
-        "Unvan"
-      ],
-      "Role": [
-        "Rol"
-      ],
-      "Note": [
-        "Not"
-      ],
-      "URL": [
-        "URL"
-      ],
-      "Gender": [
-        "Cinsiyet"
-      ],
-      "Language": [
-        "Dil"
-      ],
-      "Timezone": [
-        "Zaman dilimi"
-      ],
-      "Geo": [
-        "Coğrafi Konum"
-      ],
-      "Logo": [
-        "Logo"
-      ],
-      "Member": [
-        "Üyelik Bilgisi"
-      ]
-    },
-    "Contact type label": {
-      "Work": [
-        "İş"
-      ],
-      "Personal": [
-        "Kişisel"
-      ],
-      "Mobile": [
-        "Cep telefonu"
-      ],
-      "Main": [
-        "Ana"
-      ],
-      "Yomi": [
-        "Yomi"
-      ],
-      "Other": [
-        "Diğer"
-      ],
-      "Fax": [
-        "Belgegeçer"
-      ],
-      "Pager": [
-        "Çağrı cihazı"
-      ]
-    },
-    "Property type": {
-      "Email": [
-        "E-posta"
-      ],
-      "Home": [
-        "Ev"
-      ],
-      "Work": [
-        "İş"
-      ],
-      "Other": [
-        "Diğer"
-      ],
-      "Phone": [
-        "Telefon"
-      ],
-      "Mobile": [
-        "Cep telefonu"
-      ],
-      "Main": [
-        "Ana"
-      ],
-      "Fax": [
-        "Belgegeçer"
-      ],
-      "Pager": [
-        "Çağrı cihazı"
-      ],
-      "Address": [
-        "Adres"
-      ]
-    },
     "Calendar status": {
       "Syncing": [
         "Senkronize ediliyor"
@@ -465,8 +29,8 @@
       "Calendar link is not accessible": [
         "Takvim bağlantısına erişilemiyor"
       ],
-      "Calendar link is temporarily unaccessible": [
-        "Takvim bağlantısına geçici olarak erişilemiyor"
+      "Calendar link is temporarily inaccessible": [
+        ""
       ],
       "Failed to sync calendar": [
         "Takvim senkronize edilemedi"
@@ -1072,45 +636,6 @@
       "Loading ${ appName }": [
         "${ appName } yükleniyor"
       ],
-      "here": [
-        "burada"
-      ],
-      "This account has been suspended due to a potential policy violation.": [
-        "Bu hesap, olası bir ilke ihlali nedeniyle askıya alındı."
-      ],
-      "If you believe this is in error, please contact us ${ contactLink }.": [
-        "Bunun bir hata olduğunu düşünüyorsanız, lütfen bizimle ${ contactLink } üzerinden iletişime geçin."
-      ],
-      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
-        "Proton hesabınız şu anda beklemede. Hesabınızı kullanmaya devam etmek için, lütfen önceki faturalarınızı ödeyiniz."
-      ],
-      "Would you like to receive a new verification code or use an alternative verification method?": [
-        "Yeni bir doğrulama kodu almak için ya da alternatif bir doğrulama yöntemi kullanmak ister misiniz?"
-      ],
-      "Enter the verification code that was sent to ${ destinationText }.": [
-        "${ destinationText } adresine gönderilen doğrulama kodunu giriniz."
-      ],
-      "If you don't find the email in your inbox, please check your spam folder.": [
-        "E-postayı gelen kutunuzda bulamazsanız, lütfen spam kutusunu kontrol ediniz."
-      ],
-      "To fight spam and abuse, please verify you are human.": [
-        "Spam ve kötüye kullanımla mücadele etmek için lütfen insan olduğunuzu doğrulayın."
-      ],
-      "Your email will only be used for this one-time verification.": [
-        "E-postanız yalnızca bu tek seferlik doğrulama için kullanılacaktır."
-      ],
-      "Your phone number will only be used for this one-time verification.": [
-        "Telefon numaranız yalnızca bu tek seferlik doğrulama için kullanılacaktır."
-      ],
-      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
-        "Hesap oluşturmada sorun yaşıyorsanız, lütfen bir davetiye isteyin, bir iş günü içinde size yanıt vereceğiz."
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
-        "Yeni bir doğrulama kodunun ${ strong } adresine gönderilmesi için \"Yeni Kod İste\" seçeneğine tıklayın. Bu e-posta adresi yanlışsa, düzeltmek için \"Düzenle\" seçeneğine tıklayın."
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
-        "Yeni bir doğrulama kodunun ${ strong } numarasına gönderilmesi için \"Yeni kod iste\" seçeneğine tıklayın. Bu telefon numarası yanlışsa düzeltmek için \"Düzenle\" seçeneğine tıklayın."
-      ],
       "Screenshot(s) attached": [
         "Ekran görüntüsü eklendi"
       ],
@@ -1352,6 +877,45 @@
       ],
       "Not customizable": [
         "Özelleştirilemez"
+      ],
+      "here": [
+        "burada"
+      ],
+      "This account has been suspended due to a potential policy violation.": [
+        "Bu hesap, olası bir ilke ihlali nedeniyle askıya alındı."
+      ],
+      "If you believe this is in error, please contact us ${ contactLink }.": [
+        "Bunun bir hata olduğunu düşünüyorsanız, lütfen bizimle ${ contactLink } üzerinden iletişime geçin."
+      ],
+      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
+        "Proton hesabınız şu anda beklemede. Hesabınızı kullanmaya devam etmek için, lütfen önceki faturalarınızı ödeyiniz."
+      ],
+      "Would you like to receive a new verification code or use an alternative verification method?": [
+        "Yeni bir doğrulama kodu almak için ya da alternatif bir doğrulama yöntemi kullanmak ister misiniz?"
+      ],
+      "Enter the verification code that was sent to ${ destinationText }.": [
+        "${ destinationText } adresine gönderilen doğrulama kodunu giriniz."
+      ],
+      "If you don't find the email in your inbox, please check your spam folder.": [
+        "E-postayı gelen kutunuzda bulamazsanız, lütfen spam kutusunu kontrol ediniz."
+      ],
+      "To fight spam and abuse, please verify you are human.": [
+        "Spam ve kötüye kullanımla mücadele etmek için lütfen insan olduğunuzu doğrulayın."
+      ],
+      "Your email will only be used for this one-time verification.": [
+        "E-postanız yalnızca bu tek seferlik doğrulama için kullanılacaktır."
+      ],
+      "Your phone number will only be used for this one-time verification.": [
+        "Telefon numaranız yalnızca bu tek seferlik doğrulama için kullanılacaktır."
+      ],
+      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
+        "Hesap oluşturmada sorun yaşıyorsanız, lütfen bir davetiye isteyin, bir iş günü içinde size yanıt vereceğiz."
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
+        "Yeni bir doğrulama kodunun ${ strong } adresine gönderilmesi için \"Yeni Kod İste\" seçeneğine tıklayın. Bu e-posta adresi yanlışsa, düzeltmek için \"Düzenle\" seçeneğine tıklayın."
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
+        "Yeni bir doğrulama kodunun ${ strong } numarasına gönderilmesi için \"Yeni kod iste\" seçeneğine tıklayın. Bu telefon numarası yanlışsa düzeltmek için \"Düzenle\" seçeneğine tıklayın."
       ],
       "Expired": [
         "Süresi dolmuş"
@@ -1714,6 +1278,442 @@
       ],
       "Loading event": [
         "Etkinlik yükleniyor"
+      ]
+    },
+    "Error": {
+      "Address primary private key not found": [
+        "Adres birincil özel anahtarı bulunamadı"
+      ],
+      "Calendar primary private key is not decrypted": [
+        "Takvim birincil özel anahtarının şifresi çözülemedi"
+      ],
+      "This field is required": [
+        "Bu alan gereklidir"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Bu alan minimum ${ minimumLength } karakter gerektirir."
+      ],
+      "Email is not valid": [
+        "Geçersiz E-posta"
+      ],
+      "Not a valid number": [
+        "Geçersiz numara"
+      ],
+      "Passwords do not match": [
+        "Şifreler eşleşmiyor"
+      ],
+      "Request timed out.": [
+        "İstek zaman aşımına uğradı."
+      ],
+      "Signature verification failed": [
+        "İmza doğrulaması başarısız oldu"
+      ],
+      "Could not find address ${ email }.": [
+        "${ email } adresi bulunamadı."
+      ],
+      "Missing signature": [
+        "İmza eksik"
+      ],
+      "Contact signature not verified": [
+        "Kişi imzası doğrulanamadı"
+      ],
+      "Signature not verified": [
+        "İmza doğrulanamadı"
+      ],
+      "Invalid name": [
+        "Geçersiz ad"
+      ],
+      "Email address disabled": [
+        "E-posta adresi devre dışı"
+      ],
+      "No keys retrieved for internal user": [
+        "Dahili kullanıcı için anahtar alınamadı"
+      ],
+      "No valid keys retrieved for internal user": [
+        "Dahili kullanıcı için geçerli anahtar alınamadı"
+      ],
+      "Contact signature could not be verified": [
+        "Kişi imzası doğrulanamadı"
+      ],
+      "No key retrieved for internal user is valid for sending": [
+        "Dahili kullanıcı için alınan hiçbir anahtar göndermek için geçerli değil"
+      ],
+      "Trusted keys are not valid for sending": [
+        "Güvenilir anahtarlar göndermek için geçerli değil"
+      ],
+      "No WKD key retrieved for user is valid for sending": [
+        "Kullanıcı için alınan WKD anahtarı gönderilemez"
+      ],
+      "The sending key is not valid": [
+        "Gönderilen anahtar geçerli değil"
+      ],
+      "Unknown error": [
+        "Bilinmeyen hata"
+      ],
+      "This message may contain some link's URL that cannot be properly opened by your current browser": [
+        "Bu ileti, mevcut tarayıcınızda açılamayacak bazı bağlantı adreslerini içerebilir"
+      ],
+      "Authentication canceled.": [
+        "Kimlik doğrulama iptal edildi."
+      ],
+      "Your import will not be processed.": [
+        "İçe aktarımınız işlenmeyecektir."
+      ],
+      "Authentication error.": [
+        "Doğrulama hatası."
+      ],
+      "Email address invalid": [
+        "E-posta adresi geçersiz"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "Kullanmakta olduğunuz tarayıcı ödemenin tam olarak onaylanmasına izin vermemektedir. Lütfen farklı bir tarayıcı kullanın ya da bir bilgisayarla oturum açın."
+      ],
+      "Process aborted": [
+        "İşlem iptal edildi"
+      ],
+      "Payment process cancelled": [
+        "Ödeme işlemi iptal edildi"
+      ],
+      "Payment process failed": [
+        "Ödeme işlemi başarısız oldu"
+      ],
+      "Payment process consumed": [
+        "Ödeme süresi bitti"
+      ],
+      "Payment process not supported": [
+        "Ödeme işlemi desteklenmiyor"
+      ],
+      "Unknown payment token status": [
+        "Bilinmeyen ödeme belirteci durumu"
+      ],
+      "Tab closed": [
+        "Sekme kapatıldı"
+      ],
+      "Name on card required": [
+        "Kartın üzerindeki ad gerekli"
+      ],
+      "Invalid expiration date": [
+        "Geçersiz son kullanım tarihi"
+      ],
+      "Invalid card number": [
+        "Geçersiz kart numarası"
+      ],
+      "Invalid ${ name } code": [
+        "Geçersiz ${ name } kodu"
+      ],
+      "Invalid postal code": [
+        "Geçersiz posta kodu"
+      ],
+      "Error connecting to the Bitcoin API.": [
+        "Bitcoin API'sına bağlanırken hata oluştu."
+      ],
+      "Amount below minimum.": [
+        "En düşük değerin altındaki tutar."
+      ],
+      "Amount above the maximum.": [
+        "En yüksek değerin üzerindeki tutar."
+      ],
+      "The minimum amount that can be donated is ${ price }": [
+        "Bağışlanabilecek en düşük tutar ${ price }"
+      ],
+      "The minimum amount of credit that can be added is ${ _price }": [
+        "Eklenebilecek en düşük kredi tutarı ${ _price }"
+      ],
+      "The minimum payment we accept is ${ _price2 }": [
+        "Onayladığımız en düşük ödeme ${ _price2 }"
+      ],
+      "Checkout expired, please try again.": [
+        "Ödeme süresi doldu, lütfen tekrar deneyin."
+      ],
+      "Invalid code": [
+        "Geçersiz kod"
+      ],
+      "Incorrect mailbox password. Please try again": [
+        "Posta kutusu şifresi yanlış. Lütfen tekrar deneyin"
+      ],
+      "Incorrect login credentials. Please try again": [
+        "Giriş bilgileri yanlış, lütfen tekrar deneyin"
+      ],
+      "Can't validate email, try again later": [
+        "E-posta doğrulanamıyor, daha sonra tekrar deneyin"
+      ],
+      "Can't validate phone, try again later": [
+        "Telefon doğrulanamıyor, daha sonra tekrar deneyin"
+      ],
+      "Enter 6 digits": [
+        "6 hane girin"
+      ],
+      "Invalid verification code": [
+        "Doğrulama kodu geçersiz"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Bir şeyler ters gitti, devam etmek için ${ refresh }. Hala bu hata iletisini görüyorsanız lütfen ${ supportTeam } ile iletişime geçin."
+      ],
+      "Image upload failed": [
+        "Resim yükleme başarısız"
+      ],
+      "Contact could not be saved": [
+        "Kişi kaydedilemedi"
+      ],
+      "Some contacts could not be deleted": [
+        "Bazı kişiler silinemedi"
+      ],
+      "Preferences could not be saved": [
+        "Tercihler kaydedilemedi"
+      ],
+      "Some groups could not be deleted": [
+        "Bazı gruplar silinemedi"
+      ],
+      "Invalid public key file": [
+        "Geçersiz genel anahtar dosyası"
+      ],
+      "You can't send a mail to more than 100 recipients": [
+        "100'den fazla alıcıya ileti gönderemezsiniz"
+      ],
+      "One of the contacts has no email address: ${ noEmailsContactNamesList }": [
+        "Kişilerden birinin e-posta adresi yok: ${ noEmailsContactNamesList }",
+        "Kişilerden bazılarının e-posta adresleri yok: ${ noEmailsContactNamesList } "
+      ],
+      "You can't send vCards of more than 10 contacts": [
+        "10'dan daha fazla kişinin vCard'larını gönderemezsiniz"
+      ],
+      "There was an error when exporting the contacts vCards": [
+        "Kişilerin vCard'larını dışa aktarırken bir hata oluştu"
+      ],
+      "One of the groups has no contacts: ${ noContactGroupList }": [
+        "Gruplardan birinde kişi yok: ${ noContactGroupList }",
+        "Gruplardan bazılarında kişi yok: ${ noContactGroupList } "
+      ],
+      "You must set a name": [
+        "Bir ad belirlemelisiniz"
+      ],
+      "A group with this name already exists": [
+        "Bu isimde bir grup zaten var"
+      ],
+      "We were unable to connect to your service provider.": [
+        ""
+      ],
+      "Please try to reauthenticate and make sure the permissions are set correctly.": [
+        ""
+      ],
+      "Primary address key is not decrypted": [
+        "Birincil adres anahtarının şifresi çözülemedi"
+      ],
+      "No valid address found": [
+        "Geçerli bir adres bulunamadı"
+      ],
+      "Primary address key is not decrypted.": [
+        "Birincil adres anahtarının şifresi çözülemedi."
+      ],
+      "Name required": [
+        "Ad gerekli"
+      ],
+      "Self invitation not allowed": [
+        "Kullanıcı, kendini davet edemez"
+      ],
+      "${ list } doesn't have a valid email address": [
+        "${ list } içinde geçerli bir e-posta adresi yok",
+        "Kişilerden bazılarında geçerli bir e-posta adresi yok: ${ list }"
+      ],
+      "${ _list } doesn't have an email address": [
+        "${ _list } içinde bir e-posta adresi yok",
+        "Kişilerden bazılarında e-posta adresi yok: ${ _list }"
+      ],
+      "${ list } has invalid emails": [
+        "${ list } içinde geçersiz adresler var",
+        "Grupların bazılarında geçersiz adresler var: ${ list }"
+      ],
+      "${ _list2 } has no contacts": [
+        "${ _list2 } içinde kişi yok",
+        "Gruplardan bazılarında kişi yok: ${ _list2 }"
+      ],
+      "Failed to get original occurrence in series": [
+        ""
+      ],
+      "It is only possible to move events between ${ minDateString } - ${ maxDateString }": [
+        "Etkinlikleri yalnızca arasında ${ minDateString } - ${ maxDateString } taşımak olanaklıdır"
+      ],
+      "It is only possible to create events between ${ minDateString } - ${ maxDateString }": [
+        "Etkinlikleri yalnızca arasında ${ minDateString } - ${ maxDateString } oluşturmak olanaklıdır"
+      ],
+      "Invitation failed to be sent": [
+        "Davetiye gönderilemedi"
+      ],
+      "Answer failed to be sent": [
+        "Yanıt gönderim hatası"
+      ],
+      "Cancellation failed to be sent": [
+        "İptal gönderim hatası"
+      ],
+      "Invalid link to the event": [
+        "Etkinlik bağlantısı geçersiz"
+      ],
+      "Please create an address first.": [
+        "Lütfen önce bir adres oluşturun."
+      ],
+      "Start time must be before end time": [
+        "Başlangıç zamanı bitiş zamanından önce olmalıdır"
+      ],
+      "Interval cannot be empty": [
+        "Aralık boş olamaz"
+      ],
+      "Ends on date cannot be empty": [
+        "Bitiş tarihi boş olamaz"
+      ],
+      "Ends on date must be after start time": [
+        "Bitiş tarihi başlangıç zamanından sonra olmalıdır"
+      ],
+      "Number of occurrences cannot be empty": [
+        "Tekrar sayısı boş olamaz"
+      ],
+      "A maximum of 10 notifications is allowed": [
+        "En fazla 10 bildirime izin verilir"
+      ],
+      "Invalid email address": [
+        "E-posta adresi geçersiz"
+      ],
+      "Decryption error: Decryption of this event's content failed.": [
+        "Şifre çözme hatası: Bu etkinliğin içeriğinin şifresi çözülemedi."
+      ],
+      "Error: ${ errorMessage }": [
+        "Hata: ${ errorMessage }"
+      ],
+      "Error": [
+        "Hata"
+      ]
+    },
+    "file size format": {
+      "bytes": [
+        "bayt"
+      ],
+      "KB": [
+        "KB"
+      ],
+      "MB": [
+        "MB"
+      ],
+      "GB": [
+        "GB"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "Şifre en az ${ length } karakter içermelidir",
+        "Şifre en az ${ length } karakter içermelidir"
+      ]
+    },
+    "Contact field label": {
+      "Name": [
+        "Ad"
+      ],
+      "Email": [
+        "E-Posta"
+      ],
+      "Phone": [
+        "Telefon"
+      ],
+      "Address": [
+        "Adres"
+      ],
+      "Photo": [
+        "Fotoğraf"
+      ],
+      "Organization": [
+        "Kuruluş"
+      ],
+      "Birthday": [
+        "Doğum günü"
+      ],
+      "Anniversary": [
+        "Yıl dönümü"
+      ],
+      "Title": [
+        "Unvan"
+      ],
+      "Role": [
+        "Rol"
+      ],
+      "Note": [
+        "Not"
+      ],
+      "URL": [
+        "URL"
+      ],
+      "Gender": [
+        "Cinsiyet"
+      ],
+      "Language": [
+        "Dil"
+      ],
+      "Timezone": [
+        "Zaman dilimi"
+      ],
+      "Geo": [
+        "Coğrafi Konum"
+      ],
+      "Logo": [
+        "Logo"
+      ],
+      "Member": [
+        "Üyelik Bilgisi"
+      ]
+    },
+    "Contact type label": {
+      "Work": [
+        "İş"
+      ],
+      "Personal": [
+        "Kişisel"
+      ],
+      "Mobile": [
+        "Cep telefonu"
+      ],
+      "Main": [
+        "Ana"
+      ],
+      "Yomi": [
+        "Yomi"
+      ],
+      "Other": [
+        "Diğer"
+      ],
+      "Fax": [
+        "Belgegeçer"
+      ],
+      "Pager": [
+        "Çağrı cihazı"
+      ]
+    },
+    "Property type": {
+      "Email": [
+        "E-posta"
+      ],
+      "Home": [
+        "Ev"
+      ],
+      "Work": [
+        "İş"
+      ],
+      "Other": [
+        "Diğer"
+      ],
+      "Phone": [
+        "Telefon"
+      ],
+      "Mobile": [
+        "Cep telefonu"
+      ],
+      "Main": [
+        "Ana"
+      ],
+      "Fax": [
+        "Belgegeçer"
+      ],
+      "Pager": [
+        "Çağrı cihazı"
+      ],
+      "Address": [
+        "Adres"
       ]
     },
     "PGP key warning": {
@@ -2089,33 +2089,6 @@
       "OK": [
         "Tamam"
       ],
-      "Log in": [
-        "Giriş yap"
-      ],
-      "View invoice": [
-        "Faturayı görüntüle"
-      ],
-      "Get verification code": [
-        "Doğrulama kodu al"
-      ],
-      "Try another method": [
-        "Başka bir yöntem deneyin"
-      ],
-      "Request new code": [
-        "Yeni kod isteyin"
-      ],
-      "Verify": [
-        "Doğrula"
-      ],
-      "Did not receive the code?": [
-        "Kodu alamadınız mı?"
-      ],
-      "Edit email address": [
-        "E-posta adresini düzenle"
-      ],
-      "Edit phone number": [
-        "Telefon numarasını düzenle"
-      ],
       "Clear": [
         "Temizle"
       ],
@@ -2130,6 +2103,9 @@
       ],
       "Remove bonuses": [
         "Ödülleri kaldır"
+      ],
+      "Verify": [
+        "Doğrula"
       ],
       "Try again": [
         "Tekrar deneyin"
@@ -2181,6 +2157,30 @@
       ],
       "Increase": [
         "Arttır"
+      ],
+      "Log in": [
+        "Giriş yap"
+      ],
+      "View invoice": [
+        "Faturayı görüntüle"
+      ],
+      "Get verification code": [
+        "Doğrulama kodu al"
+      ],
+      "Try another method": [
+        "Başka bir yöntem deneyin"
+      ],
+      "Request new code": [
+        "Yeni kod isteyin"
+      ],
+      "Did not receive the code?": [
+        "Kodu alamadınız mı?"
+      ],
+      "Edit email address": [
+        "E-posta adresini düzenle"
+      ],
+      "Edit phone number": [
+        "Telefon numarasını düzenle"
       ],
       "Save": [
         "Kaydet"
@@ -2459,24 +2459,6 @@
       "Select a theme": [
         "Bir tema seçin"
       ],
-      "Sign in again to continue": [
-        "Devam etmek için tekrar giriş yapın"
-      ],
-      "Account suspended": [
-        "Hesap askıya alındı"
-      ],
-      "Enter your username or ProtonMail email address": [
-        "Kullanıcı adınızı veya ProtonMail e-posta adresinizi giriniz"
-      ],
-      "Enter your password": [
-        "Şifrenizi giriniz"
-      ],
-      "Invalid verification code": [
-        "Geçersiz doğrulama kodu"
-      ],
-      "Human verification": [
-        "İnsan doğrulaması"
-      ],
       "Report a problem": [
         "Sorun bildir"
       ],
@@ -2569,6 +2551,24 @@
       ],
       "${ appName } customization": [
         "${ appName } özelleştirme"
+      ],
+      "Sign in again to continue": [
+        "Devam etmek için tekrar giriş yapın"
+      ],
+      "Account suspended": [
+        "Hesap askıya alındı"
+      ],
+      "Enter your username or ProtonMail email address": [
+        "Kullanıcı adınızı veya ProtonMail e-posta adresinizi giriniz"
+      ],
+      "Enter your password": [
+        "Şifrenizi giriniz"
+      ],
+      "Invalid verification code": [
+        "Geçersiz doğrulama kodu"
+      ],
+      "Human verification": [
+        "İnsan doğrulaması"
       ],
       "Edit image": [
         "Görseli düzenle"
@@ -2883,36 +2883,6 @@
       "Display name": [
         "Görünen ad"
       ],
-      "Cancel": [
-        "İptal et"
-      ],
-      "Submit": [
-        "Gönder"
-      ],
-      "Password": [
-        "Şifre"
-      ],
-      "Mailbox password": [
-        "Posta kutusu şifresi"
-      ],
-      "Two-factor authentication code": [
-        "İki faktörlü kimlik doğrulama kodu"
-      ],
-      "Username or ProtonMail address": [
-        "Kullanıcı ya da ProtonMail adresi"
-      ],
-      "Email address": [
-        "E-posta adresi"
-      ],
-      "Phone number": [
-        "Telefon numarası"
-      ],
-      "Verification code": [
-        "Doğrulama kodu"
-      ],
-      "Enter the 6-digit code": [
-        "6 haneli kodu girin"
-      ],
       "Operating system": [
         "İşletim istemi"
       ],
@@ -2921,6 +2891,9 @@
       ],
       "Proton username": [
         "Proton kullanıcı adı"
+      ],
+      "Email address": [
+        "E-posta adresi"
       ],
       "Category": [
         "Kategori"
@@ -2978,6 +2951,33 @@
       ],
       "Proration": [
         "Paylaştır"
+      ],
+      "Cancel": [
+        "İptal et"
+      ],
+      "Submit": [
+        "Gönder"
+      ],
+      "Password": [
+        "Şifre"
+      ],
+      "Mailbox password": [
+        "Posta kutusu şifresi"
+      ],
+      "Two-factor authentication code": [
+        "İki faktörlü kimlik doğrulama kodu"
+      ],
+      "Username or ProtonMail address": [
+        "Kullanıcı ya da ProtonMail adresi"
+      ],
+      "Phone number": [
+        "Telefon numarası"
+      ],
+      "Verification code": [
+        "Doğrulama kodu"
+      ],
+      "Enter the 6-digit code": [
+        "6 haneli kodu girin"
       ],
       "Cash": [
         "Nakit"
@@ -3156,9 +3156,6 @@
       "Go to subscription plans": [
         "Abonelik planlarına git"
       ],
-      "Request an invite": [
-        "Davet izinleri"
-      ],
       "clearing your browser cache": [
         "tarayıcınızın önbelleğini temizlemek"
       ],
@@ -3167,6 +3164,9 @@
       ],
       "Add a gift code": [
         "Hediye kodu ekle"
+      ],
+      "Request an invite": [
+        "Davet izinleri"
       ],
       "Pay invoice": [
         "Fatura ödeme"
@@ -3193,9 +3193,6 @@
       ],
       "e.g. Julia Smith": [
         "Örneğin. Julia Smith"
-      ],
-      "Mailbox password": [
-        "Posta kutusu şifresi"
       ],
       "OS name": [
         "OS adı"
@@ -3226,6 +3223,9 @@
       ],
       "Gift code": [
         "Hediye kodu"
+      ],
+      "Mailbox password": [
+        "Posta kutusu şifresi"
       ],
       "Image URL": [
         "Resim URL'si"
@@ -3336,17 +3336,17 @@
       "Email address copied to clipboard": [
         "E-posta adresi panoya kopyalandı"
       ],
-      "Code sent to ${ methodTo }": [
-        "${ methodTo } kod gönder"
-      ],
-      "Verification successful": [
-        "Doğrulama başarılı"
-      ],
       "Bug reported": [
         "Hata bildirildi"
       ],
       "You have successfully unsubscribed": [
         "Aboneliğinizi başarıyla iptal ettiniz"
+      ],
+      "Code sent to ${ methodTo }": [
+        "${ methodTo } kod gönder"
+      ],
+      "Verification successful": [
+        "Doğrulama başarılı"
       ],
       "Contact saved": [
         "Kişi kaydedildi"
@@ -3571,28 +3571,6 @@
       ],
       "Configure your organization, link your domain name, and create accounts to ensure all members of your organization are protected.": [
         "Kuruluşunuzun tüm üyelerinin korunduğundan emin olmak için kuruluşunuzu yapılandırın, etki alanı adınızı bağlayın ve hesaplar oluşturun."
-      ]
-    },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "Gecikmiş fatura"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
-      ],
-      "Email": [
-        "E-posta"
-      ],
-      "SMS": [
-        "SMS"
-      ],
-      "Manual": [
-        "El ile"
-      ],
-      "No verification method available": [
-        "Kullanılabilir doğrulama yöntemi yok"
       ]
     },
     "Error notification in the bug report modal when the user upload file": {
@@ -4261,6 +4239,28 @@
     "Free price": {
       "Free": [
         "Ücretsiz"
+      ]
+    },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "Gecikmiş fatura"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "E-posta"
+      ],
+      "SMS": [
+        "SMS"
+      ],
+      "Manual": [
+        "El ile"
+      ],
+      "No verification method available": [
+        "Kullanılabilir doğrulama yöntemi yok"
       ]
     },
     "Payment method option": {

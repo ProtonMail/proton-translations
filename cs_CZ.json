@@ -5,456 +5,6 @@
   },
   "contexts": {
     "": {},
-    "Error": {
-      "This field is required": [
-        "Toto pole je povinné"
-      ],
-      "This field requires a minimum of ${ minimumLength } characters.": [
-        "Toto pole vyžaduje minimálně ${ minimumLength } znaků."
-      ],
-      "Email is not valid": [
-        "Emailová adresa není platná"
-      ],
-      "Not a valid number": [
-        "Neplatné číslo"
-      ],
-      "Passwords do not match": [
-        "Hesla se neshodují"
-      ],
-      "Address primary private key not found": [
-        "Primární soukromý klíč adresy nebyl nalezen"
-      ],
-      "Calendar primary private key is not decrypted": [
-        "Primární soukromý klíč kalendáře není dešifrován"
-      ],
-      "Request timed out.": [
-        "Vypršel časový limit žádosti."
-      ],
-      "Signature verification failed": [
-        "Ověření podpisu selhalo"
-      ],
-      "Could not find address ${ email }.": [
-        "Nelze najít adresu ${ email }."
-      ],
-      "Missing signature": [
-        "Podpis není nastaven"
-      ],
-      "Contact signature not verified": [
-        "Podpis kontaktu nebyl ověřen"
-      ],
-      "Signature not verified": [
-        "Podpis nebyl ověřen"
-      ],
-      "Invalid name": [
-        "Neplatné jméno"
-      ],
-      "Email address disabled": [
-        "E-mailová adresa je zakázána"
-      ],
-      "No keys retrieved for internal user": [
-        "Pro interního uživatele nebyly nalezeny žádné klíče"
-      ],
-      "No valid keys retrieved for internal user": [
-        "Pro interního uživatele nebyly nalezeny žádné validní klíče"
-      ],
-      "Contact signature could not be verified": [
-        "Podpis kontaktu nemohl být ověřen"
-      ],
-      "No key retrieved for internal user is valid for sending": [
-        "Žádný klíč pro interní uživatele není platný pro odeslání"
-      ],
-      "Trusted keys are not valid for sending": [
-        "Důvěryhodné klíče nejsou platné pro odeslání"
-      ],
-      "No WKD key retrieved for user is valid for sending": [
-        "Žádný klíč WKD uživatele není platný pro odeslání"
-      ],
-      "The sending key is not valid": [
-        "Odesílací klíč není platný"
-      ],
-      "Unknown error": [
-        "Neznámá chyba"
-      ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser": [
-        "Tato zpráva obsahuje URL odkazy, které nelze otevřít Vašim prohlížečem"
-      ],
-      "Authentication canceled.": [
-        "Ověřování zrušeno."
-      ],
-      "Your import will not be processed.": [
-        "Váš import nebude zpracován."
-      ],
-      "Authentication error.": [
-        "Ověření selhalo."
-      ],
-      "Email address invalid": [
-        "E-mailová adresa je neplatná"
-      ],
-      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "Prohlížeč, který používáte, neumožňuje úplnou autorizaci platby. Použijte jiný prohlížeč nebo se přihlaste pomocí počítače."
-      ],
-      "Incorrect mailbox password. Please try again": [
-        "Nesprávné heslo k e-mailové schránce. Zkuste to znovu"
-      ],
-      "Incorrect login credentials. Please try again": [
-        "Nesprávné přihlašovací údaje. Zkuste to znovu"
-      ],
-      "Can't validate email, try again later": [
-        "Nelze ověřit e-mail, opakujte akci později"
-      ],
-      "Can't validate phone, try again later": [
-        "Nelze ověřit telefon, opakujte akci později"
-      ],
-      "Enter 6 digits": [
-        "Zadejte 6 číslic"
-      ],
-      "Invalid verification code": [
-        "Neplatný ověřovací kód"
-      ],
-      "Process aborted": [
-        "Proces přerušen"
-      ],
-      "Payment process cancelled": [
-        "Platba byla zrušena"
-      ],
-      "Payment process failed": [
-        "Platební proces selhal"
-      ],
-      "Payment process consumed": [
-        "Platba byla dokončena"
-      ],
-      "Payment process not supported": [
-        "Platební proces není podporován"
-      ],
-      "Unknown payment token status": [
-        "Neznámý stav platebního tokenu"
-      ],
-      "Tab closed": [
-        "Záložka zavřena"
-      ],
-      "Name on card required": [
-        "Jméno držitele karty je povinná položka"
-      ],
-      "Invalid expiration date": [
-        "Neplatné datum expirace"
-      ],
-      "Invalid card number": [
-        "Neplatné číslo karty"
-      ],
-      "Invalid ${ name } code": [
-        "Neplatný kód ${ name }"
-      ],
-      "Invalid postal code": [
-        "Neplatné směrovací číslo"
-      ],
-      "Error connecting to the Bitcoin API.": [
-        "Chyba při připojování k Bitcoin API."
-      ],
-      "Amount below minimum.": [
-        "Hodnota je nižší než minimální částka."
-      ],
-      "Amount above the maximum.": [
-        "Hodnota je vyšší než maximální částka."
-      ],
-      "The minimum amount that can be donated is ${ price }": [
-        "Minimální částka, kterou lze darovat, je ${ price }"
-      ],
-      "The minimum amount of credit that can be added is ${ _price }": [
-        "Minimální objem úvěrů, který lze přidat, je ${ _price }"
-      ],
-      "The minimum payment we accept is ${ _price2 }": [
-        "Minimální platba, kterou přijímáme, je ${ _price2 }"
-      ],
-      "Checkout expired, please try again.": [
-        "Objednávka vypršela, zkuste to prosím znovu."
-      ],
-      "Invalid code": [
-        "Neplatný kód"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "Něco se pokazilo, pro pokračování prosím ${ refresh }. Pokud se tato chybová zpráva stále zobrazuje, kontaktujte prosím náš ${ supportTeam }."
-      ],
-      "Image upload failed": [
-        "Selhalo nahrání obrázku"
-      ],
-      "Contact could not be saved": [
-        "Kontakt nelze uložit"
-      ],
-      "Some contacts could not be deleted": [
-        "Některé kontakty nelze smazat"
-      ],
-      "Preferences could not be saved": [
-        "Preference nelze uložit"
-      ],
-      "Some groups could not be deleted": [
-        "Některé skupiny není možné odstranit"
-      ],
-      "Invalid public key file": [
-        "Neplatný soubor veřejného klíče"
-      ],
-      "You can't send a mail to more than 100 recipients": [
-        "Nemůžete odeslat mail více než 100 příjemcům najednou"
-      ],
-      "One of the contacts has no email address: ${ noEmailsContactNamesList }": [
-        "Některé z kontaktů nemají e-mailovou adresu: ${ noEmailsContactNamesList }",
-        "Některé kontakty nemají e-mailovou adresu: ${ noEmailsContactNamesList } ",
-        "Některé kontakty nemají e-mailovou adresu: ${ noEmailsContactNamesList } ",
-        "Některé kontakty nemají e-mailovou adresu: ${ noEmailsContactNamesList } "
-      ],
-      "You can't send vCards of more than 10 contacts": [
-        "Není možné odeslat vCard s více jak 10 kontakty"
-      ],
-      "There was an error when exporting the contacts vCards": [
-        "Při exportu kontaktů do vCard došlo k chybě"
-      ],
-      "One of the groups has no contacts: ${ noContactGroupList }": [
-        "Jedna ze skupin neobsahuje kontakty: ${ noContactGroupList }",
-        "Některé skupiny neobsahují kontakty: ${ noContactGroupList } ",
-        "Některé skupiny neobsahují kontakty: ${ noContactGroupList } ",
-        "Některé skupiny neobsahují kontakty: ${ noContactGroupList } "
-      ],
-      "You must set a name": [
-        "Musíte zadat jméno"
-      ],
-      "A group with this name already exists": [
-        "Skupina s tímto názvem již existuje"
-      ],
-      "We were unable to connect to your service provider.": [
-        ""
-      ],
-      "Please try to reauthenticate and make sure the permissions are set correctly.": [
-        ""
-      ],
-      "Primary address key is not decrypted": [
-        "Klíč hlavní adresy není dešifrován"
-      ],
-      "No valid address found": [
-        "Nebyla nalezena žádná platná adresa"
-      ],
-      "Primary address key is not decrypted.": [
-        "Klíč hlavní adresy není dešifrován."
-      ],
-      "Name required": [
-        "Název je povinný"
-      ],
-      "Self invitation not allowed": [
-        "Vlastní pozvání není dovoleno"
-      ],
-      "${ list } doesn't have a valid email address": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "${ _list } doesn't have an email address": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "${ list } has invalid emails": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "${ _list2 } has no contacts": [
-        "",
-        "Jeden ze skupiny, nemá kontakty: ${ _list2 }",
-        "Některé skupiny nemají kontakty: ${ _list2 }",
-        "Některé skupiny neobsahují kontakty: ${ _list2 }"
-      ],
-      "Failed to get original occurrence in series": [
-        "Nepodařilo se získat původní výskyt v sérii"
-      ],
-      "It is only possible to move events between ${ minDateString } - ${ maxDateString }": [
-        "Lze přesunout události pouze mezi ${ minDateString } - ${ maxDateString }"
-      ],
-      "It is only possible to create events between ${ minDateString } - ${ maxDateString }": [
-        "Lze vytvářet události pouze mezi ${ minDateString } - ${ maxDateString }"
-      ],
-      "Invitation failed to be sent": [
-        "Pozvánka se nepodařila zaslat"
-      ],
-      "Answer failed to be sent": [
-        ""
-      ],
-      "Cancellation failed to be sent": [
-        ""
-      ],
-      "Invalid link to the event": [
-        "Neplatný odkaz k události"
-      ],
-      "Please create an address first.": [
-        "Nejprve prosím vytvořte adresu."
-      ],
-      "Start time must be before end time": [
-        "Čas začátku musí být před časem konce"
-      ],
-      "Interval cannot be empty": [
-        "Interval nemůže být prázdný"
-      ],
-      "Ends on date cannot be empty": [
-        "Koncové datum nemůže být prázdné"
-      ],
-      "Ends on date must be after start time": [
-        "Koncové datum musí být pozdější než počáteční čas"
-      ],
-      "Number of occurrences cannot be empty": [
-        "Počet výskytů nemůže být prázdný"
-      ],
-      "A maximum of 10 notifications is allowed": [
-        "Je povoleno maximálně 10 oznámení"
-      ],
-      "Invalid email address": [
-        "Neplatná e-mailová adresa"
-      ],
-      "Decryption error: Decryption of this event's content failed.": [
-        "Chyba dešifrování: Dešifrování obsahu této události selhalo."
-      ],
-      "Error: ${ errorMessage }": [
-        "Chyba: ${ errorMessage }"
-      ],
-      "Error": [
-        "Chyba"
-      ]
-    },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "Heslo musí alespoň obsahovat ${ length } znak",
-        "Hesla musí obsahovat alespoň ${ length } znaků",
-        "Hesla musí obsahovat alespoň ${ length } znaků",
-        "Hesla musí obsahovat alespoň ${ length } znaků"
-      ]
-    },
-    "file size format": {
-      "bytes": [
-        "bajtů"
-      ],
-      "KB": [
-        "KB"
-      ],
-      "MB": [
-        "MB"
-      ],
-      "GB": [
-        "GB"
-      ]
-    },
-    "Contact field label": {
-      "Name": [
-        "Název"
-      ],
-      "Email": [
-        "E-mail"
-      ],
-      "Phone": [
-        "Telefon"
-      ],
-      "Address": [
-        "Adresa"
-      ],
-      "Photo": [
-        "Fotka"
-      ],
-      "Organization": [
-        "Organizace"
-      ],
-      "Birthday": [
-        "Datum narození"
-      ],
-      "Anniversary": [
-        "Výročí"
-      ],
-      "Title": [
-        "Pozice"
-      ],
-      "Role": [
-        "Role"
-      ],
-      "Note": [
-        "Poznámka"
-      ],
-      "URL": [
-        "URL"
-      ],
-      "Gender": [
-        "Pohlaví"
-      ],
-      "Language": [
-        "Jazyk"
-      ],
-      "Timezone": [
-        "Časové pásmo"
-      ],
-      "Geo": [
-        "Souřadnice"
-      ],
-      "Logo": [
-        "Logo"
-      ],
-      "Member": [
-        "Člen"
-      ]
-    },
-    "Contact type label": {
-      "Work": [
-        "Pracovní"
-      ],
-      "Personal": [
-        "Osobní"
-      ],
-      "Mobile": [
-        "Mobilní"
-      ],
-      "Main": [
-        "Hlavní"
-      ],
-      "Yomi": [
-        "Yomi"
-      ],
-      "Other": [
-        "Ostatní"
-      ],
-      "Fax": [
-        "Fax"
-      ],
-      "Pager": [
-        "Pager"
-      ]
-    },
-    "Property type": {
-      "Email": [
-        "E-mail"
-      ],
-      "Home": [
-        "Domov"
-      ],
-      "Work": [
-        "Pracovní"
-      ],
-      "Other": [
-        "Ostatní"
-      ],
-      "Phone": [
-        "Telefon"
-      ],
-      "Mobile": [
-        "Mobilní"
-      ],
-      "Main": [
-        "Hlavní"
-      ],
-      "Fax": [
-        "Fax"
-      ],
-      "Pager": [
-        "Pager"
-      ],
-      "Address": [
-        "Adresa"
-      ]
-    },
     "Calendar status": {
       "Syncing": [
         "Synchronizace"
@@ -479,8 +29,8 @@
       "Calendar link is not accessible": [
         "Odkaz na kalendář není přístupný"
       ],
-      "Calendar link is temporarily unaccessible": [
-        "Odkaz na kalendář je dočasně nedostupný"
+      "Calendar link is temporarily inaccessible": [
+        ""
       ],
       "Failed to sync calendar": [
         "Synchronizace kalendáře selhala"
@@ -1162,45 +712,6 @@
       "Loading ${ appName }": [
         "Načítám ${ appName }"
       ],
-      "here": [
-        "zde"
-      ],
-      "This account has been suspended due to a potential policy violation.": [
-        "Tento účet byl zablokován kvůli možnému porušení pravidel."
-      ],
-      "If you believe this is in error, please contact us ${ contactLink }.": [
-        "Pokud si myslíte, že jde o chybu, kontaktujte nás ${ contactLink }."
-      ],
-      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
-        "Váš Proton účet je momentálně pozastaven. Chcete-li Váš účet nadále používat, zaplaťte prosím všechny faktury po splatnosti."
-      ],
-      "Would you like to receive a new verification code or use an alternative verification method?": [
-        "Chcete získat nový ověřovací kód nebo použít alternativní metodu ověřování?"
-      ],
-      "Enter the verification code that was sent to ${ destinationText }.": [
-        "Zadejte ověřovací kód, který byl odeslán na ${ destinationText }."
-      ],
-      "If you don't find the email in your inbox, please check your spam folder.": [
-        "Pokud jste nenašli e-mail ve vaší schránce, zkontrolujte prosím složku se spamem."
-      ],
-      "To fight spam and abuse, please verify you are human.": [
-        "Z důvodu boje proti spamu a obtěžování, ověřte prosím, že jste člověk."
-      ],
-      "Your email will only be used for this one-time verification.": [
-        "Váš e-mail bude použit pouze pro toto jednorázové ověření."
-      ],
-      "Your phone number will only be used for this one-time verification.": [
-        "Vaše telefonní číslo bude použito pouze pro toto jednorázové ověření."
-      ],
-      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
-        "Pokud máte potíže s vytvořením účtu, požádejte prosím o pozvánku a my odpovíme do jednoho pracovního dne."
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
-        "Klikněte na „Požádat o nový kód“ pro zaslání nového ověřovacího kódu na ${ strong }. Pokud je tato e-mailová adresa nesprávná, klikněte na tlačítko „Upravit“ pro její opravu."
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
-        "Klikněte na \"Požádat o nový kód\" pro zaslání nového ověřovacího kódu na ${ strong }. Pokud je toto telefonní číslo nesprávné, klepněte na tlačítko \"Upravit\" pro jeho opravu."
-      ],
       "Screenshot(s) attached": [
         "Snímek/snímky byly připojeny"
       ],
@@ -1446,6 +957,45 @@
       ],
       "Not customizable": [
         "Nelze změnit"
+      ],
+      "here": [
+        "zde"
+      ],
+      "This account has been suspended due to a potential policy violation.": [
+        "Tento účet byl zablokován kvůli možnému porušení pravidel."
+      ],
+      "If you believe this is in error, please contact us ${ contactLink }.": [
+        "Pokud si myslíte, že jde o chybu, kontaktujte nás ${ contactLink }."
+      ],
+      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
+        "Váš Proton účet je momentálně pozastaven. Chcete-li Váš účet nadále používat, zaplaťte prosím všechny faktury po splatnosti."
+      ],
+      "Would you like to receive a new verification code or use an alternative verification method?": [
+        "Chcete získat nový ověřovací kód nebo použít alternativní metodu ověřování?"
+      ],
+      "Enter the verification code that was sent to ${ destinationText }.": [
+        "Zadejte ověřovací kód, který byl odeslán na ${ destinationText }."
+      ],
+      "If you don't find the email in your inbox, please check your spam folder.": [
+        "Pokud jste nenašli e-mail ve vaší schránce, zkontrolujte prosím složku se spamem."
+      ],
+      "To fight spam and abuse, please verify you are human.": [
+        "Z důvodu boje proti spamu a obtěžování, ověřte prosím, že jste člověk."
+      ],
+      "Your email will only be used for this one-time verification.": [
+        "Váš e-mail bude použit pouze pro toto jednorázové ověření."
+      ],
+      "Your phone number will only be used for this one-time verification.": [
+        "Vaše telefonní číslo bude použito pouze pro toto jednorázové ověření."
+      ],
+      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
+        "Pokud máte potíže s vytvořením účtu, požádejte prosím o pozvánku a my odpovíme do jednoho pracovního dne."
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
+        "Klikněte na „Požádat o nový kód“ pro zaslání nového ověřovacího kódu na ${ strong }. Pokud je tato e-mailová adresa nesprávná, klikněte na tlačítko „Upravit“ pro její opravu."
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
+        "Klikněte na \"Požádat o nový kód\" pro zaslání nového ověřovacího kódu na ${ strong }. Pokud je toto telefonní číslo nesprávné, klepněte na tlačítko \"Upravit\" pro jeho opravu."
       ],
       "Expired": [
         "Expirováno"
@@ -1818,6 +1368,456 @@
       ],
       "Loading event": [
         "Načítání události"
+      ]
+    },
+    "Error": {
+      "Address primary private key not found": [
+        "Primární soukromý klíč adresy nebyl nalezen"
+      ],
+      "Calendar primary private key is not decrypted": [
+        "Primární soukromý klíč kalendáře není dešifrován"
+      ],
+      "This field is required": [
+        "Toto pole je povinné"
+      ],
+      "This field requires a minimum of ${ minimumLength } characters.": [
+        "Toto pole vyžaduje minimálně ${ minimumLength } znaků."
+      ],
+      "Email is not valid": [
+        "Emailová adresa není platná"
+      ],
+      "Not a valid number": [
+        "Neplatné číslo"
+      ],
+      "Passwords do not match": [
+        "Hesla se neshodují"
+      ],
+      "Request timed out.": [
+        "Vypršel časový limit žádosti."
+      ],
+      "Signature verification failed": [
+        "Ověření podpisu selhalo"
+      ],
+      "Could not find address ${ email }.": [
+        "Nelze najít adresu ${ email }."
+      ],
+      "Missing signature": [
+        "Podpis není nastaven"
+      ],
+      "Contact signature not verified": [
+        "Podpis kontaktu nebyl ověřen"
+      ],
+      "Signature not verified": [
+        "Podpis nebyl ověřen"
+      ],
+      "Invalid name": [
+        "Neplatné jméno"
+      ],
+      "Email address disabled": [
+        "E-mailová adresa je zakázána"
+      ],
+      "No keys retrieved for internal user": [
+        "Pro interního uživatele nebyly nalezeny žádné klíče"
+      ],
+      "No valid keys retrieved for internal user": [
+        "Pro interního uživatele nebyly nalezeny žádné validní klíče"
+      ],
+      "Contact signature could not be verified": [
+        "Podpis kontaktu nemohl být ověřen"
+      ],
+      "No key retrieved for internal user is valid for sending": [
+        "Žádný klíč pro interní uživatele není platný pro odeslání"
+      ],
+      "Trusted keys are not valid for sending": [
+        "Důvěryhodné klíče nejsou platné pro odeslání"
+      ],
+      "No WKD key retrieved for user is valid for sending": [
+        "Žádný klíč WKD uživatele není platný pro odeslání"
+      ],
+      "The sending key is not valid": [
+        "Odesílací klíč není platný"
+      ],
+      "Unknown error": [
+        "Neznámá chyba"
+      ],
+      "This message may contain some link's URL that cannot be properly opened by your current browser": [
+        "Tato zpráva obsahuje URL odkazy, které nelze otevřít Vašim prohlížečem"
+      ],
+      "Authentication canceled.": [
+        "Ověřování zrušeno."
+      ],
+      "Your import will not be processed.": [
+        "Váš import nebude zpracován."
+      ],
+      "Authentication error.": [
+        "Ověření selhalo."
+      ],
+      "Email address invalid": [
+        "E-mailová adresa je neplatná"
+      ],
+      "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
+        "Prohlížeč, který používáte, neumožňuje úplnou autorizaci platby. Použijte jiný prohlížeč nebo se přihlaste pomocí počítače."
+      ],
+      "Process aborted": [
+        "Proces přerušen"
+      ],
+      "Payment process cancelled": [
+        "Platba byla zrušena"
+      ],
+      "Payment process failed": [
+        "Platební proces selhal"
+      ],
+      "Payment process consumed": [
+        "Platba byla dokončena"
+      ],
+      "Payment process not supported": [
+        "Platební proces není podporován"
+      ],
+      "Unknown payment token status": [
+        "Neznámý stav platebního tokenu"
+      ],
+      "Tab closed": [
+        "Záložka zavřena"
+      ],
+      "Name on card required": [
+        "Jméno držitele karty je povinná položka"
+      ],
+      "Invalid expiration date": [
+        "Neplatné datum expirace"
+      ],
+      "Invalid card number": [
+        "Neplatné číslo karty"
+      ],
+      "Invalid ${ name } code": [
+        "Neplatný kód ${ name }"
+      ],
+      "Invalid postal code": [
+        "Neplatné směrovací číslo"
+      ],
+      "Error connecting to the Bitcoin API.": [
+        "Chyba při připojování k Bitcoin API."
+      ],
+      "Amount below minimum.": [
+        "Hodnota je nižší než minimální částka."
+      ],
+      "Amount above the maximum.": [
+        "Hodnota je vyšší než maximální částka."
+      ],
+      "The minimum amount that can be donated is ${ price }": [
+        "Minimální částka, kterou lze darovat, je ${ price }"
+      ],
+      "The minimum amount of credit that can be added is ${ _price }": [
+        "Minimální objem úvěrů, který lze přidat, je ${ _price }"
+      ],
+      "The minimum payment we accept is ${ _price2 }": [
+        "Minimální platba, kterou přijímáme, je ${ _price2 }"
+      ],
+      "Checkout expired, please try again.": [
+        "Objednávka vypršela, zkuste to prosím znovu."
+      ],
+      "Invalid code": [
+        "Neplatný kód"
+      ],
+      "Incorrect mailbox password. Please try again": [
+        "Nesprávné heslo k e-mailové schránce. Zkuste to znovu"
+      ],
+      "Incorrect login credentials. Please try again": [
+        "Nesprávné přihlašovací údaje. Zkuste to znovu"
+      ],
+      "Can't validate email, try again later": [
+        "Nelze ověřit e-mail, opakujte akci později"
+      ],
+      "Can't validate phone, try again later": [
+        "Nelze ověřit telefon, opakujte akci později"
+      ],
+      "Enter 6 digits": [
+        "Zadejte 6 číslic"
+      ],
+      "Invalid verification code": [
+        "Neplatný ověřovací kód"
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "Něco se pokazilo, pro pokračování prosím ${ refresh }. Pokud se tato chybová zpráva stále zobrazuje, kontaktujte prosím náš ${ supportTeam }."
+      ],
+      "Image upload failed": [
+        "Selhalo nahrání obrázku"
+      ],
+      "Contact could not be saved": [
+        "Kontakt nelze uložit"
+      ],
+      "Some contacts could not be deleted": [
+        "Některé kontakty nelze smazat"
+      ],
+      "Preferences could not be saved": [
+        "Preference nelze uložit"
+      ],
+      "Some groups could not be deleted": [
+        "Některé skupiny není možné odstranit"
+      ],
+      "Invalid public key file": [
+        "Neplatný soubor veřejného klíče"
+      ],
+      "You can't send a mail to more than 100 recipients": [
+        "Nemůžete odeslat mail více než 100 příjemcům najednou"
+      ],
+      "One of the contacts has no email address: ${ noEmailsContactNamesList }": [
+        "Některé z kontaktů nemají e-mailovou adresu: ${ noEmailsContactNamesList }",
+        "Některé kontakty nemají e-mailovou adresu: ${ noEmailsContactNamesList } ",
+        "Některé kontakty nemají e-mailovou adresu: ${ noEmailsContactNamesList } ",
+        "Některé kontakty nemají e-mailovou adresu: ${ noEmailsContactNamesList } "
+      ],
+      "You can't send vCards of more than 10 contacts": [
+        "Není možné odeslat vCard s více jak 10 kontakty"
+      ],
+      "There was an error when exporting the contacts vCards": [
+        "Při exportu kontaktů do vCard došlo k chybě"
+      ],
+      "One of the groups has no contacts: ${ noContactGroupList }": [
+        "Jedna ze skupin neobsahuje kontakty: ${ noContactGroupList }",
+        "Některé skupiny neobsahují kontakty: ${ noContactGroupList } ",
+        "Některé skupiny neobsahují kontakty: ${ noContactGroupList } ",
+        "Některé skupiny neobsahují kontakty: ${ noContactGroupList } "
+      ],
+      "You must set a name": [
+        "Musíte zadat jméno"
+      ],
+      "A group with this name already exists": [
+        "Skupina s tímto názvem již existuje"
+      ],
+      "We were unable to connect to your service provider.": [
+        ""
+      ],
+      "Please try to reauthenticate and make sure the permissions are set correctly.": [
+        ""
+      ],
+      "Primary address key is not decrypted": [
+        "Klíč hlavní adresy není dešifrován"
+      ],
+      "No valid address found": [
+        "Nebyla nalezena žádná platná adresa"
+      ],
+      "Primary address key is not decrypted.": [
+        "Klíč hlavní adresy není dešifrován."
+      ],
+      "Name required": [
+        "Název je povinný"
+      ],
+      "Self invitation not allowed": [
+        "Vlastní pozvání není dovoleno"
+      ],
+      "${ list } doesn't have a valid email address": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "${ _list } doesn't have an email address": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "${ list } has invalid emails": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "${ _list2 } has no contacts": [
+        "",
+        "Jeden ze skupiny, nemá kontakty: ${ _list2 }",
+        "Některé skupiny nemají kontakty: ${ _list2 }",
+        "Některé skupiny neobsahují kontakty: ${ _list2 }"
+      ],
+      "Failed to get original occurrence in series": [
+        "Nepodařilo se získat původní výskyt v sérii"
+      ],
+      "It is only possible to move events between ${ minDateString } - ${ maxDateString }": [
+        "Lze přesunout události pouze mezi ${ minDateString } - ${ maxDateString }"
+      ],
+      "It is only possible to create events between ${ minDateString } - ${ maxDateString }": [
+        "Lze vytvářet události pouze mezi ${ minDateString } - ${ maxDateString }"
+      ],
+      "Invitation failed to be sent": [
+        "Pozvánka se nepodařila zaslat"
+      ],
+      "Answer failed to be sent": [
+        ""
+      ],
+      "Cancellation failed to be sent": [
+        ""
+      ],
+      "Invalid link to the event": [
+        "Neplatný odkaz k události"
+      ],
+      "Please create an address first.": [
+        "Nejprve prosím vytvořte adresu."
+      ],
+      "Start time must be before end time": [
+        "Čas začátku musí být před časem konce"
+      ],
+      "Interval cannot be empty": [
+        "Interval nemůže být prázdný"
+      ],
+      "Ends on date cannot be empty": [
+        "Koncové datum nemůže být prázdné"
+      ],
+      "Ends on date must be after start time": [
+        "Koncové datum musí být pozdější než počáteční čas"
+      ],
+      "Number of occurrences cannot be empty": [
+        "Počet výskytů nemůže být prázdný"
+      ],
+      "A maximum of 10 notifications is allowed": [
+        "Je povoleno maximálně 10 oznámení"
+      ],
+      "Invalid email address": [
+        "Neplatná e-mailová adresa"
+      ],
+      "Decryption error: Decryption of this event's content failed.": [
+        "Chyba dešifrování: Dešifrování obsahu této události selhalo."
+      ],
+      "Error: ${ errorMessage }": [
+        "Chyba: ${ errorMessage }"
+      ],
+      "Error": [
+        "Chyba"
+      ]
+    },
+    "file size format": {
+      "bytes": [
+        "bajtů"
+      ],
+      "KB": [
+        "KB"
+      ],
+      "MB": [
+        "MB"
+      ],
+      "GB": [
+        "GB"
+      ]
+    },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "Heslo musí alespoň obsahovat ${ length } znak",
+        "Hesla musí obsahovat alespoň ${ length } znaků",
+        "Hesla musí obsahovat alespoň ${ length } znaků",
+        "Hesla musí obsahovat alespoň ${ length } znaků"
+      ]
+    },
+    "Contact field label": {
+      "Name": [
+        "Název"
+      ],
+      "Email": [
+        "E-mail"
+      ],
+      "Phone": [
+        "Telefon"
+      ],
+      "Address": [
+        "Adresa"
+      ],
+      "Photo": [
+        "Fotka"
+      ],
+      "Organization": [
+        "Organizace"
+      ],
+      "Birthday": [
+        "Datum narození"
+      ],
+      "Anniversary": [
+        "Výročí"
+      ],
+      "Title": [
+        "Pozice"
+      ],
+      "Role": [
+        "Role"
+      ],
+      "Note": [
+        "Poznámka"
+      ],
+      "URL": [
+        "URL"
+      ],
+      "Gender": [
+        "Pohlaví"
+      ],
+      "Language": [
+        "Jazyk"
+      ],
+      "Timezone": [
+        "Časové pásmo"
+      ],
+      "Geo": [
+        "Souřadnice"
+      ],
+      "Logo": [
+        "Logo"
+      ],
+      "Member": [
+        "Člen"
+      ]
+    },
+    "Contact type label": {
+      "Work": [
+        "Pracovní"
+      ],
+      "Personal": [
+        "Osobní"
+      ],
+      "Mobile": [
+        "Mobilní"
+      ],
+      "Main": [
+        "Hlavní"
+      ],
+      "Yomi": [
+        "Yomi"
+      ],
+      "Other": [
+        "Ostatní"
+      ],
+      "Fax": [
+        "Fax"
+      ],
+      "Pager": [
+        "Pager"
+      ]
+    },
+    "Property type": {
+      "Email": [
+        "E-mail"
+      ],
+      "Home": [
+        "Domov"
+      ],
+      "Work": [
+        "Pracovní"
+      ],
+      "Other": [
+        "Ostatní"
+      ],
+      "Phone": [
+        "Telefon"
+      ],
+      "Mobile": [
+        "Mobilní"
+      ],
+      "Main": [
+        "Hlavní"
+      ],
+      "Fax": [
+        "Fax"
+      ],
+      "Pager": [
+        "Pager"
+      ],
+      "Address": [
+        "Adresa"
       ]
     },
     "PGP key warning": {
@@ -2193,33 +2193,6 @@
       "OK": [
         "OK"
       ],
-      "Log in": [
-        "Přihlásit se"
-      ],
-      "View invoice": [
-        "Zobrazit fakturu"
-      ],
-      "Get verification code": [
-        "Odeslat ověřovací kód"
-      ],
-      "Try another method": [
-        "Zkuste jinou metodu"
-      ],
-      "Request new code": [
-        "Poslat nový kód"
-      ],
-      "Verify": [
-        "Ověřit"
-      ],
-      "Did not receive the code?": [
-        "Nedostali jste kód?"
-      ],
-      "Edit email address": [
-        "Upravit e-mailovou adresu"
-      ],
-      "Edit phone number": [
-        "Upravit telefonní číslo"
-      ],
       "Clear": [
         "Vyčistit"
       ],
@@ -2234,6 +2207,9 @@
       ],
       "Remove bonuses": [
         "Odebrat bonusy"
+      ],
+      "Verify": [
+        "Ověřit"
       ],
       "Try again": [
         "Zkuste to znovu"
@@ -2285,6 +2261,30 @@
       ],
       "Increase": [
         "Zvýšit"
+      ],
+      "Log in": [
+        "Přihlásit se"
+      ],
+      "View invoice": [
+        "Zobrazit fakturu"
+      ],
+      "Get verification code": [
+        "Odeslat ověřovací kód"
+      ],
+      "Try another method": [
+        "Zkuste jinou metodu"
+      ],
+      "Request new code": [
+        "Poslat nový kód"
+      ],
+      "Did not receive the code?": [
+        "Nedostali jste kód?"
+      ],
+      "Edit email address": [
+        "Upravit e-mailovou adresu"
+      ],
+      "Edit phone number": [
+        "Upravit telefonní číslo"
       ],
       "Save": [
         "Uložit"
@@ -2567,24 +2567,6 @@
       "Select a theme": [
         "Vyberte motiv"
       ],
-      "Sign in again to continue": [
-        "Chcete-li pokračovat, znovu se přihlaste"
-      ],
-      "Account suspended": [
-        "Účet pozastaven"
-      ],
-      "Enter your username or ProtonMail email address": [
-        "Zadejte vaše uživatelské jméno nebo e-mailovou adresu ProtonMail"
-      ],
-      "Enter your password": [
-        "Zadejte Vaše heslo"
-      ],
-      "Invalid verification code": [
-        "Neplatný ověřovací kód"
-      ],
-      "Human verification": [
-        "Captcha"
-      ],
       "Report a problem": [
         "Nahlásit problém"
       ],
@@ -2677,6 +2659,24 @@
       ],
       "${ appName } customization": [
         "${ appName } přizpůsobení"
+      ],
+      "Sign in again to continue": [
+        "Chcete-li pokračovat, znovu se přihlaste"
+      ],
+      "Account suspended": [
+        "Účet pozastaven"
+      ],
+      "Enter your username or ProtonMail email address": [
+        "Zadejte vaše uživatelské jméno nebo e-mailovou adresu ProtonMail"
+      ],
+      "Enter your password": [
+        "Zadejte Vaše heslo"
+      ],
+      "Invalid verification code": [
+        "Neplatný ověřovací kód"
+      ],
+      "Human verification": [
+        "Captcha"
       ],
       "Edit image": [
         "Upravit obrázek"
@@ -2999,36 +2999,6 @@
       "Display name": [
         "Zobrazované jméno"
       ],
-      "Cancel": [
-        "Zrušit"
-      ],
-      "Submit": [
-        "Odeslat"
-      ],
-      "Password": [
-        "Heslo"
-      ],
-      "Mailbox password": [
-        "Heslo k e-mailové schránce"
-      ],
-      "Two-factor authentication code": [
-        "Kód dvoufaktorového ověření"
-      ],
-      "Username or ProtonMail address": [
-        "Uživatelské jméno nebo e-mailová adresa ProtonMail"
-      ],
-      "Email address": [
-        "E-mailová adresa"
-      ],
-      "Phone number": [
-        "Telefonní číslo"
-      ],
-      "Verification code": [
-        "Ověřovací kód"
-      ],
-      "Enter the 6-digit code": [
-        "Zadejte 6-místný kód"
-      ],
       "Operating system": [
         "Operační systém"
       ],
@@ -3037,6 +3007,9 @@
       ],
       "Proton username": [
         "Proton uživatelské jméno"
+      ],
+      "Email address": [
+        "E-mailová adresa"
       ],
       "Category": [
         "Kategorie"
@@ -3094,6 +3067,33 @@
       ],
       "Proration": [
         "Částečně hrazené"
+      ],
+      "Cancel": [
+        "Zrušit"
+      ],
+      "Submit": [
+        "Odeslat"
+      ],
+      "Password": [
+        "Heslo"
+      ],
+      "Mailbox password": [
+        "Heslo k e-mailové schránce"
+      ],
+      "Two-factor authentication code": [
+        "Kód dvoufaktorového ověření"
+      ],
+      "Username or ProtonMail address": [
+        "Uživatelské jméno nebo e-mailová adresa ProtonMail"
+      ],
+      "Phone number": [
+        "Telefonní číslo"
+      ],
+      "Verification code": [
+        "Ověřovací kód"
+      ],
+      "Enter the 6-digit code": [
+        "Zadejte 6-místný kód"
       ],
       "Cash": [
         "Hotovost"
@@ -3274,9 +3274,6 @@
       "Go to subscription plans": [
         "Prohlédněte si plány předplatného"
       ],
-      "Request an invite": [
-        "Požádat o pozvánku"
-      ],
       "clearing your browser cache": [
         "vymazávání mezipaměti prohlížeče"
       ],
@@ -3285,6 +3282,9 @@
       ],
       "Add a gift code": [
         "Přidat dárkový kód"
+      ],
+      "Request an invite": [
+        "Požádat o pozvánku"
       ],
       "Pay invoice": [
         "Zaplatit fakturu"
@@ -3311,9 +3311,6 @@
       ],
       "e.g. Julia Smith": [
         "např. Julia Smith"
-      ],
-      "Mailbox password": [
-        "Heslo k e-mailové schránce"
       ],
       "OS name": [
         "Název OS"
@@ -3344,6 +3341,9 @@
       ],
       "Gift code": [
         "Dárkový kód"
+      ],
+      "Mailbox password": [
+        "Heslo k e-mailové schránce"
       ],
       "Image URL": [
         "URL adresa obrázku"
@@ -3460,17 +3460,17 @@
       "Email address copied to clipboard": [
         "E-mailová adresa zkopírována do schránky"
       ],
-      "Code sent to ${ methodTo }": [
-        "Kód zaslán na ${ methodTo }"
-      ],
-      "Verification successful": [
-        "Ověření proběhlo úspěšně"
-      ],
       "Bug reported": [
         "Chyba nahlášena"
       ],
       "You have successfully unsubscribed": [
         "Předplatné bylo úspěšně zrušeno"
+      ],
+      "Code sent to ${ methodTo }": [
+        "Kód zaslán na ${ methodTo }"
+      ],
+      "Verification successful": [
+        "Ověření proběhlo úspěšně"
       ],
       "Contact saved": [
         "Kontakt byl uložen"
@@ -3699,28 +3699,6 @@
       ],
       "Configure your organization, link your domain name, and create accounts to ensure all members of your organization are protected.": [
         "Proveďte konfiguraci své organizace, odkaz na doménové jméno, a vytvořte si účty tak, aby všichni členové Vaší organizace byli zajištěni a chráněni."
-      ]
-    },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "Faktura po splatnosti"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
-      ],
-      "Email": [
-        "E-mail"
-      ],
-      "SMS": [
-        "SMS"
-      ],
-      "Manual": [
-        "Ručně"
-      ],
-      "No verification method available": [
-        "Nejsou k dispozici žádné metody ověřování"
       ]
     },
     "Error notification in the bug report modal when the user upload file": {
@@ -4415,6 +4393,28 @@
     "Free price": {
       "Free": [
         "Zdarma"
+      ]
+    },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "Faktura po splatnosti"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "E-mail"
+      ],
+      "SMS": [
+        "SMS"
+      ],
+      "Manual": [
+        "Ručně"
+      ],
+      "No verification method available": [
+        "Nejsou k dispozici žádné metody ověřování"
       ]
     },
     "Payment method option": {
