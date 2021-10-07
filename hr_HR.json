@@ -674,6 +674,45 @@
       "Loading ${ appName }": [
         "Učitavanje ${ appName }"
       ],
+      "here": [
+        "ovdje"
+      ],
+      "This account has been suspended due to a potential policy violation.": [
+        "Vaš račun je suspendiran zbog mogućih kršenja pravila."
+      ],
+      "If you believe this is in error, please contact us ${ contactLink }.": [
+        "Ako mislite da je ovo pogreška, kontaktirajte nas na ${ contactLink }."
+      ],
+      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
+        "Vaš Proton račun je trenutno na čekanju. Da biste nastavili koristiti svoj račun, uplatite sve neplaćene fakture."
+      ],
+      "Would you like to receive a new verification code or use an alternative verification method?": [
+        "Želite li dobiti novi potvrdni kôd ili koristiti alternativnu metodu potvrde?"
+      ],
+      "Enter the verification code that was sent to ${ destinationText }.": [
+        "Unesite potvrdni kôd koji je poslan na ${ destinationText }."
+      ],
+      "If you don't find the email in your inbox, please check your spam folder.": [
+        "Ako ne pronađete e-poštu u pristigloj pošti, provjerite svoju mapu neželjene pošte."
+      ],
+      "To fight spam and abuse, please verify you are human.": [
+        "U borbi protiv spama i zlouporabe, molimo potvrdite da ste čovjek."
+      ],
+      "Your email will only be used for this one-time verification.": [
+        "Vaša adresa e-pošte koristit će se samo za ovu jednokratnu provjeru."
+      ],
+      "Your phone number will only be used for this one-time verification.": [
+        "Vaš broj telefona koristit će se samo za ovu jednokratnu provjeru."
+      ],
+      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
+        "Ako imate poteškoća s otvaranjem računa, zatražite pozivnicu i odgovorit ćemo vam u roku jednog radnog dana."
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
+        "Pritisnite \"Zatraži novi kȏd\" da biste novi potvrdni kȏd poslali na ${ strong }. Ako je ova adresa e-pošte netočan, pritisnite \"Uredi\" da biste je ispravili."
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
+        "Pritisnite \"Zatraži novi kȏd\" da biste novi potvrdni kȏd poslali na ${ strong }. Ako je ovaj telefonski broj netočan, pritisnite \"Uredi\" da biste ga ispravili."
+      ],
       "Screenshot(s) attached": [
         "Snimka(e) zaslona su pridodane"
       ],
@@ -917,45 +956,6 @@
       ],
       "Not customizable": [
         "Nije prilagodljivo"
-      ],
-      "here": [
-        "ovdje"
-      ],
-      "This account has been suspended due to a potential policy violation.": [
-        "Vaš račun je suspendiran zbog mogućih kršenja pravila."
-      ],
-      "If you believe this is in error, please contact us ${ contactLink }.": [
-        "Ako mislite da je ovo pogreška, kontaktirajte nas na ${ contactLink }."
-      ],
-      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
-        "Vaš Proton račun je trenutno na čekanju. Da biste nastavili koristiti svoj račun, uplatite sve neplaćene fakture."
-      ],
-      "Would you like to receive a new verification code or use an alternative verification method?": [
-        "Želite li dobiti novi potvrdni kôd ili koristiti alternativnu metodu potvrde?"
-      ],
-      "Enter the verification code that was sent to ${ destinationText }.": [
-        "Unesite potvrdni kôd koji je poslan na ${ destinationText }."
-      ],
-      "If you don't find the email in your inbox, please check your spam folder.": [
-        "Ako ne pronađete e-poštu u pristigloj pošti, provjerite svoju mapu neželjene pošte."
-      ],
-      "To fight spam and abuse, please verify you are human.": [
-        "U borbi protiv spama i zlouporabe, molimo potvrdite da ste čovjek."
-      ],
-      "Your email will only be used for this one-time verification.": [
-        "Vaša adresa e-pošte koristit će se samo za ovu jednokratnu provjeru."
-      ],
-      "Your phone number will only be used for this one-time verification.": [
-        "Vaš broj telefona koristit će se samo za ovu jednokratnu provjeru."
-      ],
-      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
-        "Ako imate poteškoća s otvaranjem računa, zatražite pozivnicu i odgovorit ćemo vam u roku jednog radnog dana."
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
-        "Pritisnite \"Zatraži novi kȏd\" da biste novi potvrdni kȏd poslali na ${ strong }. Ako je ova adresa e-pošte netočan, pritisnite \"Uredi\" da biste je ispravili."
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
-        "Pritisnite \"Zatraži novi kȏd\" da biste novi potvrdni kȏd poslali na ${ strong }. Ako je ovaj telefonski broj netočan, pritisnite \"Uredi\" da biste ga ispravili."
       ],
       "Expired": [
         "Isteklo"
@@ -1413,6 +1413,24 @@
       "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
         "Preglednik koji koristite ne dopušta potpuno odobrenje plaćanja. Molimo koristite drugi preglednik ili se prijavite putem računala."
       ],
+      "Incorrect mailbox password. Please try again": [
+        "Pogrešna lozinka poštanskog pretinca. Pokušajte ponovno"
+      ],
+      "Incorrect login credentials. Please try again": [
+        "Nevažeći podaci za prijavu. Molimo pokušajte ponovno"
+      ],
+      "Can't validate email, try again later": [
+        "Nije moguće potvrditi e-poštu, pokušajte ponovo kasnije"
+      ],
+      "Can't validate phone, try again later": [
+        "Nije moguće potvrditi broj telefona, pokušajte ponovo kasnije"
+      ],
+      "Enter 6 digits": [
+        "Unesite 6 znamenki"
+      ],
+      "Invalid verification code": [
+        "Nevažeći kôd za provjeru"
+      ],
       "Process aborted": [
         "Proces je prekinut"
       ],
@@ -1473,24 +1491,6 @@
       "Invalid code": [
         "Nevažeći kȏd"
       ],
-      "Incorrect mailbox password. Please try again": [
-        "Pogrešna lozinka poštanskog pretinca. Pokušajte ponovno"
-      ],
-      "Incorrect login credentials. Please try again": [
-        "Nevažeći podaci za prijavu. Molimo pokušajte ponovno"
-      ],
-      "Can't validate email, try again later": [
-        "Nije moguće potvrditi e-poštu, pokušajte ponovo kasnije"
-      ],
-      "Can't validate phone, try again later": [
-        "Nije moguće potvrditi broj telefona, pokušajte ponovo kasnije"
-      ],
-      "Enter 6 digits": [
-        "Unesite 6 znamenki"
-      ],
-      "Invalid verification code": [
-        "Nevažeći kôd za provjeru"
-      ],
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "Nešto je pošlo po zlu. Molimo ${ refresh } kako biste nastavili. Ako i dalje vidite ovu poruku o pogrešci, kontaktirajte naš ${ supportTeam }."
       ],
@@ -1537,14 +1537,14 @@
       "A group with this name already exists": [
         "Grupa s ovim nazivom već postoji"
       ],
+      "Primary address key is not decrypted": [
+        "Primarni ključ adrese e-pošte nije dešifriran"
+      ],
       "We were unable to connect to your service provider.": [
         ""
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         ""
-      ],
-      "Primary address key is not decrypted": [
-        "Primarni ključ adrese e-pošte nije dešifriran"
       ],
       "No valid address found": [
         "Nije pronađena važeća adresa"
@@ -1633,6 +1633,13 @@
         "Pogreška"
       ]
     },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "Lozinka mora sadržavati najmanje ${ length } znak",
+        "Lozinka mora sadržavati najmanje ${ length } znaka",
+        "Lozinka mora sadržavati najmanje ${ length } znakova"
+      ]
+    },
     "file size format": {
       "bytes": [
         "bajtova"
@@ -1645,13 +1652,6 @@
       ],
       "GB": [
         "GB"
-      ]
-    },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "Lozinka mora sadržavati najmanje ${ length } znak",
-        "Lozinka mora sadržavati najmanje ${ length } znaka",
-        "Lozinka mora sadržavati najmanje ${ length } znakova"
       ]
     },
     "Contact field label": {
@@ -2015,11 +2015,11 @@
       "More info: ${ safeTitle }": [
         "Više informacija: ${ safeTitle }"
       ],
-      "Go to panel ${ index }": [
-        "Idi na ${ index } panel"
-      ],
       "Use “${ label }” setting": [
         "Koristi “${ label }” postavku"
+      ],
+      "Go to panel ${ index }": [
+        "Idi na ${ index } panel"
       ],
       "Confirm": [
         "Potvrdi"
@@ -2117,6 +2117,33 @@
       "Composer size": [
         ""
       ],
+      "Log in": [
+        "Prijavite se"
+      ],
+      "View invoice": [
+        "Prikaži fakturu"
+      ],
+      "Get verification code": [
+        "Nabavi kôd za provjeru"
+      ],
+      "Try another method": [
+        "Isprobajte drugu metodu"
+      ],
+      "Request new code": [
+        "Zatraži novi kôd"
+      ],
+      "Verify": [
+        "Potvrdi"
+      ],
+      "Did not receive the code?": [
+        "Niste primili kôd?"
+      ],
+      "Edit email address": [
+        "Uredi adresu e-pošte"
+      ],
+      "Edit phone number": [
+        "Uredi broj telefona"
+      ],
       "Get started": [
         "Započnite"
       ],
@@ -2155,9 +2182,6 @@
       ],
       "Remove bonuses": [
         "Ukloni bonuse"
-      ],
-      "Verify": [
-        "Potvrdi"
       ],
       "Try again": [
         "Pokušaj ponovno"
@@ -2209,30 +2233,6 @@
       ],
       "Increase": [
         "Povećaj"
-      ],
-      "Log in": [
-        "Prijavite se"
-      ],
-      "View invoice": [
-        "Prikaži fakturu"
-      ],
-      "Get verification code": [
-        "Nabavi kôd za provjeru"
-      ],
-      "Try another method": [
-        "Isprobajte drugu metodu"
-      ],
-      "Request new code": [
-        "Zatraži novi kôd"
-      ],
-      "Did not receive the code?": [
-        "Niste primili kôd?"
-      ],
-      "Edit email address": [
-        "Uredi adresu e-pošte"
-      ],
-      "Edit phone number": [
-        "Uredi broj telefona"
       ],
       "Save": [
         "Spremi"
@@ -2510,6 +2510,24 @@
       "Give feedback": [
         "Ostavi povratnu informaciju"
       ],
+      "Sign in again to continue": [
+        "Ponovno se prijavite da biste nastavili"
+      ],
+      "Account suspended": [
+        "Račun je suspendiran"
+      ],
+      "Enter your username or ProtonMail email address": [
+        "Unesite korisničko ime ili ProtonMail adresu e-pošte"
+      ],
+      "Enter your password": [
+        "Unesite vašu lozinku"
+      ],
+      "Invalid verification code": [
+        "Nevažeći kôd za provjeru"
+      ],
+      "Human verification": [
+        "Ljudska provjera"
+      ],
       "Select a theme": [
         "Odaberi temu"
       ],
@@ -2605,24 +2623,6 @@
       ],
       "${ appName } customization": [
         "${ appName } prilagođavanje"
-      ],
-      "Sign in again to continue": [
-        "Ponovno se prijavite da biste nastavili"
-      ],
-      "Account suspended": [
-        "Račun je suspendiran"
-      ],
-      "Enter your username or ProtonMail email address": [
-        "Unesite korisničko ime ili ProtonMail adresu e-pošte"
-      ],
-      "Enter your password": [
-        "Unesite vašu lozinku"
-      ],
-      "Invalid verification code": [
-        "Nevažeći kôd za provjeru"
-      ],
-      "Human verification": [
-        "Ljudska provjera"
       ],
       "Edit image": [
         "Uredi sliku"
@@ -2938,6 +2938,36 @@
       "What is the primary reason for this rating?": [
         ""
       ],
+      "Cancel": [
+        "Poništi"
+      ],
+      "Submit": [
+        "Pošalji"
+      ],
+      "Password": [
+        "Lozinka"
+      ],
+      "Mailbox password": [
+        "Lozinka sandučića e-pošte"
+      ],
+      "Two-factor authentication code": [
+        "Kôd dvofaktorske autentikacije"
+      ],
+      "Username or ProtonMail address": [
+        "Korisničko ime ili ProtonMail adresa"
+      ],
+      "Email address": [
+        "Adresa e-pošte"
+      ],
+      "Phone number": [
+        "Broj telefona"
+      ],
+      "Verification code": [
+        "Kôd za provjeru"
+      ],
+      "Enter the 6-digit code": [
+        "Unesite 6-znamenkasti kôd"
+      ],
       "Display name": [
         "Zaslonski naziv"
       ],
@@ -2949,9 +2979,6 @@
       ],
       "Proton username": [
         "Proton korisničko ime"
-      ],
-      "Email address": [
-        "Adresa e-pošte"
       ],
       "Category": [
         "Kategorija"
@@ -3009,33 +3036,6 @@
       ],
       "Proration": [
         "Proration"
-      ],
-      "Cancel": [
-        "Poništi"
-      ],
-      "Submit": [
-        "Pošalji"
-      ],
-      "Password": [
-        "Lozinka"
-      ],
-      "Mailbox password": [
-        "Lozinka sandučića e-pošte"
-      ],
-      "Two-factor authentication code": [
-        "Kôd dvofaktorske autentikacije"
-      ],
-      "Username or ProtonMail address": [
-        "Korisničko ime ili ProtonMail adresa"
-      ],
-      "Phone number": [
-        "Broj telefona"
-      ],
-      "Verification code": [
-        "Kôd za provjeru"
-      ],
-      "Enter the 6-digit code": [
-        "Unesite 6-znamenkasti kôd"
       ],
       "Cash": [
         "Gotovina"
@@ -3199,7 +3199,7 @@
       "Your calendars": [
         "Vaši kalendari"
       ],
-      "Participant": [
+      "participant": [
         "",
         "",
         ""
@@ -3215,6 +3215,9 @@
       "Go to subscription plans": [
         "Idi na planove pretplate"
       ],
+      "Request an invite": [
+        "Zatraži pozivnicu"
+      ],
       "clearing your browser cache": [
         "čišćenje predmemorije preglednika"
       ],
@@ -3223,9 +3226,6 @@
       ],
       "Add a gift code": [
         "Dodaj darovni kôd"
-      ],
-      "Request an invite": [
-        "Zatraži pozivnicu"
       ],
       "Pay invoice": [
         "Plati račun"
@@ -3249,6 +3249,9 @@
       ],
       "Feedback": [
         "Povratne informacije"
+      ],
+      "Mailbox password": [
+        "Lozinka sandučića e-pošte"
       ],
       "e.g. Julia Smith": [
         "npr. Ana Horvat"
@@ -3282,9 +3285,6 @@
       ],
       "Gift code": [
         "Darovni kȏd"
-      ],
-      "Mailbox password": [
-        "Lozinka sandučića e-pošte"
       ],
       "Image URL": [
         "URL slike"
@@ -3398,17 +3398,17 @@
       "Email address copied to clipboard": [
         "Adresa e-pošte je kopirana u međuspremnik"
       ],
-      "Bug reported": [
-        "Pogreška je prijavljena"
-      ],
-      "You have successfully unsubscribed": [
-        "Uspješno ste poništili pretplatu"
-      ],
       "Code sent to ${ methodTo }": [
         "Kôd je poslan na ${ methodTo }"
       ],
       "Verification successful": [
         "Uspješna provjera"
+      ],
+      "Bug reported": [
+        "Pogreška je prijavljena"
+      ],
+      "You have successfully unsubscribed": [
+        "Uspješno ste poništili pretplatu"
       ],
       "Contact saved": [
         "Kontakt je spremljen"
@@ -3603,6 +3603,28 @@
     "Success notification when user send feedback": {
       "Feedback sent": [
         "Povratna informacija je poslana"
+      ]
+    },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "Neplaćena faktura"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "E-pošta"
+      ],
+      "SMS": [
+        "SMS"
+      ],
+      "Manual": [
+        "Ručno"
+      ],
+      "No verification method available": [
+        "Nema dostupne metode za provjeru"
       ]
     },
     "Onboarding Proton": {
@@ -4318,28 +4340,6 @@
         "Free"
       ]
     },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "Neplaćena faktura"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
-      ],
-      "Email": [
-        "E-pošta"
-      ],
-      "SMS": [
-        "SMS"
-      ],
-      "Manual": [
-        "Ručno"
-      ],
-      "No verification method available": [
-        "Nema dostupne metode za provjeru"
-      ]
-    },
     "Payment method option": {
       "New credit/debit card": [
         "Nova kreditna/debitna kartica"
@@ -4714,6 +4714,11 @@
         "Napomena: usluga će se ponovo učitati nakon što kliknete dugme Primijeni."
       ]
     },
+    "Select files": {
+      "Upload": [
+        "Učitaj"
+      ]
+    },
     "Loading info": {
       "Connecting to your contacts provider": [
         ""
@@ -4733,11 +4738,6 @@
     "Confirm modal title": {
       "Quit import?": [
         ""
-      ]
-    },
-    "Select files": {
-      "Upload": [
-        "Učitaj"
       ]
     },
     "Message display when a new app version is available": {

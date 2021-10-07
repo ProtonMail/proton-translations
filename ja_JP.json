@@ -598,6 +598,45 @@
       "Loading ${ appName }": [
         "${ appName } を読み込み中"
       ],
+      "here": [
+        "こちら"
+      ],
+      "This account has been suspended due to a potential policy violation.": [
+        "このアカウントは、ポリシー違反の可能性があるため停止されています。"
+      ],
+      "If you believe this is in error, please contact us ${ contactLink }.": [
+        "エラーだと思われる場合は ${ contactLink } までご連絡ください。"
+      ],
+      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
+        "あなたの Proton アカウントは現在利用停止中です。引き続きアカウントを使用する場合は、すべての未払いの請求書を精算してください。"
+      ],
+      "Would you like to receive a new verification code or use an alternative verification method?": [
+        "新しい確認コードを受け取るか、他の検証方法を使用しますか？"
+      ],
+      "Enter the verification code that was sent to ${ destinationText }.": [
+        "${ destinationText } に送信された認証コードを入力してください。"
+      ],
+      "If you don't find the email in your inbox, please check your spam folder.": [
+        "受信トレイに関連するメッセージを確認できない場合、迷惑メールフォルダを確認してください。"
+      ],
+      "To fight spam and abuse, please verify you are human.": [
+        "迷惑メールや悪用を防止するために、あなたがコンピューターではないことを確認します。"
+      ],
+      "Your email will only be used for this one-time verification.": [
+        "メールアドレスは、この一度限りの認証にのみ使用されます。"
+      ],
+      "Your phone number will only be used for this one-time verification.": [
+        "電話番号は、この一度限りの認証にのみ使用されます。"
+      ],
+      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
+        "アカウントの作成に問題がある場合は、招待をリクエストしてください。1営業日以内に対応します。"
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
+        "「新しいコードをリクエスト」をクリックすると新しい認証コードが ${ strong } に送信されます。メールアドレスが違う場合、「編集」をクリックして修正します。"
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
+        "「新しいコードをリクエスト」をクリックすると新しい認証コードが ${ strong } に送信されます。電話番号が違う場合、「編集」をクリックして修正します。"
+      ],
       "Screenshot(s) attached": [
         "スクリーンショットが添付されました"
       ],
@@ -837,45 +876,6 @@
       ],
       "Not customizable": [
         "カスタマイズ不可"
-      ],
-      "here": [
-        "こちら"
-      ],
-      "This account has been suspended due to a potential policy violation.": [
-        "このアカウントは、ポリシー違反の可能性があるため停止されています。"
-      ],
-      "If you believe this is in error, please contact us ${ contactLink }.": [
-        "エラーだと思われる場合は ${ contactLink } までご連絡ください。"
-      ],
-      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
-        "あなたの Proton アカウントは現在利用停止中です。引き続きアカウントを使用する場合は、すべての未払いの請求書を精算してください。"
-      ],
-      "Would you like to receive a new verification code or use an alternative verification method?": [
-        "新しい確認コードを受け取るか、他の検証方法を使用しますか？"
-      ],
-      "Enter the verification code that was sent to ${ destinationText }.": [
-        "${ destinationText } に送信された認証コードを入力してください。"
-      ],
-      "If you don't find the email in your inbox, please check your spam folder.": [
-        "受信トレイに関連するメッセージを確認できない場合、迷惑メールフォルダを確認してください。"
-      ],
-      "To fight spam and abuse, please verify you are human.": [
-        "迷惑メールや悪用を防止するために、あなたがコンピューターではないことを確認します。"
-      ],
-      "Your email will only be used for this one-time verification.": [
-        "メールアドレスは、この一度限りの認証にのみ使用されます。"
-      ],
-      "Your phone number will only be used for this one-time verification.": [
-        "電話番号は、この一度限りの認証にのみ使用されます。"
-      ],
-      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
-        "アカウントの作成に問題がある場合は、招待をリクエストしてください。1営業日以内に対応します。"
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
-        "「新しいコードをリクエスト」をクリックすると新しい認証コードが ${ strong } に送信されます。メールアドレスが違う場合、「編集」をクリックして修正します。"
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
-        "「新しいコードをリクエスト」をクリックすると新しい認証コードが ${ strong } に送信されます。電話番号が違う場合、「編集」をクリックして修正します。"
       ],
       "Expired": [
         "有効期限切れ"
@@ -1323,6 +1323,24 @@
       "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
         "お使いのブラウザでは、支払いを完全に承認できません。別のブラウザを使用するか、コンピューターからログインしてください。"
       ],
+      "Incorrect mailbox password. Please try again": [
+        "メールボックスのパスワードが正しくありません。再度入力してください。"
+      ],
+      "Incorrect login credentials. Please try again": [
+        "間違ったログイン情報です。もう一度やり直してください。"
+      ],
+      "Can't validate email, try again later": [
+        "メールアドレスを検証できませんした。再度お試しください"
+      ],
+      "Can't validate phone, try again later": [
+        "電話番号の検証ができませんでした。再度お試しください"
+      ],
+      "Enter 6 digits": [
+        "6 桁の数字を入力"
+      ],
+      "Invalid verification code": [
+        "無効な検証コード"
+      ],
       "Process aborted": [
         "処理が中断されました"
       ],
@@ -1383,24 +1401,6 @@
       "Invalid code": [
         "無効なコードです"
       ],
-      "Incorrect mailbox password. Please try again": [
-        "メールボックスのパスワードが正しくありません。再度入力してください。"
-      ],
-      "Incorrect login credentials. Please try again": [
-        "間違ったログイン情報です。もう一度やり直してください。"
-      ],
-      "Can't validate email, try again later": [
-        "メールアドレスを検証できませんした。再度お試しください"
-      ],
-      "Can't validate phone, try again later": [
-        "電話番号の検証ができませんでした。再度お試しください"
-      ],
-      "Enter 6 digits": [
-        "6 桁の数字を入力"
-      ],
-      "Invalid verification code": [
-        "無効な検証コード"
-      ],
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "エラーが発生しました。続行するには ${ refresh } してください。それでもこのエラーが発生する場合は ${ supportTeam } までお問い合わせください。"
       ],
@@ -1443,14 +1443,14 @@
       "A group with this name already exists": [
         "この名前のグループは既に存在します"
       ],
+      "Primary address key is not decrypted": [
+        "プライマリーアドレス鍵が復号されていません"
+      ],
       "We were unable to connect to your service provider.": [
         ""
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         ""
-      ],
-      "Primary address key is not decrypted": [
-        "プライマリーアドレス鍵が復号されていません"
       ],
       "No valid address found": [
         "有効なアドレスが見つかりません。"
@@ -1531,6 +1531,11 @@
         "エラーが発生しました"
       ]
     },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "パスワードは ${ length } 文字以上必要です"
+      ]
+    },
     "file size format": {
       "bytes": [
         "バイト"
@@ -1543,11 +1548,6 @@
       ],
       "GB": [
         "GB"
-      ]
-    },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "パスワードは ${ length } 文字以上必要です"
       ]
     },
     "Contact field label": {
@@ -1911,11 +1911,11 @@
       "More info: ${ safeTitle }": [
         "詳細: ${ safeTitle }"
       ],
-      "Go to panel ${ index }": [
-        "パネル ${ index } へ移動"
-      ],
       "Use “${ label }” setting": [
         "「{ label }」設定を使用する"
+      ],
+      "Go to panel ${ index }": [
+        "パネル ${ index } へ移動"
       ],
       "Confirm": [
         "確認"
@@ -2013,6 +2013,33 @@
       "Composer size": [
         "作成サイズ"
       ],
+      "Log in": [
+        "ログイン"
+      ],
+      "View invoice": [
+        "請求書を参照"
+      ],
+      "Get verification code": [
+        "認証コードを取得"
+      ],
+      "Try another method": [
+        "別の方法を試してください"
+      ],
+      "Request new code": [
+        "新しいコードの発行"
+      ],
+      "Verify": [
+        "検証"
+      ],
+      "Did not receive the code?": [
+        "コードを受け取っていませんか?"
+      ],
+      "Edit email address": [
+        "メールアドレスを編集"
+      ],
+      "Edit phone number": [
+        "電話番号を編集"
+      ],
       "Get started": [
         "はじめましょう"
       ],
@@ -2051,9 +2078,6 @@
       ],
       "Remove bonuses": [
         "ボーナスの削除"
-      ],
-      "Verify": [
-        "検証"
       ],
       "Try again": [
         "再試行"
@@ -2105,30 +2129,6 @@
       ],
       "Increase": [
         "増加"
-      ],
-      "Log in": [
-        "ログイン"
-      ],
-      "View invoice": [
-        "請求書を参照"
-      ],
-      "Get verification code": [
-        "認証コードを取得"
-      ],
-      "Try another method": [
-        "別の方法を試してください"
-      ],
-      "Request new code": [
-        "新しいコードの発行"
-      ],
-      "Did not receive the code?": [
-        "コードを受け取っていませんか?"
-      ],
-      "Edit email address": [
-        "メールアドレスを編集"
-      ],
-      "Edit phone number": [
-        "電話番号を編集"
       ],
       "Save": [
         "保存"
@@ -2402,6 +2402,24 @@
       "Give feedback": [
         "ご意見"
       ],
+      "Sign in again to continue": [
+        "続行するには再度ログインしてください"
+      ],
+      "Account suspended": [
+        "アカウントが停止されました"
+      ],
+      "Enter your username or ProtonMail email address": [
+        "ユーザー名または ProtonMail アドレスを入力してください"
+      ],
+      "Enter your password": [
+        "パスワードを入力してください"
+      ],
+      "Invalid verification code": [
+        "無効な検証コード"
+      ],
+      "Human verification": [
+        "人間であることの検証"
+      ],
       "Select a theme": [
         "テーマを選択"
       ],
@@ -2497,24 +2515,6 @@
       ],
       "${ appName } customization": [
         "${ appName } のカスタマイズ"
-      ],
-      "Sign in again to continue": [
-        "続行するには再度ログインしてください"
-      ],
-      "Account suspended": [
-        "アカウントが停止されました"
-      ],
-      "Enter your username or ProtonMail email address": [
-        "ユーザー名または ProtonMail アドレスを入力してください"
-      ],
-      "Enter your password": [
-        "パスワードを入力してください"
-      ],
-      "Invalid verification code": [
-        "無効な検証コード"
-      ],
-      "Human verification": [
-        "人間であることの検証"
       ],
       "Edit image": [
         "画像の編集"
@@ -2822,6 +2822,36 @@
       "What is the primary reason for this rating?": [
         ""
       ],
+      "Cancel": [
+        "キャンセル"
+      ],
+      "Submit": [
+        "送信"
+      ],
+      "Password": [
+        "パスワード"
+      ],
+      "Mailbox password": [
+        "メールボックスのパスワード"
+      ],
+      "Two-factor authentication code": [
+        "2 要素認証コード"
+      ],
+      "Username or ProtonMail address": [
+        "ユーザー名または ProtonMail アドレス"
+      ],
+      "Email address": [
+        "メールアドレス"
+      ],
+      "Phone number": [
+        "電話番号"
+      ],
+      "Verification code": [
+        "検証コード"
+      ],
+      "Enter the 6-digit code": [
+        "6 桁のコードを入力"
+      ],
       "Display name": [
         "表示名"
       ],
@@ -2833,9 +2863,6 @@
       ],
       "Proton username": [
         "Proton ユーザー名"
-      ],
-      "Email address": [
-        "メールアドレス"
       ],
       "Category": [
         "カテゴリー"
@@ -2893,33 +2920,6 @@
       ],
       "Proration": [
         "日割り計算"
-      ],
-      "Cancel": [
-        "キャンセル"
-      ],
-      "Submit": [
-        "送信"
-      ],
-      "Password": [
-        "パスワード"
-      ],
-      "Mailbox password": [
-        "メールボックスのパスワード"
-      ],
-      "Two-factor authentication code": [
-        "2 要素認証コード"
-      ],
-      "Username or ProtonMail address": [
-        "ユーザー名または ProtonMail アドレス"
-      ],
-      "Phone number": [
-        "電話番号"
-      ],
-      "Verification code": [
-        "検証コード"
-      ],
-      "Enter the 6-digit code": [
-        "6 桁のコードを入力"
       ],
       "Cash": [
         "現金"
@@ -3083,7 +3083,7 @@
       "Your calendars": [
         "あなたのカレンダー"
       ],
-      "Participant": [
+      "participant": [
         ""
       ]
     },
@@ -3097,6 +3097,9 @@
       "Go to subscription plans": [
         "サブスクリプション プランへ移動"
       ],
+      "Request an invite": [
+        "登録を申請する"
+      ],
       "clearing your browser cache": [
         "ブラウザのキャッシュを消去"
       ],
@@ -3105,9 +3108,6 @@
       ],
       "Add a gift code": [
         "ギフトコードを追加"
-      ],
-      "Request an invite": [
-        "登録を申請する"
       ],
       "Pay invoice": [
         "請求の支払い"
@@ -3131,6 +3131,9 @@
       ],
       "Feedback": [
         "ご意見"
+      ],
+      "Mailbox password": [
+        "メールボックスのパスワード"
       ],
       "e.g. Julia Smith": [
         "例: Julia Smith"
@@ -3164,9 +3167,6 @@
       ],
       "Gift code": [
         "ギフトコード"
-      ],
-      "Mailbox password": [
-        "メールボックスのパスワード"
       ],
       "Image URL": [
         "画像の URL"
@@ -3274,17 +3274,17 @@
       "Email address copied to clipboard": [
         "メールアドレスがクリップボードにコピーされました。"
       ],
-      "Bug reported": [
-        "バグの報告が送信されました。"
-      ],
-      "You have successfully unsubscribed": [
-        "退会手続きが正常に行なわれました。"
-      ],
       "Code sent to ${ methodTo }": [
         "${ methodTo } にコードを送信しました"
       ],
       "Verification successful": [
         "検証に成功しました"
+      ],
+      "Bug reported": [
+        "バグの報告が送信されました。"
+      ],
+      "You have successfully unsubscribed": [
+        "退会手続きが正常に行なわれました。"
       ],
       "Contact saved": [
         "連絡先が保存されました。"
@@ -3475,6 +3475,28 @@
     "Success notification when user send feedback": {
       "Feedback sent": [
         "意見が送信されました"
+      ]
+    },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "未払いの請求"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "メールアドレス"
+      ],
+      "SMS": [
+        "SMS"
+      ],
+      "Manual": [
+        "手動"
+      ],
+      "No verification method available": [
+        "検証方法がありません"
       ]
     },
     "Onboarding Proton": {
@@ -4164,28 +4186,6 @@
         "FREE"
       ]
     },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "未払いの請求"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
-      ],
-      "Email": [
-        "メールアドレス"
-      ],
-      "SMS": [
-        "SMS"
-      ],
-      "Manual": [
-        "手動"
-      ],
-      "No verification method available": [
-        "検証方法がありません"
-      ]
-    },
     "Payment method option": {
       "New credit/debit card": [
         "新しいクレジットカード/デビットカード"
@@ -4538,6 +4538,11 @@
         "注意: 「適用」をクリックするとサービスが再読み込みされます。"
       ]
     },
+    "Select files": {
+      "Upload": [
+        "アップロード"
+      ]
+    },
     "Loading info": {
       "Connecting to your contacts provider": [
         ""
@@ -4557,11 +4562,6 @@
     "Confirm modal title": {
       "Quit import?": [
         ""
-      ]
-    },
-    "Select files": {
-      "Upload": [
-        "アップロード"
       ]
     },
     "Message display when a new app version is available": {

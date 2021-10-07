@@ -598,6 +598,45 @@
       "Loading ${ appName }": [
         "正在加载 ${ appName }"
       ],
+      "here": [
+        "这里"
+      ],
+      "This account has been suspended due to a potential policy violation.": [
+        "此帐户因可能违反用户协议而被封禁"
+      ],
+      "If you believe this is in error, please contact us ${ contactLink }.": [
+        "如果您坚信其中有误，请联系 ${ contactLink }"
+      ],
+      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
+        "您的 Proton 账户已欠费停用，请先支付逾期账单再继续使用。"
+      ],
+      "Would you like to receive a new verification code or use an alternative verification method?": [
+        "您想重新获取验证码还是更换验证方式？"
+      ],
+      "Enter the verification code that was sent to ${ destinationText }.": [
+        "验证码已发至 ${ destinationText }，请在下方输入。"
+      ],
+      "If you don't find the email in your inbox, please check your spam folder.": [
+        "若邮件没有出现在收件箱中，请检查其是否被归为垃圾邮件。"
+      ],
+      "To fight spam and abuse, please verify you are human.": [
+        "为了防止垃圾邮件和滥用，请验证您是人类。"
+      ],
+      "Your email will only be used for this one-time verification.": [
+        "您的电子邮件将只会用于此一次性验证"
+      ],
+      "Your phone number will only be used for this one-time verification.": [
+        "您的电话号码将只会用于此一次性验证"
+      ],
+      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
+        "若您创建账户存在困难，请提交注册申请，我们将在一个工作日内回复。"
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
+        "点击 \"请求新验证码\" 将发送到 ${ strong }。如果此电子邮件地址不正确，请点击 \"编辑\""
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
+        "点击 \"请求新验证码\" 将发送到 ${ strong }。如果此电话号码不正确，请点击 \"编辑\""
+      ],
       "Screenshot(s) attached": [
         "已附加的屏幕截图"
       ],
@@ -837,45 +876,6 @@
       ],
       "Not customizable": [
         "无法自定义"
-      ],
-      "here": [
-        "这里"
-      ],
-      "This account has been suspended due to a potential policy violation.": [
-        "此帐户因可能违反用户协议而被封禁"
-      ],
-      "If you believe this is in error, please contact us ${ contactLink }.": [
-        "如果您坚信其中有误，请联系 ${ contactLink }"
-      ],
-      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
-        "您的 Proton 账户已欠费停用，请先支付逾期账单再继续使用。"
-      ],
-      "Would you like to receive a new verification code or use an alternative verification method?": [
-        "您想重新获取验证码还是更换验证方式？"
-      ],
-      "Enter the verification code that was sent to ${ destinationText }.": [
-        "验证码已发至 ${ destinationText }，请在下方输入。"
-      ],
-      "If you don't find the email in your inbox, please check your spam folder.": [
-        "若邮件没有出现在收件箱中，请检查其是否被归为垃圾邮件。"
-      ],
-      "To fight spam and abuse, please verify you are human.": [
-        "为了防止垃圾邮件和滥用，请验证您是人类。"
-      ],
-      "Your email will only be used for this one-time verification.": [
-        "您的电子邮件将只会用于此一次性验证"
-      ],
-      "Your phone number will only be used for this one-time verification.": [
-        "您的电话号码将只会用于此一次性验证"
-      ],
-      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
-        "若您创建账户存在困难，请提交注册申请，我们将在一个工作日内回复。"
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
-        "点击 \"请求新验证码\" 将发送到 ${ strong }。如果此电子邮件地址不正确，请点击 \"编辑\""
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
-        "点击 \"请求新验证码\" 将发送到 ${ strong }。如果此电话号码不正确，请点击 \"编辑\""
       ],
       "Expired": [
         "已过期"
@@ -1323,6 +1323,24 @@
       "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
         "您使用的浏览器无法完成支付验证，请使用其他浏览器或电脑支付。"
       ],
+      "Incorrect mailbox password. Please try again": [
+        "邮箱密码不正确。请重试"
+      ],
+      "Incorrect login credentials. Please try again": [
+        "登录凭据不正确。请重试"
+      ],
+      "Can't validate email, try again later": [
+        "无法验证电子邮件，请稍后再试"
+      ],
+      "Can't validate phone, try again later": [
+        "无法验证手机，请稍候再试"
+      ],
+      "Enter 6 digits": [
+        "请输入 6 位验证码"
+      ],
+      "Invalid verification code": [
+        "无效的验证代码"
+      ],
       "Process aborted": [
         "操作已中止"
       ],
@@ -1383,24 +1401,6 @@
       "Invalid code": [
         "无效的代码"
       ],
-      "Incorrect mailbox password. Please try again": [
-        "邮箱密码不正确。请重试"
-      ],
-      "Incorrect login credentials. Please try again": [
-        "登录凭据不正确。请重试"
-      ],
-      "Can't validate email, try again later": [
-        "无法验证电子邮件，请稍后再试"
-      ],
-      "Can't validate phone, try again later": [
-        "无法验证手机，请稍候再试"
-      ],
-      "Enter 6 digits": [
-        "请输入 6 位验证码"
-      ],
-      "Invalid verification code": [
-        "无效的验证代码"
-      ],
       "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
         "出错了，请${ refresh }以继续。若仍出现此错误，请联系我们的${ supportTeam }"
       ],
@@ -1443,14 +1443,14 @@
       "A group with this name already exists": [
         "已存在同名群组"
       ],
+      "Primary address key is not decrypted": [
+        "主密钥尚未解密。"
+      ],
       "We were unable to connect to your service provider.": [
         ""
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         ""
-      ],
-      "Primary address key is not decrypted": [
-        "主密钥尚未解密。"
       ],
       "No valid address found": [
         "未找到有效地址"
@@ -1531,6 +1531,11 @@
         "错误"
       ]
     },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "密码必须至少包含 ${ length } 个字符"
+      ]
+    },
     "file size format": {
       "bytes": [
         "字节"
@@ -1543,11 +1548,6 @@
       ],
       "GB": [
         "GB"
-      ]
-    },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "密码必须至少包含 ${ length } 个字符"
       ]
     },
     "Contact field label": {
@@ -1911,11 +1911,11 @@
       "More info: ${ safeTitle }": [
         "更多信息：${ safeTitle }"
       ],
-      "Go to panel ${ index }": [
-        "转到面板 ${ index }"
-      ],
       "Use “${ label }” setting": [
         "使用 \"${ label }\" 设置"
+      ],
+      "Go to panel ${ index }": [
+        "转到面板 ${ index }"
       ],
       "Confirm": [
         "确认"
@@ -2013,6 +2013,33 @@
       "Composer size": [
         ""
       ],
+      "Log in": [
+        "登录"
+      ],
+      "View invoice": [
+        "查看账单"
+      ],
+      "Get verification code": [
+        "获取验证码"
+      ],
+      "Try another method": [
+        "更换验证方式"
+      ],
+      "Request new code": [
+        "请求新验证码"
+      ],
+      "Verify": [
+        "验证"
+      ],
+      "Did not receive the code?": [
+        "没收到验证码？"
+      ],
+      "Edit email address": [
+        "编辑邮箱地址"
+      ],
+      "Edit phone number": [
+        "编辑电话号码"
+      ],
       "Get started": [
         "入门"
       ],
@@ -2051,9 +2078,6 @@
       ],
       "Remove bonuses": [
         "放弃特权"
-      ],
-      "Verify": [
-        "验证"
       ],
       "Try again": [
         "重试"
@@ -2105,30 +2129,6 @@
       ],
       "Increase": [
         "增加"
-      ],
-      "Log in": [
-        "登录"
-      ],
-      "View invoice": [
-        "查看账单"
-      ],
-      "Get verification code": [
-        "获取验证码"
-      ],
-      "Try another method": [
-        "更换验证方式"
-      ],
-      "Request new code": [
-        "请求新验证码"
-      ],
-      "Did not receive the code?": [
-        "没收到验证码？"
-      ],
-      "Edit email address": [
-        "编辑邮箱地址"
-      ],
-      "Edit phone number": [
-        "编辑电话号码"
       ],
       "Save": [
         "保存"
@@ -2402,6 +2402,24 @@
       "Give feedback": [
         "提供反馈"
       ],
+      "Sign in again to continue": [
+        "此操作需要重新登录"
+      ],
+      "Account suspended": [
+        "帐号已被停用"
+      ],
+      "Enter your username or ProtonMail email address": [
+        "输入用户名或 ProtonMail 邮箱"
+      ],
+      "Enter your password": [
+        "输入密码"
+      ],
+      "Invalid verification code": [
+        "无效的验证代码"
+      ],
+      "Human verification": [
+        "身份验证"
+      ],
       "Select a theme": [
         "选择主题"
       ],
@@ -2497,24 +2515,6 @@
       ],
       "${ appName } customization": [
         "自定义 ${ appName }"
-      ],
-      "Sign in again to continue": [
-        "此操作需要重新登录"
-      ],
-      "Account suspended": [
-        "帐号已被停用"
-      ],
-      "Enter your username or ProtonMail email address": [
-        "输入用户名或 ProtonMail 邮箱"
-      ],
-      "Enter your password": [
-        "输入密码"
-      ],
-      "Invalid verification code": [
-        "无效的验证代码"
-      ],
-      "Human verification": [
-        "身份验证"
       ],
       "Edit image": [
         "编辑图片"
@@ -2822,6 +2822,36 @@
       "What is the primary reason for this rating?": [
         "该评分的主要原因是什么"
       ],
+      "Cancel": [
+        "取消"
+      ],
+      "Submit": [
+        "确定"
+      ],
+      "Password": [
+        "密码"
+      ],
+      "Mailbox password": [
+        "邮箱密码"
+      ],
+      "Two-factor authentication code": [
+        "双重认证验证码"
+      ],
+      "Username or ProtonMail address": [
+        "用户名或 ProtonMail 地址"
+      ],
+      "Email address": [
+        "电子邮件地址"
+      ],
+      "Phone number": [
+        "电话号码"
+      ],
+      "Verification code": [
+        "验证码"
+      ],
+      "Enter the 6-digit code": [
+        "请输入 6 位验证码"
+      ],
       "Display name": [
         "显示名称"
       ],
@@ -2833,9 +2863,6 @@
       ],
       "Proton username": [
         "Proton 用户名"
-      ],
-      "Email address": [
-        "电子邮件地址"
       ],
       "Category": [
         "类别"
@@ -2893,33 +2920,6 @@
       ],
       "Proration": [
         "按比例分配"
-      ],
-      "Cancel": [
-        "取消"
-      ],
-      "Submit": [
-        "确定"
-      ],
-      "Password": [
-        "密码"
-      ],
-      "Mailbox password": [
-        "邮箱密码"
-      ],
-      "Two-factor authentication code": [
-        "双重认证验证码"
-      ],
-      "Username or ProtonMail address": [
-        "用户名或 ProtonMail 地址"
-      ],
-      "Phone number": [
-        "电话号码"
-      ],
-      "Verification code": [
-        "验证码"
-      ],
-      "Enter the 6-digit code": [
-        "请输入 6 位验证码"
       ],
       "Cash": [
         "现金"
@@ -3083,7 +3083,7 @@
       "Your calendars": [
         "您的日历"
       ],
-      "Participant": [
+      "participant": [
         ""
       ]
     },
@@ -3097,6 +3097,9 @@
       "Go to subscription plans": [
         "转至订阅计划"
       ],
+      "Request an invite": [
+        "请求邀请"
+      ],
       "clearing your browser cache": [
         "清除浏览器缓存"
       ],
@@ -3105,9 +3108,6 @@
       ],
       "Add a gift code": [
         "使用礼品码"
-      ],
-      "Request an invite": [
-        "请求邀请"
       ],
       "Pay invoice": [
         "支付"
@@ -3131,6 +3131,9 @@
       ],
       "Feedback": [
         "用户反馈"
+      ],
+      "Mailbox password": [
+        "邮箱密码"
       ],
       "e.g. Julia Smith": [
         "例如：Julia Smith"
@@ -3164,9 +3167,6 @@
       ],
       "Gift code": [
         "礼品码"
-      ],
-      "Mailbox password": [
-        "邮箱密码"
       ],
       "Image URL": [
         "图片链接"
@@ -3274,17 +3274,17 @@
       "Email address copied to clipboard": [
         "邮箱地址已复制到剪贴板"
       ],
-      "Bug reported": [
-        "问题已反馈"
-      ],
-      "You have successfully unsubscribed": [
-        "您已成功降级"
-      ],
       "Code sent to ${ methodTo }": [
         "代码已发送到 ${ methodTo }"
       ],
       "Verification successful": [
         "验证成功"
+      ],
+      "Bug reported": [
+        "问题已反馈"
+      ],
+      "You have successfully unsubscribed": [
+        "您已成功降级"
       ],
       "Contact saved": [
         "联系人已保存"
@@ -3475,6 +3475,28 @@
     "Success notification when user send feedback": {
       "Feedback sent": [
         "反馈已发送"
+      ]
+    },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "逾期账单"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "验证码"
+      ],
+      "Email": [
+        "邮件"
+      ],
+      "SMS": [
+        "短信"
+      ],
+      "Manual": [
+        "手动"
+      ],
+      "No verification method available": [
+        "没有可用的验证方法"
       ]
     },
     "Onboarding Proton": {
@@ -4164,28 +4186,6 @@
         "免费版"
       ]
     },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "逾期账单"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "验证码"
-      ],
-      "Email": [
-        "邮件"
-      ],
-      "SMS": [
-        "短信"
-      ],
-      "Manual": [
-        "手动"
-      ],
-      "No verification method available": [
-        "没有可用的验证方法"
-      ]
-    },
     "Payment method option": {
       "New credit/debit card": [
         "添加信用卡/借记卡"
@@ -4538,6 +4538,11 @@
         "请注意：点击 \"应用\" 按钮后，服务将重新加载"
       ]
     },
+    "Select files": {
+      "Upload": [
+        "上传"
+      ]
+    },
     "Loading info": {
       "Connecting to your contacts provider": [
         ""
@@ -4557,11 +4562,6 @@
     "Confirm modal title": {
       "Quit import?": [
         ""
-      ]
-    },
-    "Select files": {
-      "Upload": [
-        "上传"
       ]
     },
     "Message display when a new app version is available": {
