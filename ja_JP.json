@@ -571,11 +571,11 @@
       "No results found": [
         "結果が見つかりませんでした"
       ],
-      "Week": [
-        "週"
-      ],
       "Loading": [
         "読み込み中"
+      ],
+      "Week": [
+        "週"
       ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "このリンクはホモグラフ攻撃の可能性があり、Internet ExplorerおよびEdgeブラウザーで開くことはできません。リンクが正当であることが確実な場合は、別のブラウザーを使用して開いてください。"
@@ -1069,6 +1069,12 @@
       "Loading events": [
         "予定を読み込み中"
       ],
+      "The organizer could not be notified that you changed your answer:": [
+        ""
+      ],
+      "The organizer cannot be notified that you want to change your answer:": [
+        ""
+      ],
       "The organizer cannot be notified that you decline the invitation:": [
         ""
       ],
@@ -1443,14 +1449,14 @@
       "A group with this name already exists": [
         "この名前のグループは既に存在します"
       ],
-      "Primary address key is not decrypted": [
-        "プライマリーアドレス鍵が復号されていません"
-      ],
       "We were unable to connect to your service provider.": [
         ""
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         ""
+      ],
+      "Primary address key is not decrypted": [
+        "プライマリーアドレス鍵が復号されていません"
       ],
       "No valid address found": [
         "有効なアドレスが見つかりません。"
@@ -1911,11 +1917,11 @@
       "More info: ${ safeTitle }": [
         "詳細: ${ safeTitle }"
       ],
-      "Use “${ label }” setting": [
-        "「{ label }」設定を使用する"
-      ],
       "Go to panel ${ index }": [
         "パネル ${ index } へ移動"
+      ],
+      "Use “${ label }” setting": [
+        "「{ label }」設定を使用する"
       ],
       "Confirm": [
         "確認"
@@ -2013,6 +2019,24 @@
       "Composer size": [
         "作成サイズ"
       ],
+      "Get started": [
+        "はじめましょう"
+      ],
+      "Next": [
+        "次へ"
+      ],
+      "Start setup": [
+        "セットアップを開始"
+      ],
+      "Skip": [
+        "スキップ"
+      ],
+      "Done": [
+        "完了"
+      ],
+      "Back": [
+        "戻る"
+      ],
       "Log in": [
         "ログイン"
       ],
@@ -2039,24 +2063,6 @@
       ],
       "Edit phone number": [
         "電話番号を編集"
-      ],
-      "Get started": [
-        "はじめましょう"
-      ],
-      "Next": [
-        "次へ"
-      ],
-      "Start setup": [
-        "セットアップを開始"
-      ],
-      "Skip": [
-        "スキップ"
-      ],
-      "Done": [
-        "完了"
-      ],
-      "Back": [
-        "戻る"
       ],
       "Use ${ label } theme": [
         "${ label } テーマを使用"
@@ -2822,6 +2828,9 @@
       "What is the primary reason for this rating?": [
         ""
       ],
+      "Display name": [
+        "表示名"
+      ],
       "Cancel": [
         "キャンセル"
       ],
@@ -2851,9 +2860,6 @@
       ],
       "Enter the 6-digit code": [
         "6 桁のコードを入力"
-      ],
-      "Display name": [
-        "表示名"
       ],
       "Operating system": [
         "OS"
@@ -3132,11 +3138,11 @@
       "Feedback": [
         "ご意見"
       ],
-      "Mailbox password": [
-        "メールボックスのパスワード"
-      ],
       "e.g. Julia Smith": [
         "例: Julia Smith"
+      ],
+      "Mailbox password": [
+        "メールボックスのパスワード"
       ],
       "OS name": [
         "OS の名前"
@@ -3477,28 +3483,6 @@
         "意見が送信されました"
       ]
     },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "未払いの請求"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
-      ],
-      "Email": [
-        "メールアドレス"
-      ],
-      "SMS": [
-        "SMS"
-      ],
-      "Manual": [
-        "手動"
-      ],
-      "No verification method available": [
-        "検証方法がありません"
-      ]
-    },
     "Onboarding Proton": {
       "This is what people will see when you send them an email, invite them to an event, or share a file with them.": [
         "これはメールを送信するとき、イベントに招待するとき、ファイルをシェアするときに表示されるものです。"
@@ -3529,6 +3513,28 @@
       ],
       "Configure your organization, link your domain name, and create accounts to ensure all members of your organization are protected.": [
         "組織を構成、ドメイン名をリンク、アカウントを作成して、組織のすべてのメンバーを確実に保護します。"
+      ]
+    },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "未払いの請求"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "メールアドレス"
+      ],
+      "SMS": [
+        "SMS"
+      ],
+      "Manual": [
+        "手動"
+      ],
+      "No verification method available": [
+        "検証方法がありません"
       ]
     },
     "Error notification in the bug report modal when the user upload file": {
@@ -4538,11 +4544,6 @@
         "注意: 「適用」をクリックするとサービスが再読み込みされます。"
       ]
     },
-    "Select files": {
-      "Upload": [
-        "アップロード"
-      ]
-    },
     "Loading info": {
       "Connecting to your contacts provider": [
         ""
@@ -4562,6 +4563,11 @@
     "Confirm modal title": {
       "Quit import?": [
         ""
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "アップロード"
       ]
     },
     "Message display when a new app version is available": {
@@ -4703,11 +4709,6 @@
     "Placeholder for contact with no name": {
       "(No name)": [
         "(名前なし)"
-      ]
-    },
-    "Reply to calendar invitation": {
-      "Cannot send to organizer address: ${ apiErrorMessage }": [
-        ""
       ]
     },
     "Modal title": {

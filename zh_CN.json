@@ -571,11 +571,11 @@
       "No results found": [
         "未找到结果"
       ],
-      "Week": [
-        "周"
-      ],
       "Loading": [
         "加载中"
+      ],
+      "Week": [
+        "周"
       ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "此链接可能使用了欺骗性域名，IE 和 Edge 浏览器无法打开。若您确认链接可靠，请使用其他浏览器打开"
@@ -1069,6 +1069,12 @@
       "Loading events": [
         "日程加载中"
       ],
+      "The organizer could not be notified that you changed your answer:": [
+        ""
+      ],
+      "The organizer cannot be notified that you want to change your answer:": [
+        ""
+      ],
       "The organizer cannot be notified that you decline the invitation:": [
         "无法通知组织者您已拒绝邀请:"
       ],
@@ -1240,7 +1246,7 @@
         "找不到地址主私钥"
       ],
       "Calendar primary private key is not decrypted": [
-        "日历主密钥未解密。"
+        "日历主私钥未解密"
       ],
       "This field is required": [
         "此项必须填写"
@@ -1443,14 +1449,14 @@
       "A group with this name already exists": [
         "已存在同名群组"
       ],
-      "Primary address key is not decrypted": [
-        "主密钥尚未解密。"
-      ],
       "We were unable to connect to your service provider.": [
         ""
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         ""
+      ],
+      "Primary address key is not decrypted": [
+        "主密钥尚未解密。"
       ],
       "No valid address found": [
         "未找到有效地址"
@@ -1911,11 +1917,11 @@
       "More info: ${ safeTitle }": [
         "更多信息：${ safeTitle }"
       ],
-      "Use “${ label }” setting": [
-        "使用 \"${ label }\" 设置"
-      ],
       "Go to panel ${ index }": [
         "转到面板 ${ index }"
+      ],
+      "Use “${ label }” setting": [
+        "使用 \"${ label }\" 设置"
       ],
       "Confirm": [
         "确认"
@@ -2013,6 +2019,24 @@
       "Composer size": [
         ""
       ],
+      "Get started": [
+        "入门"
+      ],
+      "Next": [
+        "下一步"
+      ],
+      "Start setup": [
+        "开始设置"
+      ],
+      "Skip": [
+        "跳过"
+      ],
+      "Done": [
+        "完成"
+      ],
+      "Back": [
+        "返回"
+      ],
       "Log in": [
         "登录"
       ],
@@ -2039,24 +2063,6 @@
       ],
       "Edit phone number": [
         "编辑电话号码"
-      ],
-      "Get started": [
-        "入门"
-      ],
-      "Next": [
-        "下一步"
-      ],
-      "Start setup": [
-        "开始设置"
-      ],
-      "Skip": [
-        "跳过"
-      ],
-      "Done": [
-        "完成"
-      ],
-      "Back": [
-        "返回"
       ],
       "Use ${ label } theme": [
         "使用${ label }主题"
@@ -2822,6 +2828,9 @@
       "What is the primary reason for this rating?": [
         "该评分的主要原因是什么"
       ],
+      "Display name": [
+        "显示名称"
+      ],
       "Cancel": [
         "取消"
       ],
@@ -2851,9 +2860,6 @@
       ],
       "Enter the 6-digit code": [
         "请输入 6 位验证码"
-      ],
-      "Display name": [
-        "显示名称"
       ],
       "Operating system": [
         "操作系统"
@@ -3132,11 +3138,11 @@
       "Feedback": [
         "用户反馈"
       ],
-      "Mailbox password": [
-        "邮箱密码"
-      ],
       "e.g. Julia Smith": [
         "例如：Julia Smith"
+      ],
+      "Mailbox password": [
+        "邮箱密码"
       ],
       "OS name": [
         "操作系统名称"
@@ -3477,28 +3483,6 @@
         "反馈已发送"
       ]
     },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "逾期账单"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "验证码"
-      ],
-      "Email": [
-        "邮件"
-      ],
-      "SMS": [
-        "短信"
-      ],
-      "Manual": [
-        "手动"
-      ],
-      "No verification method available": [
-        "没有可用的验证方法"
-      ]
-    },
     "Onboarding Proton": {
       "This is what people will see when you send them an email, invite them to an event, or share a file with them.": [
         "这是当您向他们发送电子邮件、邀请他们参加活动或与他们共享文件时他们会看到的内容"
@@ -3529,6 +3513,28 @@
       ],
       "Configure your organization, link your domain name, and create accounts to ensure all members of your organization are protected.": [
         "配置您的机构信息、链接您的域名、创建账户以确保您机构的所有成员都受到保护"
+      ]
+    },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "逾期账单"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "验证码"
+      ],
+      "Email": [
+        "邮件"
+      ],
+      "SMS": [
+        "短信"
+      ],
+      "Manual": [
+        "手动"
+      ],
+      "No verification method available": [
+        "没有可用的验证方法"
       ]
     },
     "Error notification in the bug report modal when the user upload file": {
@@ -4538,11 +4544,6 @@
         "请注意：点击 \"应用\" 按钮后，服务将重新加载"
       ]
     },
-    "Select files": {
-      "Upload": [
-        "上传"
-      ]
-    },
     "Loading info": {
       "Connecting to your contacts provider": [
         ""
@@ -4562,6 +4563,11 @@
     "Confirm modal title": {
       "Quit import?": [
         ""
+      ]
+    },
+    "Select files": {
+      "Upload": [
+        "上传"
       ]
     },
     "Message display when a new app version is available": {
@@ -4703,11 +4709,6 @@
     "Placeholder for contact with no name": {
       "(No name)": [
         "(无姓名)"
-      ]
-    },
-    "Reply to calendar invitation": {
-      "Cannot send to organizer address: ${ apiErrorMessage }": [
-        "无法发送到组织者地址：${ apiErrorMessage }"
       ]
     },
     "Modal title": {
