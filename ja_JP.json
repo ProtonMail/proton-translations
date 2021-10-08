@@ -47,9 +47,6 @@
       "Invalid name": [
         "無効な名前です。"
       ],
-      "Unknown error": [
-        "不明なエラー"
-      ],
       "This message may contain some link's URL that cannot be properly opened by your current browser": [
         "このメッセージは、現在お使いのブラウザでは適切に開くことができないリンクのURLを含んでいる可能性があります。"
       ],
@@ -62,26 +59,8 @@
       "Authentication error.": [
         "認証エラー"
       ],
-      "Incorrect mailbox password. Please try again": [
-        "メールボックスのパスワードが正しくありません。再度入力してください。"
-      ],
-      "Incorrect login credentials. Please try again": [
-        "間違ったログイン情報です。もう一度やり直してください。"
-      ],
-      "Can't validate email, try again later": [
-        "メールアドレスを検証できませんした。再度お試しください"
-      ],
-      "Can't validate phone, try again later": [
-        "電話番号の検証ができませんでした。再度お試しください"
-      ],
-      "Enter 6 digits": [
-        "6 桁の数字を入力"
-      ],
-      "Invalid verification code": [
-        "無効な検証コードです"
-      ],
-      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
-        "エラーが発生しました。続行するには ${ refresh } してください。それでもこのエラーが発生する場合は ${ supportTeam } までお問い合わせください。"
+      "Unknown error": [
+        "不明なエラー"
       ],
       "Process aborted": [
         "処理が中断されました"
@@ -182,14 +161,35 @@
       "A group with this name already exists": [
         "この名前のグループは既に存在します"
       ],
-      "File has no contents to preview": [
-        "ファイルにプレビューするコンテンツがありません"
+      "Incorrect mailbox password. Please try again": [
+        "メールボックスのパスワードが正しくありません。再度入力してください。"
+      ],
+      "Incorrect login credentials. Please try again": [
+        "間違ったログイン情報です。もう一度やり直してください。"
+      ],
+      "Can't validate email, try again later": [
+        "メールアドレスを検証できませんした。再度お試しください"
+      ],
+      "Can't validate phone, try again later": [
+        "電話番号の検証ができませんでした。再度お試しください"
+      ],
+      "Enter 6 digits": [
+        "6 桁の数字を入力"
+      ],
+      "Invalid verification code": [
+        "無効な検証コードです"
       ],
       "We were unable to connect to your service provider.": [
         ""
       ],
       "Please try to reauthenticate and make sure the permissions are set correctly.": [
         ""
+      ],
+      "Something went wrong, please ${ refresh } in order to proceed. If you still see this error message please contact our ${ supportTeam }.": [
+        "エラーが発生しました。続行するには ${ refresh } してください。それでもこのエラーが発生する場合は ${ supportTeam } までお問い合わせください。"
+      ],
+      "File has no contents to preview": [
+        "ファイルにプレビューするコンテンツがありません"
       ],
       "Email address invalid": [
         "無効なメールアドレスです"
@@ -229,11 +229,6 @@
       ],
       "No valid address found": [
         "有効なアドレスが見つかりません。"
-      ]
-    },
-    "Validation": {
-      "Password must contain at least ${ length } character": [
-        "パスワードは ${ length } 文字以上必要です"
       ]
     },
     "Contact field label": {
@@ -350,6 +345,11 @@
         "メールアドレス"
       ]
     },
+    "Validation": {
+      "Password must contain at least ${ length } character": [
+        "パスワードは ${ length } 文字以上必要です"
+      ]
+    },
     "file size format": {
       "bytes": [
         "バイト"
@@ -415,48 +415,6 @@
       ],
       "You have disabled Beta Access. Click ${ refreshButton } to use the stable version of ${ appName }. The application will be reloaded.": [
         "ベータ版アクセスは無効です。安定版の ${ appName } を使用するには、${ refreshButton } をクリックしてください。クリックするとアプリケーションは再起動されます。"
-      ],
-      "here": [
-        "こちら"
-      ],
-      "This account has been suspended due to a potential policy violation.": [
-        "このアカウントは、ポリシー違反の可能性があるため停止されています。"
-      ],
-      "If you believe this is in error, please contact us ${ contactLink }.": [
-        "エラーだと思われる場合は ${ contactLink } までご連絡ください。"
-      ],
-      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
-        "あなたの Proton アカウントは現在利用停止中です。引き続きアカウントを使用する場合は、すべての未払いの請求書を精算してください。"
-      ],
-      "Would you like to receive a new verification code or use an alternative verification method?": [
-        "新しい検証コードを受け取るか、他の検証方法を使用しますか？"
-      ],
-      "Enter the verification code that was sent to ${ destinationText }.": [
-        "${ destinationText } に送信された認証コードを入力してください。"
-      ],
-      "If you don't find the email in your inbox, please check your spam folder.": [
-        "受信トレイに関連するメッセージを見つけなかった場合、迷惑メールフォルダを確認してください。"
-      ],
-      "To fight spam and abuse, please verify you are human.": [
-        "迷惑メールや悪用を防止するために、あなたがコンピューターではないことを確認します。"
-      ],
-      "Your email will only be used for this one-time verification.": [
-        "メールアドレスは、この一度限りの認証にのみ使用されます。"
-      ],
-      "Your phone number will only be used for this one-time verification.": [
-        "電話番号は、この一度限りの認証にのみ使用されます。"
-      ],
-      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
-        "アカウントの作成に問題がある場合は、招待をリクエストしてください。1営業日以内に対応します。"
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
-        "「新しいコードをリクエスト」をクリックすると新しい認証コードが ${ strong } に送信されます。メールアドレスが違う場合、「編集」をクリックして修正します。"
-      ],
-      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
-        "「新しいコードをリクエスト」をクリックすると新しい認証コードが ${ strong } に送信されます。電話番号が違う場合、「編集」をクリックして修正します。"
-      ],
-      "support team": [
-        "サポートチーム"
       ],
       "Screenshot(s) attached": [
         "スクリーンショットが添付されました"
@@ -698,6 +656,9 @@
       "Not customizable": [
         "カスタマイズ不可"
       ],
+      "Expired": [
+        "有効期限切れ"
+      ],
       "${ contactEmailsLength } Member": [
         "${ contactEmailsLength } メンバー"
       ],
@@ -809,26 +770,44 @@
       "${ addressCount } email address": [
         "${ addressCount } 件のメールアドレス"
       ],
-      "Expired": [
-        "有効期限切れ"
+      "here": [
+        "こちら"
       ],
-      "Unsupported file": [
-        "非対応のファイル"
+      "This account has been suspended due to a potential policy violation.": [
+        "このアカウントは、ポリシー違反の可能性があるため停止されています。"
       ],
-      "No preview available": [
-        "プレビューは利用できません"
+      "If you believe this is in error, please contact us ${ contactLink }.": [
+        "エラーだと思われる場合は ${ contactLink } までご連絡ください。"
       ],
-      "Preview": [
-        "プレビュー"
+      "Your Proton account is currently on hold. To continue using your account, please pay any overdue invoices.": [
+        "あなたの Proton アカウントは現在利用停止中です。引き続きアカウントを使用する場合は、すべての未払いの請求書を精算してください。"
       ],
-      "Loading preview": [
-        "プレビューを読み込み中"
+      "Would you like to receive a new verification code or use an alternative verification method?": [
+        "新しい検証コードを受け取るか、他の検証方法を使用しますか？"
       ],
-      "This browser does not support previewing PDF documents. Please download the file.": [
-        "このブラウザーは PDF ドキュメントのプレビューをサポートしていません。ファイルをダウンロードしてください。"
+      "Enter the verification code that was sent to ${ destinationText }.": [
+        "${ destinationText } に送信された認証コードを入力してください。"
       ],
-      "of": [
-        " / "
+      "If you don't find the email in your inbox, please check your spam folder.": [
+        "受信トレイに関連するメッセージを見つけなかった場合、迷惑メールフォルダを確認してください。"
+      ],
+      "To fight spam and abuse, please verify you are human.": [
+        "迷惑メールや悪用を防止するために、あなたがコンピューターではないことを確認します。"
+      ],
+      "Your email will only be used for this one-time verification.": [
+        "メールアドレスは、この一度限りの認証にのみ使用されます。"
+      ],
+      "Your phone number will only be used for this one-time verification.": [
+        "電話番号は、この一度限りの認証にのみ使用されます。"
+      ],
+      "If you are having trouble creating your account, please request an invitation and we will respond within one business day.": [
+        "アカウントの作成に問題がある場合は、招待をリクエストしてください。1営業日以内に対応します。"
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this email address is incorrect, click \"Edit\" to correct it.": [
+        "「新しいコードをリクエスト」をクリックすると新しい認証コードが ${ strong } に送信されます。メールアドレスが違う場合、「編集」をクリックして修正します。"
+      ],
+      "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
+        "「新しいコードをリクエスト」をクリックすると新しい認証コードが ${ strong } に送信されます。電話番号が違う場合、「編集」をクリックして修正します。"
       ],
       "Import contacts": [
         ""
@@ -854,17 +833,35 @@
       "Your import will not be processed.": [
         ""
       ],
+      "support team": [
+        "サポートチーム"
+      ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
         ""
+      ],
+      "Unsupported file": [
+        "非対応のファイル"
+      ],
+      "No preview available": [
+        "プレビューは利用できません"
+      ],
+      "Preview": [
+        "プレビュー"
+      ],
+      "Loading preview": [
+        "プレビューを読み込み中"
+      ],
+      "This browser does not support previewing PDF documents. Please download the file.": [
+        "このブラウザーは PDF ドキュメントのプレビューをサポートしていません。ファイルをダウンロードしてください。"
+      ],
+      "of": [
+        " / "
       ],
       "No results found": [
         "該当する項目がありません"
       ],
       "Week": [
         "週表示"
-      ],
-      "Loading": [
-        "読み込み中"
       ],
       "This link may be a homograph attack and cannot be opened by Internet Explorer and Edge browsers. If you are certain the link is legitimate, please use a different browser to open it.": [
         "このリンクはホモグラフ攻撃の可能性があり、Internet ExplorerおよびEdgeブラウザーで開くことはできません。リンクが正当であることが確実な場合は、別のブラウザーを使用して開いてください。"
@@ -880,6 +877,9 @@
       ],
       "Drop the file here to upload": [
         "アップロードするファイルをここにドロップしてください"
+      ],
+      "Loading": [
+        "読み込み中"
       ],
       "Transfer skipped for file \"${ file.name }\"": [
         ""
@@ -925,6 +925,30 @@
       ],
       "Your files will be encrypted and then saved.": [
         "あなたのファイルは暗号化して保存されます。"
+      ],
+      "There are no files yet": [
+        "まだファイルがありません"
+      ],
+      "Drag and drop a file here or choose to upload.": [
+        "ここにファイルをドラッグアンドドロップするか、「新規アップロード」を選択してください。"
+      ],
+      "Share files with links": [
+        "リンクでファイルを共有する"
+      ],
+      "Create links and share your files with others.": [
+        "リンクを作成し、ファイルを共有します。"
+      ],
+      "My Links": [
+        "マイリンク"
+      ],
+      "Are you sure you want to empty trash and permanently delete all the items?": [
+        "ごみ箱を空にして、全てのアイテムを完全に削除してもよろしいですか？"
+      ],
+      "No files or folders in trash": [
+        "ごみ箱にファイルやフォルダーがありません"
+      ],
+      "Trash": [
+        "ごみ箱"
       ],
       "${ doneCount } Finished": [
         "${ doneCount } 件完了"
@@ -995,29 +1019,20 @@
       "Closing transfer manager will cancel all active transfers, are you sure?": [
         ""
       ],
-      "There are no files yet": [
-        "まだファイルがありません"
+      "Would you like to restore your files?": [
+        "ファイルを復元しますか?"
       ],
-      "Drag and drop a file here or choose to upload.": [
-        "ここにファイルをドラッグアンドドロップするか、「新規アップロード」を選択してください。"
+      "Recovery process might take some time.": [
+        "復元処理には少々時間がかかります。"
       ],
-      "Share files with links": [
-        "リンクでファイルを共有する"
+      "More": [
+        "その他"
       ],
-      "Create links and share your files with others.": [
-        "リンクを作成し、ファイルを共有します。"
+      "Your files are no longer accessible due to a password reset. Re-upload the old encryption key to regain the access. ${ mailSettingsLink }": [
+        ""
       ],
-      "My Links": [
-        "マイリンク"
-      ],
-      "Are you sure you want to empty trash and permanently delete all the items?": [
-        "ごみ箱を空にして、全てのアイテムを完全に削除してもよろしいですか？"
-      ],
-      "No files or folders in trash": [
-        "ごみ箱にファイルやフォルダーがありません"
-      ],
-      "Trash": [
-        "ごみ箱"
+      "Some of your files are no longer accessible. Restore the access to your files. ${ startRecoveryButton }": [
+        ""
       ],
       "Link expires: ": [
         "リンクの有効期限: "
@@ -1033,21 +1048,6 @@
       ],
       "Your file is being downloaded.": [
         "ファイルをダウンロード中です。"
-      ],
-      "Would you like to restore your files?": [
-        "ファイルを復元しますか?"
-      ],
-      "Recovery process might take some time.": [
-        "復元処理には少々時間がかかります。"
-      ],
-      "More": [
-        "その他"
-      ],
-      "Your files are no longer accessible due to a password reset. Re-upload the old encryption key to regain the access. ${ mailSettingsLink }": [
-        ""
-      ],
-      "Some of your files are no longer accessible. Restore the access to your files. ${ startRecoveryButton }": [
-        ""
       ],
       "Yes": [
         "はい"
@@ -1368,6 +1368,17 @@
         "元のメッセージを表示"
       ]
     },
+    "Apps dropdown": {
+      "Proton applications": [
+        "Proton アプリケーション"
+      ],
+      "Go to ${ title }": [
+        "${ title } を開く"
+      ],
+      "Go to ${ vpnName }": [
+        "${ vpnName } へ移動"
+      ]
+    },
     "Action": {
       "Signing out": [
         "サインアウトしています"
@@ -1389,39 +1400,6 @@
       ],
       "here": [
         "こちら"
-      ],
-      "Submit": [
-        "送信"
-      ],
-      "Log in": [
-        "ログイン"
-      ],
-      "Cancel": [
-        "キャンセル"
-      ],
-      "View invoice": [
-        "請求書を参照"
-      ],
-      "Get verification code": [
-        "検証コードを取得"
-      ],
-      "Try another method": [
-        "別の方法を試してください"
-      ],
-      "Request new code": [
-        "新しいコードをリクエスト"
-      ],
-      "Verify": [
-        "検証"
-      ],
-      "Did not receive the code?": [
-        "コードが受信できませんか？"
-      ],
-      "Edit email address": [
-        "メールアドレスを編集"
-      ],
-      "Edit phone number": [
-        "電話番号を編集"
       ],
       "Copy email to clipboard": [
         "メールをクリップボードにコピー"
@@ -1501,6 +1479,9 @@
       "Add screenshot(s)": [
         "スクリーンショットを追加"
       ],
+      "Submit": [
+        "送信"
+      ],
       "Hide info": [
         "情報を非表示"
       ],
@@ -1509,6 +1490,12 @@
       ],
       "Remove bonuses": [
         "ボーナスの削除"
+      ],
+      "Cancel": [
+        "キャンセル"
+      ],
+      "Verify": [
+        "検証"
       ],
       "Try again": [
         "再試行"
@@ -1705,6 +1692,42 @@
       "Import": [
         "インポート"
       ],
+      "Log in": [
+        "ログイン"
+      ],
+      "View invoice": [
+        "請求書を参照"
+      ],
+      "Get verification code": [
+        "検証コードを取得"
+      ],
+      "Try another method": [
+        "別の方法を試してください"
+      ],
+      "Request new code": [
+        "新しいコードをリクエスト"
+      ],
+      "Did not receive the code?": [
+        "コードが受信できませんか？"
+      ],
+      "Edit email address": [
+        "メールアドレスを編集"
+      ],
+      "Edit phone number": [
+        "電話番号を編集"
+      ],
+      "Continue import": [
+        ""
+      ],
+      "Discard": [
+        ""
+      ],
+      "Reconnect": [
+        ""
+      ],
+      "Start import": [
+        ""
+      ],
       "Details": [
         "詳細"
       ],
@@ -1725,18 +1748,6 @@
       ],
       "Previous": [
         "前へ"
-      ],
-      "Continue import": [
-        ""
-      ],
-      "Discard": [
-        ""
-      ],
-      "Reconnect": [
-        ""
-      ],
-      "Start import": [
-        ""
       ],
       "Use “${ label }” setting": [
         "「{ label }」設定を使用する"
@@ -1768,60 +1779,6 @@
       "Cancel all uploads": [
         "すべてのアップロードをキャンセル"
       ],
-      "Share": [
-        "共有"
-      ],
-      "Show shared link details": [
-        "共有されたリンクの詳細を表示"
-      ],
-      "Maximize transfers": [
-        "転送一覧を最大化する"
-      ],
-      "Minimize transfers": [
-        "転送一覧を最小化する"
-      ],
-      "Close transfers": [
-        "転送一覧を閉じる"
-      ],
-      "Pause download": [
-        "ダウンロードを一時停止"
-      ],
-      "Pause upload": [
-        "アップロードを一時停止"
-      ],
-      "Resume download": [
-        "ダウンロードを再開"
-      ],
-      "Resume upload": [
-        "アップロードを再開"
-      ],
-      "Cancel download": [
-        "ダウンロードをキャンセル"
-      ],
-      "Cancel upload": [
-        "アップロードをキャンセル"
-      ],
-      "Restart download": [
-        "ダウンロードを再度開始"
-      ],
-      "Restart upload": [
-        "アップロードを再度開始"
-      ],
-      "Remove from this list": [
-        "この一覧から削除"
-      ],
-      "Resume transfers": [
-        "転送を再開"
-      ],
-      "Pause transfers": [
-        "転送を一時停止"
-      ],
-      "Cancel transfers": [
-        "転送をキャンセル"
-      ],
-      "Restart transfers": [
-        "転送を再度開始"
-      ],
       "New upload": [
         "新規アップロード"
       ],
@@ -1836,6 +1793,9 @@
       ],
       "Share options": [
         "共有オプション"
+      ],
+      "Share": [
+        "共有"
       ],
       "Create new folder": [
         "新規フォルダーを作成"
@@ -1885,6 +1845,18 @@
       "Stop sharing": [
         "共有を停止"
       ],
+      "Created date: new to old": [
+        ""
+      ],
+      "Created date: old to new": [
+        ""
+      ],
+      "Expires: new to old": [
+        ""
+      ],
+      "Expires: old to new": [
+        ""
+      ],
       "Empty trash": [
         "ごみ箱を空にする"
       ],
@@ -1893,6 +1865,57 @@
       ],
       "Restore from trash": [
         "ごみ箱から復元"
+      ],
+      "Maximize transfers": [
+        "転送一覧を最大化する"
+      ],
+      "Minimize transfers": [
+        "転送一覧を最小化する"
+      ],
+      "Close transfers": [
+        "転送一覧を閉じる"
+      ],
+      "Pause download": [
+        "ダウンロードを一時停止"
+      ],
+      "Pause upload": [
+        "アップロードを一時停止"
+      ],
+      "Resume download": [
+        "ダウンロードを再開"
+      ],
+      "Resume upload": [
+        "アップロードを再開"
+      ],
+      "Cancel download": [
+        "ダウンロードをキャンセル"
+      ],
+      "Cancel upload": [
+        "アップロードをキャンセル"
+      ],
+      "Restart download": [
+        "ダウンロードを再度開始"
+      ],
+      "Restart upload": [
+        "アップロードを再度開始"
+      ],
+      "Remove from this list": [
+        "この一覧から削除"
+      ],
+      "Resume transfers": [
+        "転送を再開"
+      ],
+      "Pause transfers": [
+        "転送を一時停止"
+      ],
+      "Cancel transfers": [
+        "転送をキャンセル"
+      ],
+      "Restart transfers": [
+        "転送を再度開始"
+      ],
+      "Show shared link details": [
+        "共有されたリンクの詳細を表示"
       ],
       "Start recovering": [
         "リカバリーを始める"
@@ -1948,17 +1971,6 @@
         "${ refresh } するか再度お試しください。"
       ]
     },
-    "Apps dropdown": {
-      "Proton applications": [
-        "Proton アプリケーション"
-      ],
-      "Go to ${ title }": [
-        "${ title } を開く"
-      ],
-      "Go to ${ vpnName }": [
-        "${ vpnName } へ移動"
-      ]
-    },
     "Message display when a new app version is available": {
       "A new version of ${ appName } is available. ${ reloadButton }.": [
         "${ appName } の新しいバージョンが利用可能です。 ${ reloadButton }"
@@ -1970,9 +1982,6 @@
       ],
       "Upgrade account": [
         "アカウントをアップグレード"
-      ],
-      "Request an invite": [
-        "登録を申請"
       ],
       "Upgrade": [
         "アップグレード"
@@ -1991,6 +2000,9 @@
       ],
       "Learn more": [
         "より詳しく"
+      ],
+      "Request an invite": [
+        "登録を申請"
       ],
       "My files": [
         "マイファイル"
@@ -2058,25 +2070,69 @@
         ""
       ]
     },
+    "Success": {
+      "Email address copied to clipboard": [
+        "メールアドレスがクリップボードにコピーされました。"
+      ],
+      "Bug reported": [
+        "バグの報告が送信されました。"
+      ],
+      "You have successfully unsubscribed": [
+        "退会手続きが正常に行なわれました。"
+      ],
+      "Contact saved": [
+        "連絡先が保存されました。"
+      ],
+      "Contacts deleted": [
+        "連絡先が削除されました。"
+      ],
+      "Contact deleted": [
+        "連絡先が削除されました。"
+      ],
+      "Fingerprint copied to clipboard": [
+        "フィンガープリントをクリップボードにコピーしました"
+      ],
+      "Preferences saved": [
+        "設定が保存されました。"
+      ],
+      "Contact group deleted": [
+        "連絡先グループが削除されました"
+      ],
+      "Phone number copied to clipboard": [
+        "電話番号がクリップボードにコピーされました。"
+      ],
+      "Address copied to clipboard": [
+        "住所がクリップボードにコピーされました。"
+      ],
+      "Code sent to ${ methodTo }": [
+        "${ methodTo } にコードを送信しました"
+      ],
+      "Verification successful": [
+        "検証に成功しました"
+      ],
+      "Preference saved": [
+        "設定が保存されました。"
+      ],
+      "Keyboard shortcuts preferences updated": [
+        "キーボードショートカットの設定が更新されました"
+      ],
+      "Recovery has started.": [
+        "復元は開始しました。"
+      ],
+      "${ nameElement } renamed successfully": [
+        " ${ nameElement } の名前が正常に変更されました"
+      ],
+      "\"${ formattedName }\" created successfully": [
+        "「${ formattedName }」が正常に作成されました。"
+      ],
+      "The link to your file was successfully copied.": [
+        "ファイルへのリンクがコピーされました。"
+      ],
+      "Your files were successfully recovered to \"My files\".": [
+        "ファイルは正常に復元され「マイファイル」に保存されました。"
+      ]
+    },
     "Title": {
-      "Sign in again to continue": [
-        "続行するには再度ログインしてください"
-      ],
-      "Account suspended": [
-        "アカウントが停止されました"
-      ],
-      "Enter your username or ProtonMail email address": [
-        "ユーザー名または ProtonMail アドレスを入力してください"
-      ],
-      "Enter your password": [
-        "パスワードを入力してください"
-      ],
-      "Invalid verification code": [
-        "無効な検証コードです"
-      ],
-      "Human verification": [
-        "人間であることの検証"
-      ],
       "Open help menu": [
         "ヘルプメニューを開く"
       ],
@@ -2299,6 +2355,24 @@
       "Import contacts": [
         "連絡先をインポート"
       ],
+      "Sign in again to continue": [
+        "続行するには再度ログインしてください"
+      ],
+      "Account suspended": [
+        "アカウントが停止されました"
+      ],
+      "Enter your username or ProtonMail email address": [
+        "ユーザー名または ProtonMail アドレスを入力してください"
+      ],
+      "Enter your password": [
+        "パスワードを入力してください"
+      ],
+      "Invalid verification code": [
+        "無効な検証コードです"
+      ],
+      "Human verification": [
+        "人間であることの検証"
+      ],
       "Start import process": [
         ""
       ],
@@ -2341,23 +2415,17 @@
       "Drop to upload": [
         "ドロップしてアップロード"
       ],
-      "Additional settings": [
-        "詳細設定"
-      ],
-      "Cancel all active transfers": [
-        "現在の全ての転送処理をキャンセルする"
-      ],
       "Show actions": [
         "アクションの表示"
-      ],
-      "Sort files/folders": [
-        "ファイル・フォルダーの並び替え"
       ],
       "My files": [
         "マイファイル"
       ],
       "Change layout": [
         "レイアウトを変更"
+      ],
+      "Sort files/folders": [
+        "ファイル・フォルダーの並び替え"
       ],
       "Shared": [
         "共有中"
@@ -2367,6 +2435,24 @@
       ],
       "Trash": [
         "ごみ箱"
+      ],
+      "Additional settings": [
+        "詳細設定"
+      ],
+      "Cancel all active transfers": [
+        "現在の全ての転送処理をキャンセルする"
+      ],
+      "Drive": [
+        "Drive"
+      ],
+      "Restore your files": [
+        "ファイルを復元"
+      ],
+      "File recovery process": [
+        "ファイルの復旧プロセス"
+      ],
+      "You have inaccessible files": [
+        "利用できないファイルがあります"
       ],
       "Your file is ready to be downloaded": [
         "ファイルのダウンロード準備完了"
@@ -2388,18 +2474,6 @@
       ],
       "The link either does not exist or has expired": [
         "リンクが存在しないか有効期限が切れています"
-      ],
-      "Drive": [
-        "Drive"
-      ],
-      "Restore your files": [
-        "ファイルを復元"
-      ],
-      "File recovery process": [
-        "ファイルの復旧プロセス"
-      ],
-      "You have inaccessible files": [
-        "利用できないファイルがあります"
       ],
       "Rename a folder": [
         "フォルダ名の変更"
@@ -2487,445 +2561,6 @@
       ],
       "Stop sharing": [
         "共有を停止"
-      ]
-    },
-    "Label": {
-      "Cancel": [
-        "キャンセル"
-      ],
-      "Submit": [
-        "送信"
-      ],
-      "Password": [
-        "パスワード"
-      ],
-      "Mailbox password": [
-        "メールボックスのパスワード"
-      ],
-      "Two-factor authentication code": [
-        "2要素認証コード"
-      ],
-      "Username or ProtonMail address": [
-        "ユーザー名または ProtonMail アドレス"
-      ],
-      "Email address": [
-        "メールアドレス"
-      ],
-      "Phone number": [
-        "電話番号"
-      ],
-      "Verification code": [
-        "検証コード"
-      ],
-      "Enter the 6-digit code": [
-        "6 桁のコードを入力"
-      ],
-      "Display name": [
-        "表示名"
-      ],
-      "Operating system": [
-        "OS"
-      ],
-      "Operating system version": [
-        "OS のバージョン"
-      ],
-      "Proton username": [
-        "Proton ユーザー名"
-      ],
-      "Category": [
-        "カテゴリー"
-      ],
-      "What happened?": [
-        "どのような症状がでましたか？"
-      ],
-      "System information": [
-        "システム情報"
-      ],
-      "Browser": [
-        "ブラウザ"
-      ],
-      "Browser version": [
-        "ブラウザのバージョン"
-      ],
-      "Name on card": [
-        "クレジットカードの名義人"
-      ],
-      "Card number": [
-        "クレジットカード番号"
-      ],
-      "Expiry date": [
-        "有効期限"
-      ],
-      "CVV code": [
-        "CVV コード"
-      ],
-      "Country": [
-        "国"
-      ],
-      "Select your country": [
-        "国を選択してください"
-      ],
-      "ZIP": [
-        "郵便番号"
-      ],
-      "Postal code": [
-        "郵便番号"
-      ],
-      "BTC amount:": [
-        "BTC 金額:"
-      ],
-      "BTC address:": [
-        "BTCアドレス:"
-      ],
-      "Select a method": [
-        "支払い方法の選択"
-      ],
-      "Total (${ countdown })": [
-        "合計 (${ countdown })"
-      ],
-      "Total": [
-        "合計"
-      ],
-      "Proration": [
-        "日割り計算"
-      ],
-      "Add image URL": [
-        "追加する画像の URL"
-      ],
-      "Upload picture": [
-        "写真をアップロード"
-      ],
-      "Add email address": [
-        "メールアドレスの追加"
-      ],
-      "Email format": [
-        "メールの形式"
-      ],
-      "Street address": [
-        "番地"
-      ],
-      "City": [
-        "市町村"
-      ],
-      "Region": [
-        "都道府県"
-      ],
-      "Post office box": [
-        "私書箱"
-      ],
-      "Extended address": [
-        "拡張アドレス"
-      ],
-      "Add to group": [
-        "グループに追加"
-      ],
-      "Encrypt emails": [
-        "メールを暗号化"
-      ],
-      "Sign emails": [
-        "メールに署名"
-      ],
-      "Cryptographic scheme": [
-        "暗号化方式"
-      ],
-      "Public keys": [
-        "公開鍵"
-      ],
-      "Automatically save contacts": [
-        "宛先を連絡先に自動追加"
-      ],
-      "Import contacts": [
-        "連絡先をインポート"
-      ],
-      "Export contacts": [
-        "連絡先をエクスポート"
-      ],
-      "Cash": [
-        "現金"
-      ],
-      "Card holder": [
-        "カード名義人"
-      ],
-      "Expires": [
-        "有効期限"
-      ],
-      "Payer": [
-        "支払人"
-      ],
-      "From: ${ fromEmailAddress }": [
-        ""
-      ],
-      "To: ${ toEmailAddress }": [
-        ""
-      ],
-      "Keyboard shortcuts": [
-        "キーボードショートカット"
-      ],
-      "Select how your list of messages looks like by default.": [
-        ""
-      ],
-      "Select how your mailbox looks like by default.": [
-        "デフォルトで使用される受信箱の見た目を選択してください。"
-      ],
-      "Select how your composer opens by default.": [
-        "新規メッセージ作成時の既定のモードを選択してください。"
-      ],
-      "Enable Beta Access": [
-        "ベータ版アクセスを有効にする"
-      ],
-      "Copy": [
-        "コピー"
-      ],
-      "Reveal password": [
-        "パスワードを表示"
-      ],
-      "Hide password": [
-        "パスワードを非表示"
-      ],
-      "Do not ask again": [
-        "今後表示しない"
-      ],
-      "Merge a folder": [
-        "フォルダーを統合"
-      ],
-      "Upload anyway": [
-        "とにかくアップロード"
-      ],
-      "Replace folder": [
-        "フォルダーを置き換え"
-      ],
-      "Replace file": [
-        "ファイルを置き換え"
-      ],
-      "Skip folder": [
-        "フォルダーをスキップ"
-      ],
-      "Skip file": [
-        "ファイルをスキップ"
-      ],
-      "Apply to all duplicated folders": [
-        "すべての重複したフォルダーに適用"
-      ],
-      "Apply to all duplicated files": [
-        "すべての重複したファイルに適用"
-      ],
-      "Folder": [
-        "フォルダー"
-      ],
-      "(Expired)": [
-        "(有効期限切れ)"
-      ],
-      "Expired": [
-        "有効期限切れ"
-      ],
-      "Never": [
-        "繰り返し続ける"
-      ],
-      "File": [
-        "ファイル"
-      ],
-      "All": [
-        "指定しない"
-      ],
-      "Active": [
-        "処理中"
-      ],
-      "Completed": [
-        ""
-      ],
-      "Failed": [
-        "失敗"
-      ],
-      "Apply to selection": [
-        ""
-      ],
-      "Audio file": [
-        "音声ファイル"
-      ],
-      "Video file": [
-        "動画ファイル"
-      ],
-      "Text": [
-        "テキスト"
-      ],
-      "Image": [
-        "画像"
-      ],
-      "Unknown file": [
-        "不明なファイル"
-      ],
-      "Up to the parent folder": [
-        ""
-      ],
-      "Up to ${ parentLinkName }": [
-        ""
-      ],
-      "Get your own ${ appName }": [
-        "${ appName } を入手"
-      ],
-      "Report abuse": [
-        "不正利用を報告"
-      ],
-      "Folder name": [
-        "フォルダー名"
-      ],
-      "File name": [
-        "ファイル名"
-      ],
-      "Protect with password": [
-        "パスワードで保護"
-      ],
-      "Set expiration date": [
-        "有効期限を設定"
-      ]
-    },
-    "Placeholder": {
-      "Mailbox password": [
-        "メールボックスのパスワード"
-      ],
-      "e.g. Julia Smith": [
-        "例: Julia Smith"
-      ],
-      "OS name": [
-        "OS の名前"
-      ],
-      "OS version": [
-        "OS のバージョン"
-      ],
-      "Proton username": [
-        "Proton ユーザー名"
-      ],
-      "A way to contact you": [
-        "連絡手段"
-      ],
-      "Please describe the problem and include any error messages": [
-        "問題について、エラーメッセージ等も含めてご記入下さい"
-      ],
-      "Browser name": [
-        "ブラウザの名前"
-      ],
-      "Browser version": [
-        "ブラウザのバージョン"
-      ],
-      "ZIP": [
-        "郵便番号"
-      ],
-      "Postal code": [
-        "郵便番号"
-      ],
-      "Gift code": [
-        "ギフトコード"
-      ],
-      "Image URL": [
-        "画像の URL"
-      ],
-      "Start typing an email address": [
-        "電子メールアドレスを入力"
-      ],
-      "Filter groups": [
-        "グループの検索"
-      ],
-      "Search for name or email": [
-        "名前またはメールアドレスで検索"
-      ],
-      "Search for group name": [
-        "グループ名で検索"
-      ],
-      "Name": [
-        "名前"
-      ],
-      "E.g., ": [
-        "例: "
-      ],
-      "New name": [
-        "新しい名前"
-      ],
-      "Enter a new folder name": [
-        "フォルダー名を入力してください"
-      ]
-    },
-    "Delinquent modal title": {
-      "Overdue invoice": [
-        "未払いの請求書"
-      ]
-    },
-    "Success": {
-      "Code sent to ${ methodTo }": [
-        "${ methodTo } にコードを送信しました"
-      ],
-      "Verification successful": [
-        "検証に成功しました"
-      ],
-      "Email address copied to clipboard": [
-        "メールアドレスがクリップボードにコピーされました。"
-      ],
-      "Bug reported": [
-        "バグの報告が送信されました。"
-      ],
-      "You have successfully unsubscribed": [
-        "退会手続きが正常に行なわれました。"
-      ],
-      "Contact saved": [
-        "連絡先が保存されました。"
-      ],
-      "Contacts deleted": [
-        "連絡先が削除されました。"
-      ],
-      "Contact deleted": [
-        "連絡先が削除されました。"
-      ],
-      "Fingerprint copied to clipboard": [
-        "フィンガープリントをクリップボードにコピーしました"
-      ],
-      "Preferences saved": [
-        "設定が保存されました。"
-      ],
-      "Contact group deleted": [
-        "連絡先グループが削除されました"
-      ],
-      "Phone number copied to clipboard": [
-        "電話番号がクリップボードにコピーされました。"
-      ],
-      "Address copied to clipboard": [
-        "住所がクリップボードにコピーされました。"
-      ],
-      "Preference saved": [
-        "設定が保存されました。"
-      ],
-      "Keyboard shortcuts preferences updated": [
-        "キーボードショートカットの設定が更新されました"
-      ],
-      "Recovery has started.": [
-        "復元は開始しました。"
-      ],
-      "${ nameElement } renamed successfully": [
-        " ${ nameElement } の名前が正常に変更されました"
-      ],
-      "\"${ formattedName }\" created successfully": [
-        "「${ formattedName }」が正常に作成されました。"
-      ],
-      "The link to your file was successfully copied.": [
-        "ファイルへのリンクがコピーされました。"
-      ],
-      "Your files were successfully recovered to \"My files\".": [
-        "ファイルは正常に復元され「マイファイル」に保存されました。"
-      ]
-    },
-    "Human verification method": {
-      "CAPTCHA": [
-        "CAPTCHA"
-      ],
-      "Email": [
-        "電子メール"
-      ],
-      "SMS": [
-        "SMS"
-      ],
-      "Manual": [
-        "手動"
-      ],
-      "No verification method available": [
-        "検証方法がありません"
       ]
     },
     "Header": {
@@ -3018,6 +2653,361 @@
       ],
       "Configure your organization, link your domain name, and create accounts to ensure all members of your organization are protected.": [
         "組織を構成、ドメイン名をリンク、アカウントを作成して、組織のすべてのメンバーを確実に保護します。"
+      ]
+    },
+    "Label": {
+      "Display name": [
+        "表示名"
+      ],
+      "Operating system": [
+        "OS"
+      ],
+      "Operating system version": [
+        "OS のバージョン"
+      ],
+      "Proton username": [
+        "Proton ユーザー名"
+      ],
+      "Email address": [
+        "メールアドレス"
+      ],
+      "Category": [
+        "カテゴリー"
+      ],
+      "What happened?": [
+        "どのような症状がでましたか？"
+      ],
+      "System information": [
+        "システム情報"
+      ],
+      "Browser": [
+        "ブラウザ"
+      ],
+      "Browser version": [
+        "ブラウザのバージョン"
+      ],
+      "Name on card": [
+        "クレジットカードの名義人"
+      ],
+      "Card number": [
+        "クレジットカード番号"
+      ],
+      "Expiry date": [
+        "有効期限"
+      ],
+      "CVV code": [
+        "CVV コード"
+      ],
+      "Country": [
+        "国"
+      ],
+      "Select your country": [
+        "国を選択してください"
+      ],
+      "ZIP": [
+        "郵便番号"
+      ],
+      "Postal code": [
+        "郵便番号"
+      ],
+      "BTC amount:": [
+        "BTC 金額:"
+      ],
+      "BTC address:": [
+        "BTCアドレス:"
+      ],
+      "Select a method": [
+        "支払い方法の選択"
+      ],
+      "Total (${ countdown })": [
+        "合計 (${ countdown })"
+      ],
+      "Total": [
+        "合計"
+      ],
+      "Proration": [
+        "日割り計算"
+      ],
+      "Cash": [
+        "現金"
+      ],
+      "Card holder": [
+        "カード名義人"
+      ],
+      "Expires": [
+        "有効期限"
+      ],
+      "Payer": [
+        "支払人"
+      ],
+      "Add image URL": [
+        "追加する画像の URL"
+      ],
+      "Upload picture": [
+        "写真をアップロード"
+      ],
+      "Add email address": [
+        "メールアドレスの追加"
+      ],
+      "Email format": [
+        "メールの形式"
+      ],
+      "Street address": [
+        "番地"
+      ],
+      "City": [
+        "市町村"
+      ],
+      "Region": [
+        "都道府県"
+      ],
+      "Post office box": [
+        "私書箱"
+      ],
+      "Extended address": [
+        "拡張アドレス"
+      ],
+      "Add to group": [
+        "グループに追加"
+      ],
+      "Encrypt emails": [
+        "メールを暗号化"
+      ],
+      "Sign emails": [
+        "メールに署名"
+      ],
+      "Cryptographic scheme": [
+        "暗号化方式"
+      ],
+      "Public keys": [
+        "公開鍵"
+      ],
+      "Automatically save contacts": [
+        "宛先を連絡先に自動追加"
+      ],
+      "Import contacts": [
+        "連絡先をインポート"
+      ],
+      "Export contacts": [
+        "連絡先をエクスポート"
+      ],
+      "Cancel": [
+        "キャンセル"
+      ],
+      "Submit": [
+        "送信"
+      ],
+      "Password": [
+        "パスワード"
+      ],
+      "Mailbox password": [
+        "メールボックスのパスワード"
+      ],
+      "Two-factor authentication code": [
+        "2要素認証コード"
+      ],
+      "Username or ProtonMail address": [
+        "ユーザー名または ProtonMail アドレス"
+      ],
+      "Phone number": [
+        "電話番号"
+      ],
+      "Verification code": [
+        "検証コード"
+      ],
+      "Enter the 6-digit code": [
+        "6 桁のコードを入力"
+      ],
+      "From: ${ fromEmailAddress }": [
+        ""
+      ],
+      "To: ${ toEmailAddress }": [
+        ""
+      ],
+      "Keyboard shortcuts": [
+        "キーボードショートカット"
+      ],
+      "Select how your list of messages looks like by default.": [
+        ""
+      ],
+      "Select how your mailbox looks like by default.": [
+        "デフォルトで使用される受信箱の見た目を選択してください。"
+      ],
+      "Select how your composer opens by default.": [
+        "新規メッセージ作成時の既定のモードを選択してください。"
+      ],
+      "Enable Beta Access": [
+        "ベータ版アクセスを有効にする"
+      ],
+      "Copy": [
+        "コピー"
+      ],
+      "Reveal password": [
+        "パスワードを表示"
+      ],
+      "Hide password": [
+        "パスワードを非表示"
+      ],
+      "Do not ask again": [
+        "今後表示しない"
+      ],
+      "Merge a folder": [
+        "フォルダーを統合"
+      ],
+      "Upload anyway": [
+        "とにかくアップロード"
+      ],
+      "Replace folder": [
+        "フォルダーを置き換え"
+      ],
+      "Replace file": [
+        "ファイルを置き換え"
+      ],
+      "Skip folder": [
+        "フォルダーをスキップ"
+      ],
+      "Skip file": [
+        "ファイルをスキップ"
+      ],
+      "Apply to all duplicated folders": [
+        "すべての重複したフォルダーに適用"
+      ],
+      "Apply to all duplicated files": [
+        "すべての重複したファイルに適用"
+      ],
+      "Audio file": [
+        "音声ファイル"
+      ],
+      "Video file": [
+        "動画ファイル"
+      ],
+      "Text": [
+        "テキスト"
+      ],
+      "Image": [
+        "画像"
+      ],
+      "Unknown file": [
+        "不明なファイル"
+      ],
+      "Up to the parent folder": [
+        ""
+      ],
+      "Up to ${ parentLinkName }": [
+        ""
+      ],
+      "All": [
+        "指定しない"
+      ],
+      "Active": [
+        "処理中"
+      ],
+      "Completed": [
+        ""
+      ],
+      "Failed": [
+        "失敗"
+      ],
+      "Apply to selection": [
+        ""
+      ],
+      "Folder": [
+        "フォルダー"
+      ],
+      "(Expired)": [
+        "(有効期限切れ)"
+      ],
+      "Expired": [
+        "有効期限切れ"
+      ],
+      "Never": [
+        "繰り返し続ける"
+      ],
+      "File": [
+        "ファイル"
+      ],
+      "Get your own ${ appName }": [
+        "${ appName } を入手"
+      ],
+      "Report abuse": [
+        "不正利用を報告"
+      ],
+      "Folder name": [
+        "フォルダー名"
+      ],
+      "File name": [
+        "ファイル名"
+      ],
+      "Protect with password": [
+        "パスワードで保護"
+      ],
+      "Set expiration date": [
+        "有効期限を設定"
+      ]
+    },
+    "Placeholder": {
+      "e.g. Julia Smith": [
+        "例: Julia Smith"
+      ],
+      "OS name": [
+        "OS の名前"
+      ],
+      "OS version": [
+        "OS のバージョン"
+      ],
+      "Proton username": [
+        "Proton ユーザー名"
+      ],
+      "A way to contact you": [
+        "連絡手段"
+      ],
+      "Please describe the problem and include any error messages": [
+        "問題について、エラーメッセージ等も含めてご記入下さい"
+      ],
+      "Browser name": [
+        "ブラウザの名前"
+      ],
+      "Browser version": [
+        "ブラウザのバージョン"
+      ],
+      "ZIP": [
+        "郵便番号"
+      ],
+      "Postal code": [
+        "郵便番号"
+      ],
+      "Gift code": [
+        "ギフトコード"
+      ],
+      "Image URL": [
+        "画像の URL"
+      ],
+      "Start typing an email address": [
+        "電子メールアドレスを入力"
+      ],
+      "Filter groups": [
+        "グループの検索"
+      ],
+      "Search for name or email": [
+        "名前またはメールアドレスで検索"
+      ],
+      "Search for group name": [
+        "グループ名で検索"
+      ],
+      "Name": [
+        "名前"
+      ],
+      "Mailbox password": [
+        "メールボックスのパスワード"
+      ],
+      "E.g., ": [
+        "例: "
+      ],
+      "New name": [
+        "新しい名前"
+      ],
+      "Enter a new folder name": [
+        "フォルダー名を入力してください"
       ]
     },
     "Error notification in the bug report modal when the user upload file": {
@@ -3628,28 +3618,15 @@
         "無料"
       ]
     },
-    "Label to change density": {
-      "Comfortable": [
-        "通常"
+    "Payment method option": {
+      "New credit/debit card": [
+        "新しいクレジットカード/デビットカード"
       ],
-      "Compact": [
-        "コンパクト"
-      ]
-    },
-    "Label to change view layout": {
-      "Column": [
-        "列"
+      "PayPal": [
+        "PayPal"
       ],
-      "Row": [
-        "行"
-      ]
-    },
-    "Label to change composer mode": {
-      "Normal": [
-        "標準"
-      ],
-      "Maximized": [
-        "最大化"
+      "Bitcoin": [
+        "ビットコイン"
       ]
     },
     "Label for contact group name": {
@@ -3764,6 +3741,9 @@
       "Failed to upload files: ${ err }": [
         ""
       ],
+      "All items will soon be permanently deleted from trash": [
+        "全てのアイテムは間もなくごみ箱から完全に削除されます。"
+      ],
       "Move ${ movingCount } file": [
         "${ movingCount } 件のファイルの移動"
       ],
@@ -3772,9 +3752,6 @@
       ],
       "Move ${ movingCount } item": [
         "${ movingCount } 件のアイテムの移動"
-      ],
-      "All items will soon be permanently deleted from trash": [
-        "全てのアイテムは間もなくごみ箱から完全に削除されます。"
       ],
       "Failed to move, please try again": [
         "移動に失敗しました。再度お試しください。"
@@ -4055,20 +4032,31 @@
         ""
       ]
     },
-    "Payment method option": {
-      "New credit/debit card": [
-        "新しいクレジットカード/デビットカード"
-      ],
-      "PayPal": [
-        "PayPal"
-      ],
-      "Bitcoin": [
-        "ビットコイン"
-      ]
-    },
     "Select files": {
       "Upload": [
         "アップロード"
+      ]
+    },
+    "Delinquent modal title": {
+      "Overdue invoice": [
+        "未払いの請求書"
+      ]
+    },
+    "Human verification method": {
+      "CAPTCHA": [
+        "CAPTCHA"
+      ],
+      "Email": [
+        "電子メール"
+      ],
+      "SMS": [
+        "SMS"
+      ],
+      "Manual": [
+        "手動"
+      ],
+      "No verification method available": [
+        "検証方法がありません"
       ]
     },
     "Loading info": {
@@ -4105,17 +4093,36 @@
         "注意: 「適用」をクリックするとサービスが再読み込みされます。"
       ]
     },
+    "Label to change density": {
+      "Comfortable": [
+        "通常"
+      ],
+      "Compact": [
+        "コンパクト"
+      ]
+    },
+    "Label to change view layout": {
+      "Column": [
+        "列"
+      ],
+      "Row": [
+        "行"
+      ]
+    },
+    "Label to change composer mode": {
+      "Normal": [
+        "標準"
+      ],
+      "Maximized": [
+        "最大化"
+      ]
+    },
     "Time unit": {
       "${ hours } hour": [
         "${ hours } 時間"
       ],
       "${ minutes } minute": [
         "${ minutes } 分"
-      ]
-    },
-    "PGP key encryption warning": {
-      "Key cannot be used for encryption": [
-        "鍵は暗号化に使用できません"
       ]
     },
     "Storage": {
@@ -4137,24 +4144,9 @@
         ""
       ]
     },
-    "Validation Error": {
-      "Name must not end with a space": [
-        "名前は最後が空白で終わることができません"
-      ],
-      "Name must not begin with a space": [
-        "名前は最後が空白で始まることができません"
-      ],
-      "Name must be ${ MAX_NAME_LENGTH } characters long at most": [
-        "名前は ${ MAX_NAME_LENGTH } 文字までである必要があります"
-      ],
-      "\"${ str }\" is not a valid name": [
-        "「${ str }」は正しい名前ではありません"
-      ],
-      "Name cannot include invisible characters, / or \\.": [
-        "名前に \"/\" または \"\\\" の文字を使うことができません。 "
-      ],
-      "Name must not be empty": [
-        "名前を空にすることはできません"
+    "PGP key encryption warning": {
+      "Key cannot be used for encryption": [
+        "鍵は暗号化に使用できません"
       ]
     },
     "Onboarding Proton Drive Action": {
@@ -4188,6 +4180,26 @@
       ],
       "Protect all your files with end-to-end encryption. Use ${ appName } to store and share your files securely.": [
         "エンドツーエンド暗号化ですべてのファイルを保護します。${ appName } を使ってファイルを安全に保管、共有できます。"
+      ]
+    },
+    "Validation Error": {
+      "Name must not end with a space": [
+        "名前は最後が空白で終わることができません"
+      ],
+      "Name must not begin with a space": [
+        "名前は最後が空白で始まることができません"
+      ],
+      "Name must be ${ MAX_NAME_LENGTH } characters long at most": [
+        "名前は ${ MAX_NAME_LENGTH } 文字までである必要があります"
+      ],
+      "\"${ str }\" is not a valid name": [
+        "「${ str }」は正しい名前ではありません"
+      ],
+      "Name cannot include invisible characters, / or \\.": [
+        "名前に \"/\" または \"\\\" の文字を使うことができません。 "
+      ],
+      "Name must not be empty": [
+        "名前を空にすることはできません"
       ]
     },
     "blackfriday Promo title, need to be short": {
